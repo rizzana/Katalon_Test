@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept "><title class="- topic/title ">Content-based comparison</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">This method identifies the text content differences between two
+         images.</p><p class="- topic/p ">
+<image href="image/vt-jul2022-text-content-comparison.png" class="- topic/image "><alt class="- topic/alt ">visual-testing-text-content-comparison</alt></image>          
+        </p><note type="note" class="- topic/note ">
+          
+          <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">The AI engine will identify the zones on the images.</p></li></ul>
+        </note><p class="- topic/p ">In Katalon TestOps, the zones are categorized into 3 types:</p><ul class="- topic/ul "><li class="- topic/li ">Identical (green border): shows text-look-like zones
+            identically rendered in both images.</li><li class="- topic/li ">Shifted (blue border): shows text-look-like zones with
+            identical but shifted positions.</li><li class="- topic/li ">Missing/New (pink border): shows text-look-like zones in one
+            image but not in the other.</li></ul><p class="- topic/p ">This method is useful when there is a lot of text content on the
+         pages. It helps users review and prioritize which text changes are
+         critical and need immediate attention.</p><p class="- topic/p ">For step-by-step instructions to use visual testing in Katalon
+         TestOps, see <xref href="../ks-visual-testing/Set_up_visual_testing.dita" class="- topic/xref ">Use
+            TestOps Visual Testing</xref>.</p></conbody></concept>

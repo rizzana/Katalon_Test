@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Using Uniquely Present Text</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">If an element does not have any static locator, you will have to
+         consider using combined locators. Below are a few suggestions:</p>
+    </conbody>
+    
+  </concept>

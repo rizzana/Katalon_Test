@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Import Preferences to <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">In <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/>, you can import Preferences configurations of another Katalon Studio instance to reuse. This function is useful when you download a new version of <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> or you want to reuse the Preferences configurations of your project team.</p><note type="tip" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">If you have more than one version of <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> on your machine, you might want to rename them with their version numbers. For example, Katalon Studio 7.8.0.</li></ul>
+        </note><p class="- topic/p ">To import Preferences, do as follows:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Open Katalon Studio, then go to <uicontrol class="+ topic/ph ui-d/uicontrol ">File</uicontrol> &gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">Import Settings</uicontrol>. This action opens the <uicontrol class="+ topic/ph ui-d/uicontrol ">config</uicontrol> folder of your <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> instance.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-preferences/import-settings.png" scope="external" width="700" class="- topic/image "><alt class="- topic/alt ">import settings</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Browse to the <uicontrol class="+ topic/ph ui-d/uicontrol ">config</uicontrol> folder of your preferred version. For example:</p>
+                <ul class="- topic/ul "><li class="- topic/li ">
+                        <p class="- topic/p ">macOS:</p>
+                        <p class="- topic/p "> <image width="700" href="image/config-file.png" class="- topic/image "/></p>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p ">Windows:</p>
+                        <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-studio-preferences/import_3.PNG" scope="external" class="- topic/image "><alt class="- topic/alt ">Browse to the Config folder in Windows</alt></image>
+                        </p>
+                        <p class="- topic/p ">You can also browse a <uicontrol class="+ topic/ph ui-d/uicontrol ">config</uicontrol> folder sent from other users.</p>
+                    </li></ul>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <uicontrol class="+ topic/ph ui-d/uicontrol ">Open</uicontrol>. An <uicontrol class="+ topic/ph ui-d/uicontrol ">Info</uicontrol> dialog appears when the Preferences are successfully imported.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-preferences/info.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">info dialog</alt></image>
+                </p>
+            </li></ol><note type="note" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">To learn more, refer to chapter 1 of our Katalon Academy course: <xref format="html" href="https://academy.katalon.com/courses/work-from-home-productive/?utm_source=kat_docs&amp;utm_medium=import_preferences" scope="external" class="- topic/xref ">Effectively Bring Tests to Home</xref>.</li></ul>
+        </note><p class="- topic/p ">You can also upgrade <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> to the latest version by navigating to <uicontrol class="+ topic/ph ui-d/uicontrol ">Help</uicontrol> &gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">Check for Updates ...</uicontrol>. Upgrading in this way keeps your Preferences configuration unchanged. To learn more about this function, see <xref href="../../Update_Katalon_Studio/auto-updater.dita" class="- topic/xref ">Update Katalon Studio</xref>.</p><p class="- topic/p "> <b class="+ topic/ph hi-d/b ">See also</b>:</p><ul class="- topic/ul "><li class="- topic/li "> <xref href="../katalon-preferences/katalon-studio-preferences.dita" class="- topic/xref ">Katalon Preferences</xref>
+            </li><li class="- topic/li "> <xref href="../test-case-preferences/test-case-preferences.dita" class="- topic/xref ">Test Case Preferences</xref>
+            </li><li class="- topic/li "> <xref href="../proxy-preferences/proxy-preferences.dita" class="- topic/xref ">Proxy Preferences</xref>
+            </li><li class="- topic/li "> <xref href="../object-spy-preferences/object-spy-preferences.dita" class="- topic/xref ">Object Spy Preferences</xref>
+            </li></ul></conbody></concept>

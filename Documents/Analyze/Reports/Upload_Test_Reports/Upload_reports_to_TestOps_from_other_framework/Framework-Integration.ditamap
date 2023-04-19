@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-Framework-Integration" class="- map/map "><title class="- topic/title ">Framework Integration</title><topicref href="kt-upload-test-mocha/kt-upload-test-mocha.dita" class="- map/topicref "/><topicref href="kt-upload-test-jest/kt-upload-test-jest.dita" class="- map/topicref "/><topicref href="kt-upload-test-jasmine/kt-upload-test-jasmine.dita" class="- map/topicref "/><topicref href="kt-upload-test-pytest/kt-upload-test-pytest.dita" class="- map/topicref "/></map>

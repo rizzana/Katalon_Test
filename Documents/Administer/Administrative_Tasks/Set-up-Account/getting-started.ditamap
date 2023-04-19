@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-getting-started" class="- map/map ">
+  <title class="- topic/title ">Set up an account</title>
+  <topicref href="getting-started.dita" class="- map/topicref "><topicref href="testops_homepage.dita" class="- map/topicref "/>
+  <topicref href="sign_out.dita" class="- map/topicref "/>
+</topicref>
+  </map>

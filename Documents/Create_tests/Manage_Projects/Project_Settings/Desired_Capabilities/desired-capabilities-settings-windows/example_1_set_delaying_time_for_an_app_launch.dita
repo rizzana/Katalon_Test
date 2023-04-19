@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">Example 1: set delaying time for an app launch</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">The following example shows you how to set desired capabilities
+         to wait for a defined amount of time before initiating an app
+         launch.</p><note type="important" class="- topic/note "><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Download and install WinAppDriver version 1.2
+            onwards. You can refer to this document to install WinAppDriver: <xref href="../../../Set_Up_Projects/Windows_Desktop_Apps_Testing/Setup-Winappdriver/setup-winappdriver.dita" class="- topic/xref ">Set
+               up WinAppDriver</xref>.</p></li></ul>
+        </note><p class="- topic/p ">Go to the desired capabilities settings, click
+         <b class="+ topic/ph hi-d/b ">Add</b>, then input the following value:</p><table class="- topic/table "><tgroup cols="3" class="- topic/tgroup "><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Name</entry><entry class="- topic/entry ">Type</entry><entry class="- topic/entry ">Value</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">ms:waitForAppLaunch</entry><entry class="- topic/entry ">string</entry><entry class="- topic/entry ">25(*)
+                </entry></row></tbody></tgroup></table><p class="- topic/p ">
+      (*) <i class="+ topic/ph hi-d/i ">This means delaying the app launch for 25 seconds. The
+         maximum is 50 seconds.</i>
+        </p><p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-to-desired-capabilities/KS-DC-Native-recorder-windows-final-results.png" scope="external" width="796" class="- topic/image "><alt class="- topic/alt ">Delay app launch</alt></image>
+        </p></conbody></concept>

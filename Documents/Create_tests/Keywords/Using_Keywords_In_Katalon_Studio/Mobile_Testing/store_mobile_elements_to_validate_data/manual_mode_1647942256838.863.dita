@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Manual Mode</title><conbody class="- topic/body  concept/conbody "><ul class="- topic/ul "><li class="- topic/li ">Step 1: Select <b class="+ topic/ph hi-d/b ">Start
+               Application</b> from Mobile keyword and click on
+            <b class="+ topic/ph hi-d/b ">Input</b> it will open a window. In
+            <b class="+ topic/ph hi-d/b ">appFile</b>, select <b class="+ topic/ph hi-d/b ">Value Type</b> as
+            <b class="+ topic/ph hi-d/b ">Variable</b>. In <b class="+ topic/ph hi-d/b ">Value</b>, pass the
+            variable name as <b class="+ topic/ph hi-d/b ">path</b>.</li></ul><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/store_mobile_elements_to_validate_data/Using-List-to-Store-the-Mobile-Elements-to-Validate-Data-1.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Select an element from a list in mobile automation</alt></image>
+      </p><ul class="- topic/ul "><li class="- topic/li ">Step 2: Add <b class="+ topic/ph hi-d/b ">Wait For Element Present</b>
+            item.</li><li class="- topic/li ">Step 3: Call <b class="+ topic/ph hi-d/b ">Scroll To Text</b> from mobile
+            keyword, pass the input as <b class="+ topic/ph hi-d/b ">Views</b>. <b class="+ topic/ph hi-d/b ">Scroll
+               To Text</b> accepts String type parameter (Text of the element
+            to scroll to).</li></ul><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/store_mobile_elements_to_validate_data/Using-List-to-Store-the-Mobile-Elements-to-Validate-Data-9.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Select an element from a list in mobile automation</alt></image>
+      </p><ul class="- topic/ul "><li class="- topic/li ">Step 4: Call <b class="+ topic/ph hi-d/b ">Tap</b> method and pass the object of
+            <b class="+ topic/ph hi-d/b ">Views.</b>
+        </li><li class="- topic/li ">Step 5: Call <b class="+ topic/ph hi-d/b ">Scroll To Text</b> from mobile
+            keyword, pass the input as <b class="+ topic/ph hi-d/b ">Radio Group.</b>
+        </li><li class="- topic/li ">Step 6: Tap on <b class="+ topic/ph hi-d/b ">Radio Group.</b>
+        </li><li class="- topic/li ">Step 7: After tapping on 'Radio Group', we want to
+            <b class="+ topic/ph hi-d/b ">wait</b> for heading '<b class="+ topic/ph hi-d/b ">Views/Radio
+               Group</b>' to be <b class="+ topic/ph hi-d/b ">visible</b> on the screen.</li><li class="- topic/li ">Step 8: Add a <b class="+ topic/ph hi-d/b ">binary statement</b> to initialize
+            <b class="+ topic/ph hi-d/b ">Appium Driver</b> with Katalon <b class="+ topic/ph hi-d/b ">Mobile
+               Driver</b>.</li><li class="- topic/li ">Step 9: Add another <b class="+ topic/ph hi-d/b ">binary statement</b> to get
+            all radio elements and store in a List. In <b class="+ topic/ph hi-d/b ">Left
+               Expression</b>, select '<b class="+ topic/ph hi-d/b ">Variable</b>' as
+            <b class="+ topic/ph hi-d/b ">Value Type</b> and pass '<b class="+ topic/ph hi-d/b ">elements</b>' in
+            <b class="+ topic/ph hi-d/b ">Value</b>. In <b class="+ topic/ph hi-d/b ">Right expression</b>,
+            select '<b class="+ topic/ph hi-d/b ">Method Call</b>' as <b class="+ topic/ph hi-d/b ">Value
+               Type</b> and pass the list of radio buttons object
+            information.</li></ul><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/store_mobile_elements_to_validate_data/Using-List-to-Store-the-Mobile-Elements-to-Validate-Data-92.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Select an element from a list in mobile automation</alt></image>
+      </p><ul class="- topic/ul "><li class="- topic/li ">Step 10: Add a <b class="+ topic/ph hi-d/b ">for-each loop</b> statement.</li></ul><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/store_mobile_elements_to_validate_data/Using-List-to-Store-the-Mobile-Elements-to-Validate-Data-10.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Select an element from a list in mobile automation</alt></image>
+      </p><p class="- topic/p ">– Step 10.1: Add a <b class="+ topic/ph hi-d/b ">binary statement</b> to
+         capture the text of each element in the list and store it in the
+         "<b class="+ topic/ph hi-d/b ">actual_Text</b>" variable.</p><p class="- topic/p ">– Step 10.2: Add '<b class="+ topic/ph hi-d/b ">if</b>' statement and
+         <b class="+ topic/ph hi-d/b ">verify</b> whether the actual <b class="+ topic/ph hi-d/b ">text</b>
+         matches the expected text. When the actual text matches the
+         expected text, perform click action on <b class="+ topic/ph hi-d/b ">Radio</b>
+         button.</p><p class="- topic/p ">– Step 10.3: After performing click event, we need to
+         <b class="+ topic/ph hi-d/b ">terminate</b> for each loop. Add a method call
+         statement <b class="+ topic/ph hi-d/b ">'break'</b> to achieve this.</p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/store_mobile_elements_to_validate_data/Using-List-to-Store-the-Mobile-Elements-to-Validate-Data-11.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Select an element from a list in mobile automation</alt></image>
+      </p><p class="- topic/p ">The step-by-step guide can also be achieved through
+         <b class="+ topic/ph hi-d/b ">Script Mode</b>. We suggest using the Script feature
+         in Katalon to automate the process faster.</p></conbody></concept>

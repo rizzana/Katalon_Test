@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_73" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Changes and Improvements</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">Support ChromeDriver version 79.</li>
+          <li class="- topic/li ">Add <b class="+ topic/ph hi-d/b ">Profiles</b> to Test Suite Collection
+            Report.</li>
+
+          <li class="- topic/li ">[Mobile- iOS] Support <b class="+ topic/ph hi-d/b ">Install Dependencies</b> and
+            <b class="+ topic/ph hi-d/b ">Install WebDriverAgent</b> tools on the main menu.
+            Please be noted that you have to install <xref format="html" href="https://brew.sh/" scope="external" class="- topic/xref ">homebrew</xref> manually.</li>
+          <li class="- topic/li ">[Command Syntax] Support both <codeph class="+ topic/ph pr-d/codeph ">-serverUrl</codeph> and
+            <codeph class="+ topic/ph pr-d/codeph ">-serverURL</codeph> arguments.</li>
+          <li class="- topic/li ">Make the <codeph class="+ topic/ph pr-d/codeph ">DriverFactory.changeWebDriver()</codeph> method a
+            public method.</li>
+          <li class="- topic/li ">Support <b class="+ topic/ph hi-d/b ">Open containing folder</b> for Folders in
+            Tests Explorer.</li>
+        </ul>
+      </conbody>
+    </concept>

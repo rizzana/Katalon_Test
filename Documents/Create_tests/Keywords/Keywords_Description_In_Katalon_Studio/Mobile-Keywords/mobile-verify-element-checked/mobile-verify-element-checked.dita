@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_0" class="- topic/topic concept/concept "><title class="- topic/title ">[Mobile] Verify Element Checked</title><conbody class="- topic/body  concept/conbody "><section id="id_1" class="- topic/section ">
+    <title class="- topic/title ">Description</title>
+    
+      <p class="- topic/p ">Verify if a mobile element is checked.    </p>
+    
+  </section><section id="id_2" class="- topic/section ">
+    <title class="- topic/title ">Parameters</title>
+    
+      <table class="- topic/table "><tgroup cols="4" class="- topic/tgroup "><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Parameter</entry><entry class="- topic/entry ">Parameter Type</entry><entry class="- topic/entry ">Mandatory</entry><entry class="- topic/entry ">Description</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">to</entry><entry class="- topic/entry ">TestObject</entry><entry class="- topic/entry ">Required</entry><entry class="- topic/entry ">Represent a mobile element</entry></row><row class="- topic/row "><entry class="- topic/entry ">timeout</entry><entry class="- topic/entry ">int</entry><entry class="- topic/entry ">Required</entry><entry class="- topic/entry ">System will wait at most timeout (seconds) to return
+                  result</entry></row><row class="- topic/row "><entry class="- topic/entry ">flowControl</entry><entry class="- topic/entry ">FailureHandling</entry><entry class="- topic/entry ">Optional</entry><entry class="- topic/entry ">Specify <xref href="../../../../../Maintain/failure-handling/failure-handling.dita" class="- topic/xref ">failure handling</xref> schema to
+                  determine whether the execution should be allowed to continue or
+                  stop.</entry></row></tbody></tgroup></table>
+    
+  </section><section id="id_3" class="- topic/section ">
+    <title class="- topic/title ">Returns</title>
+    
+      <p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">true</b> if the element is checked; otherwise,
+         <b class="+ topic/ph hi-d/b ">false</b>
+      </p>
+    
+  </section><section id="id_4" class="- topic/section ">
+    <title class="- topic/title ">Example</title>
+    
+      <p class="- topic/p ">You want to verify if subscribe checkbox is checked </p>
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.util.internal.PathUtil as PathUtil
+
+'Get full directory\'s path of android application'
+def appPath = PathUtil.relativeToAbsolutePath(GlobalVariable.G_AndroidApp, RunConfiguration.getProjectDir())
+
+'Start application on current selected android\'s device'
+Mobile.startApplication(appPath, false)
+
+Mobile.tap(findTestObject('Application/android.widget.TextView - App'), 10)
+
+Mobile.tap(findTestObject('Application/App/android.widget.TextView-Activity'), 10)
+
+Mobile.tap(findTestObject('Application/App/Activity/android.widget.TextView-Custom Dialog'), 10)
+
+'Check on subscribe checkbox'
+Mobile.checkElement(findTestObject('Application/App/Activity/android.widget.Check - Subscribe'), 10)
+
+'Verify subscribe checkbox is checked or not'
+Mobile.verifyElementChecked(findTestObject('Application/App/Activity/android.widget.Check - Subscribe'), 10)
+
+'Close application on current selected android\'s device'
+Mobile.closeApplication()
+</codeblock>
+      
+    
+  </section></conbody></concept>

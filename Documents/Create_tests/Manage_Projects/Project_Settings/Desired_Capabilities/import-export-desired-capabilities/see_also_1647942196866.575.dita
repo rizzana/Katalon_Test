@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">See also</title><conbody class="- topic/body  concept/conbody "><ul class="- topic/ul "><li class="- topic/li ">
+          <xref href="../../../../Manage_Test_Artifacts/Test_Artifact_Sharing/import-export-test-artifact.dita" class="- topic/xref ">Test
+               Artifacts Sharing</xref>
+        </li><li class="- topic/li ">
+          <xref href="../../../../../Plugins_And_Add-ons/Katalon_Store/Katalon_Studio_Plugins/Private_plugin/private_plugins.dita" class="- topic/xref ">Private
+               Plugins</xref>
+        </li></ul></conbody></concept>

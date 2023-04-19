@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Upload in the local workspace</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ol class="- topic/ol ">
+          <li class="- topic/li ">Put your CI/CD project folder in this directory:
+            <codeph class="+ topic/ph pr-d/codeph ">Users/Your_user_name/.jenkins/workspace</codeph>. Copy your
+            project folder name.</li>
+          <li class="- topic/li ">In the Jenkins Dashboard, go to <b class="+ topic/ph hi-d/b ">New Item</b> and
+            create a <b class="+ topic/ph hi-d/b ">Freestyle project</b>. Name your project the
+            same name as your project folder in your local Jenkins
+            workspace.</li>
+        </ol>
+      </conbody>
+    </concept>

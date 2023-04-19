@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Purchase <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> and <ph conkeyref="name-variables/katalon-runtime-engine" class="- topic/ph "/>  Licenses</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p "><xref href="../../../../KSE-KRE-Licenses/license_overview/c_intro_license_overview.dita" class="- topic/xref ">Katalon
+            licenses</xref> are purchased and managed via the Account level in <xref format="html" href="https://testops.katalon.io/" scope="external" class="- topic/xref ">Katalon TestOps</xref>. Only the
+         Account Owner or Billing Managers can subscribe to <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/>
+         licenses.</p><p class="- topic/p ">If you need further assistance with Katalon Pricing and
+         Subscription, contact our sales team via business@katalon.com.</p><note type="important" class="- topic/note ">
+        
+        <ul class="- topic/ul "><li class="- topic/li ">To purchase Katalon licenses, you need to be the  Owner or
+               Billing Manager of your Katalon Account.</li><li class="- topic/li ">To create an Account and Organization, see <xref href="../../../kt-create-org/create_an_organization.dita" class="- topic/xref ">Create
+                  an Organization</xref>.</li><li class="- topic/li ">Learn more about managing users and roles at <xref href="../../../User_Management/kt_invite_user_org/kt_invite_user_org.dita" class="- topic/xref ">User
+                  Management</xref>.</li></ul>
+      </note></conbody></concept>

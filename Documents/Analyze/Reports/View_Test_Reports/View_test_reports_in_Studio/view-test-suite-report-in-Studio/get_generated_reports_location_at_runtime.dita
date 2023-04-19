@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_10" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Get generated reports location at runtime</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">To retrieve current generated reports location, you can use the
+         sample code below:</p>
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">import com.kms.katalon.core.configuration.RunConfiguration
+RunConfiguration.getReportFolder()
+</codeblock>
+      
+
+      <p class="- topic/p ">You can also retrieve other information through the
+         RunConfiguration package, see: <xref format="html" href="https://api-docs.katalon.com/com/kms/katalon/core/configuration/RunConfiguration.html" scope="external" class="- topic/xref ">RunConfiguration</xref>.</p>
+    </conbody>
+  </concept>

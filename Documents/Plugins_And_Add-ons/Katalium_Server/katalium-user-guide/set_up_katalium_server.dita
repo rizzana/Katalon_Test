@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+  <title class="- topic/title ">Set up Katalium Server</title>
+  <conbody class="- topic/body  concept/conbody ">
+    <ol class="- topic/ol ">
+      <li class="- topic/li ">
+        <p class="- topic/p ">Install Java. The recommended version is Java 8.</p>
+      </li>
+      <li class="- topic/li ">
+
+        <p class="- topic/p ">Download and extract the latest release of the Katalium Server
+               from <xref format="html" href="https://github.com/katalon-studio/katalium-server/releases" scope="external" class="- topic/xref ">here</xref>.
+               The <codeph class="+ topic/ph pr-d/codeph ">kata-server.jar</codeph> can be executed in Standalone,
+               Grid Hub, or Grid Node modes.</p>
+      </li>
+      <li class="- topic/li ">
+        <p class="- topic/p ">Set up Katalium Server by using Command Line.</p>
+      </li>
+    </ol>
+  </conbody>
+  
+  
+</concept>

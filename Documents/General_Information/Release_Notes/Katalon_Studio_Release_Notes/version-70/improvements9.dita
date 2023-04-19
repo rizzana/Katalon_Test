@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_43" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Improvements</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">Support Microsoft Edge (Chromium) 83</li>
+          <li class="- topic/li ">Support Chrome 83</li>
+          <li class="- topic/li ">[Katalon Runtime Engine] Improve execution log in CLI mode by
+            printing out applied proxy configurations</li>
+
+          <li class="- topic/li ">Improve Proxy Settings with two separate types, including
+            <b class="+ topic/ph hi-d/b ">Authentication</b> and <b class="+ topic/ph hi-d/b ">System</b>
+            proxies. <xref href="../../../../Get_Started/Set_Up_Your_Workspace/Katalon_Studio_Preferences/katalon-preferences/katalon-studio-preferences.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li>
+          <li class="- topic/li ">[Web Service] Enhance WSDL importing feature. <xref href="../../../../Create_tests/Test_Objects/API_Test_Object/Import-Web-Service-Objects/import-soap-requests-from-wsdl/c_intro_import-soap-requests-from-wsdl.dita" class="- topic/xref ">Learn
+               more</xref>.</li>
+
+          <li class="- topic/li ">[Web Service] Support defining a content type for form-data
+            HTTP Body of RESTful requests. <xref href="../../../../Create_tests/Test_Objects/API_Test_Object/restful/request_body.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li>
+          <li class="- topic/li ">Downgrade the MySQL Connector/J, the official JDBC driver for
+            MySQL, from 8.0.17 to 8.0.15</li>
+          <li class="- topic/li ">Upgrade the Microsoft JDBC Driver 6.2 for SQL Server</li>
+          <li class="- topic/li ">Enhance GUI of the following components: Image-based Testing in
+            Tests Explorer, Katalon TestOps (Beta) Integration dialog,
+            Activation dialog, and CAPTCHA error in the Activation dialog</li>
+        </ul>
+      </conbody>
+    </concept>

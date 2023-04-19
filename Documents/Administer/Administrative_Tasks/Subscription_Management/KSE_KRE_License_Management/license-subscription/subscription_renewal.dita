@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Renew Subscription</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Your subscription will automatically renew on the specified day
+         included in your <uicontrol class="+ topic/ph ui-d/uicontrol ">Order Summary</uicontrol> email. You will not
+         be charged if you cancel your subscription before that day.</p><p class="- topic/p ">See also:</p><ul class="- topic/ul "><li class="- topic/li ">
+          <xref href="../upgrade-subs/upgrade-subs.dita" class="- topic/xref ">How
+               to upgrade a subscription</xref>
+        </li><li class="- topic/li ">
+          <xref href="../cancel-subs/cancel-subs.dita" class="- topic/xref ">How
+               to cancel a subscription</xref>
+        </li></ul></conbody></concept>

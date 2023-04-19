@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Manual Mode</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">Step 1: Click on <b class="+ topic/ph hi-d/b ">Add</b> and select <b class="+ topic/ph hi-d/b ">Binary
+               Statement</b>.</li>
+      </ul>
+      <p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/scroll_element_mobile_automation/Handling-Scroll-to-Element-in-Mobile-Automation-1.png" scope="external" class="- topic/image ">
+          <alt class="- topic/alt ">Handling Scroll to Element in Mobile Automation </alt>
+        </image>
+      </p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">Step 2: Go to <b class="+ topic/ph hi-d/b ">Input</b> field. Select value type
+            as <b class="+ topic/ph hi-d/b ">Variable</b> in <i class="+ topic/ph hi-d/i ">Left Expression</i> and name
+            the variable as '<b class="+ topic/ph hi-d/b ">path'</b>. This name will show up in
+            Value.</li>
+      </ul>
+      <p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/scroll_element_mobile_automation/Handling-Scroll-to-Element-in-Mobile-Automation-2.png" scope="external" class="- topic/image ">
+          <alt class="- topic/alt ">Handling Scroll to Element in Mobile Automation</alt>
+        </image>
+      </p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">Step 3<b class="+ topic/ph hi-d/b ">:</b> Select <b class="+ topic/ph hi-d/b ">Value Type</b> as
+            <b class="+ topic/ph hi-d/b ">Binary</b> in <i class="+ topic/ph hi-d/i ">Right Expression</i>. Next, click
+            on the <b class="+ topic/ph hi-d/b ">Value</b> field. In the new window, enter Left
+            and Right Expressions.</li>
+        <li class="- topic/li ">Step 4<b class="+ topic/ph hi-d/b ">:</b> Select value type as <b class="+ topic/ph hi-d/b ">Method
+               call</b> in <i class="+ topic/ph hi-d/i ">Left Expression</i>. Click on the
+            <b class="+ topic/ph hi-d/b ">Input</b> field, a window will pop up where user can
+            select an Object Type as <b class="+ topic/ph hi-d/b ">Class,</b> Object as
+            <b class="+ topic/ph hi-d/b ">RunConfiguration,</b> method as
+            <b class="+ topic/ph hi-d/b ">getProjectDir()</b> to continue.</li>
+      </ul>
+      <p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/scroll_element_mobile_automation/Handling-Scroll-to-Element-in-Mobile-Automation-3.png" scope="external" class="- topic/image ">
+          <alt class="- topic/alt ">Handling Scroll to Element in Mobile Automation</alt>
+        </image>
+      </p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">Step 5: In <i class="+ topic/ph hi-d/i ">Right Expression</i>, select
+            <b class="+ topic/ph hi-d/b ">String</b> as <i class="+ topic/ph hi-d/i ">Value Type</i> and pass the path of
+            the <b class="+ topic/ph hi-d/b ">"/folder name/apk file name with
+               extension"</b>.</li>
+      </ul>
+      <p class="- topic/p ">For example, if the apk file is stored in Data Filesfolder in
+         File Explorer, the passed path is "<b class="+ topic/ph hi-d/b ">/Data
+            Files/ApiDemos.apk"</b>
+      </p>
+      <p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/scroll_element_mobile_automation/Handling-Scroll-to-Element-in-Mobile-Automation-5.png" scope="external" class="- topic/image ">
+          <alt class="- topic/alt ">Handling Scroll to Element in Mobile Automation</alt>
+        </image>
+      </p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">Step 6<b class="+ topic/ph hi-d/b ">:</b> Select <b class="+ topic/ph hi-d/b ">Start
+               Application</b> from mobile keyword andclick on
+            <b class="+ topic/ph hi-d/b ">Input</b>. A new window will appear. In
+            <b class="+ topic/ph hi-d/b ">appFile</b>, select 'Value Type' as
+            <b class="+ topic/ph hi-d/b ">Variable</b>. In <b class="+ topic/ph hi-d/b ">Value</b>, pass the
+            variable name as <b class="+ topic/ph hi-d/b ">path</b>.</li>
+      </ul>
+      <p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/scroll_element_mobile_automation/Handling-Scroll-to-Element-in-Mobile-Automation-6.png" scope="external" class="- topic/image ">
+          <alt class="- topic/alt ">Handling Scroll to Element in Mobile Automation</alt>
+        </image>
+      </p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">Step 7: Add <b class="+ topic/ph hi-d/b ">Wait For Element Present</b>
+            item.</li>
+        <li class="- topic/li ">Step 8: Call <b class="+ topic/ph hi-d/b ">Scroll To Text</b> from mobile
+            keyword to pass Input as <b class="+ topic/ph hi-d/b ">Views</b>. <b class="+ topic/ph hi-d/b ">Scroll To
+               Text</b> accepts String type parameter (Text of the element to
+            scroll to)</li>
+      </ul>
+      <p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/scroll_element_mobile_automation/Handling-Scroll-to-Element-in-Mobile-Automation-8.png" scope="external" class="- topic/image ">
+          <alt class="- topic/alt ">Handling Scroll to Element in Mobile Automation</alt>
+        </image>
+      </p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">Step 9: Call <b class="+ topic/ph hi-d/b ">Tap</b> method and pass the object of
+            <b class="+ topic/ph hi-d/b ">Views</b> from Object Repository</li>
+        <li class="- topic/li ">Step 10: Select <b class="+ topic/ph hi-d/b ">Scroll To Tex</b>t method and pass
+            input as '<b class="+ topic/ph hi-d/b ">Tabs'</b>
+        </li>
+      </ul>
+      <p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/scroll_element_mobile_automation/Handling-Scroll-to-Element-in-Mobile-Automation-10.png" scope="external" class="- topic/image ">
+          <alt class="- topic/alt ">Handling Scroll to Element in Mobile Automation</alt>
+        </image>
+      </p>
+      <p class="- topic/p ">The step-by-step guide above can be achieved through
+         <b class="+ topic/ph hi-d/b ">Script mode</b> (switch to Script Mode by clicking on
+         Script tab).</p>
+    </conbody>
+  </concept>

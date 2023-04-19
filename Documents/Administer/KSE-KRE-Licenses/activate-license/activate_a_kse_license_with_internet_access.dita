@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Activate a KSE license</title><conbody class="- topic/body  concept/conbody "><note type="important" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">Owner or Admin of your Organization has added you to the <b class="+ topic/ph hi-d/b ">Licensed Users</b> list. See: <xref href="../../Administrative_Tasks/License_Management/grant-katalon-licenses/grant-katalon-licenses.dita" class="- topic/xref ">Grant Katalon Licenses</xref>.</li></ul>
+        </note><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">Open Katalon Studio:<ul class="- topic/ul "><li class="- topic/li ">
+            <p class="- topic/p ">If you open Katalon Studio for the first time, the
+               <b class="+ topic/ph hi-d/b ">Katalon Studio Activation</b> dialog automatically
+               pops up.</p>
+            <p class="- topic/p ">
+              
+            <image width="500" href="image/ks-pe-activate-trial.png" class="- topic/image "/></p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">If you are already logged in to a Katalon account in Katalon
+               Studio, click on the <b class="+ topic/ph hi-d/b ">Profile</b> button and select
+               <b class="+ topic/ph hi-d/b ">Log out</b>.</p>
+            <p class="- topic/p ">
+              
+            <image width="400" href="image/ks-pe-log-out.png" class="- topic/image "/></p>
+            <p class="- topic/p ">You are now logged out, and the <b class="+ topic/ph hi-d/b ">Katalon Studio
+                  Activation</b> dialog appears.</p>
+          </li></ul></li><li class="- topic/li "><p class="- topic/p ">Log in with the Licensed User account email and password. Click <b class="+ topic/ph hi-d/b ">Activate</b>.</p></li></ol></conbody></concept>

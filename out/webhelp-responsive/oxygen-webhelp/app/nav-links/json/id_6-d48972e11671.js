@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"id_6-d48972e11671":{"topics":[{"title":"Bind to scripting value in <span class=\"ph\">Katalon Studio<\/span>","href":"Documents\/Create_tests\/Data_Driven_Testing\/combine-multiple-data-sources\/Bind_to_scripting_value.html","attributes":{"data-id":"concept-4102"},"menu":{"hasChildren":false},"tocID":"concept-4102-d48972e11681","topics":[]}]}};

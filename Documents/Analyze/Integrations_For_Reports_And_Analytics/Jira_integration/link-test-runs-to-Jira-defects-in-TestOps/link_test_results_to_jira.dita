@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Link Test Results to Jira</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">To link a Test Result to a Jira Bug, follow these steps:</p>
+      <ol class="- topic/ol ">
+        <li class="- topic/li ">
+          <p class="- topic/p ">Sign in to <xref format="html" href="https://testops.katalon.io/login" scope="external" class="- topic/xref ">Katalon
+                  TestOps</xref> and go to your Project.</p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Reports</b> &gt; <b class="+ topic/ph hi-d/b ">Test
+                  Runs</b>.</p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Select a failed Test Run by clicking on its ID, then click on
+               the <b class="+ topic/ph hi-d/b ">Test Results</b> tab.</p>
+          <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Test Results</b> page appears as below.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-defects/test-result-page-defect-icon-2.png" scope="external" width="100%" class="- topic/image ">
+              <alt class="- topic/alt ">test results page with defects box</alt>
+            </image>
+          </p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Mouse over the Test Result you want to link to a Jira Bug. The
+               <i class="+ topic/ph hi-d/i ">Bug</i> icon appears in the <b class="+ topic/ph hi-d/b ">Links</b> column.</p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Click on the <i class="+ topic/ph hi-d/i ">Bug</i> icon.</p>
+          <p class="- topic/p ">The screen appears as below.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-defects/jira-defect-screen-appears-2.png" scope="external" width="100%" class="- topic/image ">
+              <alt class="- topic/alt ">defect screen</alt>
+            </image>
+          </p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Search for the Jira issue in the <b class="+ topic/ph hi-d/b ">Jira Defects</b>
+               section, then click on the <i class="+ topic/ph hi-d/i ">Link</i> icon.</p>
+        </li>
+      </ol>
+      <p class="- topic/p ">You have linked a Test Result to a Jira Bug.</p>
+    </conbody>
+    
+  </concept>

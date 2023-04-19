@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Create your first automation script in <ph conkeyref="name-variables/katalon-recorder" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Broadly speaking, there are usually two steps to create an
+         automate scenario in Katalon Recorder: 1. Add commands to interact
+         with websites 2. Add verify or assert commands to make sure your
+         test case follows the correct flow.</p></conbody></concept>

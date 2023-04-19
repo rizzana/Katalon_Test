@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-643" xml:lang="en-us" class="- topic/topic concept/concept "><title class="- topic/title ">Record test script using SAP Scripting Tracker</title><prolog class="- topic/prolog "><author translate="no" type="creator" class="- topic/author ">Xuan Tran &lt;xuan.tran@katalon.com&gt;</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "/></metadata></prolog><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">
+            <ol class="- topic/ol "><li class="- topic/li ">
+                    <p class="- topic/p ">Start SAP Logon and sign in SAP GUI with your SAP account.</p>
+                    <p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Start-SAPLogon.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Start SAPLogon</alt></image></p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">After signing in, open SAP Scripting Tracker. Click <b class="+ topic/ph hi-d/b ">Refresh</b>, then select the current SAP session.</p>
+                    <p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-select-SAP-session.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Select the SAP session</alt></image></p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">Choose Java language, then click <b class="+ topic/ph hi-d/b ">Record</b> to start recording your SAP GUI script.</p>
+                    <p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Choose-Java-language.png" scope="external" class="- topic/image "><alt class="- topic/alt "> Choose Java </alt></image></p>
+                    <p class="- topic/p ">Here, we record the following scenario:</p>
+                    <ul class="- topic/ul "><li class="- topic/li ">In the opened SAP GUI session, go to <b class="+ topic/ph hi-d/b ">SAP Menu &gt; Human Resources</b>. Double-click on <b class="+ topic/ph hi-d/b ">PPMDT - Manager's Desktop</b>. The <b class="+ topic/ph hi-d/b ">Manager's Desktop</b> interface opens.</li><li class="- topic/li ">Double-click on <b class="+ topic/ph hi-d/b ">Personal Data</b> to open the folder.</li><li class="- topic/li ">Navigate to <b class="+ topic/ph hi-d/b ">Reports &gt; Employee data</b>, then click <b class="+ topic/ph hi-d/b ">Maternity</b>.</li></ul>
+                    <p class="- topic/p ">We stop recording here.</p>
+                    <p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/ezgif.com-gif-maker.gif" scope="external" width="700" class="- topic/image "><alt class="- topic/alt ">Recording from Scripting Tracker</alt></image></p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">After finishing your recording, copy and paste the content from Scripting Tracker into your Katalon test script.</p>
+                    <p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Copy-the-script-from-Scripting-Tracker.png" scope="external" width="700" class="- topic/image "><alt class="- topic/alt ">Copy the script from Scripting Tracker</alt></image></p>
+                    <p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Paste-after-pasting-the-script-into-Katalon.png" scope="external" width="700" class="- topic/image "><alt class="- topic/alt ">Paste the script into the Katalon test script</alt></image></p>
+                    <p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Final-results.png" scope="external" width="700" class="- topic/image "><alt class="- topic/alt ">Results after pasting the script into the Katalon test script</alt></image></p>
+                </li></ol>
+        </p></conbody></concept>

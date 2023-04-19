@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-Hybrid-mobile-apps-testing" class="- map/map "><title class="- topic/title ">Hybrid mobile apps testing</title><topicref href="hybrid-app-overview/hybrid-app-overview.dita" class="- map/topicref "/><mapref format="ditamap" href="capture-elements-in-hybrid-android-apps/how-to-capture-objects-in-hybrid-apps.ditamap" class="+ map/topicref mapgroup-d/mapref "/></map>

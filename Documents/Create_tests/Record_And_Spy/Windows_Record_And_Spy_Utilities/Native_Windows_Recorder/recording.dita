@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Recording</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">
+          <p class="- topic/p ">Right-click on the Windows Recorder icon and select
+               <b class="+ topic/ph hi-d/b ">Native Windows Recorder</b> to open the Native Windows
+               Recorder windows.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/native-windows-recorder/open.png" scope="external" class="- topic/image "/>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Native Windows Recorder</b> dialog box is
+               displayed. Specify the information at the CONFIGURATIONS
+               section.</p>
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Application File</b>: the absolute path to the
+               Windows Executable File (*.exe) on the testing machine. Click the
+               <b class="+ topic/ph hi-d/b ">Browse...</b> button to locate the application
+               file.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/native-windows-recorder/app-file.png" scope="external" class="- topic/image "/>
+          </p>
+          <p class="- topic/p ">To start a UWP application, the application's execute file
+               should be:</p>
+          <ul class="- topic/ul "><li class="- topic/li ">
+              <i class="+ topic/ph hi-d/i ">ApplicationID</i> if your app is published on Microsoft
+                  store</li><li class="- topic/li ">
+              <i class="+ topic/ph hi-d/i ">PackageFamilyName!Application ID</i> if your app is still
+                  in development.</li></ul>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Start</b> deploy and open the specified
+               Windows application.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/native-windows-recorder/action-bar.png" scope="external" class="- topic/image "/>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">When you hover over an element of the AUT, Katalon Studio
+               highlights the identified object with a red rectangle.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/native-windows-recorder/hover-highlight.png" scope="external" class="- topic/image "/>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">When you perform an action on the AUT, the action is recorded in
+               the <b class="+ topic/ph hi-d/b ">Recorded Actions</b> section. The list of
+               available actions is the same as Katalon Studio's built-in
+               keywords. You can add any action, call another test case, and/or
+               use Custom Keywords.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/native-windows-recorder/recorded-actions.png" scope="external" class="- topic/image "/>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">All of the specified actions above are recorded at the
+               <b class="+ topic/ph hi-d/b ">Recorded Actions</b> section.</p>
+          <p class="- topic/p ">In <b class="+ topic/ph hi-d/b ">Captured Objects</b>, you can view all elements
+               captured during the recording session. Here you can customize the
+               locator of a captured object by modifying it in the
+               <b class="+ topic/ph hi-d/b ">Locator</b> tab of <b class="+ topic/ph hi-d/b ">Object Properties</b>.
+               The captured objects’ locators are their absolute XPaths.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/native-windows-recorder/captured-objects.png" scope="external" class="- topic/image "/>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">When you’re done with recording, click <b class="+ topic/ph hi-d/b ">OK</b>
+               to save the recorded actions in Katalon Studio.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">You will be prompted to save the captured objects in the Object
+               Repository of Katalon Studio. Choose an existing folder or create a
+               new one, then click <b class="+ topic/ph hi-d/b ">OK</b> to continue.</p>
+          <p class="- topic/p ">
+            <image height="258" href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/Step9.png" scope="external" width="267" class="- topic/image "/>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">When you finish your recording session, export the recorded
+               steps to a new test case.</p>
+          <p class="- topic/p ">
+            <image height="197" href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/Export-new-TC.png" scope="external" width="494" class="- topic/image "/>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">  Recorded objects and actions are saved in the test case.</p>
+          <p class="- topic/p ">
+            <image height="191" href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/test-case.png" scope="external" width="609" class="- topic/image "/>
+          </p>
+        </li></ol></conbody></concept>

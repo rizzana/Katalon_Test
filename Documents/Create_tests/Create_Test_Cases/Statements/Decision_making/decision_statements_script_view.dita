@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task-5107" class="- topic/topic task/task "><title class="- topic/title ">In script view</title><taskbody class="- topic/body task/taskbody "><context class="- topic/section task/context "><p class="- topic/p ">The 
+                <uicontrol conkeyref="ks-UI-text/ks-ui-script" class="+ topic/ph ui-d/uicontrol "/>
+                 view of test cases allows you to programmatically define and handle 
+                <b class="+ topic/ph hi-d/b ">If-ElseIf-Else</b>
+                 or 
+                <b class="+ topic/ph hi-d/b ">Switch-Case</b>
+                 structure using Groovy or Java language. For more details about the conditional structure in Groovy, refer to this Groovy documentation: <xref format="html" href="http://groovy-lang.org/semantics.html#_conditional_structures" scope="external" class="- topic/xref ">Control structures</xref>.
+            </p></context><steps class="- topic/ol task/steps "><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">For example:</cmd><info class="- topic/itemgroup task/info "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">If - Else If - Else</b>  : </p>
+                    <codeblock class="+ topic/pre pr-d/codeblock ">if (true) { WebUI.click(findTestObject('Page_CuraAppointment/chk_Medicaid'), FailureHandling.STOP_ON_FAILURE) } else if (true) { WebUI.click(findTestObject('Page_CuraAppointment/chk_Medicare'), FailureHandling.STOP_ON_FAILURE) } else { WebUI.click(findTestObject('Page_CuraAppointment/chk_None'), FailureHandling.STOP_ON_FAILURE) }
+                    </codeblock><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Switch - Case</b> : </p>
+                    <codeblock class="+ topic/pre pr-d/codeblock ">switch (true) { case true: WebUI.click(findTestObject('Page_CuraAppointment/chk_Medicaid'), FailureHandling.STOP_ON_FAILURE) break case true: WebUI.click(findTestObject('Page_CuraAppointment/chk_Medicare'), FailureHandling.STOP_ON_FAILURE) break default: WebUI.click(findTestObject('Page_CuraAppointment/chk_None'), FailureHandling.STOP_ON_FAILURE) break }
+                    </codeblock></info></step></steps></taskbody></task>

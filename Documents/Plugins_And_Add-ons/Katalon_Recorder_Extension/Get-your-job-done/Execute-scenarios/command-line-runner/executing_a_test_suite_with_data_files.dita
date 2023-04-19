@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Executing a test suite with data files</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">Copy the following command:<p class="- topic/p ">
+            <codeblock class="+ topic/pre pr-d/codeblock ">kr-cli run &lt;browser&gt; &lt;pathToHtmlFile&gt; --report=&lt;pathToReportFolder&gt; --data=&lt;pathToData1&gt;</codeblock>
+          </p></li><li class="- topic/li ">Replace:<ul class="- topic/ul "><li class="- topic/li ">
+            <p class="- topic/p ">
+              <codeph class="+ topic/ph pr-d/codeph ">pathToHtmlFile</codeph> with the absolute path to your KR
+               test suite.</p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">
+              <codeph class="+ topic/ph pr-d/codeph ">browser</codeph> with either chrome or firefox.</p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">
+              <codeph class="+ topic/ph pr-d/codeph ">pathToReportFolder</codeph> with the aboluste path to an
+               existing folder.</p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">
+              <codeph class="+ topic/ph pr-d/codeph ">pathToData1</codeph> with the absolute path to your data
+               file.</p>
+          </li></ul></li><li class="- topic/li ">Execute the command.</li></ol>
+          
+        <p class="- topic/p ">If your test suite uses multiple data files, separate the paths
+         with a comma.</p><p class="- topic/p ">A report file with a .csv extension and a log file with a .log
+         extension will be generated at the specified report folder.</p></conbody></concept>

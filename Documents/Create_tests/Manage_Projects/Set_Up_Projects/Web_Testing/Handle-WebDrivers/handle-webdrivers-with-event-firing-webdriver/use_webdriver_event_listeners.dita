@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Use WebDriver Event Listeners</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">You can use <codeph class="+ topic/ph pr-d/codeph ">WebDriverEventListener</codeph> to handle events
+         started by the WebDriver, which happens for example, before or
+         after navigation, before or after a click. If
+         <codeph class="+ topic/ph pr-d/codeph ">EventFiringWebDriver</codeph> is a class that wraps around the
+         WebDriver to throw events, <codeph class="+ topic/ph pr-d/codeph ">WebDriverEventListeners</codeph> is
+         an interface to catch WebDriver events. You can learn more about
+         this interface from the Selenium documentation here: <xref format="html" href="https://seleniumhq.github.io/selenium/docs/api/java/org/openqa/selenium/support/events/WebDriverEventListener.html" scope="external" class="- topic/xref ">WebDriverEventListener</xref>
+      </p><p class="- topic/p ">Below is an example use of a custom
+         <codeph class="+ topic/ph pr-d/codeph ">WebDriverEventListener</codeph>:</p><ol class="- topic/ol "><li class="- topic/li ">Create a new package to contain a keyword. Go to <b class="+ topic/ph hi-d/b ">File
+               &gt; New &gt; Package</b>. Here, we name the package
+            <b class="+ topic/ph hi-d/b ">customkeyword</b>.</li><li class="- topic/li ">
+          <p class="- topic/p ">Create a new keyword to handle WebDriver events.</p>
+          <ul class="- topic/ul "><li class="- topic/li ">Go to <b class="+ topic/ph hi-d/b ">File &gt; New &gt; Keywords</b>. A
+                  <b class="+ topic/ph hi-d/b ">New</b> dialog opens.</li><li class="- topic/li ">
+              <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Browse</b> to choose a package for your
+                     keyword, then manually type the class name. Here, we choose the
+                     package created from Step 1 and name the keyword
+                     <b class="+ topic/ph hi-d/b ">MyCustomWebEventListener</b>. Click
+                     <b class="+ topic/ph hi-d/b ">OK</b>. A new keyword page opens.</p>
+              <p class="- topic/p ">
+                <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/handle-webdrivers/KS-WEBDRIVER-Choose-package-and-name-the-keyword.png" scope="external" width="600" class="- topic/image "><alt class="- topic/alt ">Choose the package and create the keyword</alt></image>
+              </p>
+            </li><li class="- topic/li ">
+              <p class="- topic/p ">Copy and paste below sample code into the created keyword.</p>
+              
+                <codeblock class="+ topic/pre pr-d/codeblock ">import org.openqa.selenium.WebDriver
+import org.openqa.selenium.support.events.AbstractWebDriverEventListener
+
+public class MyCustomWebEventListener extends AbstractWebDriverEventListener {
+    @Override
+    public void beforeNavigateTo(String url, WebDriver driver) {
+        println "Before navigating to " + url;
+    }
+}
+</codeblock>
+              
+              <p class="- topic/p ">
+                <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/handle-webdrivers/KS-WEBDRIVER-final-results-after-creating-the-keyword.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">Final results after creating the keyword</alt></image>
+              </p>
+            </li></ul>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Open your test script. To register
+               <codeph class="+ topic/ph pr-d/codeph ">MyCustomWebEventListener</codeph> with WebDriver, copy and
+               paste the sample code as below:</p>
+          
+            <codeblock class="+ topic/pre pr-d/codeblock ">import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.support.events.EventFiringWebDriver as EventFiringWebDriver
+
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+
+import customlistener.MyCustomWebEventListener as MyCustomWebEventListener
+
+WebUI.openBrowser('')
+
+WebDriver webdriver = DriverFactory.getWebDriver()
+
+EventFiringWebDriver eventFiring = ((webdriver) as EventFiringWebDriver)
+
+eventFiring.register(new MyCustomWebEventListener())
+
+DriverFactory.changeWebDriver(eventFiring)
+
+WebUI.navigateToUrl('www.google.com')
+
+WebUI.closeBrowser()
+</codeblock>
+          
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/handle-webdrivers/KS-WEBDRIVER-Results-after-registering-custom-keyword.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">Final results after registering the keyword</alt></image>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Hit <b class="+ topic/ph hi-d/b ">Run</b>, then observe the result in the Console
+               log.</p>
+          
+            <codeblock class="+ topic/pre pr-d/codeblock ">2021-09-13 09:16:21.722 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ebf7a901164241457b656ffece5da9b0
+2021-09-13 09:16:21.747 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 93.0.4577.63
+2021-09-13 09:16:21.753 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2021-09-13 09:16:21.754 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 3.141.59
+2021-09-13 09:16:21.773 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2021-09-13 09:16:22.642 DEBUG testcase.WebDriver Event Listeners       - 2: webdriver = getWebDriver()
+2021-09-13 09:16:22.652 DEBUG testcase.WebDriver Event Listeners       - 3: eventFiring = webdriver
+2021-09-13 09:16:22.673 DEBUG testcase.WebDriver Event Listeners       - 4: eventFiring.register(new customlistener.MyCustomWebEventListener())
+2021-09-13 09:16:22.693 DEBUG testcase.WebDriver Event Listeners       - 5: changeWebDriver(eventFiring)
+2021-09-13 09:16:22.699 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ebf7a901164241457b656ffece5da9b0
+2021-09-13 09:16:22.711 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 93.0.4577.63
+2021-09-13 09:16:22.711 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2021-09-13 09:16:22.712 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 3.141.59
+2021-09-13 09:16:22.713 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2021-09-13 09:16:22.722 DEBUG testcase.WebDriver Event Listeners       - 6: navigateToUrl("www.google.com")
+Before navigating to http://www.google.com
+2021-09-13 09:16:23.220 DEBUG testcase.WebDriver Event Listeners       - 7: closeBrowser()
+2021-09-13 09:16:23.243 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/WebDriver Event Listeners
+</codeblock>
+          
+        </li></ol></conbody></concept>

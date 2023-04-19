@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-git-integration-submodules" class="- map/map ">
+  <title class="- topic/title ">Using Git Submodules to share Test Artifacts</title>
+  <topicref href="git-integration-submodules.dita" class="- map/topicref "><topicref href="add_a_git_submodule_to_a_project.dita" class="- map/topicref "/>
+  <topicref href="update_a_submodule.dita" class="- map/topicref "/>
+  <topicref href="delete_a_submodule.dita" class="- map/topicref "/>
+</topicref>
+  </map>

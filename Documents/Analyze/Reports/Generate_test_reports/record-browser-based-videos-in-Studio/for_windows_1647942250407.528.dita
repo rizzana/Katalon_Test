@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">For Windows</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ol class="- topic/ol ">
+          <li class="- topic/li ">Go to the <xref format="html" href="https://ffmpeg.org/download.html" scope="external" class="- topic/xref ">FFmpeg
+               download web page</xref>.</li>
+          <li class="- topic/li ">Download the package which is appropriate for your operating
+            system.</li>
+          <li class="- topic/li ">Add the path to the FFmpeg executable file to your PATH
+            environment variable.</li>
+          <li class="- topic/li ">Reactivate Katalon Studio for this installation to take
+            effect.</li>
+        </ol>
+        <p class="- topic/p ">Click <xref format="html" href="http://blog.gregzaal.com/how-to-install-ffmpeg-on-windows/" scope="external" class="- topic/xref ">here</xref>
+         for detailed instructions.</p>
+      </conbody>
+    </concept>

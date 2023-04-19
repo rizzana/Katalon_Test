@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Develop a customized report plugin in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">A sample custom keyword plugin to demonstrate how to generate a
+         customized report.</p><p class="- topic/p ">This plugin provides a test listener that automatically
+         generates a test suite report with a customized format as a text
+         file under <i class="+ topic/ph hi-d/i ">Reports</i> folder.</p></conbody></concept>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_8" class="- topic/topic concept/concept "><title class="- topic/title ">Activate Katalon Studio offline</title><conbody class="- topic/body  concept/conbody "><note type="important" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">You have downloaded Katalon Studio.</li></ul>
+        </note><p class="- topic/p ">You need to activate the License Server in the <b class="+ topic/ph hi-d/b ">Katalon Studio Activation</b> dialog.</p><ol class="- topic/ol "><li class="- topic/li ">Open the <b class="+ topic/ph hi-d/b ">Katalon Studio Activation</b> dialog in Katalon Studio.</li><li class="- topic/li ">
+                <p class="- topic/p ">Fill in the required information.</p>
+                <ul class="- topic/ul "><li class="- topic/li ">In the <b class="+ topic/ph hi-d/b ">Server URL</b> section, enter the address of your License Server's site that you have configured.</li><li class="- topic/li ">In the <b class="+ topic/ph hi-d/b ">Email</b> and <b class="+ topic/ph hi-d/b ">Password</b> sections, enter the account you have registered with the Katalon On-Premises License Server.</li></ul>
+            </li><li class="- topic/li ">Click <b class="+ topic/ph hi-d/b ">Activate</b> to connect with your License Server and retrieve your organizations.</li><li class="- topic/li ">Select an Organization you want to work on, then click <b class="+ topic/ph hi-d/b ">OK</b>.</li></ol></conbody></concept>

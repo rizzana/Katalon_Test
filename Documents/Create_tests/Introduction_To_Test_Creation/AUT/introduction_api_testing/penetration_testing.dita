@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_12" class="- topic/topic concept/concept "><title class="- topic/title ">Penetration testing</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Penetration testing is considered the second test in the process
+         if auditing. In this testing type, the users with limited API
+         knowledge will try to attack to assess the threat vector from an
+         outside perspective, which is about functions, resources,
+         processes, or aim to the entire API and its components.</p></conbody></concept>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_10" class="- topic/topic concept/concept "><title class="- topic/title ">Log</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">The log view shows the real-time report/log of the test execution. All execution errors message, information message and execution progress is displayed here.</p></conbody></concept>

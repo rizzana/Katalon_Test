@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Step 1: Open a  project</title><conbody class="- topic/body  concept/conbody "><ul class="- topic/ul "><li class="- topic/li ">Go to <b class="+ topic/ph hi-d/b ">File</b> -&gt; <b class="+ topic/ph hi-d/b ">New</b> -&gt;
+            <b class="+ topic/ph hi-d/b ">Project</b> and enter a project name and its location
+            to start a new project.</li></ul><p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/creat-first-API-testing/KS-API-Create-a-new-project.png" scope="external" width="650" class="- topic/image "><alt class="- topic/alt ">Create new project using Katalon Studio</alt></image>
+        </p><ul class="- topic/ul "><li class="- topic/li ">Once the project is confirmed to be created, we will see a
+            folder structure in the <b class="+ topic/ph hi-d/b ">Tests Explorer</b>. This folder
+            system is responsible to keep all the test resources and is also
+            the place where we start our first API test.</li></ul></conbody></concept>

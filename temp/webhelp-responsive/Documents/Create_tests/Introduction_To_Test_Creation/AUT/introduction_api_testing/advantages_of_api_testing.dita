@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Create_tests/Introduction_To_Test_Creation/AUT/introduction_api_testing?><?workdir-uri file:/Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Create_tests/Introduction_To_Test_Creation/AUT/introduction_api_testing/?><?path2project ../../../../../?><?path2project-uri ../../../../../?><?path2rootmap-uri ../../../../../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="id_4" class="- topic/topic concept/concept " ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Introduction_To_Test_Creation/AUT/introduction_api_testing/advantages_of_api_testing.dita" xtrc="concept:1;3:59" specializations="@props/deliveryTarget">
+    <title class="- topic/title " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Introduction_To_Test_Creation/AUT/introduction_api_testing/advantages_of_api_testing.dita" xtrc="title:1;4:35">Advantages of API testing</title>
+    <conbody class="- topic/body  concept/conbody " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Introduction_To_Test_Creation/AUT/introduction_api_testing/advantages_of_api_testing.dita" xtrc="conbody:1;5:53">
+      <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Introduction_To_Test_Creation/AUT/introduction_api_testing/advantages_of_api_testing.dita" xtrc="p:1;6:29">As discussed above, API testing is an important activity that
+         testing teams should focus on. It offers a number of advantages
+         over other kinds of testing:</p>
+      <ul class="- topic/ul " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Introduction_To_Test_Creation/AUT/introduction_api_testing/advantages_of_api_testing.dita" xtrc="ul:1;9:31">
+        <li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Introduction_To_Test_Creation/AUT/introduction_api_testing/advantages_of_api_testing.dita" xtrc="li:1;10:33">
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Introduction_To_Test_Creation/AUT/introduction_api_testing/advantages_of_api_testing.dita" xtrc="p:2;11:33">Language independent: Data is exchanged via XML and JSON, so any
+               language can be used for automation, independent from the languages
+               used to develop the application. XML and JSON are typically
+               structured data so the verification is fast and stable. There are
+               also built-in libraries to support comparing data using these data
+               formats.</p>
+        </li>
+        <li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Introduction_To_Test_Creation/AUT/introduction_api_testing/advantages_of_api_testing.dita" xtrc="li:2;18:33">
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Introduction_To_Test_Creation/AUT/introduction_api_testing/advantages_of_api_testing.dita" xtrc="p:3;19:33">GUI independent: We can perform API testing within the
+               application prior to GUI testing. Early testing will get feedback
+               sooner and improve the team's productivity. Core functionality can
+               be tested to expose small errors and to evaluate a build's
+               strengths.</p>
+        </li>
+        <li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Introduction_To_Test_Creation/AUT/introduction_api_testing/advantages_of_api_testing.dita" xtrc="li:3;25:33">
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Introduction_To_Test_Creation/AUT/introduction_api_testing/advantages_of_api_testing.dita" xtrc="p:4;26:33">Improved test coverage: Most API/services have specifications,
+               allowing us to create automated tests with high coverage, including
+               functional testing (happy cases, negative cases) and non-functional
+               testing. With virtual user techniques, we rarely find API test
+               cases that could not be automated.</p>
+        </li>
+        <li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Introduction_To_Test_Creation/AUT/introduction_api_testing/advantages_of_api_testing.dita" xtrc="li:4;32:33">
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Introduction_To_Test_Creation/AUT/introduction_api_testing/advantages_of_api_testing.dita" xtrc="p:5;33:33">Faster releases: It is common that executing a UI regression
+               test suite takes 8-10 hrs while the same scenario with API testing
+               takes only 1-2 hours. The flakiness of API testing is also lower
+               than that of UI testing. All these allow us to release faster with
+               API testing.</p>
+        </li>
+      </ul>
+      <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Introduction_To_Test_Creation/AUT/introduction_api_testing/advantages_of_api_testing.dita" xtrc="p:6;40:29">
+        <xref format="html" href="https://www.katalon.com/download" scope="external" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Introduction_To_Test_Creation/AUT/introduction_api_testing/advantages_of_api_testing.dita" xtrc="xref:1;41:108"><?ditaot usertext?>
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/introduction_api_testing/api-testing-interview-question.png" scope="external" class="- topic/image " placement="inline" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Introduction_To_Test_Creation/AUT/introduction_api_testing/advantages_of_api_testing.dita" xtrc="image:1;42:208" dita-ot:image-width="1683" dita-ot:image-height="166" dita-ot:horizontal-dpi="96" dita-ot:vertical-dpi="96"/>
+        </xref>
+      </p>
+    </conbody>
+  <related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="ditamap-8764" xtrc="topicref:5;8:76" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Introduction_To_Test_Creation/AUT/introduction_api_testing/introduction_api_testing.ditamap"><link class="- topic/link " format="dita" href="../../../../../Documents/Create_tests/Introduction_To_Test_Creation/AUT/introduction_api_testing/introduction_api_testing.dita" mapclass="- map/topicref " role="parent" scope="local" type="concept" xtrc="topicref:1;5:74" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Introduction_To_Test_Creation/AUT/introduction_api_testing/introduction_api_testing.ditamap"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Introduction to API testing in Katalon Studio</linktext></link></linkpool></related-links></concept>

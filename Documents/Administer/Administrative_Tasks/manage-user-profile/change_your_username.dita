@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Change Your Username</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+            <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Basic Information</b> section, click on the
+               displayed username. Then enter the new username.</p>
+            <p class="- topic/p ">
+              <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/manage-user-profile/K1-Profile-Change-Username.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">TestOps Profile page username</alt></image>
+            </p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">Press Enter or click on the <i class="+ topic/ph hi-d/i ">tick</i> icon to save the
+               change.</p>
+          </li></ol></conbody></concept>

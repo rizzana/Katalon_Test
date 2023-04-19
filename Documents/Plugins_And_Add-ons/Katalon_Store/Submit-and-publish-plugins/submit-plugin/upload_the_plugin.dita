@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Upload the plugin to <ph conkeyref="name-variables/katalon-store" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To upload your plugin to <ph conkeyref="name-variables/katalon-store" class="- topic/ph "/>, go to <xref format="html" href="https://store.katalon.com/manage/publisher/upload-product" scope="external" class="- topic/xref ">Plugin
+            submission page</xref>.</p><ul class="- topic/ul "><li class="- topic/li ">
+          <p class="- topic/p ">Add all its files to a ZIP archive with the extension .zip.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Click Browse, select and upload your plugin or Drag and drop
+               your plugin from your device.<note class="- topic/note "><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Before uploading your package, please check your .zip
+                  file carefully. Make sure that you zipped the PLUGIN FILE ONLY
+                  (excluding the folder).
+</p></li></ul></note></p>
+          
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">If your plugin passes all the checks, you will be allowed to
+               click Continue.</p>
+        </li></ul></conbody></concept>

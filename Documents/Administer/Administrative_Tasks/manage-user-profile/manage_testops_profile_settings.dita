@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Manage TestOps Profile Settings</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">First, you need to navigate to the TestOps Profile page. From
+         the TestOps homepage, on the top-right corner, click on the
+         <i class="+ topic/ph hi-d/i ">photo</i> icon, then select <uicontrol class="+ topic/ph ui-d/uicontrol ">View Profile</uicontrol>.</p><p class="- topic/p ">
+        
+      <image width="300" href="../../../../Global_reuse/Images_warehouse/Katalon_TestOps/navigation_bar/KT-Reuse-profile-settings.png" class="- topic/image "><alt class="- topic/alt ">View profile</alt></image></p><p class="- topic/p ">The TestOps Profile page is displayed as below.</p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/manage-user-profile/K1-Profile-page-overview.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">TestOps Profile page</alt></image>
+      </p></conbody></concept>

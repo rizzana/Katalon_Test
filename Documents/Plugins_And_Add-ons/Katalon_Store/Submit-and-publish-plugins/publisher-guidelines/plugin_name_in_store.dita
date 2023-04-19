@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Plugin name in <ph conkeyref="name-variables/katalon-store" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><ul class="- topic/ul "><li class="- topic/li ">
+          <p class="- topic/p ">All of plugin names are written in <b class="+ topic/ph hi-d/b ">title case</b>.
+               That means <b class="+ topic/ph hi-d/b ">each letter</b> except the first letter in
+               the name is <b class="+ topic/ph hi-d/b ">lowercase</b>. All references to our
+               products in text must utilize the proper case.</p>
+          <p class="- topic/p ">Example:</p>
+          <p class="- topic/p ">DYNAMIC FILTERING TEST SUITE ⇒ Dynamic Filtering Test
+               Suite</p>
+          <p class="- topic/p ">Dynamic filtering test suite ⇒ Dynamic Filtering Test
+               Suite</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Use names that describe what your plugin does or that match your
+               brand.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Don't use names that seem to indicate the plugin is built by
+               Katalon. Your plugin name should never start with a Katalon product
+               name (Katalon Studio). Instead, use the following pattern:
+               <b class="+ topic/ph hi-d/b ">[Your plugin]</b> for <b class="+ topic/ph hi-d/b ">[Katalon
+                  Studio]</b>.</p>
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Examples of approved names:</b>
+          </p>
+          <p class="- topic/p ">Dynamic Filtering Test Suite for Katalon Studio</p>
+          <p class="- topic/p ">Themes for Katalon Studio</p>
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Examples of NOT approved names:</b>
+          </p>
+          <p class="- topic/p ">Katalon Studio Bug Fixer</p>
+          <p class="- topic/p ">Katalon Studio Themes</p>
+        </li></ul></conbody></concept>

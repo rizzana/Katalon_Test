@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Install Google Chrome</title>
+    <conbody class="- topic/body  concept/conbody ">
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">wget -O google-chrome-stable_current_amd64.deb https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+sudo dpkg -i google-chrome-stable_current_amd64.deb
+sudo apt -y -f install
+</codeblock>
+      
+    </conbody>
+  </concept>

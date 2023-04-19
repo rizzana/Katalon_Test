@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Manual Mode</title><conbody class="- topic/body  concept/conbody "><ul class="- topic/ul "><li class="- topic/li ">Step 1: Select <b class="+ topic/ph hi-d/b ">Start
+               Application</b> from mobile keyword and click on
+            <b class="+ topic/ph hi-d/b ">Input</b> it will open a window, where for appFile
+            select <b class="+ topic/ph hi-d/b ">Value Type</b> as <b class="+ topic/ph hi-d/b ">Variable</b> and
+            in <b class="+ topic/ph hi-d/b ">Value</b>, pass the variable name as
+            <b class="+ topic/ph hi-d/b ">path</b> and click <b class="+ topic/ph hi-d/b ">OK.</b>
+        </li></ul><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/pinch_zoom_action_mobile_app/Performing-Pinch-to-Zoom-In-in-automation-test-1.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Performing Pinch to Zoom In in automation test</alt></image>
+      </p><ul class="- topic/ul "><li class="- topic/li ">Step 2: Add a <b class="+ topic/ph hi-d/b ">Wait For Element Present</b> item
+            for API Demos to show up.</li><li class="- topic/li ">Step 3: Call <b class="+ topic/ph hi-d/b ">Scroll To Text</b> from mobile
+            keyword, pass <b class="+ topic/ph hi-d/b ">Views</b> as Input. <b class="+ topic/ph hi-d/b ">Scroll To
+               Text</b> accepts String type parameter (Text of the element to
+            scroll to)</li></ul><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/pinch_zoom_action_mobile_app/Performing-Pinch-to-Zoom-In-in-automation-test-3.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Performing Pinch to Zoom In in automation test</alt></image>
+      </p><ul class="- topic/ul "><li class="- topic/li ">Step 4: Call <b class="+ topic/ph hi-d/b ">Tap</b> method and pass the object of
+            <b class="+ topic/ph hi-d/b ">Views.</b>
+        </li><li class="- topic/li ">Step 5: Select <b class="+ topic/ph hi-d/b ">Scroll To Text</b> keyword and pass
+            the <b class="+ topic/ph hi-d/b ">Tabs</b> text.</li></ul><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/pinch_zoom_action_mobile_app/Performing-Pinch-to-Zoom-In-in-automation-test-10.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Performing Pinch to Zoom In in automation test</alt></image>
+      </p><ul class="- topic/ul "><li class="- topic/li ">Step 6: Call <b class="+ topic/ph hi-d/b ">Tap</b> method and pass the object of
+            <b class="+ topic/ph hi-d/b ">WebView</b>
+        </li><li class="- topic/li ">Step 7: Add <b class="+ topic/ph hi-d/b ">wait commands</b> to wait for
+            '<b class="+ topic/ph hi-d/b ">Hello world</b>' link to be visible.</li><li class="- topic/li ">Step 8: Call '<b class="+ topic/ph hi-d/b ">Get Element Height</b>' method and
+            capture the of "<b class="+ topic/ph hi-d/b ">Hello World</b>" height to store it in
+            a variable named '<b class="+ topic/ph hi-d/b ">ele_Height</b>'.</li><li class="- topic/li ">Step 9: Call '<b class="+ topic/ph hi-d/b ">Get Element Width</b>' method and
+            capture the of "<b class="+ topic/ph hi-d/b ">Hello World</b>" element
+            <b class="+ topic/ph hi-d/b ">width</b> to store it in '<b class="+ topic/ph hi-d/b ">ele_Width</b>'.
+              </li><li class="- topic/li ">Step 10: Add '<b class="+ topic/ph hi-d/b ">Pinch To Zoom In At Position</b>'
+            method from mobile keyword list and pass the following values in:
+            <b class="+ topic/ph hi-d/b ">ele<i class="+ topic/ph hi-d/i ">Height</i>,</b> eleWidth,
+            <b class="+ topic/ph hi-d/b ">Offset</b> value.</li></ul><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/pinch_zoom_action_mobile_app/Performing-Pinch-to-Zoom-In-in-automation-test-11.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Performing Pinch to Zoom In in automation test</alt></image>
+      </p><ul class="- topic/ul "><li class="- topic/li ">Step 11: After zooming in, we need to <b class="+ topic/ph hi-d/b ">verify</b>
+            that element has been zoomed. Thus, we need to re-capture the
+            element Height and Width.</li><li class="- topic/li ">Step 12: After zooming the element height and width
+            <b class="+ topic/ph hi-d/b ">should be greater</b> than the existing height and
+            width in the test. By using '<b class="+ topic/ph hi-d/b ">Verify Greater Than</b>'
+            method, we can validate the element height and width.</li></ul><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/pinch_zoom_action_mobile_app/Performing-Pinch-to-Zoom-In-in-automation-test-12.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Performing Pinch to Zoom In in automation test</alt></image>
+      </p><p class="- topic/p ">As you can see from the step-by-step guide above, there are
+         repeated steps that will be easier to create in <b class="+ topic/ph hi-d/b ">Script
+            Mode</b>. Thus, we suggest the users to utilize this feature
+         where one can quickly automate the test scenario and easily manage
+         test scripts.</p></conbody></concept>

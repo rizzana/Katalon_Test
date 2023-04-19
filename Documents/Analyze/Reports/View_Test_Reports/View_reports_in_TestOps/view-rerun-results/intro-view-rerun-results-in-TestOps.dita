@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">View re-run test results in <ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><note type="important" class="- topic/note ">
+        <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "><xref href="../../../Upload_Test_Reports/Upload_test_results_from_KS_to_TestOps/katalon-analytics-beta-integration.dita" class="- topic/xref ">Integration
+               with Katalon Studio</xref> (version 8.1 or later).</p></li></ul>
+      </note></conbody></concept>

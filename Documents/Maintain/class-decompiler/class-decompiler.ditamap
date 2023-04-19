@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-class-decompiler" class="- map/map ">
+  <title class="- topic/title ">Decompile Class File for Debugging</title>
+  <topicref href="class-decompiler.dita" class="- map/topicref "><topicref href="use_class_decompiler_for_debug.dita" class="- map/topicref "/>
+  <topicref href="configure_class_decompiler.dita" class="- map/topicref "/>
+</topicref>
+  </map>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-aws-device-farm-integration" class="- map/map ">
+  <title class="- topic/title ">AWS Device Farm Integration</title>
+  <topicref href="aws-device-farm-integration.dita" class="- map/topicref "><topicref href="example_katalon_project.dita" class="- map/topicref "/>
+  <topicref href="integrate_with_aws_device_farm.dita" class="- map/topicref ">
+    <topicref href="configure_your_katalon_project_1647942167155.517.dita" class="- map/topicref "/>
+    <topicref href="update_aws-device-farm-integration_project.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="configure_a_test_project_on_aws_device_farm.dita" class="- map/topicref "/>
+</topicref>
+  </map>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-Migration-from-other-tools" class="- map/map "><title class="- topic/title ">Migration from other tools</title><mapref format="ditamap" href="Selenium_TestNG_JUnit_Migration_To_Katalon_Studio/selenium-testng-junit-migration.ditamap" class="+ map/topicref mapgroup-d/mapref "/><mapref format="ditamap" href="Import_Selenium_IDE_v3_Projects_To_Katalon_Studio/import-selenium-ide.ditamap" class="+ map/topicref mapgroup-d/mapref "/></map>

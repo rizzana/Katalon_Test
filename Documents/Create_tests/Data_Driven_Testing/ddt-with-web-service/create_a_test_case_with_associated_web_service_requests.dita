@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Create a test case with associated Web Service requests</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">After creating two RESTful Web Service requests with variables, we create a test case to send the POST request to register a new user and extract the user ID from the response. With the returned user ID, we send the GET request to retrieve user information and verify it.</p><p class="- topic/p ">Follow these steps to set up the test case:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Open a new test case. In the <b class="+ topic/ph hi-d/b ">Script</b> tab, enter the following code snippet to set up the test case:</p>
+                <codeblock class="+ topic/pre pr-d/codeblock ">// Send a POST request to create a new user
+// The response contains the id of the newly created user
+post_response = WS.sendRequest(findTestObject('POST a new user', [('username') : username, ('password') : password, ('gender') : gender, ('age') : age]))
+
+// Extract the id value from the response
+user_id = WS.getElementPropertyValue(post_response, 'id')
+println("ID of user " + username + ": " + user_id.toString())
+
+// Send a GET request to retrieve user information by id
+get_response = WS.sendRequest(findTestObject('GET user by id', ['id' : user_id]))
+println("The response is: " + get_response.getResponseText())
+
+// Verify that the returned values match the user information
+WS.verifyElementPropertyValue(get_response, 'username', username)
+WS.verifyElementPropertyValue(get_response, 'password', password)
+
+</codeblock>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">To input variables into the test case, switch to the <b class="+ topic/ph hi-d/b ">Variables</b> tab and pass the variables defined in the POST request object.</p>
+                <p class="- topic/p ">Here, we specify the <codeph class="+ topic/ph pr-d/codeph ">username</codeph>, <codeph class="+ topic/ph pr-d/codeph ">password</codeph>, <codeph class="+ topic/ph pr-d/codeph ">gender</codeph>, <codeph class="+ topic/ph pr-d/codeph ">age</codeph>, and <codeph class="+ topic/ph pr-d/codeph ">avatar</codeph> variables.</p>
+                <p class="- topic/p "> <image href="Pictures/KS-830-Tc-variables.png" class="- topic/image "/></p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Run the test case and verify the test message in the <b class="+ topic/ph hi-d/b ">Console</b> log:</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-Console-log-test-case-result.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Test case run result</alt></image>
+                </p>
+            </li></ol></conbody></concept>

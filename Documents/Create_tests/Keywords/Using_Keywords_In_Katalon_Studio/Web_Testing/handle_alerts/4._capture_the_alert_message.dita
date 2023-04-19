@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept "><title class="- topic/title ">4. Capture the alert message</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">We can capture the message on Alert by using the getText()
+         method.</p><p class="- topic/p ">
+          <b class="+ topic/ph hi-d/b ">Manual Mode</b>
+        </p><ul class="- topic/ul "><li class="- topic/li ">Step 1: Launching the browser navigating to Alert present page
+            by Open Browser method</li><li class="- topic/li ">Step 2: Maximize the window of the browser with Maximize
+            window</li><li class="- topic/li ">Step 3: Clicking on button</li><li class="- topic/li ">Step 4: Getting the text from the alert and storing it in
+            Variable</li><li class="- topic/li ">Step 5: Verifying the Actual and Expected text from Alert</li></ul><p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_alerts/Capture-alert-message.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Capture the alert message using Katalon Studio</alt></image>
+        </p><p class="- topic/p ">
+          <b class="+ topic/ph hi-d/b ">Script Mode</b>
+        </p><codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import org.openqa.selenium.WebDriver as WebDriver
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+'Launching the browser'
+WebUI.openBrowser('C:\\\\Users\\\\User\\\\Desktop\\Alerts\\How to Handle Alerts2.html')
+'Maximize the window of the browser'
+WebUI.maximizeWindow()
+'Clicking on the click here button'
+WebUI.click(findTestObject('Alerts/button_ClickHere'))
+WebDriver driver = DriverFactory.getWebDriver()
+'Getting the text from the alert and storing it in Variable'
+String AlertText = driver.switchTo().alert().getText()
+'Verifying the Actual and Expected text from Alert'
+WebUI.verifyEqual(AlertText, 'Please enter your name')
+
+</codeblock><p class="- topic/p ">The source code is available to be downloaded <xref format="html" href="https://github.com/katalon-studio/katalon-web-automation" scope="external" class="- topic/xref ">here</xref>.</p><p class="- topic/p ">For further instructions and help, refer to <xref href="../../../Keywords_Description_In_Katalon_Studio/Web-UI-Keywords/webui-accept-alert/webui-accept-alert.dita" class="- topic/xref ">WebUI Alert</xref> and <xref href="../pop_up_dialog_issue/pop_up_dialog_issue.dita" class="- topic/xref ">Solving pop-up dialog issue with Katalon Studio</xref>.</p></conbody></concept>

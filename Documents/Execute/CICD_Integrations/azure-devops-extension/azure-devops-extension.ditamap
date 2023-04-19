@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-azure-devops-extension" class="- map/map "><title class="- topic/title ">Azure DevOps Integration</title><topicref href="azure-devops-extension.dita" class="- map/topicref "><topicref href="Install_the_Azure_DevOps_Extension.dita" class="- map/topicref "/><topicref href="sample_projects.dita" class="- map/topicref "/><topicref href="Configure_the_Execute_Katalon_Studio_Tests_task.dita" class="- map/topicref "/></topicref></map>

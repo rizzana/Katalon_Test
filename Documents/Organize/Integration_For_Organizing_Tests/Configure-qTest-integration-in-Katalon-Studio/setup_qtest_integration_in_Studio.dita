@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Set up  qTest integration in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><note type="note" class="- topic/note ">
+                <ul class="- topic/ul "><li class="- topic/li ">
+                        <p class="- topic/p ">From version 7.9.0 onwards, <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> supports pushing screenshots (PNG files) to qTest to generate reports.</p>
+                    </li></ul>
+        </note><p class="- topic/p ">You can set up  qTest integration manually or with the Setup Wizard as follows.</p></conbody></concept>

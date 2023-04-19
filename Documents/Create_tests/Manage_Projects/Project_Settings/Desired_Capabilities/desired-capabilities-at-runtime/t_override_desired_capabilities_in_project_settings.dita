@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Override desired capabilities in project settings</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Suppose you want to override desired capabilities pre-configured in project settings; you can use the above sample code in the test script.</p><p class="- topic/p ">In the following example, we defined the desired capabilities for Chrome window-sized 1200x600 in project settings. We want to override this setting to run a test with a Chrome window in private mode sized 100x100. Do as follows:</p><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/project-settings-new-ui/KS-DC-runtime-windows-sized-1200x600.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Set DC in project settings</alt></image>
+        </p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">To override the desired capabilities at runtime, open the test case in script mode. Pass the desired capabilities to the same key with the capabilities defined in project settings. Then place the code before the test script.</p>
+                <p class="- topic/p ">Here, we want to override the <codeph class="+ topic/ph pr-d/codeph ">--window-size=1200,600</codeph> capabilities. We pass the <codeph class="+ topic/ph pr-d/codeph ">--window-size=100,100</codeph> and <codeph class="+ topic/ph pr-d/codeph ">--incognito</codeph> capabilities to the <codeph class="+ topic/ph pr-d/codeph ">args</codeph> key in the sample code as follows. Then place the code before the test script.</p>
+                <p class="- topic/p ">
+                    <codeblock class="+ topic/pre pr-d/codeblock ">import com.kms.katalon.core.configuration.RunConfiguration
+RunConfiguration.setWebDriverPreferencesProperty("args", ["--window-size=100,100","--incognito"])</codeblock>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Continue writing the script or use Web Spy/Record Utility to complete your test case.</p>
+                <p class="- topic/p "> <image href="https://github.com/Yen8298/docs-images/raw/master/katalon-studio/docs/desired-capabilities-override-in-run-time/KS-DC-window-sized-100x100-incognito-runtime.png" scope="external" class="- topic/image "><alt class="- topic/alt ">DC at test script</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Run the test with Chrome.</p>
+                <p class="- topic/p "> <image href="https://github.com/Yen8298/docs-images/raw/master/katalon-studio/docs/desired-capabilities-override-in-run-time/KS-DC-Chrome-windows-100x100-incognito-run.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Set DC in project settings</alt></image>
+                </p>
+                <p class="- topic/p ">The test successfully opens a Chrome window-size 100x100 in private mode (overriding Chrome window-size 1200x600).</p>
+            </li></ol></conbody></concept>

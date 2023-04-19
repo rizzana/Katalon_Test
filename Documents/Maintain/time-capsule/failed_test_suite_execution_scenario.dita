@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Failed Test Suite execution scenario</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">Similarly, when a Test Suite contains at least one failed Test
+         Case due to broken locators, in Test Suite's Result/Report, you can
+         click on the link “<b class="+ topic/ph hi-d/b ">Click here to fix broken Test
+            Object</b>” to open the captured state of the AUT with
+         the Spy Tool automatically.</p>
+      <p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/time-capsule/test-suite-fail.gif" scope="external" class="- topic/image "/>
+      </p>
+    </conbody>
+  </concept>

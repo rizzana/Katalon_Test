@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_54" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Improvements</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">Support configuring <codeph class="+ topic/ph pr-d/codeph ">Delay Between Actions</codeph> in
+            milliseconds in Execution settings</li>
+          <li class="- topic/li ">Enhance UI</li>
+          <li class="- topic/li ">Include the <codeph class="+ topic/ph pr-d/codeph ">TestObject</codeph> class in <xref format="html" href="https://docs.katalon.com/javadoc/index.html" scope="external" class="- topic/xref ">Katalon API
+               Documents</xref>
+          </li>
+        </ul>
+      </conbody>
+    </concept>

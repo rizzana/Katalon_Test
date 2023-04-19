@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Install and set up <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p "><ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> supports Windows, macOS and Linux. You can find
+         installation guides here: <xref href="../Katalon_Studio_Installation/Installation_Overview.dita" class="- topic/xref ">Installation
+            Overview</xref>.</p><p class="- topic/p ">After installation, learn how to create your first project. See
+         <xref href="../../Create_tests/Manage_Projects/Manage_Test_Project/Manage_Test_Project_Overview/Manage_test_project.dita" class="- topic/xref ">Manage
+            Test Project</xref>.</p><p class="- topic/p ">If you are new to the test automation field, we have already
+         created some sample projects for you to try out. You can clone or
+         download from our GitHub repository: <xref format="html" href="https://github.com/katalon-studio-samples" scope="external" class="- topic/xref ">Katalon Studio
+            Sample Projects</xref>.</p><p class="- topic/p ">Next step, explore some essential tools and personalize your
+         configuration. See <xref href="get-started-overview.dita" class="- topic/xref ">Get
+            Started Overview</xref>.</p></conbody></concept>

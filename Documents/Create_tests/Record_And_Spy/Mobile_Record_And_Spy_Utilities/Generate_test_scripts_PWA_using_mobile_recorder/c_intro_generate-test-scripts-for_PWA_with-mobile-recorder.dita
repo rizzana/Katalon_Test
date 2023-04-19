@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Generate test scripts for a Progressive Web App using mobile recorder in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">A Progressive Web App (PWA) is a modern web application that
+         feels like a web app and works like a native app. It offers rich
+         features such as <i class="+ topic/ph hi-d/i ">Offline mode</i> and <i class="+ topic/ph hi-d/i ">Push</i>
+         notifications and creates home screen shortcuts as native apps do.
+         It combines the best features of web apps and native apps.</p><p class="- topic/p ">This user guide shows you how to record and generate test
+         scripts of a PWA using a mobile recorder. In this example, we wish
+         to record and generate test scripts for the launch of <xref format="html" href="https://twitter.com/?lang=en" scope="external" class="- topic/xref ">Twitter</xref> from the home page
+         of a mobile browser. If you want to test the PWA on a Cloud device,
+         you can use any of the browser testing tools available, such as
+         <i class="+ topic/ph hi-d/i ">Kobiton</i>, <i class="+ topic/ph hi-d/i ">LambdaTest</i>, <i class="+ topic/ph hi-d/i ">Browserstack</i>, etc.
+         We have opted to use BrowserStack as the tool of choice. The use
+         case that you wish to accomplish can be as follows:</p><ul class="- topic/ul "><li class="- topic/li ">Open the <i class="+ topic/ph hi-d/i ">Chrome</i> browser on your mobile device.</li><li class="- topic/li ">Type the <xref format="html" href="https://twitter.com/?lang=en" scope="external" class="- topic/xref ">Twitter</xref> URL
+            in the <i class="+ topic/ph hi-d/i ">Chrome</i> browser.</li><li class="- topic/li ">Open the <xref format="html" href="https://twitter.com/?lang=en" scope="external" class="- topic/xref ">Twitter</xref>
+            website.</li></ul><note type="important" class="- topic/note ">
+        
+        <ul class="- topic/ul "><li class="- topic/li ">Android mobile device with a Universal Serial Bus (USB) data
+               cable.</li><li class="- topic/li ">Application Under Test (AUT): E.g. <xref format="html" href="https://twitter.com/?lang=en" scope="external" class="- topic/xref ">Twitter</xref> on your
+               mobile.</li><li class="- topic/li ">Browserstack AUT ID: The AUT ID you use based on your Cloud
+               provider.</li></ul>
+
+        <p class="- topic/p ">For more information on how to set up your Android mobile device
+            to test Android applications with <b class="+ topic/ph hi-d/b ">Katalon Studio</b>,
+            refer to <xref href="../../../Manage_Projects/Set_Up_Projects/Mobile-Testing/Android/Mobile_Android_Setup/Set_up_Android_tests_on_Windows_Linux_and_macOS.dita" class="- topic/xref ">Android
+               Setup for mobile devices</xref>.</p>
+
+        <p class="- topic/p ">You can also use an Android Studio Emulator to test Android
+            applications. This eliminates the need for a mobile device
+            physically connected to your system. For more information on how to
+            configure an Android Studio Emulator, refer to <xref href="../../../Manage_Projects/Set_Up_Projects/Mobile-Testing/Android/Mobile_Configure_Android_Studio_Emulator/configure_android_studio.dita" class="- topic/xref ">Configure
+               Android Studio Emulator for mobile devices</xref>.</p>
+      </note><p class="- topic/p ">To generate test scripts using a mobile recorder, perform the
+         following steps:</p></conbody></concept>

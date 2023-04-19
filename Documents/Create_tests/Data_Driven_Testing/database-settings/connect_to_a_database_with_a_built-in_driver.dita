@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Connect to a database with a built-in driver in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">The following example illustrates how to connect to a Postgre database that can be used in a whole project.</p><note type="important" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">
+                    <p class="- topic/p ">You have already set up your Postgre database.</p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">Postgre database is running.</p>
+                </li></ul>
+        </note><p class="- topic/p ">To establish a connection, go to <b class="+ topic/ph hi-d/b ">Project &gt; Settings &gt; Database</b>. In <b class="+ topic/ph hi-d/b ">Database</b>:</p><ol class="- topic/ol "><li class="- topic/li ">Select <b class="+ topic/ph hi-d/b ">Secure User and Password</b> to enable <b class="+ topic/ph hi-d/b ">User</b> and <b class="+ topic/ph hi-d/b ">Password</b>.</li><li class="- topic/li ">Input <b class="+ topic/ph hi-d/b ">User</b> name and <b class="+ topic/ph hi-d/b ">Password</b> used for authentication and <b class="+ topic/ph hi-d/b ">Connection URL</b>.</li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Test Connection</b> to verify whether your database is connected successfully.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/database-settings/KS-DATABASE-Connect-built-in-library.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Connect Database with a built-in driver</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Apply and Close</b> to save your setting.</p>
+            </li></ol></conbody></concept>

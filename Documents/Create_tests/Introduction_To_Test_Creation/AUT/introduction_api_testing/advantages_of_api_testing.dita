@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Advantages of API testing</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">As discussed above, API testing is an important activity that
+         testing teams should focus on. It offers a number of advantages
+         over other kinds of testing:</p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">
+          <p class="- topic/p ">Language independent: Data is exchanged via XML and JSON, so any
+               language can be used for automation, independent from the languages
+               used to develop the application. XML and JSON are typically
+               structured data so the verification is fast and stable. There are
+               also built-in libraries to support comparing data using these data
+               formats.</p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">GUI independent: We can perform API testing within the
+               application prior to GUI testing. Early testing will get feedback
+               sooner and improve the team's productivity. Core functionality can
+               be tested to expose small errors and to evaluate a build's
+               strengths.</p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Improved test coverage: Most API/services have specifications,
+               allowing us to create automated tests with high coverage, including
+               functional testing (happy cases, negative cases) and non-functional
+               testing. With virtual user techniques, we rarely find API test
+               cases that could not be automated.</p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Faster releases: It is common that executing a UI regression
+               test suite takes 8-10 hrs while the same scenario with API testing
+               takes only 1-2 hours. The flakiness of API testing is also lower
+               than that of UI testing. All these allow us to release faster with
+               API testing.</p>
+        </li>
+      </ul>
+      <p class="- topic/p ">
+        <xref format="html" href="https://www.katalon.com/download" scope="external" class="- topic/xref ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/introduction_api_testing/api-testing-interview-question.png" scope="external" class="- topic/image "/>
+        </xref>
+      </p>
+    </conbody>
+  </concept>

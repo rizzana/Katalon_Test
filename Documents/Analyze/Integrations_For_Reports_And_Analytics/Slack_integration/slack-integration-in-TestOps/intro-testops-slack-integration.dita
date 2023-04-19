@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Manage test reports with Slack - <ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/> integration</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Katalon TestOps allows you to integrate with Slack to receive notifications of your test results on Slack.</p><note type="important" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">You must be the Owner of an Organization and a Team. See: <xref href="../../../../Administer/Administrative_Roles/testops-roles-privileges/org-level-roles-privileges.dita" class="- topic/xref ">Roles and Permissions</xref>.</li><li class="- topic/li ">You must be the Admin of a Slack workspace.</li></ul>
+        </note></conbody></concept>

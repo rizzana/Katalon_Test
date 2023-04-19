@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-TestOps-Integration" class="- map/map "><title class="- topic/title ">Integrate TestOps with Studio</title><topicref href="Integrate_Katalon_TestOps_with_Katalon_Studio.dita" class="- map/topicref "><topicref href="For_Katalon_Studio_8-6-0.dita" class="- map/topicref "/><topicref href="For_before_8-6-0.dita" class="- map/topicref "><topicref href="Enable_TestOps_integration_in_Standalone_edition.dita" class="- map/topicref "/><topicref href="Use_TestCloud_in_Katalon_Studio.dita" class="- map/topicref "/></topicref><topicref href="override_authentication.dita" class="- map/topicref "/></topicref></map>

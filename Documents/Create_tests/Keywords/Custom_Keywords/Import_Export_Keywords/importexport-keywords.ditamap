@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-importexport-keywords" class="- map/map ">
+  <title class="- topic/title ">Import/Export Keywords</title>
+  <topicref href="importexport-keywords.dita" class="- map/topicref "><topicref href="import_keywords.dita" class="- map/topicref ">
+    <topicref href="import_from_local_folder.dita" class="- map/topicref "/>
+    <topicref href="import_from_git.dita" class="- map/topicref "/>
+    <topicref href="duplicate_keywords.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="export_keywords.dita" class="- map/topicref "/>
+</topicref>
+  </map>

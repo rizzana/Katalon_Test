@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">How to find object locators?</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">You can capture objects, get web element XPath or CSS locators, and manually input XPath or CSS object selectors using Spy Web Utility. Spy Web Utility provides instant feedback by auto-detecting and highlighting all elements that match with the provided selector.</p><p class="- topic/p ">In this section, we will illustrate how to use the Spy Web Utility to find object locators.</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Open or create a new project. From the main toolbar, click on the <uicontrol class="+ topic/ph ui-d/uicontrol ">Spy Web</uicontrol> icon.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/spy-icon.png" scope="external" width="350" class="- topic/image "><alt class="- topic/alt ">spy web utility</alt></image>
+                </p>
+                <p class="- topic/p ">The <uicontrol class="+ topic/ph ui-d/uicontrol ">Object Spy</uicontrol> window displays.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In the URL section, input the URL of the website you want to test. We use our demo page in this example: <codeph class="+ topic/ph pr-d/codeph ">http://demoaut.katalon.com/</codeph>
+                </p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/object-spy-dialog.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">object spy dialog</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">To choose a browser, click on the dropdown icon of the <uicontrol class="+ topic/ph ui-d/uicontrol ">Start</uicontrol> button. For this example, we choose a new Chrome browser.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/choose-browser.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">choose browser</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <uicontrol class="+ topic/ph ui-d/uicontrol ">Start</uicontrol>. Katalon Studio opens a new Chrome browser and navigates to the demo website.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">To capture test objects, first, hover the mouse over them. The focused web object is highlighted in red.</p>
+                <p class="- topic/p "> <image width="700" href="image/ks-855-capture-ob.png" class="- topic/image "/></p>
+                <p class="- topic/p ">Then, by pressing <codeph class="+ topic/ph pr-d/codeph ">\</codeph> or right-clicking and choosing <uicontrol class="+ topic/ph ui-d/uicontrol ">Capture Object</uicontrol>, the focused object is captured and added to the <uicontrol class="+ topic/ph ui-d/uicontrol ">Capture Object</uicontrol> list.</p>
+                <p class="- topic/p ">Katalon Studio automatically captures all available properties of the objects. You can change the folder name and edit the value of any properties.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/selected-locator.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">selected locator</alt></image>
+                </p>
+                <p class="- topic/p ">In the <uicontrol class="+ topic/ph ui-d/uicontrol ">Selection Method</uicontrol> section, you can choose <uicontrol class="+ topic/ph ui-d/uicontrol ">XPath</uicontrol>, <uicontrol class="+ topic/ph ui-d/uicontrol ">Attributes</uicontrol>, <uicontrol class="+ topic/ph ui-d/uicontrol ">CSS</uicontrol>, or <uicontrol class="+ topic/ph ui-d/uicontrol ">Image</uicontrol> to locate captured objects.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In the <uicontrol class="+ topic/ph ui-d/uicontrol ">Selected Locator</uicontrol> section, you can manually input your XPath, then click <uicontrol class="+ topic/ph ui-d/uicontrol ">Verify and Highlight</uicontrol>. Katalon finds elements that match your XPath locator and highlights them on the web page.</p>
+                <p class="- topic/p ">A single locator might identify many elements because a web page can have many elements that use the same formats and styles. The next section will guide you on how to create unique locators to find complex or dynamic elements. See below: <xref href="working_with_xpath_selector.dita" class="- topic/xref ">Working with XPath selector</xref>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">To save objects to the <uicontrol class="+ topic/ph ui-d/uicontrol ">Objects Repository</uicontrol>, click <uicontrol class="+ topic/ph ui-d/uicontrol ">Save</uicontrol>. Then, select a folder to add the captured objects into. Click <uicontrol class="+ topic/ph ui-d/uicontrol ">OK</uicontrol> when done.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/Add-to-repo.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">selected locator</alt></image>
+                </p>
+            </li></ol></conbody></concept>

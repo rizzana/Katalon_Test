@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Update aws-device-farm-integration project</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">Clone or download <b class="+ topic/ph hi-d/b ">aws-device-farm-integration</b>
+            from our repository: <xref format="html" href="https://github.com/katalon-studio-samples/aws-device-farm-integration" scope="external" class="- topic/xref ">Katalon
+               Studio AWS Device Farm Integration</xref>.</li><li class="- topic/li ">
+            <p class="- topic/p ">Inside <b class="+ topic/ph hi-d/b ">aws-device-farm-integration</b>, place your
+               Katalon Project .zip file in this directory:
+               <codeph class="+ topic/ph pr-d/codeph ">src/test/resources</codeph>.</p>
+            <p class="- topic/p ">
+              <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/aws-device-farm-integration/zip-demo-project.png" scope="external" width="400" class="- topic/image "><alt class="- topic/alt ">zip demo project</alt></image>
+            </p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">Open the <codeph class="+ topic/ph pr-d/codeph ">config.properties</codeph> file and change the
+               following variables as your context:</p>
+            <ul class="- topic/ul "><li class="- topic/li ">
+                <codeph class="+ topic/ph pr-d/codeph ">KATALON_VERSION</codeph>: Katalon Runtime Engine
+                  version.</li><li class="- topic/li ">
+                <codeph class="+ topic/ph pr-d/codeph ">KATALON_PROJECT_PACKAGE_FILE</codeph>: Your package
+                  file.</li><li class="- topic/li ">
+                <codeph class="+ topic/ph pr-d/codeph ">KATALON_EXECUTE_ARGS</codeph>: The arguments part of your
+                  Katalon run command 
+                  
+                  <ul class="- topic/ul "><li class="- topic/li ">The <codeph class="+ topic/ph pr-d/codeph ">-browserType</codeph> argument must be set to
+                        <codeph class="+ topic/ph pr-d/codeph ">"Remote"</codeph>.</li><li class="- topic/li ">The <codeph class="+ topic/ph pr-d/codeph ">-reportFolder=$DEVICEFARM_LOG_DIR</codeph> argument
+                        allows us to download the execution report in Files/Customer
+                        Artifact of the AWS Device Farm Job.</li><li class="- topic/li ">For more arguments, refer to <xref href="../../../Katalon_Runtime_Engine/console-mode-execution/General_Options.dita" class="- topic/xref ">Command
+                           Syntax</xref>.</li></ul>
+              </li></ul>
+            <p class="- topic/p ">For example:</p>
+            
+              <codeblock class="+ topic/pre pr-d/codeblock ">KATALON_VERSION=8.1.0
+KATALON_PROJECT_PACKAGE_FILE=KatalonDemoProject.zip
+KATALON_EXECUTE_ARGS=-retry=0 -testSuitePath="Test Suites/Regression Tests" -executionProfile=default -browserType=Remote -reportFolder=$DEVICEFARM_LOG_DIR -apiKey=xxxxxxxx
+</codeblock>
+            
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">To build the <b class="+ topic/ph hi-d/b ">aws-device-farm-integration</b>, at
+               the folder <b class="+ topic/ph hi-d/b ">aws-device-farm-integration</b>, typing the
+               below command in the terminal:</p>
+            <p class="- topic/p ">
+              <codeph class="+ topic/ph pr-d/codeph ">mvn clean package -DskipTests=true</codeph>
+            </p>
+            <p class="- topic/p ">When the build runs successfully, in the <codeph class="+ topic/ph pr-d/codeph ">target</codeph>
+               folder, you will see a .zip file named
+               <codeph class="+ topic/ph pr-d/codeph ">zip-with-dependencies.zip</codeph>.</p>
+            <p class="- topic/p ">
+              <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/aws-device-farm-integration/2-build-project-with-maven.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">build project with maven</alt></image>
+            </p>
+          </li></ol></conbody></concept>

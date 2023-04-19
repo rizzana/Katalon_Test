@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords?><?workdir-uri file:/Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/?><?path2project ../../../../../?><?path2project-uri ../../../../../?><?path2rootmap-uri ../../../../../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="id_2" class="- topic/topic concept/concept " ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="concept:1;3:59" specializations="@props/deliveryTarget">
+    <title class="- topic/title " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="title:1;4:35">Create a Custom Keyword</title>
+    <conbody class="- topic/body  concept/conbody " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="conbody:1;5:53">
+      <ol class="- topic/ol " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="ol:1;6:31">
+        <li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="li:1;7:33">
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="p:1;8:33">Select <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="b:1;8:70">File &gt; New &gt;
+                  Keyword</b> from the main menu. The <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="b:2;9:85">New
+                  Keyword</b> dialog is displayed. Enter a name for your
+               keyword and specify a <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="b:3;11:68">package</b> for the
+               keyword. Click <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="b:4;12:61">OK</b>.</p>
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="p:2;13:33">By default, a class name cannot start with a number, contain
+               spaces, or have special characters. The Java naming convention
+               suggests creating a class name using a noun or a noun phrase, with
+               the first letter of each word capitalized, to better manage the
+               project.</p>
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="p:3;18:33">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-to-custom-keywords/image2018-4-2-143A373A16.png" scope="external" class="- topic/image " placement="inline" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="image:1;19:206"/>
+          </p>
+          <note type="note" class="- topic/note " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="note:1;21:51">
+
+            <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="p:4;23:35">You can generate sample custom keywords for Web, Mobile, and API
+                  Testing. Refer to <xref href="../Sample_Custom_Keywords/sample-custom-keywords.dita" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="xref:1;24:126" type="concept"><?ditaot usertext?>this
+                     guide</xref>.</p>
+          </note>
+        </li>
+        <li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="li:2;28:33">
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="p:5;29:33">A new keyword is created under the
+               specified <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="b:5;30:56">package</b> accordingly.</p>
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="p:6;31:33">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-to-custom-keywords/image2017-2-6-153A503A48.png" scope="external" class="- topic/image " placement="inline" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="image:2;32:206"/>
+          </p>
+        </li>
+        <li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="li:3;35:33">
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="p:7;36:33">Enter the following code snippet in your class to define a
+               custom keyword:</p>
+          
+            <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="codeblock:1;39:60">@Keyword (keywordObject = "&lt;category_name&gt;")
+def keywordName(parameters…) {
+// enter your code here
+// you can use either Groovy or Java
+}
+</codeblock>
+          
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="p:8;46:33">where:</p>
+          <table class="- topic/table " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="table:1;47:41">
+            <tgroup cols="3" class="- topic/tgroup " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="tgroup:1;48:54">
+              <colspec class="- topic/colspec " colnum="1" colname="col1"/><colspec class="- topic/colspec " colnum="2" colname="col2"/><colspec class="- topic/colspec " colnum="3" colname="col3"/><thead class="- topic/thead " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="thead:1;49:45">
+                <row class="- topic/row " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="row:1;50:43">
+                  <entry class="- topic/entry " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="entry:1;51:49" colname="col1" dita-ot:x="1" dita-ot:y="1">Item</entry>
+                  <entry class="- topic/entry " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="entry:2;52:49" colname="col2" dita-ot:x="2" dita-ot:y="1">Description</entry>
+                  <entry class="- topic/entry " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="entry:3;53:49" colname="col3" dita-ot:x="3" dita-ot:y="1">Required</entry>
+                </row>
+              </thead>
+              <tbody class="- topic/tbody " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="tbody:1;56:45">
+                <row class="- topic/row " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="row:2;57:43">
+                  <entry class="- topic/entry " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="entry:4;58:49" colname="col1" dita-ot:x="1" dita-ot:y="2">@Keyword</entry>
+                  <entry class="- topic/entry " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="entry:5;59:49" colname="col2" dita-ot:x="2" dita-ot:y="2">The annotation to indicate that the block of code below is the
+                        definition of a keyword.</entry>
+                  <entry class="- topic/entry " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="entry:6;61:49" colname="col3" dita-ot:x="3" dita-ot:y="2">Mandatory</entry>
+                </row>
+                <row class="- topic/row " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="row:3;63:43">
+                  <entry class="- topic/entry " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="entry:7;64:49" colname="col1" dita-ot:x="1" dita-ot:y="3">keywordObject</entry>
+                  <entry class="- topic/entry " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="entry:8;65:49" colname="col2" dita-ot:x="2" dita-ot:y="3">The category of your custom keyword (available from version
+                        7.5.5)</entry>
+                  <entry class="- topic/entry " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="entry:9;67:49" colname="col3" dita-ot:x="3" dita-ot:y="3">Optional</entry>
+                </row>
+                <row class="- topic/row " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="row:4;69:43">
+                  <entry class="- topic/entry " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="entry:10;70:49" colname="col1" dita-ot:x="1" dita-ot:y="4">keywordName</entry>
+                  <entry class="- topic/entry " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="entry:11;71:49" colname="col2" dita-ot:x="2" dita-ot:y="4">The name that you would like to use for your custom
+                        keyword</entry>
+                  <entry class="- topic/entry " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="entry:12;73:49" colname="col3" dita-ot:x="3" dita-ot:y="4">Mandatory</entry>
+                </row>
+                <row class="- topic/row " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="row:5;75:43">
+                  <entry class="- topic/entry " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="entry:13;76:49" colname="col1" dita-ot:x="1" dita-ot:y="5">parameters</entry>
+                  <entry class="- topic/entry " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="entry:14;77:49" colname="col2" dita-ot:x="2" dita-ot:y="5">The list of parameters that would be used in the custom
+                        keyword</entry>
+                  <entry class="- topic/entry " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="entry:15;79:49" colname="col3" dita-ot:x="3" dita-ot:y="5">Mandatory</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="p:9;84:33">For example:</p>
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="p:10;85:33">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-to-custom-keywords/image2017-2-6-163A203A3.png" scope="external" class="- topic/image " placement="inline" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="image:3;86:205"/>
+          </p>
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="p:11;88:33">From version <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="b:6;88:76">7.5.5</b>, Custom Keywords in Keyword
+               Browser are put in alphabetical order, and you can categorize them.
+               In particular, the category name should be declared via
+               <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="codeph:1;91:56">keywordObject</codeph> with the same mechanism as the built-in
+               keywords. The below sample describes a keyword with the
+               “Browser“ category:</p>
+          
+            <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="codeblock:2;95:60">@Keyword(keywordObject = "Browser")
+def refreshBrowser() {
+}
+</codeblock>
+          
+        </li>
+        <li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="li:4;101:33">
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="p:12;102:33">Save the <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" xtrc="b:7;102:72">Keyword</b> file when you're
+               done.</p>
+        </li>
+      </ol>
+    </conbody>
+  </concept>

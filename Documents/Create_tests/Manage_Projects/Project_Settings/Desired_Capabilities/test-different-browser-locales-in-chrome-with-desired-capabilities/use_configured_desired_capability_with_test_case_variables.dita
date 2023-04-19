@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Use Configured Desired Capability with Test Case Variables</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">In this section, we show you two possible approaches to alter
+         browser locales while testing:</p><ul class="- topic/ul "><li class="- topic/li ">To test one specific language with a test case.</li><li class="- topic/li ">To test different languages with a test suite.</li></ul><note type="note" class="- topic/note ">
+
+        
+        <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Here is a sample project you can download as a .zip file:</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "><xref format="html" href="https://github.com/katalon-studio-samples/multi-locales-sample/blob/main/Test%20Cases/Run%20with%20local%20Chrome.tc" scope="external" class="- topic/xref ">Sample
+               test cases run with multiple locales</xref>.</p></li><li class="- topic/li "><p class="- topic/p "><xref format="html" href="https://github.com/katalon-studio-samples/multi-locales-sample/tree/main/Test%20Suites" scope="external" class="- topic/xref ">Sample
+               test suite with data binding support</xref>.</p></li></ul></li></ul>
+      </note></conbody></concept>

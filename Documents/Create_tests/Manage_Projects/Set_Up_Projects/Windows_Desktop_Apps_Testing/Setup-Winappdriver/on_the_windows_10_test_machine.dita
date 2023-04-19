@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">On the Windows 10 test machine</title><conbody class="- topic/body  concept/conbody "><note type="note" class="- topic/note "> 
+            <ul class="- topic/ul "><li class="- topic/li ">While the test is being run, make sure to have WinAppDriver open and configured for the remote connection on the Windows 10 test machine.</li></ul>
+        </note><p class="- topic/p ">After installing WinAppDriver and enabling <b class="+ topic/ph hi-d/b ">Developer Mode</b>, to configure WinAppDriver for the remote connection, follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">Open <b class="+ topic/ph hi-d/b ">Task Manager</b> &gt; Select <b class="+ topic/ph hi-d/b ">File</b> &gt; Create a new task.</li><li class="- topic/li ">
+                <p class="- topic/p ">Select <b class="+ topic/ph hi-d/b ">Create this task with administrative privileges</b> and enter <codeph class="+ topic/ph pr-d/codeph ">cmd</codeph> in the <b class="+ topic/ph hi-d/b ">Open</b> text box, then click the <b class="+ topic/ph hi-d/b ">OK</b> button.</p>
+                <p class="- topic/p "> <image height="171" href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-desktop-app-testing/Set-up-1.png" scope="external" width="476" class="- topic/image "/>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Run <codeph class="+ topic/ph pr-d/codeph ">cd</codeph> to your WinAppDriver installation folder. By default, it is at <codeph class="+ topic/ph pr-d/codeph ">C:\Program Files (x86)\Windows Application
+                  Driver</codeph>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Run <codeph class="+ topic/ph pr-d/codeph ">WinAppDriver.exe &lt;IP_Adress&gt;
+                  &lt;Port&gt;</codeph>.</p>
+                <ul class="- topic/ul "><li class="- topic/li "> <codeph class="+ topic/ph pr-d/codeph ">IP_Adress</codeph>: is the public IP address of the test machine. Run <codeph class="+ topic/ph pr-d/codeph ">ipconfig.exe</codeph> to determine the IP address.</li><li class="- topic/li "> <codeph class="+ topic/ph pr-d/codeph ">Port</codeph>: is the public port of the remote machine. By default, it should be 4723.</li></ul>
+                <p class="- topic/p "> <image height="146" href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-desktop-app-testing/Set-up-2.png" scope="external" width="690" class="- topic/image "/>
+                </p>
+                <note type="note" class="- topic/note "><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">If the test machine is in a highly secured environment with firewall, you might need to create an Inboud Port Rule for the test machine to receive inbound requests. To set up the inbound rule, you can follow the steps here in the WinAppDriver project document: <xref format="html" href="https://github.com/microsoft/WinAppDriver/blob/master/Docs/RunningOnRemoteMachine.md" scope="external" class="- topic/xref ">Create an Inbound Port Rule</xref>.</p></li></ul></note></li></ol></conbody></concept>

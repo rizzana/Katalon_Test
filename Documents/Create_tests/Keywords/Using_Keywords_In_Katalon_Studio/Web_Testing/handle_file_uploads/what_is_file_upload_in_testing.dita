@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">What is File Upload in testing?</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">The file upload widget is the input tag having the
+         <b class="+ topic/ph hi-d/b ">type</b> attribute that is equal to
+         <b class="+ topic/ph hi-d/b ">file</b>. It allows us to upload all file formats
+         (.jpg, .png, .txt…)</p>
+    </conbody>
+  </concept>

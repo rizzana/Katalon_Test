@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Via Katalon website</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+            <p class="- topic/p ">Go to the <xref format="html" href="https://www.katalon.com/pricing/" scope="external" class="- topic/xref ">Katalon
+                  Pricing</xref> page.</p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">Click on the <b class="+ topic/ph hi-d/b ">TestCloud</b> tab.</p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">Select a plan.</p>
+            <ul class="- topic/ul "><li class="- topic/li ">
+                <p class="- topic/p ">If you choose <b class="+ topic/ph hi-d/b ">TestCloud Per Session</b>, choose
+                     <b class="+ topic/ph hi-d/b ">Monthly/Annual</b> and input the desired number of
+                     sessions. Katalon will do the billing calculation for you. Click
+                     <b class="+ topic/ph hi-d/b ">Buy Now</b>.</p>
+                <p class="- topic/p ">
+                  <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/purchase-tc/TC-Website-pricing-ui-may2022.png" scope="external" width="80%" class="- topic/image "><alt class="- topic/alt ">katalon testcloud pricing page</alt></image>
+                </p>
+              </li><li class="- topic/li ">
+                <p class="- topic/p ">If you want to find out which options are the most
+                     cost-effective for your teams, scroll down to the <b class="+ topic/ph hi-d/b ">Estimate
+                        Your Price</b> section, choose <b class="+ topic/ph hi-d/b ">Plan</b>,
+                     <b class="+ topic/ph hi-d/b ">Billing cycle</b>, then adjust the tier or input the
+                     number of sessions you want to purchase. Once decided, click
+                     <b class="+ topic/ph hi-d/b ">Buy Now</b>.</p>
+                <p class="- topic/p ">
+                  <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/purchase-tc/TC-Website-pricing-estimation.png" scope="external" width="100%" class="- topic/image "><alt class="- topic/alt ">katalon testcloud estimation section</alt></image>
+                </p>
+              </li></ul>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">Sign in with your Katalon account if you haven't done so. You
+               will be redirected to the Katalon TestOps homepage, select your desired <ph conkeyref="name-variables/katalon-platform" class="- topic/ph "/> Account, fill out the
+               billing information and payment method, then click
+               <uicontrol class="+ topic/ph ui-d/uicontrol ">Checkout</uicontrol> to finish.</p>
+          </li></ol></conbody></concept>

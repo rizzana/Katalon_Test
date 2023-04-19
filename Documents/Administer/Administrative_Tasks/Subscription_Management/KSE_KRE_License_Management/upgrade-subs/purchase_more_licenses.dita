@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Purchase more licenses</title><conbody class="- topic/body  concept/conbody "><note type="note" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">Only the Account Owner or Admin can upgrade a subscription.</li><li class="- topic/li ">Subscription upgrade does NOT require subscription cancellation.</li><li class="- topic/li ">The <i class="+ topic/ph hi-d/i ">Upgrade</i> button only appears when you have purchased at least one license. See <xref href="../license-subscription/license-subscription.dita" class="- topic/xref ">Purchase Katalon License</xref>.</li></ul>
+        </note><p class="- topic/p ">To add more licenses to your subscription, follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">Log in to <xref format="html" href="https://testops.katalon.io/" scope="external" class="- topic/xref ">Katalon TestOps</xref> and select the desired Account.</li><li class="- topic/li ">Go to <uicontrol class="+ topic/ph ui-d/uicontrol ">Settings</uicontrol> &gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">Subscription Management</uicontrol>.</li><li class="- topic/li ">
+                <p class="- topic/p ">In the <uicontrol class="+ topic/ph ui-d/uicontrol ">Additional Subscription</uicontrol> section, locate the license you want to purchase, then  click <i class="+ topic/ph hi-d/i ">option</i> &gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">Upgrade</uicontrol>.</p>
+                <p class="- topic/p "> 
+                <image width="700" href="Subscription-management-upgrade-license.png" class="- topic/image "><alt class="- topic/alt ">Additional subscription - Upgrade license</alt></image></p>
+                <note type="note" class="- topic/note ">
+                    <ul class="- topic/ul "><li class="- topic/li ">You can only upgrade a single license type at a time.</li></ul>
+                </note>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In the checkout page, adjust the total number of licenses. Apply discount code, if any.</p>
+                
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Fill in or update your billing information, then click <uicontrol class="+ topic/ph ui-d/uicontrol ">Checkout</uicontrol>.</p>
+            </li></ol><p class="- topic/p ">Successful payment will immediately change your subscription.</p></conbody></concept>

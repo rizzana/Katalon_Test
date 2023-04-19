@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_7" class="- topic/topic concept/concept "><title class="- topic/title ">Request Headers</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">The header information needs sending along with this SOAP
+         request. You can select headers from the list of suggested options
+         (by double-clicking on the <b class="+ topic/ph hi-d/b ">Name</b> cell) or enter
+         another header of your interest. For more details, refer to Mozilla documentation: <xref format="html" href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers" scope="external" class="- topic/xref ">Supported
+            HTTP Headers</xref>.</p><p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/soap-request/header.png" scope="external" class="- topic/image "/>
+        </p></conbody></concept>

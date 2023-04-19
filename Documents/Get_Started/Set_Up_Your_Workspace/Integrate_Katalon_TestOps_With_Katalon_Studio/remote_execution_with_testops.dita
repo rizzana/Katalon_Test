@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Remote execution with <ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p "><ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/> also allows you to:</p><ul class="- topic/ul "><li class="- topic/li ">
+          <p class="- topic/p "><xref href="../../../Execute/Cloud_based_test_execution/Test_execution_with_TestOps/Local-Test-Environments/agents/agents.dita" class="- topic/xref ">Create
+                  a Local Test Environment with an Agent</xref>: You can execute tests
+               periodically on remote machines by setting up agents in <ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/>.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">
+            <xref href="../../../Organize/upload-tests-via-git-repo/intro-git-test-project.dita" class="- topic/xref ">Upload
+                  Test Scripts from a Git Repository</xref>: Retrieve the latest version
+               of your <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> projects stored in <ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/> or
+               Git.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">
+            <xref href="../../../Execute/Schedule_test_executions/Schedule-test-runs-in-testops/schedule_test_runs.dita" class="- topic/xref ">Schedule
+                  Test Runs</xref>: Install and manage multiple versions of Katalon
+               Runtime Engine on your test machines without the need to do so
+               manually.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">
+            <xref href="../../../Execute/Schedule_test_executions/Execute-test-run-in-testops/kt-scheduler.dita" class="- topic/xref ">Execute
+                  Test Runs manually</xref>: Execute tests and submit the test results
+               to <ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/> for review.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">
+            <xref href="../../../Execute/Cloud_based_test_execution/Test_execution_with_TestOps/Local-Test-Environments/load-balancing-agents/configure_an_agent_threshold.dita" class="- topic/xref ">Configure
+                  an Agent's Threshold</xref>: Keep the number of concurrent executions
+               under a configurable limit.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">
+            <xref href="../../../Execute/Cloud_based_test_execution/Test_execution_with_TestOps/Local-Test-Environments/auto-distributed-execution/how_it_works.dita" class="- topic/xref ">Auto-Distributed
+                  Executions</xref>: <ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/> distributes jobs among active
+               Agents to balance workload. This feature is useful especially if
+               you only have a limited number of licenses and want to queue your
+               executions periodically.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">
+            <xref href="../../../Analyze/Reports/View_Test_Reports/View_reports_in_TestOps/view-traceability-matrix/view-traceability-matrix.dita" class="- topic/xref ">Requirement
+                  Traceability Matrix</xref>: For advanced reports such as traceability
+               matrix report and insights into your testing data, sign in to <xref format="html" href="https://testops.katalon.io/login" scope="external" class="- topic/xref "><ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/></xref> with
+               your Katalon account.</p>
+        </li></ul></conbody></concept>

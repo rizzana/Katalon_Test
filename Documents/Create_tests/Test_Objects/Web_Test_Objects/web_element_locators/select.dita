@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_9" class="- topic/topic concept/concept "><title class="- topic/title ">Select</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">A Select (or Drop-down list) allows you select an item from
+            a list of defined items. Normally, the locator of a select is
+            similar to that of a textbox—the difference is on the tag: it
+            uses 'select' tag instead of 'input'.</p><p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/web_element_locators/Drop-down-list.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Drop-down-list</alt></image>
+        </p><codeblock class="+ topic/pre pr-d/codeblock ">&lt;label for="tl0023"&gt;Priority&lt;/label&gt;
+&lt;select class="select aui-ss-select" id="tl0023" multiple="multiple"&gt;
+&lt;option class="imagebacked" value="10000"&gt;Blocker&lt;/option&gt;
+&lt;option class="imagebacked" value="1"&gt;Highest&lt;/option&gt;
+&lt;option class="imagebacked" value="2"&gt;High&lt;/option&gt;
+&lt;option class="imagebacked" value="3"&gt;Medium&lt;/option&gt;
+&lt;option class="imagebacked" value="4"&gt;Low&lt;/option&gt;
+&lt;/select&gt;
+
+</codeblock><p class="- topic/p ">The following XPaths can be used to locate the select
+            element above:<ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "><codeph class="+ topic/ph pr-d/codeph ">//Select[@id=//label[.="Priority"]/@for]</codeph> </p></li><li class="- topic/li "><p class="- topic/p "><codeph class="+ topic/ph pr-d/codeph ">//Select[.//option[.="Highest"]]</codeph></p></li><li class="- topic/li "><p class="- topic/p "><codeph class="+ topic/ph pr-d/codeph ">//option[.="Highest"]//ancestor::Select[1]</codeph></p></li></ul></p></conbody></concept>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept "><title class="- topic/title ">Welcome to Jira</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Xpath: //h2[text()='Welcome to Jira'] //div[.='Welcome to Jira'] | Priority Xpath: //label[text()='Priority'] //label[.='Priority'] | | --- | --- |
+    </p></conbody></concept>

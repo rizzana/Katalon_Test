@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">App Center Integration</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Sideload</b> is built for executing Katalon Studio
+         tests on App Center Test. <xref format="html" href="https://docs.microsoft.com/en-us/appcenter/test-cloud/" scope="external" class="- topic/xref ">App
+            Center Test</xref> only supports running tests using supported
+         frameworks such as <xref format="html" href="https://docs.microsoft.com/en-gb/appcenter/test-cloud/preparing-for-upload/appium" scope="external" class="- topic/xref ">Appium
+            tests written in Java with JUnit</xref>; hence, Katalon users cannot
+         execute their tests on App Center Test directly.</p><p class="- topic/p ">You can execute your Katalon test scripts with devices provided
+         on App Center Test by using <b class="+ topic/ph hi-d/b ">sideload</b> to package
+         Katalon projects in JUnit format. This tutorial shows you how to
+         integrate with App Center Test using <b class="+ topic/ph hi-d/b ">sideload</b>. We
+         also provide the <b class="+ topic/ph hi-d/b ">KatalonDemoProject</b> as a usage
+         example.</p></conbody></concept>

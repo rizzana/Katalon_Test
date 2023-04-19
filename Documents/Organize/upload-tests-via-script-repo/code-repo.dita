@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Upload Test Scripts to a Script Repository</title><conbody class="- topic/body  concept/conbody "><note type="note" class="- topic/note ">Starting Feb 28, 2022 (TestOps February Release), TestOps will:
+<ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Deprecate the function <i class="+ topic/ph hi-d/i ">Create Script Repository</i> and <i class="+ topic/ph hi-d/i ">Update Existing Script Repository</i> to any project that has not used it before.</p></li><li class="- topic/li "><p class="- topic/p ">Retain these functions for any project that has been using them.</p></li></ul><p class="- topic/p ">Starting Sep 1, 2022, TestOps will:</p>
+        <ul class="- topic/ul "><li class="- topic/li ">Deprecate this feature to all projects and associated users -
+               whether they have used it or not.</li></ul></note><p class="- topic/p ">In Katalon TestOps, you can store your test scripts in a script
+         repository. A script repository helps you manage and organize your
+         test projects better for remote execution.</p><p class="- topic/p ">You can upload your test scripts as a .zip file from your local
+         machine.</p></conbody></concept>

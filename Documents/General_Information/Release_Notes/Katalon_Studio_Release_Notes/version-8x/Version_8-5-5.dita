@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-5522" xml:lang="en-us" class="- topic/topic concept/concept "><title class="- topic/title ">Version 8.5.5</title><shortdesc class="- topic/shortdesc ">Here's what's new in Katalon Studio 8.5.5. </shortdesc><prolog class="- topic/prolog "><author translate="no" type="creator" class="- topic/author ">Xuan Tran &lt;xuan.tran@katalon.com&gt;</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "/></metadata></prolog><conbody class="- topic/body  concept/conbody "><section class="- topic/section ">
+            <title class="- topic/title ">Enhancements</title>
+            <ul class="- topic/ul "><li class="- topic/li ">
+                    <p class="- topic/p ">We added Chrome 107 and Edge 107 compatibility for Katalon Studio 8.5.5 and later releases.</p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">Katalon Studio now has an updated look, courtesy of our  new brand logo.</p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">The following are security compliance enhancements that come with Katalon 8.5.5: </p>
+                    <ul class="- topic/ul "><li class="- topic/li ">
+                            <p class="- topic/p ">Upgraded PostgreSQL to version 42.4.1.</p>
+                        </li><li class="- topic/li ">
+                            <p class="- topic/p ">Upgraded TinyMCE and TinyMCE jQuery to version 6.2.0.</p>
+                        </li><li class="- topic/li ">
+                            <p class="- topic/p ">Upgraded Eclipse Jetty libraries to 9.4.48.v20220622.</p>
+                        </li><li class="- topic/li ">
+                            <p class="- topic/p ">Upgraded SnakeYML to version 1.31.</p>
+                        </li><li class="- topic/li ">
+                            <p class="- topic/p ">Upgraded WebDriverManager JAR to version 4.4.3. </p>
+                        </li><li class="- topic/li ">
+                            <p class="- topic/p ">Resolved the vulnerabilities from the woodstox-core version 5.3.0. </p>
+                        </li><li class="- topic/li ">
+                            <p class="- topic/p ">Upgraded the Apache Commons Text library to version 1.10.0. </p>
+                        </li><li class="- topic/li ">
+                            <p class="- topic/p ">TestRail password is encrypted before saving to the <codeph class="+ topic/ph pr-d/codeph ">com.katalon.katalon-studio-testrail-plugin.properties</codeph> file.</p>
+                        </li><li class="- topic/li ">
+                            <p class="- topic/p ">Fixed the Web Server Directory Traversal Arbitrary File Access vulnerabilities of the Katalon web view, which serves the Start Page and the Product Tour. </p>
+                        </li></ul>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">Email addresses that contain the special character <codeph class="+ topic/ph pr-d/codeph ">'</codeph> can now activate their accounts in Katalon Studio.</p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">We have added the option to automatically generate HTML reports for test suite collections. See <xref href="../../../../Analyze/Reports/View_Test_Reports/View_test_reports_in_Studio/view-test-suite-report-in-Studio/automatically_generate_reports.dita" class="- topic/xref "/>.</p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">The following are the latest enhancements that come with Katalon Studio - Platform Edition version 8.5.5:<ul class="- topic/ul "><li class="- topic/li ">
+                                <p class="- topic/p ">Added more error messages when unable to open recent projects.</p>
+                            </li><li class="- topic/li ">
+                                <p class="- topic/p ">Added the <uicontrol class="+ topic/ph ui-d/uicontrol ">Troubleshoot</uicontrol> button to the <uicontrol class="+ topic/ph ui-d/uicontrol ">Open Project</uicontrol> dialog.</p>
+                            </li><li class="- topic/li ">
+                                <p class="- topic/p ">Added more projects to the <uicontrol class="+ topic/ph ui-d/uicontrol ">Recent Projects</uicontrol> list of the <uicontrol class="+ topic/ph ui-d/uicontrol ">Test Explorer</uicontrol> panel.</p>
+                            </li></ul></p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">We have updated the error message to provide context when users cannot execute tests using excel test data.</p>
+                </li></ul>
+        </section><section class="- topic/section ">
+            <title class="- topic/title ">Changes</title>
+            <p class="- topic/p ">
+                <ul class="- topic/ul "><li class="- topic/li ">
+                        <p class="- topic/p ">Applitools is no longer a built-in Katalon Studio Enterprise feature. You can still integrate Katalon Studio with Applitools using this plugin from Katalon Store: ​<xref format="html" href="https://store.katalon.com/product/44/Applitools-Integration" scope="external" class="- topic/xref ">Applitools Integration</xref>​. </p>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p ">On the main toolbar, we have removed the Gift icon for the referral program. </p>
+                    </li></ul>
+            </p>
+        </section><section class="- topic/section ">
+            <title class="- topic/title ">Fixes</title>
+            <p class="- topic/p ">We have integrated the following fixes when you download/upgraded to Katalon Studio 8.5.5:<ul class="- topic/ul "><li class="- topic/li ">
+                        <p class="- topic/p ">The intermittent performance issue of version 8.5.0. </p>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p ">"Can not open this test case" when using the Auto restore working session.</p>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p ">"No such property" when playback existing test case that contains variables in <uicontrol class="+ topic/ph ui-d/uicontrol ">Web Recorder</uicontrol>. </p>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p ">Not finishing the execution in Katalon Studio when executing the test suite collection that has an ID longer than 255 characters.</p>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p ">Error when merging elements with updated attributes into existing objects using the option <uicontrol class="+ topic/ph ui-d/uicontrol ">Merge changes into existing objects</uicontrol> in Record and Spy utilities. </p>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p ">When using custom keywords containing the test object parameter, the test object did not appear in the Object column of the Manual view. </p>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p ">We have also integrated the following fixes to Katalon Studio - Platform Edition version 8.5.5:<ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Unable to open recent projects in the <uicontrol class="+ topic/ph ui-d/uicontrol ">File</uicontrol> menu. </p></li><li class="- topic/li "><p class="- topic/p ">Not showing error messages in some cases when Katalon Studio fails to open recent projects. </p></li><li class="- topic/li "><p class="- topic/p ">Not showing an error message when executing the script that contains errors.</p></li></ul></p>
+                    </li></ul></p>
+        </section></conbody></concept>

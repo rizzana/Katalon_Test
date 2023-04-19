@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept "><title class="- topic/title ">New features</title><conbody class="- topic/body  concept/conbody "><ul class="- topic/ul "><li class="- topic/li ">
+
+            <p class="- topic/p ">Introduced further capabilities to current Mark as Passed/Failed
+               feature. Read more: <xref href="../../../../Analyze/Reports/Manage_Reports/override-test-results-status/intro-override-test-results-status-in-TestOps.dita" class="- topic/xref ">Override Test Results status</xref>             </p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">Improved Test Run report with new stacked bar chart</p>
+          </li><li class="- topic/li ">
+
+            <p class="- topic/p ">Introduced TestCloud as a test environment to schedule a Test
+               Run (for beta users only). Read more: <xref href="../../../../Execute/Cloud_based_test_execution/Test_execution_with_TestCloud/integrate-testcloud-with-testops/integrate-testcloud-with-testops.dita" class="- topic/xref ">Integrate TestCloud with TestOps</xref></p>
+          </li></ul></conbody></concept>

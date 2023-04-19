@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Enable the plugin</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">Since TeamCity 2018.2, to enable plugin after installation,
+         click the plugin context menu and select Load. The plugin will be
+         enabled without server restart.</p>
+    </conbody>
+  </concept>

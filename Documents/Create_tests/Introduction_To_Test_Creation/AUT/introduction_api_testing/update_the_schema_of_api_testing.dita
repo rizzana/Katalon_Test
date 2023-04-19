@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_22" class="- topic/topic concept/concept "><title class="- topic/title ">Update the schema of API testing</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">The schema (data formatting which handles requests and responses
+         for the API) should be maintained during the testing process. Any
+         changes in the program that create additional parameters for the
+         API calls must be reflected in the schema configuration.</p><p class="- topic/p ">In today's API economy, the changes in API helps facilitate the
+         demand, but those changes can cause downtime. To avoid this issue,
+         the team needs to test the API in beta and alpha environments,
+         which is seen to reduce 90% of the chances of issues happen.</p></conbody></concept>

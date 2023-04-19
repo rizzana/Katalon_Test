@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_0" class="- topic/topic concept/concept "><title class="- topic/title ">[Mobile] Set Encrypted Text</title><conbody class="- topic/body  concept/conbody "><section id="id" class="- topic/section ">
+    <title class="- topic/title "/>
+    
+      <note type="note" class="- topic/note ">
+        <p class="- topic/p "/><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Starting from <b class="+ topic/ph hi-d/b ">version 7.2.0</b>, this keyword is
+            available for Mobile testing on Katalon Studio.</p></li></ul>
+      </note>
+    
+  </section><section id="id_1" class="- topic/section ">
+    <title class="- topic/title ">setEncryptedText</title>
+    
+      <ul class="- topic/ul "><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Description</b>: Enter an encrypted text in an
+            input field and clear the existing value of the input field. To
+            encrypt a raw text, from the main menu, <b class="+ topic/ph hi-d/b ">Help &gt; Encrypt
+               Text</b>.</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Keyword syntax</b>:
+            Mobile.setEncryptedText(testObject, encryptedText, timeout,
+            flowControl)</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Parameters</b>: 
+            
+            <ul class="- topic/ul "><li class="- topic/li ">Name: testObject</li><li class="- topic/li ">Description: Represent a mobile element.</li><li class="- topic/li ">Parameter Type: TestObject</li><li class="- topic/li ">Mandatory: Required</li><li class="- topic/li ">Name: encryptedText</li><li class="- topic/li ">Description: The encrypted text set to the mobile element.</li><li class="- topic/li ">Parameter Type: String</li><li class="- topic/li ">Mandatory: Required</li><li class="- topic/li ">Name: timeout</li><li class="- topic/li ">Description: System will wait at most <i class="+ topic/ph hi-d/i ">timeout</i>
+                  (seconds) to return a result.</li><li class="- topic/li ">Parameter Type: int</li><li class="- topic/li ">Mandatory: Required</li><li class="- topic/li ">Name: flowControl</li><li class="- topic/li ">Description: Used to control the step if the step failed.</li><li class="- topic/li ">Parameter Type: FailureHandling</li><li class="- topic/li ">Mandatory: Optional</li></ul>
+        </li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Returns</b>: void.</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Throw</b>: <b class="+ topic/ph hi-d/b ">StepFailedException</b> If
+            there are some errors during execution.</li><li class="- topic/li ">
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Example</b>:</p>
+          
+            <codeblock class="+ topic/pre pr-d/codeblock ">Mobile.setEncryptedText(findTestObject('New One/android.widget.EditText0 (1)'), 'IEW1vyGbESL6h22Ztkgy5Q==', 0)
+</codeblock>
+          
+        </li></ul>
+    
+  </section></conbody></concept>

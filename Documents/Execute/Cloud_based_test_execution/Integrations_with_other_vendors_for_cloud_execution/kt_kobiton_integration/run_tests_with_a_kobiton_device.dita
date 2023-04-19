@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Run tests with a Kobiton device</title><conbody class="- topic/body  concept/conbody "><note type="important" class="- topic/note ">
+                <ul class="- topic/ul "><li class="- topic/li ">You have created a Script Repository on Katalon TestOps. See: <xref href="../../../../Organize/upload-tests-via-git-repo/intro-git-test-project.dita" class="- topic/xref ">Upload Test Scripts from a Git Repository</xref>.
+                    </li></ul>
+        </note><p class="- topic/p ">After creating a Script Repository, you can schedule test runs with a Kobiton device by configuring the advanced settings in the <b class="+ topic/ph hi-d/b ">Schedule Test Runs</b> dialog. See: <xref href="../../../Schedule_test_executions/Schedule-test-runs-in-testops/advanced_settings.dita" class="- topic/xref ">Schedule Test Runs</xref>.</p><p class="- topic/p ">You can also execute test runs manually. See: <xref href="../../../Schedule_test_executions/Execute-test-run-in-testops/kt-scheduler.dita" class="- topic/xref ">Execute Test Runs manually</xref>.</p></conbody></concept>

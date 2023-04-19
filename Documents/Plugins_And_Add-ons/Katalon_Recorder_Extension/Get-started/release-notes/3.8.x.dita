@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id_31" class="- topic/topic ">
+    <title class="- topic/title ">3.8.x</title>
+    <body class="- topic/body ">
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">Added the Protractor formatter (TypeScript) (by
+            @MilesLin).</li>
+      </ul>
+    </body>
+  </topic>

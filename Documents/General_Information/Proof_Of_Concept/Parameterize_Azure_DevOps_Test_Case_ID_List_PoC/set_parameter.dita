@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Set Parameter in Azure Test Plans and in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">In this step, we will guide you through adding and calling a test case variable in the <b class="+ topic/ph hi-d/b ">ADO test case ID list</b>.</p><p class="- topic/p "> <b class="+ topic/ph hi-d/b ">In Azure Test Plans</b>
+        </p><p class="- topic/p ">You can view your test case IDs in Azure Test Plan.</p><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/associated-ADO-TC-IDs/test-case-ids.png" scope="external" class="- topic/image "><alt class="- topic/alt ">ado ID</alt></image>
+        </p><p class="- topic/p "> <b class="+ topic/ph hi-d/b ">In Katalon Studio</b>
+        </p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Add a test case variable:</p>
+                <p class="- topic/p ">Open your desired test case and switch to the <b class="+ topic/ph hi-d/b ">Variables</b> tab. To create a variable, click <b class="+ topic/ph hi-d/b ">Add</b>. For example, we create a number variable named <codeph class="+ topic/ph pr-d/codeph ">ado_id</codeph>. To learn more about variables, see <xref href="../../../Create_tests/Data_Driven_Testing/test-case-variables/test-case-variables.dita" class="- topic/xref ">Test Case Variables</xref>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/associated-ADO-TC-IDs/number-ado_id.png" scope="external" class="- topic/image "/>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Call a variable in the ADO test case ID list:</p>
+                <p class="- topic/p ">Switch to the <b class="+ topic/ph hi-d/b ">Integration</b> tab and select the <b class="+ topic/ph hi-d/b ">Azure</b> integration. In the <b class="+ topic/ph hi-d/b ">ADO Test Case ID list</b>, call the variable with the syntax <codeph class="+ topic/ph pr-d/codeph ">${Your_variable_name}</codeph>, for example: <codeph class="+ topic/ph pr-d/codeph ">${ado_id}</codeph>.</p>
+                <p class="- topic/p ">You can map one test case ID in Katalon Studio with many test case IDs on ADO, IDs are separated by commas. Duplicated test case IDs will be used one time only.</p>
+                <p class="- topic/p ">To check if the test case ID is valid, click <b class="+ topic/ph hi-d/b ">Verify</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/associated-ADO-TC-IDs/verified.png" scope="external" class="- topic/image "><alt class="- topic/alt ">verify</alt></image>
+                </p>
+            </li></ol></conbody></concept>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-license-management" class="- map/map ">
+  <title class="- topic/title ">Manage Katalon Licenses</title>
+  <topicref href="license-management.dita" class="- map/topicref "><topicref href="view_the_license_information.dita" class="- map/topicref "/>
+  <topicref href="grant_a_license_1647942208602.824.dita" class="- map/topicref "/>
+  <topicref href="remove_a_license.dita" class="- map/topicref "/>
+  <topicref href="transfer_a_license.dita" class="- map/topicref ">
+    <topicref href="transfer_the_kre_license_to_another_machine.dita" class="- map/topicref "/>
+  </topicref>
+</topicref>
+  </map>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">Bind data files to the associated Test Case</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">After configuring the test case with associated Web Service requests, we bind the test case to the test data in a test suite.</p><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">To create a test data file, from the main menu, select <b class="+ topic/ph hi-d/b ">New &gt; File &gt; Test Data</b>. In the displayed dialog, name the test data file and specify the data type.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-New-Test-Data-dialog.png" scope="external" class="- topic/image "><alt class="- topic/alt ">New Test Data dialog</alt></image>
+                </p>
+                <p class="- topic/p ">In our example, we use an Excel file that contains user information.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-Test-Data-User-Information-Table.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Test Data table of user information</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Open a new test suite, click on the <b class="+ topic/ph hi-d/b ">Add</b> button and include the associated test case.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-Test-Suite-add-test-case.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Test Data table of user information</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">To open the <b class="+ topic/ph hi-d/b ">Data Binding</b> section, click on the <b class="+ topic/ph hi-d/b ">Show Data Binding</b> button.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-Test-Suite-Show-Data-Binding.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Test Data table of user information</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">You need to specify the test data file and configure the variable binding. Follow the steps in this guide to configure the binding: <xref href="../run-test-case-external-data/manage_data_binding.dita" class="- topic/xref ">Manage Data Binding</xref>.</p>
+                <p class="- topic/p "> <image href="Pictures/KS-830-Manage-data-binding.png" class="- topic/image "/></p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Once configured, run the test suite and verify the result in the <b class="+ topic/ph hi-d/b ">Log Viewer</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-DDT-Test-Result.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Test Data table of user information</alt></image>
+                </p>
+                <p class="- topic/p ">For real-time monitoring and better reporting capabilities, consider integrating your project with Katalon TestOps. Learn more about test result reports here: <xref href="../../../Analyze/Reports/Upload_Test_Reports/Upload_test_results_from_KS_to_TestOps/katalon-analytics-beta-integration.dita" class="- topic/xref ">Upload Test Results to Katalon TestOps from Katalon Studio</xref>.</p>
+            </li></ol><p class="- topic/p "> <b class="+ topic/ph hi-d/b ">See also</b>:</p><ul class="- topic/ul "><li class="- topic/li "> <xref href="../ddt_overview/c_ddt_with_KS_overview.dita" class="- topic/xref ">Data-driven Testing with Katalon Studio</xref>
+            </li></ul></conbody></concept>

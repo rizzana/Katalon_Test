@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-develop-custom-keywords" class="- map/map ">
+  <title class="- topic/title ">How to develop a Custom Keywords plugin</title>
+  <topicref href="develop-custom-keywords.dita" class="- map/topicref "><topicref href="develop_a_custom_keywords_plugin.dita" class="- map/topicref ">
+    <topicref href="add_your_dependencies_to_the_build.gradle_file.dita" class="- map/topicref "/>
+    <topicref href="implement_your_custom_keywords_with_a_katalon-plugin.json_file.dita" class="- map/topicref "/>
+    <topicref href="package_the_plugins_with_gradle.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="test_the_custom_keywords_plugin.dita" class="- map/topicref "/>
+  <topicref href="publish_the_plugin_to_katalon_store.dita" class="- map/topicref "/>
+  <topicref href="see_also.dita" class="- map/topicref "/>
+</topicref>
+  </map>

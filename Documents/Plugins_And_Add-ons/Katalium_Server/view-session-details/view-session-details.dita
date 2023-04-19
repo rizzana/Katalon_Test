@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Sessions Monitoring for Katalium Server</title><conbody class="- topic/body  concept/conbody "><note type="note" class="- topic/note ">
+        <p class="- topic/p ">This feature is only available in Grid mode.</p>
+      </note><p class="- topic/p ">Katalium Grid Hub will automatically capture screenshots of
+         browsers started by its Grid Node. This will help you monitor
+         on-going sessions and debug test execution errors. All sessions are
+         stored in the directory
+         <codeph class="+ topic/ph pr-d/codeph ">&lt;user_home&gt;/katalon-selenium</codeph>.</p></conbody></concept>

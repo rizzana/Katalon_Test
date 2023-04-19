@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_18" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Improvements</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">Support Microsoft Edge (Chromium) 85</li>
+          <li class="- topic/li ">Support Chrome 85</li>
+          <li class="- topic/li ">Install the Basic Reports plugin automatically for all
+            users</li>
+          <li class="- topic/li ">Publish <xref format="html" href="https://docs.katalon.com/javadoc/index.html" scope="external" class="- topic/xref ">API docs version
+               7.7</xref>
+          </li>
+        </ul>
+      </conbody>
+    </concept>

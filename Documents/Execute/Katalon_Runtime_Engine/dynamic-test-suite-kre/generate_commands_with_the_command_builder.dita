@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Generate commands with the command builder</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">You can use the command builder in Katalon Studio (KS) to generate commands quickly and precisely.</p><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Click on the <i class="+ topic/ph hi-d/i ">Build CMD</i> button in the main toolbar. The <b class="+ topic/ph hi-d/b ">Generate Command for Console Mode</b> dialog appears.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/studio-integration/comand-builder-icon.png" scope="external" class="- topic/image "><alt class="- topic/alt ">build cmd button</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Configure your execution as follows:</p>
+                <p class="- topic/p ">2.1. <b class="+ topic/ph hi-d/b ">Test Suite</b>: select the dynamic test suite you want to execute. Here, we want to execute the <b class="+ topic/ph hi-d/b ">DTS_Verify Successful Login and Appointment</b> dynamic test suite.</p>
+                <p class="- topic/p ">2.2. <b class="+ topic/ph hi-d/b ">Executive Platform</b>: Click <b class="+ topic/ph hi-d/b ">Edit</b> in each field to choose the environment and execution profile you want to execute with. Here, we select Chrome and the <b class="+ topic/ph hi-d/b ">default</b> execution profile.</p>
+                <p class="- topic/p ">2.3. <b class="+ topic/ph hi-d/b ">Authentication</b>:</p>
+                <ul class="- topic/ul "><li class="- topic/li "> <b class="+ topic/ph hi-d/b ">Katalon API key</b>: the API key is auto-generated.</li><li class="- topic/li "> <b class="+ topic/ph hi-d/b ">Katalon Organization</b>: Select the Organization that validates your license usage.</li></ul>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-test-suite-kre/KS-8.2.5-Command-builder.png" scope="external" width="700" class="- topic/image "><alt class="- topic/alt ">generate cmd dialog</alt></image>
+                </p>
+                <note type="note" class="- topic/note ">
+                    <ul class="- topic/ul "><li class="- topic/li ">
+                            <p class="- topic/p ">For detailed information on the command builder, see <xref href="../console-mode-execution/command_builder_1.dita" class="- topic/xref ">Command Builder</xref>.</p>
+                        </li></ul>
+                </note>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Generate Command</b>. The <b class="+ topic/ph hi-d/b ">Generated Command</b> dialog appears as below.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/dynamic-test-suite-kre/KS-8.2.5-Generated-command.png" scope="external" width="600" class="- topic/image "><alt class="- topic/alt ">generate cmd dialog</alt></image>
+                </p>
+                <p class="- topic/p ">For example, the sample command is:</p>
+                <codeblock class="+ topic/pre pr-d/codeblock ">./katalonc -noSplash -runMode=console -projectPath="/Users/HTK/Downloads/dynamic-test-suite-sample-main/test.prj" -retry=0 -testSuitePath="Test Suites/DTS_Verify Successful Login and Appointment" -browserType="Chrome" -executionProfile="default" -apiKey="&lt;api-key&gt;" --config -proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY -proxy.system.applyToDesiredCapabilities=true
+</codeblock>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Copy to Clipboard</b>. Open the KRE folder in the command prompt or terminal, then paste the generated command to your cmd/terminal.</p>
+            </li></ol></conbody></concept>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept "><title class="- topic/title ">Execute a test suite with Sauce Labs profiles</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To execute a test suite with Sauce Labs profiles, do as follows:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Open a test suite.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Add the test cases you want to execute into the test suite.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click the dropdown list next to <b class="+ topic/ph hi-d/b ">Run</b>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Select <b class="+ topic/ph hi-d/b ">Custom capabilities</b>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Select your Sauce Labs profile.</p>
+            </li></ol><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/saucelabs-plugin/KS-SAUCELABS-Execute-test-suite-saucelabs-profile.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Execute Sauce Labs custom profile in a test suite</alt></image>
+        </p></conbody></concept>

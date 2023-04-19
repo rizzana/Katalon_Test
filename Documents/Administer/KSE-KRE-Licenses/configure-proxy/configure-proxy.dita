@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Configure Proxy Authentication</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">If you are behind a proxy server, before activating Katalon
+         licenses, you need to configure the Authentication proxy settings.
+         This guide will allow you to authenticate and activate your Katalon
+         licenses while working behind a proxy server.</p>
+      <p class="- topic/p ">To learn more about how to activate Katalon licenses, see <xref href="../activate-license/activate-kse.dita" class="- topic/xref ">Activate
+            Katalon License</xref>.</p>
+    </conbody>
+  </concept>

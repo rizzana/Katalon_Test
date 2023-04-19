@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">View Test Run Types in Katalon Studio</title><conbody class="- topic/body  concept/conbody "><note type="note" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">
+                    <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Test Run List</b> in TestOps is equivalent to the <b class="+ topic/ph hi-d/b ">Test Run Types</b> in Studio.</p>
+                </li></ul>
+        </note><note type="important" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">Katalon Studio version 7.9.1 onwards.</li><li class="- topic/li "> <xref href="../../../Analyze/Reports/Upload_Test_Reports/Upload_test_results_from_KS_to_TestOps/katalon-analytics-beta-integration.dita" class="- topic/xref ">Katalon Studio Integration</xref>.</li></ul>
+        </note><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Open Katalon Studio and your Project.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Tests Explorer</b> sidebar, go to <b class="+ topic/ph hi-d/b ">TestOps</b> &gt; <b class="+ topic/ph hi-d/b ">Test Run Types</b>.</p>
+                <p class="- topic/p ">You then can view a summary of Test Run Types that have been configured in TestOps.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/KS-TESTOPS-Test-run-types.png" scope="external" class="- topic/image "><alt class="- topic/alt ">find test run types in studio</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click on any of the Test Run names (e.g., <b class="+ topic/ph hi-d/b ">a Verify Match exact name(git)</b>). This opens the Test Runs Summary page in Katalon TestOps.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-schedule-test-runs/detail-of-test-run-type-on-testops-2.png" scope="external" class="- topic/image "><alt class="- topic/alt ">test run details on testops</alt></image>
+                </p>
+            </li></ol><p class="- topic/p ">See also: <xref href="../Execute-test-run-in-testops/kt-scheduler.dita" class="- topic/xref ">Execute Test Runs manually</xref>.</p></conbody></concept>

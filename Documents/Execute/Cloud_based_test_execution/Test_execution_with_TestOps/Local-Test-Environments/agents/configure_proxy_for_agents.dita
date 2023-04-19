@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept "><title class="- topic/title ">Configure Proxy for Agents</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">You can set up Proxy for the Agent in the <i class="+ topic/ph hi-d/i ">agentconfig</i>
+         file, using the <codeph class="+ topic/ph pr-d/codeph ">proxy</codeph> option. For example,
+         <codeph class="+ topic/ph pr-d/codeph ">proxy=http://localhost:8080</codeph>.</p><p class="- topic/p ">Next steps: <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "><xref href="../../../../../Organize/upload-tests-via-git-repo/intro-git-test-project.dita" class="- topic/xref ">Upload
+            Test Scripts from a Git Repository</xref>. </p></li><li class="- topic/li "><p class="- topic/p "><xref href="../../../../Schedule_test_executions/Schedule-test-runs-in-testops/create-plan.dita" class="- topic/xref ">Schedule
+            Test Runs</xref>.</p></li></ul></p></conbody></concept>

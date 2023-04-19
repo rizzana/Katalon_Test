@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Adding extension scripts into Katalon Recorder</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">To add an extension script, click the "Extension Scripts" tab on
+         the bottom panel, and click the "Add Extension Script" button.
+         <b class="+ topic/ph hi-d/b ">Please remember to refresh the tabs you want to work on
+            because the new extension script only has effects on tabs
+            opened after being added.</b>
+      </p>
+      <p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/extension-scripts-aka-user-extensionsjs-for-custom-locator-builders-and-actions/Screenshot-from-2018-04-23-11-45-06.png" scope="external" class="- topic/image "/>
+      </p>
+    </conbody>
+  </concept>

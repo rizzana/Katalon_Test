@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">In GitHub</title><conbody class="- topic/body  concept/conbody "><ul class="- topic/ul "><li class="- topic/li ">Go to your <b class="+ topic/ph hi-d/b ">Git Account &gt; Settings &gt; SSH and GPG
+               keys</b> and click <b class="+ topic/ph hi-d/b ">New SSH key</b>. The
+            <b class="+ topic/ph hi-d/b ">SSH keys / Add new</b> page appears.</li><li class="- topic/li ">
+            <p class="- topic/p ">Enter the <b class="+ topic/ph hi-d/b ">Title</b> and paste your
+               <b class="+ topic/ph hi-d/b ">Key</b>, then click <b class="+ topic/ph hi-d/b ">Add SSH key</b>.</p>
+            <p class="- topic/p ">
+              <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/Add%20new%20SSH%20key.png" scope="external" width="700" class="- topic/image "><alt class="- topic/alt ">add new SSH key</alt></image>
+            </p>
+          </li></ul></conbody></concept>

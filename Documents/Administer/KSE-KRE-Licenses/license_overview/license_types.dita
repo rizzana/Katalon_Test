@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">License types</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">There are two types of licenses: KSE per-User and KRE floating.
+         You can purchase KSE per-User licenses and KRE floating licenses
+         depending on your work requirements.</p><p class="- topic/p ">For detailed information on KS (free), see <xref href="../trial-free-plans/trial-free-plans.dita" class="- topic/xref ">Trial
+            and Free Plans</xref>.</p><p class="- topic/p ">For detailed information on KSE per-User license, see: <xref href="../kse-per-user-license/kse-per-user-license.dita" class="- topic/xref ">Katalon
+            Studio Enterprise per-User license</xref>.</p><p class="- topic/p ">For detailed information on KRE floating license, see: <xref href="../kre-floating-license/kre-floating-license.dita" class="- topic/xref ">Katalon
+            Runtime Engine floating license</xref>.</p><p class="- topic/p ">Common rules of KSE per-User and KRE floating licenses:</p><table class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><colspec colname="c1" colnum="1" class="- topic/colspec "/><colspec colname="c2" colnum="2" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry nameend="c2" namest="c1" class="- topic/entry ">KSE per-User and KRE floating licenses</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">Billing cycle</entry><entry class="- topic/entry ">Monthly or annual. To learn how to change the billing plan, see
+                  <xref href="../../Administrative_Tasks/Subscription_Management/KSE_KRE_License_Management/upgrade-subs/upgrade-subs.dita" class="- topic/xref ">Upgrade
+                     Billing Plan</xref>.</entry></row><row class="- topic/row "><entry class="- topic/entry ">License subscription</entry><entry class="- topic/entry ">You can purchase online licenses. To learn more, see: <xref href="../../Administrative_Tasks/Subscription_Management/KSE_KRE_License_Management/license-subscription/license-subscription.dita" class="- topic/xref ">Purchase
+                     Katalon Licenses</xref>
+              </entry></row><row class="- topic/row "><entry class="- topic/entry ">License management</entry><entry class="- topic/entry ">As an organization member, you can only activate and use
+                  licenses. License management is done by the Admin/Owner of the
+                  Organization. To learn more about license management, see <xref href="../../Administrative_Tasks/License_Management/license-management/license-management.dita" class="- topic/xref ">Manage
+                     Katalon Licenses</xref>.</entry></row><row class="- topic/row "><entry class="- topic/entry ">License transfer</entry><entry class="- topic/entry ">You can transfer a license from one user to another. For more
+                  information on how to transfer licenses, refer to <xref href="../../Administrative_Tasks/License_Management/license-management/transfer_a_license.dita" class="- topic/xref ">Transfer
+                     a license</xref>.</entry></row><row class="- topic/row "><entry class="- topic/entry ">License activation</entry><entry class="- topic/entry ">You will be logged out of the current machine if you use the
+                  same license on another machine at the same time.</entry></row><row class="- topic/row "><entry class="- topic/entry ">License execution</entry><entry class="- topic/entry ">You can use a license to perform multiple execution sessions on
+                  one machine at a time with the parallel mode of test suite
+                  collections.</entry></row></tbody></tgroup></table></conbody></concept>

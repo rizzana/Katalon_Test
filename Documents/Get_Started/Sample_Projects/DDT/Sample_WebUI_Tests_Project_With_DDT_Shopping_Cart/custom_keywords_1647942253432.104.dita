@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Custom keywords</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Katalon also creates sample custom keywords in this sample
+         project. To learn more about custom keywords, you can refer to this
+         document: <xref href="../../../../Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/introduction-to-custom-keywords.dita" class="- topic/xref ">Introduction
+            to custom keywords</xref>.</p><p class="- topic/p ">To view our sample custom keywords, in the <b class="+ topic/ph hi-d/b ">Test
+            Explorer</b> panel, go to <b class="+ topic/ph hi-d/b ">Keywords &gt;
+            sample</b>. Double-click one of the following .groovy
+         files:</p><table class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Custom-keyword files</entry><entry class="- topic/entry ">Description</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">BlockUIDismissed.groovy</entry><entry class="- topic/entry ">This file contains a custom keyword that waits for the overlay
+                  in the <b class="+ topic/ph hi-d/b ">Checkout</b> page to disappear.</entry></row><row class="- topic/row "><entry class="- topic/entry ">Checkout.groovy</entry><entry class="- topic/entry ">This file contains custom keywords that perform checkout
+                  actions.</entry></row><row class="- topic/row "><entry class="- topic/entry ">Login.groovy</entry><entry class="- topic/entry ">This file contains custom keywords that perform login
+                  actions.</entry></row><row class="- topic/row "><entry class="- topic/entry ">Select2.groovy</entry><entry class="- topic/entry ">This file contains custom keywords that perform selecting
+                  actions.</entry></row><row class="- topic/row "><entry class="- topic/entry ">Shop.groovy</entry><entry class="- topic/entry ">This file contains custom keywords that perform
+                  adding-to-the-cart actions.</entry></row><row class="- topic/row "><entry class="- topic/entry ">Utils.groovy</entry><entry class="- topic/entry ">This file contains keywords that assist the keywords in the
+                  <codeph class="+ topic/ph pr-d/codeph ">Select2.groovy</codeph> file.</entry></row></tbody></tgroup></table><p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/shopping-cart-samples/KS-SHOPPING-Open-custom-keywords.png" scope="external" width="450" class="- topic/image "><alt class="- topic/alt ">Custom keywords in the Shopping Cart sample</alt></image>
+        </p><p class="- topic/p ">Custom keywords can be reused many times in test cases to
+         perform different actions such as logging in, adding items to the
+         cart, and checking out. You can see the use of custom keywords in
+         our sample test cases as below: <xref href="shopping-cart-prj.dita" class="- topic/xref ">Test
+            cases</xref>.</p></conbody></concept>

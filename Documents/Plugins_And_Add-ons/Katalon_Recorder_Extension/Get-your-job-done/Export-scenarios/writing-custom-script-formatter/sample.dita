@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Sample</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">This is a sample plugin for Katalon Recorder <xref format="html" href="https://github.com/katalon-studio/katalon-recorder-sample-plugin" scope="external" class="- topic/xref ">https://github.com/katalon-studio/katalon-recorder-sample-plugin</xref>.
+         This sample plugin adds plain text format, e.g.</p>
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">open | https://katalon-test.s3.amazonaws.com/demo-aut/dist/html/form.html | 
+click | id=first-name | 
+type | id=first-name | Alex 
+type | id=last-name | Smith
+</codeblock>
+      
+      <p class="- topic/p ">See the following demos for Chrome and Firefox.</p>
+    </conbody>
+  </concept>

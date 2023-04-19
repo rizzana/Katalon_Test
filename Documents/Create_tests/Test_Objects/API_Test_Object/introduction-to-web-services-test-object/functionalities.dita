@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Functionalities</title><conbody class="- topic/body  concept/conbody "><ul class="- topic/ul "><li class="- topic/li "> <xref href="../web-services-builder/web-services-builder.dita" class="- topic/xref ">Builder to create and manage Web Service object easily in Script mode</xref>.</li><li class="- topic/li "> <xref href="../REST_Request/Parameterize_A_Web_Service_Object/parameterize-a-web-service-object.dita" class="- topic/xref ">Parameterize a Web Service object</xref>.</li></ul><note type="note" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">Learn more about REST, SOAP, and other API advanced requests with Katalon Academy course: <xref format="html" href="https://academy.katalon.com/courses/katalon-api-testing/?utm_source=kat_docs&amp;utm_medium=web_services_test_objects" scope="external" class="- topic/xref ">API Testing With Katalon Studio - The Basics</xref>.</li></ul>
+        </note></conbody></concept>

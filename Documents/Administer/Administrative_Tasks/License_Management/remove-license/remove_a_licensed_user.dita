@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Remove a Licensed User</title><conbody class="- topic/body  concept/conbody "><note type="warning" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">By clicking <b class="+ topic/ph hi-d/b ">Remove</b>, you immediately terminate the current session that User is working on with their online licenses in Katalon Studio. You should remove a Licensed User with caution.</li><li class="- topic/li ">Removing a Licensed User working with an offline license does not revoke the license.</li></ul>
+        </note><p class="- topic/p ">When you remove a Licensed User, their associated machine IDs are also removed from the Registered Machine list. This action removes assigned licenses from that User and those licenses are available to be attributed again. That User can still use the free Katalon product.</p><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Go to the <b class="+ topic/ph hi-d/b ">License Management</b> page.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Licensed User</b> section, click on the <i class="+ topic/ph hi-d/i ">Trash bin</i> icon of the User for which you want to unassign the license.</p>
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Remove</b> box appears as below.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/remove-user-popup-2021decUI.png" scope="external" class="- topic/image "><alt class="- topic/alt ">remove user popup</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Remove</b> to confirm your action.</p>
+            </li></ol></conbody></concept>

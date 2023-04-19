@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-135" xml:lang="en-us" class="- topic/topic concept/concept "><title class="- topic/title ">Mobile Testing With Kobiton Devices</title><shortdesc class="- topic/shortdesc ">Install and enable the Kobiton Integration plugin. If you haven't configured the integration yet, refer to this section: <xref href="integrate_with_kobiton.dita" class="- topic/xref ">Enable Kobiton Integration</xref> for instructions.</shortdesc><prolog class="- topic/prolog "><author translate="no" type="creator" class="- topic/author ">Xuan Tran &lt;xuan.tran@katalon.com&gt;</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "/></metadata></prolog><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To do this, follow the instructions below to execute your Katalon Studio automation test with Kobiton mobile devices.</p><p class="- topic/p ">1. Navigate to <xref format="html" href="https://portal.kobiton.com" scope="external" class="- topic/xref ">Kobiton Portal</xref> and log in with your Kobiton username and password.</p><p class="- topic/p ">2. In Kobiton, upload your app to the Kobiton App Repository. See Kobiton documentation on <xref format="html" href="https://support.kobiton.com/hc/en-us/articles/360056028911-Managing-Applications-" scope="external" class="- topic/xref ">Managing Applications</xref>.</p><p class="- topic/p ">3. In the upper right corner of the app tile, click on <uicontrol class="+ topic/ph ui-d/uicontrol ">Automation Snippet</uicontrol>. Then, copy the value of the <codeph class="+ topic/ph pr-d/codeph ">app</codeph> capabilitiy to your clipboard for later use (for example, <codeph class="+ topic/ph pr-d/codeph ">kobiton-store:v488518</codeph> as shown below).</p><p class="- topic/p "><image href="image/kobiton-jun-2022-get-app-id.png" class="- topic/image "/></p><p class="- topic/p ">4. Click on the <uicontrol class="+ topic/ph ui-d/uicontrol ">Devices</uicontrol> menu. Select your device, then click on the <i class="+ topic/ph hi-d/i ">star</i> in the top right corner to <uicontrol class="+ topic/ph ui-d/uicontrol ">Mark as favorite</uicontrol>.</p><p class="- topic/p "><image width="500" href="image/kobiton-jun-mark-as-favourite.png" class="- topic/image "><alt class="- topic/alt ">mark as favourite</alt></image></p>
+            
+                    <p class="- topic/p ">From version 8.1.0 onwards, you can change the  <uicontrol class="+ topic/ph ui-d/uicontrol ">Custom Device Name</uicontrol> of Kobiton device to select the correct device on Katalon Studio. If your Kobiton devices don't have any custom name, Katalon Studio uses the devices' original name when running tests. See Kobiton documentation on <xref format="html" href="https://support.kobiton.com/hc/en-us/articles/360055588512-Device-Custom-Name-" scope="external" class="- topic/xref ">Device Custom Name</xref>.</p>
+                
+        <p class="- topic/p ">Once you have set your Device Custom Names in Kobiton Portal, you can check the Kobiton devices list in Katalon Studio. Go to Katalon Studio, then open <uicontrol class="+ topic/ph ui-d/uicontrol ">Mobile Recorder/Spy</uicontrol> &gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">Select Kobiton Device</uicontrol>.</p><p class="- topic/p ">5. In Katalon Studio, open your mobile test case and switch to the <uicontrol class="+ topic/ph ui-d/uicontrol ">Scripts</uicontrol> view. Locate this line of code:</p><codeblock class="+ topic/pre pr-d/codeblock ">Mobile.startApplication('appPath', false)
+</codeblock><p class="- topic/p ">Next, replace the <codeph class="+ topic/ph pr-d/codeph ">appPath</codeph> with the Kobiton <codeph class="+ topic/ph pr-d/codeph ">app</codeph> capability saved in Step 3, as shown below:</p><p class="- topic/p "><image href="image/ks-840-replace-app-id.png" class="- topic/image "/></p><codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+
+Mobile.comment('Story: Verify correct alarm message')
+
+Mobile.comment('Given that user has started an application')'Get full directory\'s path of android application'
+
+//def appPath = PathUtil.relativeToAbsolutePath(GlobalVariable.G_AndroidApp, RunConfiguration.getProjectDir())
+
+Mobile.startApplication('kobiton-store:v488518', false)
+
+Mobile.comment('And he navigates the application to Activity form')
+
+Mobile.tap(findTestObject('Application/android.widget.TextView - App'), 10)
+
+Mobile.tap(findTestObject('Application/App/android.widget.TextView-Activity'), 10)
+
+Mobile.comment('When he taps on the Custom Dialog button')
+
+Mobile.tap(findTestObject('Application/App/Activity/android.widget.TextView-Custom Dialog'), 10)
+
+'Get displayed message on the dialog'
+
+def message = Mobile.getText(findTestObject('Application/App/Activity/Custom Dialog/android.widget.TextViewCustomDialog'),10)
+
+Mobile.comment('Then the correct dialog message should be displayed')
+
+Mobile.verifyEqual(message, 'Example of how you can use a custom Theme.Dialog theme to make an activity that looks like a customized dialog, here with an ugly frame.')
+
+Mobile.closeApplication()
+
+</codeblock><p class="- topic/p ">6. From the main toolbar, click on the drop-down menu of <uicontrol class="+ topic/ph ui-d/uicontrol ">Run</uicontrol>, and select the option to run with <uicontrol class="+ topic/ph ui-d/uicontrol ">Kobiton Device</uicontrol>.</p><p class="- topic/p "><image width="250" href="image/ks-840-run-with-kobiton.png" class="- topic/image "/></p><p class="- topic/p ">7. The <uicontrol class="+ topic/ph ui-d/uicontrol ">Kobiton Favourite Devices</uicontrol> dialog appears. In the dropdown list of <uicontrol class="+ topic/ph ui-d/uicontrol ">Device Name</uicontrol>, select a Kobiton device to run your test and click <uicontrol class="+ topic/ph ui-d/uicontrol ">OK</uicontrol>. You can also modify this list by updating your 
+    Favorite Devices
+     from 
+    <xref format="html" href="https://portal.kobiton.com/devices" scope="external" class="- topic/xref ">Kobiton Portal.</xref></p>
+            
+                
+        <p class="- topic/p "><image width="500" href="image/ks-810-kobiton-favourite.png" class="- topic/image "><alt class="- topic/alt ">Kobiton favourite devices</alt></image></p><note type="note" class="- topic/note ">
+                <ul class="- topic/ul "><li class="- topic/li ">
+                        <p class="- topic/p ">To dynamically change Kobiton devices in console mode, see <xref href="../../../Katalon_Runtime_Engine/console-mode-execution/Integrations_Options.dita" class="- topic/xref ">Integration Options</xref>.</p>
+                    </li></ul>
+        </note><p class="- topic/p ">8. Once Katalon Studio finishes configuring, the automated test execution session will be uploaded to Kobiton.</p><p class="- topic/p ">You can view the session in the Sessions section in Kobiton. To learn more about Kobiton session, see Kobiton document: <xref href="https://support.kobiton.com/hc/en-us/articles/360058622012-Session-List-" scope="external" class="- topic/xref ">Session List</xref>.</p></conbody></concept>

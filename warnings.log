@@ -1,0 +1,19 @@
+Files below have similar names with only characters case difference. There can be problems with unpacking this bundle on Windows or MacOS systems - only one file from each group will be saved on disk.
+	-
+		Documents/Plugins_And_Add-ons/Katalon_Recorder_Extension/Get-your-job-done/Execute-scenarios/command-line-runner/Use_the_Command-Line_Runner.dita
+		Documents/Plugins_And_Add-ons/Katalon_Recorder_Extension/Get-your-job-done/Execute-scenarios/command-line-runner/use_the_command-line_runner.dita
+	-
+		Documents/Create_tests/Data_Driven_Testing/manage-test-data/Create_an_excel_test_data.dita
+		Documents/Create_tests/Data_Driven_Testing/manage-test-data/create_an_excel_test_data.dita
+	-
+		Documents/Organize/Manage_Tests/Test_suite/manage-test-suite-in-TestOps/delete_a_test_suite.dita
+		Documents/Organize/Manage_Tests/Test_suite/manage-test-suite-in-TestOps/Delete_a_test_suite.dita
+	-
+		Documents/Execute/CICD_Integrations/Jenkins-Integration/jenkins-tags-runtime/Create_Global_Variables.dita
+		Documents/Execute/CICD_Integrations/Jenkins-Integration/jenkins-tags-runtime/create_global_variables.dita
+	-
+		Documents/Execute/Cloud_based_test_execution/Test_execution_with_TestCloud/KS_TestCloud_integration/run_test_suites_with_testcloud.dita
+		Documents/Execute/Cloud_based_test_execution/Test_execution_with_TestCloud/KS_TestCloud_integration/Run_test_suites_with_TestCloud.dita
+	-
+		Documents/Execute/Cloud_based_test_execution/Integrations_with_other_vendors_for_cloud_execution/kobiton_integration_studio/enable_kobiton_integration.dita
+		Documents/Execute/Cloud_based_test_execution/Integrations_with_other_vendors_for_cloud_execution/kobiton_integration_studio/Enable_Kobiton_Integration.dita

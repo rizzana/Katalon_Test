@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-handle_alert_dialog_mobile_app" class="- map/map ">
+  <title class="- topic/title ">Handling Alert Dialog in Mobile App</title>
+  <topicref href="handle_alert_dialog_mobile_app.dita" class="- map/topicref "><topicref href="scenario.dita" class="- map/topicref "/>
+  <topicref href="manual_mode.dita" class="- map/topicref "/>
+  <topicref href="script_mode.dita" class="- map/topicref "/>
+</topicref>
+  </map>

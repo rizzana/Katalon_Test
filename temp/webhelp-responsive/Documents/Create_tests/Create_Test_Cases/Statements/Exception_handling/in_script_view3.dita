@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Create_tests/Create_Test_Cases/Statements/Exception_handling?><?workdir-uri file:/Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Create_tests/Create_Test_Cases/Statements/Exception_handling/?><?path2project ../../../../../?><?path2project-uri ../../../../../?><?path2rootmap-uri ../../../../../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="id_12" class="- topic/topic concept/concept " ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Create_Test_Cases/Statements/Exception_handling/in_script_view3.dita" xtrc="concept:1;3:60" specializations="@props/deliveryTarget">
+      <title class="- topic/title " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Create_Test_Cases/Statements/Exception_handling/in_script_view3.dita" xtrc="title:1;4:37">In Script view</title>
+      <conbody class="- topic/body  concept/conbody " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Create_Test_Cases/Statements/Exception_handling/in_script_view3.dita" xtrc="conbody:1;5:55">
+
+        <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Create_Test_Cases/Statements/Exception_handling/in_script_view3.dita" xtrc="p:1;7:31">The <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Create_Test_Cases/Statements/Exception_handling/in_script_view3.dita" xtrc="b:1;7:65">Script</b> view of test cases allows you
+         to programmatically define and handle exceptions using Groovy or
+         Java language. For more details about exception handling in Groovy,
+         refer to this Groovy documentation: <xref format="html" href="http://groovy-lang.org/semantics.html#_try_catch_finally" scope="external" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Create_Test_Cases/Statements/Exception_handling/in_script_view3.dita" xtrc="xref:1;10:169"><?ditaot usertext?>Try
+            - Catch - Finally</xref>.</p>
+        <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Create_Test_Cases/Statements/Exception_handling/in_script_view3.dita" xtrc="p:2;12:31">For example:</p>
+        
+          <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Create_Test_Cases/Statements/Exception_handling/in_script_view3.dita" xtrc="codeblock:1;14:58">   try {
+        WebUI.openBrowser('')
+
+        WebUI.navigateToUrl('katalon.com')
+
+        if (WebUI.getText(findTestObject('Object Repository/txt_singin')).length() &lt; 0) {
+            throw new com.kms.katalon.core.exception.StepFailedException('Value required')
+        }
+    }
+    catch (StepErrorException e) {
+        this.println(e)
+    } 
+    catch (Exception e) {
+        this.println("General issue occurs.")
+    } 
+    finally { 
+        this.println("Navigate to a page.")
+    }
+</codeblock>
+        
+      </conbody>
+    <related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="ditamap-8764" xtrc="topicref:3;3:312" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Create_Test_Cases/Statements/Exception_handling/Exception_Handling_statements.ditamap"><link class="- topic/link " format="dita" href="../../../../../Documents/Create_tests/Create_Test_Cases/Statements/Exception_handling/exception_handling_statements.dita" mapclass="- map/topicref " role="parent" scope="local" type="concept" xtrc="topicref:1;3:186" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Create_Test_Cases/Statements/Exception_handling/Exception_Handling_statements.ditamap"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Exception Handling statements</linktext></link></linkpool></related-links></concept>

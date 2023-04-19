@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Set up an account</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">This article shows you how to start with Katalon TestOps.</p><note type="note" class="- topic/note ">
+        
+        
+        <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">For new users, <xref format="html" href="https://www.katalon.com/sign-up/?redirect=https%3A%2F%2Ftestops.katalon.io" scope="external" class="- topic/xref ">Sign
+               up</xref> with a business email.</p></li><li class="- topic/li "><p class="- topic/p ">For existing Katalon users, sign in with your registered Katalon
+            account.</p></li></ul>
+      </note><p class="- topic/p ">Once you have successfully signed in <xref format="html" href="https://testops.katalon.io/" scope="external" class="- topic/xref ">Katalon TestOps</xref>, it prompts
+         you to create an Organization and a Project. For detailed
+         instructions, click <xref href="../kt-create-org/create_an_organization.dita" class="- topic/xref ">here</xref>.</p><note type="note" class="- topic/note ">
+        
+        <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">If you are an existing Katalon user, you automatically have an
+            Organization under your account name when you sign in Katalon
+            TestOps for the first time.</p></li></ul>
+      </note><p class="- topic/p ">After creating an Organization, the homepage displays as
+         below.</p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-signup/kt-june-revamp-testop-homepage.png" scope="external" width="100%&gt;" class="- topic/image "/>
+      </p></conbody></concept>

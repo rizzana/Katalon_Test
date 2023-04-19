@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-1196" xml:lang="en-us" class="- topic/topic concept/concept "><title class="- topic/title ">Supported technology </title><prolog class="- topic/prolog "><author translate="no" type="creator" class="- topic/author ">Yen Nguyen &lt;yen.nguyen@katalon.com&gt;</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "><keyword class="- topic/keyword ">Katalon Studio</keyword></keywords></metadata></prolog><conbody class="- topic/body  concept/conbody "><p class="- topic/p "><note class="- topic/note ">
+                <ul class="- topic/ul "><li class="- topic/li ">
+                        <p class="- topic/p ">From <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> version 7.9.1 onwards, we only support 64-bit Windows, macOS, and Linux.</p>
+                    </li></ul>
+            </note>Do a quick check on system requirements before using <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/>. You can refer to this document here: <xref href="../../../General_Information/Supported_Environments/Supported_Environments_For_Katalon_Studio/system_requirements_1647942257415.262.dita" class="- topic/xref ">Supported Environment</xref>.</p></conbody></concept>

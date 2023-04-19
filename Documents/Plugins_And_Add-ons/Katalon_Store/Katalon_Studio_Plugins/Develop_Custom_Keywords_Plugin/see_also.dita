@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_7" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">See also</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">
+          <xref href="../Resolve_External_Dependencies_For_A_Plugin/resolve-external-dependencies.dita" class="- topic/xref ">Resolve
+               external dependencies for a plugin</xref>
+        </li>
+      </ul>
+    </conbody>
+  </concept>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-2613" xml:lang="en-us" class="- topic/topic concept/concept "><title class="- topic/title ">Execute Katalon Studio tests with Katalon Docker Image version below 7.2.1</title><prolog class="- topic/prolog "><author translate="no" type="creator" class="- topic/author ">Hao Le &lt;hao.le@katalon.com&gt;</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "/></metadata></prolog><conbody class="- topic/body  concept/conbody "><note type="important" class="- topic/note ">
+        <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Make sure you have Docker open while running the
+               test.</p></li></ul>
+      </note><p class="- topic/p ">Inside your test project directory, input the following
+            command:</p><codeblock class="+ topic/pre pr-d/codeblock ">docker run -t --rm -v "$(pwd)":/katalon/katalon/source katalonstudio/katalon katalon-execute.sh [Option1] [Option2] ... [OptionN]
+</codeblock><note type="note" class="- topic/note ">
+
+        <p class="- topic/p "><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">All Katalon Studio console mode arguments are accepted
+               except <codeph class="+ topic/ph pr-d/codeph ">-runMode</codeph>, <codeph class="+ topic/ph pr-d/codeph ">-reportFolder</codeph>, and
+               <codeph class="+ topic/ph pr-d/codeph ">-projectPath</codeph>. You can find more command line options
+               at <xref href="../console-mode-execution/General_Options.dita" class="- topic/xref ">Command
+                  Syntax</xref></p></li></ul></p></note><p class="- topic/p "><table class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><colspec colname="c1" colnum="1" colwidth="1*" class="- topic/colspec "/><colspec colname="c2" colnum="2" colwidth="1*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Command-line Option</entry><entry class="- topic/entry ">Description</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry "><codeph class="+ topic/ph pr-d/codeph ">katalon-execute.sh</codeph></entry><entry class="- topic/entry ">This command starts Katalon Studio and other necessary components.</entry></row><row class="- topic/row "><entry class="- topic/entry "><codeph class="+ topic/ph pr-d/codeph ">/katalon/katalon/source</codeph></entry><entry class="- topic/entry "><p class="- topic/p ">The <codeph class="+ topic/ph pr-d/codeph ">katalon-execute.sh</codeph> command looks for the test project inside this directory.</p>
+    <p class="- topic/p ">If you don't want to use this command line, define the test project directory with the <codeph class="+ topic/ph pr-d/codeph ">docker run -w</codeph> argument as follows:</p>
+    <p class="- topic/p "><codeph class="+ topic/ph pr-d/codeph ">docker run -t --rm -v "$(pwd)":/tmp/source -w /tmp/source katalonstudio/katalon katalon-execute.sh [Option1] [Option2] ... [OptionN]</codeph></p></entry></row></tbody></tgroup></table></p></conbody></concept>

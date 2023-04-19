@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_7" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">In Manual View</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">Open your Test Case in the <b class="+ topic/ph hi-d/b ">Manual</b> View and
+         double-click on the object that you want to parameterize its
+         locator.</p>
+        <p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-test-objects/img_manual.png" scope="external" class="- topic/image "/>
+        </p>
+        <p class="- topic/p ">In the displayed <b class="+ topic/ph hi-d/b ">Test Object Input</b> dialog,
+         declare the expected dynamic locator as a variable in the
+         <b class="+ topic/ph hi-d/b ">Variables</b> panel.</p>
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">
+            <b class="+ topic/ph hi-d/b ">Param Type</b>: the variable type (The default
+            type is String).</li>
+          <li class="- topic/li ">
+            <b class="+ topic/ph hi-d/b ">Param</b>: the variable name.</li>
+          <li class="- topic/li ">
+            <b class="+ topic/ph hi-d/b ">Value Type</b>: the type of the variable's
+            value.</li>
+          <li class="- topic/li ">
+            <b class="+ topic/ph hi-d/b ">Value</b>: a specific value of that variable.</li>
+        </ul>
+        <p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-test-objects/img_test_object_input.png" scope="external" class="- topic/image "/>
+        </p>
+        <p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-test-objects/img_variables.png" scope="external" class="- topic/image "/>
+        </p>
+        <p class="- topic/p ">For instance, Katalon Studio uses the <codeph class="+ topic/ph pr-d/codeph ">xpath</codeph>
+         variable created in step 2, with its specific value as
+         <codeph class="+ topic/ph pr-d/codeph ">//Button[0]</codeph> to find the <b class="+ topic/ph hi-d/b ">btn_Login</b>
+         object.</p>
+      </conbody>
+    </concept>

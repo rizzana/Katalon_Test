@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Remote Execution for Mobile Testing in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">This tutorial guides you through configuring Desired
+         Capabilities for executing mobile tests remotely with the local
+         Appium server (Appium Grid).</p><p class="- topic/p ">Currently, Katalon Studio only supports testing an iOS
+         application using macOS. With remote execution, you can use a
+         Windows machine and remote to a macOS for iOS application
+         testing.</p><section class="- topic/section "><title class="- topic/title ">Requirements</title><ul class="- topic/ul "><li class="- topic/li "><xref href="../../../Set_Up_Projects/Mobile-Testing/Android/Mobile_Android_Setup/mobile-android-setup.dita" class="- topic/xref ">Set
+               up Katalon Studio for mobile testing on Windows</xref></li><li class="- topic/li "><xref href="../../../Set_Up_Projects/Mobile-Testing/iOS/Mobile_iOS_Setup_Real_Device/mobile-ios-setup.dita" class="- topic/xref ">Set
+               up Katalon Studio for mobile testing on macOS</xref></li><li class="- topic/li ">A started Appium server on the remote machine</li><li class="- topic/li ">Connected Android or iOS devices</li></ul></section></conbody></concept>

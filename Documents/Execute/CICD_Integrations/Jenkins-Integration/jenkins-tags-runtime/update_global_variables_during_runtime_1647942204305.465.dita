@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Update Global Variables during runtime</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">To change the global variable by your desired scenario tags
+         during runtime, use the following command syntax
+         <codeph class="+ topic/ph pr-d/codeph ">-g_XXX</codeph>, for example,
+         <codeph class="+ topic/ph pr-d/codeph ">-g_userName="admin"</codeph>.</p>
+      <p class="- topic/p ">Read more about running Cucumber feature files at <xref href="../../../../General_Information/Supported_Integrations/BDD_Testing_Framework_Overview/cucumber-features-file.dita" class="- topic/xref ">BDD
+            Testing Framework (Cucumber integration)</xref>.</p>
+    </conbody>
+  </concept>

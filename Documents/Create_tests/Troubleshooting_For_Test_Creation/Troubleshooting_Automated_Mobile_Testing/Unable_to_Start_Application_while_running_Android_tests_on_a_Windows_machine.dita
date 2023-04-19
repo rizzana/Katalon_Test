@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE troubleshooting PUBLIC "-//OASIS//DTD DITA Troubleshooting//EN" "troubleshooting.dtd">
+<troubleshooting id="troubleshooting-8521" xml:lang="en-us" class="- topic/topic troubleshooting/troubleshooting "><title class="- topic/title ">Unable to Start Application while running Android tests on a Windows machine</title><troublebody class="- topic/body troubleshooting/troublebody "><troubleSolution class="- topic/bodydiv troubleshooting/troubleSolution "><remedy class="- topic/section troubleshooting/remedy "><steps class="- topic/ol task/steps "><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Upgrade to the latest version of Appium.</cmd></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">In Katalon Studio, go to <b class="+ topic/ph hi-d/b ">Project Settings &gt; Desired Capabilities &gt; Mobile &gt; Android</b> and add this desired capabilities:</cmd><info class="- topic/itemgroup task/info ">
+                            <ul class="- topic/ul "><li class="- topic/li ">
+                                    <p class="- topic/p ">Name: <codeph class="+ topic/ph pr-d/codeph ">appWaitActivity</codeph>.</p>
+                                </li><li class="- topic/li ">
+                                    <p class="- topic/p ">Type: String.</p>
+                                </li><li class="- topic/li ">
+                                    <p class="- topic/p ">Value: *</p>
+                                    <p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/roubleshooting-automated-mobile-testing/android-error.png" scope="external" class="- topic/image "><alt class="- topic/alt ">desired capabilities</alt></image></p>
+                                </li></ul>
+                        </info></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Click <b class="+ topic/ph hi-d/b ">Apply</b> to save, then run the test again.</cmd></step></steps></remedy></troubleSolution></troublebody></troubleshooting>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Parameterize Mobile Test Object Properties in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><note type="note" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Parameterizing Mobile Test Object Properties is only available with the <uicontrol class="+ topic/ph ui-d/uicontrol ">Attributes</uicontrol> Selection Method.</p></li></ul>
+        </note><p class="- topic/p ">The benefits of parameterizing mobile test objects are similar to those of parameterizing web test objects. Refer to <xref href="../../Web_Test_Objects/parameterize-web-objects/parameterize-web-objects.dita" class="- topic/xref ">this document</xref> for further details.</p></conbody></concept>

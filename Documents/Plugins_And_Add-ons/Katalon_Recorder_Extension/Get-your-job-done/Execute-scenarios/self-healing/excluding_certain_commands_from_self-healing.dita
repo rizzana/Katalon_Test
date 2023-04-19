@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Excluding certain commands from Self-Healing</title><conbody class="- topic/body  concept/conbody "><note type="warning" class="- topic/note ">
+        
+        <p class="- topic/p ">Some commands validate that a particular element exists on a
+            certain page. We advise you to not trigger Self-Healing on these
+            commands, as it encurs the risk of validating elements
+            incorrectly.</p>
+        <p class="- topic/p ">By default, <codeph class="+ topic/ph pr-d/codeph ">verifyElementPresent</codeph>,
+            <codeph class="+ topic/ph pr-d/codeph ">verifyElementNotPresent</codeph>,
+            <codeph class="+ topic/ph pr-d/codeph ">assertElementPresent</codeph> and 
+            <codeph class="+ topic/ph pr-d/codeph ">assertElementNotPresent</codeph> commands are excluded from
+            Self-Healing.</p>
+      </note><p class="- topic/p ">You can choose to exclude certain commands from Self-Healing by
+         following these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+          <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Settings &gt; Self-Healing</b>.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Make sure Self-Healing is enabled.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Add the commands you want to exclude to the list.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Save and close.</p>
+        </li></ol><note type="note" class="- topic/note ">
+        
+        <p class="- topic/p ">Regex is also supported for excluding commands. For example, you
+            can exclude all command starting with the keyword 
+            <b class="+ topic/ph hi-d/b ">waitFor</b> by adding <b class="+ topic/ph hi-d/b ">^waitFor</b> to the
+            list.</p>
+      </note></conbody></concept>

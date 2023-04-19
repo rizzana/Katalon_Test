@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Prioritizing locator methods in Self-Healing</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">Self-Healing uses 3 locator methods, in this priority order:
+         <b class="+ topic/ph hi-d/b ">id</b>, <b class="+ topic/ph hi-d/b ">css</b>, <b class="+ topic/ph hi-d/b ">xpath</b>.
+         However, the best locator methods may vary depending on your
+         websites under test.</p>
+      <p class="- topic/p ">You can change the order of locator methods by following these
+         steps:</p>
+      <ol class="- topic/ol ">
+        <li class="- topic/li ">
+          <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Settings &gt; Self-Healing</b>.</p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Make sure Self-Healing is enabled.</p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Drag and drop the locator methods in the order of your
+               choosing.</p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Save and close.</p>
+        </li>
+      </ol>
+    </conbody>
+  </concept>

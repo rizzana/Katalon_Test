@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Create a new Test Suite with Test Case Variables</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Open a Test Suite, select <b class="+ topic/ph hi-d/b ">Add</b> from the command
+         toolbar. All test cases in Katalon Studio will be displayed in the
+         <b class="+ topic/ph hi-d/b ">Test Case Browser</b> dialog. The selected test case
+         will be added to the test case list like the following example.</p><p class="- topic/p ">
+        
+      <image href="Pictures/KS-830-Add-tc.png" class="- topic/image "><alt class="- topic/alt ">Add test case with variables to the test suite</alt></image></p></conbody></concept>

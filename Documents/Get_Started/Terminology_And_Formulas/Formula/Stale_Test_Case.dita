@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN" "glossentry.dtd">
+<glossentry id="glossentry-9095" class="- topic/topic concept/concept glossentry/glossentry "><glossterm class="- topic/title concept/title glossentry/glossterm ">Stale Test Case</glossterm><glossdef class="- topic/abstract concept/abstract glossentry/glossdef ">A stale test case is a  test case that has not been run for at least 2 months.<p class="- topic/p ">In real-time, the 2 month-point is calculated  every time you click to view the report.</p></glossdef></glossentry>

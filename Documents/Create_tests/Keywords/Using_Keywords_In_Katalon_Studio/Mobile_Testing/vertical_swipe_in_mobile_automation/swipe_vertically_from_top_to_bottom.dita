@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+  <title class="- topic/title ">Swipe Vertically from Top to Bottom</title>
+  <conbody class="- topic/body  concept/conbody ">
+    <p class="- topic/p ">This tutorial illustrates <b class="+ topic/ph hi-d/b ">Vertical</b>
+
+      <b class="+ topic/ph hi-d/b ">Swiping from Top to Bottom</b> action in the mobile
+         app.This demonstration uses <b class="+ topic/ph hi-d/b ">API Demos,</b> which you
+         can download from <xref format="html" href="https://github.com/katalon-studio/katalon-mobile-automation/blob/master/Data%20Files/ApiDemos.apk" scope="external" class="- topic/xref ">here</xref>.
+         We will be using <b class="+ topic/ph hi-d/b ">Android O.S</b> for this tutorial,
+         please make sure that your Android device <b class="+ topic/ph hi-d/b ">API</b> is
+         greater than <b class="+ topic/ph hi-d/b ">18</b>.</p>
+  </conbody>
+  
+  
+</concept>

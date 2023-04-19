@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Grant a license</title><conbody class="- topic/body  concept/conbody "><note type="important" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">
+                    <p class="- topic/p ">An internet connection for you and the users you will grant the license to.</p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">You must be the Owner or Admin of your Organization.</p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">You have already added team members to your Organization. See: <xref href="../../User_Management/kt_invite_user_org/invite_users_to_join_an_organization.dita" class="- topic/xref "> User Management</xref>.</p>
+                </li></ul>
+        </note><p class="- topic/p ">Follow these steps to grant KSE/KRE licenses:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Sign in to <xref format="html" href="https://testops.katalon.io/login" scope="external" class="- topic/xref ">Katalon TestOps</xref>, select your Organization, then go to <b class="+ topic/ph hi-d/b ">Settings</b> &gt; <b class="+ topic/ph hi-d/b ">License Management</b>.</p>
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">License Management</b> page appears as below.</p>
+            </li></ol><p class="- topic/p "><image href="grant_katalon_license_1.png" class="- topic/image "><alt class="- topic/alt ">Assign licenses in the License Management page</alt></image></p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Sign in to <xref format="html" href="https://testops.katalon.io/login" scope="external" class="- topic/xref ">Katalon TestOps</xref>, select your Organization, then go to <b class="+ topic/ph hi-d/b ">Settings</b> &gt; <b class="+ topic/ph hi-d/b ">License Management</b>.</p>
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">License Management</b> page appears as below.</p>
+                <p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/license-management-page-ui-mar2022.png" scope="external" class="- topic/image "><alt class="- topic/alt ">license management page</alt></image></p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Choose between KSE (per-User) and KRE (Floating).</p>
+                <note type="note" class="- topic/note ">
+                    <p class="- topic/p ">See <xref href="../../../KSE-KRE-Licenses/license_overview/license_types.dita" class="- topic/xref ">Types of Licenses</xref> to understand the KSE per-User license and the KRE floating license.</p>
+                </note>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Licensed Users</b> section, click <b class="+ topic/ph hi-d/b ">Assign License</b> .</p>
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Assign License</b> page appears as below.</p>
+                <p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/assign-license-page-ui-mar2022.png" scope="external" class="- topic/image "><alt class="- topic/alt ">assign license page</alt></image></p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Enter the user's email address you want to assign the license to.</p>
+                <note type="tip" class="- topic/note ">
+                    <ul class="- topic/ul "><li class="- topic/li ">You can assign the license to multiple users.</li></ul>
+                </note>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Assign License</b> to confirm.</p>
+                <p class="- topic/p ">You have granted the KSE/KRE licenses to your users.</p>
+            </li></ol><note type="note" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">For KSE per-User licenses, the number of assigned users cannot exceed the license quota.</li><li class="- topic/li ">
+                    <p class="- topic/p ">For KRE floating licenses, there is no limit on the number of assigned users. However, to optimize license usage and avoid session termination, the Owner and Admin must remember the following rules:</p>
+                    <ul class="- topic/ul "><li class="- topic/li ">Each session accounts for one license.</li><li class="- topic/li ">The number of parallel sessions cannot exceed the license quota.</li><li class="- topic/li ">Users need <xref href="../../../Security_Settings/API_Key_In_Katalon/c_katalon_api_keys_in_katalon_studio.dita" class="- topic/xref ">API Keys</xref> to activate a KRE license.</li></ul>
+                </li></ul>
+        </note><p class="- topic/p ">Your users can now activate their KSE and KRE licenses. You can refer them to this link for activation: <xref href="../../../KSE-KRE-Licenses/activate-license/activate-kse.dita" class="- topic/xref ">Activate Katalon License</xref>.</p><p class="- topic/p ">Granting a license this way allows you to transfer a license freely among registered users of an Organization as long as the number of licensed users does not exceed the license quota.</p><p class="- topic/p ">You can remove these licenses and reattribute them any time by following this guide: <xref href="../license-management/transfer_a_license.dita" class="- topic/xref ">Transfer a license</xref>.</p></conbody></concept>

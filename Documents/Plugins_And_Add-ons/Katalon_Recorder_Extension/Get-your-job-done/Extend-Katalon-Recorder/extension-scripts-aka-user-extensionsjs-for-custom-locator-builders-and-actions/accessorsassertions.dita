@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Accessors/Assertions</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">All "getFoo" and "isFoo" methods on the Selenium prototype are
+         added as accessors ("storeFoo"). For each accessor there is an
+         "assertFoo", "verifyFoo" and "waitForFoo" registered. An assert
+         method can take up to two parameters, which will be passed the
+         second and third column values in the test. You can also define
+         your own assertions literally as simple "assert" methods, which
+         will also auto-generate "verify" and "waitFor" commands. Example:
+         Add a "valueRepeated" assertion, that makes sure that the element
+         value consists of the supplied text repeated. The two commands that
+         would be available in tests would be "assertValueRepeated" and
+         "verifyValueRepeated".</p>
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">Selenium.prototype.assertValueRepeated = function(locator, text) {
+    // All locator-strategies are automatically handled by "findElement"
+    var element = this.page().findElement(locator);
+
+    // Create the text to verify
+    var expectedValue = text + text;
+
+    // Get the actual element value
+    var actualValue = element.value;
+
+    // Make sure the actual value matches the expected
+    Assert.matches(expectedValue, actualValue);
+};
+</codeblock>
+      
+    </conbody>
+    
+  </concept>

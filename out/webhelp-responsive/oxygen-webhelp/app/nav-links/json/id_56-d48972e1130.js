@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"id_56-d48972e1130":{"topics":[{"title":"Fixes","href":"Documents\/General_Information\/Release_Notes\/Katalon_Studio_Release_Notes\/version-70\/fixes12.html","attributes":{"data-id":"id_57"},"menu":{"hasChildren":false},"tocID":"id_57-d48972e1138","topics":[]}]}};

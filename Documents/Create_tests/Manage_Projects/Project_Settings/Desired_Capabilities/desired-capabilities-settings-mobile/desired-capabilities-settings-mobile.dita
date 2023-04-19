@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Set up Desired Capabilities in Mobile Testing in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Desired capabilities can be useful when a user, for example,
+         wants to run mobile tests with a preferred platform, browser, or
+         app orientation. Katalon Studio uses desired capabilities to
+         communicate with Appium server by sending a POST request. If users
+         configure the desired capabilities in project settings, the Appium
+         server will start a session with predefined capabilities.</p><p class="- topic/p ">This article shows you how to configure some common capabilities
+         in Mobile testing and where they are saved.</p></conbody></concept>

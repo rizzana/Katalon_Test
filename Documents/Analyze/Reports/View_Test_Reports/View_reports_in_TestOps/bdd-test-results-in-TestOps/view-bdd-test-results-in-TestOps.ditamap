@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-bdd-test-results" class="- map/map "><title class="- topic/title ">View BDD Test Results in TestOps</title><topicref href="bdd-test-results.dita" class="- map/topicref "><topicref href="upload_and_view_bdd_test_results_in_katalon_testops.dita" class="- map/topicref "><topicref href="Configure_BDD_Settings.dita" class="- map/topicref "/><topicref href="view_bdd_test_results.dita" class="- map/topicref "/><topicref href="view_bdd_test_results_in_traceability_matrix.dita" class="- map/topicref "/></topicref></topicref></map>

@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"concept-932-d48972e2895":{"topics":[{"title":"Java class files","href":"Documents\/Get_Started\/Migration_From_Other_Tools\/Selenium_TestNG_JUnit_Migration_To_Katalon_Studio\/java_class_files.html","attributes":{"data-id":"id_2"},"menu":{"hasChildren":false},"tocID":"id_2-d48972e2903","topics":[]}]}};

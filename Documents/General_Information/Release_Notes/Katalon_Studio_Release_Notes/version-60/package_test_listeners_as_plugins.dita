@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_26" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Package Test Listeners as plugins</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">From Katalon Studio 6.1.1 Test Listeners can be packaged as
+            plugins.</li>
+          <li class="- topic/li ">For a sample plugin see
+            https://github.com/katalon-studio/katalon-studio-result-summary-test-listeners-plugin.</li>
+          <li class="- topic/li ">The only differences between Test Listeners and Custom Keywords
+            plugins are in <codeph class="+ topic/ph pr-d/codeph ">build.gradle</codeph> and
+            <codeph class="+ topic/ph pr-d/codeph ">katalon-plugin.json</codeph>:</li>
+        </ul>
+        <p class="- topic/p ">
+          <codeph class="+ topic/ph pr-d/codeph ">build.gradle</codeph>:</p>
+        
+          <codeblock class="+ topic/pre pr-d/codeblock ">sourceSets {
+  main {
+    groovy {
+      srcDirs = ['Keywords', 'Libs', 'Test Listeners', 'Include/scripts/groovy']
+    }
+  }
+}
+</codeblock>
+        
+        <p class="- topic/p ">
+          <codeph class="+ topic/ph pr-d/codeph ">katalon-plugin.json</codeph>:</p>
+        
+          <codeblock class="+ topic/pre pr-d/codeblock ">{
+    "keywords": [],
+    "listeners": ["KatalonPluginResultSummary"]
+}
+</codeblock>
+        
+      </conbody>
+    </concept>

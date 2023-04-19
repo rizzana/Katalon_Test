@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_39" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Fixes and Improvements</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">Fixed remembering chosen test cases issue in Test Case Browser
+            model</li>
+          <li class="- topic/li ">Fixed duplicating added test case to a test suite issue</li>
+          <li class="- topic/li ">Allow to run a test suite with duplicated test cases using data
+            binding</li>
+          <li class="- topic/li ">Fixed an issue where Automatically check for new version does
+            not work with unchecked</li>
+          <li class="- topic/li ">Fixed an issue where SWTException thrown when clicking 'Capture
+            Object'</li>
+          <li class="- topic/li ">Fixed an issue on swipe command, losing objects references</li>
+          <li class="- topic/li ">Fixed SwipeKeyword and TapAtPositionKeyword that didn't work
+            properly</li>
+          <li class="- topic/li ">Improve new project pop-up UI</li>
+        </ul>
+      </conbody>
+    </concept>

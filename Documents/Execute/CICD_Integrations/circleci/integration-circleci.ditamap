@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-integration-circleci" class="- map/map ">
+  <title class="- topic/title ">CircleCI - Katalon Orb</title>
+  <topicref href="integration-circleci.dita" class="- map/topicref "><topicref href="setup_and_configuration.dita" class="- map/topicref ">
+    <topicref href="prepare_your_project_in_github.dita" class="- map/topicref "/>
+    <topicref href="configure_environment_variables_in_circleci.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="execute_tests_with_katalon_orb.dita" class="- map/topicref "/>
+  <topicref href="usage_examples.dita" class="- map/topicref "/>
+</topicref>
+  </map>

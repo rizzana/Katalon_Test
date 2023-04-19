@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Custom Keywords Refactoring in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Starting from <b class="+ topic/ph hi-d/b ">Katalon Studio version 7.0</b>, the custom keyword refactoring feature is available.</p><p class="- topic/p ">Specifically, when you move a custom keyword from a package to another one, Katalon Studio updates the new package and keyword identifier in test scripts accordingly.</p><note type="note" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">In Katalon Studio version 7.1+, you can refactor custom keywords in both test cases and the Custom Keyword section.</li></ul>
+        </note><p class="- topic/p ">Here is an example:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Open <xref href="../../../../Get_Started/Sample_Projects/DDT/Sample_WebUI_Tests_Project_With_DDT_Shopping_Cart/shopping-cart-prj.dita" class="- topic/xref ">the shopping cart sample project</xref> and any test case.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Create a new package in the Keywords folder. Then drag and drop the <codeph class="+ topic/ph pr-d/codeph ">Login</codeph> keyword from <codeph class="+ topic/ph pr-d/codeph ">Simple</codeph> to the newly created package.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Re-open the test case and observe. Katalon Studio has updated the package and keyword identifier in the test scripts accordingly.</p>
+            </li></ol><p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Before drag-and-drop</b>
+        </p><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/custom-keyword-refactor/package-bf.png" scope="external" width="600" class="- topic/image "/>
+        </p><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/custom-keyword-refactor/identifier-bf.png" scope="external" width="600" class="- topic/image "/>
+        </p><p class="- topic/p "> <b class="+ topic/ph hi-d/b ">After drag-and-drop</b>
+        </p><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/custom-keyword-refactor/package-aft.png" scope="external" width="600" class="- topic/image "/>
+        </p><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/custom-keyword-refactor/identifier-aft.png" scope="external" width="600" class="- topic/image "/>
+        </p></conbody></concept>

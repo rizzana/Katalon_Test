@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/handle_alert_dialog_mobile_app?><?workdir-uri file:/Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/handle_alert_dialog_mobile_app/?><?path2project ../../../../../../?><?path2project-uri ../../../../../../?><?path2rootmap-uri ../../../../../../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="id_3" class="- topic/topic concept/concept " ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/handle_alert_dialog_mobile_app/script_mode.dita" xtrc="concept:1;3:59" specializations="@props/deliveryTarget"><title class="- topic/title " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/handle_alert_dialog_mobile_app/script_mode.dita" xtrc="title:1;3:89">Script Mode</title><conbody class="- topic/body  concept/conbody " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/handle_alert_dialog_mobile_app/script_mode.dita" xtrc="conbody:1;3:156"><codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/handle_alert_dialog_mobile_app/script_mode.dita" xtrc="codeblock:1;3:203">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+ 
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+ 
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+ 
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+ 
+ 
+ 
+'Path of the Apk File Store in path variable'
+ 
+def path = RunConfiguration.getProjectDir() + '/Data Files/ApiDemos.apk'
+ 
+ 
+ 
+'Start the application'
+ 
+Mobile.startApplication(path, false)
+ 
+ 
+ 
+'Wait for element Present of Heading API Demos'
+ 
+Mobile.waitForElementPresent(findTestObject('API Demos Objects/Article_4/heading_API_Demos'), 45)
+ 
+ 
+ 
+'Scroll to App text'
+ 
+Mobile.scrollToText('App', FailureHandling.STOP_ON_FAILURE)
+ 
+ 
+ 
+'Tap on App'
+ 
+Mobile.tap(findTestObject('API Demos Objects/Handle Alert/text_App'), 20)
+ 
+ 
+ 
+'Scroll to Alert Dialogs text'
+ 
+Mobile.scrollToText('Alert Dialogs', FailureHandling.STOP_ON_FAILURE)
+ 
+ 
+ 
+'Tap on Alert Dialogs'
+ 
+Mobile.tap(findTestObject('API Demos Objects/Handle Alert/text_Alert Dialogs'), 30)
+ 
+ 
+ 
+'Wait for Element Present of Header Alert'
+ 
+Mobile.waitForElementPresent(findTestObject('API Demos Objects/Handle Alert/text_Header Alert'), 30)
+ 
+ 
+ 
+'Verify Element Visible of Header Alert'
+ 
+Mobile.verifyElementVisible(findTestObject('API Demos Objects/Handle Alert/text_Header Alert'), 30)
+ 
+ 
+ 
+'Scroll to "OK Cancel dialog with traditional theme"'
+ 
+Mobile.scrollToText('OK Cancel dialog with traditional theme', FailureHandling.STOP_ON_FAILURE)
+ 
+ 
+ 
+'Tap On Button OK Cancel dialog with traditional theme'
+ 
+Mobile.tap(findTestObject('API Demos Objects/Handle Alert/button_OK Cancel dialog with traditional theme'), 30)
+ 
+ 
+ 
+'Wait for Element Visible of Alert Title'
+ 
+Mobile.waitForElementPresent(findTestObject('API Demos Objects/Handle Alert/text_Alert Title'), 30)
+ 
+ 
+ 
+'Verify the Element Visible of Alert Title'
+ 
+Mobile.verifyElementVisible(findTestObject('API Demos Objects/Handle Alert/text_Alert Title'), 30)
+ 
+ 
+ 
+'Get the Alert Title text and Store in to "actual_AlertText" variable'
+ 
+actual_AlertText = Mobile.getText(findTestObject('API Demos Objects/Handle Alert/text_Alert Title'), 30)
+ 
+ 
+ 
+'Verify the actual and Expected Alert Texts'
+ 
+Mobile.verifyMatch(actual_AlertText, "Lorem ipsum dolor sit aie consectetur adipiscing\nPlloaso mako nuto siwuf cakso dodtos anr koop.",false)
+ 
+ 
+ 
+'Tap on OK Button on Alert'
+ 
+Mobile.tap(findTestObject('API Demos Objects/Handle Alert/button_OK'), 30)
+
+</codeblock><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/handle_alert_dialog_mobile_app/script_mode.dita" xtrc="p:1;107:35">For further instructions and help, please refer to <xref href="/x/oArR" scope="external" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/handle_alert_dialog_mobile_app/script_mode.dita" xtrc="xref:1;107:146"><?ditaot usertext?>Katalon User Guide</xref> or <xref format="html" href="https://forum.katalon.com/" scope="external" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/handle_alert_dialog_mobile_app/script_mode.dita" xtrc="xref:2;107:268"><?ditaot usertext?>Katalon Forum</xref>.</p></conbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="ditamap-8764" xtrc="topicref:4;7:62" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/handle_alert_dialog_mobile_app/handle_alert_dialog_mobile_app.ditamap"><link class="- topic/link " format="dita" href="../../../../../../Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/handle_alert_dialog_mobile_app/handle_alert_dialog_mobile_app.dita" mapclass="- map/topicref " role="parent" scope="local" type="concept" xtrc="topicref:1;5:80" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/handle_alert_dialog_mobile_app/handle_alert_dialog_mobile_app.ditamap"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Handling Alert Dialog in Mobile App in Katalon Studio</linktext></link></linkpool></related-links></concept>

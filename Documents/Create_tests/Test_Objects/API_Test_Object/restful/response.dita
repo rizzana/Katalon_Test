@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_9" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Response</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">After you send a request, Katalon Studio supports reading its
+         response in a separate <b class="+ topic/ph hi-d/b ">Response</b> view. A service
+         response comprises Status, Elapsed time, and Size fields; Body
+         section, Header, and Verification Log.</p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Status</b>: The status code of the response</li>
+        <li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Elapsed</b>: The total time that starts from the
+            request is sent until Katalon Studio receives the last byte of the
+            response</li>
+        <li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Size</b>: Size of the response package.</li>
+      </ul>
+      <p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/restful-web-services/image2018-9-5-143A253A46.png" scope="external" class="- topic/image "/>
+      </p>
+    </conbody>
+    
+    
+    
+  </concept>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Set desired capabilities for mobile testing in Katalon Studio</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To set desired capabilities for mobile testing, do as follows:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Project &gt; Settings &gt; Desired Capabilities &gt; Mobile &gt; Android/iOS</b>. You can add, delete or clear (delete all) capabilities.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Choose which device will apply the desired capabilities settings. Click <b class="+ topic/ph hi-d/b ">Android/iOS</b>, then select from the <b class="+ topic/ph hi-d/b ">Device Name</b> dropdown list.</p>
+                <note type="note" class="- topic/note ">
+                    <ul class="- topic/ul "><li class="- topic/li ">
+                            <p class="- topic/p ">When clicking on <b class="+ topic/ph hi-d/b ">Android</b>, Katalon Studio will detect and ask you to install <b class="+ topic/ph hi-d/b ">Android SDK</b> automatically if your current machine does not have it.</p>
+                        </li></ul>
+                </note>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-to-desired-capabilities/image2016-11-1-133A593A38.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Choose device name</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Add</b> on the command toolbar.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/desired_capabilities_in_katalon/Design-Capabilities-for-Mobile-in-Katalon-Studio-3.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Add desired capabilities for mobile</alt></image>
+                </p>
+                <p class="- topic/p ">A new row is added to the list.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/desired_capabilities_in_katalon/Design-Capabilities-for-Mobile-in-Katalon-Studio-4.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Add desired capabilities for mobile</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Provide the <b class="+ topic/ph hi-d/b ">Name</b>, <b class="+ topic/ph hi-d/b ">Type</b> and <b class="+ topic/ph hi-d/b ">Value</b> of the property that you wish to configure.</p>
+                <note type="note" class="- topic/note ">
+                    <ul class="- topic/ul "><li class="- topic/li ">Desired capabilities is a JSON object (having keys and values pair). We need to set the capability <b class="+ topic/ph hi-d/b ">Name</b> as <codeph class="+ topic/ph pr-d/codeph ">key</codeph> and the capability <b class="+ topic/ph hi-d/b ">Value</b> as <codeph class="+ topic/ph pr-d/codeph ">value</codeph>.</li><li class="- topic/li ">The capabilities keys are case-sensitive.</li></ul>
+                </note>
+            </li></ol></conbody></concept>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task-9958" class="- topic/topic task/task "><title class="- topic/title ">Create an object's locator</title><taskbody class="- topic/body task/taskbody "><context class="- topic/section task/context "><p class="- topic/p ">You can add multiple locators to an object but you must select
+         one of them as a default locator. The default locator is used for
+         detecting the object during test execution. From version 7.6.0, you can use
+         <xref href="../../../../Maintain/self-healing-in-Studio/intro-self-healing-in-Studio.dita" class="- topic/xref ">Self-healing
+            mechanism</xref> to utilize multiple locators of an object.</p><p class="- topic/p ">Katalon Studio supports the <xref href="../web-selection-methods/web-selection-methods.dita" class="- topic/xref ">following
+            selection methods</xref>: XPath, Attributes, CSS and Image. You can
+         freely switch from one selection method to another. The detailed
+         content of each selection method is saved automatically.</p><ul class="- topic/ul "><li class="- topic/li "><b class="+ topic/ph hi-d/b ">XPath/CSS</b>: Enter a desired XPath locator in
+            <b class="+ topic/ph hi-d/b ">Selected Locator</b>.</li><li class="- topic/li "><b class="+ topic/ph hi-d/b ">Image</b>: Browse an image to compose an image
+            locator for the object. <xref href="../web-image-based-testing/web-image-based-testing.dita" class="- topic/xref ">Learn
+               more</xref></li><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Attributes</b>: Check on one or multiple
+               <b class="+ topic/ph hi-d/b ">Detect object by</b> in the <b class="+ topic/ph hi-d/b ">Object's
+                  Properties</b> table to compose a <b class="+ topic/ph hi-d/b ">Selected
+                  Locator</b> of this method for the object.</p>
+            <p class="- topic/p ">You can add multiple object properties to the <b class="+ topic/ph hi-d/b ">Object's
+                  Properties</b> table. The object properties
+               cannot share the same name in an object.</p></li></ul></context><steps class="- topic/ol task/steps "><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">In a <uicontrol class="+ topic/ph ui-d/uicontrol ">Test Object</uicontrol>'s view, select
+            <uicontrol class="+ topic/ph ui-d/uicontrol ">Attributes</uicontrol> as the default <uicontrol class="+ topic/ph ui-d/uicontrol ">Selection Method</uicontrol>.</cmd></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">In the <uicontrol class="+ topic/ph ui-d/uicontrol ">Object's Properties</uicontrol> table,
+            click <uicontrol class="+ topic/ph ui-d/uicontrol ">Add</uicontrol>.</cmd></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">In the displayed <uicontrol class="+ topic/ph ui-d/uicontrol ">Add property</uicontrol> dialog,
+               specify the required information:</cmd><info class="- topic/itemgroup task/info "><image width="500" href="image/ks-add-property-dialog.png" class="- topic/image "/><p class="- topic/p "><ul class="- topic/ul "><li class="- topic/li "><uicontrol class="+ topic/ph ui-d/uicontrol ">Name</uicontrol>: The object property's name. You can
+            select one of the provided options (class, css, id, name, title,
+            xpath) or enter a name manually.</li><li class="- topic/li "><uicontrol class="+ topic/ph ui-d/uicontrol ">Match condition</uicontrol>: The condition is used for
+            detecting the target object during execution.</li><li class="- topic/li "><p class="- topic/p "><uicontrol class="+ topic/ph ui-d/uicontrol ">Value</uicontrol>: The value to complete a match
+               condition.</p>
+            <p class="- topic/p ">The new property is added to the properties list as configured
+               above. You can also change the properties' values here.</p></li></ul></p></info></step></steps></taskbody></task>

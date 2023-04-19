@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Grant a license</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">You can assign licenses to users. See <xref href="../grant-katalon-licenses/grant-katalon-licenses.dita" class="- topic/xref ">Grant
+            Katalon Licenses</xref>.</p>
+
+      <p class="- topic/p ">Once you have assigned a license successfully, users can follow
+         this activation guide: <xref href="../../../KSE-KRE-Licenses/activate-license/activate-kse.dita" class="- topic/xref ">Activate
+            Katalon License</xref>.</p>
+    </conbody>
+  </concept>

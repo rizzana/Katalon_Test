@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-windows-test-objects" class="- map/map ">
+  <title class="- topic/title ">Windows Test Objects</title>
+  <topicref href="windows-test-objects.dita" class="- map/topicref "><topicref href="manage_windows_test_objects.dita" class="- map/topicref ">
+    <topicref href="create_a_windows_test_object.dita" class="- map/topicref "/>
+    <topicref href="locator_strategy_for_detecting_an_object.dita" class="- map/topicref "/>
+    <topicref href="test_objects_in_script_view.dita" class="- map/topicref "/>
+    <topicref href="verify_and_highlight_1647942348864.094.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="parameterize_windows_test_objects.dita" class="- map/topicref ">
+    <topicref href="in_manual_view_1647942348864.094.dita" class="- map/topicref "/>
+    <topicref href="in_script_view_1647942348864.094.dita" class="- map/topicref "/>
+  </topicref>
+</topicref></map>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-dynamic-test-suite-kre" class="- map/map ">
+  <title class="- topic/title ">Create dynamic test suite at runtime</title>
+  <topicref href="dynamic-test-suite-kre.dita" class="- map/topicref "><topicref href="enable_the_query_provider.dita" class="- map/topicref "/>
+  <topicref href="create_dynamic_test_suite_at_runtime_with_kre.dita" class="- map/topicref ">
+    <topicref href="create_a_new_dynamic_test_suite.dita" class="- map/topicref "/>
+    <topicref href="generate_commands_with_the_command_builder.dita" class="- map/topicref "/>
+    <topicref href="pass_the_search_query_to_the_cli_for_dynamic_test_suite_execution.dita" class="- map/topicref "/>
+    <topicref href="execute_the_dynamic_test_suite_in_kre.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="test_reports.dita" class="- map/topicref "/>
+</topicref>
+  </map>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_7" class="- topic/topic concept/concept "><title class="- topic/title ">Store Private Plugins</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">You need to store private plugins in the
+         <codeph class="+ topic/ph pr-d/codeph ">&lt;project_name&gt;/Plugins</codeph> folder for <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/>
+         to treat them as local plugins. There are two types of plugins:
+         <b class="+ topic/ph hi-d/b ">Platform</b> and <b class="+ topic/ph hi-d/b ">Custom Keyword</b>.
+         Noticeably, <b class="+ topic/ph hi-d/b ">Platform</b> plugins need storing in the
+         <codeph class="+ topic/ph pr-d/codeph ">&lt;project_name&gt;/Plugins/platform</codeph> folder.</p><p class="- topic/p ">Below is the structure of the <codeph class="+ topic/ph pr-d/codeph ">Plugins</codeph> folder:</p><codeblock class="+ topic/pre pr-d/codeblock ">Plugins
+
+ |
+
+ |___ platform
+
+         |___ IDE plugin 1.jar
+
+         |___ IDE plugin 2.jar
+
+         |___ ....
+
+         |___ IDE plugin n.jar
+
+ |___ Custom keyword plugin 1.jar
+
+ |___ Custom keyword plugin 2.jar
+
+ |___ ...
+
+ |___ Custom keyword plugin n.jar
+</codeblock></conbody></concept>

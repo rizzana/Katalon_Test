@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Export the Key Binding Scheme</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Katalon Studio supports exporting a key binding scheme into a
+         CSV file for better viewing.</p><p class="- topic/p ">To export a scheme, in the <b class="+ topic/ph hi-d/b ">Keys</b> dialog, click
+         on the <b class="+ topic/ph hi-d/b ">Export CSV</b> button.</p><p class="- topic/p ">
+        
+      <image width="800" href="image/ks-850-export-csv.png" class="- topic/image "><alt class="- topic/alt ">export CSV</alt></image></p><p class="- topic/p ">The selected key binding scheme is then exported into a CSV
+         file.</p></conbody></concept>

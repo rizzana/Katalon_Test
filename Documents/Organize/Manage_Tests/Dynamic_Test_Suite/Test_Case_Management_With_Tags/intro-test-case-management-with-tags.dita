@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Test Case Management With Tags</title><conbody class="- topic/body  concept/conbody "><note class="- topic/note "><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">From version 8.5.0, <b class="+ topic/ph hi-d/b ">Test Case Management With Tags</b> and <b class="+ topic/ph hi-d/b ">Basic Search For Dynamic Test Suite</b> becomes the official built-in feature of Katalon Studio. See <xref href="../manage-dynamic-test-suite-ks/c_intro_dynamic-test-suite-ks.dita" class="- topic/xref ">Manage dynamic test suites in Katalon Studio</xref>.</p></li></ul></note><p class="- topic/p ">To manage test cases better in Katalon Studio, you can
+         manipulate tag properties by utilizing the existing tag values.
+         With the <b class="+ topic/ph hi-d/b ">Test Case Management with Tags</b> plugin,
+         you can view all tags in the project and save time by appending
+         existing tags to test cases.</p><p class="- topic/p ">This document shows you how to append and manage tags, search
+         for test cases with multiple tags, and execute test cases with
+         specific tags in console mode.</p></conbody></concept>

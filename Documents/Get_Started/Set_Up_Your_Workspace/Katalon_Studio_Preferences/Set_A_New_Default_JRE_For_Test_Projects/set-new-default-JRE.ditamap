@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-set-new-default-JRE" class="- map/map "><title class="- topic/title ">Set a new default JRE for test projects</title><topicref href="set-new-default-jre.dita" class="- map/topicref "><topicref href="Set_a_new_default_JRE_for_a_Katalon_Studio_instance.dita" class="- map/topicref "/><topicref href="Use_the_added_JRE_in_a_test_project.dita" class="- map/topicref "/><topicref href="Run_tests_with_another_JRE_in_the_command_line.dita" class="- map/topicref "/></topicref></map>

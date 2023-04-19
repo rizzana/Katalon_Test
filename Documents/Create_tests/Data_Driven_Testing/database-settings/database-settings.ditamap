@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-database-settings" class="- map/map "><title class="- topic/title ">Set up database connection for data-driven testing in Katalon Studio</title><topicref href="database-settings.dita" class="- map/topicref "><topicref href="introduce_database_connection.dita" class="- map/topicref "/><topicref href="connect_to_a_database_with_a_built-in_driver.dita" class="- map/topicref "/><topicref href="connect_to_a_database_with_an_external_jdbc_driver.dita" class="- map/topicref "/></topicref></map>

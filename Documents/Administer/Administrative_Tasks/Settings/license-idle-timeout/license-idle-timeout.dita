@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Configure Idle Timeout</title><conbody class="- topic/body  concept/conbody "><note type="important" class="- topic/note ">
+        
+        <ul class="- topic/ul "><li class="- topic/li ">An active Katalon Studio Enterprise (KSE) license.</li><li class="- topic/li ">Katalon Studio version 7.8.0 onwards.</li><li class="- topic/li ">You must be an Admin or Owner of your Organization.</li></ul>
+      </note></conbody></concept>

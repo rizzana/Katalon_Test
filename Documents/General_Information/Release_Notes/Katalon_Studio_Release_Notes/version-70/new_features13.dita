@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_76" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">New Features</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+
+          <li class="- topic/li ">[Katalon TestOps (Beta)] Support Billing Manager role for being
+            in charge of subscription. <xref href="../../../../Administer/Administrative_Tasks/User_Management/kt_invite_user_org/kt_invite_user_org.dita" class="- topic/xref ">Learn
+               more</xref>.</li>
+          <li class="- topic/li ">Support naming test artifacts, including Test Case, Test
+            Object, Test Data File, Test Suite, Test Suite Collection, and
+            Checkpoint with UTF-8 characters.</li>
+          <li class="- topic/li ">Automatically update keywords' references in other custom
+            keyword classes when renaming or drag-and-dropping a custom
+            keyword.</li>
+        </ul>
+      </conbody>
+    </concept>

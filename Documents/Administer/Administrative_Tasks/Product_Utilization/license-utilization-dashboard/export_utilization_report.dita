@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">Export Utilization Report</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">After you filter your desired data, you can generate and
+         download a CSV report. On the top left corner of the
+         <b class="+ topic/ph hi-d/b ">License Utilization</b> dashboard, hit the
+         <b class="+ topic/ph hi-d/b ">Export</b> button. A <i class="+ topic/ph hi-d/i ">.csv</i> file named 
+ <codeph class="+ topic/ph pr-d/codeph ">License Utilization_[Org-name]_OrgID_yyyymmdd-yyyymmdd.csv</codeph>         is
+         downloaded to your machine, in which <codeph class="+ topic/ph pr-d/codeph ">yyyymmdd-yyyymmdd</codeph>
+         is the filtered date range.</p><p class="- topic/p ">The exported report includes:</p><ul class="- topic/ul "><li class="- topic/li ">Username</li><li class="- topic/li ">User email</li><li class="- topic/li ">Session ID</li><li class="- topic/li ">Machine ID</li><li class="- topic/li ">License type</li><li class="- topic/li ">Started timestamp</li><li class="- topic/li ">Duration</li></ul></conbody></concept>

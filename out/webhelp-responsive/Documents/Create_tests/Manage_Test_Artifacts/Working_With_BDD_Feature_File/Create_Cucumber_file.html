@@ -1,0 +1,182 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" data-whc_version="25.1">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="description" content="To apply hooks in the Cucumber BDD test, you need to create a Cucumber Features file firstand its corresponding step definitions. To create a Cucumber Features file, go to File &gt; New &gt; BDD Feature ..."/><meta name="DC.rights.owner" content="(C) Copyright 2023"/><meta name="copyright" content="(C) Copyright 2023"/><meta name="generator" content="DITA-OT"/><meta name="DC.type" content="task"/><meta name="DC.relation" content="../../../../Documents/Create_tests/Manage_Test_Artifacts/Working_With_BDD_Feature_File/set_up_cucumber_hooks.html"/><meta name="DC.format" content="HTML5"/><meta name="DC.identifier" content="task-197"/><title>Create Cucumber Features file</title><!--  Generated with Oxygen version 25.1, build number 2023031500.  --><meta name="wh-path2root" content="../../../../"/><meta name="wh-toc-id" content="task-197-d48972e8687"/><meta name="wh-source-relpath" content="Documents/Create_tests/Manage_Test_Artifacts/Working_With_BDD_Feature_File/Create_Cucumber_file.dita"/><meta name="wh-out-relpath" content="Documents/Create_tests/Manage_Test_Artifacts/Working_With_BDD_Feature_File/Create_Cucumber_file.html"/>
+
+    <link rel="stylesheet" type="text/css" href="../../../../oxygen-webhelp/app/commons.css?buildId=2023031500"/>
+    <link rel="stylesheet" type="text/css" href="../../../../oxygen-webhelp/app/topic.css?buildId=2023031500"/>
+
+    <script>
+        var oxy_webhelp_navlinks = {};
+    </script>
+    <script src="../../../../oxygen-webhelp/app/options/properties.js?buildId=20230419143222"></script>
+    <script src="../../../../oxygen-webhelp/app/localization/strings.js?buildId=2023031500"></script>
+    <script src="../../../../oxygen-webhelp/app/search/index/keywords.js?buildId=20230419143222"></script>
+    <script defer="defer" src="../../../../oxygen-webhelp/app/commons.js?buildId=2023031500"></script>
+    <script defer="defer" src="../../../../oxygen-webhelp/app/topic.js?buildId=2023031500"></script>
+<link rel="stylesheet" type="text/css" href="../../../../oxygen-webhelp/template/oxygen.css?buildId=2023031500"/><link rel="stylesheet" type="text/css" href="../../../../oxygen-webhelp/template/notes.css?buildId=2023031500"/></head>
+
+    <body id="task-197" class="wh_topic_page frmBody">
+        <a href="#wh_topic_body" class="sr-only sr-only-focusable">
+            Jump to main content
+        </a>
+        
+        
+        
+        
+        <header class="navbar navbar-default wh_header">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container navbar-nav navbar-expand-md navbar-dark">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    
+                    <div class=" wh_publication_title "><a href="../../../../index.html"><span class="title">Katalon Docs</span></a></div>
+                    
+                </div>
+                
+                <button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggler collapsed wh_toggle_button" aria-expanded="false" aria-label="Toggle menu" aria-controls="wh_top_menu_and_indexterms_link">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+                
+                <nav class=" wh_top_menu " aria-label="Menu Container"><ul role="menubar" aria-label="Menu"><li role="menuitem"><span id="concept-8072-d48972e11-mi" data-tocid="concept-8072-d48972e11" data-state="leaf" class=" topicref " data-id="concept-8072"><span class="title"><a href="../../../../Documents/About_Katalon_Platform/About_Katalon_Platform.html">About <span class="ph">Katalon Platform</span></a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d48972e21-mi" data-tocid="tocId-d48972e21" data-state="not-ready" class=" topicref "><span class="title"><a href="../../../../Documents/General_Information/Supported_Technologies/Supported_Technologies_For_Katalon_Studio/product-availability-matrix.html">General information</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d48972e1999-mi" data-tocid="tocId-d48972e1999" data-state="not-ready" class=" topicref "><span class="title"><a href="../../../../Documents/Get_Started/Get_Started_Overview/get-started-overview.html">Get started</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d48972e4372-mi" data-tocid="tocId-d48972e4372" data-state="not-ready" class=" topicref "><span class="title"><a href="../../../../Documents/Plan/Introduction_to_test_planning/Introduction_to_test_planning.html">Plan</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d48972e4555-mi" data-tocid="tocId-d48972e4555" data-state="not-ready" class=" topicref "><span class="title"><a href="../../../../Documents/Create_tests/Introduction_To_Test_Creation/Introduction_to_Test_Creation.html">Create tests</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d48972e15643-mi" data-tocid="tocId-d48972e15643" data-state="not-ready" class=" topicref "><span class="title"><a href="../../../../Documents/Organize/Introduction_to_organizing_tests/Introduction_to_the_test_management_module.html">Organize</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d48972e17950-mi" data-tocid="tocId-d48972e17950" data-state="not-ready" class=" topicref "><span class="title"><a href="../../../../Documents/Execute/Test_execution_overview/Test_Execution_Overview.html">Execute</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d48972e21382-mi" data-tocid="tocId-d48972e21382" data-state="not-ready" class=" topicref "><span class="title"><a href="../../../../Documents/Analyze/Introduction_to_Reports_and_Analytics_module/Introduction_to_reports_and_analytics_module.html">Analyze</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d48972e23059-mi" data-tocid="tocId-d48972e23059" data-state="not-ready" class=" topicref "><span class="title"><a href="../../../../Documents/Maintain/Introduction_to_test_maintenance/Introduction_to_test_maintenance.html">Maintain</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d48972e23315-mi" data-tocid="tocId-d48972e23315" data-state="not-ready" class=" topicref "><span class="title"><a href="../../../../Documents/Administer/Katalon_Platform_Packages/platform-packages/testops-pricing-model.html">Administer</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d48972e25184-mi" data-tocid="tocId-d48972e25184" data-state="not-ready" class=" topicref "><span class="title"><a href="../../../../Documents/Plugins_And_Add-ons/Katalon_Store/Overview/overview.html">Plugins and add-ons</a></span></span></li></ul></nav>
+                
+                
+            </div>
+        </div>
+    </div>
+</header>
+        
+        
+         
+        
+        <div class=" wh_search_input navbar-form wh_topic_page_search search " role="form">
+            
+            
+            
+            <form id="searchForm" method="get" role="search" action="../../../../search.html"><div><input type="search" placeholder="Search " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="Search query" required="required"/><button type="submit" class="wh_search_button" aria-label="Search"><span class="search_input_text">Search</span></button></div></form>
+            
+            
+            
+        </div>
+        
+        <div class="container-fluid" id="wh_topic_container">
+            <div class="row">
+
+                <nav class="wh_tools d-print-none navbar-expand-md" aria-label="Tools">
+                    
+                    <div data-tooltip-position="bottom" class=" wh_breadcrumb "><ol class="d-print-none"><li><span class="home"><a href="../../../../index.html"><span>Home</span></a></span></li><li><div class="topicref"><div class="title"><a href="../../../../Documents/Create_tests/Introduction_To_Test_Creation/Introduction_to_Test_Creation.html">Create tests</a></div></div></li><li><div class="topicref"><div class="title"><a href="../../../../Documents/Create_tests/Manage_Test_Artifacts/Test_Artifact_Sharing/import-export-test-artifact.html">Manage test artifacts</a></div></div></li><li><div class="topicref" data-id="concept-1981"><div class="title"><a href="../../../../Documents/Create_tests/Manage_Test_Artifacts/Working_With_BDD_Feature_File/Working_with_BDD_feature_files.html">Working with BDD feature files in <span class="ph">Katalon Studio</span></a><div class="wh-tooltip"><p class="shortdesc">Learn how to work with BDD feature files in <span class="ph">Katalon Studio</span>.</p></div></div></div></li><li><div class="topicref" data-id="id_1"><div class="title"><a href="../../../../Documents/Create_tests/Manage_Test_Artifacts/Working_With_BDD_Feature_File/set_up_cucumber_hooks.html">Set up Cucumber Hooks</a></div></div></li><li class="active"><div class="topicref" data-id="task-197"><div class="title"><a href="../../../../Documents/Create_tests/Manage_Test_Artifacts/Working_With_BDD_Feature_File/Create_Cucumber_file.html">Create Cucumber Features file</a></div></div></li></ol></div>
+                    
+                    
+                    
+                    <div class="wh_right_tools">
+                        <button class="wh_hide_highlight" aria-label="Toggle search highlights" title="Toggle search highlights"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" aria-label="Collapse sections" title="Collapse sections"></button>
+                        
+                        
+                        
+                        
+                        <div class=" wh_print_link print d-none d-md-inline-block "><button onClick="window.print()" title="Print this page" aria-label="Print this page"></button></div>
+                        
+                        <button type="button" id="wh_toc_button" class="custom-toggler navbar-toggler collapsed wh_toggle_button navbar-light" aria-expanded="false" aria-label="Toggle publishing table of content" aria-controls="wh_publication_toc">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    
+                </nav>
+            </div>
+            
+            
+            
+            
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                        <nav id="wh_publication_toc" class="col-lg-3 col-md-3 col-sm-12 d-md-block d-none d-print-none" aria-label="Table of Contents Container">
+                            <div id="wh_publication_toc_content">
+		                        
+                            	<div class=" wh_publication_toc " data-tooltip-position="right"><span class="expand-button-action-labels"><span id="button-expand-action" role="button" aria-label="Expand"></span><span id="button-collapse-action" role="button" aria-label="Collapse"></span><span id="button-pending-action" role="button" aria-label="Pending"></span></span><ul role="tree" aria-label="Table of Contents"><li role="treeitem" aria-expanded="true"><div data-tocid="tocId-d48972e4555" class="topicref" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action tocId-d48972e4555-link" class="wh-expand-btn"></span><div class="title"><a href="../../../../Documents/Create_tests/Introduction_To_Test_Creation/Introduction_to_Test_Creation.html" id="tocId-d48972e4555-link">Create tests</a></div></div><ul role="group" class="navbar-nav nav-list"><li role="treeitem" aria-expanded="false"><div data-tocid="tocId-d48972e4559" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d48972e4559-link" class="wh-expand-btn"></span><div class="title"><a href="../../../../Documents/Create_tests/Introduction_To_Test_Creation/Introduction_to_Test_Creation.html" id="tocId-d48972e4559-link">Introduction to test creation</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="tocId-d48972e4873" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d48972e4873-link" class="wh-expand-btn"></span><div class="title"><a href="../../../../Documents/Create_tests/Manage_Projects/Manage_Test_Project/Manage_Test_Project_Overview/Manage_test_project.html" id="tocId-d48972e4873-link">Manage projects</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="tocId-d48972e7609" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d48972e7609-link" class="wh-expand-btn"></span><div class="title"><a href="../../../../Documents/Create_tests/Create_Test_Cases/Create_Test_Case_Overview/Create_test_case.html" id="tocId-d48972e7609-link">Create test cases</a></div></div></li><li role="treeitem" aria-expanded="true"><div data-tocid="tocId-d48972e8534" class="topicref" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action tocId-d48972e8534-link" class="wh-expand-btn"></span><div class="title"><a href="../../../../Documents/Create_tests/Manage_Test_Artifacts/Test_Artifact_Sharing/import-export-test-artifact.html" id="tocId-d48972e8534-link">Manage test artifacts</a></div></div><ul role="group" class="navbar-nav nav-list"><li role="treeitem" aria-expanded="false"><div data-tocid="id-d48972e8538" class="topicref" data-id="id" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action id-d48972e8538-link" class="wh-expand-btn"></span><div class="title"><a href="../../../../Documents/Create_tests/Manage_Test_Artifacts/Test_Artifact_Sharing/import-export-test-artifact.html" id="id-d48972e8538-link">Test Artifacts Sharing in <span class="ph">Katalon Studio</span></a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="id-d48972e8564" class="topicref" data-id="id" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action id-d48972e8564-link" class="wh-expand-btn"></span><div class="title"><a href="../../../../Documents/Create_tests/Manage_Test_Artifacts/Using_Git_Submodules_To_Share_Test_Artifacts/git-integration-submodules.html" id="id-d48972e8564-link">Using Git Submodules to share Test Artifacts in <span class="ph">Katalon Studio</span></a></div></div></li><li role="treeitem" aria-expanded="true"><div data-tocid="concept-1981-d48972e8598" class="topicref" data-id="concept-1981" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action concept-1981-d48972e8598-link" class="wh-expand-btn"></span><div class="title"><a href="../../../../Documents/Create_tests/Manage_Test_Artifacts/Working_With_BDD_Feature_File/Working_with_BDD_feature_files.html" id="concept-1981-d48972e8598-link">Working with BDD feature files in <span class="ph">Katalon Studio</span></a><div class="wh-tooltip"><p class="shortdesc">Learn how to work with BDD feature files in <span class="ph">Katalon Studio</span>.</p></div></div></div><ul role="group" class="navbar-nav nav-list"><li role="treeitem"><div data-tocid="task-7199-d48972e8614" class="topicref" data-id="task-7199" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="../../../../Documents/Create_tests/Manage_Test_Artifacts/Working_With_BDD_Feature_File/Add_Feature_Files_in_Katalon_Studio.html" id="task-7199-d48972e8614-link">Add Feature Files</a><div class="wh-tooltip"><p class="shortdesc">This section shows you how to add feature files in <span class="ph">Katalon Studio</span>. Steps in the scenario will then be defined by step definitions.</p></div></div></div></li><li role="treeitem"><div data-tocid="id_2-d48972e8628" class="topicref" data-id="id_2" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="../../../../Documents/Create_tests/Manage_Test_Artifacts/Working_With_BDD_Feature_File/maintain_features_file.html" id="id_2-d48972e8628-link">Maintain Features File</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="id_3-d48972e8636" class="topicref" data-id="id_3" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action id_3-d48972e8636-link" class="wh-expand-btn"></span><div class="title"><a href="../../../../Documents/Create_tests/Manage_Test_Artifacts/Working_With_BDD_Feature_File/define_steps.html" id="id_3-d48972e8636-link">Define Steps</a></div></div></li><li role="treeitem"><div data-tocid="id_7-d48972e8671" class="topicref" data-id="id_7" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="../../../../Documents/Create_tests/Manage_Test_Artifacts/Working_With_BDD_Feature_File/from_toolbar.html" id="id_7-d48972e8671-link">Run a Feature File</a></div></div></li><li role="treeitem" aria-expanded="true"><div data-tocid="id_1-d48972e8679" class="topicref" data-id="id_1" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action id_1-d48972e8679-link" class="wh-expand-btn"></span><div class="title"><a href="../../../../Documents/Create_tests/Manage_Test_Artifacts/Working_With_BDD_Feature_File/set_up_cucumber_hooks.html" id="id_1-d48972e8679-link">Set up Cucumber Hooks</a></div></div><ul role="group" class="navbar-nav nav-list"><li role="treeitem" class="active"><div data-tocid="task-197-d48972e8687" class="topicref" data-id="task-197" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="../../../../Documents/Create_tests/Manage_Test_Artifacts/Working_With_BDD_Feature_File/Create_Cucumber_file.html" id="task-197-d48972e8687-link">Create Cucumber Features file</a></div></div></li><li role="treeitem"><div data-tocid="tocId-d48972e8695" class="topicref" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="../../../../Documents/Create_tests/Manage_Test_Artifacts/Working_With_BDD_Feature_File/Working_with_BDD_feature_files.html" id="tocId-d48972e8695-link">***</a></div></div></li></ul></li></ul></li></ul></li><li role="treeitem" aria-expanded="false"><div data-tocid="tocId-d48972e8698" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d48972e8698-link" class="wh-expand-btn"></span><div class="title"><a href="../../../../Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Manage_Mobile_Test_Objects/manage-mobile-test-object.html" id="tocId-d48972e8698-link">Test objects</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="tocId-d48972e10420" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d48972e10420-link" class="wh-expand-btn"></span><div class="title"><a href="../../../../Documents/Create_tests/Record_And_Spy/WebUI_Record_And_Spy_Utilities/create_test_case_using_record_playback/create_test_cases_using_record_playback.html" id="tocId-d48972e10420-link">Record and spy</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="tocId-d48972e11130" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d48972e11130-link" class="wh-expand-btn"></span><div class="title"><a href="../../../../Documents/Create_tests/Data_Driven_Testing/ddt_overview/c_ddt_with_KS_overview.html" id="tocId-d48972e11130-link">Data-driven testing</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="tocId-d48972e11749" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d48972e11749-link" class="wh-expand-btn"></span><div class="title"><a href="../../../../Documents/Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/introduction-to-custom-keywords.html" id="tocId-d48972e11749-link">Keywords</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="tocId-d48972e15309" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d48972e15309-link" class="wh-expand-btn"></span><div class="title"><a href="../../../../Documents/Create_tests/Debug_A_Test_Case/debug_a_test_case.html" id="tocId-d48972e15309-link">Debug a test case</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="tocId-d48972e15355" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d48972e15355-link" class="wh-expand-btn"></span><div class="title"><a href="../../../../Documents/Create_tests/Troubleshooting_For_Test_Creation/Troubleshooting_Common_Exception/troubleshooting.html" id="tocId-d48972e15355-link">Troubleshooting for test creation</a></div></div></li></ul></li></ul></div>
+		                        
+                            </div>
+                        </nav>
+                    
+                    
+                    <div class="col-lg-9 col-md-9 col-sm-12" id="wh_topic_body">
+                        <button id="wh_close_publication_toc_button" class="close-toc-button d-none" aria-label="Toggle publishing table of content" aria-controls="wh_publication_toc" aria-expanded="true">
+                            <span class="close-toc-icon-container">
+                                <span class="close-toc-icon"></span>     
+                            </span>
+                        </button>
+                        
+                        
+                        <div class=" wh_topic_content body "><main role="main"><article class="- topic/topic task/task topic task" role="article" aria-labelledby="ariaid-title1"><h1 class="- topic/title title topictitle1" id="ariaid-title1">Create Cucumber Features file</h1><div class="- topic/body task/taskbody body taskbody"><section class="- topic/section task/context section context">To apply hooks in the Cucumber BDD test, you need to create a Cucumber Features file firstand its corresponding step definitions. </section><section class="- topic/ol task/steps ol steps"><ol class="- topic/ol task/steps ol steps"><li class="- topic/li task/step li step"><span class="- topic/ph task/cmd ph cmd">To create a Cucumber Features file, go to <span class="+ topic/ph ui-d/uicontrol ph uicontrol">File</span> &gt; <span class="+ topic/ph ui-d/uicontrol ph uicontrol">New</span> &gt; <span class="+ topic/ph ui-d/uicontrol ph uicontrol">BDD Feature File</span>.</span><div class="- topic/itemgroup task/stepresult itemgroup stepresult"><img class="- topic/image image" width="400" src="image/ks-840-new-feature-file.png" alt="new BDD feature file"/>  <p class="- topic/p p">Tick the <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Generate sample Feature template</span> option for a sample features file.</p><div class="- topic/p p">The script below is a generated sample features template:<pre class="+ topic/pre pr-d/codeblock pre codeblock"><code>#Sample Feature Definition Template
+@tag
+Feature: Title of your feature
+I want to use this template for my feature file
+
+@tag1
+Scenario Outline: Title of your scenario outline
+    Given I want to write a step with &lt;name&gt;
+    When I check for the &lt;value&gt; in step
+    Then I verify the &lt;status&gt; in step
+
+    Examples: 
+    | name  | value | status  |
+    | name1 |     5 | success |
+    | name2 |     7 | Fail    |</code></pre></div></div></li><li class="- topic/li task/step li step"><span class="- topic/ph task/cmd ph cmd">To create step definitions, go to <span class="+ topic/ph ui-d/uicontrol ph uicontrol">File</span> &gt; <span class="+ topic/ph ui-d/uicontrol ph uicontrol">New</span> &gt; <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Groovy Script</span>.</span><div class="- topic/itemgroup task/stepresult itemgroup stepresult"><img class="- topic/image image" width="400" src="image/KS-create-step-defintions.png" alt="Create step definition"/><div class="- topic/note note attention note_attention"><span class="note__title">Attention:</span> <ul class="- topic/ul ul"><li class="- topic/li li">You can only use custom keywords with BDD testing when the step definition belongs to the default package. If the package is different from the default package, you cannot call the custom keyword.</li></ul></div><p class="- topic/p p">Tick the <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Generate sample @Given, @When, @Then steps</span> for sample step definitions.</p><div class="- topic/p p">The script below is a generated sample @Given, @When, @Then steps:<pre class="+ topic/pre pr-d/codeblock pre codeblock"><code>class Sample {
+
+    /**
+    * The step definitions below match with Katalon sample Gherkin steps
+    */
+    @Given("I want to write a step with (.*)")
+    def I_want_to_write_a_step_with_name(String name) {
+        println name
+    }
+
+    @When("I check for the (\\d+) in step")
+    def I_check_for_the_value_in_step(int value) {
+        println value
+    }
+
+    @Then("I verify the (.*) in step")
+    def I_verify_the_status_in_step(String status) {
+        println status
+    }
+}
+
+</code></pre></div></div></li></ol></section></div></article></main></div>
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+            
+        </div> 
+        <footer class="navbar navbar-default wh_footer">
+  <div class=" footer-container mx-auto ">
+    Generated by <a class="oxyFooter" href="http://www.oxygenxml.com/xml_webhelp.html" target="_blank" rel="noopener">&lt;oXygen/&gt; XML WebHelp</a> - Evaluation Version
+  </div>
+</footer>
+        
+        <div id="go2top" class="d-print-none">
+            <span class="oxy-icon oxy-icon-up"></span>
+        </div>
+        
+        <div id="modal_img_large" class="modal">
+            <span class="close oxy-icon oxy-icon-remove"></span>
+            <div id="modal_img_container"></div>
+            <div id="caption"></div>
+        </div>
+        
+        
+        
+    </body>
+</html>

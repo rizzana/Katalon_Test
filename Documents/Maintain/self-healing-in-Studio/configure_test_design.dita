@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Configure Test Design</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">To learn how to configure test design, see <xref format="html" href="http://docs.katalon.com/katalon-studio/docs/web-selection-methods.html#configure-test-design" scope="external" class="- topic/xref ">Configure
+            Test Design</xref>.</p>
+    </conbody>
+  </concept>

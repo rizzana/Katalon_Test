@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Execute Katalon Studio in console mode</title><conbody class="- topic/body  concept/conbody "><note type="note" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">The Katalon launcher (<codeph class="+ topic/ph pr-d/codeph ">katalon.exe</codeph>) is replaced by <codeph class="+ topic/ph pr-d/codeph ">katalonc.exe</codeph>.</li></ul>
+        </note><ol class="- topic/ol "><li class="- topic/li ">Open the command prompt and navigate to the folder of your Katalon Studio build: <codeph class="+ topic/ph pr-d/codeph ">katalonc.exe</codeph> (Windows), Applications folder (Mac OS), or <codeph class="+ topic/ph pr-d/codeph ">katalonc</codeph> (Linux) file.</li><li class="- topic/li ">
+                <p class="- topic/p ">Enter the following syntax to execute your test:</p>
+                <p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Windows:</b>
+                </p>
+                <codeblock class="+ topic/pre pr-d/codeblock ">katalonc {arg1} {arg2} ... {argN}
+</codeblock>
+                <p class="- topic/p "> <b class="+ topic/ph hi-d/b ">macOS:</b>
+                </p>
+                <codeblock class="+ topic/pre pr-d/codeblock ">cd /Applications/Katalon\ Studio\ Engine.app/Contents/MacOS 
+
+./katalonc --args {arg1} {arg2} ... {argN}
+</codeblock>
+                <p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Linux</b>:</p>
+                <codeblock class="+ topic/pre pr-d/codeblock ">./katalonc {arg1} {arg2} ... {argN}
+</codeblock>
+                <p class="- topic/p ">For example:</p>
+                <p class="- topic/p "><i class="+ topic/ph hi-d/i ">On macOS:</i></p>
+                <p class="- topic/p "><image width="600" href="image/ks-850-terminal.png" class="- topic/image "/></p>
+                <p class="- topic/p "> <i class="+ topic/ph hi-d/i ">On Windows:</i><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/katalonc.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Execute Katalon in console mode</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Press <b class="+ topic/ph hi-d/b ">Enter</b> to start execution.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p "><b class="+ topic/ph hi-d/b ">Exit Code</b>: </p>
+                <p class="- topic/p ">Below is the list of exit codes after console mode execution:</p>
+                <ul class="- topic/ul "><li class="- topic/li ">0: The execution passed with no failed or error test case.</li><li class="- topic/li ">1: The execution has failed test cases.</li><li class="- topic/li ">2: The execution has error test cases.</li><li class="- topic/li ">3: The execution has failed test cases and error test cases.</li><li class="- topic/li ">4: The execution cannot start because of invalid arguments.</li><li class="- topic/li "> 5: Invalid project. </li><li class="- topic/li "> 6: Out of quota. </li><li class="- topic/li "> 7: Unable to check quota. </li></ul>
+            </li></ol></conbody></concept>

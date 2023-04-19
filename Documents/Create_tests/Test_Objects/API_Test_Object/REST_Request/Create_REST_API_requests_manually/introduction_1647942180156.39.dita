@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Introduction</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">Katalon offers a great UI support for creating REST API
+         requests. But if you are the advanced Katalon user, you can do it
+         manually and benefit from a large library of Katalon support
+         methods for API requests. This tutorial will be about how to create
+         REST API requests from manual and handle responses to make your
+         code robust and effective.</p>
+    </conbody>
+    
+  </concept>

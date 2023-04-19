@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id_2" class="- topic/topic ">
+    <title class="- topic/title ">5.8.1</title>
+    <body class="- topic/body ">
+      <p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">Features</b>
+      </p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">Introduced the new shortcut <codeph class="+ topic/ph pr-d/codeph ">Ctrl/Cmd + click</codeph> to
+            select multiple test steps.</li>
+      </ul>
+      <p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">Improvements</b>
+      </p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">Improved the recording capabilities: 
+            
+            <ul class="- topic/ul ">
+            <li class="- topic/li ">Show notifications during the recording process.</li>
+            <li class="- topic/li ">Recorder automatically pops up after the recording process is
+                  completed.</li>
+          </ul>
+        </li>
+      </ul>
+      <p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">Bug fixes</b>
+      </p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">Fixed an issue where copied test steps were pasted in the wrong
+            place.</li>
+        <li class="- topic/li ">Fixed an issue where selected test steps were blank in the dark
+            mode.</li>
+      </ul>
+    </body>
+  </topic>

@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"id_1-d48972e13536":{"topics":[{"title":"ScreenshotOptions parameters","href":"Documents\/Create_tests\/Keywords\/Keywords_Description_In_Katalon_Studio\/Web-UI-Keywords\/webui-take-screenshot\/screenshotoptions_parameters.html","attributes":{"data-id":"id_2"},"menu":{"hasChildren":false},"tocID":"id_2-d48972e13544","topics":[]}]}};

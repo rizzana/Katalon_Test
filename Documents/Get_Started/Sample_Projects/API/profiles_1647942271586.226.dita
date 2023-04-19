@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Profiles</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To open the execution profile, go to <b class="+ topic/ph hi-d/b ">Profiles &gt;
+            default</b>.</p><p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-Execution-profile.png" scope="external" width="350" class="- topic/image "><alt class="- topic/alt ">Default profile in the API sample</alt></image>
+        </p><p class="- topic/p ">You can create and save all global variables in the execution
+         profile. They can be used across test cases in your project. To
+         learn more about execution profiles and global variables, you can
+         refer to this document: <xref href="../../../Create_tests/Data_Driven_Testing/execution-profile-v54/execution-profile-v54.dita" class="- topic/xref ">Execution
+            profile and global variables</xref>.</p><p class="- topic/p ">Katalon creates three global variables in this sample project as
+         follows:</p><table class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Name</entry><entry class="- topic/entry ">Value</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">baseURL</entry><entry class="- topic/entry ">
+                  <codeph class="+ topic/ph pr-d/codeph ">https://sample-web-service-aut.herokuapp.com</codeph>
+                </entry></row><row class="- topic/row "><entry class="- topic/entry ">successCode</entry><entry class="- topic/entry ">200</entry></row><row class="- topic/row "><entry class="- topic/entry ">globalid</entry><entry class="- topic/entry ">0</entry></row></tbody></tgroup></table></conbody></concept>

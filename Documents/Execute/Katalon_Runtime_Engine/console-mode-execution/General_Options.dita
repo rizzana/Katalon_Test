@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-1437" xml:lang="en-us" class="- topic/topic concept/concept "><title class="- topic/title ">General arguments</title><prolog class="- topic/prolog "><author translate="no" type="creator" class="- topic/author ">Hao Le &lt;hao.le@katalon.com&gt;</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "/><keywords class="- topic/keywords "/></metadata></prolog><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Here's the list of options supported for the
+         <codeph class="+ topic/ph pr-d/codeph ">katalonc</codeph> commands for Katalon Studio version 7.0.0
+         onwards.</p></conbody></concept>

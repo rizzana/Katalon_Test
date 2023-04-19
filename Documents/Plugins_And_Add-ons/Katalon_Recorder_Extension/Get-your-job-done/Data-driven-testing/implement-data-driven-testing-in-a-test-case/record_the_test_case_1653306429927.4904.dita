@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id_2" class="- topic/topic "><title class="- topic/title ">Record the test case</title><body class="- topic/body "><p class="- topic/p ">We record a test case according to the presented scenario.</p><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">In Katalon Recorder, create a new test case, then click on the <b class="+ topic/ph hi-d/b ">Record</b> button to start recording.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/implement-ddt-in-a-test-case/KR-5.8.0-New-test-case.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Katalon Recorder new test case</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In an active browser tab, navigate to the AUT.</p>
+                <p class="- topic/p ">Here the URL for the AUT is <codeph class="+ topic/ph pr-d/codeph ">https://katalon-demo-cura.herokuapp.com</codeph>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/implement-ddt-in-a-test-case/AUT-Homepage.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Katalon Recorder AUT overview</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Log in to the AUT.</p>
+                <p class="- topic/p ">On the top-right corner of the homepage, click on the <i class="+ topic/ph hi-d/i ">menu</i> button and select <b class="+ topic/ph hi-d/b ">Login</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/implement-ddt-in-a-test-case/AUT-Login.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Katalon Recorder AUT login button</alt></image>
+                </p>
+                <p class="- topic/p ">On the opened Login page, type in the sample username and password, then click <b class="+ topic/ph hi-d/b ">Login</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/implement-ddt-in-a-test-case/AUT-Enter-username-password.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Katalon Recorder AUT login page</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">On the <b class="+ topic/ph hi-d/b ">Make Appointment</b> page, input the visit date and comment, then click <b class="+ topic/ph hi-d/b ">Book Appointment</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/implement-ddt-in-a-test-case/AUT-Fill-in-form.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Katalon Recorder AUT make appointment page</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Log out of the AUT. Click on the <i class="+ topic/ph hi-d/i ">menu</i> button and select <b class="+ topic/ph hi-d/b ">Logout</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/implement-ddt-in-a-test-case/AUT-Logout-button.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Katalon Recorder AUT logout button</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In Katalon Recorder, click on the <b class="+ topic/ph hi-d/b ">Stop</b> button to stop the recording</p>
+            </li></ol><p class="- topic/p ">The recorded test case is as follows:</p><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/implement-ddt-in-a-test-case/KR-5.8.0-Recorded-test-case.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Katalon Recorder recorded test case</alt></image>
+        </p></body></topic>

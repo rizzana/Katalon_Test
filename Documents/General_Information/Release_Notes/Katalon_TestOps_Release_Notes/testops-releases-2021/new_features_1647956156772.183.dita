@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">New features</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+
+          <li class="- topic/li ">Introduced a new design for test case management. Read more: <xref href="../../../../Organize/view-test-scripts-in-TestOps/intro-view-test-cases-in-TestOps.dita" class="- topic/xref ">Manage
+               Test Cases</xref>.</li>
+        </ul>
+      </conbody>
+    </concept>

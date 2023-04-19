@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables?><?workdir-uri file:/Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/?><?path2project ../../../../../../?><?path2project-uri ../../../../../../?><?path2rootmap-uri ../../../../../../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="id_3" class="- topic/topic concept/concept " ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/example_1_you_want_to_get_a_text_from_a_web_table_and_verify_it..dita" xtrc="concept:1;3:59" specializations="@props/deliveryTarget"><title class="- topic/title " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/example_1_you_want_to_get_a_text_from_a_web_table_and_verify_it..dita" xtrc="title:1;3:89">Example 1: You want to get a text from a Web table and
+         verify it</title><conbody class="- topic/body  concept/conbody " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/example_1_you_want_to_get_a_text_from_a_web_table_and_verify_it..dita" xtrc="conbody:1;4:75"><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/example_1_you_want_to_get_a_text_from_a_web_table_and_verify_it..dita" xtrc="p:1;4:97">
+          <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/example_1_you_want_to_get_a_text_from_a_web_table_and_verify_it..dita" xtrc="b:1;5:41">Scenario:</b>  Let's say we need to find out
+         which country the 'Pay talk' company in the above table belongs
+         to.</p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/example_1_you_want_to_get_a_text_from_a_web_table_and_verify_it..dita" xtrc="p:2;7:39">First of all, we will find the location of table then we will
+         store all table elements in the list. Next, we will run a loop and
+         iterate through each row and column and capture the value in each
+         cell.</p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/example_1_you_want_to_get_a_text_from_a_web_table_and_verify_it..dita" xtrc="p:3;10:41">
+          <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/example_1_you_want_to_get_a_text_from_a_web_table_and_verify_it..dita" xtrc="b:2;11:41">Script Mode:</b>
+        </p><codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/example_1_you_want_to_get_a_text_from_a_web_table_and_verify_it..dita" xtrc="codeblock:1;12:60">import org.openqa.selenium.By as By
+ 
+import org.openqa.selenium.WebDriver as WebDriver
+ 
+import org.openqa.selenium.WebElement as WebElement
+ 
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+ 
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+WebUI.openBrowser('D:\\\\Katalon Tutorial\\\\Katalon Tutorial\\\\WebTable_Handling_Scenario1.html')
+ 
+WebUI.maximizeWindow()
+ 
+WebDriver driver = DriverFactory.getWebDriver()
+'Expected value from Table'
+String ExpectedValue = "Pay Talk";
+'To locate table'
+WebElement Table = driver.findElement(By.xpath("//table/tbody"))
+'To locate rows of table it will Capture all the rows available in the table'
+List&lt;WebElement&gt; rows_table = Table.findElements(By.tagName('tr'))
+'To calculate no of rows In table'
+int rows_count = rows_table.size()
+ 
+'Loop will execute for all the rows of the table'
+Loop:
+for (int row = 0; row &lt; rows_count; row++) {
+'To locate columns(cells) of that specific row'
+List&lt;WebElement&gt; Columns_row = rows_table.get(row).findElements(By.tagName('td'))
+ 
+'To calculate no of columns(cells) In that specific row'
+int columns_count = Columns_row.size()
+ 
+println((('Number of cells In Row ' + row) + ' are ') + columns_count)
+ 
+'Loop will execute till the last cell of that specific row'
+for (int column = 0; column &lt; columns_count; column++) {
+'It will retrieve text from each cell'
+String celltext = Columns_row.get(column).getText()
+ 
+println((((('Cell Value Of row number ' + row) + ' and column number ') + column) + ' Is ') + celltext)
+ 
+'Checking if Cell text is matching with the expected value'
+if (celltext == ExpectedValue) {
+'Getting the Country Name if cell text i.e Company name matches with Expected value'
+println('Text present in row number 3 is: ' + Columns_row.get(2).getText())
+ 
+'After getting the Expected value from Table we will Terminate the loop'
+break Loop;
+}
+}
+}
+
+</codeblock><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/example_1_you_want_to_get_a_text_from_a_web_table_and_verify_it..dita" xtrc="p:4;64:35">
+          <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/example_1_you_want_to_get_a_text_from_a_web_table_and_verify_it..dita" xtrc="b:3;65:41">Manual Mode:</b>
+        </p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/example_1_you_want_to_get_a_text_from_a_web_table_and_verify_it..dita" xtrc="p:5;66:35">Switch to <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/example_1_you_want_to_get_a_text_from_a_web_table_and_verify_it..dita" xtrc="b:4;66:75">manual mode</b> tab to view test case
+         step by step.</p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/example_1_you_want_to_get_a_text_from_a_web_table_and_verify_it..dita" xtrc="p:6;67:49">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_web_tables/Handle-webtable.png" scope="external" class="- topic/image " placement="inline" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/example_1_you_want_to_get_a_text_from_a_web_table_and_verify_it..dita" xtrc="image:1;68:185" dita-ot:image-width="1308" dita-ot:image-height="488" dita-ot:horizontal-dpi="96" dita-ot:vertical-dpi="96"><alt class="- topic/alt " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/example_1_you_want_to_get_a_text_from_a_web_table_and_verify_it..dita" xtrc="alt:1;68:211">Handle-webtable</alt></image>
+          </p></conbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="ditamap-8764" xtrc="topicref:4;7:117" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/handle_web_tables.ditamap"><link class="- topic/link " format="dita" href="../../../../../../Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/handle_web_tables_with_katalon_studio.dita" mapclass="- map/topicref " role="parent" scope="local" type="concept" xtrc="topicref:3;6:87" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/handle_web_tables.ditamap"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Handle web tables with Katalon Studio</linktext></link></linkpool></related-links></concept>

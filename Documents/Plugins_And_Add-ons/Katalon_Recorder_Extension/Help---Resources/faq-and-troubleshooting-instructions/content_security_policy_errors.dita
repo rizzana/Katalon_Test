@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_9" class="- topic/topic concept/concept "><title class="- topic/title ">Content Security Policy errors</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">We are looking for a solution right now. Technically, it's
+         possible to overwrite CSP rules with add-ons, but it would be
+         insecure to do that on every web page.</p><p class="- topic/p ">For now, to work around the issue on Chrome, users can use a
+         third-party add-on (e.g.<xref href="https://chrome.google.com/webstore/detail/disable-content-security/ieelmcmcagommplceebfedjlakkhpden?hl=en" scope="external" class="- topic/xref ">Disable Content-Security-Policy</xref>)
+         to disable CSP rules, then execute the test in KR as usual.
+         <b class="+ topic/ph hi-d/b ">Don't forget to disable that add-on when
+            unused.</b>
+        </p><p class="- topic/p ">On Firefox, please disable the "security.csp.enable" option in
+         "about:config" to achieve the same effect. <b class="+ topic/ph hi-d/b ">Don't
+            forget to enable it when unused.</b>
+        </p></conbody></concept>

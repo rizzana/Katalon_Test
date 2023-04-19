@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Build custom keywords with Settings in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">With <xref href="../../../../General_Information/Release_Notes/Katalon_Studio_Release_Notes/version-60/version-60.dita" class="- topic/xref ">Katalon
+            Studio version 6.1.2</xref>, a <b class="+ topic/ph hi-d/b ">Settings</b> page under
+         <b class="+ topic/ph hi-d/b ">Project Settings/Plugins</b> can be created for a
+         custom-keyword plugin. This can be utilized to store project-scoped
+         variables for users to customize.</p></conbody></concept>

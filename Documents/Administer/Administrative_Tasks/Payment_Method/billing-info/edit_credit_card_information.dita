@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Edit credit card information</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">In Katalon TestOps, only credit cards are supported, and you can
+         only save one card in each organization.</p><p class="- topic/p ">If you wish to replace a pre-existing credit card, go to the
+         <b class="+ topic/ph hi-d/b ">Payment Method</b> section, then click
+         <b class="+ topic/ph hi-d/b ">Update</b>.</p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/upgrade-subs/payment-method-update.png" scope="external" width="350" class="- topic/image "><alt class="- topic/alt ">update payment</alt></image>
+      </p><p class="- topic/p ">Enter your new credit card information, then click <b class="+ topic/ph hi-d/b ">Add
+            new card</b>. The old credit card information is replaced with
+         the new card. This information cannot be retrieved.</p><p class="- topic/p ">This card is now the default for all billing purposes, including
+         subscription renewals.</p></conbody></concept>

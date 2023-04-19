@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Script Mode</title><conbody class="- topic/body  concept/conbody "><codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+ 
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+ 
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+ 
+ 
+ 
+'Path of the Swipe List View Demo APK File Store in path variable'
+ 
+def path = RunConfiguration.getProjectDir() + '/Data Files/SwipeListView Demo.apk'
+ 
+ 
+ 
+'Start the application'
+ 
+Mobile.startApplication(path, false)
+ 
+ 
+ 
+'Wait for Element Present of checkbox Don't Show this message again.\\r\\nif element present return true otherwise false.'
+ 
+alert_Status = Mobile.waitForElementPresent(findTestObject('Swipe ListView Demos/checkbox_Dont show this message again'),
+ 
+20)
+ 
+ 
+ 
+'checking the if statement based on element present of alert check box'
+ 
+if (alert_Status == true) {
+ 
+'Tap on check box'
+ 
+Mobile.tap(findTestObject('Swipe ListView Demos/checkbox_Dont show this message again'), 30)
+ 
+ 
+ 
+'Tap on Ok'
+ 
+Mobile.tap(findTestObject('Swipe ListView Demos/button_Ok'), 30)
+ 
+}
+ 
+ 
+ 
+'Wait for element Present of Heading API Demos'
+ 
+Mobile.waitForElementPresent(findTestObject('Swipe ListView Demos/header_text SwipeListView Demo'), 45)
+ 
+ 
+ 
+'Get Device Height and Store in device_height variable'
+ 
+device_Height = Mobile.getDeviceHeight()
+ 
+ 
+ 
+'Get Device Width and Store in device_Width variable'
+ 
+device_Width = Mobile.getDeviceWidth()
+ 
+ 
+ 
+'Storing the startX,endX values by dividing device height by 2 Because Y coordinates are constant'
+ 
+int startY = device_Height / 2
+ 
+ 
+ 
+'Here endY and startY values are equal for vertical Swiping for that assigning startY value to endY'
+ 
+int endY = startY
+ 
+ 
+'Storing the startX value'
+ 
+int startX = device_Width * 0.30
+ 
+ 
+ 
+'Storing the endX value'
+ 
+int endX = device_Width * 0.70
+ 
+ 
+ 
+'Here Y constant for Swipe Vertical Left to Right'
+ 
+Mobile.swipe(startX, startY, endX, endY)
+
+</codeblock><p class="- topic/p ">The source code is available <xref format="html" href="https://github.com/katalon-studio/katalon-mobile-automation" scope="external" class="- topic/xref ">here</xref>. For
+         further instructions and help, please refer to <xref href="../../../Keywords_Description_In_Katalon_Studio/Mobile-Keywords/mobile-swipe/mobile-swipe.dita" class="- topic/xref ">Mobile
+            Swipe</xref> guideline and join us on <xref format="html" href="http://forum.katalon.com/" scope="external" class="- topic/xref ">Katalon Forum</xref>.</p></conbody></concept>

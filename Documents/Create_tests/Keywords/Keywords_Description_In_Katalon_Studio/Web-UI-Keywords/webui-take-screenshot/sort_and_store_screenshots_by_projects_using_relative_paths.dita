@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Sort and store screenshots by projects using relative
+         paths</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">Same as above, but here the screenshot is stored in the same
+         location as your current project, using relative paths.</p>
+        
+          <codeblock class="+ topic/pre pr-d/codeblock "> import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.checkpoint.CheckpointFactory as CheckpointFactory
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as MobileBuiltInKeywords
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testcase.TestCaseFactory as TestCaseFactory
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testdata.TestDataFactory as TestDataFactory
+import com.kms.katalon.core.testobject.ObjectRepository as ObjectRepository
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WSBuiltInKeywords
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
+
+'Open browser and navigate to AUT'
+WebUI.openBrowser(GlobalVariable.G_SiteURL)
+
+'Input username'
+WebUI.setText(findTestObject('Page_Login/txt_UserName'), Username)
+
+'Input password'
+WebUI.setText(findTestObject('Page_Login/txt_Password'), Password)
+
+'Click on new_btn'
+WebUI.click(findTestObject('Page_Login/btn_Login'))
+
+'Take screenshot after logging in'
+WebUI.takeScreenshot('Test/Demo.png')
+ 
+'Close browser'
+WebUI.closeBrowser()
+</codeblock>
+        
+      </conbody>
+    </concept>

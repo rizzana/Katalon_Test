@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Skip test cases</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">In the <b class="+ topic/ph hi-d/b ">Test Explorer</b> panel, right-click on
+            <b class="+ topic/ph hi-d/b ">Test Listeners</b>. Select <b class="+ topic/ph hi-d/b ">New &gt; New Test
+               Listener</b>.<p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/4edfbc46044bc17f1d039c925c34230ed76357e1/katalon-studio/docs/test-listeners-test-hooks/image2017-12-5-103A353A3.png" scope="external" width="50%" class="- topic/image "><alt class="- topic/alt ">Create a new test listener</alt></image>
+      </p></li><li class="- topic/li "><p class="- topic/p ">A  <b class="+ topic/ph hi-d/b ">New Test Listener</b> dialog opens. Give it a name, such as <b class="+ topic/ph hi-d/b ">Skiptest</b>. Choose <b class="+ topic/ph hi-d/b ">Generate sample Before Test Case method</b>. Click <b class="+ topic/ph hi-d/b ">OK</b>.</p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/skip-test-cases/KS-SKIP-Create-Skiptest-Listener.png" scope="external" width="50%" class="- topic/image "><alt class="- topic/alt ">Name new test listener</alt></image>
+      </p><p class="- topic/p ">Katalon Studio generates a sample template with the necessary
+         annotations, libraries and supported functions as below:</p><codeblock class="+ topic/pre pr-d/codeblock ">import internal.GlobalVariable as GlobalVariable
+
+import com.kms.katalon.core.annotation.BeforeTestCase
+import com.kms.katalon.core.annotation.BeforeTestSuite
+import com.kms.katalon.core.annotation.AfterTestCase
+import com.kms.katalon.core.annotation.AfterTestSuite
+import com.kms.katalon.core.context.TestCaseContext
+import com.kms.katalon.core.context.TestSuiteContext
+
+class Skiptest {
+    /**
+     * Executes before every test case starts.
+     * @param testCaseContext related information of the executed test case.
+     */
+    @BeforeTestCase
+    def sampleBeforeTestCase(TestCaseContext testCaseContext) {
+    println testCaseContext.getTestCaseId()
+    println testCaseContext.getTestCaseVariables()
+}
+</codeblock></li><li class="- topic/li "><p class="- topic/p ">Use the <codeph class="+ topic/ph pr-d/codeph ">TestCaseContext.skipThisTestCase()</codeph> method to skip test cases. See also: <xref format="html" href="https://api-docs.katalon.com/com/kms/katalon/core/context/TestCaseContext.html#skipThisTestCase()" scope="external" class="- topic/xref ">skipThisTestCase()</xref></p><p class="- topic/p ">Inside the <b class="+ topic/ph hi-d/b ">Skiptest</b> Listener, copy and paste
+         the following code under the generated sample template.</p><codeblock class="+ topic/pre pr-d/codeblock ">// To check for the desired condition and skip the test case if true.
+if(inputyourconditionhere)
+{   testCaseContext.skipThisTestCase()
+}
+</codeblock></li><li class="- topic/li ">Return to your test suite and run it. Check the results in the
+            <b class="+ topic/ph hi-d/b ">Results</b> tab to see the final status of your
+            tests.</li></ol><note type="note" class="- topic/note ">
+        
+
+        <p class="- topic/p ">Katalon Studio supports exporting test reports in 
+            <b class="+ topic/ph hi-d/b ">HTML</b>, <b class="+ topic/ph hi-d/b ">CSV</b>, <b class="+ topic/ph hi-d/b ">PDF</b>
+            and <b class="+ topic/ph hi-d/b ">JUnit</b>. You can learn more about exporting
+            reports here: <xref href="../../../Analyze/Reports/View_Test_Reports/View_test_reports_in_Studio/view-test-suite-report-in-Studio/automatically_generate_reports.dita" class="- topic/xref ">Generate
+               reports</xref>.</p>
+      </note></conbody></concept>

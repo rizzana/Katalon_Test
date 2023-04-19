@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Prepare to test</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">Clone this project from our GitHub repository: <ph class="- topic/ph ">https://github.com/katalon-studio/katalon-studio-excel-custom-keywords-plugin</ph></li><li class="- topic/li ">Open the project in Katalon Studio at least
+               once.        </li><li class="- topic/li ">Modify katalon-plugin.json with this template:<codeblock class="+ topic/pre pr-d/codeblock ">{
+   "keywords": ["com.katalon.plugin.keyword.excel.ExcelReadKeywords", "com.katalon.plugin.keyword.excel.ExcelWriteKeywords"],
+   "configuration": {
+      "settingId": "com.katalon.plugin.keyword.excel-keywords",
+      "settingPage": {
+         "name": "Excel Keywords",
+         "components": [
+            {
+               "key": "username",
+               "type": "text",
+               "label": "Username"
+            },
+            {
+               "key": "password",
+               "type": "secret",
+               "label": "Password"
+            }
+         ]
+      }
+   }
+}
+
+</codeblock></li><li class="- topic/li ">
+          <p class="- topic/p ">Build excel keyword project:</p>
+          
+            <codeph class="+ topic/ph pr-d/codeph ">gradle katalonPluginPackage</codeph>
+          
+          <p class="- topic/p ">A jar file will be generated in <b class="+ topic/ph hi-d/b ">/build/libs</b>
+               folder.</p>
+        </li><li class="- topic/li ">Copy and paste the generated jar file to
+            <b class="+ topic/ph hi-d/b ">Plugins</b> folder of a Katalon Studio project
+            (Project A).</li><li class="- topic/li ">Open <b class="+ topic/ph hi-d/b ">Project A</b> and navigate to <b class="+ topic/ph hi-d/b ">Project
+               Settings/Plugins/Excel Keywords.</b></li><li class="- topic/li ">Customize the settings as wish.</li></ol></conbody></concept>

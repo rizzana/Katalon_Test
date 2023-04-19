@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">Install and create a PostgreSQL database</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">PostgreSQL database is where you manage all data including organizations, teams, and user accounts used in the server.</p><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">Download <xref format="html" href="https://www.postgresql.org/download/" scope="external" class="- topic/xref ">PostgreSQL database</xref>.</li><li class="- topic/li ">
+                <p class="- topic/p ">Run the PostgreSQL installation and follow the PostgreSQL setup instructions.</p>
+                <ul class="- topic/ul "><li class="- topic/li ">
+                        <p class="- topic/p ">Create a password for the database superuser (postgres).</p>
+                        <p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/ktop-server/3.PNG" scope="external" class="- topic/image "><alt class="- topic/alt ">prosgres password</alt></image></p>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p ">Select the port number the server should listen on.</p>
+                        <p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/ktop-server/4.PNG" scope="external" class="- topic/image "><alt class="- topic/alt ">prosgres port</alt></image></p>
+                    </li></ul>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">After installation, open PgAdmin on your browser.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Sign in with the superuser's password.</p>
+                <p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/ktop-server/pgadmin.PNG" scope="external" class="- topic/image "><alt class="- topic/alt ">pgadmin page</alt></image></p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Create a database named <i class="+ topic/ph hi-d/i ">kit</i>.</p>
+                <p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/ktop-server/kit.PNG" scope="external" class="- topic/image "><alt class="- topic/alt ">kit database</alt></image></p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Create a database named <i class="+ topic/ph hi-d/i ">k1</i>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Add the following entry to the pg_hba.conf file:</p>
+                <codeblock class="+ topic/pre pr-d/codeblock ">
+#TYPE DATABASE    USER    ADDRESS     METHOD
+#IPv4 local connections: 
+host  all     all       127.0.0.1/32      md5
+#IPv6 local connections: 
+host  all     all       ::1/128       md5
+#Allow replication connections from localhost, by a user with the replication privilege
+host  all     all       0.0.0.0/0       md5
+host  all     all       ::/0         md5        
+                </codeblock>
+            </li></ol><note type="note" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">You can use the default PostgreSQL superuser or create another login role with the superuser's privileges.</li></ul>
+        </note></conbody></concept>

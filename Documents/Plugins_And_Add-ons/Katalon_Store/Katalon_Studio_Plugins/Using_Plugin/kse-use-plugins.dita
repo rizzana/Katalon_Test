@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Using <ph conkeyref="name-variables/katalon-store" class="- topic/ph "/> Plugins</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Katalon Plugin is to extend Katalon Studio capabilities and
+         integrate the software with your favorite tools. This section
+         introduces plugins, different ways of using plugins with the
+         Katalon Studio Enterprise license and the detailed
+         configurations.</p></conbody></concept>

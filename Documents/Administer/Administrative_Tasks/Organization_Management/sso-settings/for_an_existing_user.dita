@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">For an existing User</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To enable SSO for an existing User, follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Settings</b> &gt; <b class="+ topic/ph hi-d/b ">User Management</b>.</p>
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">User Management</b> page appears.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Active Users</b> tab, nagivate to a User's row, click on the <i class="+ topic/ph hi-d/i ">more options</i> icon, and select <b class="+ topic/ph hi-d/b ">Edit Login Options</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-sso-settings/K1-User-Management-Active-Users-tab-more-options.png" scope="external" class="- topic/image "><alt class="- topic/alt ">More options icon</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In the new <b class="+ topic/ph hi-d/b ">Login Settings</b> pop-up, toggle on the <b class="+ topic/ph hi-d/b ">Log in to [custom.katalon.io] by Single Sign-On</b> option.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-sso-settings/K1-Log-Settings-Username_Password-enabled.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">SSO toggle turned on</alt></image>
+                </p>
+                <note type="note" class="- topic/note ">
+                    <ul class="- topic/ul "><li class="- topic/li ">
+                            <p class="- topic/p ">You can choose to select or deselect both options.</p>
+                        </li></ul>
+                </note>
+                <p class="- topic/p ">If the selected User already has a pending SSO invitation, the pop-up will display the invitation link. You can copy this link to send to the User.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-sso-settings/K1-Login-Settings-Pending-Invitation-Link.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">SSO toggle turned on</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Save</b> to complete the configuration.</p>
+                <p class="- topic/p ">A request email is then sent to the selected User.</p>
+            </li></ol><note type="note" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">
+                    <p class="- topic/p ">Users must join the Organization to log in to the custom domain by either SSO or username and password.</p>
+                </li></ul>
+        </note></conbody></concept>

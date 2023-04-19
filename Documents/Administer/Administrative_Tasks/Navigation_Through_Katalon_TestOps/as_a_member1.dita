@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_9" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">As a Member</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">The Admin homepage appears as below.</p>
+        <p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-navigation-doc/TO-Admin-HomePage-Member-View.png" scope="external" width="100%" class="- topic/image ">
+            <alt class="- topic/alt ">TestOps Admin homepage Member overview</alt>
+          </image>
+        </p>
+        <p class="- topic/p ">The Admin homepage displays several sections that contain common
+         actions for a Member.</p>
+        <table class="- topic/table ">
+          <tgroup cols="3" class="- topic/tgroup ">
+            <colspec colname="col1" colnum="1" class="- topic/colspec "/>
+            <colspec colname="col2" colnum="2" class="- topic/colspec "/>
+            <colspec colname="col3" colnum="3" class="- topic/colspec "/>
+            <thead class="- topic/thead ">
+              <row class="- topic/row ">
+                <entry class="- topic/entry ">Section</entry>
+                <entry nameend="col3" namest="col2" class="- topic/entry ">Common Actions and Usage</entry>
+              </row>
+            </thead>
+            <tbody class="- topic/tbody ">
+              <row class="- topic/row ">
+                <entry class="- topic/entry ">
+                  <b class="+ topic/ph hi-d/b ">TestOps Plan Summary</b>
+                </entry>
+                <entry nameend="col3" namest="col2" class="- topic/entry ">View the plan name, the number of purchased test
+                  executions, and the number of projects you belong to.</entry>
+              </row>
+              <row class="- topic/row ">
+                <entry class="- topic/entry ">
+                  <b class="+ topic/ph hi-d/b ">Featured Documentation</b>
+                </entry>
+                <entry nameend="col3" namest="col2" class="- topic/entry ">See some featured user guides for the TestOps
+                  knowledge base.</entry>
+              </row>
+              <row class="- topic/row ">
+                <entry morerows="2" class="- topic/entry ">
+                  <b class="+ topic/ph hi-d/b ">Quick Actions</b>
+                </entry>
+                <entry class="- topic/entry ">View my Katalon Studio Licenses</entry>
+                <entry class="- topic/entry ">View details about your granted Katalon Studio licenses.</entry>
+              </row>
+              <row class="- topic/row ">
+                <entry class="- topic/entry ">Generate an API key</entry>
+                <entry class="- topic/entry ">Generate API keys to integrate TestOps with different
+                  platforms.</entry>
+              </row>
+              <row class="- topic/row ">
+                <entry class="- topic/entry ">Manage your profile</entry>
+                <entry class="- topic/entry ">Edit your profile.</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </conbody>
+    </concept>

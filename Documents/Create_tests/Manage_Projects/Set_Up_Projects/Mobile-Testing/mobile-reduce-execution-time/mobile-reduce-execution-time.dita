@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Reduce Execution Time in Mobile Testing in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To speed up a test suite's execution, we recommend starting the
+         application once in the first test case and resetting it in each
+         remaining test case with the following snippet:</p><codeblock class="+ topic/pre pr-d/codeblock ">import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
+import io.appium.java_client.AppiumDriver
+AppiumDriver driver = MobileDriverFactory.getDriver();
+driver.resetApp()
+</codeblock></conbody></concept>

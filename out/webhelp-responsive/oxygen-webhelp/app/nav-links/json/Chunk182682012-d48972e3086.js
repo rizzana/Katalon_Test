@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"Chunk182682012-d48972e3086":{"topics":[{"title":"Toolbars and views in <span class=\"ph\">Katalon Studio<\/span>","href":"Chunk182682012.html#topic-5362","attributes":{"data-id":"topic-5362"},"menu":{"hasChildren":false},"tocID":"topic-5362-d48972e3094","next":"topic-5362-d48972e3094"}]}};

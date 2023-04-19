@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-manage-checkpoints" class="- map/map ">
+  <title class="- topic/title ">Checkpoints</title>
+  <topicref href="manage-checkpoints.dita" class="- map/topicref "><topicref href="what_is_checkpoint.dita" class="- map/topicref "/>
+  <topicref href="create_a_checkpoint_from_test_data.dita" class="- map/topicref "/>
+  <topicref href="create_an_excel_checkpoint.dita" class="- map/topicref "/>
+  <topicref href="create_a_csv_checkpoint.dita" class="- map/topicref "/>
+  <topicref href="create_a_database_checkpoint.dita" class="- map/topicref "/>
+  <topicref href="visual_testing_checkpoint.dita" class="- map/topicref "/>
+</topicref></map>

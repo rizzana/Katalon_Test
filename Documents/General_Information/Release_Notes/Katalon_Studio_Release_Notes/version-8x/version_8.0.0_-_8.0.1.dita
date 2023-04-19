@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_20" class="- topic/topic concept/concept "><title class="- topic/title ">Version 8.0.0 - 8.0.1</title><conbody class="- topic/body  concept/conbody "><section class="- topic/section "><title class="- topic/title ">New Features</title><ul class="- topic/ul "><li class="- topic/li ">[Katalon Studio Enterprise] Supported native integration with
+            Azure DevOps Test Plans. <xref href="../../../../Organize/Integration_For_Organizing_Tests/azure-devops-test-plans/intro-azure-devops-test-plans.dita" class="- topic/xref ">Learn
+               more</xref></li><li class="- topic/li ">[Katalon Studio Enterprise] Imported/Exported desired
+            capabilities. <xref href="../../../../Create_tests/Manage_Projects/Project_Settings/Desired_Capabilities/import-export-desired-capabilities/import-export-desired-capabilities.dita" class="- topic/xref ">Learn
+               more</xref></li><li class="- topic/li ">[Katalon Runtime Engine License] Added a parameter to release
+            the previous execution session before checking the license. <xref href="../../../../Execute/Katalon_Runtime_Engine/console-mode-execution/General_Options.dita" class="- topic/xref ">Learn
+               more</xref></li><li class="- topic/li ">Provided Product Tours for new Web UI and Web Service
+            users.</li></ul></section><section class="- topic/section "><title class="- topic/title ">Enhancements</title><ul class="- topic/ul "><li class="- topic/li ">Supported Chrome 90.</li><li class="- topic/li ">Supported Microsoft Edge (Chromium) 90.</li><li class="- topic/li ">Updated the embedded GeckoDriver to 0.29 (Firefox 88).</li><li class="- topic/li ">Improved Performance: Load large projects faster and consume
+            less memory during execution.</li><li class="- topic/li ">Edge Chromium was now the default <b class="+ topic/ph hi-d/b ">embedded
+               browser</b> (used to be Internet Explorer).</li><li class="- topic/li ">[Windows OS] Replaced embedded Oracle JRE 8 with Azul Zulu
+            OpenJDK 8.</li><li class="- topic/li ">Enhanced Katalon TestOps Integration: 
+            
+            <ul class="- topic/ul "><li class="- topic/li ">[Katalon Runtime Engine] Supported query for Test Suite
+                  Collection. <xref href="../../../../Execute/Katalon_Runtime_Engine/console-mode-execution/General_Options.dita" class="- topic/xref ">Learn
+                     more</xref></li><li class="- topic/li ">[Katalon Runtime Engine] Supported new parameters for the new
+                  Build concept. <xref href="../../../../Execute/Katalon_Runtime_Engine/console-mode-execution/General_Options.dita" class="- topic/xref ">Learn
+                     more</xref></li></ul></li><li class="- topic/li ">[Katalon Runtime Engine] Passed HashMap for Global Variables
+            from CLI.</li><li class="- topic/li ">[Katalon Runtime Engine] Added an option to Command Builder for
+            updating WebDriver automatically.</li><li class="- topic/li ">[Enhanced Report] Added profile details to the email
+            reports.</li></ul></section><section class="- topic/section "><title class="- topic/title ">Changes</title><ul class="- topic/ul "><li class="- topic/li ">Katalon accounts registered with personal email are eligible
+            for Katalon Studio Enterprise and Katalon Runtime Engine trial
+            licenses for 30 days.</li><li class="- topic/li ">MySQL became an external library. To keep it in use, follow <xref href="../../../../Create_tests/Data_Driven_Testing/how-to-implement-ddt-mysql/how-to-implement-ddt-mysql.dita" class="- topic/xref ">this
+               guide</xref> to configure MySQL database connection.</li></ul></section><section class="- topic/section "><title class="- topic/title ">Fixes</title><ul class="- topic/ul "><li class="- topic/li ">Bug: Fixed all blocker &amp; critical security vulnerabilities
+            reported by SonarQube in static code analysis and 3rd-party
+            libraries scanning tools.</li><li class="- topic/li ">Bug: [Katalon Runtime Engine] Lacking of tracking event for
+            activation.</li><li class="- topic/li ">Bug: [Windows] Missing Network connection Preference.</li><li class="- topic/li ">Bug: [Chrome 86] Recorder utility was not working.</li><li class="- topic/li ">Bug: Could not import Swagger JSON files.</li><li class="- topic/li ">Bug: The Bypass Certificate validation option was not
+            working.</li><li class="- topic/li ">Bug: [Katalon Runtime Engine] An issue of not sending emails
+            via command syntax <codeph class="+ topic/ph pr-d/codeph ">sendMail</codeph>.</li><li class="- topic/li ">Bug: An issue of deleting scripts when renaming the folder
+            name.</li><li class="- topic/li ">Bug: Could not drag and drop a custom keyword from Keyword
+            Browser.</li><li class="- topic/li ">Bug: Could not update References of Called Test Cases when the
+            test cases are moved by drag and drop or cut and paste.</li><li class="- topic/li ">Bug: [Mobile testing] Could not capture object(s) while
+            testing.</li></ul></section></conbody></concept>

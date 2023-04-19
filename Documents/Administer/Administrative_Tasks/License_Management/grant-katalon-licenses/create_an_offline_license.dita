@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Create an offline license</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">An <b class="+ topic/ph hi-d/b ">Offline License</b> allows you to use KSE and
+         KRE without internet. Once an offline license is generated, you
+         cannot revoke or transfer it to a different machine.</p><p class="- topic/p ">By default, an offline license expires at the end of your
+         subscription period. It can also be set to expire earlier by
+         inputting a different expiry date when generating the offline
+         license file.</p><p class="- topic/p ">When an offline license expires, you can generate a new offline
+         license file to continue using KSE/KRE offline, or you can use an
+         online license instead.</p><p class="- topic/p ">As a machine ID is required to create an offline license,
+         Katalon generates a machine ID based on the hardware specifications
+         and the user's account logging in to that machine.</p><p class="- topic/p ">For example, if User A logs in to A's account on Machine A,
+         Katalon generates a machine ID X. If User B logs in to B's account
+         on Machine A, Katalon generates a machine ID Y. This means that you
+         need two offline licenses for User A and User B.</p><note type="warning" class="- topic/note ">
+          
+          <p class="- topic/p ">Once converted to an offline license, a KSE/KRE license is bound
+            to a machine until it expires. You cannot undo this action.</p>
+        </note><note type="important" class="- topic/note ">
+          
+          <ul class="- topic/ul "><li class="- topic/li ">
+              <p class="- topic/p ">You can only convert an <b class="+ topic/ph hi-d/b ">annual</b> license into an
+                  offline license.</p>
+            </li><li class="- topic/li ">
+              <p class="- topic/p ">You must be the Owner or Admin of your Organization.</p>
+            </li><li class="- topic/li ">
+
+              <p class="- topic/p ">You have already received the User's machine ID. You can send
+                  this guide to your users: <xref href="../../../KSE-KRE-Licenses/machine-id/machine-id.dita" class="- topic/xref ">View
+                     Machine ID</xref>, for instructions on how to find a machine ID.</p>
+            </li></ul>
+        </note><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+            <p class="- topic/p ">Sign in to <xref format="html" href="https://testops.katalon.io/login" scope="external" class="- topic/xref ">Katalon
+                  TestOps</xref>.</p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Settings</b> &gt; <b class="+ topic/ph hi-d/b ">License
+                  Management</b>.</p>
+            <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">License Management</b> page appears.</p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">Choose between KSE (per-User) and KRE (Floating).</p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">Scroll down to the <b class="+ topic/ph hi-d/b ">Offline Licenses</b> section,
+               then click on the <b class="+ topic/ph hi-d/b ">Create Offline License</b>
+               button.</p>
+            <p class="- topic/p ">
+              <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/offline-license-button-2021decUI.png" scope="external" width="100%" class="- topic/image "><alt class="- topic/alt ">create offline license page</alt></image>
+            </p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">Enter the User's machine ID and input the expiry date, then
+               click <b class="+ topic/ph hi-d/b ">Create</b>.</p>
+            <p class="- topic/p ">
+              <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/create-offline-license-ui-mar2022.png" scope="external" width="100%" class="- topic/image "><alt class="- topic/alt ">create offline license page</alt></image>
+            </p>
+            <p class="- topic/p ">You can also add a note on the offline license in the
+               <b class="+ topic/ph hi-d/b ">Description</b> section.</p>
+            <note type="note" class="- topic/note ">
+              
+              <p class="- topic/p ">You should double check the machine IDs to make sure you
+                  distribute offline licenses to the right users.</p>
+            </note>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">Confirm the information in the popup window, then click
+               <b class="+ topic/ph hi-d/b ">Create</b>.</p>
+            <p class="- topic/p ">
+              <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/create-an-offline-license-popup-ui-feb2022.PNG" scope="external" width="100%" class="- topic/image "><alt class="- topic/alt ">create offline license popup</alt></image>
+            </p>
+            <p class="- topic/p ">You have created an offline license.</p>
+            <p class="- topic/p ">For KSE, the newly-created offline license file is named
+               <codeph class="+ topic/ph pr-d/codeph ">KSE_&lt;machineID&gt;.lic</codeph> and added in the
+               <b class="+ topic/ph hi-d/b ">Offline Licenses</b> section.</p>
+            <p class="- topic/p ">For KRE, the newly-created offline license file is named
+               <codeph class="+ topic/ph pr-d/codeph ">KRE_&lt;machineID&gt;.lic</codeph> and added in the
+               <b class="+ topic/ph hi-d/b ">Offline Licenses</b> section.</p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">Download and transfer the offline license files to the User.</p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">Send your users this activation guide: <xref href="../../../KSE-KRE-Licenses/activate-license/activate-kse.dita" class="- topic/xref ">Activate
+                  Katalon License</xref>.</p>
+          </li></ol><p class="- topic/p ">See also:</p><ul class="- topic/ul "><li class="- topic/li ">
+            <xref href="../remove-license/remove-license.dita" class="- topic/xref ">Remove
+               a License</xref>.</li><li class="- topic/li ">
+            <xref href="../license-management/license-management.dita" class="- topic/xref ">Manage
+               Katalon Licenses</xref>.</li><li class="- topic/li ">
+            <xref href="../../Product_Utilization/license-utilization-dashboard/license_usage_visualization.dita" class="- topic/xref ">License
+               Utilization Dashboard</xref>.</li></ul></conbody></concept>

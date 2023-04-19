@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Add the project to katalon-plugin-docs repository</title><conbody class="- topic/body  concept/conbody "><ul class="- topic/ul "><li class="- topic/li ">Go to
+            <codeph class="+ topic/ph pr-d/codeph ">katalon-plugin-docs/katalon-plugin-docs.github.io/</codeph>
+        </li><li class="- topic/li ">Upload your file to “docs” folder</li><li class="- topic/li ">Create a pull request and wait for approval</li></ul><p class="- topic/p ">Example of the AngularJS Dropdown Keywords successfully added to
+         Git: <xref href="https://github.com/katalon-plugin-docs/katalon-plugin-docs.github.io/tree/master/docs/angularjs-dropdown-custom-keywords" scope="external" class="- topic/xref ">AngularJS Dropdown custom keyword</xref>.</p></conbody></concept>

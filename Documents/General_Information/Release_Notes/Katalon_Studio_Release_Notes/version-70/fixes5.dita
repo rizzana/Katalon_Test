@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_22" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Fixes</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">Bug: An issue related to Test Objects' names in Katalon Record
+            Utility</li>
+          <li class="- topic/li ">Bug: [Command Builder] An issue of setting the waiting time to
+            update execution status of the Test Suite</li>
+          <li class="- topic/li ">Bug: [Windows Testing] Test execution failure caused by the
+            default timeout of <codeph class="+ topic/ph pr-d/codeph ">switchToWindowTitle</codeph>
+          </li>
+          <li class="- topic/li ">Bug: [Web Service Testing] An issue of saving test request's
+            body</li>
+        </ul>
+      </conbody>
+    </concept>

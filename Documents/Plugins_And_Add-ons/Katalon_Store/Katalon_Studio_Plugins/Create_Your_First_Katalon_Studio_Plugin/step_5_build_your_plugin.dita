@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept "><title class="- topic/title ">
+      Step 5: Build your plugin
+    </title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Type <codeph class="+ topic/ph pr-d/codeph ">mvn clean package</codeph> and wait until the
+         <b class="+ topic/ph hi-d/b ">BUILD SUCCESS</b> message is displayed from the
+         command line window.</p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/publisher/build-plugin.png" scope="external" width="500" class="- topic/image "/>
+      </p><p class="- topic/p ">After the build completed, there is a
+         <codeph class="+ topic/ph pr-d/codeph ">my-first-katalon-plugin.jar</codeph> under the
+         <codeph class="+ topic/ph pr-d/codeph ">target</codeph> folder, we will need this to launch your plugin
+         in the next step.</p></conbody></concept>

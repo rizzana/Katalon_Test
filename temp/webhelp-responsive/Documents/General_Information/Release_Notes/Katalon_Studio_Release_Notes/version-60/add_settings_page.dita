@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/General_Information/Release_Notes/Katalon_Studio_Release_Notes/version-60?><?workdir-uri file:/Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/General_Information/Release_Notes/Katalon_Studio_Release_Notes/version-60/?><?path2project ../../../../../?><?path2project-uri ../../../../../?><?path2rootmap-uri ../../../../../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="id_20" class="- topic/topic concept/concept " ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/General_Information/Release_Notes/Katalon_Studio_Release_Notes/version-60/add_settings_page.dita" xtrc="concept:1;3:60" specializations="@props/deliveryTarget"><title class="- topic/title " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/General_Information/Release_Notes/Katalon_Studio_Release_Notes/version-60/add_settings_page.dita" xtrc="title:1;3:90">Add Settings page</title><conbody class="- topic/body  concept/conbody " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/General_Information/Release_Notes/Katalon_Studio_Release_Notes/version-60/add_settings_page.dita" xtrc="conbody:1;3:163"><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/General_Information/Release_Notes/Katalon_Studio_Release_Notes/version-60/add_settings_page.dita" xtrc="p:1;3:185">Custom Keyword Plugin declares the setting page UI in
+         <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/General_Information/Release_Notes/Katalon_Studio_Release_Notes/version-60/add_settings_page.dita" xtrc="b:1;4:40">katalon-plugin.json</b> with this sample:</p><codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/General_Information/Release_Notes/Katalon_Studio_Release_Notes/version-60/add_settings_page.dita" xtrc="codeblock:1;4:132">{
+   "keywords": [],
+   "configuration": {
+      "settingId": "some id",
+      "settingPage": {
+         "name": "name",
+         "components": [
+            {
+               "key": "key1",
+               "type": "text",
+               "label": "My Label 1",
+               "defaultValue":"My default value 1"
+            },
+            {
+               "key": "key2",
+               "type": "secret",
+               "label": "My Label 2"
+            }, ...
+         ]
+      }
+   }
+}
+</codeblock><ul class="- topic/ul " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/General_Information/Release_Notes/Katalon_Studio_Release_Notes/version-60/add_settings_page.dita" xtrc="ul:1;26:37"><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/General_Information/Release_Notes/Katalon_Studio_Release_Notes/version-60/add_settings_page.dita" xtrc="li:1;26:61">
+              <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/General_Information/Release_Notes/Katalon_Studio_Release_Notes/version-60/add_settings_page.dita" xtrc="p:2;27:37">
+                <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/General_Information/Release_Notes/Katalon_Studio_Release_Notes/version-60/add_settings_page.dita" xtrc="b:2;28:47">settingId</b>: id the setting file that stores user
+               setting properties in the setting page. There is a file will
+               generated to store user settings at location:</p>
+              <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/General_Information/Release_Notes/Katalon_Studio_Release_Notes/version-60/add_settings_page.dita" xtrc="p:3;31:37">
+                <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/General_Information/Release_Notes/Katalon_Studio_Release_Notes/version-60/add_settings_page.dita" xtrc="codeblock:2;32:64">&lt;Project dir&gt;/settings/external/&lt;settingId&gt;.properties</codeblock>
+              </p>
+            </li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/General_Information/Release_Notes/Katalon_Studio_Release_Notes/version-60/add_settings_page.dita" xtrc="li:2;34:42">
+              <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/General_Information/Release_Notes/Katalon_Studio_Release_Notes/version-60/add_settings_page.dita" xtrc="p:4;35:37">
+                <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/General_Information/Release_Notes/Katalon_Studio_Release_Notes/version-60/add_settings_page.dita" xtrc="b:3;36:47">settingPage</b> : contains the following
+               sub-properties</p>
+              <ul class="- topic/ul " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/General_Information/Release_Notes/Katalon_Studio_Release_Notes/version-60/add_settings_page.dita" xtrc="ul:2;38:39"><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/General_Information/Release_Notes/Katalon_Studio_Release_Notes/version-60/add_settings_page.dita" xtrc="li:3;38:63">
+                  <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/General_Information/Release_Notes/Katalon_Studio_Release_Notes/version-60/add_settings_page.dita" xtrc="b:4;39:49">name</b>: Name of the setting page</li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/General_Information/Release_Notes/Katalon_Studio_Release_Notes/version-60/add_settings_page.dita" xtrc="li:4;39:112">
+                  <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/General_Information/Release_Notes/Katalon_Studio_Release_Notes/version-60/add_settings_page.dita" xtrc="b:5;40:49">components</b>: list of UI components 
+                  
+                  <ul class="- topic/ul " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/General_Information/Release_Notes/Katalon_Studio_Release_Notes/version-60/add_settings_page.dita" xtrc="ul:3;42:43"><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/General_Information/Release_Notes/Katalon_Studio_Release_Notes/version-60/add_settings_page.dita" xtrc="li:5;42:67">
+                      <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/General_Information/Release_Notes/Katalon_Studio_Release_Notes/version-60/add_settings_page.dita" xtrc="b:6;43:53">key</b>: key of the component</li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/General_Information/Release_Notes/Katalon_Studio_Release_Notes/version-60/add_settings_page.dita" xtrc="li:6;43:111">
+                      <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/General_Information/Release_Notes/Katalon_Studio_Release_Notes/version-60/add_settings_page.dita" xtrc="b:7;44:53">label</b>: label of the component</li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/General_Information/Release_Notes/Katalon_Studio_Release_Notes/version-60/add_settings_page.dita" xtrc="li:7;44:115">
+                      <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/General_Information/Release_Notes/Katalon_Studio_Release_Notes/version-60/add_settings_page.dita" xtrc="b:8;45:53">type</b>: type of the component ('text' or
+                        'secret')</li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/General_Information/Release_Notes/Katalon_Studio_Release_Notes/version-60/add_settings_page.dita" xtrc="li:8;46:63">
+                      <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/General_Information/Release_Notes/Katalon_Studio_Release_Notes/version-60/add_settings_page.dita" xtrc="b:9;47:53">defaultValue</b>: default value of the
+                        component</li></ul>
+                </li></ul>
+            </li></ul></conbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="ditamap-8764" xtrc="topicref:21;3:1456" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/General_Information/Release_Notes/Katalon_Studio_Release_Notes/version-60/version-60.ditamap"><link class="- topic/link " format="dita" href="../../../../../Documents/General_Information/Release_Notes/Katalon_Studio_Release_Notes/version-60/build_custom_keywords_with_settings.dita" mapclass="- map/topicref " role="parent" scope="local" type="concept" xtrc="topicref:20;3:1391" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/General_Information/Release_Notes/Katalon_Studio_Release_Notes/version-60/version-60.ditamap"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Build custom keywords with Settings</linktext></link></linkpool></related-links></concept>

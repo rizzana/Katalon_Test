@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_7" class="- topic/topic concept/concept "><title class="- topic/title ">
+      Step 6: Test your plugin
+    </title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Open Katalon Studio (since 6.0.4) and activate <b class="+ topic/ph hi-d/b ">Event
+            Log</b> tab that's nearby <codeph class="+ topic/ph pr-d/codeph ">Console Log</codeph> tab. All
+         your plugin's message will be displayed here.</p><p class="- topic/p ">Launch your plugin by clicking on <b class="+ topic/ph hi-d/b ">Plugin/Install
+            Plugin</b> menu and choose the jar was mentioned above.</p><p class="- topic/p ">You should be able to see the notification message <codeph class="+ topic/ph pr-d/codeph ">Plugin
+            installed successfully</codeph> from Katalon Studio and the message
+         <codeph class="+ topic/ph pr-d/codeph ">Hello, my plugin is:
+            com.mycomany.my-first-katalon-plugin</codeph> is displayed in
+         <codeph class="+ topic/ph pr-d/codeph ">Event Log</codeph> tab. Success!</p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/publisher/test-plugin.png" scope="external" width="500" class="- topic/image "/>
+      </p></conbody></concept>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">WebDriver Auto-update for Katalium Server</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">When Katalium starts, the server will detect the installed
+         browsers and download the compatible WebDriver versions. Supported
+         browsers are Chrome, Firefox, Internet Explorer, and Edge (pre
+         18).</p></conbody></concept>

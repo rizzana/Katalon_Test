@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-9319" xml:lang="en-us" class="- topic/topic concept/concept "><title class="- topic/title ">Web Service settings in script view</title><prolog class="- topic/prolog "><author translate="no" type="creator" class="- topic/author ">Yen Nguyen &lt;yen.nguyen@katalon.com&gt;</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "/></metadata></prolog><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">
+            <note type="important" class="- topic/note ">
+                <ul class="- topic/ul "><li class="- topic/li ">
+                        <p class="- topic/p "><ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> version 7.6.0 onwards. </p>
+                    </li><li class="- topic/li ">An active <ph conkeyref="name-variables/kse" class="- topic/ph "/> license</li></ul>
+            </note>
+        </p><p class="- topic/p ">You can set request timeout and maximum response size via a script using the built-in functions of <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/>.</p><section class="- topic/section ">
+            <title class="- topic/title ">Request timeout</title>
+            <p class="- topic/p ">
+                <ul class="- topic/ul "><li class="- topic/li ">Override timeout settings of a project in a test case<p class="- topic/p ">
+                            <codeblock class="+ topic/pre pr-d/codeblock ">Map&lt;String, Object&gt; generalSettings = RunConfiguration.getExecutionGeneralProperties()
+generalSettings.put(RunConfiguration.REQUEST_CONNECTION_TIMEOUT, 3500)
+generalSettings.put(RunConfiguration.REQUEST_SOCKET_TIMEOUT, 3500)</codeblock>
+                        </p></li><li class="- topic/li ">
+                        <p class="- topic/p ">Change timeout settings of a specific test request</p>
+                        <p class="- topic/p ">
+                            <codeblock class="+ topic/pre pr-d/codeblock ">RequestObject request = findTestObject("Object Repository/Localhost") request.setConnectionTimeout(3500) request.setSocketTimeout(3500)
+ 
+// Or to unset the timeout request.setConnectionTimeout(RequestObject.TIMEOUT_UNSET) request.setSocketTimeout(RequestObject.TIMEOUT_UNSET) 
+
+// Or to set the timeout to unlimited request.setConnectionTimeout(RequestObject.TIMEOUT_UNLIMITED) request.setSocketTimeout(RequestObject.TIMEOUT_UNLIMITED) 
+// Or if you just want to set to its default value (The default value is set to unlimited) request.setConnectionTimeout(RequestObject.DEFAULT_TIMEOUT) request.setSocketTimeout(RequestObject.DEFAULT_TIMEOUT)</codeblock>
+                        </p>
+                    </li></ul>
+            </p>
+        </section><section class="- topic/section ">
+            <title class="- topic/title ">Maximum response time</title>
+            <p class="- topic/p ">
+                <note class="- topic/note ">
+                    <ul class="- topic/ul "><li class="- topic/li ">
+                            <p class="- topic/p "><ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> also supports setting the maximum response size of execution using&#160;<codeph class="+ topic/ph pr-d/codeph ">-maxResponseSize</codeph>&#160;in the command line. <xref href="../../../../Execute/Katalon_Runtime_Engine/console-mode-execution/General_Options.dita" class="- topic/xref ">Learn more.</xref></p>
+                        </li></ul>
+                </note>
+            </p>
+            <p class="- topic/p ">
+                <ul class="- topic/ul "><li class="- topic/li ">
+                        <p class="- topic/p ">Override response size limit of a project in a test case</p>
+                        <p class="- topic/p ">
+                            <codeblock class="+ topic/pre pr-d/codeblock ">Map&lt;String, Object&gt; generalSettings = RunConfiguration.getExecutionGeneralProperties()
+generalSettings.put(RunConfiguration.REQUEST_MAX_RESPONSE_SIZE, 400)</codeblock>
+                        </p>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p ">Change maximum response size setting of a specific test request</p>
+                        <p class="- topic/p ">
+                            <codeblock class="+ topic/pre pr-d/codeblock ">RequestObject request = findTestObject("Object Repository/Basic Auth")
+request.setMaxResponseSize(400) 
+
+// Or to unset response size limit. And so, the project's max response size setting will be used.
+request.setMaxResponseSize(RequestObject.MAX_RESPONSE_SIZE_UNSET) 
+
+// Or to set response size limit to unlimited
+request.setMaxResponseSize(RequestObject.MAX_RESPONSE_SIZE_UNLIMITED) 
+
+// Or if you just want to set to its default value (The default value is set to unlimited)
+request.setMaxResponseSize(RequestObject.DEFAULT_MAX_RESPONSE_SIZE)</codeblock>
+                        </p>
+                    </li></ul>
+            </p>
+        </section></conbody></concept>

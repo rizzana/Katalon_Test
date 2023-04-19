@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Jenkins Integration Overview</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Jenkins is an open-source automation server. Jenkins provides hundreds of plugins to support building, deploying, and automating any project.</p><p class="- topic/p ">You can integrate Jenkins with Katalon Studio and execute Katalon tests with Jenkins.</p></conbody></concept>

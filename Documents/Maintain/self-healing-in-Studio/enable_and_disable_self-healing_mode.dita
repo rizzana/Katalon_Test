@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Enable and disable Self-healing mode</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">In Katalon Studio, the self-healing mode is enabled by default.
+         To disable the self-healing mode, there are two ways:</p><ul class="- topic/ul "><li class="- topic/li ">Go to <b class="+ topic/ph hi-d/b ">Project &gt; Settings &gt; Self-Healing &gt;
+               WebUI</b>, then uncheck the box <b class="+ topic/ph hi-d/b ">Enable Self-healing
+               execution</b>.</li><li class="- topic/li ">
+            <p class="- topic/p ">From the toolbar of Katalon Studio, click on the
+               <b class="+ topic/ph hi-d/b ">Self-Healing</b> icon, then select <b class="+ topic/ph hi-d/b ">Disable
+                  Self-healing</b>.</p>
+            <p class="- topic/p ">
+              <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/self-healing/selfhealing-icon.png" scope="external" width="250" class="- topic/image "/>
+            </p>
+          </li></ul></conbody></concept>

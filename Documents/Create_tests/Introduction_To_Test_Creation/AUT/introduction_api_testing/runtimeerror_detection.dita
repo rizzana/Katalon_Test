@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_10" class="- topic/topic concept/concept "><title class="- topic/title ">Runtime/Error detection</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">This testing type is related to the actual running of the API,
+         particularly with the universal results of utilizing the API
+         codebase. Generally, they focus on one of the below aspects:</p><ul class="- topic/ul "><li class="- topic/li ">Monitoring: The runtime of the compiled code is tested for
+            different implementation errors, handler failures, and other
+            intrinsic issues to help ensure the codebase does not contain any
+            insecurity.</li><li class="- topic/li ">Execution Errors: The code needs to show the response to valid
+            requests and marks the failure for invalid requests predictably and
+            in a known way, just the same with valid requests.</li><li class="- topic/li ">Resource Leaks: The requests which are invalid or commonly
+            illegal will be submitted to the API to test the memory, resource,
+            data, or operation leaks/insecurities</li><li class="- topic/li ">Error Detection: The known failure scenarios will be used to
+            test the code to make sure the errors are appropriately figured and
+            resolved</li></ul></conbody></concept>

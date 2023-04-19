@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">View test reports in <ph conkeyref="name-variables/katalon-platform" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">When the execution finishes, you can view your test reports
+         right in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/>. See <xref href="../../Analyze/Reports/View_Test_Reports/View_test_reports_in_Studio/view-test-suite-report-in-Studio/intro-view-test-suite-and-test-suite-collection-reports-in-Studio.dita" class="- topic/xref ">Test
+            Suite and Test Suite Collection Reports</xref>.</p><p class="- topic/p ">You can also upload and view advanced reports in <ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/>
+         - a companion product of Katalon. See <xref href="../Set_Up_Your_Workspace/Integrate_Katalon_TestOps_and_TestCloud_With_Katalon_Studio/Integrate_Katalon_TestOps_with_Katalon_Studio.dita" class="- topic/xref ">TestOps
+            Integration</xref>.</p></conbody></concept>

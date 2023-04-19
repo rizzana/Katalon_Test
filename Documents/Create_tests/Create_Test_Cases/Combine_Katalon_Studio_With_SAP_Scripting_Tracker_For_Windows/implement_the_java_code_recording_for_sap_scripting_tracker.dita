@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Implement the Java code recording for SAP Scripting
+         Tracker</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Katalon can only read Java language generated from SAP Scripting
+         Tracker. To use SAP GUI Scripting in the context of Java you need
+         the Java COM Bridge (JACOB). You can download and install Java COM
+         Bridge (JACOB) from the GitHub repository: <xref format="html" href="https://sourceforge.net/projects/jacob-project/" scope="external" class="- topic/xref ">Java COM
+            Bridge (JACOB)</xref>.</p></conbody></concept>

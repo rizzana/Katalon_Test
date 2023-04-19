@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Screen view</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">When an object is selected in the <b class="+ topic/ph hi-d/b ">All Objects</b> section, the position of the associated element is highlighted in the <b class="+ topic/ph hi-d/b ">Screen View</b>. This helps verify the selected Windows element.</p><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-spy-utility/KS-Screen-View-section.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Captured objects section</alt></image>
+        </p></conbody></concept>

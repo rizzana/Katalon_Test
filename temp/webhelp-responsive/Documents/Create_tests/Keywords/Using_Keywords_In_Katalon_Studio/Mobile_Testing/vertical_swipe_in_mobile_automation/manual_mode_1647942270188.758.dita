@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation?><?workdir-uri file:/Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/?><?path2project ../../../../../../?><?path2project-uri ../../../../../../?><?path2rootmap-uri ../../../../../../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="id_3" class="- topic/topic concept/concept " ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="concept:1;3:59" specializations="@props/deliveryTarget"><title class="- topic/title " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="title:1;3:89">Manual Mode</title><conbody class="- topic/body  concept/conbody " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="conbody:1;3:156"><ul class="- topic/ul " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="ul:1;3:180"><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="li:1;3:204">Step 1: Select <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="b:1;3:249">Start
+               Application</b> from mobile keyword and click on
+            <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="b:2;5:43">Input</b>, a new window will open. In
+            <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="b:3;6:43">appFile</b>, select <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="b:4;6:93">Value Type</b> as
+            <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="b:5;7:43">Variable</b>. In value, pass the variable name as
+            <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="b:6;8:43">path</b>.</li></ul><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="p:1;8:84">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/vertical_swipe_in_mobile_automation/Vertical-swipe-in-Mobile-automation-1.png" scope="external" class="- topic/image " placement="inline" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="image:1;9:223" dita-ot:image-width="704" dita-ot:image-height="506" dita-ot:horizontal-dpi="96" dita-ot:vertical-dpi="96"><alt class="- topic/alt " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="alt:1;9:249">Vertical Swipe in Mobile Automation</alt></image>
+      </p><ul class="- topic/ul " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="ul:2;10:35"><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="li:2;10:59">Step 2: Add a <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="b:7;10:103">Wait For Element Present</b>
+            item.</li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="li:3;11:47">Step 3: Call <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="b:8;11:90">Scroll To Text</b> from mobile
+            keyword and pass input as '<b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="b:9;12:70">Views'</b>. <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="b:10;12:112">Scroll
+               To Text</b> accepts String type parameter (Text of the element
+            to scroll to)</li></ul><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="p:2;14:58">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/vertical_swipe_in_mobile_automation/Vertical-swipe-in-Mobile-automation-3.png" scope="external" class="- topic/image " placement="inline" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="image:2;15:223" dita-ot:image-width="697" dita-ot:image-height="500" dita-ot:horizontal-dpi="96" dita-ot:vertical-dpi="96"><alt class="- topic/alt " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="alt:2;15:249">Vertical Swipe in Mobile Automation</alt></image>
+      </p><ul class="- topic/ul " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="ul:3;16:35"><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="li:4;16:59">Step 4: Tap on <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="b:11;16:104">Views</b>.</li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="li:5;16:143">Step 5: Use <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="b:12;16:185">Get Device Height</b> keyword to
+            capture the height of the device and store it in a
+            <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="b:13;18:43">device<i class="+ topic/ph hi-d/i " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="i:1;18:79">height</i> variable. Select</b> Get Device
+            Width keyword to capture the width of the device and storing it in
+            a <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="b:14;20:45">device</b>Width variable.</li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="li:6;20:99">Step 6: Add a <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="b:15;20:143">binary statement</b>, and in the
+            'startX' value, store the device width divided by 2. In this
+            illustration, the X-coordinates will stay constant.</li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="li:7;22:93">Step 7: Add a <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="b:16;22:137">binary statement</b>, assign 'endX'
+            value to startX'.</li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="li:8;23:59">Step 8: Add a <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="b:17;23:103">binary statement</b>, in which the
+            'startY' variable is the device height multiplied by 0.30.</li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="li:9;24:100">Step 9: Add a <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="b:18;24:144">binary statement</b>, in which the
+            'endY' variable is the device height multiplied by 0.70.</li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="li:10;25:98">Step 10: Call the <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="b:19;25:146">swipe method</b> and select the
+            <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="b:20;26:43">Value Type</b> as '<b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="b:21;26:92">Variable</b>'. Pass
+            the startX, startY, endX, endY values to that method.</li></ul><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="p:3;27:98">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/vertical_swipe_in_mobile_automation/Vertical-swipe-in-Mobile-automation-10.png" scope="external" class="- topic/image " placement="inline" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="image:3;28:224" dita-ot:image-width="1109" dita-ot:image-height="341" dita-ot:horizontal-dpi="96" dita-ot:vertical-dpi="96"><alt class="- topic/alt " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="alt:3;28:250">Vertical Swipe in Mobile Automation</alt></image>
+      </p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="p:4;29:33">The same thing can be achieved from the Script mode (switch to
+         Script Mode by clicking on Script tab).</p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="p:5;30:75">
+        <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="b:22;31:39">Script Mode:</b>
+      </p><codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="codeblock:1;32:58">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+ 
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+ 
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+ 
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+ 
+ 
+ 
+'Path of the Apk File Store in path variable'
+ 
+def path = RunConfiguration.getProjectDir() + '/Data Files/ApiDemos.apk'
+ 
+ 
+ 
+'Start the application'
+ 
+Mobile.startApplication(path, false)
+ 
+ 
+ 
+'wait for element Present'
+ 
+Mobile.waitForElementPresent(findTestObject('API Demos Objects/heading_API_Demos'), 45)
+ 
+ 
+ 
+'\'Scroll to Text Views\''
+ 
+Mobile.scrollToText('Views', FailureHandling.STOP_ON_FAILURE)
+ 
+ 
+ 
+'\'Tap on Views\''
+ 
+Mobile.tap(findTestObject('API Demos Objects/text_Views'), 20)
+ 
+ 
+ 
+'Get Device Height and Store in device_height variable'
+ 
+device_Height = Mobile.getDeviceHeight()
+ 
+ 
+ 
+'Get Width Height and Store in device_Width variable'
+ 
+device_Width = Mobile.getDeviceWidth()
+ 
+ 
+ 
+'Storing the startX value by dividing device width by 2. Because x coordinates are constant for Vertical Swiping'
+ 
+int startX = device_Width / 2
+ 
+ 
+ 
+'Here startX and endX values are equal for vertical Swiping for that assigning startX value to endX'
+ 
+int endX = startX
+ 
+ 
+ 
+'Storing the startY value'
+ 
+int startY = device_Height * 0.30
+ 
+ 
+ 
+'Storing the endY value'
+ 
+int endY = device_Height * 0.70
+ 
+ 
+ 
+'Swipe Vertical from top to bottom'
+ 
+Mobile.swipe(startX, endY, endX, startY)
+ 
+ 
+ 
+'Swipe Vertical from bottom to top'
+ 
+Mobile.swipe(startX, startY, endX, endY)
+
+</codeblock><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="p:6;118:35">The source code is available <xref format="html" href="https://github.com/katalon-studio/katalon-mobile-automation" scope="external" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="xref:1;118:190"><?ditaot usertext?>here</xref>. For
+         further instructions and help, please refer to <xref href="../../../Keywords_Description_In_Katalon_Studio/Mobile-Keywords/mobile-swipe/mobile-swipe.dita" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="xref:2;119:187" type="concept"><?ditaot usertext?>Mobile
+            Swipe</xref> guideline and join us on <xref format="html" href="http://forum.katalon.com/" scope="external" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/manual_mode_1647942270188.758.dita" xtrc="xref:3;120:143"><?ditaot usertext?>Katalon Forum</xref>.</p></conbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="ditamap-8764" xtrc="topicref:4;7:82" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/vertical_swipe_in_mobile_automation.ditamap"><link class="- topic/link " format="dita" href="../../../../../../Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/swipe_vertically_from_top_to_bottom.dita" mapclass="- map/topicref " role="parent" scope="local" type="concept" xtrc="topicref:2;5:167" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/vertical_swipe_in_mobile_automation/vertical_swipe_in_mobile_automation.ditamap"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Swipe Vertically from Top to Bottom</linktext></link></linkpool></related-links></concept>

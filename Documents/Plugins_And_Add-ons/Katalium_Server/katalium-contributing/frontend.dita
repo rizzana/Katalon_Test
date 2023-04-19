@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Frontend</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">The GUI of Katalium Server is built with ReactJS and <xref format="html" href="https://github.com/facebook/create-react-app" scope="external" class="- topic/xref ">Create React
+            App (CRA)</xref>. This GUI is only enabled in Grid mode.</p><p class="- topic/p ">The recommended NodeJS version is <codeph class="+ topic/ph pr-d/codeph ">10.16.0</codeph> or
+         newer.</p><p class="- topic/p ">Executing the following commands to start:</p><codeblock class="+ topic/pre pr-d/codeblock ">cd web
+npm install
+npm run start
+</codeblock><p class="- topic/p ">CRA scripts will start a server at <codeph class="+ topic/ph pr-d/codeph ">http://localhost:3000</codeph> with
+         API requests forwarded to Selenium Grid at
+         <codeph class="+ topic/ph pr-d/codeph ">http://localhost:4444</codeph>.</p></conbody></concept>

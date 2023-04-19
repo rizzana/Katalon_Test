@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Mobile Test Object View</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">In versions before 7.6, a Mobile object's view is the same as a Web object's view, which is not intuitive and misleading for users to design a Mobile test object. From 7.6 onwards, Katalon Studio launches a new UI of Mobile Test Object's view that reflects our latest enhancements for better designing Mobile objects.</p></conbody></concept>

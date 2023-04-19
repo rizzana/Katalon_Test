@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Set up TestOps Teams</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">A Team is a group of Users working on the same Projects. A Team
+         is created by either the Owner or Admins of an Organization.</p><p class="- topic/p ">Only Users can view and access the Team's Projects.</p></conbody></concept>

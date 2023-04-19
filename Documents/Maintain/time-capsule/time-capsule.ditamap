@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-time-capsule" class="- map/map "><title class="- topic/title ">Fix broken Web Test Objects with Time Capsule</title><topicref href="intro-time-capsule.dita" class="- map/topicref "><topicref href="Enable_Time_Capsule.dita" class="- map/topicref "/><topicref href="Fail_test_case_scenario.dita" class="- map/topicref "/></topicref></map>

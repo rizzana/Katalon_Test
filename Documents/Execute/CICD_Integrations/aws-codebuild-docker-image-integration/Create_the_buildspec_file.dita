@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task-7175" class="- topic/topic task/task "><title class="- topic/title ">Configure the buildspec file</title><taskbody class="- topic/body task/taskbody "><context class="- topic/section task/context ">A buildspec (build specification) file is a collection of build commands and related settings, in YAML format, that CodeBuild uses to run a build. This section shows you some configurations you need to add to your buildspec file.<p class="- topic/p ">To learn more about  buildspec, refer to  AWS documentation: <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "><xref href="https://docs.aws.amazon.com/codebuild/latest/userguide/build-spec-ref.html#build-spec-ref-syntax" scope="external" class="- topic/xref ">Build specification reference for CodeBuild</xref></p></li><li class="- topic/li "><p class="- topic/p "><xref href="https://docs.aws.amazon.com/codebuild/latest/userguide/getting-started-create-build-spec-console.html" scope="external" class="- topic/xref ">Create the buildspec file</xref></p></li></ul></p></context><steps class="- topic/ol task/steps "><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">In the repository containing your Katalon project, create the buildspec.yml file in the root (top-level) directory. </cmd><stepxmp class="- topic/itemgroup task/stepxmp ">Below is our  sample buildspec. You can get this sample buildspec file from our
+                  GitHub repository: <xref format="html" href="https://github.com/katalon-studio-samples/ci-samples/blob/master/buildspec.yml" scope="external" class="- topic/xref ">buildspec.yml</xref>.</stepxmp><stepxmp class="- topic/itemgroup task/stepxmp "><codeblock class="+ topic/pre pr-d/codeblock ">version: 0.2
+env:
+  parameter-store:
+   KATALON_API_KEY: /CodeBuild/KATALON_API_KEY
+phases:
+  pre_build:
+    commands:
+      - docker pull katalonstudio/katalon
+  build:
+    commands:
+      - docker run -t --rm -v "$(pwd)":/katalon/katalon/source katalonstudio/katalon katalon-execute.sh -apiKey=$KATALON_API_KEY -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/TS_RegressionTest"
+artifacts:
+  files:
+    - report/*
+reports: #New
+  KatalonTestReports: # CodeBuild will create a report group called "KatalonTestReports".
+    files: #Store all of the files
+      - 'report/JUnit_Report.xml'
+
+</codeblock></stepxmp></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">You need a valid Katalon API key to run Katalon tests. Refer to <xref href="../../../Administer/Security_Settings/ka-api-key/generate_a_katalon_api_key.dita" class="- topic/xref "/> for more information about Katalon API key generation. </cmd><info class="- topic/itemgroup task/info ">To protect your Katalon API key, you can store your Katalon API key in Parameter Store or in Secrets Manager.</info><stepxmp class="- topic/itemgroup task/stepxmp ">For example:<p class="- topic/p "><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">In Parameter Store:<codeblock class="+ topic/pre pr-d/codeblock ">env:
+  parameter-store:
+   KATALON_API_KEY: /CodeBuild/KATALON_API_KEY</codeblock></p></li><li class="- topic/li "><p class="- topic/p ">In Secrets Manager:<codeblock class="+ topic/pre pr-d/codeblock ">env:
+  secrets-manager:
+   KATALON_API_KEY: CodeBuildDemo:KATALON_API_KEY</codeblock>To learn more about environment variables, refer to the
+                  following AWS documentation: <xref format="html" href="https://docs.aws.amazon.com/codebuild/latest/APIReference/API_EnvironmentVariable.html" scope="external" class="- topic/xref ">Environment
+                           Variable</xref>.</p></li></ul></p></stepxmp></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">In the <codeph class="+ topic/ph pr-d/codeph ">pre-build</codeph> phase, you can specify the version of Katalon Studio to run your test  with the syntax <codeph class="+ topic/ph pr-d/codeph ">katalonstudio/katalon:&lt;version_tag&gt;</codeph>, for example <codeph class="+ topic/ph pr-d/codeph ">katalonstudio/katalon:8.1.2</codeph>. If you leave as <codeph class="+ topic/ph pr-d/codeph "> katalonstudio/katalon</codeph>, this build uses the latest version of Katalon Studio.</cmd></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">In the <codeph class="+ topic/ph pr-d/codeph ">build</codeph> phase, you can input your desired katalonc commands. All of katalonc supported arguments can be found in this document: <xref href="../../Katalon_Runtime_Engine/console-mode-execution/console-mode-execution_1.dita" class="- topic/xref "/>.</cmd></step></steps></taskbody></task>

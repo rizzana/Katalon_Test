@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-Self-healing" class="- map/map ">
+  <title class="- topic/title ">Use the Self-Healing function</title>
+  <topicref href="self-healing.dita" class="- map/topicref "><topicref href="enabling_and_disabling_self-healing.dita" class="- map/topicref "/>
+  <topicref href="prioritizing_locator_methods_in_self-healing.dita" class="- map/topicref "/>
+  <topicref href="excluding_certain_commands_from_self-healing.dita" class="- map/topicref "/>
+  <topicref href="approving_self-healing_proposals.dita" class="- map/topicref "/>
+</topicref>
+  </map>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_0" class="- topic/topic concept/concept "><title class="- topic/title ">[WebUI] Verify Option Not Selected By Index</title><conbody class="- topic/body  concept/conbody "><section id="id" class="- topic/section ">
+    <title class="- topic/title ">Description</title>
+    
+      <p class="- topic/p ">
+        Verify if the options at the given indices are not
+            selected.</p>
+      
+      
+    
+  </section><section class="- topic/section "><title class="- topic/title ">Parameters</title><p class="- topic/p "><ul class="- topic/ul "><li class="- topic/li ">to - TestObject (required): represent a web element</li><li class="- topic/li ">range - Object (required): the indexes of the options to be
+            verified if not being selected</li><li class="- topic/li ">isRegex - boolean (required): true if the label is a regular
+            expression, false by default</li><li class="- topic/li ">
+          <p class="- topic/p ">timeOut - int (required):  system will wait at most timeout
+               (seconds) to return result</p>
+        </li><li class="- topic/li ">
+
+          <p class="- topic/p ">flowControl - FailureHandling (optional): specify failure
+               handling schema to determine whether the execution should be
+               allowed to continue or stop. More details are <xref href="../../../../../Maintain/failure-handling/failure-handling.dita" class="- topic/xref ">here</xref>.</p>
+        </li></ul></p></section><section id="id_1" class="- topic/section ">
+    <title class="- topic/title ">Returns</title>
+    
+      <ul class="- topic/ul "><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">true:</b> if all options at given indices are
+            not selected</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">false:</b> if options  at given
+            indices are selected</li></ul>
+    
+  </section><section id="id_2" class="- topic/section ">
+    <title class="- topic/title ">Example: You want to verify if the option 1 in the list is not
+         selected in 5s timeout</title>
+    
+      <p class="- topic/p ">Manual: </p>
+      <p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/webui-verify-option-not-selected-by-index/image2016-8-21-193A303A39.png" scope="external" class="- topic/image "/>
+      </p>
+      <p class="- topic/p ">Script:</p>
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">WebUI.verifyOptionNotSelectedByIndex(findTestObject('The Second Landing Page/select_js-intent'), 1, 5)
+</codeblock>
+      
+    
+  </section></conbody></concept>

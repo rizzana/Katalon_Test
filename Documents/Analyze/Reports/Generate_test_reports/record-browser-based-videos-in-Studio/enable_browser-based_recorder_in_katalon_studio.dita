@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Enable Browser-based Recorder in Katalon Studio</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <ol class="- topic/ol ">
+        <li class="- topic/li ">Go to <b class="+ topic/ph hi-d/b ">Project</b> &gt; <b class="+ topic/ph hi-d/b ">Settings</b>
+            &gt; <b class="+ topic/ph hi-d/b ">Execution</b> to open the Execution view.</li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">During Execution Options</b> panel, enable
+               Video Recorder by checking <b class="+ topic/ph hi-d/b ">Record Video during
+                  execution</b>.</p>
+          <note type="note" class="- topic/note ">
+            <p class="- topic/p ">The Browser-based Video Recorder function only records failed
+                  test cases by default.</p>
+          </note>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Set a window size of 1500x1000 for the browser you record in
+               Project Settings. Go to <b class="+ topic/ph hi-d/b ">Project</b> &gt;
+               <b class="+ topic/ph hi-d/b ">Settings</b> &gt; <b class="+ topic/ph hi-d/b ">Desired
+                  Capabilities</b> &gt; <b class="+ topic/ph hi-d/b ">Web UI</b>. Select
+               <b class="+ topic/ph hi-d/b ">Chrome</b> or <b class="+ topic/ph hi-d/b ">Chrome Headless</b> or
+               <b class="+ topic/ph hi-d/b ">Edge Chromium</b>.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/screenshots-videos/KS-VIDEOS-Set-DC-for-Chrome.png" scope="external" class="- topic/image ">
+              <alt class="- topic/alt ">Set DC for Chrome</alt>
+            </image>
+          </p>
+          <note type="note" class="- topic/note ">
+
+            <p class="- topic/p ">You can learn more about setting desired capabilities for Web UI
+                  in this document: <xref href="../../../../Create_tests/Manage_Projects/Project_Settings/Desired_Capabilities/desired-capabilities-settings-webui/desired-capabilities-settings-webui.dita" class="- topic/xref ">Set
+                     up desired capabilities for WebUI testing</xref>.</p>
+          </note>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Apply and Close</b>.</p>
+        </li>
+      </ol>
+    </conbody>
+  </concept>

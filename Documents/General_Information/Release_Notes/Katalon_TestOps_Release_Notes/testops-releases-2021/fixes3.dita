@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_16" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Fixes</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">Could not filter API log by timestamp.</li>
+          <li class="- topic/li ">testRuns (Number of test runs) field could be manipulated into
+            invalid values.</li>
+          <li class="- topic/li ">Long pending messages in Retry function.</li>
+          <li class="- topic/li ">Path Injection, Zip Slip vulnerabilities.</li>
+          <li class="- topic/li ">Occurences where the app would break because of a missing LD
+            config file.</li>
+          <li class="- topic/li ">Uncommon error when creating thumbnail.</li>
+          <li class="- topic/li ">User could fetch other organization's invoices from Payment
+            Success screen.</li>
+          <li class="- topic/li ">Week/day view of calendar would show wrong test runs when
+            updating time zone.</li>
+          <li class="- topic/li ">Manually uploading Katalon Reports in TestOps sometimes
+            failed.</li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">Agent could not override Execution Mode of Test Suite Collection
+               when executing with KRE 8.0 \ 8.0.5 versions.</p>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">Removed: polling message prompts for certain errors.</p>
+          </li>
+        </ul>
+      </conbody>
+    </concept>

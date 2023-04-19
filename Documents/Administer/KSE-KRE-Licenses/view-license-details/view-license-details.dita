@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">View License Details</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To view the details of your current license, open Katalon
+         Studio. Go to:</p><ul class="- topic/ul "><li class="- topic/li ">macOS: <b class="+ topic/ph hi-d/b ">Katalon Studio &gt; About Katalon
+               Studio</b>
+      </li><li class="- topic/li ">Windows/Linux: <b class="+ topic/ph hi-d/b ">Help &gt; About</b>
+      </li></ul><p class="- topic/p ">
+      
+    <image width="600" href="image/ks-view-license-details.png" class="- topic/image "/></p><p class="- topic/p ">In the <uicontrol class="+ topic/ph ui-d/uicontrol ">About Katalon Studio Enterprise</uicontrol> dialog, you can view the version, edition and build of Katalon Studio, along with the expiration date of your Katalon license.</p><p class="- topic/p ">To learn more about Katalon licenses, see <xref href="../license_overview/c_intro_license_overview.dita" class="- topic/xref ">Types
+            of Licenses</xref>.</p></conbody></concept>

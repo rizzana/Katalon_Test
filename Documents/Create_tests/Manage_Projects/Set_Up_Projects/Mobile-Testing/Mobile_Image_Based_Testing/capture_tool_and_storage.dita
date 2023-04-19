@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_8" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Capture Tool and Storage</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">You're recommended to take a screenshot by Appium Driver in
+         Mobile Spy/Recorder since those screenshots are automatically
+         resized. Image size and resolution significantly affect the visual
+         element comparison.</p>
+        <p class="- topic/p ">To find and view screenshots of the captured objects:</p>
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">macOS: <b class="+ topic/ph hi-d/b ">/Applications/Katalon
+               Studio.app/Contents/MacOS/screenshot/</b>
+          </li>
+          <li class="- topic/li ">Windows: <b class="+ topic/ph hi-d/b ">Katalon
+               Studio\config\screenshot</b>.</li>
+        </ul>
+        <p class="- topic/p ">It is recommended to save the image representing a Mobile
+         element in its project folder for managing objects easier.</p>
+      </conbody>
+    </concept>

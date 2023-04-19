@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-kt_run_parallel_agent" class="- map/map ">
+  <title class="- topic/title ">Run multiple Test Suites in parallel with Agents</title>
+  <topicref href="kt_run_parallel_agent.dita" class="- map/topicref "><topicref href="configure_parallel_executions.dita" class="- map/topicref ">
+    <topicref href="update_existing_test_run_list.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="run_test_suites_in_parallel.dita" class="- map/topicref "/>
+  <topicref href="view_test_suites_results.dita" class="- map/topicref "/>
+</topicref></map>

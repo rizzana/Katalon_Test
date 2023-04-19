@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN" "glossentry.dtd">
+<glossentry id="glossentry-9009" class="- topic/topic concept/concept glossentry/glossentry "><glossterm class="- topic/title concept/title glossentry/glossterm ">Status (Test Suite)</glossterm><glossdef class="- topic/abstract concept/abstract glossentry/glossdef ">A status in Test Suite is the status of a test suite, including:<ul class="- topic/ul "><li class="- topic/li "><i class="+ topic/ph hi-d/i ">Passed</i>: all test cases have passed.</li><li class="- topic/li "><i class="+ topic/ph hi-d/i ">Failed</i>: one of the test cases has failed.</li></ul></glossdef></glossentry>

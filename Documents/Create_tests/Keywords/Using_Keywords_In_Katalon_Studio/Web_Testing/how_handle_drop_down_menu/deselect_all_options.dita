@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Deselect all options</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">The <codeph class="+ topic/ph pr-d/codeph ">deselectAllOption</codeph> keyword deselects all the selected items in a combo box. See: <xref href="../../../Keywords_Description_In_Katalon_Studio/Web-UI-Keywords/webui-deselect-all-option/webui-deselect-all-option.dita" class="- topic/xref "/>.</p><p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/how_handle_drop_down_menu/Multiple_Attribute_Image1.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Sample dropdown HTML with multiple=true </alt></image></p><p class="- topic/p ">In <uicontrol class="+ topic/ph ui-d/uicontrol ">Manual View</uicontrol>:<image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/how_handle_drop_down_menu/DeSelectAll_Manual.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Sample test case in Manual view with keyword deselectAllOption</alt></image></p><p class="- topic/p ">In <uicontrol class="+ topic/ph ui-d/uicontrol ">Script View</uicontrol>:<codeblock class="+ topic/pre pr-d/codeblock ">'Launch Browser'
+ 
+WebUI.openBrowser('C:\\\\Users\\\\User\\\\Desktop\\\\DropDown\\\\MultiSelection_dropDown.html')
+ 
+'Maximize the window'
+ 
+WebUI.maximizeWindow()
+ 
+'Select all the Options'
+ 
+WebUI.selectAllOption(findTestObject('comboBox_Role'))
+ 
+'Deselect all the options'
+ 
+WebUI.deselectAllOption(findTestObject('comboBox_Role'))
+ 
+'Taking the count of number of Selected Options and Storing it in a variable'
+ 
+NoOfSelectedOptions = WebUI.getNumberOfSelectedOption(findTestObject('comboBox_Role'))
+ 
+'After Deselect verifying the Number of Selected options with Actual result to Expected'
+ 
+WebUI.verifyEqual(NoOfSelectedOptions, 0)
+
+In </codeblock></p></conbody></concept>

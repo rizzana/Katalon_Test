@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Reuse your TestCloud Tunnel configuration in a new machine</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">In the case that you encounter a test failure and decide to
+         change your machine, first copy the current tunnel configuration to
+         a new machine. Then delete the <codeph class="+ topic/ph pr-d/codeph ">client_id</codeph> in the
+         command-line interface. You can then run the tests on the new
+         machine.</p>
+    </conbody>
+  </concept>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Coordinate-based Recording</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">In the Recorder, the two buttons, including <b class="+ topic/ph hi-d/b ">Click
+            Element Offset</b> and <b class="+ topic/ph hi-d/b ">Right-click Element
+            Offset</b> are added to <b class="+ topic/ph hi-d/b ">Possible Actions</b>, and
+         the following keywords are supported:</p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">
+          <xref href="../../../Keywords/Keywords_Description_In_Katalon_Studio/Windows-Keywords/windows-kw-click-element-offset/windows-kw-click-element-offset.dita" class="- topic/xref ">[Windows]
+               Click Element Offset</xref>
+        </li>
+        <li class="- topic/li ">
+          <xref href="../../../Keywords/Keywords_Description_In_Katalon_Studio/Windows-Keywords/windows-kw-rightclick-element-offset/windows-kw-rightclick-element-offset.dita" class="- topic/xref ">[Windows]
+               Right-click Element Offset</xref>
+        </li>
+      </ul>
+      <p class="- topic/p ">With coordinates-based recording, Katalon Studio records an
+         element's relative coordinates in addition to its selector. For
+         instance, you want to click on the red X part to close a tab in
+         Notepad. Katalon Recorder records the button's offsets (its
+         relative coordinates to its top-left corner) as a set of parameters
+         representing an X and Y offset, and save them in
+         clickElementOffset. It uses them to identify the exact location to
+         perform a click action during runtime.</p>
+      <p class="- topic/p ">Without that element's offsets, the test engine can only click
+         on the button's center, resulting in a failed test.</p>
+    </conbody>
+  </concept>

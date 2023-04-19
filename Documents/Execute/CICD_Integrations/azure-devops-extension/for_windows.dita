@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">For Windows</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To run UI tests on Azure Pipelines, you might need to adjust the
+         screen resolution (See Microsoft documentation on <xref format="html" href="https://docs.microsoft.com/en-us/azure/devops/pipelines/test/ui-testing-considerations?view=azure-devops&amp;tabs=mstest#setting-screen-resolution" scope="external" class="- topic/xref ">Setting
+            screen resolution</xref>).</p><p class="- topic/p ">You can also install the <xref format="html" href="https://marketplace.visualstudio.com/items?itemName=ms-autotest.screen-resolution-utility-task" scope="external" class="- topic/xref ">Screen
+            Resolution Utility</xref> extension from the Visual Studio
+         Marketplace.</p><p class="- topic/p ">See our Github examples on how to run a Katalon Studio test:</p><note type="note" class="- topic/note ">
+          
+          <p class="- topic/p ">The difference between the two examples given below, of "For
+            Windows" and "For Windows resolution", is that VM resolution is
+            1024 x 768 by default, for which you can run the first script under
+            the "For Windows"example.</p>
+          <p class="- topic/p ">If you need to run your test on a larger resolution, you need to
+            use the second script, that is the example "For Windows
+            resolution".</p>
+        </note><ul class="- topic/ul "><li class="- topic/li ">
+            <p class="- topic/p ">For Windows: <xref format="html" href="https://github.com/duyluonganh/kat-download-file/raw/master/azure-pipelines.yml" scope="external" class="- topic/xref ">Azure
+                  DevOps sample pipeline for windows</xref>.</p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">For Windows resolution: <xref format="html" href="https://github.com/katalon-studio-samples/azure-devops-extension-samples/raw/master/azure-pipelines-windows-srs.yml" scope="external" class="- topic/xref ">Azure
+                  DevOps sample pipeline for windows</xref>.</p>
+          </li></ul></conbody></concept>

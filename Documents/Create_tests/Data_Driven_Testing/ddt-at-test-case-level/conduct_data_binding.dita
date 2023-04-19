@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Conduct data binding</title><conbody class="- topic/body  concept/conbody "><note type="note" class="- topic/note ">
+            <p class="- topic/p ">What is an iteration?</p>
+            <ul class="- topic/ul "><li class="- topic/li ">
+                    <p class="- topic/p ">An iteration is a test case executed with a test data row.</p>
+                </li></ul>
+        </note><p class="- topic/p ">To conduct data binding at the test case level, do as follows:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Test Data</b> table:</p>
+                <ul class="- topic/ul "><li class="- topic/li ">
+                        <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Add</b> to add one or more data files. A <b class="+ topic/ph hi-d/b ">Test Data Browser</b> dialog opens.</p>
+                        <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-test-case-level/830/KS-830-DDT-Add-data-files.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Add data files</alt></image>
+                        </p>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p ">Select the data files you wish to use for variable binding in the <b class="+ topic/ph hi-d/b ">Test Data Browser</b> dialog. Click <b class="+ topic/ph hi-d/b ">OK</b>. The selected test data files appear in the <b class="+ topic/ph hi-d/b ">Test Data</b> table.</p>
+                        <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-test-case-level/830/KS-830-DDT-Test-data-browser.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Test Data Browser</alt></image>
+                        </p>
+                        <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-test-case-level/830/KS-830-DDT-Results-after-adding-data.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Results after adding data files</alt></image>
+                        </p>
+                        <note type="tip" class="- topic/note ">
+                            <ul class="- topic/ul "><li class="- topic/li ">If you are adding a combination of data files, by default, Katalon defines the relationship of multiple data sources at the test case level as One-to-One relationship. You can learn more about the relationship between multiple data files here: <xref href="../combine-multiple-data-sources/manage_test_data_relationship.dita" class="- topic/xref ">Manage test data relationship</xref>.</li></ul>
+                        </note>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p ">To specify the data range, double-click on the cell under the <b class="+ topic/ph hi-d/b ">Data Iteration</b> column of each data file. You can learn more about types of data iterations here: <xref href="../combine-multiple-data-sources/modify_data_range.dita" class="- topic/xref ">Modify data range</xref>.</p>
+                    </li></ul>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Variable Binding</b> table:</p>
+                <ul class="- topic/ul "><li class="- topic/li ">
+                        <p class="- topic/p ">Katalon Studio allows users to <b class="+ topic/ph hi-d/b ">Set Type</b> for variables all at once if the variables have the same type.</p>
+                        <p class="- topic/p "> In the following example, the <b class="+ topic/ph hi-d/b ">Employee</b> and <b class="+ topic/ph hi-d/b ">Department</b> variables have the same type as <b class="+ topic/ph hi-d/b ">Data Column</b>. Highlight both rows, click <b class="+ topic/ph hi-d/b ">Set Type &gt; Data Column</b>.</p>
+                        <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-test-case-level/830/KS-830-DDT-Set-data-type.png.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Set Data Type</alt></image>
+                        </p>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Test Data</b> column, click on each row to choose the test data files for execution.</p>
+                        <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-test-case-level/830/KS-830-DDT-Choose-test-data-for-data-type.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Choose Test data for Data Type</alt></image>
+                        </p>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p ">If the variables and the data field in the selected data files share the same name, you can quickly map all the variables with the data fields in the data file by clicking <b class="+ topic/ph hi-d/b ">Map All</b>. For example, with this function, the 'Employee' and the 'Department' variables automatically map with the 'Employee' and 'Department' columns of the test data.</p>
+                        <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-test-case-level/830/KS-830-DDT-Choose-value-for-data-type.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Choose Value for Data Type</alt></image>
+                        </p>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p ">Alternatively, you can also click on each row to specify the data field in the selected data file in the <b class="+ topic/ph hi-d/b ">Value</b> column.</p>
+                        <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-test-case-level/830/KS-830-Choose-value-different-data.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Choose Value for Data Type</alt></image>
+                        </p>
+                    </li></ul>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Save the test case and run it. To view your test results, go to the <b class="+ topic/ph hi-d/b ">Log Viewer</b> tab.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-test-case-level/830/KS-830-DDT-Test-case-results.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Results in Log Viewer</alt></image>
+                </p>
+            </li></ol></conbody></concept>

@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"id_6-d48972e9216":{"topics":[{"title":"Verify and Highlight","href":"Documents\/Create_tests\/Test_Objects\/Web_Test_Objects\/manage-web-test-object\/verify_and_highlight.html","attributes":{"data-id":"id_7"},"menu":{"hasChildren":false},"tocID":"id_7-d48972e9224","topics":[]}]}};

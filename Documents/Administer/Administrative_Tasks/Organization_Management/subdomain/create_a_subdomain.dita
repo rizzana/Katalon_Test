@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Create a Subdomain</title><conbody class="- topic/body  concept/conbody "><note type="important" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">
+                    <p class="- topic/p ">You must be an <b class="+ topic/ph hi-d/b ">Owner</b> or <b class="+ topic/ph hi-d/b ">Admin</b> of an Organization.</p>
+                </li></ul>
+        </note><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Sign in to <xref format="html" href="https://testops.katalon.io/login" scope="external" class="- topic/xref ">Katalon TestOps</xref>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Settings</b> &gt; <b class="+ topic/ph hi-d/b ">Organization Management</b>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Select <b class="+ topic/ph hi-d/b ">Settings</b> on the left bar.</p>
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Settings</b> page appears as below.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-subdomain/custom-domain-section.png" scope="external" class="- topic/image "><alt class="- topic/alt ">enter domain name</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Enter your Domain Name in the <b class="+ topic/ph hi-d/b ">Custom Domain</b> section.</p>
+                <note type="note" class="- topic/note ">
+                    <ul class="- topic/ul "><li class="- topic/li ">
+                            <p class="- topic/p ">A Domain Name can only contain the letters (a-z) and digits (0-9).</p>
+                        </li></ul>
+                </note>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Update</b>.</p>
+            </li></ol><p class="- topic/p ">You have created your Subdomain.</p></conbody></concept>

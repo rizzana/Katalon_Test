@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"id-d48972e24823":{"topics":[{"title":"Configure Idle Timeout","href":"Documents\/Administer\/Administrative_Tasks\/Settings\/license-idle-timeout\/configure_idle_timeout.html","attributes":{"data-id":"id_1"},"menu":{"hasChildren":false},"tocID":"id_1-d48972e24831","topics":[]}]}};

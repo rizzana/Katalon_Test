@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id" class="- topic/topic "><title class="- topic/title ">How to extract and verify textual patterns in a test case with <ph conkeyref="name-variables/katalon-recorder" class="- topic/ph "/></title><body class="- topic/body "><p class="- topic/p ">In a test project, you might want to verify that the application
+         under test (AUT) displays information in the correct pattern. For
+         example:</p><ul class="- topic/ul "><li class="- topic/li ">Price tag pattern of a shopping item.</li><li class="- topic/li ">Email address pattern.</li><li class="- topic/li ">Phone number pattern.</li></ul><p class="- topic/p ">Katalon Recorder supports this pattern matching process with
+         several commands. Specifically, commands in Katalon Recorder can
+         take patterns as input to verify several data types on an AUT.</p><p class="- topic/p ">This tutorial shows you how to extract and verify displayed text
+         on an AUT. The pattern used in our case is a <i class="+ topic/ph hi-d/i ">regular
+            expression</i> (regex): a sequence of characters that specifies a
+         search pattern.</p><note type="note" class="- topic/note ">
+        
+        <ul class="- topic/ul "><li class="- topic/li ">To use the sample project of this tutorial, navigate to
+               <b class="+ topic/ph hi-d/b ">Actions</b> &gt; <b class="+ topic/ph hi-d/b ">Sample Projects</b>,
+               then add the <b class="+ topic/ph hi-d/b ">Extract data and verify textual
+                  patterns</b> project.</li></ul>
+      </note></body></topic>

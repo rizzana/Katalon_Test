@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept "><title class="- topic/title ">Select option by index</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">The <codeph class="+ topic/ph pr-d/codeph ">selectOptionByIndex</codeph> keyword selects the option at the given index. Index always starts from 0. See: <xref href="../../../Keywords_Description_In_Katalon_Studio/Web-UI-Keywords/webui-select-option-by-index/webui-select-option-by-index.dita" class="- topic/xref "/>.</p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Example 1</b>:</p><p class="- topic/p ">In this example, we are also verifying that the right option is selected.</p><p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/how_handle_drop_down_menu/Select_by_Index_Example.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Sample dropdown with index starting from 0</alt></image></p><p class="- topic/p ">In <uicontrol class="+ topic/ph ui-d/uicontrol ">Manual View</uicontrol>: <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/how_handle_drop_down_menu/SelectbyIndex_manual.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Sample test case with selectByIndex keyword in Manual view</alt></image> </p><p class="- topic/p ">In <uicontrol class="+ topic/ph ui-d/uicontrol ">Script View</uicontrol>: <codeblock class="+ topic/pre pr-d/codeblock ">'Open browser'
+ 
+WebUI.openBrowser('file:///C:/Users/User/Desktop/Dropdown.html')
+ 
+'Maximize the Window'
+ 
+WebUI.maximizeWindow()
+ 
+'Select the dropdown value by Select option by index Method'
+ 
+WebUI.selectOptionByIndex(findTestObject('dropdown_Month'), 2)
+ 
+'Verifying the Option is Selected by Index option'
+ 
+WebUI.verifyOptionSelectedByIndex(findTestObject('dropdown_Month'), 2, 60)
+
+</codeblock> </p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Example 2</b>:</p><p class="- topic/p ">If we want to select "Feb" to "Apr" from the below combo box, we pass input as value 2-4 and value type as <userinput class="+ topic/ph sw-d/userinput ">String</userinput>.</p><p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/how_handle_drop_down_menu/Select_options_by_passing_Range_value.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Sample dropdown menu with multiple options selected</alt></image></p><p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/how_handle_drop_down_menu/Input_Dialog_Box.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Keyword input "2-4"</alt></image></p></conbody></concept>

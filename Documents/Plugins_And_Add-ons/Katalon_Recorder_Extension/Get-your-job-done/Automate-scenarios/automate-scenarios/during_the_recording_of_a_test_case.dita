@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">During the recording of a test case</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">If you are recording a test case:<ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Right-click on the target
+         element.</p></li><li class="- topic/li "><p class="- topic/p ">Choose a command from the context menu item <i class="+ topic/ph hi-d/i ">Katalon
+            Recorder (Selenium tests generator)</i>.</p></li></ul> </p></conbody></concept>

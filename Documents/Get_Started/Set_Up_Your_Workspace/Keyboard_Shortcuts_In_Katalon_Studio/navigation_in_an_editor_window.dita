@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Navigation in an Editor Window</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <table class="- topic/table ">
+          <tgroup cols="2" class="- topic/tgroup ">
+            <thead class="- topic/thead ">
+              <row class="- topic/row ">
+                <entry class="- topic/entry ">Shortcut</entry>
+                <entry class="- topic/entry ">Action</entry>
+              </row>
+            </thead>
+            <tbody class="- topic/tbody ">
+              <row class="- topic/row ">
+                <entry class="- topic/entry ">
+                  <userinput class="+ topic/ph sw-d/userinput ">Ctrl</userinput>+<userinput class="+ topic/ph sw-d/userinput ">M</userinput>
+                </entry>
+                <entry class="- topic/entry ">Maximize or restore the current Editor Window.</entry>
+              </row>
+              <row class="- topic/row ">
+                <entry class="- topic/entry ">
+                  <userinput class="+ topic/ph sw-d/userinput ">Ctrl</userinput>+<userinput class="+ topic/ph sw-d/userinput ">+</userinput>/<userinput class="+ topic/ph sw-d/userinput ">-</userinput>
+                </entry>
+                <entry class="- topic/entry ">Zoom text in / out.</entry>
+              </row>
+              <row class="- topic/row ">
+                <entry class="- topic/entry ">
+                  <userinput class="+ topic/ph sw-d/userinput ">Home</userinput>/<userinput class="+ topic/ph sw-d/userinput ">End</userinput>
+                </entry>
+                <entry class="- topic/entry ">Jump to the beginning / end of indentation. Press home twice to
+                  jump to the beginning of the current line.</entry>
+              </row>
+              <row class="- topic/row ">
+                <entry class="- topic/entry ">
+                  <userinput class="+ topic/ph sw-d/userinput ">Ctrl</userinput>+<userinput class="+ topic/ph sw-d/userinput ">Home</userinput>/<userinput class="+ topic/ph sw-d/userinput ">End</userinput>
+                </entry>
+                <entry class="- topic/entry ">Jump to the beginning / end of source.</entry>
+              </row>
+              <row class="- topic/row ">
+                <entry class="- topic/entry ">
+                  <userinput class="+ topic/ph sw-d/userinput ">Ctrl</userinput>+<userinput class="+ topic/ph sw-d/userinput ">Arrow Left</userinput>/<userinput class="+ topic/ph sw-d/userinput ">Arrow
+                     Right</userinput>
+                </entry>
+                <entry class="- topic/entry ">Jump one word to the left / right.</entry>
+              </row>
+              <row class="- topic/row ">
+                <entry class="- topic/entry ">
+                  <userinput class="+ topic/ph sw-d/userinput ">Ctrl</userinput>+<userinput class="+ topic/ph sw-d/userinput ">Shift</userinput>+<userinput class="+ topic/ph sw-d/userinput ">Arrow Up</userinput>/<userinput class="+ topic/ph sw-d/userinput ">Arrow
+                     Down</userinput>
+                </entry>
+                <entry class="- topic/entry ">Jump to the previous / next method.</entry>
+              </row>
+              <row class="- topic/row ">
+                <entry class="- topic/entry ">
+                  <userinput class="+ topic/ph sw-d/userinput ">Ctrl</userinput>+<userinput class="+ topic/ph sw-d/userinput ">L</userinput>
+                </entry>
+                <entry class="- topic/entry ">Open the <b class="+ topic/ph hi-d/b ">Go to Line</b> dialog to navigate to a specific
+                  line.</entry>
+              </row>
+              <row class="- topic/row ">
+                <entry class="- topic/entry ">
+                  <userinput class="+ topic/ph sw-d/userinput ">Ctrl</userinput>+<userinput class="+ topic/ph sw-d/userinput ">Arrow Up</userinput>/<userinput class="+ topic/ph sw-d/userinput ">Arrow Down</userinput>
+                </entry>
+                <entry class="- topic/entry ">Scroll the Editor without changing the cursor position.</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </conbody>
+    </concept>

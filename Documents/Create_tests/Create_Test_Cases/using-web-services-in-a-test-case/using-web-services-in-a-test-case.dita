@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Using Web Services in a test case in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p "><ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> supports various ways to use a Web Service object
+         in a test case. You can call the web service methods from manual
+         view (keywords test), script view (test scripts), and verify the
+         responses.  </p></conbody></concept>

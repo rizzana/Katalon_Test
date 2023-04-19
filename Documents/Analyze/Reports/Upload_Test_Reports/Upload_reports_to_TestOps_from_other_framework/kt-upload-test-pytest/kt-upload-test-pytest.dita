@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Upload test reports from Pytest to <ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">You can submit test results from the Pytest framework to Katalon TestOps.</p><p class="- topic/p ">You can download this sample project: <xref format="html" href="https://github.com/katalon-studio/testops-report-js.git" scope="external" class="- topic/xref ">TestOps Pytest sample</xref>.</p><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Open your Pytest file in a source-code editor, such as <xref format="html" href="https://code.visualstudio.com" scope="external" class="- topic/xref ">Visual Studio Code</xref>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-pytest/kt_open_file_pytest.png" scope="external" class="- topic/image "><alt class="- topic/alt ">open pytest in vsc</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Sign in to <xref format="html" href="https://testops.katalon.io/login" scope="external" class="- topic/xref ">Katalon TestOps</xref> and go to your Project.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Configurations</b> &gt; <b class="+ topic/ph hi-d/b ">Integrations</b>.</p>
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Integrations</b> page appears.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Select <b class="+ topic/ph hi-d/b ">Pytest</b> in the dropdown list.</p>
+                <p class="- topic/p ">The Pytest page appears as below.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-pytest/pytest-page-1.png" scope="external" class="- topic/image "><alt class="- topic/alt ">pytest page 1</alt></image>
+                </p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-pytest/pytest-page-2.png" scope="external" class="- topic/image "><alt class="- topic/alt ">pytest page 2</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Copy the command line in the <b class="+ topic/ph hi-d/b ">Install dependency</b> section and paste it in the Pytest file's terminal in your source-code editor to install the Katalon TestOps plugin.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Create a new file named <i class="+ topic/ph hi-d/i ">testops-config.json</i> in your source-code editor.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Copy the command line in the <b class="+ topic/ph hi-d/b ">TestOps Credentials &amp; Project</b> section on the Pytest page and paste it in the <i class="+ topic/ph hi-d/i ">testops-config.json</i> file in your source-code editor.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-pytest/kt_paste_testops_config_1.png" scope="external" class="- topic/image "><alt class="- topic/alt ">testops config in vsc</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Create a new file named <i class="+ topic/ph hi-d/i ">conftest.py</i>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-pytest/kt_open_conftest_py_1.png" scope="external" class="- topic/image "><alt class="- topic/alt ">conftest py file</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Copy the command in the <b class="+ topic/ph hi-d/b ">Add Report</b> section on the Pytest page and paste it in the <i class="+ topic/ph hi-d/i ">conftest.py</i> file in your source-code editor. Save this file.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-pytest/kt_paste_conftest_py_1.png" scope="external" class="- topic/image "><alt class="- topic/alt ">paste content to conftest file</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Type the <codeph class="+ topic/ph pr-d/codeph ">pytest</codeph> command and press <i class="+ topic/ph hi-d/i ">Enter</i> to run tests.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-pytest/kt_command_python_test_1.png" scope="external" class="- topic/image "><alt class="- topic/alt ">run with pytest</alt></image>
+                </p>
+                <p class="- topic/p ">You have run tests and uploaded their reports via Pytest.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Test Execution</b> &gt; <b class="+ topic/ph hi-d/b ">Test Run Calendar</b>.</p>
+                <p class="- topic/p ">Your uploaded Test Runs now display here.</p>
+            </li></ol></conbody></concept>

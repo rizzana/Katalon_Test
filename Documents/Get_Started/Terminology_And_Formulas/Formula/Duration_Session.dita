@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN" "glossentry.dtd">
+<glossentry id="glossentry-1026" class="- topic/topic concept/concept glossentry/glossentry "><glossterm class="- topic/title concept/title glossentry/glossterm ">Duration (Session)</glossterm><glossdef class="- topic/abstract concept/abstract glossentry/glossdef ">= (End time - Start time)<p class="- topic/p ">Start time = when an agent starts receiving a job.</p>
+    <p class="- topic/p ">End time = when uploading reports to TestOps is done.</p></glossdef></glossentry>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Install plugins</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Open Jenkins, then go to <b class="+ topic/ph hi-d/b ">Dashboard &gt; Manage Jenkins &gt; Manage Plugins</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-docker/new-plugin.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">manage plugins</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">The Plugin Manager page appears. In the <b class="+ topic/ph hi-d/b ">Available</b> tab, search for <b class="+ topic/ph hi-d/b ">Docker Plugin</b> and <b class="+ topic/ph hi-d/b ">Docker Pipeline</b>, then select them.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-docker/plugins.png" scope="external" class="- topic/image "><alt class="- topic/alt ">plugins</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Install without restart</b>.</p>
+            </li></ol></conbody></concept>

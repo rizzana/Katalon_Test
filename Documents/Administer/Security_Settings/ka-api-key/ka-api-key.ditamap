@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-ka-api-key" class="- map/map "><title class="- topic/title ">Katalon API Key in TestOps</title><topicref href="ka-api-key.dita" class="- map/topicref "><topicref href="generate_a_katalon_api_key.dita" class="- map/topicref "><topicref href="use_a_katalon_api_key.dita" class="- map/topicref "/><topicref href="remove_a_katalon_api_key.dita" class="- map/topicref "/></topicref></topicref></map>

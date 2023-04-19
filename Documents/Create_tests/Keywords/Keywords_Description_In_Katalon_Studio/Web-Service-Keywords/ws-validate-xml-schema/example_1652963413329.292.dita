@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept "><title class="- topic/title ">Example</title><conbody class="- topic/body  concept/conbody "><codeblock class="+ topic/pre pr-d/codeblock ">res = WS.sendRequest(findTestObject('XML'))
+
+String xml = '''&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;List&gt;
+    &lt;item&gt;
+        &lt;id&gt;3&lt;/id&gt;
+        &lt;username&gt;James Johnson&lt;/username&gt;
+        &lt;password&gt;789&lt;/password&gt;
+        &lt;gender&gt;FEMALE&lt;/gender&gt;
+        &lt;age&gt;75&lt;/age&gt;
+        &lt;avatar/&gt;
+    &lt;/item&gt;
+&lt;/List&gt;'''
+
+String xmlFile = FileUtils.readFileToString(new File("example/xml/person.xml"));
+
+WS.validateXmlAgainstSchema(res, "example/xml/person.xsd");
+WS.validateXmlAgainstSchema(xml, "example/xml/person.xsd");
+WS.validateXmlAgainstSchema(xmlFile, "http://localhost:8080/api/users/xsd", FailureHandling.STOP_ON_FAILURE);
+</codeblock></conbody></concept>

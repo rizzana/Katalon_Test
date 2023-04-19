@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">KRE Licensing</title>
+    <conbody class="- topic/body  concept/conbody ">
+
+      <p class="- topic/p ">You need a valid KRE license to use this add-on. Learn more
+         about <xref href="../../../Administer/KSE-KRE-Licenses/license_overview/c_intro_license_overview.dita" class="- topic/xref ">KRE
+            Licenses</xref>.</p>
+      <p class="- topic/p ">To activate your KRE license, see <xref href="../../../Administer/KSE-KRE-Licenses/activate-license/activate-kse.dita" class="- topic/xref ">Activate
+            Katalon License</xref>.</p>
+
+      <p class="- topic/p ">Once ready, navigate to the KRE directory and execute the
+         Katalon automation test in command-line mode (CLI) as normal. Learn
+         more about <xref href="../console-mode-execution/execute_katalon_studio_in_console_mode_1.dita" class="- topic/xref ">execution
+            in console mode</xref>.</p>
+    </conbody>
+  </concept>

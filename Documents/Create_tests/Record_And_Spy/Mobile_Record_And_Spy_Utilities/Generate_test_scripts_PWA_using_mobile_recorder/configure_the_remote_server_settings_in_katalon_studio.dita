@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Configure the remote server settings in Katalon Studio</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Launch <b class="+ topic/ph hi-d/b ">Katalon Studio</b> and go to <b class="+ topic/ph hi-d/b ">Project</b> &gt; <b class="+ topic/ph hi-d/b ">Settings</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/generate%20test%20scripts%20using%20mobile%20recorder/K.S.E-8.3.0-generate_test_scripts_configuration_project_settings.png" scope="external" width="500" class="- topic/image "/>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Project Settings</b> page appears. Go to <b class="+ topic/ph hi-d/b ">Desired Capabilities</b> &gt; <b class="+ topic/ph hi-d/b ">Remote</b>.</p>
+                <p class="- topic/p ">The remote server details display accordingly. </p>
+                <p class="- topic/p ">For more information on configuring your project settings in BrowserStack, refer to <xref href="../../../../Execute/Cloud_based_test_execution/Integrations_with_other_vendors_for_cloud_execution/browserstack-integration/browserstack-integration.dita" class="- topic/xref ">BrowserStack Integration</xref>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/generate%20test%20scripts%20using%20mobile%20recorder/K.S.E-8.3.0-generate_test_scripts_configuration_project_settings_remote.png" scope="external" class="- topic/image "/>
+                </p>
+                <p class="- topic/p ">Enter the following remote server information:</p>
+                <ul class="- topic/ul "><li class="- topic/li "> <b class="+ topic/ph hi-d/b ">Remote server URL</b>: Enter the URL of your remote server. E.g. http://hub.browserstack.com/wd/hub</li><li class="- topic/li "> <b class="+ topic/ph hi-d/b ">Remote server type</b>: Select <b class="+ topic/ph hi-d/b ">Appium</b> in the dropdown list.</li><li class="- topic/li "> <b class="+ topic/ph hi-d/b ">Appium driver</b>: Select <b class="+ topic/ph hi-d/b ">Android Driver</b> in the dropdown list.</li></ul>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Specify whether you want to start the recording with an <i class="+ topic/ph hi-d/i ">Application File</i> or <i class="+ topic/ph hi-d/i ">Application ID</i>.</p>
+                <ul class="- topic/ul "><li class="- topic/li ">Application File: Browse to your tested application (.apk file for Android; .ipa file for iOS)</li><li class="- topic/li ">Application ID: Specify the Application ID of your tested application, which is either the package name of an Android app or the bundle identifier of an iOS app.<p class="- topic/p ">For more information about how to set up the configuration using <i class="+ topic/ph hi-d/i ">Application File</i> or <i class="+ topic/ph hi-d/i ">Application ID</i>, refer to <xref href="../An_Introduction_To_Katalon_Mobile_Recorder/mobile_recorder.dita" class="- topic/xref ">Introduction to Mobile Recorder</xref>.</p></li></ul>
+            </li></ol></conbody></concept>

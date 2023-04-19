@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Relative XPath</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">You might want to use the relative XPath method to observe a
+         pattern in the attribute values like ID or Class of the web
+         element. Relative XPath (smart XPath) is the path that starts from
+         the middle of the HTML DOM structure. Unlike the absolute XPath
+         that starts from the root, relative XPath starts with the double
+         forward-slash (//), which means it can search for the element
+         anywhere on the webpage. Therefore, you can start from the middle
+         of the HTML DOM structure without writing a long XPath. For
+         example: <codeph class="+ topic/ph pr-d/codeph ">//a[contains(text(), 'Katalon Studio')]</codeph>.</p>
+
+        <p class="- topic/p ">You can find a list of XPath capture strategies in Katalon
+         Studio using relative XPath in this document: <xref href="../web-selection-methods/configure_xpath.dita" class="- topic/xref ">Configure
+            XPath</xref>.</p>
+      </conbody>
+    </concept>

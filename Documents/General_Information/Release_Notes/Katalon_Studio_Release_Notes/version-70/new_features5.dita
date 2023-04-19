@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_38" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">New features</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+
+          <li class="- topic/li ">[Katalon Studio Enterprise] Support "Debug from here". <xref href="../../../../Create_tests/Debug_A_Test_Case/debug_from_here.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li>
+
+          <li class="- topic/li ">[Web Service Testing] Support parameterizing a SOAP request's
+            service endpoint. <xref href="../../../../Create_tests/Test_Objects/API_Test_Object/REST_Request/Parameterize_A_Web_Service_Object/for_soap-based_request.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li>
+          <li class="- topic/li ">[Web Service Testing] Support defining body content of RESTful
+            API requests with methods other than POST/PUT/PATCH/DELETE</li>
+        </ul>
+      </conbody>
+    </concept>

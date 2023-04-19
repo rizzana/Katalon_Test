@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Activate Trial License</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">From Katalon Studio version 7.0.0 onwards, when you first log in
+         to the Katalon Studio application, the trial license associated
+         with your account is automatically activated and valid for 30 days.
+         Each trial KSE or KRE license is tied to one Katalon account.</p><p class="- topic/p ">First, download and open Katalon Studio. The <b class="+ topic/ph hi-d/b ">Katalon
+            Studio Activation</b> automatically pops up. Enter the email
+         and password registered for your Katalon account, then click
+         <b class="+ topic/ph hi-d/b ">Activate</b>.</p><p class="- topic/p ">
+        
+      <image width="500" href="image/ks-pe-activate-trial.png" class="- topic/image "/></p></conbody></concept>

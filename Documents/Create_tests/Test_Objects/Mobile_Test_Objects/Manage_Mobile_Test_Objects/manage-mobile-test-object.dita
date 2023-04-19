@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Manage Mobile Test Objects in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">In version 7.6, Katalon Studio fully support <xref href="../Locators_And_Object_Identification/locators_object_identification.dita" class="- topic/xref ">selector
+            strategies supported by Appium except for Android Data
+            Matcher</xref>.</p></conbody></concept>

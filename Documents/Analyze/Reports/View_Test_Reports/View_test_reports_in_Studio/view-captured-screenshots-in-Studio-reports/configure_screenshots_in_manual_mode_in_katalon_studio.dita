@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Configure screenshots in Manual mode in Katalon Studio</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">If you are not familiar with coding in Script mode, you can also insert built-in keywords in Manual mode.</p><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">Open Katalon Studio and go to your Project.</li><li class="- topic/li ">
+                <p class="- topic/p ">Select a Test Case in Manual mode.</p>
+                <p class="- topic/p ">The Test Case shows all Test steps.</p>
+                <p class="- topic/p ">Double click on a Test step and choose options (as shown in the picture below).</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/screenshots-videos/insert-webui-keyword-in-test-case-studio.png" scope="external" class="- topic/image "><alt class="- topic/alt ">add test step</alt></image>
+                </p>
+                <p class="- topic/p ">You have added a new Test step in Manual mode.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Double click on the new Test step, and enter the keyword.</p>
+                <p class="- topic/p ">A list of built-in keywords for capturing screenshots displays as below.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/screenshots-videos/custom-keyword-for-screenshots.png" scope="external" class="- topic/image "><alt class="- topic/alt ">screenshot keywords list</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Select a built-in keyword (e.g., <b class="+ topic/ph hi-d/b ">Take Full Page Screenshot As Checkpoint</b>).</p>
+                <p class="- topic/p ">You have inserted the built-in keyword.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/screenshots-videos/input-no-value.png" scope="external" class="- topic/image "><alt class="- topic/alt ">no input value</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Double click on the <b class="+ topic/ph hi-d/b ">Input</b> section of the newly-added keyword to insert a value.</p>
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Input</b> box appears as below.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/screenshots-videos/input-with-value.png" scope="external" class="- topic/image "><alt class="- topic/alt ">input box</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Insert a value for the keyword (e.g., <b class="+ topic/ph hi-d/b ">Sample Visual Test</b>), then click <b class="+ topic/ph hi-d/b ">OK</b>.</p>
+            </li></ol><p class="- topic/p ">See also: <ul class="- topic/ul "><li class="- topic/li "><xref href="../../../Generate_test_reports/record-screen-based-videos-in-Studio/intro-generate-screen-based-videos-in-Studio-reports.dita" class="- topic/xref ">Record Screen-based Videos</xref></li><li class="- topic/li "><xref href="../../../Generate_test_reports/record-browser-based-videos-in-Studio/intro-generate-browser-based-videos-in-Studio.dita" class="- topic/xref ">Record Browser-based Videos</xref></li></ul>
+        </p></conbody></concept>

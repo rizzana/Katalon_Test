@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">How to build</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Open this project with <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/>.</p><p class="- topic/p ">Run the following command at the root folder:</p><codeblock class="+ topic/pre pr-d/codeblock ">gradle katalonPluginPackage
+</codeblock><p class="- topic/p ">The plugin will be located at
+         <i class="+ topic/ph hi-d/i ">build/libs/katalon-studio-sample-report-plugin.jar</i>
+         afterwards.</p></conbody></concept>

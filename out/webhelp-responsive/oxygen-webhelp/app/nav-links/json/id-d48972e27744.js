@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"id-d48972e27744":{"topics":[{"title":"Install WebDriver for Microsoft Edge version 18 and newer","href":"Documents\/Plugins_And_Add-ons\/Katalium_Server\/katalium-webdriver\/install_webdriver_for_microsoft_edge_version_18_and_newer.html","attributes":{"data-id":"id_1"},"menu":{"hasChildren":false},"tocID":"id_1-d48972e27752","topics":[]}]}};

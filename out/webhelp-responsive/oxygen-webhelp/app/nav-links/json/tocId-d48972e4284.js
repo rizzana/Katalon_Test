@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"tocId-d48972e4284":{"topics":[{"title":"Sample API tests project in <span class=\"ph\">Katalon Studio<\/span>","href":"Documents\/Get_Started\/Sample_Projects\/API\/web-service-samples.html","attributes":{"data-id":"id"},"menu":{"hasChildren":false},"tocID":"id-d48972e4288","next":"id-d48972e4288"}]}};

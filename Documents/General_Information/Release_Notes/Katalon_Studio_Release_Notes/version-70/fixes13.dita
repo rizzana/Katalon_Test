@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_59" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Fixes</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">Bug: Fail to activate Katalon Studio Enterprise with Katalon
+            accounts registered with unconventional domains such as
+            <codeph class="+ topic/ph pr-d/codeph ">.technology</codeph>.</li>
+          <li class="- topic/li ">Bug: [Desktop Apps Testing] An issue of losing Windows test
+            objects when users drag and drop their folders.</li>
+          <li class="- topic/li ">Bug: [Desktop Apps Testing] An issue with automatically
+            updating Windows test objects' references in Test Scripts after a
+            drag and drop.</li>
+          <li class="- topic/li ">Bug: [Desktop Apps Testing] Cannot identify Windows test
+            objects by relative path.</li>
+          <li class="- topic/li ">Bug: [Desktop Apps Testing] Cannot create a new item with a
+            right-click on a Windows object.</li>
+          <li class="- topic/li ">Bug: [Desktop Apps Testing] Cannot edit a Windows object's
+            property.</li>
+          <li class="- topic/li ">Bug: [Mobile Testing] A performance issue of the
+            <codeph class="+ topic/ph pr-d/codeph ">setSliderValue</codeph> keyword when testing with a Sauce Labs
+            device.</li>
+          <li class="- topic/li ">Bug: [Mobile Testing] Fail to recognize iPad device and create
+            a new remote session with iPad simulator.</li>
+        </ul>
+      </conbody>
+    </concept>

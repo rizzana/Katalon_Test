@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-handle_textbox_checkbox_radio_button" class="- map/map ">
+  <title class="- topic/title ">How to Handle Textbox Checkbox and Radio Button</title>
+  <topicref href="handle_textbox_checkbox_radio_button.dita" class="- map/topicref "><topicref href="how_to_handle_textbox.dita" class="- map/topicref "/>
+  <topicref href="how_to_handle_button_and_checkbox.dita" class="- map/topicref "/>
+  <topicref href="how_to_handle_radio_button.dita" class="- map/topicref "/>
+</topicref>
+  </map>

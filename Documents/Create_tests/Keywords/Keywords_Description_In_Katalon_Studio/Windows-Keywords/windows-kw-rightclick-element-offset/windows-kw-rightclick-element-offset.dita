@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_0" class="- topic/topic concept/concept "><title class="- topic/title ">[Windows] Right-click Element Offset</title><conbody class="- topic/body  concept/conbody "><section id="id" class="- topic/section ">
+    <title class="- topic/title ">Requirements</title>
+    
+      
+      
+      <ul class="- topic/ul "><li class="- topic/li ">Katalon Studio version 7.8.0 onwards.</li><li class="- topic/li ">In <b class="+ topic/ph hi-d/b ">Native Windows Recorder</b>, enable
+            <b class="+ topic/ph hi-d/b ">coordinate-based recording</b> in the window.
+            <codeph class="+ topic/ph pr-d/codeph ">click</codeph> and <codeph class="+ topic/ph pr-d/codeph ">rightClick</codeph> actions are recorded
+            as <codeph class="+ topic/ph pr-d/codeph ">clickElementOffset</codeph> and
+            <codeph class="+ topic/ph pr-d/codeph ">rightClickElementOffset</codeph> actions respectively.</li><li class="- topic/li ">In <b class="+ topic/ph hi-d/b ">Windows Recorder</b>, <codeph class="+ topic/ph pr-d/codeph ">Click Element Offset</codeph> and <codeph class="+ topic/ph pr-d/codeph ">Right-click Element Offset</codeph> buttons
+            are supported in <b class="+ topic/ph hi-d/b ">Possible Actions</b>.</li></ul>
+    
+  </section><section id="id_1" class="- topic/section ">
+    <title class="- topic/title ">rightClickElementOffset</title>
+    
+      <ul class="- topic/ul "><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Description</b>: Performs a right-click action at
+            the provided offset on the WebElement that is found by using
+            locator value of the given windowsObject.</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Keyword name</b>: rightClickElementOffset</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Keyword syntax</b>:
+            <codeblock class="+ topic/pre pr-d/codeblock ">Windows.rightClickElementOffset(windowsObject, offsetX, offsetY, FailureHandling)</codeblock>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Parameters</b>:</p>
+          <ul class="- topic/ul "><li class="- topic/li ">Name: windowsObject</li><li class="- topic/li ">Description: An object describing the locator and locator
+                  strategy to find a Windows element.</li><li class="- topic/li ">Parameter Type: WindowsTestObject</li><li class="- topic/li ">Mandatory: Required</li><li class="- topic/li ">Name: offsetX</li><li class="- topic/li ">Description: The horizontal offset relative to the top-left
+                  corner of the element.</li><li class="- topic/li ">Parameter Type: Integer</li><li class="- topic/li ">Mandatory: Required</li><li class="- topic/li ">Name: offsetY</li><li class="- topic/li ">Description: The vertical offset relative to the top-left
+                  corner of the element.</li><li class="- topic/li ">Parameter Type: Integer</li><li class="- topic/li ">Mandatory: Required</li><li class="- topic/li ">Name: flowControl</li><li class="- topic/li ">Description: Used to control the step if the step failed.\
+                  STOP<i class="+ topic/ph hi-d/i ">ON</i>FAILURE: throws a StepFailedException if the step
+                  failed (default).\ CONTINUE<i class="+ topic/ph hi-d/i ">ON</i>FAILURE: continue the test if
+                  the test failed but the test result is still failed.\ OPTIONAL:
+                  continue the test and ignore the test result.</li><li class="- topic/li ">Parameter Type: FailureHandling</li><li class="- topic/li ">Mandatory: optional</li></ul>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Throws</b>: <codeph class="+ topic/ph pr-d/codeph ">StepFailedException</codeph> if the
+               Windows element doesn't exist, or Katalon Studio could not perform
+               a click action on the element.</p>
+        </li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Example</b>:</li></ul>
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">Windows.startApplicationWithTitle('katalon.exe', 'Katalon Studio')
+'Wait for Katalon help tab to be present'
+Windows.waitForElementPresent(findWindowsObject('TabItem'), 10)
+'Right click on the tab'
+Windows.rightClickElementOffset(findWindowsObject('TabItem'), 107, 13)
+'Switch to the context menu'
+Windows.switchToApplication();
+'Click on the context menu item'
+Windows.click(findWindowsObject('ContextMenuItem'))
+'Verify clicking on Close in context menu closes the tab'
+Windows.verifyElementNotPresent(findWindowsObject('Object Repository/TabItem'), 5)
+Windows.closeApplication()
+'Click on OK to really close Katalon Studio'
+Windows.click(findWindowsObject('Close Katalon Button'))
+</codeblock>
+      
+    
+  </section></conbody></concept>

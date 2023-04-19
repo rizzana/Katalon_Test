@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Combine Multiple Data Sources in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">This article shows you how to execute your automation test using
+         predefined test data from multiple sources.</p><section class="- topic/section "><title class="- topic/title ">Requirements</title><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">You need an active Katalon Studio Enterprise license. To
+            learn more about activating licenses, you can refer to this
+            document: <xref href="../../../Administer/KSE-KRE-Licenses/activate-license/activate_a_license_with_internet_access.dita" class="- topic/xref ">Activate
+               Katalon license</xref>.</p></li></ul></section></conbody></concept>

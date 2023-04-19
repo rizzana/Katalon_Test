@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_37" class="- topic/topic concept/concept "><title class="- topic/title ">New features</title><conbody class="- topic/body  concept/conbody "><ul class="- topic/ul "><li class="- topic/li ">
+              <p class="- topic/p ">Monitor Test Runs in a calendar view. <xref href="../../../../Execute/Schedule_test_executions/Schedule-test-runs-in-testops/create-plan.dita" class="- topic/xref ">Learn
+                  more</xref>
+              </p>
+            </li><li class="- topic/li ">
+
+              <p class="- topic/p ">Manage Test Runs with similar configurations with Test Run
+               Types. <xref href="../../../../Execute/Schedule_test_executions/Schedule-test-runs-in-testops/schedule_test_runs.dita" class="- topic/xref ">Learn
+                  more</xref>
+              </p>
+            </li><li class="- topic/li ">
+
+              <p class="- topic/p ">View Release Readiness by Test Case status &amp; Test Run
+               history. <xref href="../../../../Plan/create-edit-release-in-TestOps/intro-create-edit-releases-testops.dita" class="- topic/xref ">Learn
+                  more</xref>
+              </p>
+            </li><li class="- topic/li ">
+
+              <p class="- topic/p ">Manage <b class="+ topic/ph hi-d/b ">Katalon Studio</b> Test Results (BDD and
+               non-BDD). <xref href="../../../../Analyze/Reports/View_Test_Reports/View_reports_in_TestOps/bdd-test-results-in-TestOps/bdd-test-results.dita" class="- topic/xref ">Learn
+                  more</xref>
+              </p>
+            </li><li class="- topic/li ">
+
+              <p class="- topic/p ">Automatically detect assertions in each Test Case for better
+               quality evaluation &amp; failure investigation. 
+              </p>
+            </li><li class="- topic/li ">
+              <p class="- topic/p ">Balance loads between multiple Test Environments. <xref href="../../../../Execute/Cloud_based_test_execution/Test_execution_with_TestOps/Local-Test-Environments/load-balancing-agents/load-balancing-agents.dita" class="- topic/xref ">Learn
+                  more</xref>
+              </p>
+            </li><li class="- topic/li ">
+              <p class="- topic/p ">Support reports for Visual Testing. <xref format="html" href="https://forum.katalon.com/t/visual-testing-image-comparison-with-katalon-studio-7-8-0-and-katalon-testops/45557" scope="external" class="- topic/xref ">Learn
+                  more</xref>
+              </p>
+            </li><li class="- topic/li ">
+              <p class="- topic/p ">Create an Agent for Docker Environment. <xref href="../../../../Execute/Cloud_based_test_execution/Test_execution_with_TestOps/Local-Test-Environments/agents/agents.dita" class="- topic/xref ">Learn
+                  more</xref>
+              </p>
+            </li><li class="- topic/li ">
+              <p class="- topic/p ">Create a Kubernetes Environment. <xref href="../../../../Execute/Cloud_based_test_execution/Test_execution_with_TestOps/aws-eks/aws-eks.dita" class="- topic/xref ">Learn
+                  more</xref>
+              </p>
+            </li><li class="- topic/li ">
+              <p class="- topic/p ">View reports of Web Services &amp; Test Objects.</p>
+            </li><li class="- topic/li ">
+
+              <p class="- topic/p ">View abnormal Web Services for faster failure detection. <xref href="../../../../Analyze/Reports/View_Test_Reports/View_reports_in_TestOps/view-abnormal-web-services/Detect_abnormal_Web_Services.dita" class="- topic/xref ">Learn
+                  more</xref>
+              </p>
+            </li><li class="- topic/li ">
+              <p class="- topic/p ">View Requirement coverage heat map. <xref href="../../../../Get_Started/Terminology_And_Formulas/testops-terminology.dita" class="- topic/xref ">Learn
+                  more</xref>
+              </p>
+            </li><li class="- topic/li ">
+              <p class="- topic/p ">Detect the flakiness of Test Cases. <xref href="../../../../Analyze/Reports/View_Test_Reports/View_reports_in_TestOps/view-test-cases-reports/intro-view-test-cases-in-TestOps.dita" class="- topic/xref ">Learn
+                  more</xref>
+              </p>
+            </li></ul></conbody></concept>

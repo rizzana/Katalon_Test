@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Set up CircleCI Test Environments for TestOps</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">In Katalon TestOps, you can set up a CircleCI Test Environment
+         to schedule and execute tests remotely.</p><note type="important" class="- topic/note ">
+        
+        <ul class="- topic/ul "><li class="- topic/li ">You have created a CircleCI account with a Github account.</li><li class="- topic/li ">You have forked your Project to your Repository associated with
+               your GitHub account. You can also fork this sample project, <xref format="html" href="https://github.com/katalon-studio-samples/testops-circleci-sample" scope="external" class="- topic/xref ">TestOps
+                  CircleCI sample</xref> for testing.</li><li class="- topic/li ">You have followed your Project in CircleCI.</li></ul>
+      </note></conbody></concept>

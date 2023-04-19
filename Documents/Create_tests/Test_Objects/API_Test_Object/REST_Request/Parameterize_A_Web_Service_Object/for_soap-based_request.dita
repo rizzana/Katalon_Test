@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">For SOAP-based request</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">The following locations are where you can use the pre-defined
+         variables:</p>
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">WSDL URL</li>
+          <li class="- topic/li ">Service Endpoint (available from version 7.5.5)</li>
+          <li class="- topic/li ">HTTP Header</li>
+          <li class="- topic/li ">Request Message</li>
+          <li class="- topic/li ">Verification</li>
+        </ul>
+        <p class="- topic/p ">Below is an example of parameterizing the domain URL in a SOAP
+         request's service endpoint.</p>
+        <p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/parameterize-a-web-service-object/soap-endpoint.png" scope="external" class="- topic/image "/>
+        </p>
+      </conbody>
+    </concept>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">TestOps dashboard overview</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">The TestOps dashboard module provides you with an overview of recent test activities, upcoming releases, productivity, quality of test cases, platform coverage, requirement coverage, and local test environments.</p><p class="- topic/p ">This module provides real-time data on your testing activities, gathered in seven reports. The module helps drive insights and assist you in decision-making.</p><p class="- topic/p ">The seven reports include:</p><ul class="- topic/ul "><li class="- topic/li ">
+                <p class="- topic/p "><uicontrol class="+ topic/ph ui-d/uicontrol ">Test Activities</uicontrol>: all testing activities categorized into a daily/weekly/monthly report. See: <xref href="../test-activities-reports/test-activities-reports.dita" class="- topic/xref ">Test Activities reports</xref>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p "> <uicontrol class="+ topic/ph ui-d/uicontrol ">Release Readiness</uicontrol>: how ready your release is. See: <xref href="../release-readiness-reports/release-readiness-reports.dita" class="- topic/xref ">Release Readiness reports</xref>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p "> <uicontrol class="+ topic/ph ui-d/uicontrol ">Productivity</uicontrol>: tracks productivity metrics such as the number of test cases created over time. See: <xref href="../productivity-reports/productivity-reports.dita" class="- topic/xref ">Productivity reports</xref>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p "> <uicontrol class="+ topic/ph ui-d/uicontrol ">Quality</uicontrol>: the test quality based on Flakiness Test Distribution (the distribution of test cases by their flakiness probability). See: <xref href="../quality-reports/Quality-reports.dita" class="- topic/xref ">Quality reports</xref>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p "><uicontrol class="+ topic/ph ui-d/uicontrol ">Platform Coverage</uicontrol>: the coverage of test runs or test results executed in corresponding environments/platforms. You need to subscribe to the <ph conkeyref="plan-variables/plan-3" class="- topic/ph "/> plan to use this feature. See: <xref href="../platform-coverage-reports/platform-coverage-reports.dita" class="- topic/xref ">Platform Coverage reports</xref>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p "> <uicontrol class="+ topic/ph ui-d/uicontrol ">Requirement Coverage</uicontrol>: the scope of test cases and test runs based on related requirements (Jira and BDD). See: <xref href="../requirement-coverage-reports/requirement-coverage-reports.dita" class="- topic/xref ">Requirement Coverage reports</xref>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p "> <uicontrol class="+ topic/ph ui-d/uicontrol ">Local Test Environment</uicontrol>: the number of active and inactive local test environments. See: <xref href="../local-test-environment-reports/local-test-environment-reports.dita" class="- topic/xref ">Local Test Environment reports</xref>.</p>
+            </li></ul><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/overview/kt-dashboard-ui-may2022.png" scope="external" class="- topic/image "><alt class="- topic/alt ">TestOps dashboard overview</alt></image>
+        </p><note type="note" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">
+                    <p class="- topic/p ">If you don’t see the relevant data reflected on the <uicontrol class="+ topic/ph ui-d/uicontrol ">Dashboard</uicontrol> page, click <uicontrol class="+ topic/ph ui-d/uicontrol ">Refresh</uicontrol> to get the latest data updated on the page.</p>
+                </li></ul>
+        </note></conbody></concept>

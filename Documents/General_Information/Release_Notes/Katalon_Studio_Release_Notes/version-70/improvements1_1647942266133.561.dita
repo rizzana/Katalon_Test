@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept "><title class="- topic/title ">Improvements</title><conbody class="- topic/body  concept/conbody "><ul class="- topic/ul "><li class="- topic/li ">Upgrade Eclipse IDE from version 4.6 to 4.16.</li><li class="- topic/li ">Upgrade Groovy compiler from version 2.4.7 to version
+            2.4.20.</li><li class="- topic/li ">Notarize Katalon Studio and Katalon Runtime Engine applications
+            for macOS Catalina. <xref format="html" href="https://developer.apple.com/documentation/xcode/notarizing_macos_software_before_distribution" scope="external" class="- topic/xref ">Learn
+               more</xref>
+          </li><li class="- topic/li ">Enhance qTest Integration, including: 
+            
+            <ul class="- topic/ul "><li class="- topic/li ">Support uploading screenshots in test results to qTest. <xref href="../../../../Organize/Integration_For_Organizing_Tests/Configure-qTest-integration-in-Katalon-Studio/Set_up_qTest_integration_manually.dita" class="- topic/xref ">Learn
+                     more</xref>
+              </li><li class="- topic/li ">[CLI] Submit automation test status with build information to
+                  qTest Manager by <codeph class="+ topic/ph pr-d/codeph ">-qTestBuildLabel</codeph> and
+                  <codeph class="+ topic/ph pr-d/codeph ">-qTestBuildURL</codeph>. <xref href="../../../../Execute/Katalon_Runtime_Engine/console-mode-execution/Integrations_Options.dita" class="- topic/xref ">Learn
+                     more</xref>
+              </li><li class="- topic/li ">Execution Status Mapping. <xref href="../../../../Organize/Integration_For_Organizing_Tests/Configure-qTest-integration-in-Katalon-Studio/Map_test_status_between_qTest_and_Studio.dita" class="- topic/xref ">Learn
+                     more</xref>
+              </li><li class="- topic/li ">Map a Katalon test case to a qTest test case by database ID. <xref href="../../../../Organize/Integration_For_Organizing_Tests/Configure-qTest-integration-in-Katalon-Studio/Map_a_Katalon_test_case_to_a_qTest_test_case_by_database_ID.dita" class="- topic/xref ">Learn
+                     more</xref>
+              </li></ul>
+          </li><li class="- topic/li ">[Jira Integration] Import JIRA issue summary along with issue
+            ID to form Test Case Name in Katalon Studio.</li><li class="- topic/li ">Update <xref format="html" href="https://docs.katalon.com/javadoc/index.html" scope="external" class="- topic/xref ">Javadoc
+               7.9.0</xref>.</li><li class="- topic/li ">Support Chrome 87.</li><li class="- topic/li ">Support Microsoft Edge (Chromium) 87.</li></ul></conbody></concept>

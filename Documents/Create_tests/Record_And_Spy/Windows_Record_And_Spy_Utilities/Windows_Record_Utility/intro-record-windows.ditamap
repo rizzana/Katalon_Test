@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-intro-record-windows" class="- map/map ">
+  <title class="- topic/title ">Windows Record Utility</title>
+  <topicref href="intro-record-windows.dita" class="- map/topicref "><topicref href="the_windows_record_utility.dita" class="- map/topicref ">
+    <topicref href="configurations.dita" class="- map/topicref "/>
+    <topicref href="recorded_actions.dita" class="- map/topicref "/>
+    <topicref href="captured_objects.dita" class="- map/topicref "/>
+    <topicref href="screen_view.dita" class="- map/topicref "/>
+    <topicref href="screen_objects.dita" class="- map/topicref "/>
+    <topicref href="possible_actions.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="export_option.dita" class="- map/topicref "/>
+</topicref>
+  </map>

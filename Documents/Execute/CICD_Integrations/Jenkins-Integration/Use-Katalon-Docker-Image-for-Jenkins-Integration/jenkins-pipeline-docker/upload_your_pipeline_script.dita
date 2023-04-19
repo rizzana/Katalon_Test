@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Upload your Pipeline script</title><conbody class="- topic/body  concept/conbody "><note type="note" class="- topic/note ">
+            <p class="- topic/p ">Make sure you have Docker open, with <b class="+ topic/ph hi-d/b ">Docker Plugin</b> and <b class="+ topic/ph hi-d/b ">Docker Pipeline</b> activated on Jenkins.</p>
+        </note><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">In the Jenkins Dashboard, go to <b class="+ topic/ph hi-d/b ">New Item</b> and create a <b class="+ topic/ph hi-d/b ">Jenkins Pipeline</b> project.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/create-pipeline.png" scope="external" class="- topic/image "/>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Definition</b> dropdown list, you can choose <b class="+ topic/ph hi-d/b ">Pipeline Script</b> or <b class="+ topic/ph hi-d/b ">Pipeline Script from SCM</b>, depending on where you store your Jenkinsfile. The <b class="+ topic/ph hi-d/b ">Pipeline Script from SCM</b> instructs Jenkins to obtain your Pipeline from Source Control Management (SCM), which will be your locally cloned Git repository. To learn more about defining a Pipeline, you can refer to this Jenkins document: <xref format="html" href="https://www.jenkins.io/doc/book/pipeline/getting-started/#defining-a-pipeline-in-scm" scope="external" class="- topic/xref ">Getting started with Pipeline</xref>.</p>
+                <p class="- topic/p ">Here, since we have our Pipeline project stored in Git, we select <b class="+ topic/ph hi-d/b ">Pipeline Script from SCM</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/git.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Choose Pipeline Script from SCM</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">SCM</b> field, select <b class="+ topic/ph hi-d/b ">Git</b>. Enter your repository URL, select branches to build, repository browser, and additional behaviors, if any. You can clone and download the following sample project here: <xref format="html" href="https://github.com/katalon-studio-samples/ci-samples" scope="external" class="- topic/xref ">CI samples</xref>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-Add-Git-url-in-pipline-from-SCM.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Enter Git repository url</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Specify the Jenkinsfile path from your Git project in the <b class="+ topic/ph hi-d/b ">Script Path</b> box.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-Add-Jenkinspath-2.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Jenkinsfile path</alt></image>
+                </p>
+                <note type="note" class="- topic/note ">
+                    <p class="- topic/p ">To quickly copy the Jenkinsfile path, go to your Jenkinsfile in your Github repository, click <i class="+ topic/ph hi-d/i ">More</i> (...), then click <b class="+ topic/ph hi-d/b ">Copy Path</b>.</p>
+                    <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-Quickly-go-to-Jenkins-file-in-Git.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Quickly Jenkinsfile path in Git project</alt></image>
+                    </p>
+                </note>
+                <p class="- topic/p ">You can see our sample Jenkinsfile for MacOS/Linux here: <xref format="html" href="https://github.com/katalon-studio-samples/ci-samples/blob/master/Jenkinsfile" scope="external" class="- topic/xref ">Jenkinsfile</xref>. In case you are using Windows, replace the <codeph class="+ topic/ph pr-d/codeph ">sh</codeph> command in this sample Jenkinsfile with the <codeph class="+ topic/ph pr-d/codeph ">bat</codeph> command:</p>
+                <codeblock class="+ topic/pre pr-d/codeblock ">steps {
+bat ''
+}
+</codeblock>
+                <p class="- topic/p ">For example, we want to run the <b class="+ topic/ph hi-d/b ">TS_RegressionTest</b> test suite from the <b class="+ topic/ph hi-d/b ">CI samples</b> project with the Chrome browser in Windows. We adjust the sample Jenkinsfile as follows:</p>
+                <codeblock class="+ topic/pre pr-d/codeblock ">pipeline {
+    agent any
+    stages {
+        stage('Test') {
+            steps {
+                dir('/Users/&lt;user_name&gt;/Downloads/ci-samples-master'){
+                    bat 'docker run -t --rm -v "$(pwd)":/tmp/project katalonstudio/katalon katalonc.sh -projectPath=/tmp/project -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/TS_RegressionTest" -apiKey=&lt;your-api-key&gt;'
+                }
+            }
+        }
+    }
+</codeblock>
+                <note type="note" class="- topic/note ">
+                    <p class="- topic/p ">After cloning our sample Jenkinsfile to your repository, customize the below command lines for your purposes:</p>
+                    <ul class="- topic/ul "><li class="- topic/li "> <codeph class="+ topic/ph pr-d/codeph ">&lt;your-project-folder&gt;</codeph>: the direct path to your project folder in the local machine.</li><li class="- topic/li "> <codeph class="+ topic/ph pr-d/codeph ">&lt;your_API_Key&gt;</codeph>: the API key verifies your credentials. The command-line options of API Key, including <codeph class="+ topic/ph pr-d/codeph ">-apiKey=&lt;Your_API_Key&gt;</codeph> and <codeph class="+ topic/ph pr-d/codeph ">-apikey=&lt;Your_API_Key&gt;</codeph> are both accepted. To learn more about API keys, you can refer to this document: <xref href="../../../../../Administer/Security_Settings/ka-api-key/ka-api-key.dita" class="- topic/xref ">API key</xref>.</li><li class="- topic/li ">From version 7.7.0 onwards, if you belong to more than one Organization subscribing to Runtime Engine licenses, you can choose which Organization validates your license usage with the following command line: <codeph class="+ topic/ph pr-d/codeph ">-orgID=&lt;Katalon_OrgID&gt;</codeph>.</li></ul>
+                </note>
+            </li></ol></conbody></concept>

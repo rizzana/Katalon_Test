@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_7" class="- topic/topic concept/concept "><title class="- topic/title ">Print text on your screenshots</title><conbody class="- topic/body  concept/conbody "><note type="important" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">
+                    <p class="- topic/p ">Katalon Studio 8.0.5 required.</p>
+                </li></ul>
+        </note><p class="- topic/p ">The following examples illustrate different configurations to print the information you require on your screenshots.</p><ul class="- topic/ul "><li class="- topic/li ">Add the current timestamp to your screenshot:</li></ul><codeblock class="+ topic/pre pr-d/codeblock ">def timestamp = new Date().format("YYYY-MM-dd HH:mm:ss")
+WebUI.takeScreenshot(["text" : timestamp])
+</codeblock><ul class="- topic/ul "><li class="- topic/li ">Add text <codeph class="+ topic/ph pr-d/codeph ">Katalon Studio</codeph> at position (10, 20):</li></ul><codeblock class="+ topic/pre pr-d/codeblock ">WebUI.takeScreenshot(["text" : "Katalon Studio", "x" : 10, "y" : 20])
+</codeblock><ul class="- topic/ul "><li class="- topic/li ">Add text <codeph class="+ topic/ph pr-d/codeph ">Katalon Studio</codeph> at position (10, 20) with font Courier, size 24, and gray color:</li></ul><codeblock class="+ topic/pre pr-d/codeblock ">WebUI.takeScreenshot(["text" : "Katalon Studio", "x" : 10, "y" : 20, "font" : "Courier", "fontSize" : "24", "fontColor": "#808080"])
+</codeblock><ul class="- topic/ul "><li class="- topic/li ">Take a screenshot, save it at D://Document. Add text <codeph class="+ topic/ph pr-d/codeph ">Katalon Studio</codeph> at position (10, 20) with font Courier, size 24 in gray:</li></ul><codeblock class="+ topic/pre pr-d/codeblock ">WebUI.takeScreenshot(["text" : url, "x" : 10, "y" : 20, "fontColor" : "#FF3399", "fontStyle" : "Bold", "fontSize" : 30])</codeblock></conbody></concept>

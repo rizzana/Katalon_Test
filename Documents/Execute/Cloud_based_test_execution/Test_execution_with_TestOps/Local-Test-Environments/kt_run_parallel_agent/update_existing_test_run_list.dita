@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Update existing Test Run List</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">If you have previously scheduled Test Runs in sequential mode,
+         you can also update your existing Test Run List so that it can be
+         executed in parallel.</p>
+        <p class="- topic/p ">Follow these steps:</p>
+        <ol class="- topic/ol ">
+          <li class="- topic/li ">Start two Agents.</li>
+          <li class="- topic/li ">Update each Agent's Threshold to <b class="+ topic/ph hi-d/b ">2</b>.</li>
+          <li class="- topic/li ">Go to <b class="+ topic/ph hi-d/b ">Test Execution</b> &gt; <b class="+ topic/ph hi-d/b ">Test Run
+               List</b>.</li>
+          <li class="- topic/li ">Click on the Test Run List you want to update.</li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">Click on the <b class="+ topic/ph hi-d/b ">Edit</b> button in the top right
+               corner.</p>
+            <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Schedule Test Run</b> dialog appears.</p>
+            <p class="- topic/p ">Update the schedule as follow:</p>
+            <ul class="- topic/ul ">
+              <li class="- topic/li ">
+                <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Test Environments</b> section, select the
+                     Agents you have started earlier.</p>
+              </li>
+              <li class="- topic/li ">
+
+                <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Advanced settings</b> section, choose
+                     <b class="+ topic/ph hi-d/b ">Parallel</b> for <b class="+ topic/ph hi-d/b ">Execution Mode</b>. See:
+                     <xref href="../../../../Schedule_test_executions/Schedule-test-runs-in-testops/advanced_settings.dita" class="- topic/xref ">Advanced
+                        settings</xref>.</p>
+              </li>
+            </ul>
+          </li>
+        </ol>
+      </conbody>
+    </concept>

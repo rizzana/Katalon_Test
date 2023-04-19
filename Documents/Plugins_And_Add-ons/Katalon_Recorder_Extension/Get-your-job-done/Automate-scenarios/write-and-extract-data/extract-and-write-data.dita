@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id" class="- topic/topic "><title class="- topic/title ">How to extract and write data in a test case with <ph conkeyref="name-variables/katalon-recorder" class="- topic/ph "/></title><body class="- topic/body "><p class="- topic/p ">When testing a website with Katalon Recorder, you might want to
+         extract data from the website and store the data in an external
+         file. Katalon Recorder facilitates this process of extracting and
+         writing data with several commands.</p><p class="- topic/p ">This tutorial shows you how to use Katalon Recorder to extract
+         data from a website and write the data to a CSV file.</p><note type="note" class="- topic/note ">
+        
+        <ul class="- topic/ul "><li class="- topic/li ">To use the sample project of this tutorial, navigate to
+               <b class="+ topic/ph hi-d/b ">Actions</b> &gt; <b class="+ topic/ph hi-d/b ">Sample Projects</b>,
+               then add the <b class="+ topic/ph hi-d/b ">Extract and write data to a CSV file</b>
+               project.</li></ul>
+      </note></body></topic>

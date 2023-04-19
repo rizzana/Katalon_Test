@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Call Test Case in Script mode</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">In <b class="+ topic/ph hi-d/b ">Script</b> tab, the callTestCase method allows
+         users to make a call to another test case. Refer to the following
+         example:</p>
+        
+          <codeblock class="+ topic/pre pr-d/codeblock ">WebUI.callTestCase(findTestCase('Data-driven Testing/Test Case with variables'), [('employee') : 'John', ('department') : 'Marketing', ('position') : 'Manager'], FailureHandling.STOP_ON_FAILURE)
+</codeblock>
+        
+      </conbody>
+    </concept>

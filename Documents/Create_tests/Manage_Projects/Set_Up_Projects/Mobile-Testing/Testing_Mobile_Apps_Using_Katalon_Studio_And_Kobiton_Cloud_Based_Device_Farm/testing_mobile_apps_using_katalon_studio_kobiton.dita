@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Testing Mobile Apps using <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> and Kobiton cloud-based device farm</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/QS_high-08-1024x509.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Testing mobile apps using Katalon Studio and Kobiton's cloud-based device farm</alt></image>
+      </p><p class="- topic/p ">Scripting your first mobile automation test case can be quite
+         confusing without a specialized tool or instruction. In this
+         tutorial, we will show you how to speed up your automation project
+         using Katalon Studio's mobile recording utility and run your
+         recorded test cases on hundreds of Kobiton's mobile devices on the
+         cloud. For this tutorial, we assume that you have already installed
+         <xref format="html" href="https://www.katalon.com/" scope="external" class="- topic/xref ">Katalon Studio</xref>, got familiar
+         with its basic functions and registered a <xref format="html" href="https://kobiton.com/" scope="external" class="- topic/xref ">Kobiton account</xref>.</p></conbody></concept>

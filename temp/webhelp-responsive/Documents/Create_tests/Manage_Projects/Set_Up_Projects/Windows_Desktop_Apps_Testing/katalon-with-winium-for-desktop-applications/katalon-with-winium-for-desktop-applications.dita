@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Windows_Desktop_Apps_Testing/katalon-with-winium-for-desktop-applications?><?workdir-uri file:/Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Windows_Desktop_Apps_Testing/katalon-with-winium-for-desktop-applications/?><?path2project ../../../../../../?><?path2project-uri ../../../../../../?><?path2rootmap-uri ../../../../../../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="id" class="- topic/topic concept/concept " ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Windows_Desktop_Apps_Testing/katalon-with-winium-for-desktop-applications/katalon-with-winium-for-desktop-applications.dita" xtrc="concept:1;3:57" specializations="@props/deliveryTarget"><title class="- topic/title " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Windows_Desktop_Apps_Testing/katalon-with-winium-for-desktop-applications/katalon-with-winium-for-desktop-applications.dita" xtrc="title:1;3:87">Katalon with Winium for Desktop Applications in <ph class="- topic/ph " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Global_reuse/Name_variables_warehouse/Common_phrases.dita" xtrc="ph:2;3:1075">Katalon Studio</ph></title><conbody class="- topic/body  concept/conbody " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Windows_Desktop_Apps_Testing/katalon-with-winium-for-desktop-applications/katalon-with-winium-for-desktop-applications.dita" xtrc="conbody:1;3:258"><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Windows_Desktop_Apps_Testing/katalon-with-winium-for-desktop-applications/katalon-with-winium-for-desktop-applications.dita" xtrc="p:1;3:280">As you may know, <ph class="- topic/ph " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Global_reuse/Name_variables_warehouse/Common_phrases.dita" xtrc="ph:2;3:1075">Katalon Studio</ph> only supports WebUI, Mobile, and
+         API automation testing. However, there is a workaround solution to
+         this problem, utilizing Winium .jar package in order to test
+         desktop applications.</p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Windows_Desktop_Apps_Testing/katalon-with-winium-for-desktop-applications/katalon-with-winium-for-desktop-applications.dita" xtrc="p:2;6:57">Steps :<ol class="- topic/ol " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Windows_Desktop_Apps_Testing/katalon-with-winium-for-desktop-applications/katalon-with-winium-for-desktop-applications.dita" xtrc="ol:1;6:88"><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Windows_Desktop_Apps_Testing/katalon-with-winium-for-desktop-applications/katalon-with-winium-for-desktop-applications.dita" xtrc="li:1;6:112"><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Windows_Desktop_Apps_Testing/katalon-with-winium-for-desktop-applications/katalon-with-winium-for-desktop-applications.dita" xtrc="p:3;6:134">Download and extract Winium.Desktop.Driver.zip from the Winium.Desktop GitHub release page:<xref href="https://github.com/2gis/Winium.Desktop/releases" scope="external" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Windows_Desktop_Apps_Testing/katalon-with-winium-for-desktop-applications/katalon-with-winium-for-desktop-applications.dita" xtrc="xref:1;6:326"/> .</p></li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Windows_Desktop_Apps_Testing/katalon-with-winium-for-desktop-applications/katalon-with-winium-for-desktop-applications.dita" xtrc="li:2;6:361"><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Windows_Desktop_Apps_Testing/katalon-with-winium-for-desktop-applications/katalon-with-winium-for-desktop-applications.dita" xtrc="p:4;6:383">Run
+         Winium.Desktop.Driver.exe.</p></li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Windows_Desktop_Apps_Testing/katalon-with-winium-for-desktop-applications/katalon-with-winium-for-desktop-applications.dita" xtrc="li:3;7:69"><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Windows_Desktop_Apps_Testing/katalon-with-winium-for-desktop-applications/katalon-with-winium-for-desktop-applications.dita" xtrc="p:5;7:91">Download the <xref format="html" href="https://jar-download.com/?search_box=com.github.2gis.winium" scope="external" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Windows_Desktop_Apps_Testing/katalon-with-winium-for-desktop-applications/katalon-with-winium-for-desktop-applications.dita" xtrc="xref:2;7:230"><?ditaot usertext?>jar
+            package</xref>. </p></li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Windows_Desktop_Apps_Testing/katalon-with-winium-for-desktop-applications/katalon-with-winium-for-desktop-applications.dita" xtrc="li:4;8:62"><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Windows_Desktop_Apps_Testing/katalon-with-winium-for-desktop-applications/katalon-with-winium-for-desktop-applications.dita" xtrc="p:6;8:84">From Katalon studio --&gt; Project settings --&gt;
+         External libraries, add two jars
+         winium-elements-desktop-0.2.0-1.jar and
+         winium-webdriver-0.1.0-1.jar (Refer :
+         https://i.imgur.com/haDI84P.png).</p></li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Windows_Desktop_Apps_Testing/katalon-with-winium-for-desktop-applications/katalon-with-winium-for-desktop-applications.dita" xtrc="li:5;12:76"><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Windows_Desktop_Apps_Testing/katalon-with-winium-for-desktop-applications/katalon-with-winium-for-desktop-applications.dita" xtrc="p:7;12:98">Use the example below to import
+         the Winium driver and use script into Katalon Studio.</p></li></ol> </p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Windows_Desktop_Apps_Testing/katalon-with-winium-for-desktop-applications/katalon-with-winium-for-desktop-applications.dita" xtrc="p:8;13:104">This example works perfect in Windows 10.</p><codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Windows_Desktop_Apps_Testing/katalon-with-winium-for-desktop-applications/katalon-with-winium-for-desktop-applications.dita" xtrc="codeblock:1;13:196">import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.checkpoint.CheckpointFactory as CheckpointFactory
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as MobileBuiltInKeywords
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testcase.TestCaseFactory as TestCaseFactory
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testdata.TestDataFactory as TestDataFactory
+import com.kms.katalon.core.testobject.ObjectRepository as ObjectRepository
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WSBuiltInKeywords
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebElement as WebElement
+import org.openqa.selenium.winium.DesktopOptions as DesktopOptions
+import org.openqa.selenium.winium.WiniumDriver as WiniumDriver
+import java.net.MalformedURLException as MalformedURLException
+import java.net.URL as URL
+
+WiniumDriver driver = null
+
+String appPath = 'C:/windows/system32/calc.exe'
+
+DesktopOptions option = new DesktopOptions()
+
+option.setApplicationPath(appPath)
+
+option.setDebugConnectToRunningApp(false)
+
+option.setLaunchDelay(2)
+
+driver = new WiniumDriver(new URL('http://localhost:9999'), option)
+
+Thread.sleep(1000)
+
+driver.findElement(By.name('Seven')).click()
+
+driver.findElement(By.name('Plus')).click()
+
+driver.findElement(By.name('Eight')).click()
+
+driver.findElement(By.name('Equals')).click()
+
+driver.close()
+</codeblock></conbody></concept>

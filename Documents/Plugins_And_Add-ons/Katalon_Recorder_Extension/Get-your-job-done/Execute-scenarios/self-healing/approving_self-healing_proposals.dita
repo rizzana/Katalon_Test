@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Approving Self-Healing proposals</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">When the default locator fails, Self-Healing finds alternative
+         locators to complete the test execution. After the test execution
+         is completed, you can choose to replace failing locators by
+         approving Self-Healing suggestions.</p><p class="- topic/p ">
+        <image href="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/execute-scenarios/self-healing/kr-self-healing-approval-process.png" scope="external" class="- topic/image "/>
+      </p><p class="- topic/p ">The Self-Healing tab is refreshed on every new execution.</p><p class="- topic/p ">To approve Self-healing suggestions, follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+          <p class="- topic/p ">Go to the Self-Healing tab.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Select the suggested locators using the status filter.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Press <b class="+ topic/ph hi-d/b ">Approve</b>.</p>
+        </li></ol></conbody></concept>

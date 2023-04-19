@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Recording the desired use case</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">On the main toolbar of <b class="+ topic/ph hi-d/b ">Katalon Studio</b>, go to <b class="+ topic/ph hi-d/b ">Action</b> &gt; <b class="+ topic/ph hi-d/b ">Record</b> &gt; <b class="+ topic/ph hi-d/b ">Record Mobile</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/generate%20test%20scripts%20using%20mobile%20recorder/K.S.E-8.3.0-generate_test_scripts_record_mobile_option.png" scope="external" width="500" class="- topic/image "/>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Start</b> to begin recording your use case.</p>
+                <note type="note" class="- topic/note ">
+                    <ul class="- topic/ul "><li class="- topic/li ">You have to Wait until the AUT launches and the <b class="+ topic/ph hi-d/b ">Device View</b> and <b class="+ topic/ph hi-d/b ">All Objects</b> sections are ready for you to interact with the application.</li></ul>
+                </note>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Device View</b> &gt; click the <i class="+ topic/ph hi-d/i ">Chrome</i> icon.</p>
+                <p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Katalon Studio</b> selects <i class="+ topic/ph hi-d/i ">Chrome</i> in the <b class="+ topic/ph hi-d/b ">All Objects</b> section.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/generate%20test%20scripts%20using%20mobile%20recorder/K.S.E-8.3.0-generate_test_scripts_record_mobile_objects.png" scope="external" class="- topic/image "/>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Once you click on the <i class="+ topic/ph hi-d/i ">Chrome</i> icon, <b class="+ topic/ph hi-d/b ">Tap</b> is enabled in the <b class="+ topic/ph hi-d/b ">Available Actions</b> section. Click <b class="+ topic/ph hi-d/b ">Tap</b>. The tap action works as follows:</p>
+                <ul class="- topic/ul "><li class="- topic/li ">The <b class="+ topic/ph hi-d/b ">Device View</b> displays the new page in the <i class="+ topic/ph hi-d/i ">Chrome</i> browser.</li><li class="- topic/li ">The <b class="+ topic/ph hi-d/b ">Tap</b> action is added to the list of steps in the <b class="+ topic/ph hi-d/b ">Recorded Actions</b> section.</li></ul>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click the <b class="+ topic/ph hi-d/b ">Search</b> field in the <i class="+ topic/ph hi-d/i ">Chrome</i> browser followed by the <b class="+ topic/ph hi-d/b ">Set text</b> tab that is enabled.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/generate%20test%20scripts%20using%20mobile%20recorder/K.S.E-8.3.0-generate_test_scripts_set_text_tab.png" scope="external" class="- topic/image "/>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Text Input</b> dialog box appears. Type the <xref format="html" href="https://twitter.com/?lang=en" scope="external" class="- topic/xref ">Twitter</xref> URL in the dialog box and click <b class="+ topic/ph hi-d/b ">Ok</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/generate%20test%20scripts%20using%20mobile%20recorder/K.S.E-8.3.0-generate_test_scripts_text_input.png" scope="external" class="- topic/image "/>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">The <xref format="html" href="https://twitter.com/?lang=en" scope="external" class="- topic/xref ">Twitter</xref> link is added to the <b class="+ topic/ph hi-d/b ">Device View</b> section and the <b class="+ topic/ph hi-d/b ">Set Text</b> action is added to the list of steps in the <b class="+ topic/ph hi-d/b ">Recorded Actions</b> section.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/generate%20test%20scripts%20using%20mobile%20recorder/K.S.E-8.3.0-generate_test_scripts_twitter_link_added.png" scope="external" class="- topic/image "/>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click the <xref format="html" href="https://twitter.com/?lang=en" scope="external" class="- topic/xref ">Twitter</xref> link in the <b class="+ topic/ph hi-d/b ">Device View</b> section followed by the <b class="+ topic/ph hi-d/b ">Tap</b> action that is enabled in the <b class="+ topic/ph hi-d/b ">Available Actions</b> section.</p>
+                <p class="- topic/p ">The <xref format="html" href="https://twitter.com/?lang=en" scope="external" class="- topic/xref ">Twitter</xref> home page appears in the <b class="+ topic/ph hi-d/b ">Device View</b> section and the <b class="+ topic/ph hi-d/b ">Tap</b> action is added to the <b class="+ topic/ph hi-d/b ">Recorded Actions</b> section.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/generate%20test%20scripts%20using%20mobile%20recorder/K.S.E-8.3.0-generate_test_scripts_record_twitter_home_page.png" scope="external" class="- topic/image "/>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Device View</b> section &gt; click <b class="+ topic/ph hi-d/b ">Switch to the app</b> &gt; then click <b class="+ topic/ph hi-d/b ">Capture Object</b>. Wait until all objects are captured and then click <b class="+ topic/ph hi-d/b ">Tap</b> in the <b class="+ topic/ph hi-d/b ">Available Actions</b> section.</p>
+                <p class="- topic/p ">All the actions are recorded, the <b class="+ topic/ph hi-d/b ">Tap</b> action is added to the <b class="+ topic/ph hi-d/b ">Recorded Actions</b> section, the mobile device launches the AUT and the current view of the AUT appears. Click <b class="+ topic/ph hi-d/b ">Save Script</b> to save the test script generated.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/generate%20test%20scripts%20using%20mobile%20recorder/K.S.E-8.3.0-generate_test_scripts_switch_to_app.png" scope="external" class="- topic/image "/>
+                </p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/generate%20test%20scripts%20using%20mobile%20recorder/K.S.E-8.3.0-generate_test_scripts_google_play_signin_screen.png" scope="external" class="- topic/image "/>
+                </p>
+            </li></ol></conbody></concept>

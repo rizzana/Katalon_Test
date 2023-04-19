@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_57" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Fixes</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">Bug: [BDD] <codeph class="+ topic/ph pr-d/codeph ">java.lang.NoClassDefFoundError</codeph> thrown
+            when running a feature file</li>
+          <li class="- topic/li ">Bug: An issue of Smart Wait preventing request state in
+            XMLHttpRequest from being read</li>
+        </ul>
+      </conbody>
+    </concept>

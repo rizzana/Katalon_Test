@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Usage quota</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">Katalon TestCloud has two main packages:</p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">TestCloud Trial.</li>
+        <li class="- topic/li ">TestCloud Per Session.</li>
+      </ul>
+
+      <p class="- topic/p ">To learn more about each package, you can refer to this
+         document: <xref href="../../../../Katalon_Platform_Packages/tc-subscription-plans/tc-subscription-plans.dita" class="- topic/xref ">TestCloud
+            pricing and feature comparisons</xref>.</p>
+    </conbody>
+    
+    
+  </concept>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id_22" class="- topic/topic ">
+    <title class="- topic/title ">5.4.6</title>
+    <body class="- topic/body ">
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">Improvements 
+            
+            <ul class="- topic/ul ">
+            <li class="- topic/li ">Improved registration process.</li>
+            <li class="- topic/li ">Since version 5.4.6, new users will have to sign up for a
+                  <b class="+ topic/ph hi-d/b ">free</b> account after 4 successful executions. Our
+                  data has shown that users that have more than 4 successful
+                  executions are more likely to adopt the product.</li>
+          </ul>
+        </li>
+        <li class="- topic/li ">Bug fixes 
+            
+            <ul class="- topic/ul ">
+            <li class="- topic/li ">Fixed an issue where record and playback fails on Angular
+                  forms. Users could not record <codeph class="+ topic/ph pr-d/codeph ">sendKey</codeph> on Angular
+                  forms, which also makes playback fail.</li>
+          </ul>
+        </li>
+      </ul>
+    </body>
+  </topic>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Enter a Cloud Application ID</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">
+          <b class="+ topic/ph hi-d/b ">Cloud Application ID</b> is the ID of the
+         application file (.apk; .ipa) after being uploaded to the cloud.
+         The Kobiton’s application ID, for instance, is
+         <b class="+ topic/ph hi-d/b ">kobiton-store:23616</b>.</p>
+        <p class="- topic/p ">
+          <image height="210" href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-testing-cloud-devices/2-AppID.png" scope="external" width="393" class="- topic/image "/>
+        </p>
+        <p class="- topic/p ">After you enter the application ID, the <b class="+ topic/ph hi-d/b ">Start</b>
+         button is enabled.</p>
+      </conbody>
+    </concept>

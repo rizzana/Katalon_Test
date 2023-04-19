@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_46" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">New features</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+
+          <li class="- topic/li ">Support migrating Selenium/TestNG/JUnit test scripts to Katalon
+            Studio. <xref href="../../../../Get_Started/Migration_From_Other_Tools/Selenium_TestNG_JUnit_Migration_To_Katalon_Studio/intro_selenium_testng_junit_migration.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li>
+          <li class="- topic/li ">Publish <xref format="html" href="https://store.katalon.com/product/180/TestNG-JUnit-Keywords" scope="external" class="- topic/xref ">TestNG/JUnit
+               Keywords</xref> plugin</li>
+          <li class="- topic/li ">Support Chrome 81</li>
+        </ul>
+      </conbody>
+    </concept>

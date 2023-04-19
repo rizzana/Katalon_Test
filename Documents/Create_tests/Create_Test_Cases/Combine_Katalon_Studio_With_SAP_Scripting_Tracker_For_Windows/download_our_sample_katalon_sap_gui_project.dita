@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Download our sample Katalon SAP GUI project</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">This sample project provides you with code samples, custom
+         keywords, and sample test cases that give you the necessary
+         preparations to automate your test script with SAP Scripting
+         Tracker.</p><p class="- topic/p ">You can clone or download the sample project here at our GitHub
+         repository: <xref format="html" href="https://github.com/katalon-studio-samples/kat-sap-gui-sample-test" scope="external" class="- topic/xref ">Katalon
+            SAP GUI sample project</xref>.</p></conbody></concept>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">
+      Step 1: Create a Maven-based Java project
+    </title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Let's create your Java Maven-based project with project
+         structure looks like this:</p><codeblock class="+ topic/pre pr-d/codeblock ">├─── src/
+│   └─── main/
+│       ├─── java/
+│       └─── resources/
+│           └─── plugin.xml
+└─── pom.xml
+</codeblock><p class="- topic/p ">During this tutorial, we are using the example declarations
+         below. These declarations can be changed depend on your specific
+         needs:</p><ul class="- topic/ul "><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">com.mycompany.plugin</b> is groupId.</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">my-first-katalon-plugin</b> is artifactId.</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">com.mycompany.plugin</b> is the default
+            package.</li></ul></conbody></concept>

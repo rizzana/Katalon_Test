@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-Control-the-flows" class="- map/map "><title class="- topic/title ">Control the flows</title><mapref format="ditamap" href="conditional-cases/conditional-cases.ditamap" class="+ map/topicref mapgroup-d/mapref "/><mapref format="ditamap" href="how-to-use-conditional-statements-in-a-test-case/how-to-use-conditional-statements-in-a-test-case.ditamap" class="+ map/topicref mapgroup-d/mapref "/></map>

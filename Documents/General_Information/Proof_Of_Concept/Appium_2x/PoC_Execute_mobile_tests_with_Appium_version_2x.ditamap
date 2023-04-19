@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-6072" class="- map/map "><title class="- topic/title ">Execute mobile tests with Appium version 2 in Katalon Studio (PoC)</title><topicref href="PoC_Execute_mobile_tests_with_Appium_version_2x.dita" class="- map/topicref "><topicref href="Mobile_setup_with_Appium_version_2x.dita" class="- map/topicref "/><topicref href="Building_WebDriverAgent_with_XCode_14.dita" class="- map/topicref "/></topicref></map>

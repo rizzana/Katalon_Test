@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"tocId-d48972e4190":{"topics":[{"title":"Sample BDD (Cucumber) tests project in <span class=\"ph\">Katalon Studio<\/span>","href":"Documents\/Get_Started\/Sample_Projects\/BDD\/Sample_BDD_Tests_Projects\/bdd-samples.html","attributes":{"data-id":"id"},"menu":{"hasChildren":false},"tocID":"id-d48972e4194","next":"id-d48972e4194"}]}};

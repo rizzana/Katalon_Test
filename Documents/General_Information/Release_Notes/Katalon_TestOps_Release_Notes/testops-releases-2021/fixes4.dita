@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_20" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Fixes</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">
+            <p class="- topic/p ">Fixed a bug where users could not:</p>
+            <ul class="- topic/ul ">
+              <li class="- topic/li ">migrate subscriptions.</li>
+              <li class="- topic/li ">send an invitation email.</li>
+              <li class="- topic/li ">calculate statistics for empty Test Runs.</li>
+              <li class="- topic/li ">download a large Test Run as .xsls file.</li>
+              <li class="- topic/li ">delete the execution.</li>
+            </ul>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">Fixed the missing profile name on the execution page.</p>
+          </li>
+          <li class="- topic/li ">Fixed search field for execution that doesn't re-run.</li>
+          <li class="- topic/li ">Clarified the message for adding Users to Teams
+            successfully.</li>
+        </ul>
+      </conbody>
+    </concept>

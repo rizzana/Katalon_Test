@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_7" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Internet Explorer</title>
+    <conbody class="- topic/body  concept/conbody ">
+
+      <p class="- topic/p ">The Internet Explorer (IE) driver supports some essential
+         capabilities which can be used for smooth test execution. These
+         capabilities ease the way for automation testing using Selenium
+         WebDriver on Internet Explorer. You can learn more about supported
+         IE capabilities here: <xref format="html" href="https://github.com/SeleniumHQ/selenium/wiki/DesiredCapabilities#ie-specific" scope="external" class="- topic/xref ">IE
+            specific</xref>.</p>
+    </conbody>
+    
+    
+  </concept>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-desired-capabilities-at-runtime" class="- map/map "><title class="- topic/title ">Pass Desired Capabilities at Runtime</title><topicref href="c_desired-capabilities-at-runtime.dita" class="- map/topicref "><topicref href="t_pass_desired_capabilities_at_runtime_for_webui_testing.dita" class="- map/topicref "><topicref href="t_open_firefox_browser_in_private_mode.dita" class="- map/topicref "/><topicref href="t_override_desired_capabilities_in_project_settings.dita" class="- map/topicref "/><topicref href="t_Pass_desired_capabilities_at_runtime_for_remote_execution.dita" class="- map/topicref "/></topicref></topicref></map>

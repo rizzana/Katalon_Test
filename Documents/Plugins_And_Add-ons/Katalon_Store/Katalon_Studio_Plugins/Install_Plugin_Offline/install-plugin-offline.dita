@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Installing plugin offline in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To leverage your testing experience, Katalon Store provides you
+with          a library of plugins developed by Katalon and the Katalon
+         community. The plugins are available on the <xref format="html" href="https://store.katalon.com/" scope="external" class="- topic/xref ">Katalon Store</xref>. However, in
+         some cases, you might want to:</p><ul class="- topic/ul "><li class="- topic/li ">Install and use all the plugins that are available on the Store
+            without internet access.</li><li class="- topic/li ">Build your plugins and use them directly in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/>
+            without publishing on the Store. See also: <xref href="../Private_plugin/private_plugins.dita" class="- topic/xref ">Private
+               Plugins</xref>.</li></ul><p class="- topic/p ">Below is a step-by-step guide to installing plugins offline in
+         <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/>.</p><section class="- topic/section "><title class="- topic/title ">Requirements</title><ul class="- topic/ul "><li class="- topic/li ">Katalon Studio version 7.0.0 onwards.</li><li class="- topic/li ">An active license for Katalon Studio Enterprise. See  <xref href="../../../../Administer/KSE-KRE-Licenses/license_overview/c_intro_license_overview.dita" class="- topic/xref "/>.</li></ul></section></conbody></concept>

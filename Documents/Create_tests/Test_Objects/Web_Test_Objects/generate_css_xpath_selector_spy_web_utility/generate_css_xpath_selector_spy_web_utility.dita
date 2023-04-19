@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Generating reliable object selector using Spy Web utility in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">This article shows you some examples of generating reliable
+         object selectors using Spy Web Utility.</p><p class="- topic/p ">Spy Web Utility provides an intelligent object capturing
+         capability on websites. To learn more about this utility, see <xref href="../../../Record_And_Spy/WebUI_Record_And_Spy_Utilities/spy-web-utility/spy-web-utility.dita" class="- topic/xref ">Spy
+            Web Utility</xref>.</p><p class="- topic/p ">There are two widely used selectors: <b class="+ topic/ph hi-d/b ">CSS</b> and
+         <b class="+ topic/ph hi-d/b ">XPath</b>. Locators are object attributes that are
+         used to build up XPath or CSS selectors. Locators help find and
+         identify elements on the web page under test.</p><p class="- topic/p ">Based on the selected method, you can edit the <b class="+ topic/ph hi-d/b ">Selected
+            Locator</b> to adjust the current selector of an object or
+         manually add a selector using either an XPath or a CSS
+         selector.</p><p class="- topic/p ">With the CSS or XPath mode of the <b class="+ topic/ph hi-d/b ">Selection
+            Method</b>, you can further input and edit XPath or CSS
+         objects to identify objects on web UI.</p><p class="- topic/p ">Below are some web element locators:</p><table class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Web element locators</entry><entry class="- topic/entry ">Description</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">Id</entry><entry class="- topic/entry ">Select elements with the specified @id attribute.</entry></row><row class="- topic/row "><entry class="- topic/entry ">Name</entry><entry class="- topic/entry ">Select the first element with the specified @name
+                  attribute.</entry></row><row class="- topic/row "><entry class="- topic/entry ">Link text</entry><entry class="- topic/entry ">Select links (anchor tag) element which contains text matching
+                  the specified link text.</entry></row><row class="- topic/row "><entry class="- topic/entry ">Partial link text</entry><entry class="- topic/entry ">Select links (anchor tag) element which contains text matching
+                  the specified partial link text.</entry></row><row class="- topic/row "><entry class="- topic/entry ">Tag name</entry><entry class="- topic/entry ">Locate elements using a tag name.</entry></row><row class="- topic/row "><entry class="- topic/entry ">Class name</entry><entry class="- topic/entry ">Locate elements using a class name.</entry></row><row class="- topic/row "><entry class="- topic/entry ">CSS</entry><entry class="- topic/entry ">Select elements using CSS selectors.</entry></row><row class="- topic/row "><entry class="- topic/entry ">XPath</entry><entry class="- topic/entry ">Locate elements using an XPath expression.</entry></row></tbody></tgroup></table></conbody></concept>

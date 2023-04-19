@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">The 60-Second Elevator Pitch</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Katalon Recorder provides faster time-to-value than
+               Selenium IDE</b>. You can start automating instantly, without
+            having to create a project, or specifying a URL. Overtime, this
+            small difference compounds to be a huge time-saver.</li>
+        <li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Katalon Recorder runs directly on your current
+               tab</b>. This allows you to seamlessly combine manual and
+            automated steps in your workflow. In comparison, Selenium IDE
+            requires a brand new tab for every execution.</li>
+        <li class="- topic/li ">
+
+          <b class="+ topic/ph hi-d/b ">Katalon Recorder enables you to keep track of execution
+               results</b>. You can view your execution results and share
+            them with other people through our <xref href="../../../../About_Katalon_Platform/Katalon_TestOps_Overview/ka-overview.dita" class="- topic/xref ">free
+               TestOps integration</xref>.</li>
+        <li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Katalon Recorder has consistent development efforts,
+               dedicated community and support</b>. We have a team
+            professionally motivated to improve the product, listen and help
+            fix to your problems.</li>
+      </ul>
+    </conbody>
+  </concept>

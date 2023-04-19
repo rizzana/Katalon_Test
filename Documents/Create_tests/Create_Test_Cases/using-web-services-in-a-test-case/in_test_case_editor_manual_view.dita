@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">In the manual view of the test case editor</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Follow the steps below to use web service object
+         in <b class="+ topic/ph hi-d/b ">Manual</b> view:</p><ol class="- topic/ol "><li class="- topic/li ">
+          <p class="- topic/p ">Open a test case in <b class="+ topic/ph hi-d/b ">Manual</b> view, then
+               select the option to <b class="+ topic/ph hi-d/b ">Add</b> <b class="+ topic/ph hi-d/b ">Web Service
+                  Keyword</b> from command toolbar.</p>
+          <p class="- topic/p ">
+            
+          <image width="700" href="image/ks-841-add-ws-kw.png" class="- topic/image "><alt class="- topic/alt ">add web service keyword</alt></image></p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">A Web Service step is added to the test case. </p>
+          <p class="- topic/p ">
+               To send a request to Web Service, you need to use <b class="+ topic/ph hi-d/b "><xref href="../../Keywords/Keywords_Description_In_Katalon_Studio/Web-Service-Keywords/ws-send-request/ws-send-request.dita" class="- topic/xref ">Send
+                     Request</xref>
+            </b>keyword. Select the <b class="+ topic/ph hi-d/b "><xref href="../../Keywords/Keywords_Description_In_Katalon_Studio/Web-Service-Keywords/ws-send-request/ws-send-request.dita" class="- topic/xref ">Send
+                     Request</xref>
+            </b>keyword now.</p>
+          <p class="- topic/p ">
+            
+          <image width="700" href="image/ks-841-send-request.png" class="- topic/image "><alt class="- topic/alt ">send request</alt></image></p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Double click on <uicontrol class="+ topic/ph ui-d/uicontrol ">Object</uicontrol> cell to specify the web service object
+               to <b class="+ topic/ph hi-d/b "><xref href="../../Keywords/Keywords_Description_In_Katalon_Studio/Web-Service-Keywords/ws-send-request/ws-send-request.dita" class="- topic/xref ">Send
+                     Request</xref></b>.</p>
+          <note type="note" class="- topic/note ">
+            
+            <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Variables for Web Service Test Object:<ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">When you modify the variables of a Web Service Test Object in a
+                  test case, the values will ONLY apply to that particular test case.
+                  If you reuse that Test Object in another test case, Katalon Studio
+                  will get the original values that were defined in the Test Object
+                  editor.</p></li></ul></p></li></ul>
+          </note>
+          <p class="- topic/p ">
+            
+          <image width="600" href="image/ks-841-test-object-input.png" class="- topic/image "/></p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">The output of <b class="+ topic/ph hi-d/b "><xref href="../../Keywords/Keywords_Description_In_Katalon_Studio/Web-Service-Keywords/ws-send-request/ws-send-request.dita" class="- topic/xref ">Send
+                     Request</xref>
+            </b>keyword could be validated if needed
+               using different <codeph class="+ topic/ph pr-d/codeph ">Verify...</codeph>  keywords
+               depending on your situation. To learn more about Web Service keywords, you can refer to the following  documents: <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "><xref href="../../Keywords/Keywords_Description_In_Katalon_Studio/Web-Service-Keywords/ws-verify-element-text/ws-verify-element-text.dita" class="- topic/xref "/></p></li><li class="- topic/li "><p class="- topic/p "><xref href="../../Keywords/Keywords_Description_In_Katalon_Studio/Web-Service-Keywords/ws-verify-elements-count/ws-verify-elements-count.dita" class="- topic/xref "/></p></li><li class="- topic/li "><p class="- topic/p "><xref href="../../Keywords/Keywords_Description_In_Katalon_Studio/Web-Service-Keywords/ws-verify-response-status-code/ws-verify-response-status-code.dita" class="- topic/xref "/></p></li><li class="- topic/li "><p class="- topic/p "><xref href="../../Keywords/Keywords_Description_In_Katalon_Studio/Web-Service-Keywords/ws-verify-response-status-code-in-range/ws-verify-response-status-code-in-range.dita" class="- topic/xref "/></p></li></ul></p>
+        </li></ol></conbody></concept>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept "><title class="- topic/title ">Execute the dynamic test suite in KRE</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">After finalizing parameters in your command, hit
+         <b class="+ topic/ph hi-d/b ">Enter</b> to execute the dynamic test suite.</p><note type="note" class="- topic/note ">
+
+          <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Make sure to update the browser by clicking
+            <b class="+ topic/ph hi-d/b ">Tools &gt; Update WebDrivers &gt; Choose browser</b>.
+            You can learn more about updating WebDrivers here: <xref href="../../../Create_tests/Manage_Projects/Set_Up_Projects/Web_Testing/Handle-WebDrivers/update-or-downgrade-webdrivers/update-or-downgrade-webdrivers.dita" class="- topic/xref ">Update
+               or Downgrade WebDrivers</xref>.</p></li></ul>
+        </note></conbody></concept>

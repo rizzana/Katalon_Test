@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-703" xml:lang="en-us" class="- topic/topic concept/concept "><title class="- topic/title ">Add setUp and tearDown in the script view of a test case</title><prolog class="- topic/prolog "><author translate="no" type="creator" class="- topic/author ">Yen Nguyen &lt;yen.nguyen@katalon.com&gt;</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "/></metadata></prolog><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">In the script view of a test case, you can declare a method as setUp/tearDown methods using the matching annotation above them. For example:</p><p class="- topic/p "><codeblock class="+ topic/pre pr-d/codeblock ">@com.kms.katalon.core.annotation.SetUp
+def setup(def param1, def param2) {
+}
+@com.kms.katalon.core.annotation.TearDownIfFailed
+def teardownIfFailed(def param1, def param2) {
+}
+@com.kms.katalon.core.annotation.TearDownIfPassed
+def teardownIfPassed(def param1, def param2) {
+}
+@com.kms.katalon.core.annotation.TearDownIfError
+def teardownIfError(def param1, def para2) {
+}
+@com.kms.katalon.core.annotation.TearDown
+def teardown(def param1, def param2) {
+}
+</codeblock></p></conbody></concept>

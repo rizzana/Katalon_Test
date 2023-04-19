@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Usage</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <ol class="- topic/ol ">
+        <li class="- topic/li ">Install Java Runtime Environment version 8.x on your
+            machine.</li>
+
+        <li class="- topic/li ">Download the latest file "katalon-recorder-helper.jar" from the
+            releases page <xref format="html" href="https://github.com/katalon-studio/katalon-recorder-helper/releases" scope="external" class="- topic/xref ">https://github.com/katalon-studio/katalon-recorder-helper/releases</xref>.</li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Run the jar file using the following command</p>
+          
+            <codeblock class="+ topic/pre pr-d/codeblock ">java -jar katalon-recorder-helper.jar
+</codeblock>
+          
+        </li>
+      </ol>
+      <p class="- topic/p ">Katalon Recorder Helper will listen for commands at port
+         18910.</p>
+    </conbody>
+  </concept>

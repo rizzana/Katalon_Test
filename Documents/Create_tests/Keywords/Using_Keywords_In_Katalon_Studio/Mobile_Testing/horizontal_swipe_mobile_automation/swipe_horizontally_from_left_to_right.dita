@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+  <title class="- topic/title ">Swipe Horizontally from Left to Right</title>
+  <conbody class="- topic/body  concept/conbody ">
+
+    <p class="- topic/p ">This tutorial illustrates Horizontal Swiping actions in the
+         mobile app. This demonstration uses SwipeListView Demo, which you
+         can download it <xref format="html" href="https://apkpure.com/swipelistview-demo/com.fortysevendeg.android.swipelistview" scope="external" class="- topic/xref ">here</xref>.
+         We will be using Android O.S for this tutorial, so please make sure
+         that your Android device API is greater than 18.</p>
+  </conbody>
+  
+  
+  
+</concept>

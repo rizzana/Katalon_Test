@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">In Scripting View</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">For all built-in keywords in Katalon Studio, you can add
+         <i class="+ topic/ph hi-d/i ">FailureHandling</i> as the last parameter.When editing a
+         keyword in Scripting mode, use any of these option to specify its
+         behavior.</p><codeblock class="+ topic/pre pr-d/codeblock ">FailureHandling.STOP_ON_FAILURE
+FailureHandling.CONTINUE_ON_FAILURE
+FailureHandling.OPTIONAL
+</codeblock><p class="- topic/p ">For example:</p><p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/failure-handling/23.png" scope="external" class="- topic/image "/>
+        </p><p class="- topic/p ">Tips and tricks: <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> Why waiting keywords didn't fail? See: <xref href="../../Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/understand-waiting-keywords/understanding-waiting-keywords.dita" class="- topic/xref ">Understand
+            waiting keywords</xref>.</p></li></ul></p></conbody></concept>

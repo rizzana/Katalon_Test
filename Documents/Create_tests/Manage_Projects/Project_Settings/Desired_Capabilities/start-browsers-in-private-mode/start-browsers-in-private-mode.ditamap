@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-start-browsers-in-private-mode" class="- map/map ">
+  <title class="- topic/title ">Start browsers in private mode</title>
+  <topicref href="start-browsers-in-private-mode.dita" class="- map/topicref "><topicref href="firefox.dita" class="- map/topicref "/>
+  <topicref href="chrome.dita" class="- map/topicref "/>
+  <topicref href="edge_chromium.dita" class="- map/topicref "/>
+</topicref>
+  </map>

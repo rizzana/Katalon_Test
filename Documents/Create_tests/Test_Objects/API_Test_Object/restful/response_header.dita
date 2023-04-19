@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_11" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Response Header</title>
+      <conbody class="- topic/body  concept/conbody ">
+
+        <p class="- topic/p ">The response's header is displayed in
+         the <b class="+ topic/ph hi-d/b ">Header</b> tab: <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/restful-web-services/image2018-9-5-143A243A48.png" scope="external" class="- topic/image "/>
+        </p>
+      </conbody>
+    </concept>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Data-driven testing at the test case level in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Data-driven testing (DDT) at the test case level allows you to
+         add one or more data files and manage data binding at the test case
+         level. It helps you keep the binding data in the test case
+         independent, regardless of which test suites it is added to.</p><p class="- topic/p ">This function allows you to:</p><ul class="- topic/ul "><li class="- topic/li ">Bind each test case to a fixed set of data.</li><li class="- topic/li ">Run a test case with different test data combinations.</li><li class="- topic/li ">When executing a test suite containing associated test cases,
+            you can either reuse data binding at the test case level or conduct
+            new data binding in a test suite.</li></ul><p class="- topic/p ">Besides our currently supported data-driven testing methods,
+         this feature also allows you to conduct data-driven testing in a
+         dynamic test suite. To learn more about data-driven testing with
+         dynamic test suites, you can refer to this document: <xref href="../ddt-dynamic-test-suite-ks/perform_data-driven_testing_in_a_dynamic_test_suite.dita" class="- topic/xref ">Data-driven
+            testing in a dynamic test suite</xref>.</p><note type="important" class="- topic/note ">
+
+        <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "><ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> version 8.3.0 onwards. </p></li><li class="- topic/li "><p class="- topic/p ">An
+            active Katalon Studio Enterprise license. To learn more about
+            activating your license, you can refer to this document: <xref href="../../../Administer/KSE-KRE-Licenses/activate-license/activate_a_license_with_internet_access.dita" class="- topic/xref ">Activate
+               Katalon license</xref>.</p></li></ul>
+      </note><p class="- topic/p ">This article demonstrates how to manage data binding at the test
+         case level and execute them in a test suite.</p></conbody></concept>

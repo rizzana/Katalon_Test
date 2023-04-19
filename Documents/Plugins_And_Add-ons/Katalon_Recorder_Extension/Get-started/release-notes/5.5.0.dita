@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id_19" class="- topic/topic ">
+    <title class="- topic/title ">5.5.0</title>
+    <body class="- topic/body ">
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">New functions 
+            
+            <ul class="- topic/ul ">
+            <li class="- topic/li ">Self-healing. <xref href="../../Get-your-job-done/Execute-scenarios/self-healing/self-healing.dita" class="- topic/xref ">Read
+                     more</xref>
+            </li>
+            <li class="- topic/li ">Command-line runner. <xref href="../../Get-your-job-done/Execute-scenarios/command-line-runner/Use_the_Command-Line_Runner.dita" class="- topic/xref ">Read
+                     more</xref>
+            </li>
+            <li class="- topic/li ">Import from Selenium IDE. <xref href="../../Get-your-job-done/Extend-Katalon-Recorder/import-selenium-ide/import-selenium-ide.dita" class="- topic/xref ">Read
+                     more</xref>
+            </li>
+            <li class="- topic/li ">Add referral button.</li>
+          </ul>
+        </li>
+        <li class="- topic/li ">Bug fixes 
+            
+            <ul class="- topic/ul ">
+            <li class="- topic/li ">Fix issue type command does not work with multiline in
+                  textarea.</li>
+          </ul>
+        </li>
+      </ul>
+    </body>
+  </topic>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">For Linux</title><conbody class="- topic/body  concept/conbody "><ul class="- topic/ul "><li class="- topic/li ">Use the following command: <codeph class="+ topic/ph pr-d/codeph ">sudo apt-get install ffmpeg</codeph>,</li><li class="- topic/li ">
+                <p class="- topic/p ">Or install it manually:</p>
+                <p class="- topic/p ">1. Go to the <xref format="html" href="https://ffmpeg.org/download.html" scope="external" class="- topic/xref ">FFmpeg download web page</xref>.</p>
+                <p class="- topic/p ">2. Download the package which is appropriate for your operating system.</p>
+                <p class="- topic/p ">3. Add the path to the <codeph class="+ topic/ph pr-d/codeph ">.../ffmpeg/bin</codeph> folder to the <codeph class="+ topic/ph pr-d/codeph ">/etc/environment</codeph> file.</p>
+            </li></ul><p class="- topic/p ">Click <xref format="html" href="https://linuxize.com/post/how-to-install-ffmpeg-on-ubuntu-18-04/" scope="external" class="- topic/xref ">here</xref> for detailed instructions.</p></conbody></concept>

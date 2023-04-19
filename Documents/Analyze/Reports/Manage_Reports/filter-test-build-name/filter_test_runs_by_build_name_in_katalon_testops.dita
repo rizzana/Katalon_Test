@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Filter Test Runs by Build name in Katalon TestOps</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Follow these steps: <ol class="- topic/ol "><li class="- topic/li ">
+                    <p class="- topic/p ">Sign in to <xref format="html" href="https://testops.katalon.io/login" scope="external" class="- topic/xref ">Katalon TestOps</xref> and go to your Project.</p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Reports</b> &gt; <b class="+ topic/ph hi-d/b ">Test Runs</b>.</p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">Find the <b class="+ topic/ph hi-d/b ">Build Label</b> filter as shown below.</p>
+                    <p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-may-filter-test-runs-list-by-build-name/build-label-button-2.png" scope="external" class="- topic/image "><alt class="- topic/alt ">build name new UI</alt></image>
+                    </p>
+                    <p class="- topic/p ">By default, it will display <i class="+ topic/ph hi-d/i ">All</i> which means that all of your Test Runs in all Builds are listed.</p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Build Label</b>, then manually input the <codeph class="+ topic/ph pr-d/codeph ">-buildLabel</codeph> value that was previously configured in Katalon Studio.</p>
+                    <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-may-filter-test-runs-list-by-build-name/build-label-box.png" scope="external" width="400" class="- topic/image "><alt class="- topic/alt ">build name box</alt></image>
+                    </p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Update</b>.</p>
+                    <p class="- topic/p ">You can now see the list of Test Runs associated with that <codeph class="+ topic/ph pr-d/codeph ">-buildLabel</codeph>.</p>
+                </li></ol><note type="note" class="- topic/note ">
+                <ul class="- topic/ul "><li class="- topic/li ">The Build name will be displayed under the <uicontrol class="+ topic/ph ui-d/uicontrol ">Configuration</uicontrol> section on each Test Run.</li><li class="- topic/li ">You can also go back to the default filter by clicking <uicontrol class="+ topic/ph ui-d/uicontrol ">Clear</uicontrol>.</li></ul>
+            </note></p></conbody></concept>

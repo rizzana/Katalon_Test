@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-Katalon-Recorder" class="- map/map "><title class="- topic/title ">Katalon Recorder</title><topichead class="+ map/topicref mapgroup-d/topichead ">
+        <topicmeta class="- map/topicmeta ">
+            <navtitle class="- topic/navtitle ">Get started</navtitle>
+        </topicmeta>
+        <mapref format="ditamap" href="Get-started/Get-started.ditamap" class="+ map/topicref mapgroup-d/mapref "/>
+    </topichead><topichead class="+ map/topicref mapgroup-d/topichead ">
+        <topicmeta class="- map/topicmeta ">
+            <navtitle class="- topic/navtitle ">Production Evaluation Center</navtitle>
+        </topicmeta>
+        <mapref format="ditamap" href="Production-Evaluation-Center/Production-Evaluation-Center.ditamap" class="+ map/topicref mapgroup-d/mapref "/>
+    </topichead><topichead class="+ map/topicref mapgroup-d/topichead ">
+        <topicmeta class="- map/topicmeta ">
+            <navtitle class="- topic/navtitle ">Get your job done</navtitle>
+        </topicmeta>
+        <mapref format="ditamap" href="Get-your-job-done/Get-your-job-done.ditamap" class="+ map/topicref mapgroup-d/mapref "/>
+    </topichead><topichead class="+ map/topicref mapgroup-d/topichead ">
+        <topicmeta class="- map/topicmeta ">
+            <navtitle class="- topic/navtitle ">Help and Resources</navtitle>
+        </topicmeta>
+        <mapref format="ditamap" href="Help---Resources/Help---Resources.ditamap" class="+ map/topicref mapgroup-d/mapref "/>
+    </topichead></map>

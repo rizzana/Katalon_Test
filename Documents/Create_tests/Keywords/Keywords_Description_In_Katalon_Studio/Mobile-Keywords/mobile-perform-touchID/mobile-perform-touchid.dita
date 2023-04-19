@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">[Mobile] Perform Touch ID</title><conbody class="- topic/body  concept/conbody "><note type="important" class="- topic/note "><ul class="- topic/ul "><li class="- topic/li ">Katalon Studio version 8.3.0 onwards.</li></ul>
+      </note><section class="- topic/section "><title class="- topic/title ">Description</title><p class="- topic/p ">Simulate a Touch ID event on iOS simulators.</p><p class="- topic/p "><note class="- topic/note "><ul class="- topic/ul "><li class="- topic/li ">To enable this keyword, Touch ID on the simulator must be enrolled.</li><li class="- topic/li ">Touch ID and Face ID are available on certain iPhone and iPad models. To learn more about supported iPhone and iPad models, refer to the following Apple documents: <xref format="html" href="https://support.apple.com/en-us/HT201296" scope="external" class="- topic/xref ">iPhone models</xref> and <xref format="html" href="https://support.apple.com/en-us/HT201471" scope="external" class="- topic/xref ">iPad models</xref>.</li></ul></note></p>
+    </section><section class="- topic/section "><title class="- topic/title ">Parameters</title><p class="- topic/p "><table class="- topic/table "><tgroup cols="4" class="- topic/tgroup "><colspec colname="col1" class="- topic/colspec "/>
+        <colspec colname="col2" class="- topic/colspec "/>
+        <colspec colname="col3" class="- topic/colspec "/>
+        <colspec colname="col4" class="- topic/colspec "/>
+        <thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Parameter</entry>
+            <entry class="- topic/entry ">Parameter Type</entry>
+            <entry class="- topic/entry ">Mandatory</entry>
+            <entry class="- topic/entry ">Description</entry></row></thead>
+        <tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry "><codeph class="+ topic/ph pr-d/codeph ">match</codeph></entry>
+            <entry class="- topic/entry ">Boolean</entry>
+            <entry class="- topic/entry ">Yes</entry>
+            <entry class="- topic/entry ">Simulate a successful touch (true) or a failed touch (false).</entry></row>
+          <row class="- topic/row "><entry class="- topic/entry "><codeph class="+ topic/ph pr-d/codeph ">flowControl</codeph></entry>
+            <entry class="- topic/entry ">FailureHandling</entry>
+            <entry class="- topic/entry ">No</entry>
+            <entry class="- topic/entry ">Specify failure handling schema to determine whether the execution should be allowed to continue or stop. Refer to: <xref href="../../../../../Maintain/failure-handling/failure-handling.dita" class="- topic/xref ">Failure Handling</xref>.</entry></row></tbody></tgroup></table></p></section><section class="- topic/section "><title class="- topic/title ">Exceptions</title><p class="- topic/p "><table class="- topic/table "><tgroup cols="3" class="- topic/tgroup "><colspec colname="col1" class="- topic/colspec "/>
+        <colspec colname="col2" class="- topic/colspec "/>
+        <colspec colname="col3" class="- topic/colspec "/>
+        <thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Throw</entry>
+            <entry class="- topic/entry ">Precondition</entry>
+            <entry class="- topic/entry ">Message</entry></row></thead>
+        <tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry "><codeph class="+ topic/ph pr-d/codeph ">StepFailedException</codeph></entry>
+            <entry class="- topic/entry ">If Touch ID on the simulator is not enrolled.</entry>
+            <entry class="- topic/entry ">To enable this keyword, touch ID on the simulator must be enrolled.</entry></row>
+          <row class="- topic/row "><entry class="- topic/entry "><codeph class="+ topic/ph pr-d/codeph ">StepFailedException</codeph></entry>
+            <entry class="- topic/entry ">If the <codeph class="+ topic/ph pr-d/codeph ">performTouchID</codeph> keyword is not performed on an iOS simulator.</entry>
+            <entry class="- topic/entry ">The <codeph class="+ topic/ph pr-d/codeph ">performTouchID</codeph> keyword supports iOS simulators only.</entry></row>
+          <row class="- topic/row "><entry class="- topic/entry "><codeph class="+ topic/ph pr-d/codeph ">Warning</codeph></entry>
+            <entry class="- topic/entry ">If the <codeph class="+ topic/ph pr-d/codeph ">performTouchID</codeph> keyword is run on unsupported environments.</entry>
+            <entry class="- topic/entry ">The <codeph class="+ topic/ph pr-d/codeph ">performTouchID</codeph> keyword is not available for physical mobile devices.</entry></row></tbody></tgroup></table></p></section><section class="- topic/section "><title class="- topic/title ">Example</title><p class="- topic/p ">In this example, we want to open the <codeph class="+ topic/ph pr-d/codeph ">Authentication.app</codeph> application using Touch ID.<codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint 
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase 
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData 
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject 
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject 
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint 
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW 
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile 
+import com.kms.katalon.core.model.FailureHandling as FailureHandling 
+import com.kms.katalon.core.testcase.TestCase as TestCase 
+import com.kms.katalon.core.testdata.TestData as TestData 
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW 
+import com.kms.katalon.core.testobject.TestObject as TestObject 
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS 
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI 
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows 
+import internal.GlobalVariable as GlobalVariable 
+import org.openqa.selenium.Keys as Keys
+
+'Start application with Touch ID enrolled on the current selected iOS simulator'
+Mobile.startApplication('/Users/katalon/Library/Developer/Xcode/DerivedData/Authenticate_asgsg/Build/Products/Debug-iphonesimulator/Authentication.app', true)
+
+'Perform a successful Touch ID event'
+Mobile.performTouchID(true)
+
+'Close application on the current selected iOS simulator'
+Mobile.closeApplication()</codeblock></p></section></conbody></concept>

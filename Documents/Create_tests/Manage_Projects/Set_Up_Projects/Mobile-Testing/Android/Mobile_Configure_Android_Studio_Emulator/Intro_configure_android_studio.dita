@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">[Mobile] Configure Android Studio (Emulator) in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">The Android Emulator simulates Android devices on your computer
+         so that you can test your application on a variety of devices and
+         Android API levels without needing to have each physical device. To
+         learn more about the Android emulator capabilities and system
+         requirements, you can refer to this Android developer document: <xref format="html" href="https://developer.android.com/studio/run/emulator" scope="external" class="- topic/xref ">Run apps
+            on the Android Emulator</xref>.</p><p class="- topic/p ">In this article, we guide you step by step on how to configure
+         Android Studio (Emulator) for mobile testing in Katalon.</p></conbody></concept>

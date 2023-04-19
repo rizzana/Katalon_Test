@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_39" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Improvements</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+
+          <li class="- topic/li ">[Custom Keywords] Organize Custom Keywords in an alphabetical
+            order in Keyword Browser and support categorizing them with
+            <codeph class="+ topic/ph pr-d/codeph ">keywordObject</codeph>. <xref href="../../../../Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li>
+          <li class="- topic/li ">Improve Katalon Studio's performance of checking/unchecking
+            test folders containing more than 50 Test Cases</li>
+          <li class="- topic/li ">Log Viewer has a new design: Root cause shown on the top of the
+            stack trace and Test Object ID added to Selenium’s common
+            exceptions for better debugging.</li>
+
+          <li class="- topic/li ">[Desktop Testing] Increase the default timeout and allow
+            changing this default value when using
+            <codeph class="+ topic/ph pr-d/codeph ">switchToWindowTitle</codeph> during recording and executing
+            tests. <xref href="../../../../Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Windows-Keywords/windows-kw-switch-window-title/windows-kw-switch-window-title.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li>
+        </ul>
+      </conbody>
+    </concept>

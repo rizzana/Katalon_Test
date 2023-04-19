@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Delete data</title><conbody class="- topic/body  concept/conbody "><note type="warning" class="- topic/note ">
+        
+        <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">You cannot recover the deleted projects and executions. Delete
+            them with caution.</p></li></ul>
+      </note></conbody></concept>

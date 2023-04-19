@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept "><title class="- topic/title ">RESTful endpoint in object repository</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p "><ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> stores Web service endpoint for testing at
+         <b class="+ topic/ph hi-d/b ">Object Repository</b>, which is similar to
+         <b class="+ topic/ph hi-d/b ">Test Object</b> in UI Test.</p><p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/creat-first-API-testing/KS-API-Functions-in-RESTFUL-object.png" scope="external" width="850" class="- topic/image "><alt class="- topic/alt ">Functions in a RESTful object</alt></image>
+        </p><p class="- topic/p ">There are some important concepts needed to specify when testing
+         a RESTful request:</p><p class="- topic/p ">
+          <b class="+ topic/ph hi-d/b ">(1) Request method</b>
+        </p><p class="- topic/p ">We can choose one of these following methods for your first
+         request test: <b class="+ topic/ph hi-d/b ">GET, POST, PUT, DELETE</b>. The method
+         needs to match with the URL to have a valid request. For instance,
+         let's assume that our first test is a public API from Jira Cloud
+         version. We should use the <b class="+ topic/ph hi-d/b ">GET</b> method to receive
+         information on an existing ticket using its ID.</p><p class="- topic/p ">
+          <b class="+ topic/ph hi-d/b ">(2) Request URL</b>
+        </p><p class="- topic/p ">Along with the request method, <b class="+ topic/ph hi-d/b ">request URL</b> is
+         used to tell the web server which API is utilized under test. Any
+         mismatch between method and URL will lead to invalid request
+         exception at runtime or wrong data response.</p><p class="- topic/p ">
+          <b class="+ topic/ph hi-d/b ">(3) Authorization</b>
+        </p><p class="- topic/p ">Authorization is an essential part of an API. It is used to get
+         the correct data under permission (unless the data is public).
+         Katalon Studio supports common authentication methods:</p><p class="- topic/p ">The basic method requires username and password. Don't forget to
+         click <b class="+ topic/ph hi-d/b ">Update to HTTP Header</b> so that the
+         authentication can be applied to <b class="+ topic/ph hi-d/b ">HTTP Header</b>.</p><p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/creat-first-API-testing/KS-API-Authorization.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">Authorization</alt></image>
+        </p><p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/creat-first-API-testing/KS-API-HTTP-header.png" scope="external" width="600" class="- topic/image "><alt class="- topic/alt ">HTTP header</alt></image>
+        </p><p class="- topic/p ">
+          <b class="+ topic/ph hi-d/b ">(4) Verification</b>
+        </p><p class="- topic/p ">Verification is the place where you define the assertion to
+         ensure the response will contain the expected information.</p><p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/creat-first-API-testing/KS-API-Verify-the-object.png" scope="external" width="850" class="- topic/image "><alt class="- topic/alt ">Verify the RESTful object</alt></image>
+        </p><p class="- topic/p ">The verification tab of a request is similar to the Script tab
+         of a test case. In other words, you can write custom scripts with
+         built-in keywords or Groovy/Java scripts to verify the response
+         data. Besides built-in keywords, Katalon Studio also supports
+         built-in snippets, which help you to generate assertions with a
+         single click. It is useful for testers who might find it difficult
+         to deal with parsing and to assert with JSON data format.</p><p class="- topic/p ">The right panel of the request is the response displayed in nice
+         format automatically and the result of verification at Verification
+         Log. To include verification script when sending the request, you
+         need to choose the <b class="+ topic/ph hi-d/b ">Test Request and Verify</b> option
+         from the execution button.</p><p class="- topic/p ">The Verification script helps you have quick feedback of the
+         request status rather than an actual test. You can add more
+         assertions to the test case level in the next step.</p><p class="- topic/p ">
+          <b class="+ topic/ph hi-d/b ">(5) Variables</b>
+        </p><p class="- topic/p ">Variables make API testing more robust and dynamic with the
+         data-driven approach. In <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/>, every part of the request
+         can be parameterized. In other words, dynamic data can be used for:
+         URL, Authentication, HTTP Header, and HTTP Body to maximize the
+         capability of data-driven testing. Following setup works the same
+         with the above example:</p><p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/creat-first-API-testing/KS-API-Variables.png" scope="external" width="850" class="- topic/image "><alt class="- topic/alt ">Variables in the RESTful object</alt></image>
+        </p><p class="- topic/p ">
+          <b class="+ topic/ph hi-d/b ">(6) Formatter</b>
+        </p><p class="- topic/p ">The response will be automatically displayed in a neat format:
+         JSON, XML, HTML, and JavaScript. It is helpful for a quick view of
+         the response status.</p></conbody></concept>

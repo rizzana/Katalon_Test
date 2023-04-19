@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_10" class="- topic/topic concept/concept "><title class="- topic/title ">Exception Handling statements</title><conbody class="- topic/body  concept/conbody "><note type="note" class="- topic/note ">
+        <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Once a test step is added as any of the control statements, it
+            is not allowed to change into another keyword.</p></li></ul>
+      </note></conbody></concept>

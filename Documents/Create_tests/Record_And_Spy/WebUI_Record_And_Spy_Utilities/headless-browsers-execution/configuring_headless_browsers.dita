@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Configuring headless browsers</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">By default, when executing automation tests using one of these
+         headless browsers: <xref format="html" href="https://developer.mozilla.org/en-US/docs/Web/WebDriver/Capabilities/firefoxOptions" scope="external" class="- topic/xref ">Firefox</xref>
+         or <xref format="html" href="https://developers.google.com/web/updates/2017/04/headless-chrome" scope="external" class="- topic/xref ">Chrome</xref>,
+         you don’t need to add any additional configurations.</p><p class="- topic/p ">In case you need to add more desired capabilities to those
+         headless browsers:</p><ul class="- topic/ul "><li class="- topic/li ">Go to <b class="+ topic/ph hi-d/b ">Project &gt; Settings &gt; Desired Capabilities
+               &gt; WebUI &gt;Chrome (Headless)/Firefox (Headless)</b>.</li><li class="- topic/li ">Add your desired capabilities. For example, to make your Chrome
+            (headless) start with a smaller Window size:</li></ul><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/headless-browsers-execution/KS-HEADLESS-Set-DC.png" scope="external" width="850" class="- topic/image "><alt class="- topic/alt ">Set up desired capbilities for Chrome/Firefox (headless)</alt></image>
+      </p><p class="- topic/p ">You can learn more about desired capabilities in this document:
+         <xref href="../../../Manage_Projects/Project_Settings/Desired_Capabilities/introduction-to-desired-capabilities/introduction-to-desired-capabilities.dita" class="- topic/xref ">Desired
+            capabilities</xref>.</p></conbody></concept>

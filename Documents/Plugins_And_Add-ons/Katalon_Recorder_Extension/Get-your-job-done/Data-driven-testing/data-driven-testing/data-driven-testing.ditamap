@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-data-driven-testing" class="- map/map ">
+  <title class="- topic/title ">Data-driven testing in Katalon Recorder</title>
+  <topicref href="data-driven-testing.dita" class="- map/topicref "><topicref href="data-driven_commands.dita" class="- map/topicref ">
+    <topicref href="loadvars.dita" class="- map/topicref "/>
+    <topicref href="endloadvars.dita" class="- map/topicref "/>
+    <topicref href="data-driven_testing_process.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="data_file_formats.dita" class="- map/topicref ">
+    <topicref href="data_files_in_csv_format.dita" class="- map/topicref "/>
+    <topicref href="data_files_in_json_format.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="sample_projects_1647958543889.517.dita" class="- map/topicref "/>
+</topicref>
+  </map>

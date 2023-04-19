@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id_9" class="- topic/topic ">
+    <title class="- topic/title ">5.5.4.5</title>
+    <body class="- topic/body ">
+      <p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">Shiny new things</b> - Add the ability to export
+         test projects to Katalon Studio.</p>
+      <p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">Bug fixes</b> - Users cannot see failed tests when
+         they upload them to TestOps.</p>
+    </body>
+  </topic>

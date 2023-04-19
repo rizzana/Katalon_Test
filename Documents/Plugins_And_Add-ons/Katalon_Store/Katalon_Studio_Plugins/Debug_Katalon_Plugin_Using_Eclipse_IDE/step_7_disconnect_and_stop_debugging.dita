@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_8" class="- topic/topic concept/concept "><title class="- topic/title ">
+        Step 7: Disconnect and stop debugging
+      </title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Press the <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/publisher/stop-debug-icon.png" placement="inline" scope="external" class="- topic/image "/> icon to disconnect and stop your debugging session.</p></conbody></concept>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-API-key-settings" class="- map/map ">
+  <title class="- topic/title ">Katalon API Keys in Katalon Store</title>
+  <topicref href="API-key-settings.dita" class="- map/topicref "><topicref href="use_of_katalon_api_keys_in_katalon_store.dita" class="- map/topicref "/>
+  <topicref href="manage_api_keys_in_katalon_store.dita" class="- map/topicref "/>
+</topicref></map>

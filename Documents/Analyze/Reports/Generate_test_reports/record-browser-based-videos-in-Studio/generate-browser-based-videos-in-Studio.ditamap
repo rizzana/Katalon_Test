@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-screenshots-videos" class="- map/map "><title class="- topic/title ">Generate browser-based videos in Studio</title><topicref href="intro-generate-browser-based-videos-in-Studio.dita" class="- map/topicref "><topicref href="Enable_Browser_based_Recorder_in_KS.dita" class="- map/topicref "/><topicref href="install_ffmpeg_library.dita" class="- map/topicref "><topicref href="for_Docker_Image.dita" class="- map/topicref "/></topicref><topicref href="View_recorded_videos.dita" class="- map/topicref "/></topicref></map>

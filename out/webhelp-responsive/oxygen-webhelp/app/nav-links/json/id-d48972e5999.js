@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"id-d48972e5999":{"topics":[{"title":"Terminate WebDriver processes","href":"Documents\/Create_tests\/Manage_Projects\/Set_Up_Projects\/Web_Testing\/Handle-WebDrivers\/terminate-webdrivers\/terminate_webdriver_processes.html","attributes":{"data-id":"id_1"},"menu":{"hasChildren":false},"tocID":"id_1-d48972e6009","topics":[]}]}};

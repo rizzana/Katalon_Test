@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-mobile-create-android-test-case" class="- map/map ">
+  <title class="- topic/title ">[Mobile] Create and Run Android Test Case</title>
+  <topicref href="mobile-create-android-test-case.dita" class="- map/topicref "><topicref href="create_and_run_your_first_android_test_case.dita" class="- map/topicref ">
+    <topicref href="create_new_project.dita" class="- map/topicref "/>
+    <topicref href="record.dita" class="- map/topicref "/>
+    <topicref href="playback.dita" class="- map/topicref "/>
+  </topicref>
+</topicref>
+  </map>

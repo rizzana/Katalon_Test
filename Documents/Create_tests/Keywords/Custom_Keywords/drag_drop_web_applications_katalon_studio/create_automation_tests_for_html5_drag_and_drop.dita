@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Create automation tests for HTML5 Drag and Drop</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">For this section, we will use the <xref format="html" href="https://www.w3schools.com/html/html5_draganddrop.asp" scope="external" class="- topic/xref ">w3school
+            HTML5 Drag and Drop page</xref> as the application under test
+         (AUT):</p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/drag_drop_web_applications_katalon_studio/w3school-HTML5-Drag-and-Drop-page.png" scope="external" class="- topic/image "/>
+      </p><p class="- topic/p ">This web page contains a simple implementation of drag and drop
+         which allows you to simply drag the W3Schools.com image to change
+         its container. After the W3Schools image is dragged and dropped to
+         the right rectangle, it appears as below:</p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/drag_drop_web_applications_katalon_studio/drag-and-drop-custom-keyword-for-HTML-Drag-and-Drop.png" scope="external" class="- topic/image "/>
+      </p><p class="- topic/p ">We will implement the drag and drop custom keyword for HTML Drag
+         and Drop, then verify the innerHTML of the right rectangle when the
+         drag and drop is completed.</p><p class="- topic/p ">Implementing an automation test for HTML5 Drag and Drop is a bit
+         more complex than the JavaScript version. If you run the test case
+         above to test this drag and drop feature, you will see that the
+         draggable image does not move although the test passes.</p><p class="- topic/p ">This happens because as of the day of this article (May 22,
+         2017), Selenium still not provide official support for testing
+         HTML5 Drag and Drop. You can follow the related Selenium issue <xref format="html" href="https://github.com/seleniumhq/selenium-google-code-issue-archive/issues/3604" scope="external" class="- topic/xref ">here</xref>.</p><p class="- topic/p ">Therefore, as Katalon Studio utilizes Selenium for the
+         automation execution, implementing the automated test for HTML5
+         Drag and Drop requires a little bit of workaround:</p><ol class="- topic/ol "><li class="- topic/li ">Capture the draggable and droppable objects into the project's
+            repository like above. If done correctly we have 2 test objects as
+            below:<p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/drag_drop_web_applications_katalon_studio/DragDrop6.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Tests Explorer Katalon Studio</alt></image>
+      </p><p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">
+          <i class="+ topic/ph hi-d/i ">img</i>drag1 </b>is the identifier of the
+            draggle image object, while <b class="+ topic/ph hi-d/b ">div</b><i class="+ topic/ph hi-d/i "><b class="+ topic/ph hi-d/b ">div2 </b></i>identifies
+         the destination rectangle element.</p></li><li class="- topic/li "><p class="- topic/p ">Create a package inside Keywords with the name
+         <b class="+ topic/ph hi-d/b ">
+          <i class="+ topic/ph hi-d/i ">dnd.</i>
+        </b>
+      </p></li><li class="- topic/li "><p class="- topic/p ">Create a keyword class named
+         <b class="+ topic/ph hi-d/b ">
+          <i class="+ topic/ph hi-d/i ">DragAndDropHelper</i>
+        </b> and open it. Copy the
+         following scripts to create the custom keyword:</p><codeblock class="+ topic/pre pr-d/codeblock ">package html5.dnd
+ 
+import org.openqa.selenium.JavascriptExecutor
+import org.openqa.selenium.WebDriver
+import org.openqa.selenium.WebElement
+import com.kms.katalon.core.annotation.Keyword
+import com.kms.katalon.core.testobject.TestObject
+import com.kms.katalon.core.webui.driver.DriverFactory
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
+ 
+public class DragAndDropHelper {
+private static String getJsDndHelper() {
+return '''
+function simulateDragDrop(sourceNode, destinationNode) {
+var EVENT_TYPES = {
+DRAG_END: 'dragend',
+DRAG_START: 'dragstart',
+DROP: 'drop'
+}
+ 
+function createCustomEvent(type) {
+var event = new CustomEvent("CustomEvent")
+event.initCustomEvent(type, true, true, null)
+event.dataTransfer = {
+data: {
+},
+setData: function(type, val) {
+this.data[type] = val
+},
+getData: function(type) {
+return this.data[type]
+}
+}
+return event
+}
+ 
+function dispatchEvent(node, type, event) {
+if (node.dispatchEvent) {
+return node.dispatchEvent(event)
+}
+if (node.fireEvent) {
+return node.fireEvent("on" + type, event)
+}
+}
+ 
+var event = createCustomEvent(EVENT_TYPES.DRAG_START)
+dispatchEvent(sourceNode, EVENT_TYPES.DRAG_START, event)
+ 
+var dropEvent = createCustomEvent(EVENT_TYPES.DROP)
+dropEvent.dataTransfer = event.dataTransfer
+dispatchEvent(destinationNode, EVENT_TYPES.DROP, dropEvent)
+ 
+var dragEndEvent = createCustomEvent(EVENT_TYPES.DRAG_END)
+dragEndEvent.dataTransfer = event.dataTransfer
+dispatchEvent(sourceNode, EVENT_TYPES.DRAG_END, dragEndEvent)
+}
+ 
+''';
+}
+ 
+@Keyword
+def dragAndDrop(TestObject sourceObject, TestObject destinationObject) {
+WebElement sourceElement = WebUiBuiltInKeywords.findWebElement(sourceObject);
+WebElement destinationElement = WebUiBuiltInKeywords.findWebElement(destinationObject);
+WebDriver webDriver = DriverFactory.getWebDriver();
+((JavascriptExecutor) webDriver).executeScript(getJsDndHelper() + "simulateDragDrop(arguments[0], arguments[1])", sourceElement, destinationElement)
+}
+}
+
+</codeblock><p class="- topic/p ">This keyword uses the JavaScript function from <xref format="html" href="https://gist.github.com/druska/624501b7209a74040175" scope="external" class="- topic/xref ">https://gist.github.com/druska/624501b7209a74040175</xref>
+         (thanks to <xref format="html" href="https://gist.github.com/druska" scope="external" class="- topic/xref ">Druska</xref>) to
+         mimic HTML5 native events to simulate drag and drop for HTML5.</p></li><li class="- topic/li ">
+          <p class="- topic/p ">Use our newly created custom keyword. Create a test case with
+               the name <b class="+ topic/ph hi-d/b ">
+              <i class="+ topic/ph hi-d/i ">HTML5 Drag And Drop</i>
+            </b>, open it
+               then changing to the Script mode and pasting the following Groovy
+               code:</p>
+          
+            <codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+
+
+'Open the selected browser and navigate to our AUT website'
+WebUI.openBrowser('https://www.w3schools.com/html/html5_draganddrop.asp')'Use the previous custom keywords to perform the drag and drop action.'
+CustomKeywords.'html5.dnd.DragAndDropHelper.dragAndDrop'(findTestObject('Page_HTML5 Drag and Drop/img_drag1'), findTestObject(
+'Page_HTML5 Drag and Drop/div_div2'))'Verify that the drag and drop action is performed successfully by checking the innerHTML of the destination element for the draggable image.'
+WebUI.verifyElementAttributeValue(findTestObject('Page_HTML5 Drag and Drop/div_div2'), 'innerHTML', '&lt;img src=\"img_w3slogo.gif\" draggable=\"true\" ondragstart=\"drag(event)\" id=\"drag1\" alt=\"W3Schools\"&gt;',
+0)'Close the browser to clean up the testing environment.'
+WebUI.closeBrowser();
+
+</codeblock>
+          
+        <p class="- topic/p ">This sample project could be found <xref format="html" href="https://github.com/katalon-studio/DragAndDropExample" scope="external" class="- topic/xref "><b class="+ topic/ph hi-d/b ">here</b></xref>
+        <b class="+ topic/ph hi-d/b ">.</b>
+      </p></li><li class="- topic/li "><p class="- topic/p ">Run the test case and you will notice that the W3Schools image
+         is dragged and dropped in the right rectangle successfully.</p></li></ol><p class="- topic/p ">We hope you enjoy the tutorial, please comment if you have any question or another solution to automate the drag &amp; drop testing. For additional tip &amp; tricks, access <xref format="html" href="https://forum.katalon.com/tags/c/community-discussion/katalon-studio/7/tips-tricks" scope="external" class="- topic/xref "><b class="+ topic/ph hi-d/b ">Katalon Studio tutorial</b></xref>.</p></conbody></concept>

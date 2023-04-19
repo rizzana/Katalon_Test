@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Configure a Key Binding Scheme in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To configure a key binding scheme, follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Open <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/>. From the main menu, go to <b class="+ topic/ph hi-d/b "><ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> Preferences &gt; General &gt; Keys</b>.</p>
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Keys</b> dialog displays details about commands and the associated keyboard shortcuts of a scheme as below.</p>
+                <p class="- topic/p "> <image width="800" href="image/ks-850-key-preference.png" class="- topic/image "><alt class="- topic/alt ">preferences</alt></image></p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">To select a key binding scheme, click on the <b class="+ topic/ph hi-d/b ">Scheme</b> dropdown button and select a scheme.</p>
+                <p class="- topic/p "> <image width="700" href="image/ks-850-select-scheme.png" class="- topic/image "><alt class="- topic/alt ">select scheme</alt></image></p>
+                <p class="- topic/p "><ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> supports the following schemes:</p>
+                <table class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><colspec colname="c1" colnum="1" class="- topic/colspec "/><colspec colname="c2" colnum="2" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry "><b class="+ topic/ph hi-d/b ">Key binding Scheme</b>
+                                </entry><entry class="- topic/entry "><b class="+ topic/ph hi-d/b ">Description</b>
+                                </entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry "><b class="+ topic/ph hi-d/b ">Default</b></entry><entry class="- topic/entry ">The default key binding scheme of <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/>.</entry></row><row class="- topic/row "><entry class="- topic/entry "><b class="+ topic/ph hi-d/b ">Emacs</b></entry><entry class="- topic/entry ">A key binding scheme that includes Emacs editor's keyboard shortcuts.</entry></row></tbody></tgroup></table>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">To edit the key binding of a command, select the command, then specify the details in the section below.</p>
+                <p class="- topic/p "> <image width="800" href="image/ks-850-configure-key-binding.png" class="- topic/image "><alt class="- topic/alt ">configure key binding</alt></image></p>
+                <table class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry "> <b class="+ topic/ph hi-d/b ">Section</b>
+                                </entry><entry class="- topic/entry "> <b class="+ topic/ph hi-d/b ">Description</b>
+                                </entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry "> <b class="+ topic/ph hi-d/b ">Description</b>
+                                </entry><entry class="- topic/entry ">The description about the command.</entry></row><row class="- topic/row "><entry class="- topic/entry "> <b class="+ topic/ph hi-d/b ">Binding</b>
+                                </entry><entry class="- topic/entry ">The key binding (keyboard shortcut) for the command.</entry></row><row class="- topic/row "><entry class="- topic/entry "> <b class="+ topic/ph hi-d/b ">When</b>
+                                </entry><entry class="- topic/entry ">The context when the command can be executed.</entry></row><row class="- topic/row "><entry class="- topic/entry "> <b class="+ topic/ph hi-d/b ">Conflicts</b>
+                                </entry><entry class="- topic/entry ">Commands that have the same combination of key binding and context.</entry></row></tbody></tgroup></table>
+                <note type="note" class="- topic/note ">
+                    <ul class="- topic/ul "><li class="- topic/li ">To avoid conflicts with keyboard shortcuts, verify that the configured command's combination of key binding and context is unique.</li></ul>
+                </note>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click on the <b class="+ topic/ph hi-d/b ">Apply</b> button to save and apply the configuration.</p>
+            </li></ol></conbody></concept>

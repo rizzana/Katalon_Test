@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Logging</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">Katalium Framework provides the class
+         <codeph class="+ topic/ph pr-d/codeph ">com.katalon.kata.helper.LogHelper</codeph> to help retrieve
+         <codeph class="+ topic/ph pr-d/codeph ">org.slf4j.Logger</codeph> instances with correct class
+         names.</p>
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">private static final Logger log = LogHelper.getLogger();
+</codeblock>
+      
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">log.info("Open CURA home page.");
+</codeblock>
+      
+      <p class="- topic/p ">Sample output:</p>
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">09:26:29.475 [main] INFO  com.katalon.kata.testng.TestTemplate - Make appointment with parameters
+09:26:29.475 [main] INFO  com.katalon.kata.testng.TestTemplate - Facility Hongkong CURA Healthcare Center
+09:26:29.476 [main] INFO  com.katalon.kata.testng.TestTemplate - VisitDate 27/12/2016
+09:26:29.476 [main] INFO  com.katalon.kata.testng.TestTemplate - Comment Please make appointment as soon as possible.
+09:26:29.476 [main] INFO  c.katalon.kata.selenium.PageTemplate - Open CURA home page.
+09:26:38.528 [main] INFO  c.katalon.kata.selenium.PageTemplate - Make appointment.
+</codeblock>
+      
+      <p class="- topic/p ">Logs will be printed out on the console and in TestNG XML
+         reports.</p>
+    </conbody>
+  </concept>

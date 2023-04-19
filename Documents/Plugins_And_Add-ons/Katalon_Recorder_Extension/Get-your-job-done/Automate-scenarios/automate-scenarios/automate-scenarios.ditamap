@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-automate-scenarios" class="- map/map ">
+  <title class="- topic/title ">Create your first automation script</title>
+  <topicref href="automate-scenarios.dita" class="- map/topicref "><topicref href="add_commands_to_interact_with_websites.dita" class="- map/topicref "/>
+  <topicref href="add_verify_or_assert_commands.dita" class="- map/topicref ">
+    <topicref href="after_the_recording_of_a_test_case.dita" class="- map/topicref "/>
+    <topicref href="during_the_recording_of_a_test_case.dita" class="- map/topicref "/>
+  </topicref>
+</topicref>
+  </map>

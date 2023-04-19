@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Create a Local Test Environment with an Agent</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">An Agent manages a local server for executing the scheduled Test
+         Runs in a Local Test Environment.</p><p class="- topic/p ">Katalon TestOps supports compatible Agents for different
+         executing environments.</p><p class="- topic/p ">Once you install the Agent in your local test machine, you have
+         created a Local Test Environment for Test Runs execution.</p><note type="note" class="- topic/note ">
+        <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">You can share the Agents among Users and Projects within a
+            Team.</p></li></ul>
+      </note></conbody></concept>

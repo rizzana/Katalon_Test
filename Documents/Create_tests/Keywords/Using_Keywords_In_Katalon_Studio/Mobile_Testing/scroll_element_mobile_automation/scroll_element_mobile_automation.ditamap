@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-scroll_element_mobile_automation" class="- map/map ">
+  <title class="- topic/title ">Handling Scroll to Element in Mobile Automation</title>
+  <topicref href="scroll_element_mobile_automation.dita" class="- map/topicref "><topicref href="scroll_to_text.dita" class="- map/topicref ">
+    <topicref href="scenario_1647942250707.44.dita" class="- map/topicref "/>
+    <topicref href="manual_mode_1647942250707.44.dita" class="- map/topicref "/>
+    <topicref href="script_mode_1647942250707.44.dita" class="- map/topicref "/>
+  </topicref>
+</topicref></map>

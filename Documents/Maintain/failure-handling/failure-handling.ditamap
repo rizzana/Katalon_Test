@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-failure-handling" class="- map/map ">
+  <title class="- topic/title ">Failure Handling</title>
+  <topicref href="failure-handling.dita" class="- map/topicref "><topicref href="default_failure_handling_behavior.dita" class="- map/topicref "/>
+  <topicref href="override_failure_handling_behavior.dita" class="- map/topicref ">
+    <topicref href="in_manual_view.dita" class="- map/topicref "/>
+    <topicref href="in_scripting_view.dita" class="- map/topicref "/>
+  </topicref>
+</topicref>
+  </map>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Working with XPath selector</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">The following guide shows how to leverage Katalon Studio Spy Web
+         Utility to locate web elements with XPath selector.</p><p class="- topic/p ">These XPath axes methods are used to find complex or dynamic
+         elements.</p><p class="- topic/p ">In the examples below, we are using our demo page: <xref href="http://demoaut.katalon.com/" scope="external" class="- topic/xref "/>
+         </p><p class="- topic/p ">You can find our web sample project available to be downloaded
+         here: <xref format="html" href="https://github.com/katalon-studio/katalon-web-automation" scope="external" class="- topic/xref ">Katalon
+            Web Automation Sample Project</xref>.</p></conbody></concept>

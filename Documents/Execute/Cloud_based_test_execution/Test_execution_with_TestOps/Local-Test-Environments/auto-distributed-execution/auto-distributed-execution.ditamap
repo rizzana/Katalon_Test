@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-auto-distributed-execution" class="- map/map ">
+  <title class="- topic/title ">Auto-Distributed Executions</title>
+  <topicref href="auto-distributed-execution.dita" class="- map/topicref "><topicref href="how_it_works.dita" class="- map/topicref "/>
+  <topicref href="configure_auto-distributed_executions.dita" class="- map/topicref "/>
+</topicref></map>

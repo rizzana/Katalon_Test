@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Configure your Katalon project</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">
+            <p class="- topic/p ">In Katalon Studio, open your desired Katalon Project. Prepare
+               your Katalon test cases and test suites that can successfully run
+               on your local device.</p>
+
+            <p class="- topic/p ">Your mobile test case should start with the keyword:
+               <b class="+ topic/ph hi-d/b ">Start Existing Application</b>. This is because AWS
+               Device Farm already installs the application on devices under test
+               before every run. To learn more about this mobile keyword, see <xref href="../../../../Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Mobile-Keywords/mobile-keyword-start-existing-apps/mobile-keyword-start-existing-apps.dita" class="- topic/xref ">[Mobile]
+                  Start Existing Application</xref>.</p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">To change the desired capabilities corresponding to your app,
+               open <b class="+ topic/ph hi-d/b ">Project Settings &gt; Desired Capabilities &gt;
+                  Remote</b>.</p>
+            <p class="- topic/p ">
+              <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/aws-device-farm-integration/KS-AWS-Enable-AWS.png" scope="external" width="700" class="- topic/image "><alt class="- topic/alt ">configure desired capabilities</alt></image>
+            </p>
+            <ul class="- topic/ul "><li class="- topic/li ">In <b class="+ topic/ph hi-d/b ">Remote server URL</b>, enter the Appium server
+                  URL: <codeph class="+ topic/ph pr-d/codeph ">http://127.0.0.1:4723/wd/hub
+</codeph></li><li class="- topic/li ">In <b class="+ topic/ph hi-d/b ">Remote server type</b>, select
+                  <b class="+ topic/ph hi-d/b ">Appium</b>.</li><li class="- topic/li ">In <b class="+ topic/ph hi-d/b ">Appium driver</b>, select <b class="+ topic/ph hi-d/b ">Android
+                     Driver</b> for Android devices or <b class="+ topic/ph hi-d/b ">iOS Driver</b>
+                  for iOS devices.</li></ul>
+            <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Add</b> to create a desired capability named
+               <codeph class="+ topic/ph pr-d/codeph ">platformName</codeph> with the value <codeph class="+ topic/ph pr-d/codeph ">Android</codeph> for
+               Android devices, or <codeph class="+ topic/ph pr-d/codeph ">iOS</codeph> for iOS devices.</p>
+            <p class="- topic/p ">When you are done with the configuration, click <b class="+ topic/ph hi-d/b ">Apply
+                  and Close</b>.</p>
+            <note type="note" class="- topic/note ">
+              
+              <p class="- topic/p ">For Android app testing, we need to add two extra desired
+                  capabilities: <codeph class="+ topic/ph pr-d/codeph ">appPackage: [app ID]</codeph> and
+                  <codeph class="+ topic/ph pr-d/codeph ">appActivity: [main activity name]</codeph>. The main activity
+                  can retrieve after uploading the app to AWS Device Farm.</p>
+              <p class="- topic/p ">
+                <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/aws-device-farm-integration/android-main-activity.png" scope="external" width="300" class="- topic/image "><alt class="- topic/alt "> Android main activity</alt></image>
+              </p>
+            </note>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">Package your Katalon project into a .zip file.</p>
+          </li></ol></conbody></concept>

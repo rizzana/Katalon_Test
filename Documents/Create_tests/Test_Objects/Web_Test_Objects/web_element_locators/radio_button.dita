@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_12" class="- topic/topic concept/concept "><title class="- topic/title ">Radio button</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">A radio button, like a checkbox, is designed to receive a
+            "click" action. Its locator is completely the same as the checkbox
+            locator.</p><p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/web_element_locators/radio-button.png" scope="external" class="- topic/image "><alt class="- topic/alt ">radio-button</alt></image>
+        </p><codeblock class="+ topic/pre pr-d/codeblock ">&lt;form name="agreementFormjdk-8u181-oth-JPR" method="post" action="radio" class="lic_form"&gt;
+&lt;input type="radio" value="on" id="agreementjdk-8u181-oth-JPR-a" onclick=""&gt;
+&lt;label for="agreementjdk-8u181-oth-JPR-a"&gt;Accept License Agreement&lt;/label&gt;
+&lt;input type="radio" value="on" id="agreementjdk-8u181-oth-JPR-d" onclick=""&gt;
+&lt;label for="agreementjdk-8u181-oth-JPR-d"&gt;Decline License Agreement&lt;/label&gt;
+&lt;/form&gt;
+</codeblock><p class="- topic/p ">A radio is often presented with a label on the UI. We
+            use labels to locate a radio button as follows:<ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "><codeph class="+ topic/ph pr-d/codeph ">//label[.='Accept License
+            Agreement']//preceding-sibling::input[1]</codeph></p></li><li class="- topic/li "><p class="- topic/p "><codeph class="+ topic/ph pr-d/codeph ">//label[.='Accept
+            License Agreement']//ancestor::div[1]//input</codeph></p></li><li class="- topic/li "><p class="- topic/p "> <codeph class="+ topic/ph pr-d/codeph ">//input[@id=//label[.="Decline License Agreement"]/@for]</codeph></p></li><li class="- topic/li "><p class="- topic/p "><codeph class="+ topic/ph pr-d/codeph ">//input[.//following-sibling::label[.='Decline License
+            Agreement']]</codeph></p></li></ul></p></conbody></concept>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-capture-screenshots" class="- map/map "><title class="- topic/title ">View captured screenshots in Studio reports</title><topicref href="intro-view-captured-screenshots-in-Studio-reports.dita" class="- map/topicref "><topicref href="view_screenshots.dita" class="- map/topicref "/><topicref href="deactivate_screenshots.dita" class="- map/topicref "/><topicref href="configure_screenshots_manually.dita" class="- map/topicref "><topicref href="configure_screenshots_in_manual_mode_in_katalon_studio.dita" class="- map/topicref "/></topicref></topicref></map>

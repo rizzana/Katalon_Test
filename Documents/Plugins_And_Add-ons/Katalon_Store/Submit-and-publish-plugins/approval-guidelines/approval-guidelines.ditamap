@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-approval-guidelines" class="- map/map ">
+  <title class="- topic/title ">Plugin approval guidelines</title>
+  <topicref href="approval-guidelines.dita" class="- map/topicref "><topicref href="approval_process.dita" class="- map/topicref "/>
+</topicref>
+  </map>

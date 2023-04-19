@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id" class="- topic/topic "><title class="- topic/title ">How to implement data-driven testing in a test case with <ph conkeyref="name-variables/katalon-recorder" class="- topic/ph "/></title><body class="- topic/body "><p class="- topic/p ">Whenever you want to execute a test case repeatedly with
+         different data, you can implement data-driven testing (DDT).
+         Katalon Recorder facilitates DDT with DDT commands and several data
+         formats. See: <xref href="../data-driven-testing/data-driven-testing.dita" class="- topic/xref ">Data-driven
+            testing in Katalon Recorder</xref>.</p><p class="- topic/p ">This tutorial shows you how to implement DDT in a test case.</p><note type="note" class="- topic/note ">
+        
+        <ul class="- topic/ul "><li class="- topic/li ">To use the sample project of this tutorial, navigate to
+               <b class="+ topic/ph hi-d/b ">Actions</b> &gt; <b class="+ topic/ph hi-d/b ">Sample Projects</b>,
+               then add the <b class="+ topic/ph hi-d/b ">Implement data-driven testing</b>
+               project.</li></ul>
+      </note></body></topic>

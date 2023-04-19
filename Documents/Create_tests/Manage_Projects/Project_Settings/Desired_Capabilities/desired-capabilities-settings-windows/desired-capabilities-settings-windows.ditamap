@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-desired-capabilities-settings-windows" class="- map/map ">
+  <title class="- topic/title ">Set up Desired Capabilities in Windows Desktop App Testing</title>
+  <topicref href="desired-capabilities-settings-windows.dita" class="- map/topicref "><topicref href="set_desired_capabilities_for_windows_desktop_application_testing.dita" class="- map/topicref ">
+    <topicref href="for_windows_spyrecorder_utility.dita" class="- map/topicref "/>
+    <topicref href="for_native_windows_recorder.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="example_uses_1647942184282.297.dita" class="- map/topicref ">
+    <topicref href="example_1_set_delaying_time_for_an_app_launch.dita" class="- map/topicref "/>
+    <topicref href="example_2_set_desired_capabilities_in_native_windows_recorder.dita" class="- map/topicref "/>
+  </topicref>
+</topicref>
+  </map>

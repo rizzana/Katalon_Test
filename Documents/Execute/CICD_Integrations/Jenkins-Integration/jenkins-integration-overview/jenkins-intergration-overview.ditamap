@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-jenkins-intergration-overview" class="- map/map ">
+  <title class="- topic/title ">Jenkins Integration Overview</title>
+  <topicref href="jenkins-intergration-overview.dita" class="- map/topicref "><topicref href="jenkins_integration.dita" class="- map/topicref "/>
+  <topicref href="execute_katalon_studio_tests_in_jenkins.dita" class="- map/topicref "/>
+</topicref>
+  </map>

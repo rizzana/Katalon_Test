@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Create a Test Environment</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">A Test Environment connects your machine with Katalon TestOps to
+         activate a Remote Execution.</p>
+      <p class="- topic/p ">You can define which machine or machines execute the remote Test
+         Runs by configuring a Test Environment in Katalon TestOps.</p>
+      <p class="- topic/p ">Katalon TestOps offers the following options:</p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">
+          <xref href="../Local-Test-Environments/agents/agents.dita" class="- topic/xref ">Create
+               a Local Test Environment with an Agent</xref>.</li>
+        <li class="- topic/li ">
+          <xref href="../docker/docker.dita" class="- topic/xref ">Set
+               up an Agent to execute tests in a Docker Environment</xref>.</li>
+        <li class="- topic/li ">
+          <xref href="../aws-eks/aws-eks.dita" class="- topic/xref ">Create
+               a Kubernetes Test Environment</xref>.</li>
+        <li class="- topic/li ">
+          <xref href="../circleci/circleci.dita" class="- topic/xref ">Create
+               a CircleCI Test Environment</xref>.</li>
+      </ul>
+      <p class="- topic/p ">Once you have created a Test Environment, you can upload tests
+         to a Script Repository in Katalon TestOps for test planning.</p>
+    </conbody>
+  </concept>

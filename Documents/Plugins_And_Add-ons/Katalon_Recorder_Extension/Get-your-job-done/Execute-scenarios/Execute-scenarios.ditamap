@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-Execute-scenarios" class="- map/map "><title class="- topic/title ">Execute scenarios</title><mapref format="ditamap" href="self-healing/Self-healing.ditamap" class="+ map/topicref mapgroup-d/mapref "/><mapref format="ditamap" href="command-line-runner/Use_the_Command-Line_Runner.ditamap" class="+ map/topicref mapgroup-d/mapref "/><mapref format="ditamap" href="dynamic-test-suite/dynamic-test-suite.ditamap" class="+ map/topicref mapgroup-d/mapref "/></map>

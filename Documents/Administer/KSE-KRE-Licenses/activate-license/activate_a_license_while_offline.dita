@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">Activate a license while offline</title><conbody class="- topic/body  concept/conbody "><note type="important" class="- topic/note ">
+        
+        <ul class="- topic/ul "><li class="- topic/li ">A machine ID. To view your machine ID, see <xref href="../machine-id/machine-id.dita" class="- topic/xref ">Machine
+                  ID</xref>.</li><li class="- topic/li ">A <codeph class="+ topic/ph pr-d/codeph ">KSE_&lt;machine_ID&gt;.lic</codeph> or
+               <codeph class="+ topic/ph pr-d/codeph ">KRE_&lt;machine_ID&gt;.lic</codeph> file. To get this license
+               file, provide your machine ID to your Organization Owner or Admin
+               and ask them to grant you an offline license. See <xref href="../../Administrative_Tasks/License_Management/grant-katalon-licenses/grant-katalon-licenses.dita" class="- topic/xref ">Grant
+                  Offline Licenses</xref>.</li></ul>
+      </note><p class="- topic/p ">For offline license activation, follow these steps:</p><p class="- topic/p ">Put your .lic file in the <codeph class="+ topic/ph pr-d/codeph ">license</codeph> folder. With KRE,
+         to execute multiple sessions in parallel, put multiple license
+         files in the <codeph class="+ topic/ph pr-d/codeph ">license</codeph> folder.</p><p class="- topic/p ">
+        <codeph class="+ topic/ph pr-d/codeph ">.katalon</codeph> is a hidden folder. To find the
+         <codeph class="+ topic/ph pr-d/codeph ">license</codeph> folder in your computer, search for:</p><ul class="- topic/ul "><li class="- topic/li ">
+          <p class="- topic/p ">Windows:
+               <codeph class="+ topic/ph pr-d/codeph ">C:\Users\&lt;user_name&gt;\.katalon\license</codeph>
+          </p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/activate-RE/license.png" scope="external" class="- topic/image "/>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Linux: <codeph class="+ topic/ph pr-d/codeph ">/home/&lt;user_name&gt;/.katalon/license</codeph>
+          </p>
+        </li><li class="- topic/li ">macOS:
+            <codeph class="+ topic/ph pr-d/codeph ">/Users/&lt;user_name&gt;/.katalon/license</codeph>
+        </li></ul><p class="- topic/p "><b class="+ topic/ph hi-d/b ">For KRE</b>:</p><p class="- topic/p ">Put your <codeph class="+ topic/ph pr-d/codeph ">KRE_&lt;machine_ID&gt;.lic</codeph> file in the
+         <codeph class="+ topic/ph pr-d/codeph ">license</codeph> folder. Your KRE license is now activated.
+         Every time you start running a test with KRE, KRE automatically
+         verifies that your license file is available and valid.</p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/activate-KSE/KRE-license.png" scope="external" width="70%&gt;" class="- topic/image "><alt class="- topic/alt ">verify KRE license</alt></image>
+      </p><p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">For KSE</b>
+      </p><ol class="- topic/ol "><li class="- topic/li ">
+          <p class="- topic/p ">To activate your KSE license, in the <b class="+ topic/ph hi-d/b ">Katalon Studio
+                  Activation</b> dialog, click <b class="+ topic/ph hi-d/b ">Offline
+                  Activation</b>. The <b class="+ topic/ph hi-d/b ">Katalon Studio Enterprise
+                  Activation</b> dialog appears.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">License file</b> section, enter the path to
+               your <codeph class="+ topic/ph pr-d/codeph ">KSE_&lt;machine_ID&gt;.lic</codeph> file, or click
+               <b class="+ topic/ph hi-d/b ">Browse</b> to navigate to your .lic file.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/activate-KSE/offline-license-activation.png" scope="external" width="70%&gt;" class="- topic/image "><alt class="- topic/alt ">offline activation</alt></image>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Activate</b>.</p>
+        </li></ol></conbody></concept>

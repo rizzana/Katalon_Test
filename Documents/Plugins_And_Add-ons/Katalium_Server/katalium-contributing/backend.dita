@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Backend</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Importing as Maven project into <codeph class="+ topic/ph pr-d/codeph ">IntelliJ IDEA</codeph>,
+         <codeph class="+ topic/ph pr-d/codeph ">Visual Studio Code</codeph> or <codeph class="+ topic/ph pr-d/codeph ">Eclipse</codeph>.</p><p class="- topic/p ">To start the server in standalone mode, use entry class
+         <codeph class="+ topic/ph pr-d/codeph ">com.katalon.kata.server.KatalonServer</codeph>.</p><p class="- topic/p ">To start the server as a hub, use entry class
+         <codeph class="+ topic/ph pr-d/codeph ">com.katalon.kata.server.KatalonServer</codeph> with arguments
+         <codeph class="+ topic/ph pr-d/codeph ">-role hub -servlets
+            com.katalon.kata.servlet.ListSessionsServlet,com.katalon.kata.servlet.KatalonConsole,com.katalon.kata.servlet.ScreenShotsServlet,com.katalon.kata.servlet.ConfigSessionsServlet,com.katalon.kata.servlet.SessionServlet</codeph>.</p><p class="- topic/p ">To start the server as a node, use entry class
+         <codeph class="+ topic/ph pr-d/codeph ">com.katalon.kata.server.KatalonServer</codeph> with arguments
+         <codeph class="+ topic/ph pr-d/codeph ">-role node -hub http://localhost:4444/grid/register -proxy
+            com.katalon.kata.proxy.KatalonProxy</codeph>.</p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalium-server/docs/katalium-contributing/1-katalium.png" scope="external" class="- topic/image "/>
+      </p></conbody></concept>

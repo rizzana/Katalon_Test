@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">In Script view</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Follow the steps below to use your defined custom keywords
+         in the <b class="+ topic/ph hi-d/b ">Script</b> view of a test case:</p><ol class="- topic/ol "><li class="- topic/li ">
+            <p class="- topic/p ">
+               The <b class="+ topic/ph hi-d/b ">Class</b>
+              <i class="+ topic/ph hi-d/i ">CustomKeywords</i> of
+               Katalon Studio allows you to access all custom keywords. Enter the
+               following syntax into the script editor:</p>
+            
+              <codeblock class="+ topic/pre pr-d/codeblock ">CustomKeywords.
+</codeblock>
+            
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Content Assist</b> function will be
+               invoked right after you type
+               the <b class="+ topic/ph hi-d/b ">dot</b> character. <b class="+ topic/ph hi-d/b ">Content
+                  Assist</b> provides users with context-sensitive
+               suggestions for code completion. Therefore, all the custom keywords
+               defined in your test project will be displayed as below:</p>
+            <p class="- topic/p ">
+              <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-to-custom-keywords/image2017-6-30-203A353A9.png" scope="external" class="- topic/image "/>
+            </p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">Select the recently created keyword and provide all parameters
+               as required.</p>
+          </li></ol><p class="- topic/p ">See also:</p><p class="- topic/p ">The following API docs may prove useful when working with custom
+         keywords:</p><table class="- topic/table "><tgroup cols="3" class="- topic/tgroup "><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Class</entry><entry class="- topic/entry ">Method</entry><entry class="- topic/entry ">Description</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">
+                  <xref format="html" href="https://api-docs.katalon.com/com/kms/katalon/core/webui/driver/DriverFactory.html" scope="external" class="- topic/xref ">DriverFactory</xref>
+                </entry><entry class="- topic/entry "><xref format="html" href="https://api-docs.katalon.com/com/kms/katalon/core/webui/driver/DriverFactory.html#getWebDriver()" scope="external" class="- topic/xref ">getWebDriver()</xref>
+                </entry><entry class="- topic/entry ">Get the current active web driver.</entry></row><row class="- topic/row "><entry class="- topic/entry ">
+                  <xref format="html" href="https://api-docs.katalon.com/com/kms/katalon/core/testobject/TestObject.html" scope="external" class="- topic/xref ">Test
+                     Object</xref>
+                </entry><entry class="- topic/entry "><xref format="html" href="https://api-docs.katalon.com/com/kms/katalon/core/testobject/TestObject.html#addProperty(java.lang.String,%20com.kms.katalon.core.testobject.ConditionType,%20java.lang.String)" scope="external" class="- topic/xref ">addProperty(String
+                     name, ConditionType condition, String value)</xref>
+                </entry><entry class="- topic/entry ">Add a new property to the test object</entry></row><row class="- topic/row "><entry class="- topic/entry "/><entry class="- topic/entry "><xref format="html" href="https://docs.katalon.com/javadoc/com/kms/katalon/core/testobject/TestObject.html#setProperties(List%3CTestObjectProperty%3E)" scope="external" class="- topic/xref ">setProperties(List&lt;TestObjectProperty&gt;
+                     properties)</xref>
+                </entry><entry class="- topic/entry ">Set the properties of the test object</entry></row><row class="- topic/row "><entry class="- topic/entry "/><entry class="- topic/entry "><xref format="html" href="https://docs.katalon.com/javadoc/com/kms/katalon/core/testobject/TestObject.html#getObjectId()" scope="external" class="- topic/xref ">getObjectId()</xref>
+                </entry><entry class="- topic/entry ">Get object ID.</entry></row><row class="- topic/row "><entry class="- topic/entry "/><entry class="- topic/entry "><xref format="html" href="https://docs.katalon.com/javadoc/com/kms/katalon/core/testobject/TestObject.html#findPropertyValue(java.lang.String,%20boolean)" scope="external" class="- topic/xref ">findPropertyValue(String
+                     name, boolean caseSensitive)</xref>
+                </entry><entry class="- topic/entry ">Find the value of a property using the property name</entry></row><row class="- topic/row "><entry class="- topic/entry ">
+                  <xref format="html" href="https://api-docs.katalon.com/com/kms/katalon/core/util/KeywordUtil.html" scope="external" class="- topic/xref ">Keyword
+                     Util</xref>
+                </entry><entry class="- topic/entry "><xref format="html" href="https://api-docs.katalon.com/com/kms/katalon/core/util/KeywordUtil.html#logInfo(java.lang.String)" scope="external" class="- topic/xref ">logInfo(String
+                     message)</xref>
+                </entry><entry class="- topic/entry ">Log message as info</entry></row><row class="- topic/row "><entry class="- topic/entry "/><entry class="- topic/entry "><xref format="html" href="https://docs.katalon.com/javadoc/com/kms/katalon/core/util/KeywordUtil.html#markError(java.lang.String)" scope="external" class="- topic/xref ">markError(String
+                     message)</xref>
+                </entry><entry class="- topic/entry ">Mark a keyword to be error</entry></row><row class="- topic/row "><entry class="- topic/entry "/><entry class="- topic/entry "><xref format="html" href="https://docs.katalon.com/javadoc/com/kms/katalon/core/util/KeywordUtil.html#markErrorAndStop(java.lang.String)" scope="external" class="- topic/xref ">markErrorAndStop(String
+                     message)</xref>
+                </entry><entry class="- topic/entry ">Mark a keyword to be error and stop execution</entry></row><row class="- topic/row "><entry class="- topic/entry "/><entry class="- topic/entry "><xref format="html" href="https://docs.katalon.com/javadoc/com/kms/katalon/core/util/KeywordUtil.html#markFailed(java.lang.String)" scope="external" class="- topic/xref ">markFailed(String
+                     message)</xref>
+                </entry><entry class="- topic/entry ">Mark a keyword to be failed and continue execution</entry></row><row class="- topic/row "><entry class="- topic/entry "/><entry class="- topic/entry "><xref format="html" href="https://docs.katalon.com/javadoc/com/kms/katalon/core/util/KeywordUtil.html#markFailedAndStop(java.lang.String)" scope="external" class="- topic/xref ">markFailedAndStop(String
+                     message)</xref>
+                </entry><entry class="- topic/entry ">Mark a keyword to be failed and stop execution</entry></row><row class="- topic/row "><entry class="- topic/entry "/><entry class="- topic/entry "><xref format="html" href="https://docs.katalon.com/javadoc/com/kms/katalon/core/util/KeywordUtil.html#markPassed(java.lang.String)" scope="external" class="- topic/xref ">markPassed(String
+                     message)</xref>
+                </entry><entry class="- topic/entry ">Mark a keyword to be passed</entry></row><row class="- topic/row "><entry class="- topic/entry "/><entry class="- topic/entry "><xref format="html" href="https://docs.katalon.com/javadoc/com/kms/katalon/core/util/KeywordUtil.html#markWarning(java.lang.String)" scope="external" class="- topic/xref ">markWarning(String
+                     message)</xref>
+                </entry><entry class="- topic/entry ">Mark a keyword to be warning</entry></row></tbody></tgroup></table></conbody></concept>

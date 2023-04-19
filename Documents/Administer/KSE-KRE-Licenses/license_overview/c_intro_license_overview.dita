@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">License overview</title><conbody class="- topic/body  concept/conbody "><note type="note" class="- topic/note ">
+        
+        <ul class="- topic/ul "><li class="- topic/li ">Katalon Studio Enterprise (KSE) floating, KSE node-locked, and
+               Katalon Runtime Engine (KRE) node-locked licenses are being
+               deprecated and unavailable for purchase. For more information on
+               deprecating licenses, refer to <xref href="../node-locked-floating-license-sunset-plan/node-locked-floating-license-sunset-plan.dita" class="- topic/xref ">Sunsetting
+                  plan for node-locked and floating licenses</xref>.</li><li class="- topic/li ">Currently, KSE licenses are available as per-User licenses, and
+               KRE licenses are available as floating only.</li></ul>
+      </note><p class="- topic/p ">The section below provides information on the licensing model
+         for KSE and KRE.</p></conbody></concept>

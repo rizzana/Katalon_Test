@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-3711" xml:lang="en-us" class="- topic/topic concept/concept "><title class="- topic/title ">Test suite and test suite collection</title><prolog class="- topic/prolog "><author translate="no" type="creator" class="- topic/author ">Xuan Tran &lt;xuan.tran@katalon.com&gt;</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "/></metadata></prolog><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">There are two test suites in this project. To access them, in the <b class="+ topic/ph hi-d/b ">Test Explorer</b> panel, go to <b class="+ topic/ph hi-d/b ">Test Suites</b>.</p><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-SAMPLES-sample-test-suites.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">Main test suites</alt></image>
+        </p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">The test suite <b class="+ topic/ph hi-d/b ">Healthcare-tests - TS_RegressionTest</b> combines the three test cases shown above.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-SAMPLES-Test-suites-regression.png" scope="external" width="850" class="- topic/image "><alt class="- topic/alt ">Healthcare-tests - TS_RegressionTest</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">The test suite collection <b class="+ topic/ph hi-d/b ">Healthcare-tests - TS_RegressionTestCollection</b> combines two <b class="+ topic/ph hi-d/b ">Healthcare-tests - TS_RegressionTest</b> test suites with different testing environments. In this project, we run the test suites with Firefox and Chrome.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-SAMPLES-Test-suite-collection.png" scope="external" width="850" class="- topic/image "><alt class="- topic/alt ">Healthcare-tests - TS_RegressionTestCollection</alt></image>
+                </p>
+            </li></ol></conbody></concept>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_20" class="- topic/topic concept/concept "><title class="- topic/title ">Add Settings page</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Custom Keyword Plugin declares the setting page UI in
+         <b class="+ topic/ph hi-d/b ">katalon-plugin.json</b> with this sample:</p><codeblock class="+ topic/pre pr-d/codeblock ">{
+   "keywords": [],
+   "configuration": {
+      "settingId": "some id",
+      "settingPage": {
+         "name": "name",
+         "components": [
+            {
+               "key": "key1",
+               "type": "text",
+               "label": "My Label 1",
+               "defaultValue":"My default value 1"
+            },
+            {
+               "key": "key2",
+               "type": "secret",
+               "label": "My Label 2"
+            }, ...
+         ]
+      }
+   }
+}
+</codeblock><ul class="- topic/ul "><li class="- topic/li ">
+              <p class="- topic/p ">
+                <b class="+ topic/ph hi-d/b ">settingId</b>: id the setting file that stores user
+               setting properties in the setting page. There is a file will
+               generated to store user settings at location:</p>
+              <p class="- topic/p ">
+                <codeblock class="+ topic/pre pr-d/codeblock ">&lt;Project dir&gt;/settings/external/&lt;settingId&gt;.properties</codeblock>
+              </p>
+            </li><li class="- topic/li ">
+              <p class="- topic/p ">
+                <b class="+ topic/ph hi-d/b ">settingPage</b> : contains the following
+               sub-properties</p>
+              <ul class="- topic/ul "><li class="- topic/li ">
+                  <b class="+ topic/ph hi-d/b ">name</b>: Name of the setting page</li><li class="- topic/li ">
+                  <b class="+ topic/ph hi-d/b ">components</b>: list of UI components 
+                  
+                  <ul class="- topic/ul "><li class="- topic/li ">
+                      <b class="+ topic/ph hi-d/b ">key</b>: key of the component</li><li class="- topic/li ">
+                      <b class="+ topic/ph hi-d/b ">label</b>: label of the component</li><li class="- topic/li ">
+                      <b class="+ topic/ph hi-d/b ">type</b>: type of the component ('text' or
+                        'secret')</li><li class="- topic/li ">
+                      <b class="+ topic/ph hi-d/b ">defaultValue</b>: default value of the
+                        component</li></ul>
+                </li></ul>
+            </li></ul></conbody></concept>

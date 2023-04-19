@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Set up an Agent</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">Sign in to <xref format="html" href="https://testops.katalon.io/login" scope="external" class="- topic/xref ">Katalon TestOps</xref> and go to your Project.</li><li class="- topic/li ">Go to <b class="+ topic/ph hi-d/b ">Configurations</b> &gt; <b class="+ topic/ph hi-d/b ">Agent Setup</b>.</li><li class="- topic/li ">
+                <p class="- topic/p ">Select the <b class="+ topic/ph hi-d/b ">Docker Environment</b> tab.</p>
+                <p class="- topic/p ">The page appears as below.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-docker/create-agent-for-docker-environment-page-2.png" scope="external" class="- topic/image "><alt class="- topic/alt ">create docker environment page</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Fill in the required information for the <b class="+ topic/ph hi-d/b ">Configure an agent</b> and <b class="+ topic/ph hi-d/b ">Select method</b> sections.</p>
+                <note type="note" class="- topic/note ">
+                    <p class="- topic/p "/>
+                    <p class="- topic/p ">
+                        <ul class="- topic/ul "><li class="- topic/li ">
+                                <p class="- topic/p ">You then use the commands in the <b class="+ topic/ph hi-d/b ">Generate configuration</b> and <b class="+ topic/ph hi-d/b ">Start an agent</b> sections to run the Agent in your computer.</p>
+                            </li></ul>
+                    </p>
+                </note>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Leave the TestOps page open while following the instructions to start an Agent in your local machine.</p>
+            </li></ol></conbody></concept>

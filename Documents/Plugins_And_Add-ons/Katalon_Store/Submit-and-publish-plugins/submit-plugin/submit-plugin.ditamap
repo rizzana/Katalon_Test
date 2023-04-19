@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-submit-plugin" class="- map/map ">
+  <title class="- topic/title ">Submit and publish a new plugin</title>
+  <topicref href="submit-plugin.dita" class="- map/topicref "><topicref href="before_you_begin_1653308835356.4762.dita" class="- map/topicref "/>
+  <topicref href="upload_the_plugin.dita" class="- map/topicref "/>
+  <topicref href="submit_plugin_information.dita" class="- map/topicref "/>
+  <topicref href="publish_a_plugin_1653308835356.4762.dita" class="- map/topicref "/>
+</topicref>
+  </map>

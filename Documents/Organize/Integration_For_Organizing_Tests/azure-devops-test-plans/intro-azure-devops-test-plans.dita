@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Configure   Azure DevOps Test Plans integration in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">From <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> version 8.1.0 onwards, <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> can natively integrate with the Azure Test Plans
+         service of Azure DevOps (ADO). This integration helps you automatically submit test runs and results to ADO with release
+            information (release stage and release ID), execution logs,
+            reports, and images for analysis.</p><section class="- topic/section "><title class="- topic/title ">Requirements</title><p class="- topic/p "><ul class="- topic/ul "><li class="- topic/li "><ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> version 8.0.0 onwards.</li><li class="- topic/li ">An active <ph conkeyref="name-variables/kse" class="- topic/ph "/> license.</li></ul></p></section></conbody></concept>

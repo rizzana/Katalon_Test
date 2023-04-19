@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">View data-driven testing reports</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">After you set iteration names in data binding, in the <b class="+ topic/ph hi-d/b ">Test Case Table</b> and the HTML report, you can see your iteration names are tagged with the chosen variable in the following formula: <codeph class="+ topic/ph pr-d/codeph ">”Test case name”/”Iteration name” (“Elapsed time“)</codeph>.</p><ul class="- topic/ul "><li class="- topic/li ">
+                <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Test Case Table</b>:</p>
+                <p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/specify-iteration-names/test-cases-table.png" scope="external" class="- topic/image "><alt class="- topic/alt ">test case table</alt></image></p>
+                <p class="- topic/p ">To learn more about <b class="+ topic/ph hi-d/b ">Test Case Table</b> and reports, see <xref href="../../../Analyze/Reports/View_Test_Reports/View_test_reports_in_Studio/view-test-suite-report-in-Studio/intro-view-test-suite-and-test-suite-collection-reports-in-Studio.dita" class="- topic/xref ">Test Suite and Test Suite Collection Reports</xref>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In the HTML report:</p>
+                <p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/specify-iteration-names/html-report.png" scope="external" class="- topic/image "><alt class="- topic/alt ">HTML report</alt></image></p>
+                <p class="- topic/p ">To learn how to export reports to HTML and other formats, see <xref href="../../../Analyze/Reports/View_Test_Reports/View_test_reports_in_Studio/view-test-suite-report-in-Studio/export_reports_to_other_formats.dita" class="- topic/xref ">Export reports to other formats</xref>.</p>
+            </li></ul></conbody></concept>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept ">
+  <title class="- topic/title ">[Cucumber] Run Feature Folder</title>
+  <conbody class="- topic/body  concept/conbody ">
+    <ul class="- topic/ul ">
+      <li class="- topic/li ">
+        <b class="+ topic/ph hi-d/b ">Description</b>: Execute multiple feature files
+            stored in the same features folder.</li>
+      <li class="- topic/li ">
+        <b class="+ topic/ph hi-d/b ">Keyword name</b>: runFeatureFolder</li>
+      <li class="- topic/li ">
+        <b class="+ topic/ph hi-d/b ">Keyword syntax</b>:
+            <codeph class="+ topic/ph pr-d/codeph ">runFeatureFolder(folderRelativePath, flowControl)</codeph>
+      </li>
+      <li class="- topic/li ">
+        <b class="+ topic/ph hi-d/b ">Parameters</b>: 
+            
+            <ul class="- topic/ul ">
+          <li class="- topic/li ">Name: <codeph class="+ topic/ph pr-d/codeph ">folderRelativePath</codeph>
+          </li>
+          <li class="- topic/li ">Description: the folder relative path that starts from the
+                  current project location.</li>
+          <li class="- topic/li ">Parameter Type: String</li>
+          <li class="- topic/li ">Mandatory: Required</li>
+          <li class="- topic/li ">Name: <codeph class="+ topic/ph pr-d/codeph ">flowControl</codeph>
+          </li>
+          <li class="- topic/li ">Description: an instance
+                  com.kms.katalon.core.model.FailureHandling that controls the
+                  running flow.</li>
+          <li class="- topic/li ">Parameter Type: FailureHandling</li>
+          <li class="- topic/li ">Mandatory: Optional</li>
+        </ul>
+      </li>
+      <li class="- topic/li ">
+        <b class="+ topic/ph hi-d/b ">Returns</b>: an instance of
+            <codeph class="+ topic/ph pr-d/codeph ">CucumberRunnerResult</codeph> that includes the status of
+            keyword and report folder location.</li>
+      <li class="- topic/li ">
+        <p class="- topic/p ">
+          <b class="+ topic/ph hi-d/b ">Example</b>:</p>
+        
+          <codeblock class="+ topic/pre pr-d/codeblock ">CucumberKW.runFeatureFolder('Include/features/New Feature Folder.feature')
+</codeblock>
+        
+      </li>
+    </ul>
+  </conbody>
+</concept>

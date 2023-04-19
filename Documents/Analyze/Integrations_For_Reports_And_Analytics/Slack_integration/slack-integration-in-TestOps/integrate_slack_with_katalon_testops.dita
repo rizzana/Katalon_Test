@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Integrate Slack with Katalon TestOps</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Sign in to <xref format="html" href="https://testops.katalon.io/login" scope="external" class="- topic/xref ">Katalon TestOps</xref> and go to your Project.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Configurations</b> &gt; <b class="+ topic/ph hi-d/b ">Integrations</b>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Select <b class="+ topic/ph hi-d/b ">Slack</b> from the dropdown list.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Paste the URL you have copied earlier in the <b class="+ topic/ph hi-d/b ">Incoming Webhook URL</b> section, then click <b class="+ topic/ph hi-d/b ">Test Connection</b>.</p>
+                <p class="- topic/p ">If the connection is successful, you will receive a message on Slack.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-slack-integration/slack-step9-receive-slack-noti.png" scope="external" class="- topic/image "><alt class="- topic/alt ">slack notification of successful integration</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Save</b>.</p>
+            </li></ol><p class="- topic/p ">You have enabled Slack integration on Katalon TestOps.</p><p class="- topic/p ">Now every time you run a test on Katalon TestOps, you and your members will receive a Slack message on the Test Run and its results.</p><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/slack-integration/kt_slack_test_run.png" scope="external" class="- topic/image "><alt class="- topic/alt ">slack message on test run</alt></image>
+        </p></conbody></concept>

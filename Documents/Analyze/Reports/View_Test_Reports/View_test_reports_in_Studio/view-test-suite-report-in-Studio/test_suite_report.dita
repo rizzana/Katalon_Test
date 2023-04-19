@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Test suite report</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">You can view reports directly inside each test suite page.</p><p class="- topic/p ">After executing a test suite, to see the test suite report, go to the <b class="+ topic/ph hi-d/b ">Result</b> tab.</p><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-suite-report/KS-835-REPORTS-Test-suite-results-tab.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Results tab</alt></image>
+        </p><table class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Component</entry><entry class="- topic/entry ">Description</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">Test cases table</entry><entry class="- topic/entry ">List of executed test cases.</entry></row><row class="- topic/row "><entry class="- topic/entry ">Summary tab</entry><entry class="- topic/entry ">Information of the executed environment and summary of the execution result.</entry></row><row class="- topic/row "><entry class="- topic/entry ">Execution Settings tab</entry><entry class="- topic/entry ">
+                            <p class="- topic/p ">Settings of execution browsers/devices. For example:</p>
+                            <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-suite-report/KS-835-REPORTS-Execution-settings.png" scope="external" class="- topic/image "/>
+                            </p>
+                        </entry></row><row class="- topic/row "><entry class="- topic/entry ">Execution Environment tab</entry><entry class="- topic/entry ">
+                            <p class="- topic/p ">Other information about the executed system. For example:</p>
+                            <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-suite-report/KS-835-REPORTS-Execution-environment.png" scope="external" class="- topic/image "/>
+                            </p>
+                        </entry></row></tbody></tgroup></table></conbody></concept>

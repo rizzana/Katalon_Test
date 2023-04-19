@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"id-d48972e24151":{"topics":[{"title":"License Usage Visualization","href":"Documents\/Administer\/Administrative_Tasks\/Product_Utilization\/license-utilization-dashboard\/license_usage_visualization.html","attributes":{"data-id":"id_1"},"menu":{"hasChildren":false},"tocID":"id_1-d48972e24159","next":"id_1-d48972e24159"}]}};

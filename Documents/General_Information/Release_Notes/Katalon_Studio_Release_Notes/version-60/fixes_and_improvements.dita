@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_16" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Fixes and Improvements</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">Fixed a bug where Kobiton devices are duplicated.</li>
+          <li class="- topic/li ">Fixed a bug where Katalon Studio cannot be opened if a custom
+            keyword plugin contains errors.</li>
+          <li class="- topic/li ">Fixed a bug where HAR files are not generated with the correct
+            name.</li>
+          <li class="- topic/li ">Fixed a bug where Safari webdriver install requirements pop-up
+            shows up before every test.</li>
+          <li class="- topic/li ">Fixed a bug where test execution crashes when failing to get
+            recent projects.</li>
+          <li class="- topic/li ">Fixed a bug where executeJavaScript keyword fails when there
+            are 3 arguments.</li>
+          <li class="- topic/li ">Fixed a bug in Jira Plugin where Default JIRA Issue TypeType
+            field in integration setting contains duplicated values.</li>
+          <li class="- topic/li ">Added some small UI improvements when selecting devices and app
+            files.</li>
+          <li class="- topic/li ">[BETA] Added the capability to import Test Objects from Postman
+            collection JSON file. Importable fields include Postman fields in
+            Params, Headers, Body.</li>
+          <li class="- topic/li ">Added a scrollbar in dropdown when selecting execution
+            profiles.</li>
+          <li class="- topic/li ">Added the capability to display all user folders/files in Tests
+            Explorer.</li>
+          <li class="- topic/li ">Added the capability to allow configuration of plugin
+            installlation location in Preferences -&gt; Katalon -&gt;
+            Plugins.</li>
+          <li class="- topic/li ">Added the capability to use variables in XPaths when finding
+            test objects.</li>
+        </ul>
+      </conbody>
+    </concept>

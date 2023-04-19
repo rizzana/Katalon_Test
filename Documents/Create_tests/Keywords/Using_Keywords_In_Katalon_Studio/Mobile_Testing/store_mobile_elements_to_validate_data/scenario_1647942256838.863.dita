@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Scenario</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">We want to select a Radio button from a List. In order to do so,
+         we need to capture all the button elements in a collection and pick
+         the desired Radio button.</p>
+    </conbody>
+  </concept>

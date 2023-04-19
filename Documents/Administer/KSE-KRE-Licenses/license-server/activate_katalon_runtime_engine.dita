@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_9" class="- topic/topic concept/concept "><title class="- topic/title ">Activate Katalon Runtime Engine</title><conbody class="- topic/body  concept/conbody "><note type="important" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">You have downloaded Katalon Runtime Engine.</li></ul>
+        </note><p class="- topic/p ">To activate your Katalon Runtime Engine license with a License Server, do as follows:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Navigate to where the Katalon Runtime Engine application is located. Right-click on the application and choose <b class="+ topic/ph hi-d/b ">Show Package Contents</b>.</p>
+                <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Contents &gt; Eclipse &gt; jre &gt; katalonc.ini</b>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">katalonc.ini</b> file, add this parameter: <codeph class="+ topic/ph pr-d/codeph ">-DtestOps.serverUrl=&lt;license server URL&gt;</codeph>
+                </p>
+                <p class="- topic/p ">You only need to add this parameter once, then your Katalon Runtime Engine license is activated.</p>
+            </li></ol></conbody></concept>

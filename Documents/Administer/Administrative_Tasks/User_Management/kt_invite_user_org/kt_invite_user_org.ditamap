@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-kt_invite_user_org" class="- map/map ">
+  <title class="- topic/title ">Manage Users</title>
+  <topicref href="kt_invite_user_org.dita" class="- map/topicref "><topicref href="invite_users_to_join_an_organization.dita" class="- map/topicref "/>
+  <topicref href="manage_users.dita" class="- map/topicref ">
+    <topicref href="view_the_members_list.dita" class="- map/topicref "/>
+    <topicref href="view_pending_invitations.dita" class="- map/topicref "/>
+    <topicref href="view_the_removed_user_list.dita" class="- map/topicref "/>
+    <topicref href="search_users.dita" class="- map/topicref "/>
+    <topicref href="revoke_invitations.dita" class="- map/topicref "/>
+    <topicref href="remove_existing_users.dita" class="- map/topicref "/>
+    <topicref href="change_user_role.dita" class="- map/topicref "/>
+    <topicref href="export_user_list.dita" class="- map/topicref "/>
+  </topicref>
+</topicref>
+  </map>

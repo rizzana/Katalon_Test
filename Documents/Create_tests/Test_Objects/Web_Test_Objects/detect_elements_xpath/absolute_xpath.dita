@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Absolute XPath</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">XML documents are treated as trees of nodes, in which the
+         topmost element of the tree is the root element.</p>
+        <p class="- topic/p ">Absolute XPath is the path starting from the root. An absolute
+         XPath starts with HTML and forward-slash (/).</p>
+        <p class="- topic/p ">For example:
+         <codeph class="+ topic/ph pr-d/codeph ">/html/body/div[1]/div[1]/div/div[3]/div[2]/div</codeph>
+        </p>
+        <p class="- topic/p ">In Katalon Studio, the XPath capture strategy for absolute XPath
+         is <codeph class="+ topic/ph pr-d/codeph ">xpath:position</codeph>. Using absolute XPath is a simple
+         way to solve the problem when dealing with dynamic elements.
+         However, if something changes in the structure of your web page,
+         this XPath might fail. Therefore, absolute XPath is not recommended
+         for detecting dynamic elements.</p>
+      </conbody>
+    </concept>

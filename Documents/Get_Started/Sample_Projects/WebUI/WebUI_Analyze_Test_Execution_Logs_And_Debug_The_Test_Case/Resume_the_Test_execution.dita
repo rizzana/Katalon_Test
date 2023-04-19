@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-3960" xml:lang="en-us" class="- topic/topic concept/concept "><title class="- topic/title ">Resume the test execution</title><prolog class="- topic/prolog "><author translate="no" type="creator" class="- topic/author ">Xuan Tran &lt;xuan.tran@katalon.com&gt;</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "/></metadata></prolog><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">After adding the new XPath to the test object, we use the <b class="+ topic/ph hi-d/b ">Run from here</b> Debug utility to resume test execution without re-executing the entire test case.</p><p class="- topic/p ">Follow these steps to resume the test execution:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Resume executing from the failed step. Open the test case, right-click on the failed step, and select <b class="+ topic/ph hi-d/b ">Run from here</b> &gt; <i class="+ topic/ph hi-d/i ">The running browser session</i>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-analyze-execution-logs-and-debug/KS-Run-from-here.png" scope="external" width="750" class="- topic/image "><alt class="- topic/alt ">Error Script</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">After the test execution is completed, verify the results in the Log Viewer.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-analyze-execution-logs-and-debug/KS-Successful-Test-Execution.png" scope="external" width="750" class="- topic/image "><alt class="- topic/alt ">Error Script</alt></image>
+                </p>
+            </li></ol><p class="- topic/p "><b class="+ topic/ph hi-d/b ">See also</b>: <xref href="../../../../Analyze/Reports/View_Test_Reports/View_test_reports_in_Studio/working-with-execution-log-in-Studio/working-with-execution-log-in-Studio.dita" class="- topic/xref ">View and Customize Execution Log.</xref></p></conbody></concept>

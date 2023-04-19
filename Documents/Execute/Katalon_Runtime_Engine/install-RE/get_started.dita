@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Get Started</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">To execute tests, follow the following steps:</p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">Generate a console mode command. You can generate command
+            directly from the command generator.</li>
+        <li class="- topic/li ">Copy and paste the generated command in Terminal (macOS, and
+            Linux)/ Command Prompt (Windows).</li>
+      </ul>
+      <p class="- topic/p ">For example:</p>
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">./katalonc -noSplash  -runMode=console -projectPath="/home/demokatalon/Katalon Studio/WebTesting/WebTesting.prj" -retry=0 -testSuitePath="Test Suites/TS_RegressionTest" -browserType="Chrome (headless)"
+</codeblock>
+      
+    </conbody>
+  </concept>

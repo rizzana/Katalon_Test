@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Handling Drag and Drop in Mobile App in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">In this tutorial, we will see how to handle drag and drop action
+         in a mobile application using Katalon Studio. The source code can
+         be downloaded <xref format="html" href="https://github.com/katalon-studio/katalon-mobile-automation/blob/master/Data%20Files/Drag%20and%20Drop.apk" scope="external" class="- topic/xref ">here</xref>.</p></conbody></concept>

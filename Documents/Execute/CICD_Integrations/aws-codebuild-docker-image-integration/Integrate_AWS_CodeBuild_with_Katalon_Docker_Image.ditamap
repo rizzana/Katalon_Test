@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-2230" class="- map/map "><title class="- topic/title ">AWS CodeBuild Integration</title><topicref href="c_intro_integrate_AWS_codebuild_Docker.dita" class="- map/topicref "><topicref href="Create_the_buildspec_file.dita" class="- map/topicref "/><topicref href="t_integrate_AWS_codeBuild_Docker.dita" class="- map/topicref "/></topicref></map>

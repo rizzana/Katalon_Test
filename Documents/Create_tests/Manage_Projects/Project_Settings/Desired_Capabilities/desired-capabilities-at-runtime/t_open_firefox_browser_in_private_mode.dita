@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Open Firefox browser in private mode</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">The following example demonstrates how to configure the desired capabilities at runtime to open a test case in private mode in Firefox.</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Open the test case in script mode.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Pass the <codeph class="+ topic/ph pr-d/codeph ">-private</codeph> argument to the sample code as follows. Then place the code before the test script.</p>
+                <codeblock class="+ topic/pre pr-d/codeblock ">import com.kms.katalon.core.configuration.RunConfiguration
+Map firefoxOptions =[args:"-private"]
+RunConfiguration.setWebDriverPreferencesProperty('moz:firefoxOptions', firefoxOptions)
+</codeblock>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Continue writing the script or use Web Spy/Record Utility to complete your test case.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-override-in-run-time/KS-DC-firefox-private-mode-runtime.png" scope="external" class="- topic/image "><alt class="- topic/alt ">DC at test script</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Run the test with Firefox.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-override-in-run-time/KS-DC-run-with-firefox.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Run Firefox</alt></image>
+                </p>
+                <note type="note" class="- topic/note ">
+                    <ul class="- topic/ul "><li class="- topic/li ">
+                            <p class="- topic/p ">Make sure to update the browser by clicking <b class="+ topic/ph hi-d/b ">Tools</b> &gt; <b class="+ topic/ph hi-d/b ">Update WebDrivers &gt; Choose browser</b>.</p>
+                        </li></ul>
+                </note>
+                <p class="- topic/p ">The test successfully opens a Firefox browser in private mode.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/desired-capabilities-override-in-run-time/KS-DC-Open-firefox-private.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Open Firefox in private mode</alt></image>
+                </p>
+            </li></ol></conbody></concept>

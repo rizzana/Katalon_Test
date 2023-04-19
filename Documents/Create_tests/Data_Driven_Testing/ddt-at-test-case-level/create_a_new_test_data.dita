@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Create a new test data</title>
+      <conbody class="- topic/body  concept/conbody ">
+
+        <p class="- topic/p ">To create a new data file, go to <b class="+ topic/ph hi-d/b ">File &gt; New &gt; Test
+            Data</b>. Katalon allows you to use external or internal data
+         sources for test execution. To learn more about creating new data
+         files, you can refer to this document: <xref href="../manage-test-data/create_an_excel_test_data.dita" class="- topic/xref ">Manage
+            Test Data</xref>.</p>
+      </conbody>
+    </concept>

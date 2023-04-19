@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Work with imported WSDLs</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">A WSDL may contain multiple services. For each service, Katalon Studio:</p><ul class="- topic/ul "><li class="- topic/li ">
+                <p class="- topic/p ">Creates a SOAP request with a specific service function.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Parses its content from the specified WSDL, into their corresponding fields in the request object, such as Service Endpoint, SOAPAction, and Request message.</p>
+            </li></ul><p class="- topic/p ">For example, Katalon Studio creates multiple request objects with <codeph class="+ topic/ph pr-d/codeph ">http://www.dneonline.com/calculator.asmx?WSDL</codeph>.</p><p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/import-soap-requests-from-wsdl/parsed-objects.png" scope="external" class="- topic/image "><alt class="- topic/alt ">parsed objects</alt></image></p><p class="- topic/p ">From version 7.5.0, you can manually change the content of these fields. When you override any fields of the imported request object with new values, you need to <i class="+ topic/ph hi-d/i ">save</i> your modification(s) for it to take effect.</p><ul class="- topic/ul "><li class="- topic/li ">
+                <p class="- topic/p "><b class="+ topic/ph hi-d/b ">Service Endpoint</b>: This tab stores the service endpoint parsed from the WSDL file. You can specify another endpoint for the interface if you prefer. The request object receives any value given in this field.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p "><b class="+ topic/ph hi-d/b ">SOAPAction</b>: The SOAPAction is parsed in the HTTP Header of the request if the request method is SOAP.</p>
+            </li></ul></conbody></concept>

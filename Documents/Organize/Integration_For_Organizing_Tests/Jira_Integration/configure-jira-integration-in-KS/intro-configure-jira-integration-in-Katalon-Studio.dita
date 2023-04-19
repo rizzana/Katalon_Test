@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Configure Jira integration in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">This article shows you how to configure Jira integration in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/>.</p><section class="- topic/section "><title class="- topic/title ">Requirements</title><p class="- topic/p "><ul class="- topic/ul "><li class="- topic/li ">An active <ph conkeyref="name-variables/kse" class="- topic/ph "/> license.</li><li class="- topic/li ">Install the <uicontrol class="+ topic/ph ui-d/uicontrol ">Jira Integration</uicontrol> plugin for <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/>. You can find the plugin here: <xref format="html" href="https://store.katalon.com/product/3/Jira-Integration" scope="external" class="- topic/xref ">Jira
+                  Integration</xref>.</li><li class="- topic/li ">In Jira, install this plugin from the
+               Atlassian Marketplace website: <xref format="html" href="https://marketplace.atlassian.com/apps/1217501/katalon-bdd-test-automation-for-jira" scope="external" class="- topic/xref ">Katalon
+                  Studio and TestOps integration</xref>. 
+               
+                         </li></ul></p></section></conbody></concept>

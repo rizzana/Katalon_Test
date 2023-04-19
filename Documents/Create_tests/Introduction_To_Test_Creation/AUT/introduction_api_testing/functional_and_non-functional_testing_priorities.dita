@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_16" class="- topic/topic concept/concept "><title class="- topic/title ">Functional and non-functional testing priorities</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">API is an essential part of modern web applications, its
+         non-functional aspects such as performance, security, connectivity
+         will affect the system heavily. The behavior makes traditional
+         testing mindset, which focuses on functional testing first, not
+         suitable anymore. Functional and non-functional testing should be
+         performed at the same time with equal priority.</p></conbody></concept>

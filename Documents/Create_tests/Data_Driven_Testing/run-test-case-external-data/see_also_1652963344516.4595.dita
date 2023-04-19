@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">See also</title><conbody class="- topic/body  concept/conbody "><ul class="- topic/ul "><li class="- topic/li "><xref href="../combine-multiple-data-sources/combine-multiple-data-sources.dita" class="- topic/xref ">Combine
+               multiple data sources</xref>
+        </li><li class="- topic/li "><p class="- topic/p ">Katalon Academy course: <xref format="html" href="https://academy.katalon.com/courses/data-driven-testing/?utm_source=kat_docs&amp;utm_medium=tc_external_data" scope="external" class="- topic/xref ">Katalon Studio: How to Apply Data-Driven Testing</xref></p></li></ul></conbody></concept>

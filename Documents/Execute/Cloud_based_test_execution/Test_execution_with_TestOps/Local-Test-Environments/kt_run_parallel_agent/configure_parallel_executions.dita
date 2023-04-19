@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Configure parallel executions</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Create two Local Test Environments. See: <xref href="../agents/agents.dita" class="- topic/xref ">Create a Local Test Environment with an Agent</xref>.</p>
+                <p class="- topic/p ">You then start two Agents to prepare for Test Suites execution.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_run_parallel_agent/kt_start_two_agent.png" scope="external" class="- topic/image "><alt class="- topic/alt ">start 2 agents</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Update each Agent's Threshold to <b class="+ topic/ph hi-d/b ">2</b>. See <xref href="../load-balancing-agents/configure_an_agent_threshold.dita" class="- topic/xref ">Configure an Agent's Threshold</xref>.</p>
+                <p class="- topic/p ">The assigned sessions for each Agent is now <b class="+ topic/ph hi-d/b ">2</b>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Create a Script Repository. See: <xref href="../../../../../Organize/upload-tests-via-git-repo/intro-git-test-project.dita" class="- topic/xref ">Upload Test Scripts from a Git Repository</xref>.</p>
+                <p class="- topic/p ">You can now see the newly-created Script Repository appear in the <b class="+ topic/ph hi-d/b ">Script Repositories</b> page.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click on the Script Repository you have created.</p>
+                <p class="- topic/p ">The Script Repository page appears. In the <b class="+ topic/ph hi-d/b ">Test Suite Collection</b> section, you will see a <b class="+ topic/ph hi-d/b ">Play</b> button.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click on the <b class="+ topic/ph hi-d/b ">Play</b> button.</p>
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Schedule Test Run</b> dialog appears.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Fill in the required information. See: <xref href="../../../../Schedule_test_executions/Schedule-test-runs-in-testops/schedule_test_runs.dita" class="- topic/xref ">Schedule Test Runs</xref>.</p>
+                <note type="note" class="- topic/note ">
+                    <ul class="- topic/ul "><li class="- topic/li ">In the <b class="+ topic/ph hi-d/b ">Test Environments</b> section, select the Agents you have configured earlier.</li><li class="- topic/li ">In the <b class="+ topic/ph hi-d/b ">Advanced settings</b> section, go to <b class="+ topic/ph hi-d/b ">Execution Mode</b> and choose <b class="+ topic/ph hi-d/b ">Parallel</b>. See: <xref href="../../../../Schedule_test_executions/Schedule-test-runs-in-testops/advanced_settings.dita" class="- topic/xref ">Advanced settings</xref>.</li></ul>
+                </note>
+            </li></ol><p class="- topic/p ">You have created a new Test Run List for parallel executions of Test Suites.</p></conbody></concept>

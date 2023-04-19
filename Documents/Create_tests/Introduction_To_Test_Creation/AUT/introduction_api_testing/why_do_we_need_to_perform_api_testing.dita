@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Why do we need to perform API testing?</title>
+    <conbody class="- topic/body  concept/conbody ">
+
+      <p class="- topic/p ">The figure below shows three different layers of testing called
+         <xref format="html" href="https://martinfowler.com/articles/practical-test-pyramid.html" scope="external" class="- topic/xref ">the
+            test pyramid</xref> initially coined by Mike Cohn in his book
+         Succeeding with Agile. It has layers representing different types
+         of testing. Despite its being overly simplistic, it offers us a
+         general rule of thumb: it suggests how much testing we should focus
+         on at each layer. As such, API and services tests in the second
+         layer is an important testing activity that we should focus on.</p>
+      <p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/introduction_api_testing/Asset-10402x.png" scope="external" class="- topic/image ">
+          <alt class="- topic/alt ">Why we need perform API testing</alt>
+        </image>
+      </p>
+      <p class="- topic/p ">Unit/component tests: This lowest level of testing brings the
+         highest value and ROI. It is mainly performed by developers. The
+         unit/component tests can attain between 70% and 80% of code
+         coverage and require as much effort.</p>
+      <p class="- topic/p ">Business rules/Functional tests: This level of testing focuses
+         on business rules of the application under test. The tests are
+         designed to test against user stories to ensure that all
+         implemented functions are working as expected. In Web and mobile
+         applications, data shown in the user interface is often returned
+         from servers via API/services. So API testing is performed to
+         ensure the accuracy of API/services. Testing at this level may need
+         about 20% of the total testing effort.</p>
+      <p class="- topic/p ">Workflow Tests (through the UI): functional UI testing is
+         performed via the UI of the application to ensure that its features
+         are built as expected. Due to the fact that automated functional UI
+         testing is brittle, and any changes in the UI can break the tests,
+         test automation teams should focus less on this level of
+         testing.</p>
+      <p class="- topic/p ">API testing yields the highest ROI compared to all other testing
+         type performed by testers as Unit test performed by developers
+         mostly. It also offers a number of advantages over other kinds of
+         testing:</p>
+    </conbody>
+  </concept>

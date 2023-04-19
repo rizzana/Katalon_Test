@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-execution-release-cli" class="- map/map "><title class="- topic/title ">Link Execution with TestOps Release using CLI</title><topicref href="intro-link-execution-to-TestOps-release-via-cli.dita" class="- map/topicref "><topicref href="create_a_new_release_in_katalon_testops.dita" class="- map/topicref "/><topicref href="select_a_testops_release_to_generate_command.dita" class="- map/topicref "/><topicref href="view_linked_execution_and_release_in_katalon_testops.dita" class="- map/topicref "/></topicref></map>

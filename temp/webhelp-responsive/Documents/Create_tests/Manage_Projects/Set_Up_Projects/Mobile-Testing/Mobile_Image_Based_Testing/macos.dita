@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Mobile-Testing/Mobile_Image_Based_Testing?><?workdir-uri file:/Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Mobile-Testing/Mobile_Image_Based_Testing/?><?path2project ../../../../../../?><?path2project-uri ../../../../../../?><?path2rootmap-uri ../../../../../../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="id_3" class="- topic/topic concept/concept " ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Mobile-Testing/Mobile_Image_Based_Testing/macos.dita" xtrc="concept:1;3:59" specializations="@props/deliveryTarget">
+      <title class="- topic/title " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Mobile-Testing/Mobile_Image_Based_Testing/macos.dita" xtrc="title:1;4:37">macOS</title>
+      <conbody class="- topic/body  concept/conbody " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Mobile-Testing/Mobile_Image_Based_Testing/macos.dita" xtrc="conbody:1;5:55">
+        <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Mobile-Testing/Mobile_Image_Based_Testing/macos.dita" xtrc="p:1;6:31">Run the following commands</p>
+        
+          <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Mobile-Testing/Mobile_Image_Based_Testing/macos.dita" xtrc="codeblock:1;8:58">   brew update
+    brew install cmake
+    npm install -g appium
+    npm install -g opencv4nodejs
+</codeblock>
+        
+        <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Mobile-Testing/Mobile_Image_Based_Testing/macos.dita" xtrc="p:2;14:31">
+          <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Mobile-Testing/Mobile_Image_Based_Testing/macos.dita" xtrc="b:1;15:41">Troubleshoot</b>:</p>
+        <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Mobile-Testing/Mobile_Image_Based_Testing/macos.dita" xtrc="p:3;16:31">You may encounter this error:</p>
+        
+          <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Mobile-Testing/Mobile_Image_Based_Testing/macos.dita" xtrc="codeblock:2;18:58">make: *** [all] Error 2
+ERR! child process exited with code 2 (for more info, set '--loglevel silly') 
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! opencv-build@0.1.9 install: `node ./install.js`
+npm ERR! Exit status 1
+</codeblock>
+        
+        <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Mobile-Testing/Mobile_Image_Based_Testing/macos.dita" xtrc="p:4;26:31">That means the auto-build may fail to install opencv4nodejs,
+         please try the following commands:</p>
+        
+          <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Mobile-Testing/Mobile_Image_Based_Testing/macos.dita" xtrc="codeblock:3;29:58">   brew unlink tesseract
+    npm install -g opencv4nodejs
+    brew link tesseract
+</codeblock>
+        
+      </conbody>
+    <related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="ditamap-8764" xtrc="topicref:4;7:58" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Mobile-Testing/Mobile_Image_Based_Testing/mobile-image-based-testing.ditamap"><link class="- topic/link " format="dita" href="../../../../../../Documents/Create_tests/Manage_Projects/Set_Up_Projects/Mobile-Testing/Mobile_Image_Based_Testing/set-up.dita" mapclass="- map/topicref " role="parent" scope="local" type="concept" xtrc="topicref:2;5:129" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Mobile-Testing/Mobile_Image_Based_Testing/mobile-image-based-testing.ditamap"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Set-up</linktext></link></linkpool></related-links></concept>

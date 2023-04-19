@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept "><title class="- topic/title ">Run the Jenkins job</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Go to the Jenkins project page (e.g. at <codeph class="+ topic/ph pr-d/codeph ">http://localhost:8060/jenkins/job/test/</codeph>
+         if its name is “test”), click <b class="+ topic/ph hi-d/b ">Build
+            Now</b>.</p><p class="- topic/p ">After it is complete, you can find the report in the <i class="+ topic/ph hi-d/i ">Last
+            Successful Artifacts</i> section.</p><note type="note" class="- topic/note ">
+        <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "><xref format="html" href="https://www.youtube.com/watch?v=AQKjz3txrZ4" scope="external" class="- topic/xref ">Katalon
+               Studio sample test execution</xref>
+        </p></li></ul>
+      </note></conbody></concept>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Known Limitation</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">Katalon Studio currently doesn’t support <xref format="html" href="http://appium.io/docs/en/commands/element/find-elements/index.html#selector-strategies" scope="external" class="- topic/xref ">Android
+            Data Matcher</xref> since Appium Java Client 7.1.0 doesn’t
+         support Android Data Matcher.</p>
+      <p class="- topic/p ">See also:</p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">
+          <xref href="../Manage_Mobile_Test_Objects/manage-mobile-test-object.dita" class="- topic/xref ">Create
+               and Manage Mobile Test Objects</xref>
+        </li>
+        <li class="- topic/li ">
+          <xref href="../Parameterize_Mobile_Test_Object_Properties/parameterize-mobile-test-object-properties.dita" class="- topic/xref ">Parameterize
+               Mobile Test Object</xref>
+        </li>
+      </ul>
+    </conbody>
+  </concept>

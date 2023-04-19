@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_12" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">In Script view</title>
+      <conbody class="- topic/body  concept/conbody ">
+
+        <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Script</b> view of test cases allows you
+         to programmatically define and handle exceptions using Groovy or
+         Java language. For more details about exception handling in Groovy,
+         refer to this Groovy documentation: <xref format="html" href="http://groovy-lang.org/semantics.html#_try_catch_finally" scope="external" class="- topic/xref ">Try
+            - Catch - Finally</xref>.</p>
+        <p class="- topic/p ">For example:</p>
+        
+          <codeblock class="+ topic/pre pr-d/codeblock ">   try {
+        WebUI.openBrowser('')
+
+        WebUI.navigateToUrl('katalon.com')
+
+        if (WebUI.getText(findTestObject('Object Repository/txt_singin')).length() &lt; 0) {
+            throw new com.kms.katalon.core.exception.StepFailedException('Value required')
+        }
+    }
+    catch (StepErrorException e) {
+        this.println(e)
+    } 
+    catch (Exception e) {
+        this.println("General issue occurs.")
+    } 
+    finally { 
+        this.println("Navigate to a page.")
+    }
+</codeblock>
+        
+      </conbody>
+    </concept>

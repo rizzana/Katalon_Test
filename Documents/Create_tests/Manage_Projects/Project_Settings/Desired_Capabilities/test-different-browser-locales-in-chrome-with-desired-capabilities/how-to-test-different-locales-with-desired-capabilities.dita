@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Test different browser locales in Chrome with Desired Capabilities in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Chrome sets a default UI language with the first Chrome window
+         that opens. In other words, if you alter browser locales, for
+         example, with command line argument <codeph class="+ topic/ph pr-d/codeph ">chrome.exe--lang=de</codeph>  to start Chrome in German, the Chrome driver still
+         defines the default language from the Chrome browser.</p><p class="- topic/p ">To test different browser locales, you can instead configure
+         Desired Capabilities. You can learn about this here: <xref href="../introduction-to-desired-capabilities/introduction-to-desired-capabilities.dita" class="- topic/xref ">Desired
+            Capabilities</xref>
+      </p></conbody></concept>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_31" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Fixes and Improvements</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">Fixed an issue where REST WS Object - URL field automatically
+            added question mark right after saving</li>
+          <li class="- topic/li ">Fixed an issue where recorder function is not working with
+            Internet Explorer in Katalon Studio version 5.10.1</li>
+          <li class="- topic/li ">Fixed an issue where script view for Profile variables is
+            empty</li>
+          <li class="- topic/li ">Provide more details in log error messages</li>
+          <li class="- topic/li ">Fixed an issue where users can not set proxy settings to
+            selenium grid for accessing applications behind the firewall</li>
+          <li class="- topic/li ">Fixed overriding Global Variable for Test Suite Collection
+            issue</li>
+          <li class="- topic/li ">Fixed an issue where Test Suite Collection cannot be executed
+            in CMD mode</li>
+        </ul>
+      </conbody>
+    </concept>

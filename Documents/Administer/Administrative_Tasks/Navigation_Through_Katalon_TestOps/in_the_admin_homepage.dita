@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept "><title class="- topic/title ">In the Admin homepage</title><conbody class="- topic/body  concept/conbody "><note type="note" class="- topic/note ">
+        
+        <p class="- topic/p "/><p class="- topic/p "><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Only Owner, Admin, and Billing Manager can access the Admin
+            homepage.</p></li></ul></p>
+      </note><p class="- topic/p ">To navigate to the Admin homepage:</p><ol class="- topic/ol "><li class="- topic/li ">
+          <p class="- topic/p ">On the top right corner of a TestOps page, click on the
+               <i class="+ topic/ph hi-d/i ">Settings</i> icon. In the displayed <b class="+ topic/ph hi-d/b ">TestOps
+                  Admin</b> section, navigate to one of the TestOps Admin
+               Console pages.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-navigation-doc/TO-TestOps-Admin-Pages.png" scope="external" width="400" class="- topic/image "><alt class="- topic/alt ">TestOps Admin Console pages</alt></image>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">From the Admin Console page, on the top left corner, click on
+               the TestOps icon. You will be navigated to the Admin homepage.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-navigation-doc/TO-TestOps-logo.png" scope="external" width="50" class="- topic/image "><alt class="- topic/alt ">TestOps icon</alt></image>
+          </p>
+        </li></ol><p class="- topic/p ">Navigation in the Admin homepage is different depending on your
+         role in the current organization.</p></conbody></concept>

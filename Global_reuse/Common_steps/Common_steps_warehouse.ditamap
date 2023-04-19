@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-5101" class="- map/map "><title class="- topic/title ">Common steps warehouse</title><topicref keys="ks-common-steps" href="Katalon_Studio_-_Common_steps_1.dita" class="- map/topicref "/><topicref keys="kt-common-steps" href="Katalon_TestOps_-_Common_steps1.dita" class="- map/topicref "/><topicref keys="kr-common-steps" href="Katalon_Recorder_-_Common_steps.dita" class="- map/topicref "/><topicref keys="tc-common-steps" href="Katalon_TestCloud_-_Common_steps1.dita" class="- map/topicref "/><topicref href="KatOne_Admin_-_common_steps.dita" class="- map/topicref "/></map>

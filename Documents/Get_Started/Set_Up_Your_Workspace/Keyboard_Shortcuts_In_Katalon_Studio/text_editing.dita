@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Text Editing</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <table class="- topic/table ">
+          <tgroup cols="2" class="- topic/tgroup ">
+            <thead class="- topic/thead ">
+              <row class="- topic/row ">
+                <entry class="- topic/entry ">Shortcut</entry>
+                <entry class="- topic/entry ">Action</entry>
+              </row>
+            </thead>
+            <tbody class="- topic/tbody ">
+              <row class="- topic/row ">
+                <entry class="- topic/entry ">
+                  <userinput class="+ topic/ph sw-d/userinput ">Ctrl</userinput>+<userinput class="+ topic/ph sw-d/userinput ">C</userinput>/<userinput class="+ topic/ph sw-d/userinput ">X</userinput>/<userinput class="+ topic/ph sw-d/userinput ">V</userinput>
+                </entry>
+                <entry class="- topic/entry ">Cut / copy / paste.</entry>
+              </row>
+              <row class="- topic/row ">
+                <entry class="- topic/entry ">
+                  <userinput class="+ topic/ph sw-d/userinput ">Ctrl</userinput>+<userinput class="+ topic/ph sw-d/userinput ">Z</userinput>
+                </entry>
+                <entry class="- topic/entry ">Undo the last action.</entry>
+              </row>
+              <row class="- topic/row ">
+                <entry class="- topic/entry ">
+                  <userinput class="+ topic/ph sw-d/userinput ">Ctrl</userinput>+<userinput class="+ topic/ph sw-d/userinput ">Y</userinput>
+                </entry>
+                <entry class="- topic/entry ">Reverse the previous undo.</entry>
+              </row>
+              <row class="- topic/row ">
+                <entry class="- topic/entry ">
+                  <userinput class="+ topic/ph sw-d/userinput ">Ctrl</userinput>+<userinput class="+ topic/ph sw-d/userinput ">D</userinput>
+                </entry>
+                <entry class="- topic/entry ">Delete the current line.</entry>
+              </row>
+              <row class="- topic/row ">
+                <entry class="- topic/entry ">
+                  <userinput class="+ topic/ph sw-d/userinput ">Ctrl</userinput>+<userinput class="+ topic/ph sw-d/userinput ">Delete</userinput>
+                </entry>
+                <entry class="- topic/entry ">Delete the next word.</entry>
+              </row>
+              <row class="- topic/row ">
+                <entry class="- topic/entry ">
+                  <userinput class="+ topic/ph sw-d/userinput ">Ctrl</userinput>+<userinput class="+ topic/ph sw-d/userinput ">Backspace</userinput>
+                </entry>
+                <entry class="- topic/entry ">Delete the previous word.</entry>
+              </row>
+              <row class="- topic/row ">
+                <entry class="- topic/entry ">
+                  <userinput class="+ topic/ph sw-d/userinput ">Shift</userinput>+<userinput class="+ topic/ph sw-d/userinput ">Enter</userinput>
+                </entry>
+                <entry class="- topic/entry ">Enter one line below current line.</entry>
+              </row>
+              <row class="- topic/row ">
+                <entry class="- topic/entry ">
+                  <userinput class="+ topic/ph sw-d/userinput ">Shift</userinput>+<userinput class="+ topic/ph sw-d/userinput ">Ctrl</userinput>+<userinput class="+ topic/ph sw-d/userinput ">Enter</userinput>
+                </entry>
+                <entry class="- topic/entry ">Enter one line above current line.</entry>
+              </row>
+              <row class="- topic/row ">
+                <entry class="- topic/entry ">
+                  <userinput class="+ topic/ph sw-d/userinput ">Shift</userinput>+<userinput class="+ topic/ph sw-d/userinput ">Ctrl</userinput>+<userinput class="+ topic/ph sw-d/userinput ">Y</userinput>
+                </entry>
+                <entry class="- topic/entry ">Change the selected text to lower case.</entry>
+              </row>
+              <row class="- topic/row ">
+                <entry class="- topic/entry ">
+                  <userinput class="+ topic/ph sw-d/userinput ">Shift</userinput>+<userinput class="+ topic/ph sw-d/userinput ">Ctrl</userinput>+<userinput class="+ topic/ph sw-d/userinput ">X</userinput>
+                </entry>
+                <entry class="- topic/entry ">Change the selected text to upper case.</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </conbody>
+    </concept>

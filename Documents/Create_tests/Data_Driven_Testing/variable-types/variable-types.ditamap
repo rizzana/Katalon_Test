@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-variable-types" class="- map/map ">
+  <title class="- topic/title ">Types of Variables</title>
+  <topicref href="variable-types.dita" class="- map/topicref "><topicref href="groovy_variables.dita" class="- map/topicref "/>
+  <topicref href="test_case_variables.dita" class="- map/topicref "/>
+  <topicref href="global_variables_1647942264717.433.dita" class="- map/topicref "/>
+</topicref>
+  </map>

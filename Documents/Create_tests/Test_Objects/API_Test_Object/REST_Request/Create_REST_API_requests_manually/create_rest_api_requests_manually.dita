@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Create REST API requests manually in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">About the author</b>
+      </p><p class="- topic/p ">Marek Melocik is currently working as Test Automation Engineer
+         in Brno, Czech Republic. He has been working in QA industry since
+         2014.</p><p class="- topic/p ">Meet Marek at  <xref format="html" href="https://www.linkedin.com/in/marek-melocik/" scope="external" class="- topic/xref ">www.linkedin.com/in/marek-melocik</xref>
+      </p></conbody></concept>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Disable XPath visibility</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">From Katalon Studio version 8.2.5 onwards, you can
+         enable/disable the XPath visibility while recording actions on your
+         app under test. Do as follows:</p><ol class="- topic/ol "><li class="- topic/li ">
+            <p class="- topic/p ">For Chrome: Open Chrome, then click on the <i class="+ topic/ph hi-d/i ">Extension</i>
+               icon. Click on the <i class="+ topic/ph hi-d/i ">More</i> icon of the <b class="+ topic/ph hi-d/b ">Katalon
+                  Compact Utility</b>, then choose <b class="+ topic/ph hi-d/b ">Options</b>.</p>
+            <p class="- topic/p ">For Microsoft Edge: Open Microsoft Edge, then click on the
+               <i class="+ topic/ph hi-d/i ">More</i> icon and choose <b class="+ topic/ph hi-d/b ">Extension &gt; Manage
+                  Extension</b>. Click on <b class="+ topic/ph hi-d/b ">Details</b> of the
+               <b class="+ topic/ph hi-d/b ">Katalon Compact Utility</b>.</p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">Click on the <b class="+ topic/ph hi-d/b ">XPath Visibility</b> toggle to
+               enable/disable XPath visibility.</p>
+            <p class="- topic/p ">
+              <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-compact-utility/xpath-visibility.png" scope="external" width="400" class="- topic/image "><alt class="- topic/alt ">xpath visibility</alt></image>
+            </p>
+          </li></ol><note type="attention" class="- topic/note ">
+          
+          <ul class="- topic/ul "><li class="- topic/li ">For web pages saved as HTML local files, Katalon Compact
+               Utility cannot spy and capture objects, while unpacked extensions
+               (from the native Spy and Record utility) can do that.</li></ul>
+        </note><p class="- topic/p ">See also:</p><ul class="- topic/ul "><li class="- topic/li ">
+            <xref href="../spy-web-utility/spy-web-utility.dita" class="- topic/xref ">Spy
+               Web Utility</xref>
+          </li><li class="- topic/li ">
+            <xref href="../create_test_case_using_record_playback/create_test_cases_using_record_playback.dita" class="- topic/xref ">Creating
+               test cases using Record &amp; Playback</xref>
+          </li><li class="- topic/li ">
+            <xref href="../webui-smartwait/webui-smartwait.dita" class="- topic/xref ">[WebUI]
+               Smart Wait Function</xref>
+          </li></ul></conbody></concept>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Usage example 4: Switch to Default Content</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">Whenever we switch to frames to handle certain features, we must
+         switch back to the parent node to access other features of the
+         application. If we <b class="+ topic/ph hi-d/b ">do not</b> switch back to
+         the parent node, then your code looks for the next locators within
+         that same frame itself.</p>
+        <p class="- topic/p ">Switch used to switch back to the main window or parent window
+         frame.</p>
+        <p class="- topic/p ">
+          <b class="+ topic/ph hi-d/b ">Manual Mode</b>
+        </p>
+        <p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handling_iframe_issue/Switch-to-Default-Content.png" scope="external" class="- topic/image ">
+            <alt class="- topic/alt ">Switch to Default Content</alt>
+          </image>
+        </p>
+        <p class="- topic/p ">
+          <b class="+ topic/ph hi-d/b ">Script Mode</b>
+        </p>
+        
+          <codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+ 
+'Launching and Navigating to URL\r\n'
+WebUI.openBrowser('http://the-internet.herokuapp.com/iframe')
+ 
+'Maximize the window\r\n'
+WebUI.maximizeWindow()
+ 
+'Switching to text area which is situated in Iframe'
+WebUI.switchToFrame(findTestObject('Frames/textArea_Iframe'), 60)
+ 
+'Fecthing the text from Text area and storing it in a variable'
+Text = WebUI.getText(findTestObject('Frames/TextArea'))
+ 
+'Switching back to the main window or parent window frame'
+WebUI.switchToDefaultContent()
+ 
+'Verifying the Actual text with Expected text from Text Area.'
+WebUI.verifyEqual(Text, 'Your content goes here.')
+ 
+'Getting the text of the web element and storing it in a variable'
+Heading = WebUI.getText(findTestObject('Frames/Frame Heading'))
+ 
+'Verifying the Actual text with Expected text from Text Area.'
+WebUI.verifyEqual(Heading, 'An iframe containing the TinyMCE WYSIWYG Editor')
+
+</codeblock>
+        
+        <note type="note" class="- topic/note ">
+          <p class="- topic/p ">Please download the source code <xref format="html" href="https://github.com/katalon-studio/katalon-web-automation" scope="external" class="- topic/xref ">here</xref> and
+            get the HTML <xref format="html" href="https://github.com/katalon-studio/katalon-web-automation/blob/master/Html%20Files/How%20to%20Handle%20Frames.html" scope="external" class="- topic/xref ">here</xref>.</p>
+        </note>
+      </conbody>
+    </concept>

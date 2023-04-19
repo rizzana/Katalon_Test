@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Mobile Object Spy and Mobile Recorder</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">Starting with <b class="+ topic/ph hi-d/b ">Katalon Studio version 6.3.0</b>,
+         <i class="+ topic/ph hi-d/i ">Mobile Object Spy</i> and <i class="+ topic/ph hi-d/i ">Mobile Recorder</i> are
+         available on remote devices (not custom devices).</p>
+    </conbody>
+    
+    
+    
+  </concept>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">AWS Device Farm Integration</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">aws-device-farm-integration</b> is built for
+         executing Katalon Studio tests on <xref format="html" href="https://aws.amazon.com/device-farm/" scope="external" class="- topic/xref ">AWS Device Farm</xref>. AWS
+         Device Farm only supports running tests using supported frameworks
+         such as Appium. Hence, Katalon users cannot execute their tests on
+         AWS Device farm directly. See this AWS document for further
+         information: <xref format="html" href="https://docs.aws.amazon.com/devicefarm/latest/developerguide/test-types-appium.html" scope="external" class="- topic/xref ">Working
+            with Appium and AWS Device Farm</xref>.</p><p class="- topic/p ">You can execute your Katalon test scripts with devices provided
+         on AWS Device Farm by using
+         <b class="+ topic/ph hi-d/b ">aws-device-farm-integration</b>. This tutorial shows
+         you how to integrate with AWS Device Farm using
+         <b class="+ topic/ph hi-d/b ">aws-device-farm-integration</b>. We also provide the
+         <b class="+ topic/ph hi-d/b ">KatalonDemoProject</b> as a usage example.</p></conbody></concept>

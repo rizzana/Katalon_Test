@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-katalium-framework-get-started-other-ides" class="- map/map ">
+  <title class="- topic/title ">In other IDEs</title>
+  <topicref href="katalium-framework-get-started-other-ides.dita" class="- map/topicref "><topicref href="prerequisites.dita" class="- map/topicref "/>
+  <topicref href="start_katalium_server.dita" class="- map/topicref "/>
+  <topicref href="run_your_first_test_in_ide.dita" class="- map/topicref "/>
+  <topicref href="run_your_first_test_in_cli.dita" class="- map/topicref "/>
+</topicref></map>

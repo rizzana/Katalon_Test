@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-test-case-management-with-tags" class="- map/map ">
+  <title class="- topic/title ">Test Case Management With Tags</title>
+  <topicref href="intro-test-case-management-with-tags.dita" class="- map/topicref "><topicref href="test_case_management_with_tags_plugin.dita" class="- map/topicref "/>
+  <topicref href="append_and_manage_tags.dita" class="- map/topicref ">
+    <topicref href="add_tags_to_a_test_case.dita" class="- map/topicref "/>
+    <topicref href="append_tags.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="search_for_test_cases_with_multiple_tags.dita" class="- map/topicref "/>
+  <topicref href="execute_test_cases_with_specific_tags_in_console_mode.dita" class="- map/topicref "/>
+</topicref>
+  </map>

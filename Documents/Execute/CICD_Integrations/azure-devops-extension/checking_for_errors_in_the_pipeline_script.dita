@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Checking for errors in the pipeline script</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">Execution of a test script is successful if all the steps in the
+         script are accurate and devoid of any information that does not
+         conform to the requirements of the application that is running the
+         script. Thus, for a proper output to be obtained after running a
+         test script, you have to ensure that all steps in the script are in
+         correct order and devoid of any errors.</p>
+      <p class="- topic/p ">However, if the script fails to execute and you get an error
+         message, perform the following steps:</p>
+      <ol class="- topic/ol ">
+        <li class="- topic/li ">
+          <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Edit pipeline</b> to edit the script.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-extension/K.S.E-8.2.5-azure_devops_extension_edit_function.png" scope="external" width="100%" class="- topic/image ">
+              <alt class="- topic/alt ">Azure DevOps Edit pipeline</alt>
+            </image>
+          </p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">The Azure DevOps YAML script displays accordingly. Make the
+               relevant update to the script and click <b class="+ topic/ph hi-d/b ">Save</b>.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-extension/K.S.E-8.2.5-azure_devops_extension_pipeline_script_displayed.PNG" scope="external" width="100%" class="- topic/image ">
+              <alt class="- topic/alt ">Azure DevOps YAML script</alt>
+            </image>
+          </p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Run</b> to rerun the script once again.</p>
+        </li>
+      </ol>
+      <p class="- topic/p ">For any troubleshooting issues, go to <xref format="html" href="https://docs.microsoft.com/en-us/azure/devops/pipelines/troubleshooting/troubleshooting?view=azure-devops" scope="external" class="- topic/xref ">troubleshooting
+            in azure devops pipelines</xref>.</p>
+    </conbody>
+  </concept>

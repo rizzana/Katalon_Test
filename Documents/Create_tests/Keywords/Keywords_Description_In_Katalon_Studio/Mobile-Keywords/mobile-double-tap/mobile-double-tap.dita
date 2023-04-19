@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_0" class="- topic/topic concept/concept "><title class="- topic/title ">[Mobile] Double Tap</title><conbody class="- topic/body  concept/conbody "><section id="id" class="- topic/section ">
+            <title class="- topic/title "/>
+            <note type="note" class="- topic/note ">
+                    <ul class="- topic/ul "><li class="- topic/li ">
+                            <p class="- topic/p ">Starting from <b class="+ topic/ph hi-d/b ">version 7.2.0</b>, this keyword is available for Mobile testing on Katalon Studio.</p>
+                        </li></ul>
+            </note>
+        </section><section id="id_1" class="- topic/section ">
+            <title class="- topic/title ">doubleTap</title>
+            <ul class="- topic/ul "><li class="- topic/li "> <b class="+ topic/ph hi-d/b ">Description</b>: Perform a double-tap action on a mobile element.</li><li class="- topic/li "> <b class="+ topic/ph hi-d/b ">Keyword syntax</b>: Mobile.doubleTap(testObject, timeout, flowControl)</li><li class="- topic/li "> <b class="+ topic/ph hi-d/b ">Parameters</b>: <ul class="- topic/ul "><li class="- topic/li ">Name: testObject</li><li class="- topic/li ">Description: Represent a mobile element.</li><li class="- topic/li ">Parameter Type: TestObject</li><li class="- topic/li ">Mandatory: Requiredz</li><li class="- topic/li ">Name: timeout</li><li class="- topic/li ">Description: System will wait at most <i class="+ topic/ph hi-d/i ">timeout</i> (seconds) to return a result.</li><li class="- topic/li ">Parameter Type: int</li><li class="- topic/li ">Mandatory: Required</li><li class="- topic/li ">Name: flowControl</li><li class="- topic/li ">Description: Used to control the step if the step failed.</li><li class="- topic/li ">Parameter Type: FailureHandling</li><li class="- topic/li ">Mandatory: optional</li></ul>
+                </li><li class="- topic/li "> <b class="+ topic/ph hi-d/b ">Returns</b>: void.</li><li class="- topic/li "> <b class="+ topic/ph hi-d/b ">Throw</b>: <b class="+ topic/ph hi-d/b ">StepFailedException</b> if Katalon Studio could not find the specified element.</li><li class="- topic/li ">
+                    <p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Example</b>:</p>
+                    <codeblock class="+ topic/pre pr-d/codeblock ">Mobile.doubleTap(findTestObject('android.widget.Button0 - NEXT'), 0)
+</codeblock>
+                </li></ul>
+        </section></conbody></concept>

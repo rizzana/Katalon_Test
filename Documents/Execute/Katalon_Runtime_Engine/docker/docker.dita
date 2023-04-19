@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Katalon Docker Image</title><conbody class="- topic/body  concept/conbody "><note type="important" class="- topic/note ">
+
+        <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Docker installed. You can refer to the
+            instructions in the Docker document here: <xref format="html" href="https://docs.docker.com/get-docker/" scope="external" class="- topic/xref ">Get Docker</xref>. </p></li><li class="- topic/li "><p class="- topic/p ">An
+            active Katalon Runtime Engine floating license. To learn more about
+            types of licenses, you can refer to this document: <xref href="../../../Administer/KSE-KRE-Licenses/license_overview/c_intro_license_overview.dita" class="- topic/xref ">Types
+               of licenses</xref>.</p></li></ul>
+      </note><p class="- topic/p ">This tutorial shows you how to run tests with Katalon Docker
+         Image (KDI). </p><p class="- topic/p ">KDI  contains up-to-date browsers, including
+         Google Chrome, Mozilla Firefox, Microsoft Edge, and Katalon Studio. With KDI, you
+         do not need to use the Katalon Studio and Runtime Engine apps
+         installed on your local machine.</p><p class="- topic/p ">KDI for Katalon Studio is available at Docker Hub: <xref format="html" href="https://hub.docker.com/r/katalonstudio/katalon/" scope="external" class="- topic/xref ">katalonstudio/katalon</xref>.</p><note type="note" class="- topic/note ">
+
+        <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">You can find the source code of the Docker image in our GitHub repository: <xref href="https://github.com/katalon-studio/docker-images" scope="external" class="- topic/xref ">KDI</xref>.</p></li><li class="- topic/li "><p class="- topic/p ">You can download our GitHub sample project for CI configurations
+            using Docker image: <xref format="html" href="https://github.com/katalon-studio/docker-images-samples" scope="external" class="- topic/xref ">CI
+               samples</xref>.</p></li></ul>
+        
+      </note></conbody></concept>

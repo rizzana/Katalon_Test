@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Handle Response Messages in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Most of the keywords for handling web service result will ask
+         for a <b class="+ topic/ph hi-d/b ">ResponseObject</b> (return from the
+         keyword <i class="+ topic/ph hi-d/i ">WSBuiltInKeywords.sendRequest</i>) or an
+         <b class="+ topic/ph hi-d/b ">element locator</b>.</p><p class="- topic/p ">
+      <b class="+ topic/ph hi-d/b ">ResponseObject</b> (return from
+         <i class="+ topic/ph hi-d/i ">WSBuiltInKeywords.sendRequest</i>) is a convenient class to
+         wrap the HTTP content returned from a Web Service call, here are
+         some helpful functions to handle the result:</p><ul class="- topic/ul "><li class="- topic/li ">getContentType: the response data type from web service, some
+            typical data types are: application/json, text/xml,
+            application/xml, application/soap+xml…</li><li class="- topic/li ">getResponseText(): the whole text content returned from web
+            service</li></ul><p class="- topic/p ">
+      <b class="+ topic/ph hi-d/b ">Element locator</b> is the concept utilized by
+         Katalon Studio to explore into hierarchical data structure such as
+         JSON or XML to look for the expected data. Following are some
+         examples about its usage on JSON/XML data.</p><ul class="- topic/ul "><li class="- topic/li ">
+        <p class="- topic/p ">JSON data usually have a root node (a parent element to wrap all
+               content) consists of many child nodes. <b class="+ topic/ph hi-d/b ">Element
+                  locator</b> syntax will begin with element name, child
+               element and its index (if it has children nodes, index is
+               zero-based numbering), name of the property we want to get its
+               value. Those parts of element locator are separated by
+               <b class="+ topic/ph hi-d/b ">dot</b> character. The example below shows how to
+               get employee email and the first phone number:</p>
+        <p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/handle-response-messages/1.png" scope="external" class="- topic/image "/>
+        </p>
+      </li><li class="- topic/li ">
+        <p class="- topic/p ">XML data are similar both in the structure and the way we define
+               <b class="+ topic/ph hi-d/b ">element locator</b>, our expected info may come from:
+               the attribute of XML tag (in example below, "<i class="+ topic/ph hi-d/i ">no"</i> is
+               an attribute of "<i class="+ topic/ph hi-d/i ">contacts"</i> tag) or from inner child
+               tag, you can use keywords for handling text (e.g.
+               verifyElementText) or property (e.g. verifyElementPropertyValue)
+               respectively.</p>
+        <p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/handle-response-messages/2.png" scope="external" class="- topic/image "/>
+        </p>
+      </li><li class="- topic/li ">
+        <p class="- topic/p ">In case of the returned data don't have a root node, prefix the
+               <b class="+ topic/ph hi-d/b ">element locator</b> by "[index number]", where index
+               is zero-based numbering. See example below:</p>
+        <p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/handle-response-messages/3.png" scope="external" class="- topic/image "/>
+        </p>
+      </li></ul></conbody></concept>

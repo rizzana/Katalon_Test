@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-katalium-framework-get-started-vscode" class="- map/map ">
+  <title class="- topic/title ">In Visual Studio Code</title>
+  <topicref href="katalium-framework-get-started-vscode.dita" class="- map/topicref "><topicref href="prerequisites_1647966669359.353.dita" class="- map/topicref "/>
+  <topicref href="install_katalium_extension_for_visual_studio_code.dita" class="- map/topicref "/>
+  <topicref href="activate.dita" class="- map/topicref "/>
+  <topicref href="create_project.dita" class="- map/topicref "/>
+  <topicref href="start_katalium_server_1647966669359.353.dita" class="- map/topicref "/>
+  <topicref href="run_your_first_test_in_visual_studio_code.dita" class="- map/topicref "/>
+  <topicref href="run_your_first_test_in_cli_1647966669359.353.dita" class="- map/topicref "/>
+</topicref></map>

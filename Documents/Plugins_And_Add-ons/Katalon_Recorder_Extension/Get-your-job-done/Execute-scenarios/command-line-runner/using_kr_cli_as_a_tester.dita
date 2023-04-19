@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Using KR CLI as a tester</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">If you are a tester, you can integrate KR tests into the CI/CD
+         pipeline to execute them at specific time intervals, or by defining
+         custom triggers.</p>
+    </conbody>
+    
+    
+  </concept>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">How it works</title><conbody class="- topic/body  concept/conbody "><note type="important" class="- topic/note ">
+        
+        <ul class="- topic/ul "><li class="- topic/li ">Katalon Studio version 8.0 onwards</li><li class="- topic/li ">Katalon Runtime Engine</li><li class="- topic/li ">Agent version 1.7.0 onwards</li><li class="- topic/li ">At least 2 active Agents</li></ul>
+      </note><p class="- topic/p ">In Katalon TestOps, you can execute tests in parallel. During
+         parallel execution, Test Runs are automatically load-balanced. This
+         means that each time a Test Run starts, the Test Run is distributed
+         to an available and active local test environment, minimizing
+         execution time.</p><p class="- topic/p ">When a Test Run is executed, the test sessions will be assigned
+         to the previously configured Agents in this order of priority:</p><ul class="- topic/ul "><li class="- topic/li ">Idle Agents</li><li class="- topic/li ">Agents that have not exceeded their Threshold</li><li class="- topic/li ">Agents with the least number of queued Test Runs</li></ul><p class="- topic/p ">When an Agent completes a Test Run session, queued jobs that
+         were first assigned to other Agents can be automatically reassigned
+         to this Agent for immediate execution.</p></conbody></concept>

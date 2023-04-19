@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-writing-custom-script-formatter" class="- map/map ">
+  <title class="- topic/title ">Writing Custom Script Formatter</title>
+  <topicref href="writing-custom-script-formatter.dita" class="- map/topicref "><topicref href="introduction_1647958549425.022.dita" class="- map/topicref "/>
+  <topicref href="list_of_plugins.dita" class="- map/topicref "/>
+  <topicref href="sample.dita" class="- map/topicref "/>
+</topicref></map>

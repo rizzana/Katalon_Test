@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Install the Sauce Labs Integration plugin</title>
+    <conbody class="- topic/body  concept/conbody ">
+
+      <p class="- topic/p ">Download and install the <b class="+ topic/ph hi-d/b ">Sauce Labs Integration</b>
+         plugin. You can download the plugin from the Katalon Store here: <xref format="html" href="https://store.katalon.com/product/75/Sauce-Labs-Integration#pricing-content" scope="external" class="- topic/xref ">Sauce
+            Labs Integration</xref>.</p>
+      <p class="- topic/p ">To activate the plugin, navigate to Account Settings in Katalon
+         Studio and click <b class="+ topic/ph hi-d/b ">Reload Plugin</b>.</p>
+    </conbody>
+  </concept>

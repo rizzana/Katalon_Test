@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-drag_drop_web_applications_katalon_studio" class="- map/map ">
+  <title class="- topic/title ">Handling drag and drop testing for web applications with Katalon Studio</title>
+  <topicref href="drag_drop_web_applications_katalon_studio.dita" class="- map/topicref "><topicref href="create_automation_tests_for_javascript_drag_and_drop.dita" class="- map/topicref "/>
+  <topicref href="create_automation_tests_for_html5_drag_and_drop.dita" class="- map/topicref "/>
+</topicref>
+  </map>

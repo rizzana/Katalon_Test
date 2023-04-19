@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-execute-windows-commands" class="- map/map ">
+  <title class="- topic/title ">Execute Windows commands</title>
+  <topicref href="execute-windows-commands.dita" class="- map/topicref "><topicref href="references.dita" class="- map/topicref "/>
+</topicref>
+  </map>

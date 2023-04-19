@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"id-d48972e27318":{"topics":[{"title":"Import Tests from Selenium IDE","href":"Documents\/Plugins_And_Add-ons\/Katalon_Recorder_Extension\/Get-your-job-done\/Extend-Katalon-Recorder\/import-selenium-ide\/import_tests_from_selenium_ide.html","attributes":{"data-id":"id_1"},"menu":{"hasChildren":false},"tocID":"id_1-d48972e27328","topics":[]}]}};

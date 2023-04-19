@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Execute Test Runs manually in TestOps</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">You can execute Test Runs one time or regularly by configuring a schedule for Test Runs. See: <xref href="../Schedule-test-runs-in-testops/create-plan.dita" class="- topic/xref ">Schedule Test Runs</xref>.</p><p class="- topic/p ">You can also execute Test Runs manually by following these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Go to your Project &gt; <b class="+ topic/ph hi-d/b ">Test Execution</b> &gt; <b class="+ topic/ph hi-d/b ">Test Run List</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-execute-test-runs-by-trigger/test-run-manual-mode-button.png" scope="external" class="- topic/image "/>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click on the <i class="+ topic/ph hi-d/i ">Run</i> icon for manual execution.</p>
+            </li></ol></conbody></concept>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Handling drag and drop testing for web applications with <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/drag_drop_web_applications_katalon_studio/crop-1-1024x481.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Drag &amp; Drop testing Katalon Studio</alt></image>
+      </p><p class="- topic/p ">Drag and drop is a fairly popular approach in modern websites to
+         improve their overall UX. However, it could be very challenging to
+         implement automation test for drag and drop components.</p><p class="- topic/p ">Since Katalon Studio 6.1.5, please install <xref format="html" href="https://store.katalon.com/product/70/DragAndDrop-Keywords" scope="external" class="- topic/xref ">DragAndDrop
+            Keywords</xref> plugin to use this feature.</p><p class="- topic/p ">In this tutorial, we will show how <xref format="html" href="https://www.katalon.com" scope="external" class="- topic/xref ">
+          <b class="+ topic/ph hi-d/b ">Katalon Studio</b></xref>
+         is used to test the drag and drop feature in a web application.</p><p class="- topic/p ">This tutorial assumes that you are familiar with the tool's
+         basic features. To have a quick idea of how it works or to review
+         the interface please refer to <xref format="html" href="https://academy.katalon.com/courses/katalon-end-to-end-platform/" scope="external" class="- topic/xref ">Kickstart
+            your automation testing using Katalon Studio</xref> or <xref href="../../../../About_Katalon_Platform/Katalon_Studio_Overview/overview.dita" class="- topic/xref ">Katalon Studio User Guides</xref>.</p><p class="- topic/p ">There are different common implementation methods for the drag
+         and drop feature, which each needs to be addressed differently when
+         testing, including:</p><ul class="- topic/ul "><li class="- topic/li ">Using pure JavaScript to handle drag and drop with popular
+            JavaScript frameworks like <xref format="html" href="http://jqueryui.com/droppable/#default" scope="external" class="- topic/xref ">jQuery</xref>.</li><li class="- topic/li ">Using HTML5 Drag and Drop, which is detailed in w3schools' HTML
+            Drag and Drop tutorial.</li></ul></conbody></concept>

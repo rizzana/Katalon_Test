@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-trial-free-plans" class="- map/map ">
+  <title class="- topic/title ">Trial and Free Plans</title>
+  <topicref href="trial-free-plans.dita" class="- map/topicref "><topicref href="trial_license.dita" class="- map/topicref "/>
+  <topicref href="free_license.dita" class="- map/topicref "/>
+</topicref></map>

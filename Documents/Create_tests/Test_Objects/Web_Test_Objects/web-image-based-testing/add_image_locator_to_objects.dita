@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Add image locator to objects</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">From 7.6 onwards</b>
+      </p><p class="- topic/p ">After you capture a screenshot using the Web Recorder/Spy
+         utility, Katalon Studio automatically adds an image locator to the
+         associated object.</p><p class="- topic/p ">To use the image locator of an object:</p><ol class="- topic/ol "><li class="- topic/li ">
+          <p class="- topic/p ">Select the object in the <b class="+ topic/ph hi-d/b ">Object Repository</b>.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/KS-Object-repository-select-object.png" scope="external" width="700" class="- topic/image "><alt class="- topic/alt ">Select the object</alt></image>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Object</b> view, navigate to
+               <b class="+ topic/ph hi-d/b ">Selection Method</b> and select the
+               <b class="+ topic/ph hi-d/b ">Image</b> option.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/KS-Object-view-select-image.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">Select the image locator</alt></image>
+          </p>
+        </li></ol><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Before 7.6</b></p><p class="- topic/p ">After you capture a screenshot using Web Recorder/Spy utility,
+            Katalon Studio adds a property called <b class="+ topic/ph hi-d/b ">screenshot</b>
+            to the associated Test object. This property contains the absolute
+            path to the captured screenshot.</p><p class="- topic/p ">
+            To enable the image locator of an object:</p><ol class="- topic/ol "><li class="- topic/li ">
+          <p class="- topic/p ">Select the object in the <b class="+ topic/ph hi-d/b ">Object Repository</b>.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/KS-Object-view-image-path.png" scope="external" width="600" class="- topic/image "><alt class="- topic/alt ">Object view</alt></image>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Select <b class="+ topic/ph hi-d/b ">Attributes</b> as the <b class="+ topic/ph hi-d/b ">Selection
+                     Method</b>.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Object's Properties</b> table, tick the
+                  <b class="+ topic/ph hi-d/b ">screenshot</b> property.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/property.png" scope="external" width="700" class="- topic/image "><alt class="- topic/alt ">Object's Properties table</alt></image>
+          </p>
+        </li></ol><note type="note" class="- topic/note ">
+        
+        <p class="- topic/p ">To add screenshots captured using other tools, provide the
+            absolute path to the screenshot in the <b class="+ topic/ph hi-d/b ">Path</b>
+            property when enabling the image locator.</p>
+        <p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/KS-Object-screenshot-path.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">object screenshot absolute path</alt></image>
+        </p> 
+      </note></conbody></concept>

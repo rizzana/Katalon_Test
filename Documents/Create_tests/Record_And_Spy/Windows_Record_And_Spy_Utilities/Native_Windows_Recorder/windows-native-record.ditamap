@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-windows-native-record" class="- map/map ">
+  <title class="- topic/title ">Native Windows Recorder</title>
+  <topicref href="windows-native-record.dita" class="- map/topicref "><topicref href="coordinate-based_recording.dita" class="- map/topicref "/>
+  <topicref href="recording.dita" class="- map/topicref "/>
+  <topicref href="executing_a_test_case.dita" class="- map/topicref "/>
+</topicref>
+  </map>

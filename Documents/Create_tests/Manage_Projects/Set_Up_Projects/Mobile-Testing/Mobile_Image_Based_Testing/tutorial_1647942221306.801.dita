@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_7" class="- topic/topic concept/concept "><title class="- topic/title ">Tutorial</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Below is how to capture an image of the desired Mobile elements for interaction during test executions:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Start your AUT with Mobile Spy/Recorder. Remember to have your mobile device connected to Katalon Studio.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <uicontrol class="+ topic/ph ui-d/uicontrol ">Capture Object</uicontrol> to capture an image of the screen.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Open a screenshot in the <b class="+ topic/ph hi-d/b ">screenshot</b> folder and crop the recognition area that Katalon Studio will use for searching matching elements during test execution (reference image).</p>
+            </li></ol></conbody></concept>

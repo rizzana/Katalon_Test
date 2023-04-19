@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-handle_drag_drop_mobile_app" class="- map/map ">
+  <title class="- topic/title ">Handling Drag and Drop in Mobile App</title>
+  <topicref href="handle_drag_drop_mobile_app.dita" class="- map/topicref "><topicref href="scenario_1647942192247.28.dita" class="- map/topicref "/>
+  <topicref href="manual_mode_1647942192247.28.dita" class="- map/topicref "/>
+  <topicref href="script_mode_1647942192247.28.dita" class="- map/topicref "/>
+</topicref>
+  </map>

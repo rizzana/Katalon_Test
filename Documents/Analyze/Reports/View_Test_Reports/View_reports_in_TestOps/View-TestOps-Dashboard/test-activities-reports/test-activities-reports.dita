@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_dashboard-test-activities" class="- topic/topic concept/concept "><title class="- topic/title ">Test activities reports</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Testing activities help you evaluate and verify if your product is doing what it's supposed to do. If your product works the way it should, testing prevents bugs and reduces development costs while improving the performance of your software/application.</p><p class="- topic/p ">A centralized report on your test activities enables faster troubleshooting and assists you in the decision-making process of your product cycle.</p><p class="- topic/p ">In Katalon TestOps, the <uicontrol class="+ topic/ph ui-d/uicontrol ">Test Activities</uicontrol> report compiles test activities over a specified period. You can filter test runs by day, week, and month and check test results within your desired period.</p><p class="- topic/p "><image href="Image/KT-JULY22-Dashboard-test-activities.png" class="- topic/image "><alt class="- topic/alt ">Test activities reports</alt></image>
+                <note class="- topic/note ">
+                    <ul class="- topic/ul "><li class="- topic/li ">
+                            <p class="- topic/p ">The default period is 7 days (from Monday to Sunday of the most recent week, compared to the current date).</p>
+                        </li></ul>
+                </note>
+            </p></conbody></concept>

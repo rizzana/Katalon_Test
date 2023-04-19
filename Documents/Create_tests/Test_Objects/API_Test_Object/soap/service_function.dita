@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Service Function</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">The function that you want to use in this SOAP request. When
+         clicking <b class="+ topic/ph hi-d/b ">Load Service Function</b>, you can retrieve a
+         list of service functions available from the WSDL file.</p>
+        <p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/soap-request/method.png" scope="external" class="- topic/image "/>
+        </p>
+        <p class="- topic/p ">Each Service Function carries its own content, including Service
+         Endpoint, SOAPAction Header and Request message.</p>
+        <p class="- topic/p ">In <b class="+ topic/ph hi-d/b ">Service Endpoint</b>, You can specify another
+         URL indicating the desired service endpoint of this request.</p>
+        <p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/soap-request/service-endpoint.png" scope="external" class="- topic/image "/>
+        </p>
+      </conbody>
+    </concept>

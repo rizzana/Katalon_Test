@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Use of Katalon API Keys in <ph conkeyref="name-variables/katalon-store" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">During command-line execution, Application Programming Interface
+         (API) Keys act as your credentials to download and install plugins
+         in <b class="+ topic/ph hi-d/b ">Katalon Studio</b> before execution.</p><p class="- topic/p ">If API keys are not applied, <b class="+ topic/ph hi-d/b ">Katalon Studio</b>
+         proceeds with test execution as you have not installed any plugins
+         yet. Therefore, the API key is a must-have when you use a plugin
+         during test execution in console mode.</p></conbody></concept>

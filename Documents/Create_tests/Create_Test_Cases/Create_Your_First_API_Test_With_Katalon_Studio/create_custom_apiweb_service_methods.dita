@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_11" class="- topic/topic concept/concept "><title class="- topic/title ">Create Custom API/Web Service Methods</title><conbody class="- topic/body  concept/conbody "><note type="note" class="- topic/note ">
+          <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">This feature is only available for Katalon Studio Enterprise
+            users.</p></li></ul>
+        </note><p class="- topic/p ">You can create <b class="+ topic/ph hi-d/b ">Custom API/Web Service Methods</b>
+         to expand RESTful Web Service Testing capabilities by going to
+         <b class="+ topic/ph hi-d/b ">Project &gt; Settings &gt; Test Design &gt; Web Service
+            &gt; Custom Method</b>. Katalon handles custom API methods on
+         top of the default set of supported methods.</p><p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/creat-first-API-testing/KS-API-Create-custom-webservice-method.png" scope="external" width="850" class="- topic/image "><alt class="- topic/alt ">Create a custom method</alt></image>
+        </p></conbody></concept>

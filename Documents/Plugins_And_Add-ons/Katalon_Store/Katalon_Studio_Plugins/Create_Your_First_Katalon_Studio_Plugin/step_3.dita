@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">
+      Step 3:
+    </title><conbody class="- topic/body  concept/conbody "><p class="- topic/p "><ph conkeyref="name-variables/katalon-platform" class="- topic/ph "/> allows client plugins to contribute to
+         <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> core features. All of the features are described at
+         <xref format="html" href="https://github.com/katalon-studio/katalon-studio-platform/blob/master/com.katalon.platform/plugin.xml" scope="external" class="- topic/xref ">this
+            link</xref>.</p><p class="- topic/p ">There are many <codeph class="+ topic/ph pr-d/codeph ">extension</codeph> tags here. Each of these
+         tags is a <codeph class="+ topic/ph pr-d/codeph ">Extension Point</codeph> describing specifications to
+         allow client plugins hook into Katalon Studio platform. A plugin
+         can contribute to many extension points by declaring it in
+         <codeph class="+ topic/ph pr-d/codeph ">plugin.xml</codeph> file.</p><p class="- topic/p ">For example, we want to <codeph class="+ topic/ph pr-d/codeph ">Subscribe plugin installation
+            event</codeph>:</p><codeblock class="+ topic/pre pr-d/codeblock ">&lt;extension
+        point="com.katalon.platform.extensions_point"&gt;
+      &lt;point
+            id="com.katalon.platform.api.extension.pluginActivationListener"
+            interfaceClass="com.katalon.platform.api.extension.PluginActivationListener"
+            serviceClass="com.katalon.platform.internal.lifecycle.PluginActivationListenerService"&gt;
+      &lt;/point&gt;  
+&lt;/extension&gt;
+</codeblock><p class="- topic/p ">Above declarations mean:</p><ul class="- topic/ul "><li class="- topic/li ">id: the id of the extension point.</li><li class="- topic/li ">interfaceClass: the required interface class that client
+            plugins should provide the implementation to extend this
+            feature.</li><li class="- topic/li ">serviceClass: an internal service class.</li></ul><p class="- topic/p ">To extend this extension point, we need to declare in
+         <codeph class="+ topic/ph pr-d/codeph ">plugin.xml</codeph> as shown below:</p><codeblock class="+ topic/pre pr-d/codeblock ">&lt;plugin&gt;
+    &lt;extension
+            point="com.katalon.platform.extensions"&gt;
+        &lt;point
+              id="com.mycompany.plugin.myFirstExtensionId"
+              extensionPointId="com.katalon.platform.api.extension.pluginActivationListener"
+              implementationClass="com.mycompany.plugin.MyPluginActivationListener"&gt;
+        &lt;/point&gt;
+    &lt;/extension&gt;
+&lt;/plugin&gt;
+</codeblock><p class="- topic/p ">Above declarations mean:</p><ul class="- topic/ul "><li class="- topic/li ">id: the unique id of the your extension. You can replace by any
+            name but it must be unique.</li><li class="- topic/li ">extensionPointId: the id of the extension point. Simply change
+            the id if you want to extend other extension points.</li><li class="- topic/li ">implementationClass: the class that implements the
+            <codeph class="+ topic/ph pr-d/codeph ">interfaceClass</codeph> mentioned at Step 3. Next, we create
+            it.</li></ul></conbody></concept>

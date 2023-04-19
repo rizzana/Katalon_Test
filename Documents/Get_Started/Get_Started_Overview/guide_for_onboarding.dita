@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Guide for onboarding <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><note type="note" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">Download the latest version from our official website: <xref format="html" href="https://www.katalon.com/download/" scope="external" class="- topic/xref "><ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></xref>.</li></ul>
+        </note></conbody></concept>

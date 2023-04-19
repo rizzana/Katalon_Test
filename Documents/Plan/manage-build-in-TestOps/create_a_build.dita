@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Create a build</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">Follow these steps:</p>
+      <ol class="- topic/ol ">
+        <li class="- topic/li ">
+          <p class="- topic/p ">Sign in to <xref format="html" href="https://testops.katalon.io/login" scope="external" class="- topic/xref ">Katalon
+                  TestOps</xref> and go to your Project.</p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Planning</b> &gt;
+               <b class="+ topic/ph hi-d/b ">Releases</b>.</p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Select a Release (e.g., <b class="+ topic/ph hi-d/b ">7.3.7</b>).</p>
+          <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Test Cases</b> page of the
+               <b class="+ topic/ph hi-d/b ">7.3.7</b> Release appears as below.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/builds/create-build-2.png" scope="external" class="- topic/image ">
+              <alt class="- topic/alt ">create build button</alt>
+            </image>
+          </p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Click on the <b class="+ topic/ph hi-d/b ">Create Build</b> button at the top
+               right corner.</p>
+          <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Create Build</b> page appears.</p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Fill in the required information.</p>
+          <ul class="- topic/ul ">
+            <li class="- topic/li ">
+              <b class="+ topic/ph hi-d/b ">Name</b>: enter the Build's name.</li>
+            <li class="- topic/li ">
+              <b class="+ topic/ph hi-d/b ">Description</b>: add a note about your Build.</li>
+            <li class="- topic/li ">
+              <b class="+ topic/ph hi-d/b ">Date</b>: enter the creation date for this
+                  Build.</li>
+          </ul>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Create</b>.</p>
+        </li>
+      </ol>
+      <p class="- topic/p ">You have created a new Build. This Build now appears in the
+         <b class="+ topic/ph hi-d/b ">Builds</b> section of the <b class="+ topic/ph hi-d/b ">7.3.7</b>
+         Release.</p>
+      <p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/builds/build-list-2.png" scope="external" class="- topic/image ">
+          <alt class="- topic/alt ">builds section</alt>
+        </image>
+      </p>
+    </conbody>
+    
+  </concept>

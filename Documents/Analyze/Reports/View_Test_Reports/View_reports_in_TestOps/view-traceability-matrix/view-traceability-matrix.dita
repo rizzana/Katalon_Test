@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">View traceability matrix in <ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Katalon TestOps offers a complete presentation on traceability with the <uicontrol class="+ topic/ph ui-d/uicontrol ">Traceability Matrix</uicontrol> report.</p><p class="- topic/p ">You can view test cases, defects, and requirements in one central location, making it easier to manage the relationship across requirements, test cases, and defects.</p><p class="- topic/p ">In Katalon TestOps, the <uicontrol class="+ topic/ph ui-d/uicontrol ">Traceability Matrix</uicontrol> feature allows you to:<ul class="- topic/ul "><li class="- topic/li ">
+                    <p class="- topic/p ">manage your project effectively with Jira integration.</p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">manage Defects linked to Jira bugs for faster debugging.</p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">manage Test Cases linked to Jira issues to track Requirements from production through deployment.</p>
+                </li></ul></p><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Enable Jira integration. See: <xref href="../../../../../Organize/Integration_For_Organizing_Tests/Jira_Integration/Enable-Jira-TestOps-integration/intro-jira-configuration-in-TestOps.dita" class="- topic/xref ">Jira Settings</xref>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p "> <xref href="../../../../../Plan/Integration_for_test_planning/link-tc-to-Jira-requirements/ka-integration-jira.dita" class="- topic/xref ">Link Test Cases to Jira Requirements</xref>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p "> <xref href="../../../../Integrations_For_Reports_And_Analytics/Jira_integration/link-test-runs-to-Jira-defects-in-TestOps/intro-link-test-runs-Jira-defects-in-TestOps.dita" class="- topic/xref ">Link Test Results to Jira Defects</xref>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Reports</b> &gt; <b class="+ topic/ph hi-d/b ">Requirements</b> &gt; <b class="+ topic/ph hi-d/b ">Traceability Matrix</b>.</p>
+            </li></ol><p class="- topic/p ">The relationship between Test Cases, Defects and Requirements is visible on the report here.</p><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-traceability-matrix/traceability-matrix.png" scope="external" class="- topic/image "><alt class="- topic/alt ">example alt text</alt></image>
+        </p><p class="- topic/p ">You can map and track all Requirements in <b class="+ topic/ph hi-d/b ">Traceability Matrix</b>. It consolidates requirements and the project's results for production review.</p></conbody></concept>

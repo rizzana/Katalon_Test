@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_32" class="- topic/topic concept/concept "><title class="- topic/title ">Improvements</title><conbody class="- topic/body  concept/conbody "><ul class="- topic/ul "><li class="- topic/li ">
+              <p class="- topic/p ">New release of Katalon agent version 1.7.</p>
+            </li><li class="- topic/li ">
+              <p class="- topic/p ">Improve performance for Test Planning calendar view.</p>
+            </li></ul></conbody></concept>

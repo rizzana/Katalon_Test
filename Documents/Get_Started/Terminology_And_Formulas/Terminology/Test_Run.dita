@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN" "glossentry.dtd">
+<glossentry id="glossentry-3257" class="- topic/topic concept/concept glossentry/glossentry "><glossterm class="- topic/title concept/title glossentry/glossterm ">Test Run</glossterm><glossdef class="- topic/abstract concept/abstract glossentry/glossdef ">A test run consists of one or more test cases to be executed (execution of more test cases depends on whether a test run is conducted in parallel).<p class="- topic/p ">In Katalon TestOps, a test run keeps track of all test results, status, duration, assignee, etc.</p></glossdef></glossentry>

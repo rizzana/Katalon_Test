@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"id-d48972e21216":{"topics":[{"title":"Specify a path to Android SDK root folder","href":"Documents\/Execute\/Configurations_for_test_execution\/how-to-specify-android-home-path\/specify_a_path_to_android_sdk_root_folder.html","attributes":{"data-id":"id_1"},"menu":{"hasChildren":false},"tocID":"id_1-d48972e21224","next":"id_1-d48972e21224"}]}};

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Install Chrome extensions at runtime in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To install Chrome extensions before you start the browser, you
+         can either use packed or unpacked extensions. The sample code below
+         refer to packed extensions, so if you want to use unpacked
+         extensions,  refer to this page: <xref format="html" href="https://sites.google.com/a/chromium.org/chromedriver/extensions" scope="external" class="- topic/xref ">https://sites.google.com/a/chromium.org/chromedriver/extensions</xref></p><codeblock class="+ topic/pre pr-d/codeblock ">import org.openqa.selenium.WebDriver
+import org.openqa.selenium.chrome.ChromeDriver
+import org.openqa.selenium.chrome.ChromeOptions
+import org.openqa.selenium.remote.DesiredCapabilities
+import com.kms.katalon.core.webui.driver.DriverFactory
+
+System.setProperty("webdriver.chrome.driver", "C:\\Users\\usuario\\katalon\\Test\\Driver\\chromedriver.exe");
+ChromeOptions options = new ChromeOptions()
+options.addExtensions(new File("C:\\Users\\usuario\\Desktop\\Firma-con-token.crx"))
+DesiredCapabilities capabilities = new DesiredCapabilities()
+capabilities.setCapability(ChromeOptions.CAPABILITY, options)
+WebDriver driver = new ChromeDriver(capabilities)
+DriverFactory.changeWebDriver(driver)
+</codeblock><p class="- topic/p ">
+      <b class="+ topic/ph hi-d/b ">References:</b>
+    </p><ul class="- topic/ul "><li class="- topic/li ">
+        <xref format="html" href="https://api-docs.katalon.com/com/kms/katalon/core/webui/driver/DriverFactory.html" scope="external" class="- topic/xref ">DriverFactory</xref>
+      </li><li class="- topic/li ">
+        <xref format="html" href="http://chromedriver.chromium.org/capabilities" scope="external" class="- topic/xref ">Chrome
+               desired capabilities</xref>
+      </li><li class="- topic/li ">
+        <xref format="html" href="https://sites.google.com/a/chromium.org/chromedriver/extensions" scope="external" class="- topic/xref ">Install
+               Chrome extensions</xref>
+      </li></ul></conbody></concept>

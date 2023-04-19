@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">View test case reports in <ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">You can manage test cases in <ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/> to evaluate test
+         case quality and visualize how the test case quality improves or
+         worsens over time.</p><p class="- topic/p ">By doing so, your team can spot weak points in your software or
+         application deployment.</p><p class="- topic/p ">With test management, you can also estimate the time it will
+         take to perform all your automated tests. This is useful in the
+         production stage, especially if you release critical updates.</p><p class="- topic/p ">To help you manage test cases effectively, <ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/>
+         categorizes test cases into the following types:</p><ul class="- topic/ul "><li class="- topic/li ">Active test cases</li><li class="- topic/li ">Stale test cases</li><li class="- topic/li ">Slowest test cases</li><li class="- topic/li ">Flaky test cases</li></ul><p class="- topic/p ">For a definition of each type of test cases, see <xref href="../../../../../Get_Started/Terminology_And_Formulas/testops_formulas.dita" class="- topic/xref ">TestOps
+               Formulas.</xref></p></conbody></concept>

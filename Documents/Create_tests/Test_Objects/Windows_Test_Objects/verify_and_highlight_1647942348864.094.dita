@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Verify and Highlight</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">Katalon Studio Windows Object Spy and Recorder have a built-in
+         <b class="+ topic/ph hi-d/b ">Highlight</b> feature that allows double-checking if
+         the Windows objects are able to be located.</p>
+        <p class="- topic/p ">Katalon Studio displays a message on how many elements are found
+         or NOT found with the selected locator strategy and locator. If the
+         object is found, it will be highlighted with the
+         <b class="+ topic/ph hi-d/b ">green</b> border.</p>
+        <p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-test-objects/name-highlight.png" scope="external" class="- topic/image "/>
+        </p>
+      </conbody>
+    </concept>

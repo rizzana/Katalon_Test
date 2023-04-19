@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">Upload a Git repository</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">Prepare your Katalon project repository on GitHub.</li><li class="- topic/li ">
+                <p class="- topic/p ">In the Jenkins Dashboard, go to <b class="+ topic/ph hi-d/b ">New Item</b> and create a <b class="+ topic/ph hi-d/b ">Freestyle project</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-docker/new-item.png" scope="external" class="- topic/image "><alt class="- topic/alt ">new item</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Source Code Management</b> section, choose <b class="+ topic/ph hi-d/b ">Git</b>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Enter your repository URL, select branches to build, repository browser, and additional behaviours, if any.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-docker/git.png" scope="external" class="- topic/image "><alt class="- topic/alt ">add git repository</alt></image>
+                </p>
+            </li></ol></conbody></concept>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_42" class="- topic/topic concept/concept "><title class="- topic/title ">New features</title><conbody class="- topic/body  concept/conbody "><ul class="- topic/ul "><li class="- topic/li ">[Katalon Studio Enterprise] Implement Native Windows Recorder
+            (for Windows only). <xref href="../../../../Create_tests/Record_And_Spy/Windows_Record_And_Spy_Utilities/Native_Windows_Recorder/windows-native-record.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li><li class="- topic/li ">[Katalon Studio Enterprise] Send Test Suite Collection's report
+            emails. <xref href="../../../../Analyze/Reports/Manage_Reports/Share-reports-via-emails-in-Studio/c_intro_email_settings.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li><li class="- topic/li ">[Katalon Studio Enterprise] Support retrying Failed test data
+            only in Test Suite's execution. <xref href="../../../../Execute/Execute_tests_in_Katalon_Studio/execute-a-test-suite/modify_execution_information.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li><li class="- topic/li ">[Web Testing] Support a new WebUI keyword to upload files by
+            drag-and-drop. <xref href="../../../../Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Web-UI-Keywords/webui-upload-file-drag-and-drop/webui-upload-file-drag-and-drop.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li><li class="- topic/li ">Allow setting a default execution profile at project level. <xref href="../../../../Create_tests/Data_Driven_Testing/execution-profile-v54/set_default_profile_at_project_level.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li></ul></conbody></concept>

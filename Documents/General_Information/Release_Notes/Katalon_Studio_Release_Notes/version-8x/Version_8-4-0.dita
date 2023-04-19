@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-2095" xml:lang="en-us" class="- topic/topic concept/concept "><title class="- topic/title ">Version 8.4.0</title><prolog class="- topic/prolog "><author translate="no" type="creator" class="- topic/author ">Xuan Tran &lt;xuan.tran@katalon.com&gt;</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "/></metadata></prolog><conbody class="- topic/body  concept/conbody "><section class="- topic/section ">
+            <title class="- topic/title ">New features</title>
+            <ul class="- topic/ul "><li class="- topic/li ">[API testing] Introduced GraphQL in the test request body. See <xref href="../../../../Create_tests/Test_Objects/API_Test_Object/graphql/intro_graphql.dita" class="- topic/xref ">GraphQL</xref>.</li><li class="- topic/li ">
+                    <p class="- topic/p ">[API testing] Introduced an option to validate XML/ JSON/ GraphQL string against schemas. See <xref href="../../../../Create_tests/Test_Objects/API_Test_Object/schema-validation-for-api-testing/schema-validation.dita" class="- topic/xref ">Schema compliance testing in Katalon Studio</xref>.</p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">[API testing] Introduced 3 new keywords for schema compliance testing:</p>
+                    <ul class="- topic/ul "><li class="- topic/li ">
+                            <p class="- topic/p "><xref href="../../../../Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Web-Service-Keywords/ws-validate-graphql-request-against-schema/WS_Validate_GraphQL_request_body_against_a_GraphQL_schema.dita" class="- topic/xref ">[WS] Validate a GraphQL string against a schema</xref>.</p>
+                        </li><li class="- topic/li ">
+                            <p class="- topic/p "><xref href="../../../../Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Web-Service-Keywords/ws-validate-json-schema/ws-validate-json-schema.dita" class="- topic/xref ">[WS] Validate a JSON string against a schema</xref>.</p>
+                        </li><li class="- topic/li ">
+                            <p class="- topic/p "><xref href="../../../../Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Web-Service-Keywords/ws-validate-xml-schema/ws-validate-xml-schema.dita" class="- topic/xref ">[WS] Validate an XML string against a schema</xref>.</p>
+                        </li></ul>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">[API testing] Introduced NTLM authentication in the test request object. See <xref href="../../../../Create_tests/Test_Objects/API_Test_Object/Authorization/ntlm-authentication/intro_NTLM_Authentication.dita" class="- topic/xref ">NTLM Authentication</xref>.</p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">[API testing] Introduced Bearer authentication in the test request object. See <xref href="../../../../Create_tests/Test_Objects/API_Test_Object/Authorization/bearer-authorization/Bearer_authentication.dita" class="- topic/xref ">Bearer Authentication</xref>.</p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">[Mobile Recorder] Added a context menu for waiting and verification keywords. See <xref href="../../../../Create_tests/Record_And_Spy/Mobile_Record_And_Spy_Utilities/An_Introduction_To_Katalon_Mobile_Recorder/Validate_UI_elements.dita" class="- topic/xref ">Validate UI elements</xref>.</p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">[BDD] Introduced an onboarding tour for behavior-driven development (BDD) testing. For existing users, you can always try out this BDD onboarding tour by opening a <uicontrol class="+ topic/ph ui-d/uicontrol ">Generic Project</uicontrol>, then go to <uicontrol class="+ topic/ph ui-d/uicontrol ">Katalon</uicontrol> &gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">Help</uicontrol> &gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">Quickstart guide</uicontrol> and choose <uicontrol class="+ topic/ph ui-d/uicontrol ">BDD</uicontrol> as the type of automated testing. See <xref href="../../../../Get_Started/Set_Up_Your_Workspace/Katalon_Help/quick_start_page.dita" class="- topic/xref ">Quickstart Guide</xref>.</p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">[Web testing] Introduced a solution to execute tests in IE mode in Microsoft Edge. See <xref href="../../../../Create_tests/Keywords/Custom_Keywords/Execute_Test_Inm_IE_Mode/run-test-in-edge-with-ie-mode.dita" class="- topic/xref ">Execute test in Internet Explorer (IE) mode in Microsoft Edge</xref>.</p>
+                </li></ul>
+        </section><section class="- topic/section ">
+            <title class="- topic/title ">Enhancements</title>
+            <ul class="- topic/ul "><li class="- topic/li ">
+                    <p class="- topic/p ">Added Chrome 102 compatibility.</p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">Added Edge 102 compatibility.</p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">Added GeckoDriver 0.31 compatibility (Firefox 91).</p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">[Security and Compliance] Added the digital signature on Katalon Studio IDE and Katalon Runtime Engine for Windows.</p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">Katalon Studio on Linux:</p>
+                    <ul class="- topic/ul "><li class="- topic/li ">
+                            <p class="- topic/p ">Added the option to update WebDriver with Edge Chromium on Linux.</p>
+                        </li><li class="- topic/li ">
+                            <p class="- topic/p ">Added the option to capture screenshots and record videos on Edge Chromium on Linux.</p>
+                        </li></ul>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">[Katalon Docker image]: Added the option to run tests with Edge Chromium on the Katalon Docker image.
+</p>
+                    
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">[Katalon Platform]:</p>
+                    <ul class="- topic/ul "><li class="- topic/li ">
+                            <p class="- topic/p ">[Katalon TestOps] Added the <codeph class="+ topic/ph pr-d/codeph ">-testOps.serverUrl</codeph> parameter for overriding authentication in Project Settings.</p>
+                        </li><li class="- topic/li ">
+                            <p class="- topic/p ">[Katalon TestOps] Added the <codeph class="+ topic/ph pr-d/codeph ">-testOps.baselineCollectionId</codeph> parameter for specifying which visual baseline collection to use when executing a test run via the Katalon command.</p>
+                        </li><li class="- topic/li ">
+                            <p class="- topic/p ">[Katalon TestCloud] Updated the command line to configure the TestCloud tunnel. See <xref href="../../../../Execute/Cloud_based_test_execution/Test_execution_with_TestCloud/KS_TestCloud_integration/Configure_TestCloud_Tunnel.dita" class="- topic/xref ">Configure TestCloud Tunnel</xref>.</p>
+                        </li></ul>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">[API testing] Added 3 new code snippets to the <uicontrol class="+ topic/ph ui-d/uicontrol ">Verification</uicontrol> tab:</p>
+                <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Response body: Validate JSON against schema</p></li><li class="- topic/li "><p class="- topic/p ">Response body: Validate XML against schema</p></li><li class="- topic/li "><p class="- topic/p ">Response body: Validate GraphQL against schema</p></li></ul></li><li class="- topic/li ">
+                    <p class="- topic/p ">[Applitools integration] To support the integration with Applitools On-Premise, we added the option to input the Applitools server URL to integrate with Katalon Studio in the <uicontrol class="+ topic/ph ui-d/uicontrol ">Project Settings</uicontrol>. See <xref href="../../../../Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/Applitools_Integration/applitools-integration.dita" class="- topic/xref ">Applitools Integration</xref>.</p>
+                </li></ul>
+        </section><section class="- topic/section ">
+            <title class="- topic/title ">Fixes</title>
+            <ul class="- topic/ul "><li class="- topic/li ">
+                    <p class="- topic/p ">[Bug] The shortcut to import default packages of built-in keywords: <userinput class="+ topic/ph sw-d/userinput ">Ctrl</userinput>/<userinput class="+ topic/ph sw-d/userinput ">Command</userinput>+<userinput class="+ topic/ph sw-d/userinput ">Shift</userinput>+<userinput class="+ topic/ph sw-d/userinput ">O</userinput> was not working properly.</p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">[Bug] Missing the Edge icon in the list of running browser instances in <uicontrol class="+ topic/ph ui-d/uicontrol ">Run from here</uicontrol> and <uicontrol class="+ topic/ph ui-d/uicontrol ">Debug from here</uicontrol>.</p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">[Bug] The web service keyword <codeph class="+ topic/ph pr-d/codeph ">getElementText</codeph> was not working properly.</p>
+                </li><li class="- topic/li ">[Bug] [Mobile] When configuring test suites inside a test suite collection to run with multiple mobile devices, the test suite collection only ran with one mobile device.</li></ul>
+        </section></conbody></concept>

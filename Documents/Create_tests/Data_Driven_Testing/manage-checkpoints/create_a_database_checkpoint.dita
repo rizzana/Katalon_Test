@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">Create a Database Checkpoint</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">
+          <p class="- topic/p ">Select <b class="+ topic/ph hi-d/b ">File &gt; New &gt;
+                  Checkpoint</b> from the main menu. The <b class="+ topic/ph hi-d/b ">New
+                  Checkpoint</b> dialog will be displayed. Enter the name
+               for your checkpoint and select <b class="+ topic/ph hi-d/b ">Database
+                  Data</b> as <b class="+ topic/ph hi-d/b ">Data Type</b>.
+               Click <b class="+ topic/ph hi-d/b ">Next</b>.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manage-checkpoints/image2017-2-6-143A433A42.png" scope="external" class="- topic/image "/>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">In the next dialog, enter the database connection details as
+               well as data query then click <b class="+ topic/ph hi-d/b ">Finish</b>.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manage-checkpoints/image2017-2-6-143A463A12.png" scope="external" class="- topic/image "/>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">The state of the selected data source will be captured and
+               displayed in <b class="+ topic/ph hi-d/b ">preview section</b> below. The
+               checkboxes for the data cells indicate whether they will be used
+               when verifying against other states of this data source
+               later.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manage-checkpoints/image2017-2-6-143A473A42.png" scope="external" class="- topic/image "/>
+          </p>
+        </li><li class="- topic/li ">Save the <b class="+ topic/ph hi-d/b ">Checkpoint</b> when you're
+            done. The data snapshot taken here can be used to compare with the
+            state of the data source later. Refer to <xref href="../../Keywords/Keywords_Description_In_Katalon_Studio/Common-Assertions/common-verify-checkpoint/common-verify-checkpoint.dita" class="- topic/xref ">[Common] Verify
+               Checkpoint</xref> keyword for more details.</li></ol></conbody></concept>

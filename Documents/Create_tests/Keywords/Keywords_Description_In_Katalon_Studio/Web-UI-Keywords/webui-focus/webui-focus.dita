@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_0" class="- topic/topic concept/concept "><title class="- topic/title ">[WebUI] Focus</title><conbody class="- topic/body  concept/conbody "><section id="id_1" class="- topic/section ">
+    <title class="- topic/title ">Description</title>
+    
+      <p class="- topic/p ">Move the focus to the specified element; for example is an input
+         field, move the cursor to that field.</p>
+    
+  </section><section id="id_2" class="- topic/section ">
+    <title class="- topic/title ">Parameters</title>
+    
+      <table class="- topic/table "><tgroup cols="4" class="- topic/tgroup "><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Param</entry><entry class="- topic/entry ">Param Type</entry><entry class="- topic/entry ">Mandatory</entry><entry class="- topic/entry ">Description</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">to</entry><entry class="- topic/entry ">TestObject</entry><entry class="- topic/entry ">Required</entry><entry class="- topic/entry ">Represent a web element.</entry></row><row class="- topic/row "><entry class="- topic/entry ">flowControl</entry><entry class="- topic/entry ">FailureHandling</entry><entry class="- topic/entry ">Optional</entry><entry class="- topic/entry ">Specify <xref href="../../../../../Maintain/failure-handling/failure-handling.dita" class="- topic/xref ">failure handling</xref> schema to
+                  determine whether the execution should be allowed to continue or
+                  stop.</entry></row></tbody></tgroup></table>
+    
+  </section><section id="id_3" class="- topic/section ">
+    <title class="- topic/title ">Example</title>
+    
+      <p class="- topic/p ">You want to focus on 'Comment' textbox.</p>
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.checkpoint.CheckpointFactory as CheckpointFactory
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as MobileBuiltInKeywords
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testcase.TestCaseFactory as TestCaseFactory
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testdata.TestDataFactory as TestDataFactory
+import com.kms.katalon.core.testobject.ObjectRepository as ObjectRepository
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WSBuiltInKeywords
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
+import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+
+'Open browser and navigate to demo AUT site.'
+WebUI.openBrowser(GlobalVariable.G_SiteURL)
+
+'Focus on \'Comment\' field'
+WebUI.focus(findTestObject('Page_CuraAppointment/txt_Comment'))
+
+'Close browser'
+WebUI.closeBrowser()
+</codeblock>
+      
+    
+  </section></conbody></concept>

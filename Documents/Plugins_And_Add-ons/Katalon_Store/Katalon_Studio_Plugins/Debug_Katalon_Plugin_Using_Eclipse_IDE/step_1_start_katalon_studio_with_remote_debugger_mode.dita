@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">
+        Step 1: Start <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> with remote debugger
+            mode
+      </title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Start <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> via CLI using this command:</p><codeblock class="+ topic/pre pr-d/codeblock ">&lt;katalon_installed_folder&gt;/katalon -vmargs -Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8000
+</codeblock><p class="- topic/p ">The <codeph class="+ topic/ph pr-d/codeph ">&lt;katalon_installed_folder&gt;</codeph> is the
+         absolute path to Katalon installed folder.</p><p class="- topic/p ">If you are using macOS, the
+         <codeph class="+ topic/ph pr-d/codeph ">&lt;katalon_installed_folder&gt;</codeph> should be <codeph class="+ topic/ph pr-d/codeph ">/Applications/Katalon Studio.app/Contents/MacOS</codeph>.</p><p class="- topic/p ">The <codeph class="+ topic/ph pr-d/codeph ">address=8000</codeph> is a local port number, JVM will
+         allow a debugger to attach to <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> via this port. You can
+         change to another port if needed.</p></conbody></concept>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Capture elements in hybrid Android apps</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">Create a new test case. Go to <b class="+ topic/ph hi-d/b ">File &gt; New &gt; Test Case</b>.</li><li class="- topic/li ">
+                <p class="- topic/p ">From the main toolbar in the blank test case page, click <b class="+ topic/ph hi-d/b ">Record Mobile</b> and select <b class="+ topic/ph hi-d/b ">Android Devices</b>. To learn more about the Record Mobile utility, you can refer to this document <xref href="../../Generate_test_scripts_PWA_using_mobile_recorder/c_intro_generate-test-scripts-for_PWA_with-mobile-recorder.dita" class="- topic/xref ">Record Mobile Utility</xref>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/Open-mobile-record.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Open Mobile Record</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In the pop-up <b class="+ topic/ph hi-d/b ">Mobile Recorder</b> dialog, specify the information in the <b class="+ topic/ph hi-d/b ">Configuration</b> section, then click <b class="+ topic/ph hi-d/b ">Start</b> to begin recording the application under test (AUT).</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/Start-mobile-record.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Start Mobile Record</alt></image>
+                </p>
+                <note type="note" class="- topic/note ">
+                    <ul class="- topic/ul "><li class="- topic/li ">If your application begins in a WebView, and you don't want to open the AUT in the <codeph class="+ topic/ph pr-d/codeph ">NATIVE_APP</codeph> context, go to <b class="+ topic/ph hi-d/b ">Project &gt; Settings &gt; Desired Capabilities &gt; Mobile &gt; Android</b> to set <codeph class="+ topic/ph pr-d/codeph ">autoWebview</codeph> to <codeph class="+ topic/ph pr-d/codeph ">true</codeph> in <b class="+ topic/ph hi-d/b ">Desired capabilities</b>.</li><li class="- topic/li ">With this setting, the AUT automatically enters the <codeph class="+ topic/ph pr-d/codeph ">WEBVIEW</codeph> context on session start. Skip Step 4,5,6 and move to Step 7 to continue to automate your hybrid app.</li></ul>
+                </note>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">By default, the Record Utility starts the AUT in the <codeph class="+ topic/ph pr-d/codeph ">NATIVE_APP</codeph> context. Set to the <codeph class="+ topic/ph pr-d/codeph ">WEBVIEW</codeph> context by using the <codeph class="+ topic/ph pr-d/codeph ">switchToWebView</codeph> mobile keyword. More information here: <xref href="../../../../Keywords/Keywords_Description_In_Katalon_Studio/Mobile-Keywords/mobile-switch-to-web-view/mobile-switch-to-web-view.dita" class="- topic/xref ">[Mobile]switchToWebView</xref>
+                </p>
+                <p class="- topic/p ">In the main toolbar, click <b class="+ topic/ph hi-d/b ">Add &gt; Mobile keyword</b>. A new command line appears, then manually add the <codeph class="+ topic/ph pr-d/codeph ">switchToWebview</codeph> mobile keyword.</p>
+                <codeblock class="+ topic/pre pr-d/codeblock ">//to set context to WebView
+Mobile.switchToWebView()
+</codeblock>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/add-webview-mobile-keyword.001.jpeg" scope="external" class="- topic/image "><alt class="- topic/alt ">Add switch to Webview</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Save Script</b>. An open dialog asks you to save captured objects into the Object Repository of Katalon Studio. Click <b class="+ topic/ph hi-d/b ">OK</b> to save recorded actions and objects.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In the new test case saved from step 5, do as follows:</p>
+                <ul class="- topic/ul "><li class="- topic/li ">Switch to the Script tab.</li><li class="- topic/li ">Remove command line <b class="+ topic/ph hi-d/b ">Close Application</b>.</li><li class="- topic/li ">Run the test script.</li></ul>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/results-after-recording-mobile-test.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Results after recording mobile test</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Next, open Chrome browser and navigate to <b class="+ topic/ph hi-d/b ">chrome://inspect/#devices</b>. The <b class="+ topic/ph hi-d/b ">chrome://inspect</b> page displays:</p>
+                <ul class="- topic/ul "><li class="- topic/li ">The name of your Android testing device.</li><li class="- topic/li ">The version of Chrome that's running on the device, with the version number in parentheses.</li><li class="- topic/li ">A list of debug-enabled WebViews on your device. After step 9, you should see the URL of the testing Android application here.</li><li class="- topic/li ">
+                        <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Inspect</b> to open a <b class="+ topic/ph hi-d/b ">Chrome Devtools</b> instance. Use <b class="+ topic/ph hi-d/b ">Chrome Devtools</b> to inspect WebView elements.</p>
+                        <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/chrome-inspect-displays-hybrid-app.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Chrome Inspect displays</alt></image>
+                        </p>
+                        <p class="- topic/p ">To learn more about <b class="+ topic/ph hi-d/b ">Chrome Devtools</b> and its functions, see also <xref format="html" href="https://developer.chrome.com/docs/devtools/" scope="external" class="- topic/xref ">Chrome Devtools</xref>.</p>
+                        <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/capture-objects-in-hybrid-apps/Chrome-Devtools.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Debug-enabled Webviews in Devtools</alt></image>
+                        </p>
+                    </li></ul>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Return to Katalon Studio. Create and automate objects in your test with inspected elements from Step 7. To learn more about creating test objects in Webview, you can refer to this document <xref href="../../../../Test_Objects/Web_Test_Objects/manage-web-test-object/manage-web-test-object.dita" class="- topic/xref ">Web Test Object</xref>.</p>
+                <p class="- topic/p ">In case you are defining test objects programmatically, you can use the following sample code in the script tab of your test:</p>
+                <p class="- topic/p ">
+                    <codeblock class="+ topic/pre pr-d/codeblock ">// this is unnecessary if your AUT automatically enters the WEBVIEW context on session start. 
+Mobile.switchToWebView() 
+// to implement Mobile Driver Factory 
+DriverFactory.changeWebDriver(MobileDriverFactory.getDriver())
+// to create a new test object named cdmDetails 
+TestObject cdmDetails = new TestObject() 
+// to add the object's property inspected from step 10 
+cdmDetails.addProperty("id", ConditionType.EQUALS, "119") 
+WebUI.setText(cdmDetails, "123")
+</codeblock>
+                </p>
+                <p class="- topic/p ">If you wish to stop automating in the <codeph class="+ topic/ph pr-d/codeph ">WEBVIEW</codeph> context and back to automating the native portion of the app, use the <codeph class="+ topic/ph pr-d/codeph ">switchToNative</codeph> mobile keyword. More information here: <xref href="../../../../Keywords/Keywords_Description_In_Katalon_Studio/Mobile-Keywords/mobile-switch-to-native/mobile-switch-to-native.dita" class="- topic/xref ">[Mobile]switchToNative</xref> mobile keyword.</p>
+                <p class="- topic/p ">
+                    <codeblock class="+ topic/pre pr-d/codeblock ">// to switch back to the native mode.
+Mobile.switchToNative()
+</codeblock>
+                </p><b class="+ topic/ph hi-d/b ">See also</b>
+                <ul class="- topic/ul "><li class="- topic/li "> <xref href="../../../../Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/flutter-based-application-testing.dita" class="- topic/xref ">Flutter-based application testing with SetText custom keyword</xref>
+                    </li></ul>
+            </li></ol></conbody></concept>

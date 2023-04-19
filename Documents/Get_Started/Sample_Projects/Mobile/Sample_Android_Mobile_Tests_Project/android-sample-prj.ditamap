@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-android-sample-prj" class="- map/map "><title class="- topic/title ">Sample Android mobile tests project</title><topicref href="android-sample-prj.dita" class="- map/topicref "><topicref href="open_the_sample_android_test_project.dita" class="- map/topicref "/><topicref href="android_sample_project_components.dita" class="- map/topicref "><topicref href="profiles.dita" class="- map/topicref "/><topicref href="test_cases.dita" class="- map/topicref "/><topicref href="Test_suite.dita" class="- map/topicref "/></topicref><topicref href="Execute_Android_tests.dita" class="- map/topicref "/></topicref></map>

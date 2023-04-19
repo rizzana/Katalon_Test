@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_7" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Enhancements from Beta version</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">Stabilized TestCloud tunnel performance for testing in private
+            domains: 
+            
+            <ul class="- topic/ul ">
+              <li class="- topic/li ">Improved resilience of TestCloud proxy server.</li>
+              <li class="- topic/li ">Queued up the execution if the number of requests exceeds the
+                  parallel quota.</li>
+            </ul>
+          </li>
+          <li class="- topic/li ">[UI] Displayed the <b class="+ topic/ph hi-d/b ">Trial</b> tag for the TestCloud
+            option when scheduling test runs in TestOps.</li>
+          <li class="- topic/li ">[UI] Displayed the <b class="+ topic/ph hi-d/b ">TestCloud</b> option when
+            clicking on <b class="+ topic/ph hi-d/b ">Run</b> to execute tests in Katalon
+            Studio.</li>
+        </ul>
+      </conbody>
+    </concept>

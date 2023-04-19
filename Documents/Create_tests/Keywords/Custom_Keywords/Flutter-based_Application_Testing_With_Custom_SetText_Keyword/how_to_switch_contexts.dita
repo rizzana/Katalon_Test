@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">How to switch contexts?</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">For the test engine to know whether you want to automate the
+         native aspects of the app or the web views, Katalon Studio provides
+         two keywords that help you switch contexts:</p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">
+          <xref href="../../Keywords_Description_In_Katalon_Studio/Mobile-Keywords/mobile-switch-to-native/mobile-switch-to-native.dita" class="- topic/xref ">Switch
+               to Native</xref>
+        </li>
+        <li class="- topic/li ">
+          <xref href="../../Keywords_Description_In_Katalon_Studio/Mobile-Keywords/mobile-switch-to-web-view/mobile-switch-to-web-view.dita" class="- topic/xref ">Switch
+               to WebView</xref>
+        </li>
+      </ul>
+      <p class="- topic/p ">The following is a code sample that automates elements of the
+         app:</p>
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">Mobile.switchToWebView()
+DriverFactory.changeWebDriver(MobileDriverFactory.getDriver())
+
+TestObject cdmDetails = new TestObject()
+cdmDetails.addProperty("id", ConditionType.EQUALS, "119")
+WebUI.setText(cdmDetails, "123")
+
+Mobile.switchToNative()
+</codeblock>
+      
+    </conbody>
+  </concept>

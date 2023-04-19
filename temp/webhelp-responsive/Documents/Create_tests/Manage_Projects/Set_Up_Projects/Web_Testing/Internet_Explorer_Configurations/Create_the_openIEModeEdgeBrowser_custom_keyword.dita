@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Web_Testing/Internet_Explorer_Configurations?><?workdir-uri file:/Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Web_Testing/Internet_Explorer_Configurations/?><?path2project ../../../../../../?><?path2project-uri ../../../../../../?><?path2rootmap-uri ../../../../../../?><?doctype-public -//OASIS//DTD DITA Task//EN?><?doctype-system task.dtd?><task xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="task-9430" class="- topic/topic task/task " ditaarch:DITAArchVersion="1.3" domains="(topic task) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d) (topic task strictTaskbody-c)" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Web_Testing/Internet_Explorer_Configurations/Create_the_openIEModeEdgeBrowser_custom_keyword.dita" xtrc="task:1;3:55" specializations="@props/deliveryTarget"><title class="- topic/title " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Web_Testing/Internet_Explorer_Configurations/Create_the_openIEModeEdgeBrowser_custom_keyword.dita" xtrc="title:1;3:85">Create the openIEModeEdgeBrowser custom keyword</title><taskbody class="- topic/body task/taskbody " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Web_Testing/Internet_Explorer_Configurations/Create_the_openIEModeEdgeBrowser_custom_keyword.dita" xtrc="taskbody:1;3:186"><steps class="- topic/ol task/steps " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Web_Testing/Internet_Explorer_Configurations/Create_the_openIEModeEdgeBrowser_custom_keyword.dita" xtrc="steps:1;3:224"><step class="- topic/li task/step " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Web_Testing/Internet_Explorer_Configurations/Create_the_openIEModeEdgeBrowser_custom_keyword.dita" xtrc="step:1;3:260"><cmd class="- topic/ph task/cmd " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Web_Testing/Internet_Explorer_Configurations/Create_the_openIEModeEdgeBrowser_custom_keyword.dita" xtrc="cmd:1;3:294">Go to <uicontrol class="+ topic/ph ui-d/uicontrol " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Web_Testing/Internet_Explorer_Configurations/Create_the_openIEModeEdgeBrowser_custom_keyword.dita" xtrc="uicontrol:1;3:346">Tests Explorer</uicontrol> &gt;
+               <uicontrol class="+ topic/ph ui-d/uicontrol " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Web_Testing/Internet_Explorer_Configurations/Create_the_openIEModeEdgeBrowser_custom_keyword.dita" xtrc="uicontrol:2;4:62">Keywords</uicontrol>, and create a new keyword package.</cmd><info class="- topic/itemgroup task/info " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Web_Testing/Internet_Explorer_Configurations/Create_the_openIEModeEdgeBrowser_custom_keyword.dita" xtrc="info:1;4:166"><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Web_Testing/Internet_Explorer_Configurations/Create_the_openIEModeEdgeBrowser_custom_keyword.dita" xtrc="p:1;4:188">Here we name the package <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Web_Testing/Internet_Explorer_Configurations/Create_the_openIEModeEdgeBrowser_custom_keyword.dita" xtrc="codeph:1;4:253">com.example</codeph>.</p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Web_Testing/Internet_Explorer_Configurations/Create_the_openIEModeEdgeBrowser_custom_keyword.dita" xtrc="p:2;4:300"><image width="500" href="image/ks-855-new-keyword-package.png" class="- topic/image " placement="inline" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Web_Testing/Internet_Explorer_Configurations/Create_the_openIEModeEdgeBrowser_custom_keyword.dita" xtrc="image:1;4:387" dita-ot:image-width="492" dita-ot:image-height="273"/></p></info></step><step class="- topic/li task/step " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Web_Testing/Internet_Explorer_Configurations/Create_the_openIEModeEdgeBrowser_custom_keyword.dita" xtrc="step:2;4:441"><cmd class="- topic/ph task/cmd " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Web_Testing/Internet_Explorer_Configurations/Create_the_openIEModeEdgeBrowser_custom_keyword.dita" xtrc="cmd:2;4:475">Right-click on the newly created package and create a new
+               keyword class.</cmd><info class="- topic/itemgroup task/info " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Web_Testing/Internet_Explorer_Configurations/Create_the_openIEModeEdgeBrowser_custom_keyword.dita" xtrc="info:2;5:79"><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Web_Testing/Internet_Explorer_Configurations/Create_the_openIEModeEdgeBrowser_custom_keyword.dita" xtrc="p:3;5:101">We name the class <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Web_Testing/Internet_Explorer_Configurations/Create_the_openIEModeEdgeBrowser_custom_keyword.dita" xtrc="codeph:2;5:159">openIEModeEdgeBrowser</codeph>.</p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Web_Testing/Internet_Explorer_Configurations/Create_the_openIEModeEdgeBrowser_custom_keyword.dita" xtrc="p:4;5:216"><image width="500" href="image/ks-855-new-keyword-package.png" class="- topic/image " placement="inline" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Web_Testing/Internet_Explorer_Configurations/Create_the_openIEModeEdgeBrowser_custom_keyword.dita" xtrc="image:2;5:303" dita-ot:image-width="492" dita-ot:image-height="273"/></p></info><info class="- topic/itemgroup task/info " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Web_Testing/Internet_Explorer_Configurations/Create_the_openIEModeEdgeBrowser_custom_keyword.dita" xtrc="info:3;5:357"><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Web_Testing/Internet_Explorer_Configurations/Create_the_openIEModeEdgeBrowser_custom_keyword.dita" xtrc="p:5;5:379">In the <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Web_Testing/Internet_Explorer_Configurations/Create_the_openIEModeEdgeBrowser_custom_keyword.dita" xtrc="codeph:3;5:426">openIEModeEdgeBrowser.groovy</codeph> file, copy and
+               paste the following script and save it.</p></info><info class="- topic/itemgroup task/info " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Web_Testing/Internet_Explorer_Configurations/Create_the_openIEModeEdgeBrowser_custom_keyword.dita" xtrc="info:4;6:109"><codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Manage_Projects/Set_Up_Projects/Web_Testing/Internet_Explorer_Configurations/Create_the_openIEModeEdgeBrowser_custom_keyword.dita" xtrc="codeblock:1;6:156">package com.example
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+
+import com.kms.katalon.core.annotation.Keyword
+import com.kms.katalon.core.checkpoint.Checkpoint
+import com.kms.katalon.core.checkpoint.CheckpointFactory
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords
+import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.testcase.TestCase
+import com.kms.katalon.core.testcase.TestCaseFactory
+import com.kms.katalon.core.testdata.TestData
+import com.kms.katalon.core.testdata.TestDataFactory
+import com.kms.katalon.core.testobject.ObjectRepository
+import com.kms.katalon.core.testobject.TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
+
+import internal.GlobalVariable
+
+import org.openqa.selenium.WebElement
+import org.openqa.selenium.ie.InternetExplorerDriver
+import org.openqa.selenium.ie.InternetExplorerOptions
+import org.openqa.selenium.WebDriver
+import org.openqa.selenium.By
+
+import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
+import com.kms.katalon.core.webui.driver.DriverFactory
+
+import com.kms.katalon.core.testobject.RequestObject
+import com.kms.katalon.core.testobject.ResponseObject
+import com.kms.katalon.core.testobject.ConditionType
+import com.kms.katalon.core.testobject.TestObjectProperty
+
+import com.kms.katalon.core.mobile.helper.MobileElementCommonHelper
+import com.kms.katalon.core.util.KeywordUtil
+
+import com.kms.katalon.core.webui.exception.WebElementNotFoundException
+
+
+class openIEModeEdgeBrowser {
+    /**
+    * Open browser
+    */
+    @Keyword
+    def openBrowser(String url) {
+        System.setProperty("webdriver.ie.driver", DriverFactory.getIEDriverPath());
+        InternetExplorerOptions edgeIe11Options = new InternetExplorerOptions();
+        Map&lt;String, Object&gt; ops = (Map&lt;String, Object&gt;) edgeIe11Options.getCapability("se:ieOptions");
+        ops.put("ie.edgechromium", true);
+        ops.put("ie.edgepath", "C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe");
+        edgeIe11Options.setCapability("ignoreProtectedModeSettings", true);
+        edgeIe11Options.setCapability("ignoreZoomSetting", true);
+        WebDriver driver = new InternetExplorerDriver(edgeIe11Options);
+        driver.get(url)
+        DriverFactory.changeWebDriver(driver)
+    }
+}    </codeblock></info></step></steps></taskbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="ditamap-8764" xtrc="topicref:6;3:924" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Execute_Test_Inm_IE_Mode/Execute_test_in_Internet_Explorer_IE_mode_in_Microsoft_Edge.ditamap"><link class="- topic/link " format="dita" href="../../../../../../Documents/Create_tests/Keywords/Custom_Keywords/Execute_Test_Inm_IE_Mode/run-test-in-edge-with-ie-mode.dita" mapclass="- map/topicref " role="parent" scope="local" type="concept" xtrc="topicref:1;3:218" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Execute_Test_Inm_IE_Mode/Execute_test_in_Internet_Explorer_IE_mode_in_Microsoft_Edge.ditamap"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Execute test with Katalon Studio in Internet Explorer (IE) mode in Microsoft Edge</linktext></link></linkpool></related-links></task>

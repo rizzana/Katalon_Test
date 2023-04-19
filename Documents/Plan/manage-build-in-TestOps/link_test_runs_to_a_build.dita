@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Link Test Runs to a build</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">You can link a Test Run to a Build (or a Release). See: <xref href="../Link-test-runs-to-a-release/Link_test_runs_to_a_release.dita" class="- topic/xref ">Link Test Runs to a Release</xref>.</p><note type="tip" class="- topic/note ">
+                <ul class="- topic/ul "><li class="- topic/li ">You can link multiple Test Runs to a Build.</li></ul>
+        </note><p class="- topic/p ">After linking, you can view the linked Test Runs on the Build page.</p></conbody></concept>

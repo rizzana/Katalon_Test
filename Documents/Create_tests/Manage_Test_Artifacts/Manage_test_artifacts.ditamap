@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-8731" class="- map/map "><title class="- topic/title ">Manage test artifacts</title><mapref format="ditamap" href="Test_Artifact_Sharing/import-export-test-artifact.ditamap" class="+ map/topicref mapgroup-d/mapref "/><mapref format="ditamap" href="Using_Git_Submodules_To_Share_Test_Artifacts/git-integration-submodules.ditamap" class="+ map/topicref mapgroup-d/mapref "/><mapref format="ditamap" href="Working_With_BDD_Feature_File/Working_with_BDD_feature_files.ditamap" class="+ map/topicref mapgroup-d/mapref "/></map>

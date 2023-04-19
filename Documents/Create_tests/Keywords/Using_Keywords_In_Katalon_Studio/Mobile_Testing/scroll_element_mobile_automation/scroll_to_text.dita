@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+  <title class="- topic/title ">Scroll To Text</title>
+  <conbody class="- topic/body  concept/conbody ">
+
+    <p class="- topic/p ">This tutorial illustrates <b class="+ topic/ph hi-d/b ">Scroll to text</b>
+         behavior in the mobile app. The demonstration uses API demos, which
+         you can download from <xref format="html" href="https://github.com/katalon-studio/katalon-mobile-automation/blob/master/Data%20Files/ApiDemos.apk" scope="external" class="- topic/xref ">here</xref>.
+         The application apk file also comes with the sample project
+         packaged with your product installation. We will be using Android
+         O.S for this tutorial, so make sure that your Android device API is
+         greater than 18.</p>
+  </conbody>
+  
+  
+  
+</concept>

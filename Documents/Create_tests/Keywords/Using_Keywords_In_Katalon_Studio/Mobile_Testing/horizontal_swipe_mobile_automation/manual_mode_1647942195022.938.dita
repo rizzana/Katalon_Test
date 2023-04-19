@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Manual Mode</title><conbody class="- topic/body  concept/conbody "><ul class="- topic/ul "><li class="- topic/li ">Step 1: Select <b class="+ topic/ph hi-d/b ">Start
+               Application</b> from mobile keyword and click on
+            <b class="+ topic/ph hi-d/b ">Input</b>, a new window will appear. In
+            <b class="+ topic/ph hi-d/b ">appFile</b>
+          <i class="+ topic/ph hi-d/i ">,</i> select Value Type as
+            <b class="+ topic/ph hi-d/b ">Variable</b>. In <b class="+ topic/ph hi-d/b ">Value</b>, pass the
+            variable name as <b class="+ topic/ph hi-d/b ">path</b>.</li></ul><p class="- topic/p ">
+        
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/horizontal_swipe_mobile_automation/Handling-Horizontal-Swipe-in-Mobile-Automation-1.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Handling Horizontal Swipe in Mobile Automation</alt></image>
+        
+      </p><ul class="- topic/ul "><li class="- topic/li ">Step 2: After launching the application, call a <b class="+ topic/ph hi-d/b ">Wait
+               For Element Present</b> method. Capture the status of an Alert
+            presence in a variable '<b class="+ topic/ph hi-d/b ">alert_Status</b>'. It returns
+            true when an alert is present and false when alert is not
+            present.</li><li class="- topic/li ">Step 3: Adding an If statement, if
+            '<b class="+ topic/ph hi-d/b ">alert_Status</b>' is true, tap on "Don't show this
+            message again" and tap OK<b class="+ topic/ph hi-d/b ">.</b>
+        </li></ul><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/horizontal_swipe_mobile_automation/Handling-Horizontal-Swipe-in-Mobile-Automation-3.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Handling Horizontal Swipe in Mobile Automation</alt></image>
+      </p><ul class="- topic/ul "><li class="- topic/li ">Step 4: Add another <b class="+ topic/ph hi-d/b ">Wait For Element Present</b>
+            item to verify whether the mobile element pops up.</li><li class="- topic/li ">Step 5: Use <b class="+ topic/ph hi-d/b ">Get Device Height</b> keyword to
+            capture the height of the device and store it in a
+            <b class="+ topic/ph hi-d/b ">device<i class="+ topic/ph hi-d/i ">height</i> variable. Select</b> Get Device
+            Width keyword to capture the width of the device and storing it in
+            a <b class="+ topic/ph hi-d/b ">device</b>Width variable.</li><li class="- topic/li ">Step 6: Add a <b class="+ topic/ph hi-d/b ">binary statement</b> with the
+            'startY' divided by 2. Here, the y-coordinates are constant.</li><li class="- topic/li ">Step 7: Add <b class="+ topic/ph hi-d/b ">binary statement</b>, here 'endY' and
+            'startY' values are the same for horizontal swiping, so re-assign
+            'startY' value to 'endY'.</li><li class="- topic/li ">Step 8: Add <b class="+ topic/ph hi-d/b ">binary statement</b> and multiply
+            device width with 0.30 to store it in 'startX' variable.</li><li class="- topic/li ">Step 9: Add <b class="+ topic/ph hi-d/b ">binary statement</b> and multiply
+            device width with 0.70 to store it in 'endX' variable.</li><li class="- topic/li ">Step 10: Call the <b class="+ topic/ph hi-d/b ">swipe method</b> and select the
+            <b class="+ topic/ph hi-d/b ">Value Type</b> as '<b class="+ topic/ph hi-d/b ">Variable</b>'. Pass
+            the startX, startY, endX, endY values to that method</li></ul><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/horizontal_swipe_mobile_automation/Handling-Horizontal-Swipe-in-Mobile-Automation-10.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Handling Horizontal Swipe in Mobile Automation</alt></image>
+      </p><p class="- topic/p ">The step-by-step guide above can be achieved through
+         <b class="+ topic/ph hi-d/b ">Script mode</b> (switch to Script Mode by clicking on
+         Script tab).</p><p class="- topic/p ">
+        <i class="+ topic/ph hi-d/i ">
+          <b class="+ topic/ph hi-d/b ">Note:</b> Swiping horizontally from right to
+            left can also be implemented similarly.</i>
+      </p></conbody></concept>

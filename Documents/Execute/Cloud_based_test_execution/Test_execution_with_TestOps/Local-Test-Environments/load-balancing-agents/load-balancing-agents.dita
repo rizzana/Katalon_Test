@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Load Balancing for Local Test Environments</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">With Katalon TestOps, your tests can be executed in parallel
+         using load-balanced configurations.</p><p class="- topic/p ">To do so, Katalon TestOps distributes Test Executions over
+         Agents to optimize Remote Execution efficiency.</p><p class="- topic/p ">Each Agent can be configured with a unique Threshold. Test
+         Executions can then be setup to minimize Agent idleness.</p><note type="important" class="- topic/note ">
+        
+
+        <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">You have at least one active Local Test Environment. See: <xref href="../agents/agents.dita" class="- topic/xref ">Create
+               a Local Test Environment with an Agent</xref>.</p></li></ul>
+      </note></conbody></concept>

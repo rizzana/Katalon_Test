@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Remove a registered machine ID</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">This action removes the license associated with a registered
+         machine ID. This license is then available to be attributed again.
+         The User who had their machine ID removed from the registered
+         machine ID list can still use the free Katalon product.</p><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+          <p class="- topic/p ">Go to the <b class="+ topic/ph hi-d/b ">License Management</b> page.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Scroll down to the <b class="+ topic/ph hi-d/b ">Registered Machines</b>
+               section.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Click on the <i class="+ topic/ph hi-d/i ">Trash bin</i> icon of the machine ID you want
+               to remove.</p>
+          <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Deactivate Machine</b> box pops up.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Remove</b> to confirm your action.</p>
+        </li></ol><note type="note" class="- topic/note ">
+        
+        <ul class="- topic/ul "><li class="- topic/li ">You can also remove machine IDs associated with a Licensed User
+               by following this guide: <xref href="remove_a_licensed_user.dita" class="- topic/xref ">Remove
+                  Licensed Users</xref>.</li></ul>
+      </note></conbody></concept>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id_38" class="- topic/topic ">
+    <title class="- topic/title ">3.4.10</title>
+    <body class="- topic/body ">
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">Command names are now case-insensitive.</li>
+        <li class="- topic/li ">On Chrome, "sendKeys" and "type" (for file inputs) can now be
+            used with all types of locators. The old versions required CSS
+            locators.</li>
+      </ul>
+    </body>
+  </topic>

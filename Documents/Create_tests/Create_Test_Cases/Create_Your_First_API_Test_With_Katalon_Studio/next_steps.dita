@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_10" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Next steps</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">Now we finish creating our first test. In order to create tests
+         for a real project with a practical solution, we would need to
+         create more tests with more techniques:</p>
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">Parameterize your tests</li>
+          <li class="- topic/li ">Apply data-driven approach</li>
+          <li class="- topic/li ">Create custom keywords/packages</li>
+          <li class="- topic/li ">Call tests and reuse code</li>
+          <li class="- topic/li ">Include error handling</li>
+          <li class="- topic/li ">View test reports after test suite execution</li>
+        </ul>
+      </conbody>
+    </concept>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Windows</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ol class="- topic/ol ">
+          <li class="- topic/li ">Download and install <xref format="html" href="https://cmake.org/download/" scope="external" class="- topic/xref ">CMake</xref>.</li>
+
+          <li class="- topic/li ">Add CMake binary folder to PATH in Environment Variables. <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-image-based-testing.md/cmake-windows.png" scope="external" class="- topic/image "/>
+          </li>
+          <li class="- topic/li ">Run the following commands</li>
+        </ol>
+        
+          <codeblock class="+ topic/pre pr-d/codeblock ">   npm install -g appium
+    npm install -g windows-build-tools
+    npm install -g opencv4nodejs
+</codeblock>
+        
+      </conbody>
+    </concept>

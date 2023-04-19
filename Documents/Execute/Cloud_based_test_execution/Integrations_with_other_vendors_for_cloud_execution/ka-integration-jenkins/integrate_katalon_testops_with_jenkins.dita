@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Integrate Katalon TestOps with Jenkins</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Sign in to Jenkins.</p>
+                <p class="- topic/p ">The Jenkins's <b class="+ topic/ph hi-d/b ">Dashboard</b> page appears.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Select <b class="+ topic/ph hi-d/b ">New Item</b> on the left sidebar.</p>
+                <p class="- topic/p ">The page appears as below.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-jenkins-integration/jk-s1-create-free-style-project.png" scope="external" width="100%" class="- topic/image "><alt class="- topic/alt ">jenkins new item page</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Select <b class="+ topic/ph hi-d/b ">Freestyle project</b>, then enter a name for your project.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">OK</b>.</p>
+                <p class="- topic/p ">You will be navigated to your project's page as below.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-jenkins-integration/jk-s2-create-build.png" scope="external" width="100%" class="- topic/image "><alt class="- topic/alt ">jenkins create project</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click on the <b class="+ topic/ph hi-d/b ">Build</b> tab.</p>
+                <p class="- topic/p ">You will be navigated to the <b class="+ topic/ph hi-d/b ">Build</b> section.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Add build step</b>, then select <b class="+ topic/ph hi-d/b ">Execute Katalon TestOps Plan</b> from the dropdown menu.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-jenkins-integration/jk-build-execute-kto-plan.png" scope="external" width="100%" class="- topic/image "><alt class="- topic/alt ">jenkins build</alt></image>
+                </p>
+                <p class="- topic/p ">The new <b class="+ topic/ph hi-d/b ">Execute Katalon TestOps Plan</b> dialog will appear under <b class="+ topic/ph hi-d/b ">Build</b>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Fill in the required information.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-jenkins-integration/jenkins-credentials-highlight.png" scope="external" width="100%" class="- topic/image "><alt class="- topic/alt ">jenkins build</alt></image>
+                </p>
+                <ul class="- topic/ul "><li class="- topic/li ">
+                        <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Server URL</b> section, enter <codeph class="+ topic/ph pr-d/codeph ">https://testops.katalon.io</codeph>.</p>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Credentials</b> section, click <b class="+ topic/ph hi-d/b ">Add</b> &gt; <b class="+ topic/ph hi-d/b ">Jenkins</b> to add a new credential.</p>
+                        <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Add Credentials</b> dialog appears as below.</p>
+                        <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/jenkins-ka-integration/secret-text.png" scope="external" class="- topic/image "><alt class="- topic/alt ">jenkins add credentials</alt></image>
+                        </p>
+                        <ul class="- topic/ul "><li class="- topic/li ">In the <b class="+ topic/ph hi-d/b ">Kind</b> section, select <b class="+ topic/ph hi-d/b ">Secret Text</b> from the dropdown list.</li><li class="- topic/li ">In the <b class="+ topic/ph hi-d/b ">Secret</b> section, enter a Katalon TestOps API Key. See: <xref href="../../../../Administer/Security_Settings/ka-api-key/ka-api-key.dita" class="- topic/xref ">API Keys</xref>.</li><li class="- topic/li ">In the <b class="+ topic/ph hi-d/b ">ID</b> section, give a name for the new credential (e.g., <b class="+ topic/ph hi-d/b ">katalon-api-key-test</b>).</li><li class="- topic/li ">
+                                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Add</b> to finish.</p>
+                                <p class="- topic/p ">You have added a new credential.</p>
+                                <p class="- topic/p ">You will be automatically navigated back to the <b class="+ topic/ph hi-d/b ">Credentials</b> section, where you can select the newly-added credential in the <b class="+ topic/ph hi-d/b ">- none -</b> box.</p>
+                            </li></ul>
+                    </li></ul>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Test Connection</b> for Jenkins to retrieve Projects and Test Runs from Katalon TestOps.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-jenkins-integration/jenkins-project-plans-retrieval.png" scope="external" class="- topic/image "><alt class="- topic/alt ">jenkins add credentials</alt></image>
+                </p>
+                <note type="note" class="- topic/note ">
+                        <ul class="- topic/ul "><li class="- topic/li ">If the test connection is successful, you will see <i class="+ topic/ph hi-d/i ">Success!</i> on the screen (highlighted in the image above).
+                            </li></ul>
+                </note>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Select your project and the schedule you have created earlier. See: <xref href="../../../CICD_Integrations/Jenkins-Integration/ka-integration-jenkins/configure_test_runs_in_katalon_testops.dita" class="- topic/xref ">Configure Test Runs in Katalon TestOps</xref>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Save</b>.</p>
+                <p class="- topic/p ">You will be navigated back to the Jenkins <b class="+ topic/ph hi-d/b ">Dashboard</b> page.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Select <b class="+ topic/ph hi-d/b ">Build Now</b> on the left sidebar to run the job.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-jenkins-integration/jk-build-now.png" scope="external" class="- topic/image "><alt class="- topic/alt ">jenkins add credentials</alt></image>
+                </p>
+            </li></ol></conbody></concept>

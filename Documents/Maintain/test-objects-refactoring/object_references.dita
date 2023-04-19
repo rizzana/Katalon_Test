@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Object References</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">You can see in which places a test object has been used by viewing its references. Right-click on the object, in the drop-down menu, select <b class="+ topic/ph hi-d/b ">Show References</b>. Katalon Studio searches for that object and returns its references. Double-click on a highlighted reference to go to the corresponding place in that project.</p><p class="- topic/p ">Example:</p><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-object-refactor/830-object-reference.png" scope="external" class="- topic/image "/></p><note type="note" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">
+                    <p class="- topic/p ">Unused objects have no references and appear in the <b class="+ topic/ph hi-d/b ">Unused Test Objects Report</b> mentioned above.</p>
+                </li></ul>
+        </note></conbody></concept>

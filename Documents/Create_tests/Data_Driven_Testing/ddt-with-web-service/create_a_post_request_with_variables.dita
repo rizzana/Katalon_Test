@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Create a POST request with variables</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">We use the POST request to send the user information, including username, password, age, gender, and avatar to the server to create an account, then expect a user ID as the response.</p><p class="- topic/p ">Follow these steps to create and configure the POST request:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Create a Web Service request. From the main menu, select <b class="+ topic/ph hi-d/b ">File &gt; New &gt; Web Service Request</b>. In the displayed <b class="+ topic/ph hi-d/b ">New</b> dialog, name the request and specify the request type as <b class="+ topic/ph hi-d/b ">RESTful</b> request.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-new-web-request-POST.png" scope="external" class="- topic/image "><alt class="- topic/alt ">New Web request dialog</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Specify the API endpoint. In our example, the API endpoint is <codeph class="+ topic/ph pr-d/codeph ">https://sample-web-service-aut.herokuapp.com/api/users/json</codeph>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-New-POST-API-endpoint.png" scope="external" class="- topic/image "><alt class="- topic/alt ">POST request API endpoint</alt></image>
+                </p>
+                <p class="- topic/p ">To learn more about API endpoint management, refer to this document: <xref href="../../Introduction_To_Test_Creation/AUT/introduction_api_testing/api_testing_best_practices.dita" class="- topic/xref ">API testing best practices</xref>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Variables</b> tab, input <codeph class="+ topic/ph pr-d/codeph ">username</codeph>, <codeph class="+ topic/ph pr-d/codeph ">password</codeph>, <codeph class="+ topic/ph pr-d/codeph ">gender</codeph>, <codeph class="+ topic/ph pr-d/codeph ">age</codeph>, and <codeph class="+ topic/ph pr-d/codeph ">avatar</codeph> variables.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-POST-request-variable-tab.png" scope="external" class="- topic/image "><alt class="- topic/alt ">POST Variables tab</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">To call a variable in a Web Service object, use the <codeph class="+ topic/ph pr-d/codeph ">${&lt;variable_name&gt;}</codeph> syntax as a placeholder in any of the supported locations.</p>
+                <p class="- topic/p ">Here we use the syntax to specify the variables in the <b class="+ topic/ph hi-d/b ">HTTP Body</b> tab.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-POST-request-HTTP-body.png" scope="external" class="- topic/image "><alt class="- topic/alt ">HTTP Body tab</alt></image>
+                </p>
+            </li></ol></conbody></concept>

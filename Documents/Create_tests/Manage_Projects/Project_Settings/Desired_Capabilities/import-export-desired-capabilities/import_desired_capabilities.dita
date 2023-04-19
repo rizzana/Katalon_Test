@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Import desired capabilities</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">After exporting the JSON files, you can modify them if needed, then import them into another projects.</p><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Project/Settings/Desired Capabilities</b> &gt; choose the driver you want to import the desired capabilities of. Click <b class="+ topic/ph hi-d/b ">Import</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/project-settings-new-ui/KS-DC-Import-DC.png" scope="external" class="- topic/image "/>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">A dialog box appears. Click <b class="+ topic/ph hi-d/b ">Browse</b>. Navigate to the JSON file you want to import and select it. Click <b class="+ topic/ph hi-d/b ">OK</b>.</p>
+                <note type="note" class="- topic/note ">
+                    <ul class="- topic/ul "><li class="- topic/li ">You can decide whether to override all existing desired capabilities by checking/unchecking the <b class="+ topic/ph hi-d/b ">Override existing properties</b> box.</li></ul>
+                </note>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops/desired-capabilities-management/chrome_dc.png" scope="external" width="400" class="- topic/image "/>
+                </p>
+            </li></ol></conbody></concept>

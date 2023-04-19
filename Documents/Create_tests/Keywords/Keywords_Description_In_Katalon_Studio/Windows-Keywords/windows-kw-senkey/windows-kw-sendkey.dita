@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_0" class="- topic/topic concept/concept "><title class="- topic/title ">[Windows] Send Keys</title><conbody class="- topic/body  concept/conbody "><section id="id" class="- topic/section ">
+    <title class="- topic/title ">Requirements</title><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Katalon Studio version 7.0.0 onwards.</p></li></ul>
+    
+      
+    
+  </section><section id="id_1" class="- topic/section ">
+    <title class="- topic/title ">sendKeys</title>
+    
+      <ul class="- topic/ul "><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Description</b>: Simulate keystroke events on the
+            specified element by pressing a key or a combination of keys.</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Keyword name</b>: sendKeys</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Keyword syntax</b>:
+            sendKeys(windowsObject,strKeys)</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Parameters</b>: 
+            
+            <ul class="- topic/ul "><li class="- topic/li ">Name: windowsObject</li><li class="- topic/li ">Description: An object that describes the locator and locator
+                  strategy to find Windows Element.</li><li class="- topic/li ">Parameter Type: WindowsTestObject</li><li class="- topic/li ">Mandatory: Required</li><li class="- topic/li ">Name: strKeys</li><li class="- topic/li ">Description: A combination of keys to press.</li><li class="- topic/li ">Parameter Type: String</li><li class="- topic/li ">Mandatory: Required</li></ul>
+        </li></ul>
+    
+  </section><section id="id_2" class="- topic/section ">
+    <title class="- topic/title ">Method Keys.chord</title>
+    
+      <p class="- topic/p ">For pressing a combination of keys, the <codeph class="+ topic/ph pr-d/codeph ">Keys.chord</codeph>
+         method is used along with the <codeph class="+ topic/ph pr-d/codeph ">sendKeys</codeph> keyword.</p>
+      <ul class="- topic/ul "><li class="- topic/li ">
+          <p class="- topic/p "><b class="+ topic/ph hi-d/b ">Description</b>: <codeph class="+ topic/ph pr-d/codeph ">chord() of org.openqa.selenium.Keys</codeph></p><p class="- topic/p ">Simulate pressing many keys at once in a "chord". Takes a
+                  sequence of Keys.XXXX or strings; appends each of the values to a
+                  string, and adds the chord termination key (<codeph class="+ topic/ph pr-d/codeph ">Keys.NULL</codeph>)
+                  and returns the resultant string. Note: When the low-level
+                  webdriver key handlers see <codeph class="+ topic/ph pr-d/codeph ">Keys.NULL</codeph>, active modifier
+                  keys (CTRL/ALT/SHIFT/etc) release via a keyup event.</p>
+          
+          <p class="- topic/p ">Please see <xref format="html" href="https://www.codota.com/code/java/methods/org.openqa.selenium.Keys/chord" scope="external" class="- topic/xref ">this
+                  document</xref> for further instructions and examples.</p>
+        </li><li class="- topic/li "><b class="+ topic/ph hi-d/b ">Method name</b>: Keys.chord</li><li class="- topic/li "><b class="+ topic/ph hi-d/b ">Method syntax</b>: Keys.chord(...)</li></ul>
+    
+  </section><section id="id_3" class="- topic/section ">
+    <title class="- topic/title ">Example</title>
+    
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">//Press Ctrl+A on the Edit element
+Windows.sendKeys(findWindowsObject('Object Repository/Notepad/Edit'),Keys.chord(Keys.CONTROL,'a'))
+</codeblock>
+      
+    
+  </section></conbody></concept>

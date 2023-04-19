@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_0" class="- topic/topic concept/concept "><title class="- topic/title ">[WebUI] Enhanced Click</title><conbody class="- topic/body  concept/conbody "><note type="note" class="- topic/note ">
+        <p class="- topic/p ">Your Katalon Studio version must be <b class="+ topic/ph hi-d/b ">7.2.5+</b>.</p>
+      </note><note type="warning" class="- topic/note ">
+        <p class="- topic/p ">This keyword uses Javascript click as the last fallback
+            which may not have the same effect as an actual click on an
+            element.</p>
+      </note><section id="id_1" class="- topic/section ">
+    <title class="- topic/title ">enhancedClick</title>
+    
+      <ul class="- topic/ul "><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Description</b>: Click on the given element using
+            various trial-and-error methods</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Keyword name</b>: Enhanced Click</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Keyword syntax</b>: <codeph class="+ topic/ph pr-d/codeph ">enhancedClick(TestObject
+               to, FailureHandling flowControl)</codeph>
+        </li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Parameters</b>: 
+            
+            <ul class="- topic/ul "><li class="- topic/li ">Name: to<ul class="- topic/ul "><li class="- topic/li ">Description: An object representing a web element</li><li class="- topic/li ">Parameter Type: TestObject</li><li class="- topic/li ">Mandatory: Required</li></ul></li><li class="- topic/li ">Name: flowControl<ul class="- topic/ul "><li class="- topic/li ">Description: Specify failure handling schema to determine
+                  whether the execution should be allowed to continue or stop.</li><li class="- topic/li ">Parameter Type: FailureHandling</li><li class="- topic/li ">Mandatory: Optional</li></ul></li></ul>
+        </li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Throw</b>: StepFailedException</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Example</b>:</li></ul>
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">'Open browser and navigate to demo AUT site.'
+WebUI.openBrowser(GlobalVariable.G_SiteURL)
+
+'Click on \'Book Appointment\' button'
+WebUI.enhancedClick(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))
+
+'Close browser'
+WebUI.closeBrowser()
+</codeblock>
+      
+    
+  </section></conbody></concept>

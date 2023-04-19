@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-8752" class="- map/map "><title class="- topic/title ">Submit an issue from Katalon Studio to Jira</title><topicref href="Submit_an_issue_from_Katalon_Studio_to_Jira.dita" class="- map/topicref "/><reltable class="- map/reltable ">
+    <relheader class="- map/relheader ">
+      <relcolspec type="task" class="- map/relcolspec "/>
+      <relcolspec type="task" class="- map/relcolspec "/>
+      
+    </relheader>
+    <relrow class="- map/relrow ">
+      <relcell class="- map/relcell ">
+      <topicref href="Submit_an_issue_from_Katalon_Studio_to_Jira.dita" class="- map/topicref "/></relcell>
+      <relcell class="- map/relcell ">
+      <topicref href="../view-test-results-in-jira-tickets/intro_view_Studio_test_results_in_Jira_tickets.dita" class="- map/topicref "/></relcell>
+      
+    </relrow>
+  </reltable></map>

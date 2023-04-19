@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_18" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">New features</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+
+          <li class="- topic/li ">Added Re-run Test Results to the Test Results summary. See: <xref href="../../../../Analyze/Reports/View_Test_Reports/View_reports_in_TestOps/view-rerun-results/intro-view-rerun-results-in-TestOps.dita" class="- topic/xref ">View
+               Re-run Test Results in TestOps</xref>.</li>
+        </ul>
+      </conbody>
+    </concept>

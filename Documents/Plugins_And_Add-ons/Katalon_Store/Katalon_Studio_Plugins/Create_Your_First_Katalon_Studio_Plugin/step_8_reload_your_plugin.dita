@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_9" class="- topic/topic concept/concept "><title class="- topic/title ">
+      Step 8: Reload your plugin
+    </title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Type <codeph class="+ topic/ph pr-d/codeph ">mvn clean package</codeph> and wait until the
+         <b class="+ topic/ph hi-d/b ">BUILD SUCCESS</b> message is displayed in the command
+         line window.</p><p class="- topic/p ">Click on <codeph class="+ topic/ph pr-d/codeph ">Plugin/Uninstall Plugin</codeph> to uninstall your
+         first loaded plugin.</p><p class="- topic/p ">Click on <codeph class="+ topic/ph pr-d/codeph ">Plugin/Install Plugin</codeph> and choose the jar
+         file again.</p></conbody></concept>

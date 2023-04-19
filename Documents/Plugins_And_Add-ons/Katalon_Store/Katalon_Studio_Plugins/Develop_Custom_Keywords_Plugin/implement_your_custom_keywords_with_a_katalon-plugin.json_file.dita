@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Implement your custom keywords with a
+         <codeph class="+ topic/ph pr-d/codeph ">katalon-plugin.json</codeph> file</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">In the <codeph class="+ topic/ph pr-d/codeph ">Keywords</codeph> folder, add a
+         <codeph class="+ topic/ph pr-d/codeph ">katalon-plugin.json</codeph> file with the following
+         format:</p>
+        
+          <codeblock class="+ topic/pre pr-d/codeblock ">{
+  "keywords": [keywordClass1, keywordClass2]
+}
+</codeblock>
+        
+        <p class="- topic/p ">Example:</p>
+        
+          <codeblock class="+ topic/pre pr-d/codeblock ">{
+    "keywords": ["com.katalon.plugin.keyword.zip.ZipKeywords"]
+}
+</codeblock>
+        
+      </conbody>
+    </concept>

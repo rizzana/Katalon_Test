@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Execute Katalon Studio tests with Jenkins Pipeline Script (Jenkinsfile)</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Jenkins Pipeline (Jenkinsfile) provides an extensible set of tools for modeling simple-to-complex delivery pipelines. To learn more about creating a Jenkinsfile, you can refer to this Jenkins document: <xref format="html" href="https://www.jenkins.io/doc/book/pipeline/jenkinsfile/" scope="external" class="- topic/xref ">Using a Jenkinsfile</xref>.</p><note type="important" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">
+                    <p class="- topic/p ">Jenkins installed. Follow the instructions in this Jenkins document for installation: <xref format="html" href="https://www.jenkins.io/doc/book/installing/" scope="external" class="- topic/xref ">Getting started</xref>. </p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">Katalon Runtime Engine (KRE) installed. You can download Katalon Runtime Engine here: <xref format="html" href="https://www.katalon.com/download/" scope="external" class="- topic/xref ">Katalon products</xref>. </p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">An active Katalon Runtime Engine license. To learn more about activating the Katalon Runtime Engine license, you can refer to this document: <xref href="../../../../Administer/KSE-KRE-Licenses/activate-license/activate_trial_license.dita" class="- topic/xref ">Activate Katalon License</xref>.</p>
+                </li></ul>
+        </note><p class="- topic/p ">This tutorial shows you how to execute Katalon Studio tests in Jenkins with Jenkins Pipeline Script (Jenkinsfile). Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">In the Jenkins Dashboard, go to <b class="+ topic/ph hi-d/b ">New Item</b> and create a <b class="+ topic/ph hi-d/b ">Jenkins Pipeline</b> project.</li><li class="- topic/li ">
+                <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Definition</b> dropdown list, select <b class="+ topic/ph hi-d/b ">Pipeline Script</b>.</p>
+                <p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-Choose-pipeline-script.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Select Pipeline script</alt></image></p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Copy and paste the following command-line arguments in the <b class="+ topic/ph hi-d/b ">Script</b> box:</p>
+                <p class="- topic/p "><b class="+ topic/ph hi-d/b ">For Windows</b>
+                    <codeblock class="+ topic/pre pr-d/codeblock ">pipeline {
+    agent any
+    stages {
+        stage('Test') {
+            steps {
+                bat """
+                cd  &lt;KRE installed folder&gt;
+                katalonc  -projectPath="&lt;projectpath&gt;" -browserType="&lt;browser&gt;" -retry=&lt;number of retry times&gt; -statusDelay=&lt;seconds&gt; -testSuitePath="&lt;path&gt;" -apiKey="&lt;user API key&gt;" -orgID=&lt;Katalon_OrgID&gt;
+                """
+
+            }
+
+        }
+
+    }
+
+}
+
+</codeblock>
+                </p>
+                <p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-Windows-pipline-script.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Windows Pipeline script</alt></image></p>
+                <p class="- topic/p ">For example:<codeblock class="+ topic/pre pr-d/codeblock ">pipeline {
+    agent any
+    stages {
+        stage('Test') {
+            steps {
+                bat """
+                cd  C:\Users\NAH\Desktop\Katalon_Studio_Engine_Windows_64-8.1.0
+                katalonc  -projectPath="C:\Users\NAH\Desktop\ci-samples-master\test.prj" -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/TS_RegressionTest" -apiKey="&lt;user API key&gt;" -orgID=&lt;Katalon_OrgID&gt;
+                """
+
+            }
+
+        }
+
+    }
+
+}
+</codeblock></p>
+                <p class="- topic/p "><b class="+ topic/ph hi-d/b ">For macOS/Linux</b>
+                    <codeblock class="+ topic/pre pr-d/codeblock ">pipeline {
+    agent any
+    stages {
+        stage('Test') {
+            steps {
+                sh '''
+                cd  &lt;KRE installed folder&gt;
+                ./katalonc  -projectPath="&lt;projectpath&gt;" -browserType="&lt;browse&gt;" -retry=&lt;number of retry time&gt; -statusDelay=&lt;seconds&gt; -testSuitePath="&lt;path&gt;" -apiKey="&lt;user API key&gt;" -orgID=&lt;Katalon_OrgID&gt;
+                '''
+
+            }
+
+        }
+
+    }
+
+}
+</codeblock>
+                </p>
+                <p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-Mac-pipeline-script.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Mac Pipeline script</alt></image></p>
+                <p class="- topic/p ">For example:<codeblock class="+ topic/pre pr-d/codeblock ">pipeline {
+    agent any
+    stages {
+        stage('Test') {
+            steps {
+                sh '''
+                cd  /Users/yen.nguyen/Downloads/Katalon_Studio_Engine_MacOS-8.1.0/Katalon\\ Studio\\ Engine.app/Contents/MacOS
+                ./katalonc  -projectPath="/Users/yen.nguyen/Downloads/ci-samples-master/test.prj" -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/TS_RegressionTest" -apiKey="&lt;user API key&gt;" -orgID=&lt;Katalon_OrgID&gt;
+                '''
+
+            }
+
+        }
+
+    }
+
+}
+</codeblock></p>
+                <note type="note" class="- topic/note ">
+                    <ul class="- topic/ul "><li class="- topic/li ">
+                            <p class="- topic/p ">You can find more command-line options at <xref href="../Use-Katalon-Docker-Image-for-Jenkins-Integration/jenkins-docker-ubuntu/build_your_project.dita" class="- topic/xref ">Command Syntax</xref>.</p>
+                        </li></ul>
+                </note>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">After the configuration, click <b class="+ topic/ph hi-d/b ">Save</b>, then click <b class="+ topic/ph hi-d/b ">Build Now</b> to run the project.</p>
+                <p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-Build-now.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">Build your Jenkins project</alt></image></p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">To view the console log, click on your current build on Jenkins and select <b class="+ topic/ph hi-d/b ">Console Output</b>.</p>
+                <p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-console-output.png" scope="external" class="- topic/image "><alt class="- topic/alt ">View console output</alt></image></p>
+            </li></ol><p class="- topic/p "><b class="+ topic/ph hi-d/b ">See also</b>
+            <ul class="- topic/ul "><li class="- topic/li "><xref href="../Use-Katalon-Docker-Image-for-Jenkins-Integration/jenkins-pipeline-docker/jenkins-pipeline-docker.dita" class="- topic/xref ">Intergrate Jenkins Pipeline (Jenkinsfile) with Katalon Studio Docker Image</xref></li></ul>
+        </p></conbody></concept>

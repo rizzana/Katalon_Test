@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Add dependencies to <codeph class="+ topic/ph pr-d/codeph ">build.gradle</codeph>
+    </title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">You can add dependencies to <codeph class="+ topic/ph pr-d/codeph ">build.gradle</codeph>
+         (optional). Let’s refer to the following example to add
+         dependencies:</p><codeblock class="+ topic/pre pr-d/codeblock ">dependencies {
+
+
+ compile('com.paulhammant:ngwebdriver:1.1.4') {
+
+
+   exclude group: 'org.seleniumhq.selenium'
+
+
+ }
+</codeblock><p class="- topic/p ">If you don't have the dependencies, delete the command lines.</p></conbody></concept>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Katalium Overview</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Katalium is a framework that provides a blueprint for test
+         automation projects based on TestNG and Selenium.</p><p class="- topic/p ">When it comes to Selenium-based testing, Katalon Studio is the
+         software of choice for testers and automation engineers to date. It
+         offers a host of built-in features that simplify building test
+         cases for users. However, for users who still need to work with
+         TestNG and Selenium, Katalium Framework is a great head start.</p><p class="- topic/p ">Tailored to be a lightweight and accessible platform for all
+         users, Katalium retains the standard functions of TestNG and
+         Selenium. By leveraging the common open-source frameworks
+         functionalities, the learning curve and transition efforts are
+         minimized, allowing users to execute their projects better and
+         faster.</p><p class="- topic/p ">Download and install <xref format="html" href="https://marketplace.visualstudio.com/items?itemName=katalon-llc.katalium" scope="external" class="- topic/xref ">Katalium
+            Framework</xref> in Visual Studio Marketplace.</p><p class="- topic/p ">For detailed instructions, you can refer to this document: <xref href="../Get-Started/katalium-framework-get-started-vscode/katalium-framework-get-started-vscode.dita" class="- topic/xref ">Get Started with Katalium Framework in Visual Studio Code</xref></p><p class="- topic/p ">Open-source Katalium is available at
+<xref href="https://github.com/katalon-studio/katalium" scope="external" class="- topic/xref ">Katalium Framework</xref>.</p><p class="- topic/p ">The sample project is available at
+<xref href="https://github.com/katalon-studio/katalium-sample" scope="external" class="- topic/xref ">Katalium sample</xref>.</p></conbody></concept>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_8" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Fixes</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">Bug: [Incorrect Test Results] Katalon returned PASSED when test
+            scripts contained invalid syntax.</li>
+          <li class="- topic/li ">Bug: [Web UI Testing] Instead of logging warning messages and
+            marking PASSED, <codeph class="+ topic/ph pr-d/codeph ">WebUI.verifyElementAttributeValue</codeph>
+            marks failed if the element is not present.</li>
+          <li class="- topic/li ">Bug: Katalon Studio IDE sometimes failed to save Groovy files'
+            changes, including keywords, test listeners, step definitions while
+            renaming test objects.</li>
+
+          <li class="- topic/li ">Bug: Performance issues of Applitools sample project. <xref format="html" href="https://github.com/katalon-studio-samples/katalon-studio-applitools-plugin-sample" scope="external" class="- topic/xref ">Learn
+               more</xref>
+          </li>
+        </ul>
+      </conbody>
+    </concept>

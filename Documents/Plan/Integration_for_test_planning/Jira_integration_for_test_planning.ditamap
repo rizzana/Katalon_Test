@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-5738" class="- map/map "><title class="- topic/title ">Jira integration for test planning</title><mapref format="ditamap" href="Populate-Jira-releases/Populate_Jira_releases_in_Katalon_TestOps.ditamap" class="+ map/topicref mapgroup-d/mapref "/><mapref format="ditamap" href="link-tc-to-Jira-requirements/ka-integration-jira.ditamap" class="+ map/topicref mapgroup-d/mapref "/></map>

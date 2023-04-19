@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Start Katalium Server</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">Please refer to <xref href="../../../Katalium_Server/katalium-user-guide/katalium-user-guide.dita" class="- topic/xref ">this
+            guide</xref> to learn how to start Katalium Server.</p>
+    </conbody>
+  </concept>

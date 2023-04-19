@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">BrowserStack Integration</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">The BrowserStack integration helps you execute your tests on
+         BrowserStack Selenium Grid from your Katalon Studio instance. To
+         integrate with BrowserStack, you need to execute your test scripts
+         on a remote web server configured in desired capabilities. To learn
+         more about setting up the remote server in desired capabilities,
+         you can refer to this document: <xref href="../../../../Create_tests/Manage_Projects/Project_Settings/Desired_Capabilities/desired-capabilities-remote-settings/Task/Set_desired_capabilities_for_remote_execution_in_Katalon_Studio.dita" class="- topic/xref ">Set
+            up remote server in desired capabilities</xref>.</p><p class="- topic/p ">This article demonstrates how to set up BrowserStack
+         integration.</p><ol class="- topic/ol "><li class="- topic/li ">
+        <p class="- topic/p ">Login to BrowserStack.</p>
+      </li><li class="- topic/li ">
+        <p class="- topic/p ">On the left side of the BrowserStack account page, you can see
+               your username and the Access Key value. These values are necessary
+               for authentication between your Katalon Studio instance and the
+               BrowserStack account.</p>
+        <p class="- topic/p ">The syntax for the BrowserStack remote URL:
+               <codeph class="+ topic/ph pr-d/codeph ">http://username:accessKey@hub-cloud.browserstack.com/wd/hub</codeph>.</p>
+        <p class="- topic/p ">For example:
+               <codeph class="+ topic/ph pr-d/codeph ">http://abcdef121:affdfsr543xyz@hub-cloud.browserstack.com/wd/hub</codeph>.</p>
+        <p class="- topic/p ">Note this BrowserStack remote URL for later input.</p>
+      </li><li class="- topic/li ">
+
+        <p class="- topic/p ">Navigate to the Browserstack capabilities generator
+               page: <xref format="html" href="https://www.browserstack.com/automate/capabilities" scope="external" class="- topic/xref ">Capabilities
+                  Generator</xref>.</p>
+      </li><li class="- topic/li ">
+        <p class="- topic/p ">Select the operating system and the device/browser you wish to
+               execute with. Here, we select iOS and iPhone 12 device. We also
+               choose Java as the generator language. Browserstack Capabilities
+               Generator will generate desired capabilities accordingly in
+               Java.</p>
+        <p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/browserstack-integration/KS-BROWSERSTACK-Capabilities-generator.png" scope="external" width="700" class="- topic/image "><alt class="- topic/alt ">Select Browserstack capabilities</alt></image>
+        </p>
+      </li><li class="- topic/li ">
+        <p class="- topic/p ">In Katalon Studio, go to <b class="+ topic/ph hi-d/b ">Project &gt; Settings &gt;
+                  Desired Capabilities &gt; Remote</b>. Input the following
+               information:</p>
+        <ul class="- topic/ul "><li class="- topic/li ">
+            <p class="- topic/p ">
+              <b class="+ topic/ph hi-d/b ">Remote server URL</b>: input the URL retrieved from
+                     step 2. For example:
+                     <codeph class="+ topic/ph pr-d/codeph ">http://abcdef121:affdfsr543xyz@hub-cloud.browserstack.com/wd/hub</codeph>
+            </p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">
+              <b class="+ topic/ph hi-d/b ">Remote server type</b>: Choose
+                     <b class="+ topic/ph hi-d/b ">Selenium/Appium</b>. Here, we choose
+                     <b class="+ topic/ph hi-d/b ">Appium</b>. From Katalon Studio version 6.3.0 onwards,
+                     when choosing Appium server, you also need to select
+                     <b class="+ topic/ph hi-d/b ">Android Driver/iOS Driver</b>.</p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">The capabilities generated from step 4.</p>
+          </li></ul>
+        <p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/browserstack-integration/KS-BROWSERSTACK-Add-DC-remote.png" scope="external" width="700" class="- topic/image "><alt class="- topic/alt ">Add remote server capabilities</alt></image>
+        </p>
+        <note type="note" class="- topic/note ">
+          
+          <ul class="- topic/ul "><li class="- topic/li ">For Appium remote web server, you need to add the
+                     <codeph class="+ topic/ph pr-d/codeph ">platformName</codeph> capabilities. You can learn more about
+                     Appium capabilities in this Appium document: <xref format="html" href="http://appium.io/docs/en/writing-running-appium/caps/" scope="external" class="- topic/xref ">Appium
+                        Desired Capabilities</xref>.</li><li class="- topic/li ">If you want to add Chrome driver capabilities, make sure to put
+                     those capabilities into the <codeph class="+ topic/ph pr-d/codeph ">goog:chromeOptions</codeph>
+                     property as a dictionary. For example: <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/browserstack-integration/KS-BROWSERSTACK-Add-capabilities-Chrome.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">Add Chrome capabilities for remote server</alt></image>
+            </li></ul>
+        </note>
+      </li><li class="- topic/li ">
+        <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Apply and Close</b> when you are done.</p>
+      </li><li class="- topic/li ">
+        <p class="- topic/p ">To execute your tests with Browserstack Selenium Grid, click
+               <b class="+ topic/ph hi-d/b ">Remote</b> in the dropdown list next to
+               <b class="+ topic/ph hi-d/b ">Run</b>.</p>
+        <p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/browserstack-integration/KS-BROWSERSTACK-Execute-remote.png" scope="external" width="250" class="- topic/image "><alt class="- topic/alt ">Execute Browserstack remote server</alt></image>
+        </p>
+      </li></ol></conbody></concept>

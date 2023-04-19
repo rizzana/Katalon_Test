@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Request Method</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">The request method indicates the expected action to be executed
+         on the specified resource. Katalon Studio supports the following
+         SOAP methods: SOAP, SOAP 1.2, POST, GET. By default, Katalon
+         selects SOAP as a method for a new SOAP request.</p>
+        <p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/soap-request/method-list.png" scope="external" class="- topic/image "/>
+        </p>
+      </conbody>
+    </concept>

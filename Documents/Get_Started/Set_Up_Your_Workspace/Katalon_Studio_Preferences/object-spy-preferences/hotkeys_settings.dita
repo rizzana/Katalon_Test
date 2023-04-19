@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Hotkeys Settings</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p "><ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> supports customizable hotkeys for the Object Spy function. You can choose the preferred combination to capture objects or avoid conflict with your application under test hotkeys. The default hotkey for capturing objects is <userinput class="+ topic/ph sw-d/userinput ">⌥</userinput>+<userinput class="+ topic/ph sw-d/userinput ">`</userinput>.</p><note type="note" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">Changing Object Spy hotkeys currently only affects Chrome and Firefox browsers. Other browsers will be considered for future releases.</li></ul>
+        </note><p class="- topic/p "> <b class="+ topic/ph hi-d/b ">See also</b>:</p><ul class="- topic/ul "><li class="- topic/li "> <xref href="../katalon-preferences/katalon-studio-preferences.dita" class="- topic/xref ">Katalon Preferences</xref>
+            </li><li class="- topic/li "> <xref href="../import-preferences/import-preferences.dita" class="- topic/xref ">Import Preferences</xref>
+            </li><li class="- topic/li "> <xref href="../test-case-preferences/test-case-preferences.dita" class="- topic/xref ">Test Case Preferences</xref>
+            </li><li class="- topic/li "> <xref href="../proxy-preferences/proxy-preferences.dita" class="- topic/xref ">Proxy Preferences</xref>
+            </li></ul></conbody></concept>

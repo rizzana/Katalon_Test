@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_0" class="- topic/topic concept/concept "><title class="- topic/title ">[Cucumber] Run Feature File with Tags</title><conbody class="- topic/body  concept/conbody "><section id="id" class="- topic/section ">
+    <title class="- topic/title ">Description</title>
+    
+      <p class="- topic/p ">Katalon Studio supports executing a single feature file with the
+         <codeph class="+ topic/ph pr-d/codeph ">runFeatureFileWithTags</codeph> function, using the following
+         tag expressions:</p>
+      <table class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">Expression</b>
+              </entry><entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">Description</b>
+              </entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">
+                <codeph class="+ topic/ph pr-d/codeph ">@tag1 and @tag2</codeph>
+              </entry><entry class="- topic/entry ">Features or scenarios tagged with both <codeph class="+ topic/ph pr-d/codeph ">@tag1</codeph> and
+                  <codeph class="+ topic/ph pr-d/codeph ">@tag2</codeph>.</entry></row><row class="- topic/row "><entry class="- topic/entry ">
+                <codeph class="+ topic/ph pr-d/codeph ">@tag1 or @tag2</codeph>
+              </entry><entry class="- topic/entry ">Features or scenarios tagged with either <codeph class="+ topic/ph pr-d/codeph ">@tag1</codeph> or
+                  <codeph class="+ topic/ph pr-d/codeph ">@tag2</codeph>.</entry></row></tbody></tgroup></table><p class="- topic/p ">To learn more about tag expressions, refer to this Cucumber
+            document: <xref format="html" href="https://cucumber.io/docs/cucumber/api/#tag-expressions" scope="external" class="- topic/xref ">Cucumber
+               tag expression</xref>.</p>
+      
+    
+  </section><section id="id_1" class="- topic/section ">
+    <title class="- topic/title ">Using the AND tag expression</title>
+    
+      <ul class="- topic/ul "><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Description</b>: execute the features or scenarios
+            associated with all the input tags.</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Keyword name</b>: runFeatureFileWithTags.</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Keyword syntax</b>:
+            runFeatureFileWithTags(relativeFilePath, tags, flowControl).</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Parameters</b>: 
+            
+            <ul class="- topic/ul "><li class="- topic/li ">Name: relativeFilePath</li><li class="- topic/li ">Description: the relative path to the feature file that starts
+                  from the current project location.</li><li class="- topic/li ">Parameter Type: <codeph class="+ topic/ph pr-d/codeph ">String</codeph>.</li><li class="- topic/li ">Mandatory: required.</li><li class="- topic/li ">Name: tags</li><li class="- topic/li ">Description: the tags of the features or scenarios that you
+                  want to execute.</li><li class="- topic/li ">Parameter Type: <codeph class="+ topic/ph pr-d/codeph ">String</codeph>, <codeph class="+ topic/ph pr-d/codeph ">String[]</codeph>, or
+                  <codeph class="+ topic/ph pr-d/codeph ">String...</codeph> (Varargs).</li><li class="- topic/li ">Mandatory: required.</li><li class="- topic/li ">Name: flowControl (only valid when tags are of
+                  <codeph class="+ topic/ph pr-d/codeph ">String[]</codeph> type)</li><li class="- topic/li ">Description: an <codeblock class="+ topic/pre pr-d/codeblock ">instance com.kms.katalon.core.model.FailureHandling</codeblock> that controls the
+                  running flow.</li><li class="- topic/li ">Parameter Type: <codeph class="+ topic/ph pr-d/codeph ">FailureHandling</codeph>.</li><li class="- topic/li ">Mandatory: optional.</li></ul>
+        </li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Returns</b>: an instance of
+            <codeph class="+ topic/ph pr-d/codeph ">CucumberRunnerResult</codeph> that includes the status of
+            keyword and report folder location.</li><li class="- topic/li ">
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Example</b>:</p>
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Example #1</b>: tags of <codeph class="+ topic/ph pr-d/codeph ">String</codeph>
+               type</p>
+          
+            <codeblock class="+ topic/pre pr-d/codeblock ">CucumberKW.runFeatureFileWithTags("Include/features/New Feature File.feature", "@tag1 and @tag2")
+</codeblock>
+          
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Example #2</b>: tags of <codeph class="+ topic/ph pr-d/codeph ">String[]</codeph>
+               type</p>
+          
+            <codeblock class="+ topic/pre pr-d/codeblock ">String[] logTags = ["@tag1", "@tag2"] as String[]
+CucumberKW.runFeatureFileWithTags("Include/features/New Feature File.feature", logTags, FailureHandling.STOP_ON_FAILURE)
+</codeblock>
+          
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Example #3</b>: tags of <codeph class="+ topic/ph pr-d/codeph ">String...</codeph> type
+               (Varargs)</p>
+          
+            <codeblock class="+ topic/pre pr-d/codeblock ">CucumberKW.runFeatureFileWithTags("Include/features/New Feature File.feature", "@tag1", "@tag2")
+</codeblock>
+          
+          </li></ul>
+    
+  </section><section class="- topic/section "><title class="- topic/title ">Using the OR tag expression</title><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Description</b>: execute the features or scenarios
+               associated with any of the input tags.</p></li><li class="- topic/li "><b class="+ topic/ph hi-d/b ">Keyword name</b>: runFeatureFileWithTags</li><li class="- topic/li "><b class="+ topic/ph hi-d/b ">Keyword syntax</b>:
+            runFeatureFileWithTags(relativeFilePath, tags, flowControl).</li><li class="- topic/li "><b class="+ topic/ph hi-d/b ">Parameters</b>: 
+            
+            <ul class="- topic/ul "><li class="- topic/li ">Name: relativeFilePath</li><li class="- topic/li ">Description: the relative path to the feature file that starts
+                  from the current project location.</li><li class="- topic/li ">Parameter Type: <codeph class="+ topic/ph pr-d/codeph ">String</codeph></li><li class="- topic/li ">Mandatory: required</li><li class="- topic/li ">Name: tags</li><li class="- topic/li ">Description: the tags of the features or scenarios that you
+                  want to execute.</li><li class="- topic/li ">Parameter Type: <codeph class="+ topic/ph pr-d/codeph ">String</codeph> or
+                  <codeph class="+ topic/ph pr-d/codeph ">String[]</codeph>.</li><li class="- topic/li ">Mandatory: required</li><li class="- topic/li ">Name: flowControl (only valid when tags are of
+                  <codeph class="+ topic/ph pr-d/codeph ">String[]</codeph> type)</li><li class="- topic/li ">Description: an instance
+                  <codeph class="+ topic/ph pr-d/codeph ">com.kms.katalon.core.model.FailureHandling</codeph> that
+                  controls the running flow.</li><li class="- topic/li ">Parameter Type: <codeph class="+ topic/ph pr-d/codeph ">FailureHandling</codeph>.</li><li class="- topic/li ">Mandatory: optional.</li></ul></li><li class="- topic/li "><b class="+ topic/ph hi-d/b ">Returns</b>: an instance of
+            <codeph class="+ topic/ph pr-d/codeph ">CucumberRunnerResult</codeph> that includes the status of
+            keyword and report folder location.</li><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Example</b>:</p>
+          <p class="- topic/p "><b class="+ topic/ph hi-d/b ">Example #1</b>: tags of <codeph class="+ topic/ph pr-d/codeph ">String</codeph>
+               type</p>
+          
+            <codeblock class="+ topic/pre pr-d/codeblock ">CucumberKW.runFeatureFileWithTags("Include/features/New Feature File.feature", "@tag1 or @tag2")
+// Or
+CucumberKW.runFeatureFileWithTags("Include/features/New Feature File.feature", "@tag1, @tag2")
+</codeblock>
+          
+          <p class="- topic/p "><b class="+ topic/ph hi-d/b ">Example #2</b>: tags of <codeph class="+ topic/ph pr-d/codeph ">String[]</codeph>
+               type</p>
+          
+            <codeblock class="+ topic/pre pr-d/codeblock ">String[] logTags1 = ["@tag1, @tag2"] as String[]
+CucumberKW.runFeatureFileWithTags("Include/features/New Feature File.feature", logTags1, FailureHandling.STOP_ON_FAILURE)
+// Or 
+String[] logTags2 = ["@tag1 or @tag2"] as String[]
+CucumberKW.runFeatureFileWithTags("Include/features/New Feature File.feature", logTags2, FailureHandling.STOP_ON_FAILURE)</codeblock></li></ul></section></conbody></concept>

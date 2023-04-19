@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-katalium-overview" class="- map/map ">
+  <title class="- topic/title ">Overview</title>
+  <topicref href="katalium-overview.dita" class="- map/topicref "><topicref href="current_features.dita" class="- map/topicref "/>
+  <topicref href="roadmap.dita" class="- map/topicref "/>
+</topicref>
+  </map>

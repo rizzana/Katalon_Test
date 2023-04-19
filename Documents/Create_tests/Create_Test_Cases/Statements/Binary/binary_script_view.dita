@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-7451" xml:lang="en-us" class="- topic/topic concept/concept "><title class="- topic/title ">In script view</title><prolog class="- topic/prolog "><author translate="no" type="creator" class="- topic/author ">Yen Nguyen &lt;yen.nguyen@katalon.com&gt;</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "/></metadata></prolog><conbody class="- topic/body  concept/conbody "><section class="- topic/section ">
+            <title class="- topic/title ">In Script view</title>
+            <p class="- topic/p "> The <uicontrol conkeyref="ks-UI-text/ks-ui-script" class="+ topic/ph ui-d/uicontrol "/> view of a test case allows you to programmatically define and handle binary statements using Groovy or Java languages. </p>
+            <p class="- topic/p ">For example : </p>
+            <ul class="- topic/ul "><li class="- topic/li ">
+                    <p class="- topic/p ">To assign a value to a test object</p>
+                    <codeblock class="+ topic/pre pr-d/codeblock ">myText = 'Welcome to Katalon Studio'</codeblock>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">To assign a test object to a variable</p>
+                    <codeblock class="+ topic/pre pr-d/codeblock ">myObject = findTestObject('my object') WebUI.setText(myObject, 'Welcome to Katalon Studio') WebUI.verifyTextPresent('Welcome to Katalon Studio', false)</codeblock>
+                </li></ul>
+        </section></conbody></concept>

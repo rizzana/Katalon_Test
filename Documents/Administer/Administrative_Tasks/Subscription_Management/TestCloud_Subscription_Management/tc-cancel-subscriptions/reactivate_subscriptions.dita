@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Reactivate subscriptions</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">If your subscription has yet to reach the expiry date, you can
+         reactivate your subscription.</p>
+      <p class="- topic/p ">Follow these steps:</p>
+      <ol class="- topic/ol ">
+        <li class="- topic/li ">Sign in to <xref format="html" href="https://testops.katalon.io/" scope="external" class="- topic/xref ">Katalon
+               TestOps</xref>.</li>
+        <li class="- topic/li ">Select your organization.</li>
+        <li class="- topic/li ">Go to <b class="+ topic/ph hi-d/b ">Settings</b> &gt; <b class="+ topic/ph hi-d/b ">Subscription
+               Management</b>. In the <b class="+ topic/ph hi-d/b ">Subscription
+               Management</b> section on the left sidebar, choose
+            <b class="+ topic/ph hi-d/b ">TestCloud</b>.</li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">In the canceled subscription, click
+               <b class="+ topic/ph hi-d/b ">Reactivate</b>.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/cancel-tc-plan/TC-Reactivate.png" scope="external" width="100%" class="- topic/image ">
+              <alt class="- topic/alt ">TestCloud reactivate</alt>
+            </image>
+          </p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">A <b class="+ topic/ph hi-d/b ">Confirmation</b> dialog appears. Click
+               <b class="+ topic/ph hi-d/b ">Re-Activate</b>.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/cancel-tc-plan/TC-Reactivate-confirmation.png" scope="external" width="60%" class="- topic/image ">
+              <alt class="- topic/alt ">TestCloud reactivate popup</alt>
+            </image>
+          </p>
+        </li>
+      </ol>
+    </conbody>
+  </concept>

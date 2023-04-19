@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_13" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">New features</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+
+          <li class="- topic/li ">Support Time Capsule for optimizing fixing broken Web Test
+            Objects. <xref href="../../../../Maintain/time-capsule/intro-time-capsule.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li>
+
+          <li class="- topic/li ">[Katalon Studio Enterprise] Support browser-based video
+            recording. <xref href="../../../../Analyze/Reports/Generate_test_reports/record-browser-based-videos-in-Studio/intro-generate-browser-based-videos-in-Studio.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li>
+
+          <li class="- topic/li ">[Windows Testing] Support coordinates-based recording with <xref href="../../../../Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Windows-Keywords/windows-kw-click-element-offset/windows-kw-click-element-offset.dita" class="- topic/xref ">Click
+               Element Offset</xref> and <xref href="../../../../Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Windows-Keywords/windows-kw-rightclick-element-offset/windows-kw-rightclick-element-offset.dita" class="- topic/xref ">Right-click
+               Element Offset</xref> keywords on both <xref href="../../../../Create_tests/Record_And_Spy/Windows_Record_And_Spy_Utilities/Windows_Record_Tutorials/windows_recorder_tutorials.dita" class="- topic/xref ">Windows
+               Recorder</xref> and <xref href="../../../../Create_tests/Record_And_Spy/Windows_Record_And_Spy_Utilities/Native_Windows_Recorder/windows-native-record.dita" class="- topic/xref ">Native
+               Windows Recorder</xref>.</li>
+
+          <li class="- topic/li ">Provide Checksum for each Katalon Studio package named
+            <codeph class="+ topic/ph pr-d/codeph ">all-packages.sha256</codeph> and Open source libraries's
+            license scanning report in HTML named
+            <codeph class="+ topic/ph pr-d/codeph ">KatalonStudio-openSourceReport.html</codeph> (Go to <xref format="html" href="https://github.com/katalon-studio/katalon-studio/releases" scope="external" class="- topic/xref ">our
+               GitHub Repository</xref>, download those files in each build's
+            Assets).</li>
+
+          <li class="- topic/li ">[Katalon Studio Enterprise] Allow replacing a built-in library
+            with an external one for flexible libraries usage in a test
+            project. <xref href="../../../../Create_tests/Manage_Projects/Project_Settings/Libraries_Management/Exclude_built-in_libraries.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li>
+
+          <li class="- topic/li ">[Web Service Testing] Import SOAP requests from SoapUI and
+            WSDLs having no service endpoints. <xref href="../../../../Create_tests/Test_Objects/API_Test_Object/Import-Web-Service-Objects/import-soapui/import-soapui.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li>
+
+          <li class="- topic/li ">[Katalon TestOps (Beta) Integration] Export BDD reports
+            generated in Katalon Studio to display in TestOps. <xref href="../../../../Analyze/Reports/View_Test_Reports/View_reports_in_TestOps/bdd-test-results-in-TestOps/bdd-test-results.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li>
+          <li class="- topic/li ">[Katalon TestOps (Beta) Integration] Support generating
+            commands for TestOps CI in Katalon Studio's Command Builder.</li>
+          <li class="- topic/li ">[Katalon TestOps (Beta) Integration] Allow overriding TestOps
+            Project ID via command line.</li>
+          <li class="- topic/li ">[Katalon TestOps (Beta) Integration] View Releases in Katalon
+            Studio's Test Explorer.</li>
+          <li class="- topic/li ">Provide in-app tutorials for new Katalon users to start testing
+            Web UI, Mobile, Web Service and Windows applications (Go to Help
+            &gt; Tutorials &gt; Select Web UI/Mobile/Web Service/Windows).</li>
+          <li class="- topic/li ">You can create a new project with Desktop type.</li>
+
+          <li class="- topic/li ">[Katalon Studio Enterprise] Configure idle timeout for license
+            usage management. <xref href="../../../../Administer/Administrative_Tasks/License_Management/license-management/license-management.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li>
+        </ul>
+      </conbody>
+    </concept>

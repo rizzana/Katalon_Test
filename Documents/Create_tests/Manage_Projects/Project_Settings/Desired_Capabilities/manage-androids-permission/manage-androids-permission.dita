@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Manage Android's permission in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To manage Android's permission, you need to set the value of
+         'autoGrantPermissions' desired capabilities:</p><codeblock class="+ topic/pre pr-d/codeblock ">/**
+* Enable all permission
+* 
+* @param isEnable
+*/
+@Keyword
+public static void EnablePermission(boolean isEnable) {
+    DesiredCapabilities.android().setCapability("autoGrantPermissions", isEnable);
+}
+</codeblock></conbody></concept>

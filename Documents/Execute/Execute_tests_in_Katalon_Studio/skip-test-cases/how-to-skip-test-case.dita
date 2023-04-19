@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Skip test cases in Katalon Studio</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">In this article, we demonstrate how to skip test cases in a test suite by adding a test listener with the <codeph class="+ topic/ph pr-d/codeph ">TestCaseContext.skipThisTestCase()</codeph> method. To learn more about the usage of test listeners, see <xref href="../../../Create_tests/Create_Test_Cases/Test_Fixtures_And_Test_Listeners/Test_Listeners_Test_Hooks.dita" class="- topic/xref "/>.</p></conbody></concept>

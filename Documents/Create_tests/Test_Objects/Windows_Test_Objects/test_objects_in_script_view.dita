@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Test Objects in Script View</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">The Script View of a test script allows you to define Windows
+         objects programmatically. Below are the code snippets of an object
+         with different locator strategies.</p>
+        <p class="- topic/p ">
+          <b class="+ topic/ph hi-d/b ">ACCESSIBILITY_ID</b>
+        </p>
+        
+          <codeblock class="+ topic/pre pr-d/codeblock ">WindowsTestObject wo = new WindowsTestObject('')
+wo.setLocatorStrategy(LocatorStrategy.ACCESSIBILITY_ID)
+wo.setLocator("accessibility id value here")
+</codeblock>
+        
+        <p class="- topic/p ">
+          <b class="+ topic/ph hi-d/b ">CLASS_NAME</b>
+        </p>
+        
+          <codeblock class="+ topic/pre pr-d/codeblock ">WindowsTestObject wo = new WindowsTestObject('')
+wo.setLocatorStrategy(LocatorStrategy.CLASS_NAME)
+wo.setLocator("classname value here")
+</codeblock>
+        
+        <p class="- topic/p ">
+          <b class="+ topic/ph hi-d/b ">ID</b>
+        </p>
+        
+          <codeblock class="+ topic/pre pr-d/codeblock ">WindowsTestObject wo = new WindowsTestObject('')
+wo.setLocatorStrategy(LocatorStrategy.ID)
+wo.setLocator("id here")
+</codeblock>
+        
+        <p class="- topic/p ">
+          <b class="+ topic/ph hi-d/b ">NAME</b>
+        </p>
+        
+          <codeblock class="+ topic/pre pr-d/codeblock ">WindowsTestObject wo = new WindowsTestObject('')
+wo.setLocatorStrategy(LocatorStrategy.NAME)
+wo.setLocator("name here")
+</codeblock>
+        
+        <p class="- topic/p ">
+          <b class="+ topic/ph hi-d/b ">TAG_NAME</b>
+        </p>
+        
+          <codeblock class="+ topic/pre pr-d/codeblock ">WindowsTestObject wo = new WindowsTestObject('')
+wo.setLocatorStrategy(LocatorStrategy.TAG_NAME)
+wo.setLocator("tag name here")
+</codeblock>
+        
+        <p class="- topic/p ">
+          <b class="+ topic/ph hi-d/b ">XPATH</b>
+        </p>
+        
+          <codeblock class="+ topic/pre pr-d/codeblock ">WindowsTestObject wo = new WindowsTestObject('')
+wo.setLocatorStrategy(LocatorStrategy.XPATH)
+wo.setLocator("XPATH here")
+</codeblock>
+        
+      </conbody>
+    </concept>

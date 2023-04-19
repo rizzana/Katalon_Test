@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-introduction_api_testing" class="- map/map ">
+  <title class="- topic/title ">Introduction to API Testing</title>
+  <topicref href="introduction_api_testing.dita" class="- map/topicref "><topicref href="what_is_api_testing.dita" class="- map/topicref "/>
+  <topicref href="where_is_api_testing_performed.dita" class="- map/topicref "/>
+  <topicref href="why_do_we_need_to_perform_api_testing.dita" class="- map/topicref "/>
+  <topicref href="advantages_of_api_testing.dita" class="- map/topicref "/>
+  <topicref href="api_testing_types.dita" class="- map/topicref ">
+    <topicref href="validation_testing.dita" class="- map/topicref "/>
+    <topicref href="functional_testing.dita" class="- map/topicref "/>
+    <topicref href="end-to-end_testing.dita" class="- map/topicref "/>
+    <topicref href="load_testing.dita" class="- map/topicref "/>
+    <topicref href="runtimeerror_detection.dita" class="- map/topicref "/>
+    <topicref href="security_testing.dita" class="- map/topicref "/>
+    <topicref href="penetration_testing.dita" class="- map/topicref "/>
+    <topicref href="fuzz_testing.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="api_testing_best_practices.dita" class="- map/topicref ">
+    <topicref href="priorities.dita" class="- map/topicref "/>
+    <topicref href="functional_and_non-functional_testing_priorities.dita" class="- map/topicref "/>
+    <topicref href="end-points_management.dita" class="- map/topicref "/>
+    <topicref href="endpoint_as_a_template.dita" class="- map/topicref "/>
+    <topicref href="data-driven.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="challenges_in_api_testing.dita" class="- map/topicref ">
+    <topicref href="initial_setup_of_api_testing.dita" class="- map/topicref "/>
+    <topicref href="update_the_schema_of_api_testing.dita" class="- map/topicref "/>
+    <topicref href="testing_parameter_combinations.dita" class="- map/topicref "/>
+    <topicref href="sequencing_the_api_calls.dita" class="- map/topicref "/>
+    <topicref href="validating_parameters.dita" class="- map/topicref "/>
+    <topicref href="tracking_system_integration.dita" class="- map/topicref "/>
+  </topicref>
+</topicref>
+  </map>

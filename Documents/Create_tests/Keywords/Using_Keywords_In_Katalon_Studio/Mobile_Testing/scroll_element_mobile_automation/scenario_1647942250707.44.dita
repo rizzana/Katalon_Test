@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Scenario</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">The screenshot of the app below has a listview containing 'n'
+         number of rows. Our goal is to scroll down to the text
+         '<b class="+ topic/ph hi-d/b ">Views</b>', and to tap on it. When the user taps on
+         <b class="+ topic/ph hi-d/b ">Views,</b> the app navigates to another screen.</p>
+      <p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/scroll_element_mobile_automation/Handling-Scroll-to-Element-in-Mobile-Automation.png" scope="external" class="- topic/image ">
+          <alt class="- topic/alt ">Handling Scroll to Element in Mobile Automation</alt>
+        </image>
+      </p>
+      <p class="- topic/p ">We can easily automate this scenario in two ways: manual and
+         script modes.</p>
+    </conbody>
+  </concept>

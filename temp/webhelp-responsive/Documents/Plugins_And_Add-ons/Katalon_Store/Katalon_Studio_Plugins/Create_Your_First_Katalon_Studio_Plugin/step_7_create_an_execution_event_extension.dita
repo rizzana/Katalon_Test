@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Plugins_And_Add-ons/Katalon_Store/Katalon_Studio_Plugins/Create_Your_First_Katalon_Studio_Plugin?><?workdir-uri file:/Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Plugins_And_Add-ons/Katalon_Store/Katalon_Studio_Plugins/Create_Your_First_Katalon_Studio_Plugin/?><?path2project ../../../../../?><?path2project-uri ../../../../../?><?path2rootmap-uri ../../../../../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="id_8" class="- topic/topic concept/concept " ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Katalon_Studio_Plugins/Create_Your_First_Katalon_Studio_Plugin/step_7_create_an_execution_event_extension.dita" xtrc="concept:1;3:59" specializations="@props/deliveryTarget"><title class="- topic/title " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Katalon_Studio_Plugins/Create_Your_First_Katalon_Studio_Plugin/step_7_create_an_execution_event_extension.dita" xtrc="title:1;3:89">
+      Step 7: Create an execution
+               event extension
+    </title><conbody class="- topic/body  concept/conbody " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Katalon_Studio_Plugins/Create_Your_First_Katalon_Studio_Plugin/step_7_create_an_execution_event_extension.dita" xtrc="conbody:1;6:61"><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Katalon_Studio_Plugins/Create_Your_First_Katalon_Studio_Plugin/step_7_create_an_execution_event_extension.dita" xtrc="p:1;6:83">To create an <xref href="https://github.com/katalon-studio/katalon-studio-platform/blob/master/com.katalon.platform/src/main/java/com/katalon/platform/api/extension/EventListenerInitializer.java" scope="external" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Katalon_Studio_Plugins/Create_Your_First_Katalon_Studio_Plugin/step_7_create_an_execution_event_extension.dita" xtrc="xref:1;6:318"><?ditaot usertext?>execution event extension</xref>, we go back to <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Katalon_Studio_Plugins/Create_Your_First_Katalon_Studio_Plugin/step_7_create_an_execution_event_extension.dita" xtrc="codeph:1;6:406">
+          <xref format="html" href="https://github.com/katalon-studio/katalon-studio-platform/blob/master/com.katalon.platform/plugin.xml" scope="external" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Katalon_Studio_Plugins/Create_Your_First_Katalon_Studio_Plugin/step_7_create_an_execution_event_extension.dita" xtrc="xref:2;7:179"><?ditaot usertext?>plugin.xml</xref>
+        </codeph>
+         file of Katalon Studio Platform, and find the declaration of
+         <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Katalon_Studio_Plugins/Create_Your_First_Katalon_Studio_Plugin/step_7_create_an_execution_event_extension.dita" xtrc="codeph:2;10:50">Subscribe KS execution event</codeph>:</p><codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Katalon_Studio_Plugins/Create_Your_First_Katalon_Studio_Plugin/step_7_create_an_execution_event_extension.dita" xtrc="codeblock:1;10:139">&lt;extension
+        point="com.katalon.platform.extensions_point"&gt;
+    &lt;point
+        id="com.katalon.platform.api.extension.eventListener"
+        interfaceClass="com.katalon.platform.api.event.EventListenerInitializer"
+        serviceClass="com.katalon.platform.internal.event.EventListenerService"&gt;
+    &lt;/point&gt;
+&lt;/extension&gt;
+</codeblock><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Katalon_Studio_Plugins/Create_Your_First_Katalon_Studio_Plugin/step_7_create_an_execution_event_extension.dita" xtrc="p:2;18:35">Now, we need to declare our extension in
+         <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Katalon_Studio_Plugins/Create_Your_First_Katalon_Studio_Plugin/step_7_create_an_execution_event_extension.dita" xtrc="codeph:3;19:50">plugin.xml</codeph>
+      </p><codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Katalon_Studio_Plugins/Create_Your_First_Katalon_Studio_Plugin/step_7_create_an_execution_event_extension.dita" xtrc="codeblock:2;20:58">&lt;extension
+        point="com.katalon.platform.extensions"&gt;
+    &lt;point
+        id="com.mycompany.plugin.myAnotherExtensionId"
+        extensionPointId="com.katalon.platform.api.extension.eventListener"
+        implementationClass="com.mycompany.plugin.MyExecutionEventListener"&gt;
+    &lt;/point&gt;
+&lt;/extension&gt;
+</codeblock><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Katalon_Studio_Plugins/Create_Your_First_Katalon_Studio_Plugin/step_7_create_an_execution_event_extension.dita" xtrc="p:3;28:35">and create <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Katalon_Studio_Plugins/Create_Your_First_Katalon_Studio_Plugin/step_7_create_an_execution_event_extension.dita" xtrc="codeph:4;28:86">implementationClass</codeph>:</p><codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Katalon_Studio_Plugins/Create_Your_First_Katalon_Studio_Plugin/step_7_create_an_execution_event_extension.dita" xtrc="codeblock:3;28:166">package com.mycompany.plugin;
+
+import org.osgi.service.event.Event;
+
+import com.katalon.platform.api.event.EventListener;
+import com.katalon.platform.api.event.ExecutionEvent;
+import com.katalon.platform.api.execution.TestSuiteExecutionContext;
+import com.katalon.platform.api.extension.EventListenerInitializer;
+public class MyExecutionEventListener implements EventListenerInitializer {
+
+    @Override
+    public void registerListener(EventListener listener) {
+        listener.on(Event.class, event -&gt; {
+            if (ExecutionEvent.TEST_SUITE_FINISHED_EVENT.equals(event.getTopic())) {
+                ExecutionEvent eventObject = (ExecutionEvent) event.getProperty("org.eclipse.e4.data");
+
+                TestSuiteExecutionContext testSuiteContext = (TestSuiteExecutionContext) eventObject
+                        .getExecutionContext();
+
+                System.out.println("Test execution completed: " + testSuiteContext.getReportId());
+            }
+        });
+    }
+}
+</codeblock><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Katalon_Studio_Plugins/Create_Your_First_Katalon_Studio_Plugin/step_7_create_an_execution_event_extension.dita" xtrc="p:4;52:35">This <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Katalon_Studio_Plugins/Create_Your_First_Katalon_Studio_Plugin/step_7_create_an_execution_event_extension.dita" xtrc="codeph:5;52:80">implementationClass</codeph> just prints an execution
+         completed message to console but you can extend this class to do
+         more business logics. A good example for this is <xref format="html" href="https://github.com/katalon-studio/katalon-studio-slack-plugin" scope="external" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Katalon_Studio_Plugins/Create_Your_First_Katalon_Studio_Plugin/step_7_create_an_execution_event_extension.dita" xtrc="xref:3;54:187"><?ditaot usertext?>Slack
+            Integration Plugin</xref>. You can see how it integrates with Slack
+         application.</p></conbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="ditamap-8764" xtrc="topicref:8;3:719" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Katalon_Studio_Plugins/Create_Your_First_Katalon_Studio_Plugin/create-plugin.ditamap"><link class="- topic/link " format="dita" href="../../../../../Documents/Plugins_And_Add-ons/Katalon_Store/Katalon_Studio_Plugins/Create_Your_First_Katalon_Studio_Plugin/create-plugin.dita" mapclass="- map/topicref " role="parent" scope="local" type="concept" xtrc="topicref:1;3:189" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Katalon_Studio_Plugins/Create_Your_First_Katalon_Studio_Plugin/create-plugin.ditamap"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Create your first Katalon Studio plugin</linktext></link></linkpool></related-links></concept>

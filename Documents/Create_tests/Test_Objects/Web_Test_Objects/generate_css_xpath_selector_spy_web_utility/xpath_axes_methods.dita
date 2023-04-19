@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_9" class="- topic/topic concept/concept "><title class="- topic/title ">XPath axes methods</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">These XPath axes methods are used to find complex or dynamic elements.</p><ul class="- topic/ul "><li class="- topic/li ">
+                <p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Following</b>
+                </p>
+                <p class="- topic/p ">Selects all elements in the document following the current node( ).</p>
+                <p class="- topic/p ">Example:</p>
+                <p class="- topic/p ">By using the following method, you can identify the <uicontrol class="+ topic/ph ui-d/uicontrol ">Password</uicontrol> text box, which is located after the <uicontrol class="+ topic/ph ui-d/uicontrol ">Username</uicontrol> name field.</p>
+                <p class="- topic/p ">XPath:</p>
+                <codeblock class="+ topic/pre pr-d/codeblock ">.//*[@id='txt-username']//following::input
+</codeblock>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/following.png" scope="external" class="- topic/image "><alt class="- topic/alt ">following</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Ancestor</b>
+                </p>
+                <p class="- topic/p ">This method selects all ancestors (parent, grandparent, etc.) of the current node.</p>
+                <p class="- topic/p ">Example:</p>
+                <p class="- topic/p ">In the screenshot below, you want to get the ancestors of the <codeph class="+ topic/ph pr-d/codeph ">ul</codeph> tag highlighted in red.</p>
+                <p class="- topic/p ">XPath:</p>
+                <codeblock class="+ topic/pre pr-d/codeblock ">//ul[@class='list-inline']/ancestor::div
+</codeblock>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/ancestor.png" scope="external" class="- topic/image "><alt class="- topic/alt ">ancestor</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Child</b>
+                </p>
+                <p class="- topic/p ">Select all children of the current node.</p>
+                <p class="- topic/p ">Example:</p>
+                <p class="- topic/p ">Using the child method, you can identify all social links as shown in the below screenshot.</p>
+                <p class="- topic/p ">XPath:</p>
+                <codeblock class="+ topic/pre pr-d/codeblock ">//ul[@class='list-inline']/child::li
+</codeblock>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/child.png" scope="external" class="- topic/image "><alt class="- topic/alt ">child</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Preceding</b>
+                </p>
+                <p class="- topic/p ">Select all nodes that come before the current node.</p>
+                <p class="- topic/p ">Example:</p>
+                <p class="- topic/p ">Using the preceding method, you can identify all nodes that come before the <uicontrol class="+ topic/ph ui-d/uicontrol ">Login</uicontrol> button.</p>
+                <p class="- topic/p ">XPath:</p>
+                <codeblock class="+ topic/pre pr-d/codeblock ">//*[@id='btn-login']//preceding::input
+</codeblock>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/preceding.png" scope="external" class="- topic/image "><alt class="- topic/alt ">preceding</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Following-sibling</b>
+                </p>
+                <p class="- topic/p ">Select the following siblings of the context node. Siblings are at the same level as the current node, as shown in the screen below. It finds the element after the current node.</p>
+                <p class="- topic/p ">Example:</p>
+                <p class="- topic/p ">By using the following-sibling method, you can identify the <uicontrol class="+ topic/ph ui-d/uicontrol ">Password</uicontrol> text box, which is located after the <uicontrol class="+ topic/ph ui-d/uicontrol ">Username</uicontrol> name field.</p>
+                <p class="- topic/p ">XPath:</p>
+                <codeblock class="+ topic/pre pr-d/codeblock ">.//*[@id='txt-username']//following::input
+
+</codeblock>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/following-sibling.png" scope="external" class="- topic/image "><alt class="- topic/alt ">following-sibling</alt></image>
+                </p>
+            </li></ul></conbody></concept>

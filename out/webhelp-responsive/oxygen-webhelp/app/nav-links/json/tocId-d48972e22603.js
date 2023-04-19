@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"tocId-d48972e22603":{"topics":[{"title":"***","href":"Documents\/Analyze\/Integrations_For_Reports_And_Analytics\/Jira_integration\/link-test-runs-to-Jira-defects-in-TestOps\/ka-defects_2.html","menu":{"hasChildren":false},"tocID":"tocId-d48972e22606","topics":[]}]}};

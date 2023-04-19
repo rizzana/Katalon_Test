@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept "><title class="- topic/title ">Verify successful Android devices connection</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">After launching the emulator, Katalon automatically recognizes the emulator as an Android device. To check whether Katalon successfully recognizes your Android emulator, you can open a Mobile Testing Sample Project in <b class="+ topic/ph hi-d/b ">File &gt; New sample projects &gt; Sample Android Mobile Tests Project</b>. Katalon Studio will detect and ask you to install <b class="+ topic/ph hi-d/b ">Android SDK</b> automatically if your current machine does not have it.</p><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/KS-Android-Open--Sample-project.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Open Android sample project</alt></image>
+        </p><p class="- topic/p ">On the main toolbar, select the <b class="+ topic/ph hi-d/b ">Android</b> device in the dropdown list next to <b class="+ topic/ph hi-d/b ">Run</b>.</p><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-mobile-testing-with-emulator/KS-TOOLBAR-Android.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Regconize Android devices</alt></image>
+        </p><p class="- topic/p ">You should see the name of your emulator appear as an Android device.</p><note type="note" class="- topic/note ">
+            <p class="- topic/p ">
+                <ul class="- topic/ul "><li class="- topic/li ">
+                        <p class="- topic/p ">You must first manually launch the emulator with Android Studio or via the command-line option for Katalon to recognize the device.</p>
+                    </li></ul>
+            </p>
+        </note><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-mobile-testing-with-emulator/KS-EMULATOR-Choose-emulator-in-Katalon.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Choose emulator in Katalon</alt></image>
+        </p><p class="- topic/p ">You can now execute mobile testing with the emulator.</p></conbody></concept>

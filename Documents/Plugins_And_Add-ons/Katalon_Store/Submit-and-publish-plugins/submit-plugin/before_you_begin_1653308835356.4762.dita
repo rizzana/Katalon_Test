@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Before you begin</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To start, familiarize yourself with the <xref format="html" href="https://www.katalon.com/terms/#developer-agreement" scope="external" class="- topic/xref ">Developer
+            Agreement</xref> and Guidelines to create your first <xref href="../../Katalon_Studio_Plugins/Create_Your_First_Katalon_Studio_Plugin/create-plugin.dita" class="- topic/xref ">Katalon
+            Studio plugin</xref> or <xref href="../../Katalon_Studio_Plugins/Develop_Custom_Keywords_Plugin/develop-custom-keywords.dita" class="- topic/xref ">Custom
+            Keywords plugin</xref>.</p></conbody></concept>

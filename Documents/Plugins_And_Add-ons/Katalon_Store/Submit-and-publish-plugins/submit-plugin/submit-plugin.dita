@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Submit and publish a new plugin on <ph conkeyref="name-variables/katalon-store" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">This article is a walkthrough through the process of  publishing
+         a new plugin to <ph conkeyref="name-variables/katalon-store" class="- topic/ph "/>. If you just want to get started,
+         head to the Submit a new plugin page on the <ph conkeyref="name-variables/katalon-store" class="- topic/ph "/>.</p></conbody></concept>

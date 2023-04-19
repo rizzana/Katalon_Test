@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_7" class="- topic/topic concept/concept "><title class="- topic/title ">Execute a test suite collection with Sauce Labs profiles</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To execute a test suite collection with Sauce Labs profiles, do as follows:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Open a test suite collection.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Add the test suites you want to execute into the test suite collection.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Double-click on the cell under the <b class="+ topic/ph hi-d/b ">Run with</b> column. A <b class="+ topic/ph hi-d/b ">Select an environment</b> dialog opens.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/saucelabs-plugin/KS-SAUCELABS-Select-environment-test-suite-collection.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">Choose Sauce Labs custom profile in a test suite collection</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Select your Sauce Labs profile.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/saucelabs-plugin/KS-SAUCELABS-Select-environment-TSC.gif" scope="external" class="- topic/image "><alt class="- topic/alt ">Choose Sauce Labs custom profile in a test suite collection</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">OK.</b> Then click <b class="+ topic/ph hi-d/b ">Execute</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/saucelabs-plugin/KS-SAUCELABS-Execute-test-suite-collection-saucelabs-profile.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Execute Sauce Labs custom profile in a test suite collection</alt></image>
+                </p>
+            </li></ol></conbody></concept>

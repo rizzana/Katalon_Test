@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-handle_web_tables" class="- map/map ">
+  <title class="- topic/title ">How to handle Web Tables</title>
+  <topicref href="handle_web_tables.dita" class="- map/topicref "><topicref href="what_is_web_tables.dita" class="- map/topicref "/>
+  <topicref href="handle_web_tables_with_katalon_studio.dita" class="- map/topicref ">
+    <topicref href="example_1_you_want_to_get_a_text_from_a_web_table_and_verify_it..dita" class="- map/topicref "/>
+    <topicref href="example_2_you_want_to_perform_actions_on_the_web_table_below.dita" class="- map/topicref "/>
+  </topicref>
+</topicref></map>

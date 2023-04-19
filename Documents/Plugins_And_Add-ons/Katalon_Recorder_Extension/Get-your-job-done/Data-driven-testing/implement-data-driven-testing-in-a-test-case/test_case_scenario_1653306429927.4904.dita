@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id_1" class="- topic/topic ">
+    <title class="- topic/title ">Test case scenario</title>
+    <body class="- topic/body ">
+      <p class="- topic/p ">In our example, we follow the test case with the scenario "log
+         in and book a healthcare appointment," which consists of these
+         steps:</p>
+      <ol class="- topic/ol ">
+        <li class="- topic/li ">Log in to the application under test (AUT) - Katalon CURA
+            Healthcare Service:
+            <codeph class="+ topic/ph pr-d/codeph ">https://katalon-demo-cura.herokuapp.com</codeph>.</li>
+        <li class="- topic/li ">Book an appointment by filling in a form with visit date and
+            comment.</li>
+        <li class="- topic/li ">Log out.</li>
+      </ol>
+      <p class="- topic/p ">To demonstrate implementing DDT in Katalon Recorder, we create a
+         test case that uses data from a CSV file to book three
+         appointments. The process is as follows:</p>
+      <ol class="- topic/ol ">
+        <li class="- topic/li ">Record the test case: we record the test case to log in and
+            book an appointment manually.</li>
+        <li class="- topic/li ">Implement DDT in the test case: we bind the test case with a
+            data file and modify it with DDT commands.</li>
+      </ol>
+    </body>
+  </topic>

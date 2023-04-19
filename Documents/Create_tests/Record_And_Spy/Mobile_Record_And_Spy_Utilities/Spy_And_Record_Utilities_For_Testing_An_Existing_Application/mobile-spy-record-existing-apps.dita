@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Spy and Record Utilities for testing an existing application in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><note type="note" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">Starting with <b class="+ topic/ph hi-d/b ">Katalon Studio version 6.3.0</b>, you can spy and record testing an installed application on Android and iOS devices, NOT on Kobiton and remote ones.</li></ul>
+        </note><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Open <b class="+ topic/ph hi-d/b ">Mobile Object Spy</b>/<b class="+ topic/ph hi-d/b ">Mobile Recorder</b> with Android or iOS devices.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In configurations, you can start spying or recording on an existing application with an application ID. Select <b class="+ topic/ph hi-d/b ">Application ID</b>, enter the <xref href="../../../Keywords/Keywords_Description_In_Katalon_Studio/Mobile-Keywords/mobile-keyword-start-existing-apps/mobile-keyword-start-existing-apps.dita" class="- topic/xref ">application ID</xref> in the corresponding text field, the <b class="+ topic/ph hi-d/b ">Start</b> button will be enabled.</p>
+            </li></ol><p class="- topic/p ">In <b class="+ topic/ph hi-d/b ">Mobile Recorder</b>
+        </p><ul class="- topic/ul "><li class="- topic/li ">
+                <p class="- topic/p ">In <b class="+ topic/ph hi-d/b ">Recorded Actions</b>, the first action is <b class="+ topic/ph hi-d/b ">Start Existing Application</b>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">After you press <b class="+ topic/ph hi-d/b ">OK</b> button to finish its recording session, Katalon Studio will generate script with <codeph class="+ topic/ph pr-d/codeph ">Mobile.startExistingApplication(appId)</codeph>.</p>
+            </li></ul></conbody></concept>

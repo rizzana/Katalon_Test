@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task-2496" class="- topic/topic task/task "><title class="- topic/title ">Use the newly added JRE in a test project</title><taskbody class="- topic/body task/taskbody "><context class="- topic/section task/context ">To run a test project with the new JRE, do as follows:</context><steps class="- topic/ol task/steps "><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Download <codeph class="+ topic/ph pr-d/codeph ">jaxb-api-2.3.1.jar</codeph> library. You can
+               download JAXB API 2.3.1 from the Maven Repository website here: <xref format="html" href="https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api/2.3.1" scope="external" class="- topic/xref ">JAXB
+                  API 2.3.1</xref>.</cmd></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Add the <codeph class="+ topic/ph pr-d/codeph ">jaxb-api-2.3.1.jar</codeph> library to your test
+               project. To do so, you can follow the instructions in this
+               document: <xref href="../../../../Create_tests/Manage_Projects/Project_Settings/Libraries_Management/Add_external_libraries.dita" class="- topic/xref ">Add
+                  an external library to a project</xref>.</cmd><info class="- topic/itemgroup task/info "><note type="note" class="- topic/note "><ul class="- topic/ul "><li class="- topic/li ">The JRE version used to run test projects and JRE compiler
+                     compliance level should be compatible. For instance, Java 8 test
+                     projects are compatible with the default JRE compiler level 1.8. To
+                     alter JRE compiler compliance level, go to
+                     <uicontrol class="+ topic/ph ui-d/uicontrol ">Preferences</uicontrol> &gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">Java</uicontrol> &gt;
+                     <uicontrol class="+ topic/ph ui-d/uicontrol ">Compiler</uicontrol>.</li><li class="- topic/li ">In case you want to check which Java version the test project
+                     is developed with, add the following script to a test case, then
+                     run it and see the log.</li></ul>
+            
+              <codeblock class="+ topic/pre pr-d/codeblock ">println System.getProperty('java.version')</codeblock></note></info></step></steps></taskbody></task>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-machine-id" class="- map/map ">
+  <title class="- topic/title ">View Machine ID</title>
+  <topicref href="machine-id.dita" class="- map/topicref "><topicref href="how_katalon_generates_a_machine_id.dita" class="- map/topicref "/>
+  <topicref href="view_your_machine_id.dita" class="- map/topicref ">
+    <topicref href="in_katalon_studio_1647942210173.785.dita" class="- map/topicref "/>
+    <topicref href="with_katalon_runtime_engine.dita" class="- map/topicref "/>
+  </topicref>
+</topicref></map>

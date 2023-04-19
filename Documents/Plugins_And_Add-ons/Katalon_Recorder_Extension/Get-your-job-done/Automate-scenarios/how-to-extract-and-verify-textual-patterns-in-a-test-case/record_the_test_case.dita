@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id_2" class="- topic/topic "><title class="- topic/title ">Record the test case</title><body class="- topic/body "><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">In Katalon Recorder, create a test suite and a test case, then click <b class="+ topic/ph hi-d/b ">Record</b> to start recording.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/extract-and-verify-textual-patterns/KR-5.8.0-New-test-case.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Katalon Recorder new test case</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In an active browser tab, navigate to the AUT - Katalon Zack Market: <codeph class="+ topic/ph pr-d/codeph ">https://demo-store.katalon.com</codeph>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/extract-and-verify-textual-patterns/KR-AUT.png" scope="external" class="- topic/image "><alt class="- topic/alt ">AUT</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">On the displayed homepage, select an item.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/extract-and-verify-textual-patterns/KR-AUT-select-an-item.png" scope="external" class="- topic/image "><alt class="- topic/alt ">AUT - Select an item</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In Katalon Recorder, click <b class="+ topic/ph hi-d/b ">Stop</b> to stop the test recording.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/extract-and-verify-textual-patterns/KR-5.8.0-Click-Stop.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Recorded test case</alt></image>
+                </p>
+            </li></ol></body></topic>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-how-to-capture-objects-in-hybrid-apps" class="- map/map ">
+  <title class="- topic/title ">Capture elements in hybrid Android apps</title>
+  <topicref href="how-to-capture-objects-in-hybrid-apps.dita" class="- map/topicref "><topicref href="enable_webview_debugging_for_hybrid_android_apps.dita" class="- map/topicref "/>
+  <topicref href="install_chromedriver_for_appium.dita" class="- map/topicref "/>
+  <topicref href="capture_elements_in_hybrid_android_apps.dita" class="- map/topicref "/>
+</topicref>
+  </map>

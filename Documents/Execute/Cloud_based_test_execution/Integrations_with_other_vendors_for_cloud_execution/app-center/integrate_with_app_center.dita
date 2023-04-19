@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Integrate with App Center</title><conbody class="- topic/body  concept/conbody "><note type="important" class="- topic/note ">
+        
+        <ul class="- topic/ul "><li class="- topic/li ">An active <xref href="../../../../Administer/KSE-KRE-Licenses/license_overview/c_intro_license_overview.dita" class="- topic/xref ">Katalon
+                  Runtime Engine</xref> license</li><li class="- topic/li ">A <xref href="../../../../Administer/Security_Settings/ka-api-key/ka-api-key.dita" class="- topic/xref ">Katalon
+                  API Key</xref>
+          </li><li class="- topic/li ">Katalon Studio version 7.6.0 onwards</li><li class="- topic/li ">
+            <xref format="html" href="https://maven.apache.org/download.cgi" scope="external" class="- topic/xref ">Apache
+                  Maven</xref> version 3.3.9 or later installed</li><li class="- topic/li ">
+            <xref format="html" href="https://nodejs.org/es/blog/release/" scope="external" class="- topic/xref ">NodeJS</xref>
+               version 6.3 or later installed</li><li class="- topic/li ">
+            <xref format="html" href="https://docs.microsoft.com/en-us/appcenter/cli/#installation" scope="external" class="- topic/xref ">App
+                  Center CLI</xref> installed and logged in</li></ul>
+      </note><p class="- topic/p ">To run your Katalon projects with App Center Test, you have to
+         configure your Katalon project and make updates in
+         <b class="+ topic/ph hi-d/b ">sideload</b>.</p></conbody></concept>

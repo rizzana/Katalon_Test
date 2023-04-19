@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Enable SAP GUI Scripting in SAP</title>
+    <conbody class="- topic/body  concept/conbody ">
+
+      <p class="- topic/p ">To enable SAP scripting mode, you can refer to the SAP document
+         here: <xref format="html" href="https://help.sap.com/viewer/8ecea00c1f854fd0a433c4aef5da1ea2/Cloud/en-US/001675913cc54719930aa8197478dcde.html" scope="external" class="- topic/xref ">Enabling
+            Scripting on the Server Side</xref>.</p>
+    </conbody>
+  </concept>

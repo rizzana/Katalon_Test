@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id_39" class="- topic/topic ">
+    <title class="- topic/title ">3.4.7 - 3.4.9</title>
+    <body class="- topic/body ">
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">Supported dragAndDropToObjectByJqueryUI for testing
+            drag-and-drop functions built with jQuery UI.</li>
+        <li class="- topic/li ">Supported gotoIf, gotoLabel, and label for jumping to steps
+            inside test cases.</li>
+        <li class="- topic/li ">Supported capturing screenshots upon failures.</li>
+        <li class="- topic/li ">Supported sendKeys for special keys (e.g. ENTER) on
+            Chrome.</li>
+        <li class="- topic/li ">Fixed an issue with pause command.</li>
+        <li class="- topic/li ">Provided more details in logs for easier debugging.</li>
+        <li class="- topic/li ">Supported storedVars.key (or storedVars['key']) syntax in
+            storeEval command.</li>
+        <li class="- topic/li ">Supported "Play From Here" (context menu) for playing test case
+            from an arbitrary test step.</li>
+      </ul>
+    </body>
+  </topic>

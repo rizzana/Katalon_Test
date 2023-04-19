@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Katalium Framework Page Object Model</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Page Object Model (POM) is a Design Pattern for enhancing test
+         maintenance and reducing code duplication. Please refer to <xref format="html" href="https://www.seleniumhq.org/docs/06_test_design_considerations.jsp#page-object-design-pattern" scope="external" class="- topic/xref ">here</xref>
+         for a detailed explanation and benefits of POM.</p><p class="- topic/p ">Katalium Framework provides an abstract class
+         <codeph class="+ topic/ph pr-d/codeph ">com.katalon.kata.selenium.PageTemplate</codeph> with some
+         convenient utilities:</p><ul class="- topic/ul "><li class="- topic/li ">
+        <p class="- topic/p ">Page objects will be initialized automatically in test classes
+               that extends <codeph class="+ topic/ph pr-d/codeph ">com.katalon.kata.testng.TestTemplate</codeph>.</p>
+      </li><li class="- topic/li ">
+        <p class="- topic/p ">
+          <codeph class="+ topic/ph pr-d/codeph ">waitUntil</codeph> methods which wraps
+               <codeph class="+ topic/ph pr-d/codeph ">WebDriverWait</codeph> patterns to keep the code concise.</p>
+      </li></ul><p class="- topic/p ">Here is a very simple Selenium Page (<xref format="html" href="https://github.com/katalon-studio/katalium-sample/blob/master/src/test/java/com/katalon/kata/sample/page/CuraAppoinmentPage.java" scope="external" class="- topic/xref ">source
+            code</xref>):</p><codeblock class="+ topic/pre pr-d/codeblock ">package com.katalon.kata.sample.page;
+
+import com.katalon.kata.selenium.PageTemplate;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+
+public class CuraAppoinmentPage extends PageTemplate {
+
+  @FindBy(id = "appointment")
+  private WebElement divAppointment;
+
+  @FindBy(id = "combo_facility")
+  private WebElement facilitySelect;
+
+  @FindBy(id = "txt_comment")
+  private WebElement commentInput;
+
+  @FindBy(id = "txt_visit_date")
+  private WebElement visitDateInput;
+
+  @FindBy(id = "btn-book-appointment")
+  private WebElement bookAppointmentBtn;
+
+  @FindBy(id = "radio_program_medicaid")
+  private WebElement medicaidCheck;
+
+  @FindBy(id = "radio_program_none")
+  private WebElement medicareCheck;
+
+  @FindBy(id = "txt_comment")
+  private WebElement noneCheck;
+
+  @FindBy(name = "hospital_readmission")
+  private WebElement readMissionCheck;
+
+
+  public boolean isOnPage() {
+    try {
+      log.info("Check is on appointment page.");
+      return divAppointment.isDisplayed();
+    } catch (Exception ex) {
+      return false;
+    }
+  }
+
+  public void fillAppointmentDetails(String facility, String visitDate, String comment) {
+    log.info("Fill appointment details.");
+    waitUntil(ExpectedConditions.elementToBeClickable(facilitySelect));
+    Select facilitySelectBox = new Select(facilitySelect);
+    facilitySelectBox.selectByVisibleText(facility);
+    medicaidCheck.click();
+    readMissionCheck.click();
+    visitDateInput.sendKeys(visitDate);
+    commentInput.sendKeys(comment);
+    bookAppointmentBtn.click();
+  }
+}
+</codeblock></conbody></concept>

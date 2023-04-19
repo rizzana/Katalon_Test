@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Key metrics</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Katalon TestCloud has two  key metrics:</p><ul class="- topic/ul "><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Expiry date</b>: The determined date when your
+            TestCloud plan ends.</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Number of sessions</b>: The maximum number of
+            parallel test executions.</li></ul></conbody></concept>

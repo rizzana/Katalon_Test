@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-circleci" class="- map/map ">
+  <title class="- topic/title ">CircleCI Test Environments</title>
+  <topicref href="circleci.dita" class="- map/topicref "><topicref href="configure_a_circleci_test_environment.dita" class="- map/topicref "/>
+</topicref>
+  </map>

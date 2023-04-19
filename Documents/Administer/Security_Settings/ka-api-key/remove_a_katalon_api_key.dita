@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Remove a Katalon API Key</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">
+          <p class="- topic/p ">Go to your <b class="+ topic/ph hi-d/b ">Katalon API Key</b> page.</p>
+          <p class="- topic/p ">You can see a list of all API Keys here.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Click on the <i class="+ topic/ph hi-d/i ">Trash bin</i> icon of the API Key you want to
+               remove.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Delete</b> to confirm your action.</p>
+          <note type="warning" class="- topic/note ">
+            
+            <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">This action cannot be undone. You cannot use the API Key once it
+                  is deleted.</p></li></ul>
+          </note>
+        </li></ol></conbody></concept>

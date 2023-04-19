@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id_30" class="- topic/topic ">
+    <title class="- topic/title ">3.9.x</title>
+    <body class="- topic/body ">
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">Enhanced the Robot Framework formatter (by @reyelts).</li>
+        <li class="- topic/li ">Fixed an issue where test suite file is malformed (by
+            @UpUpDwnDwnLftRt).</li>
+        <li class="- topic/li ">Allowed to use variables in command names (by
+            @zoldike-gh).</li>
+        <li class="- topic/li ">Added "Close All Test Suites" feature (by
+            @UpUpDwnDwnLftRt).</li>
+        <li class="- topic/li ">Used the extension <codeph class="+ topic/ph pr-d/codeph ">.html</codeph> for saved files (by
+            @olenitsj).</li>
+      </ul>
+    </body>
+  </topic>

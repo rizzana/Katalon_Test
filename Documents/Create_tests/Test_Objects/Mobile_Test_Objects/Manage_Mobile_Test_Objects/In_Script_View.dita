@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-3341" xml:lang="en-us" class="- topic/topic concept/concept "><title class="- topic/title ">In Script View</title><prolog class="- topic/prolog "><author translate="no" type="creator" class="- topic/author ">Windy Le &lt;windy.le@katalon.com&gt;</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "/></metadata></prolog><conbody class="- topic/body  concept/conbody "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Script View</b> allows defining and handling <b class="+ topic/ph hi-d/b ">Test Objects</b> programmatically. The following is a usage example demonstrating how to do that:</p><p class="- topic/p "><image href="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-studio/docs/manage-mobile-test-object./script-ex.png" scope="external" class="- topic/image "/></p><ol class="- topic/ol "><li class="- topic/li ">Refer to existing objects using the <codeph class="+ topic/ph pr-d/codeph ">findTestObject()</codeph> method:<codeblock class="+ topic/pre pr-d/codeblock ">// Find an object which was defined already in Object Repository
+myPredefinedObject = findTestObject(‘android.widget.TextView - App’)
+</codeblock></li><li class="- topic/li ">Create a new object programmatically using the <codeph class="+ topic/ph pr-d/codeph ">TestObject</codeph> class:<codeblock class="+ topic/pre pr-d/codeblock ">// Create a new object programmatically
+myNewObject = new TestObject(“TestObjectID”)
+</codeblock></li><li class="- topic/li ">Add a property to an object using the <codeph class="+ topic/ph pr-d/codeph ">addProperty()</codeph> method:<codeblock class="+ topic/pre pr-d/codeblock ">// Add property to Test Object, a property is defined by:
+// property name,
+// condition type,
+// property value,
+// a boolean value to indicate if the property will be used to identify the object during execution
+myNewObject.addProperty(“class”, ConditionType.EQUALS, “android.widget.TextView”, true)
+</codeblock></li></ol></conbody></concept>

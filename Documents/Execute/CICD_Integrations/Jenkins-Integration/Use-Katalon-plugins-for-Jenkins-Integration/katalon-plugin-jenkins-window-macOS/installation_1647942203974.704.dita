@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Installation</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Install Jenkins. Follow the instructions in the following
+         Jenkins documents:<ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">For Windows: <xref format="html" href="https://www.jenkins.io/doc/book/installing/windows/" scope="external" class="- topic/xref ">Windows</xref></p></li><li class="- topic/li "><p class="- topic/p ">For macOS: <xref format="html" href="https://www.jenkins.io/doc/book/installing/macos/" scope="external" class="- topic/xref ">macOS</xref></p></li></ul></p></conbody></concept>

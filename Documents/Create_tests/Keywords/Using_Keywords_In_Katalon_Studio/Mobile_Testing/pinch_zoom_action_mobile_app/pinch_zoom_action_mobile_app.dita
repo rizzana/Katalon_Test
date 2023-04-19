@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Performing Pinch to Zoom In Action in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">This tutorial is to test the <b class="+ topic/ph hi-d/b ">Pinch To Zoom In</b>
+         action in the mobile app. The app used for this demonstration can
+         be downloaded here. We will be using Android O.S for this tutorial,
+         so please make sure that your Android device <b class="+ topic/ph hi-d/b ">API</b>
+         is <b class="+ topic/ph hi-d/b ">greater</b> than <b class="+ topic/ph hi-d/b ">18</b>.</p></conbody></concept>

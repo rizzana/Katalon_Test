@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Deactivate screenshots</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To turn off the default settings, do as follows:</p><ul class="- topic/ul "><li class="- topic/li ">
+                <p class="- topic/p ">For version <b class="+ topic/ph hi-d/b ">7.8 onwards</b>:</p>
+                <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Project &gt; Settings &gt; Execution</b>. In the displayed <b class="+ topic/ph hi-d/b ">During-Execution Options</b> panel, uncheck <b class="+ topic/ph hi-d/b ">Take Screenshot when execution failed</b>, and click <b class="+ topic/ph hi-d/b ">Apply and Close</b>.
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">For versions <b class="+ topic/ph hi-d/b ">before 7.8</b>:</p>
+                <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Project &gt; Settings &gt; Report</b>. In the displayed <b class="+ topic/ph hi-d/b ">Report</b> view, uncheck <b class="+ topic/ph hi-d/b ">Take Screenshot when execution failed</b>, and click <b class="+ topic/ph hi-d/b ">OK</b>.</p>
+            </li></ul></conbody></concept>

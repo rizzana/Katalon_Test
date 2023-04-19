@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Step 2: Use the parameterized test object in a test case</title><conbody class="- topic/body  concept/conbody "><ul class="- topic/ul "><li class="- topic/li ">
+                <p class="- topic/p "> <b class="+ topic/ph hi-d/b ">In Manual View</b>
+                </p>
+                <p class="- topic/p ">In the <codeph class="+ topic/ph pr-d/codeph ">Verify Correct Alarm Message</codeph> test case, double-click the test object that contains the parameterized property, which is <codeph class="+ topic/ph pr-d/codeph ">android.widget.TextView - App</codeph>. The <uicontrol class="+ topic/ph ui-d/uicontrol ">Test Object Input</uicontrol> dialog is displayed.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/param-mobile-object/test-case.png" scope="external" class="- topic/image "/>
+                </p>
+                <p class="- topic/p ">In the <uicontrol class="+ topic/ph ui-d/uicontrol ">Variables</uicontrol> panel, add a new variable with the following properties:</p>
+                <ul class="- topic/ul "><li class="- topic/li ">Param Type: the variable type (The default type is String).</li><li class="- topic/li ">Param: the variable name of the property created in step 1.</li><li class="- topic/li ">Value Type: the type of the variable's value.</li><li class="- topic/li ">Value: a specific value of that variable.</li></ul>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/param-mobile-object/test-object-input.png" scope="external" class="- topic/image "/>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p "> <b class="+ topic/ph hi-d/b ">In Script View</b>
+                </p>
+                <p class="- topic/p ">You can also switch to the <b class="+ topic/ph hi-d/b ">Scripting Mode</b> of the current Test Case to adjust the property's value at any time. The predefined variable is automatically mapped when you select a mobile object from manual mode, so you don't need to define them again manually.</p>
+            </li></ul></conbody></concept>

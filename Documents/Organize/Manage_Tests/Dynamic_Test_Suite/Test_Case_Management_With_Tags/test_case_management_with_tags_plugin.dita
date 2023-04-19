@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Test Case Management with Tags Plugin</title>
+    <conbody class="- topic/body  concept/conbody ">
+
+      <p class="- topic/p ">To append and manage tags, first install our plugin from the
+         Katalon Store: <xref format="html" href="https://store.katalon.com/product/6/Test-Case-Management-with-Tags" scope="external" class="- topic/xref ">Test
+            Case Management with Tags</xref>.</p>
+
+      <p class="- topic/p ">Then, open Katalon Studio and select <b class="+ topic/ph hi-d/b ">Your Account &gt;
+            Reload Plugins</b>. For detailed instructions, see <xref href="../../../../Plugins_And_Add-ons/Katalon_Store/Access_To_Katalon_Store_In_Katalon_Studio/reload_your_plugins.dita" class="- topic/xref ">Reload
+            Plugins</xref>.</p>
+    </conbody>
+  </concept>

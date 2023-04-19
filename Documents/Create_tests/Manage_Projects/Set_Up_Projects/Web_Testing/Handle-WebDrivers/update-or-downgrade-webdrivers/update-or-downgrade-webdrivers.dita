@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Upgrade or Downgrade WebDrivers in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To have a better control of the browser versions while testing, Katalon Studio allows you to update or downgrade WebDrivers manually or via Katalon Studio built-in tools. This article will show you how to do so.</p></conbody></concept>

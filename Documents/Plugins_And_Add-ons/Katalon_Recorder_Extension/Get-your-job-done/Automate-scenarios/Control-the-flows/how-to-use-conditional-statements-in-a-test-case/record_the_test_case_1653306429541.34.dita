@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id_2" class="- topic/topic "><title class="- topic/title ">Record the test case</title><body class="- topic/body "><p class="- topic/p ">Here we record the test case to first select and verify <i class="+ topic/ph hi-d/i ">four</i> items.</p><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">In Katalon Recorder, create a new test case, then click on the <b class="+ topic/ph hi-d/b ">Record</b> button to start recording.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/conditional-and-loop-tutorial/KR-5.8.0-New-test-case.png" scope="external" class="- topic/image "><alt class="- topic/alt ">KR New test case</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In an active browser tab, navigate to the AUT.</p>
+                <p class="- topic/p ">Here the URL for the AUT is <codeph class="+ topic/ph pr-d/codeph ">https://cms.demo.katalon.com</codeph>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/conditional-and-loop-tutorial/KR-AUT-Katalon-Zack-Market.png" scope="external" class="- topic/image "><alt class="- topic/alt ">KR Application Under Test</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Add items to the cart. On the opened page, hover over the displayed items and select the item with the text "Add to cart."</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/conditional-and-loop-tutorial/KR-AUT-Select-an-item.png" scope="external" class="- topic/image "><alt class="- topic/alt ">KR Select an item to add to cart</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Verify that the item is added to the cart successfully. Right-click on the confirmation text <codeph class="+ topic/ph pr-d/codeph ">"View cart"</codeph> and select <b class="+ topic/ph hi-d/b ">Katalon Recorder &gt; verifyText</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/conditional-and-loop-tutorial/KR-AUT-VerifyText.png" scope="external" class="- topic/image "><alt class="- topic/alt ">KR Select an item to add to cart</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Repeat <i class="+ topic/ph hi-d/i ">step 3</i> and <i class="+ topic/ph hi-d/i ">step 4</i> for three more items on the page.</p>
+            </li></ol><p class="- topic/p ">The recorded test case is as follows:</p><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/conditional-and-loop-tutorial/KR-5.8.0-test-case-recorded-target.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Recorded test case</alt></image>
+        </p></body></topic>

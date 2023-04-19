@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Use Applitools functions in Script mode</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">In addition to the two basic custom keywords above, this plugin also provides a set of keywords in <codeph class="+ topic/ph pr-d/codeph ">EyesKeywords</codeph> and <codeph class="+ topic/ph pr-d/codeph ">AdvancedKeywords</codeph> classes which can be use in the script mode:</p><codeblock class="+ topic/pre pr-d/codeblock ">   /**
+     * Initialize an Eyes instance without any configuration.
+     */
+    @CompileStatic
+    @Keyword
+    static Eyes eyesInit()
+
+    /**
+     * End the test.
+     *
+     * @param eyes The initialized eyes object.
+     * @return The list of results of the test can be obtained from the object returned.
+     */
+    static List&lt;TestResults&gt; eyesClose(Eyes eyes)
+
+    /**
+     * Initialize a wrapped WebDriver to starts a test
+     *
+     * @param testName The name of the test. This name must be unique within the scope of the application name. It may be any string.
+     * @param viewportSize Specified viewport for image capturing. If null, the default browser viewport will be used.
+     * @return A wrapped WebDriver which enables Eyes trigger recording and frame handling.
+     */
+    static Eyes eyesOpen(String testName, RectangleSize viewportSize)
+
+    /**
+     * Initialize a wrapped WebDriver to starts a test with a specified baseline name.
+     *
+     * @param baselineName The environment name that defines baseline. If the name is undefined in the server when the test runs then the name will be created and defined on the server with values of the current test environment defined by a triplet &lt;OS = baselineName, Browser, Viewport&gt;.
+     * @param testName The name of the test. This name must be unique within the scope of the application name. It may be any string.
+     * @param viewportSize Specified viewport for image capturing. If null, the default browser viewport will be used.
+     * @return A wrapped WebDriver which enables Eyes trigger recording and frame handling.
+     */
+    static Eyes eyesOpenWithBaseline(String baselineName, String testName, RectangleSize viewportSize)
+</codeblock></conbody></concept>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-specify-android-home-path" class="- map/map ">
+  <title class="- topic/title ">Specify a path to Android SDK root folder</title>
+  <topicref href="specify-android-home-path.dita" class="- map/topicref "><topicref href="specify_a_path_to_android_sdk_root_folder.dita" class="- map/topicref ">
+    <topicref href="command-line_option.dita" class="- map/topicref "/>
+  </topicref>
+</topicref>
+  </map>

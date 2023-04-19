@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Execute test suite collection</title><conbody class="- topic/body  concept/conbody "><ul class="- topic/ul "><li class="- topic/li ">
+                <p class="- topic/p ">Open a test suite collection that you want to execute.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Add a test suite into this test suite collection.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Select the <b class="+ topic/ph hi-d/b ">Run with</b> field.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Select either <b class="+ topic/ph hi-d/b ">Chrome (headless)</b> or <b class="+ topic/ph hi-d/b ">Firefox (headless)</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/headless-browsers-execution/KS-HEADLESS-Choose-headless-env-for-TSC.png" scope="external" width="850" class="- topic/image "><alt class="- topic/alt ">Execute a test suite collection with headless browsers</alt></image> 
+        </p>
+            </li><li class="- topic/li "><p class="- topic/p ">Save changes to your current test suite collection.</p>
+            <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/headless-browsers-execution/KS-HEADLESS-Save-headless-env-for-TSC.png" scope="external" width="100%" class="- topic/image "><alt class="- topic/alt ">Execute a test suite collection with headless browsers</alt></image>
+        </p></li><li class="- topic/li ">Execute this test suite collection and Katalon Studio will use the selected environment to run.</li></ul></conbody></concept>

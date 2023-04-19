@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id_16" class="- topic/topic ">
+    <title class="- topic/title ">5.5.1.3</title>
+    <body class="- topic/body ">
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">New features</b>
+          <ul class="- topic/ul ">
+            <li class="- topic/li ">You can upload files without specifying a target through
+                  <codeph class="+ topic/ph pr-d/codeph ">Upload</codeph> command.</li>
+            <li class="- topic/li ">This command simulates uploading files with drag-and-drop.</li>
+            <li class="- topic/li ">You can upload multiple files by separating the path with
+                  commas.</li>
+            <li class="- topic/li ">
+              <i class="+ topic/ph hi-d/i ">Note</i>: It only works on Chrome as Firefox doesn't allow
+                  extensions to directly read from the file system.</li>
+            <li class="- topic/li ">&gt; Help &gt; Sample projects &gt; <b class="+ topic/ph hi-d/b ">Simulate uploading
+                     files with drag and drop</b>.</li>
+            <li class="- topic/li ">You can write values to CSV files with <codeph class="+ topic/ph pr-d/codeph ">writeToCSV</codeph>
+                  and <codeph class="+ topic/ph pr-d/codeph ">appendToCSV</codeph>.</li>
+            <li class="- topic/li ">
+              <codeph class="+ topic/ph pr-d/codeph ">writeToCSV</codeph> accepts a file name, a row number and a
+                  column name as the target where it will write the provided value
+                  to. For example: <codeblock class="+ topic/pre pr-d/codeblock ">writeToCSV | data.csv,10,first_name |
+                     Thomas</codeblock>.</li>
+            <li class="- topic/li ">
+              <codeph class="+ topic/ph pr-d/codeph ">appendToCSV</codeph> accepts a file name as the target and
+                  a string as the target. For example: <codeblock class="+ topic/pre pr-d/codeblock ">appendToCSV | data.csv |
+                     Thomas,To</codeblock>
+            </li>
+            <li class="- topic/li ">&gt; Help &gt; Sample projects &gt; <b class="+ topic/ph hi-d/b ">Write values to a
+                     CSV file</b>.</li>
+          </ul>
+        </li>
+        <li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Improvements</b>
+          <ul class="- topic/ul ">
+            <li class="- topic/li ">You can read information of a CSV file into variables with
+                  <codeph class="+ topic/ph pr-d/codeph ">storeCsv</codeph> command.</li>
+            <li class="- topic/li ">After storing the result of the command to a variable, You can:
+                  
+                  
+                  <ul class="- topic/ul ">
+                <li class="- topic/li ">Read the number of lines a CSV file has.</li>
+                <li class="- topic/li ">Read the value at a particular row and column.</li>
+                <li class="- topic/li ">Compute the values from different cells in a CSV file.</li>
+              </ul>
+            </li>
+            <li class="- topic/li ">&gt; Help &gt; Sample projects &gt; <b class="+ topic/ph hi-d/b ">Read and use values
+                     from a CSV file</b>.</li>
+          </ul>
+        </li>
+        <li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Bug fixes</b>
+          <ul class="- topic/ul ">
+            <li class="- topic/li ">Fix an issue where KR CLI cannot execute on Windows.</li>
+            <li class="- topic/li ">The difference between paths on Mac and Windows made KR CLI
+                  unable to run on Windows. The problem is now fixed.</li>
+            <li class="- topic/li ">Fix an issue where <codeph class="+ topic/ph pr-d/codeph ">selectWindow</codeph> command is still
+                  executed inside a block that does not meet its if statement's
+                  condition.</li>
+            <li class="- topic/li ">Fix an issue where self-healing proposed locators are the
+                  expanded version of the locators instead of the original version
+                  that contains variables.</li>
+            <li class="- topic/li ">Fix an issue where You cannot export a recorded script from
+                  Katalon Recorder to Katalon Studio.</li>
+          </ul>
+        </li>
+      </ul>
+    </body>
+  </topic>

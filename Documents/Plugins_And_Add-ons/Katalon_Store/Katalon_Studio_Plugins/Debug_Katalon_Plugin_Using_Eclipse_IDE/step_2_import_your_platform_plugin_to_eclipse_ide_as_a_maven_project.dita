@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">
+        Step 2: Import your platform plugin to Eclipse IDE as a
+            Maven project
+      </title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">In this example, we will use the last tutorial project: <xref format="html" href="https://github.com/katalon-studio/katalon-studio-sample-plugin" scope="external" class="- topic/xref ">katalon-studio-sample-plugin
+            1</xref> to debug.</p><p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/publisher/import-plugin-project-to-eclipse-ide.png" scope="external" width="500" class="- topic/image "/>
+        </p></conbody></concept>

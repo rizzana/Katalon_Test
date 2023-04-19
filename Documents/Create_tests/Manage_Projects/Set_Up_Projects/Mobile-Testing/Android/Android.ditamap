@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-Android" class="- map/map "><title class="- topic/title ">Android</title><mapref format="ditamap" href="Mobile_Android_Setup/mobile-android-setup.ditamap" class="+ map/topicref mapgroup-d/mapref "/><mapref format="ditamap" href="Mobile_Configure_Android_Studio_Emulator/configure-android-studio.ditamap" class="+ map/topicref mapgroup-d/mapref "/></map>

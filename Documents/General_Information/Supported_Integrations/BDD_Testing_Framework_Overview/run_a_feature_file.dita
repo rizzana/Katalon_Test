@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept "><title class="- topic/title ">Using a Feature File in Katalon Studio</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Once you create your feature files and define steps in that feature file, you can run this feature file or add it into a test case.</p></conbody></concept>

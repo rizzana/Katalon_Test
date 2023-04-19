@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_9" class="- topic/topic concept/concept "><title class="- topic/title ">Debug from here</title><conbody class="- topic/body  concept/conbody "><note type="note" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">Introduced in version <b class="+ topic/ph hi-d/b ">7.5.5</b>.</li></ul>
+        </note><p class="- topic/p ">To use <b class="+ topic/ph hi-d/b ">Debug from here</b> with <b class="+ topic/ph hi-d/b ">Chrome, Firefox, or Edge Chromium</b>, do as follows:</p><ol class="- topic/ol "><li class="- topic/li ">Start a browser with the <codeph class="+ topic/ph pr-d/codeph ">Open Browser</codeph> step, or you must have a currently running browser</li><li class="- topic/li ">
+                <p class="- topic/p ">Make sure this browser's session is NOT terminated when the execution finishes (Go to <b class="+ topic/ph hi-d/b ">Project/Settings/Execution</b> and uncheck the <b class="+ topic/ph hi-d/b ">Terminate...</b> options in <b class="+ topic/ph hi-d/b ">Post-Execution Options</b> based on your testing needs)</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/KS-EXECUTION-Post-execution.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Uncheck post execution</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Open a test case in its <b class="+ topic/ph hi-d/b ">Script</b> view and double-click on the leftmost side of the script editor to mark a breakpoint. A breakpoint is where Katalon Studio pauses the test execution for you to debug.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/breakpoint.png" scope="external" class="- topic/image "/>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Switch to the test case's <b class="+ topic/ph hi-d/b ">Manual</b> view, right-click on a step, select <b class="+ topic/ph hi-d/b ">Debug from here</b> and select one of the <b class="+ topic/ph hi-d/b ">currently running</b> browser instances to execute your test.</p>
+                <note type="note" class="- topic/note ">
+                    <ul class="- topic/ul "><li class="- topic/li ">If there are no running browser instances that are previously launched in Katalon Studio, <b class="+ topic/ph hi-d/b ">Debug from here...</b> is disabled.</li></ul>
+                </note>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-a-test-case-or-a-test-suite/KS-EXECUTION-Debug-from-here.png" scope="external" width="600" class="- topic/image "><alt class="- topic/alt ">Debug from here</alt></image>
+                </p>
+            </li></ol><p class="- topic/p ">See also:</p><ul class="- topic/ul "><li class="- topic/li "> <xref href="../../Maintain/class-decompiler/class-decompiler.dita" class="- topic/xref ">Decompile Class File for Debugging</xref>
+            </li></ul></conbody></concept>

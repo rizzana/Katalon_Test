@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Test case details view</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Katalon Recorder displays recorded test script in the test case window. It displays command and its parameters in table format. You can also drag and drop any test step to organize the test case.</p></conbody></concept>

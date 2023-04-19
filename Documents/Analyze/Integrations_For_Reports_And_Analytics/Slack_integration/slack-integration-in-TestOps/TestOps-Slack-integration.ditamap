@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-slack-integration" class="- map/map "><title class="- topic/title ">TestOps - Slack Integration</title><topicref href="intro-testops-slack-integration.dita" class="- map/topicref "><topicref href="create_an_incoming_webhook_on_slack.dita" class="- map/topicref "/><topicref href="integrate_slack_with_katalon_testops.dita" class="- map/topicref "/></topicref></map>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_7" class="- topic/topic concept/concept "><title class="- topic/title ">See also</title><conbody class="- topic/body  concept/conbody "><ul class="- topic/ul "><li class="- topic/li "><xref href="../Import_Selenium_IDE_v3_Projects_To_Katalon_Studio/intro_import_selenium_ide.dita" class="- topic/xref ">Import
+               Selenium IDE version 3 projects</xref>
+        </li><li class="- topic/li ">Learn more with our Katalon Academy course: <xref format="html" href="https://academy.katalon.com/courses/selenium-migrate/?utm_source=kat_docs&amp;utm_medium=migration_to_ks" scope="external" class="- topic/xref ">Migrate
+               from Selenium to Katalon Studio – Everything You Should
+               Know</xref>
+        </li></ul></conbody></concept>

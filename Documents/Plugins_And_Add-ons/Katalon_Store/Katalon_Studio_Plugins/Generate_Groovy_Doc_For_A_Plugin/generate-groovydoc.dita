@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Generate groovy doc for a plugin on <ph conkeyref="name-variables/katalon-store" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Beside publishing your plugin to <ph conkeyref="name-variables/katalon-store" class="- topic/ph "/>, you can generate
+         your documentation into groovydoc and add to store.</p></conbody></concept>

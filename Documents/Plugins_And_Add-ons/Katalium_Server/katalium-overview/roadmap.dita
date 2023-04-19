@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Roadmap</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Please suggest new features at our <xref href="https://forum.katalon.com" scope="external" class="- topic/xref ">Forum</xref>.</p><p class="- topic/p ">Katalium is open-sourced at
+         <codeph class="+ topic/ph pr-d/codeph ">https://github.com/katalon-studio/katalium</codeph>.</p><p class="- topic/p ">Katalium Server is open-sourced at
+         <codeph class="+ topic/ph pr-d/codeph ">https://github.com/katalon-studio/katalium-server</codeph>.</p><p class="- topic/p ">The sample project is available at
+         our GitHub repository: <xref href="https://github.com/katalon-studio/katalium-sample" scope="external" class="- topic/xref ">Katalium Sample</xref>.</p></conbody></concept>

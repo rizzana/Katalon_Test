@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Usage Examples of katalonCopyDependencies task in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">On Tests Explorer, open the <codeph class="+ topic/ph pr-d/codeph ">build.gradle</codeph> file, in
+         its editor:</p><ol class="- topic/ol "><li class="- topic/li ">You can use <codeph class="+ topic/ph pr-d/codeph ">compile</codeph> to add dependencies to a
+            project:<codeblock class="+ topic/pre pr-d/codeblock ">compile 'io.rest-assured:json-schema-validator:3.2.0'
+</codeblock></li><li class="- topic/li ">Use the following command to exclude dependencies:<codeblock class="+ topic/pre pr-d/codeblock ">compile ('io.rest-assured:json-schema-validator:3.2.0') {
+    exclude group: 'org.hamcrest', module: 'hamcrest-core' 
+}
+</codeblock></li></ol></conbody></concept>

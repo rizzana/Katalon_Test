@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-4099" xml:lang="en-us" class="- topic/topic concept/concept "><title class="- topic/title ">Search and view test results in <ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/></title><prolog class="- topic/prolog "><author translate="no" type="creator" class="- topic/author ">Dong Nguyen &lt;dong.nguyen@katalon.com&gt;</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "/></metadata></prolog><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To view test reports in <ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/>:<ol class="- topic/ol "><li class="- topic/li ">
+                    <p class="- topic/p ">On the main menu, click <uicontrol class="+ topic/ph ui-d/uicontrol ">Reports</uicontrol> &gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">Test Runs</uicontrol>.</p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">On <uicontrol class="+ topic/ph ui-d/uicontrol ">Test Runs</uicontrol>, click the <uicontrol class="+ topic/ph ui-d/uicontrol ">Test Runs</uicontrol> tab as shown below:<image href="Image/TO-Reports-Test_Runs_tab.png" class="- topic/image "><alt class="- topic/alt ">select Test runs tab</alt></image></p>
+                </li></ol></p><p class="- topic/p "><uicontrol class="+ topic/ph ui-d/uicontrol ">Test Runs</uicontrol> have the following sections:<ul class="- topic/ul "><li class="- topic/li ">
+                    <p class="- topic/p "><uicontrol class="+ topic/ph ui-d/uicontrol ">Search bar</uicontrol>: Enter your keywords in the interactive search field. You may choose custom or preset filters to refine your search results.<image href="Image/TO-Reports-Test_Runs_search_bar.png" class="- topic/image "><alt class="- topic/alt ">Test runs search bar</alt></image></p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p "><uicontrol class="+ topic/ph ui-d/uicontrol ">Test Run by Status</uicontrol>: Hover your cursor on the interactive diagram to view the statistics of your <uicontrol class="+ topic/ph ui-d/uicontrol ">Passed</uicontrol> or <uicontrol class="+ topic/ph ui-d/uicontrol ">Failed</uicontrol> test runs for the day, week or month.<image href="Image/TO-Reports-Test_Run_by_Status.png" class="- topic/image "><alt class="- topic/alt ">Test run by Status column chart</alt></image></p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p "><uicontrol class="+ topic/ph ui-d/uicontrol ">All Test Runs</uicontrol>: This section provides a quick summary all the test runs executed for your project in list form, including status and test results with its corresponding test environment and test configuration.</p> <image href="Image/TO-Reports-All_Test_Runs.png" class="- topic/image "><alt class="- topic/alt ">All test runs list</alt></image>
+                        <p class="- topic/p ">The information is organized in the following columns:</p>
+                        <ul class="- topic/ul "><li class="- topic/li ">
+                                <p class="- topic/p "><uicontrol class="+ topic/ph ui-d/uicontrol ">Status</uicontrol>: Uses a check or an x icon to indicate whether a test run <uicontrol class="+ topic/ph ui-d/uicontrol ">Passed</uicontrol> or <uicontrol class="+ topic/ph ui-d/uicontrol ">Failed</uicontrol>.</p>
+                            </li><li class="- topic/li ">
+                                <p class="- topic/p "><uicontrol class="+ topic/ph ui-d/uicontrol ">ID</uicontrol>: A clickable link that directs you to the corresponding test run details page.</p>
+                            </li><li class="- topic/li ">
+                                <p class="- topic/p "><uicontrol class="+ topic/ph ui-d/uicontrol ">Name</uicontrol>: The label name of the test run and its test suite/test suite collection.</p>
+                            </li><li class="- topic/li ">
+                                <p class="- topic/p "><uicontrol class="+ topic/ph ui-d/uicontrol ">Platform - Profile</uicontrol>: The test run operating system, browser and execution profile.</p>
+                            </li><li class="- topic/li ">
+                                <p class="- topic/p "><uicontrol class="+ topic/ph ui-d/uicontrol ">Time</uicontrol>: The test run duration and execution time-stamp.</p>
+                            </li><li class="- topic/li ">
+                                <p class="- topic/p "><uicontrol class="+ topic/ph ui-d/uicontrol ">Status</uicontrol>: A statistics bar that when hovered, displays all test cases and their corresponding statuses . A test case can either <uicontrol class="+ topic/ph ui-d/uicontrol ">Passed</uicontrol> or <uicontrol class="+ topic/ph ui-d/uicontrol ">Failed</uicontrol> or in <uicontrol class="+ topic/ph ui-d/uicontrol ">Error</uicontrol>, <uicontrol class="+ topic/ph ui-d/uicontrol ">Incomplete</uicontrol>, or <uicontrol class="+ topic/ph ui-d/uicontrol ">Skipped</uicontrol> status.<image href="Image/TO-Reports-Test_case_status.png" class="- topic/image "><alt class="- topic/alt ">test case statistics bar</alt></image></p>
+                            </li><li class="- topic/li ">
+                                <p class="- topic/p "><uicontrol class="+ topic/ph ui-d/uicontrol ">Configuration</uicontrol>: Contains clickable links to the test run's configuration:<ul class="- topic/ul "><li class="- topic/li ">
+                                            <p class="- topic/p ">If you have run a configuration with an agent, the hyperlinked session ID (e.g, #2288) leads you to the session log.</p>
+                                        </li><li class="- topic/li ">
+                                            <p class="- topic/p ">If you have linked a test run to a release/build, the hyperlinked release/build name (e.g, Release 1) leads you to the corresponding release page.</p>
+                                        </li><li class="- topic/li ">
+                                            <p class="- topic/p ">If you have specified the build label and URL when running with Katalon Runtime Engine, the hyperlinked build name leads you to the build. To learn more about specifying build label with Katalon command line, see <xref href="../../../../../../Execute/Katalon_Runtime_Engine/console-mode-execution/TestOps_integration_arguments.dita" class="- topic/xref "/>.</p>
+                                        </li></ul></p>
+                            </li><li class="- topic/li ">
+                                <p class="- topic/p "><uicontrol class="+ topic/ph ui-d/uicontrol ">By</uicontrol>: The user who executed the test run.</p></li><li class="- topic/li "><p class="- topic/p ">You can also <uicontrol class="+ topic/ph ui-d/uicontrol ">Delete</uicontrol> or <uicontrol class="+ topic/ph ui-d/uicontrol ">Re-import</uicontrol> the test result by selecting the hamburger icon at the <uicontrol class="+ topic/ph ui-d/uicontrol ">By</uicontrol> column. <image href="Image/TO-Reports-All_test_runs_hamburger_icon.png" class="- topic/image "><alt class="- topic/alt ">delete or re-import test run result </alt></image></p>
+                            </li></ul>
+                </li></ul></p></conbody></concept>

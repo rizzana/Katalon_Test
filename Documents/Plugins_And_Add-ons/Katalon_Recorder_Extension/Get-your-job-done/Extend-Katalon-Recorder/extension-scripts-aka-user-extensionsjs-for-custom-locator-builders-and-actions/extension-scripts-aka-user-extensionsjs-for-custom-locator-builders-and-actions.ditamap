@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-extension-scripts-aka-user-extensionsjs-for-custom-locator-builders-and-actions" class="- map/map ">
+  <title class="- topic/title ">Extension Scripts (AKA user-extensions.js) for Custom Locator Builders and Actions</title>
+  <topicref href="extension-scripts-aka-user-extensionsjs-for-custom-locator-builders-and-actions.dita" class="- map/topicref "><topicref href="locator_builders.dita" class="- map/topicref "/>
+  <topicref href="custom_order_for_locator_builders.dita" class="- map/topicref "/>
+  <topicref href="actions.dita" class="- map/topicref "/>
+  <topicref href="accessorsassertions.dita" class="- map/topicref ">
+    <topicref href="prototype_generates_additional_commands.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="adding_extension_scripts_into_katalon_recorder.dita" class="- map/topicref "/>
+</topicref>
+  </map>

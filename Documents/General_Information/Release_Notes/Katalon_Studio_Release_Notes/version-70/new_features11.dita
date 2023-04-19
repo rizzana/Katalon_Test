@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_70" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">New Features</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+
+          <li class="- topic/li ">[Web Testing] Support image-based object recognition. <xref href="../../../../Create_tests/Test_Objects/Web_Test_Objects/manage-web-test-object/visual_object_recognition.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li>
+        </ul>
+      </conbody>
+    </concept>

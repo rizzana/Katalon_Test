@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id_44" class="- topic/topic ">
+    <title class="- topic/title ">3.1.0 - 3.1.2</title>
+    <body class="- topic/body ">
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">Improved logging: Start Time, End Time, Browser, OS.</li>
+        <li class="- topic/li ">Supported uploading logs to Katalon Analytics (Beta).</li>
+      </ul>
+    </body>
+  </topic>

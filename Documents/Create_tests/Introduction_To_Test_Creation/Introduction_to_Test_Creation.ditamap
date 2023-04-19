@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-8896" class="- map/map "><title class="- topic/title ">Introduction to test creation</title><topicref href="Introduction_to_Test_Creation.dita" class="- map/topicref "/><mapref format="ditamap" href="AUT/introduction-to-web-testing/introduction-to-web-testing.ditamap" class="+ map/topicref mapgroup-d/mapref "/><mapref format="ditamap" href="AUT/introduction_api_testing/introduction_api_testing.ditamap" class="+ map/topicref mapgroup-d/mapref "/><mapref format="ditamap" href="AUT/introduction-desktop-app-testing/Introduction-desktop-app-testing.ditamap" class="+ map/topicref mapgroup-d/mapref "/></map>

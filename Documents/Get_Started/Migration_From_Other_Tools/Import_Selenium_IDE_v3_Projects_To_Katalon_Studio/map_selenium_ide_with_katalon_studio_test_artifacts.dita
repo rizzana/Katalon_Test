@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Map Selenium IDE with <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> test artifacts</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">A Selenium IDE project contains Tests, Suites, and Executing.
+         Katalon Studio only imports Tests and Suites.</p></conbody></concept>

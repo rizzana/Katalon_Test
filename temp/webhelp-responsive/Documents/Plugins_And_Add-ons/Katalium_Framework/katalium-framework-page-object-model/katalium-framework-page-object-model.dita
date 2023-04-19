@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-page-object-model?><?workdir-uri file:/Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-page-object-model/?><?path2project ../../../../?><?path2project-uri ../../../../?><?path2rootmap-uri ../../../../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="id" class="- topic/topic concept/concept " ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-page-object-model/katalium-framework-page-object-model.dita" xtrc="concept:1;3:57" specializations="@props/deliveryTarget"><title class="- topic/title " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-page-object-model/katalium-framework-page-object-model.dita" xtrc="title:1;3:87">Katalium Framework Page Object Model</title><conbody class="- topic/body  concept/conbody " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-page-object-model/katalium-framework-page-object-model.dita" xtrc="conbody:1;3:179"><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-page-object-model/katalium-framework-page-object-model.dita" xtrc="p:1;3:201">Page Object Model (POM) is a Design Pattern for enhancing test
+         maintenance and reducing code duplication. Please refer to <xref format="html" href="https://www.seleniumhq.org/docs/06_test_design_considerations.jsp#page-object-design-pattern" scope="external" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-page-object-model/katalium-framework-page-object-model.dita" xtrc="xref:1;4:228"><?ditaot usertext?>here</xref>
+         for a detailed explanation and benefits of POM.</p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-page-object-model/katalium-framework-page-object-model.dita" xtrc="p:2;5:83">Katalium Framework provides an abstract class
+         <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-page-object-model/katalium-framework-page-object-model.dita" xtrc="codeph:1;6:50">com.katalon.kata.selenium.PageTemplate</codeph> with some
+         convenient utilities:</p><ul class="- topic/ul " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-page-object-model/katalium-framework-page-object-model.dita" xtrc="ul:1;7:59"><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-page-object-model/katalium-framework-page-object-model.dita" xtrc="li:1;7:83">
+        <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-page-object-model/katalium-framework-page-object-model.dita" xtrc="p:3;8:31">Page objects will be initialized automatically in test classes
+               that extends <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-page-object-model/katalium-framework-page-object-model.dita" xtrc="codeph:2;9:69">com.katalon.kata.testng.TestTemplate</codeph>.</p>
+      </li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-page-object-model/katalium-framework-page-object-model.dita" xtrc="li:2;10:36">
+        <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-page-object-model/katalium-framework-page-object-model.dita" xtrc="p:4;11:31">
+          <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-page-object-model/katalium-framework-page-object-model.dita" xtrc="codeph:3;12:51">waitUntil</codeph> methods which wraps
+               <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-page-object-model/katalium-framework-page-object-model.dita" xtrc="codeph:4;13:56">WebDriverWait</codeph> patterns to keep the code concise.</p>
+      </li></ul><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-page-object-model/katalium-framework-page-object-model.dita" xtrc="p:5;14:39">Here is a very simple Selenium Page (<xref format="html" href="https://github.com/katalon-studio/katalium-sample/blob/master/src/test/java/com/katalon/kata/sample/page/CuraAppoinmentPage.java" scope="external" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-page-object-model/katalium-framework-page-object-model.dita" xtrc="xref:2;14:271"><?ditaot usertext?>source
+            code</xref>):</p><codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-page-object-model/katalium-framework-page-object-model.dita" xtrc="codeblock:1;15:77">package com.katalon.kata.sample.page;
+
+import com.katalon.kata.selenium.PageTemplate;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+
+public class CuraAppoinmentPage extends PageTemplate {
+
+  @FindBy(id = "appointment")
+  private WebElement divAppointment;
+
+  @FindBy(id = "combo_facility")
+  private WebElement facilitySelect;
+
+  @FindBy(id = "txt_comment")
+  private WebElement commentInput;
+
+  @FindBy(id = "txt_visit_date")
+  private WebElement visitDateInput;
+
+  @FindBy(id = "btn-book-appointment")
+  private WebElement bookAppointmentBtn;
+
+  @FindBy(id = "radio_program_medicaid")
+  private WebElement medicaidCheck;
+
+  @FindBy(id = "radio_program_none")
+  private WebElement medicareCheck;
+
+  @FindBy(id = "txt_comment")
+  private WebElement noneCheck;
+
+  @FindBy(name = "hospital_readmission")
+  private WebElement readMissionCheck;
+
+
+  public boolean isOnPage() {
+    try {
+      log.info("Check is on appointment page.");
+      return divAppointment.isDisplayed();
+    } catch (Exception ex) {
+      return false;
+    }
+  }
+
+  public void fillAppointmentDetails(String facility, String visitDate, String comment) {
+    log.info("Fill appointment details.");
+    waitUntil(ExpectedConditions.elementToBeClickable(facilitySelect));
+    Select facilitySelectBox = new Select(facilitySelect);
+    facilitySelectBox.selectByVisibleText(facility);
+    medicaidCheck.click();
+    readMissionCheck.click();
+    visitDateInput.sendKeys(visitDate);
+    commentInput.sendKeys(comment);
+    bookAppointmentBtn.click();
+  }
+}
+</codeblock></conbody></concept>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-632" class="- map/map "><title class="- topic/title ">Set desired execution behaviors of Katalon Studio</title><topicref href="Execution_settings.dita" class="- map/topicref "><topicref href="Default_execution_settings.dita" class="- map/topicref "/><topicref href="Allow_editing_JVM_parameters_in_Execution_Settings.dita" class="- map/topicref "/><topicref href="WebUI_settings.dita" class="- map/topicref "/><topicref href="Web_Service_settings1.dita" class="- map/topicref "/><topicref href="Web_Service_settings_in_script_view.dita" class="- map/topicref "/></topicref></map>

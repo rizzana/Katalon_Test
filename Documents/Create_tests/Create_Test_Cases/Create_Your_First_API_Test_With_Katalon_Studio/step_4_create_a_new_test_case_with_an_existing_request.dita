@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_7" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Step 4: Create a new test case with an existing request</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">While the request at <b class="+ topic/ph hi-d/b ">Object Repository</b> is
+         helpful for fast testing, we can add the request verification at
+         the test case level for better managing and reporting.</p>
+      </conbody>
+    </concept>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_0" class="- topic/topic concept/concept "><title class="- topic/title ">[WebUI] Find Web Elements</title><conbody class="- topic/body  concept/conbody "><section id="id_1" class="- topic/section ">
+    <title class="- topic/title ">Description</title>
+    
+      <p class="- topic/p ">Find web elements by test object.</p>
+    
+  </section><section id="id_2" class="- topic/section ">
+    <title class="- topic/title ">Parameters</title>
+    
+      <table class="- topic/table "><tgroup cols="4" class="- topic/tgroup "><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Param</entry><entry class="- topic/entry ">Param Type</entry><entry class="- topic/entry ">Mandatory</entry><entry class="- topic/entry ">Description</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">to</entry><entry class="- topic/entry ">TestObject</entry><entry class="- topic/entry ">Required</entry><entry class="- topic/entry ">Represent a web element.</entry></row><row class="- topic/row "><entry class="- topic/entry ">timeout</entry><entry class="- topic/entry ">int</entry><entry class="- topic/entry ">Required</entry><entry class="- topic/entry ">Maximum period of time (in seconds) that system will wait to
+                  return a result.</entry></row><row class="- topic/row "><entry class="- topic/entry ">flowControl</entry><entry class="- topic/entry ">FailureHandling</entry><entry class="- topic/entry ">Optional</entry><entry class="- topic/entry ">Specify <xref href="../../../../../Maintain/failure-handling/failure-handling.dita" class="- topic/xref ">failure
+                     handling</xref> schema to determine whether the execution should
+                  be allowed to continue or stop.</entry></row></tbody></tgroup></table>
+    
+  </section><section id="id_3" class="- topic/section ">
+    <title class="- topic/title ">Returns</title>
+    
+      <p class="- topic/p ">The found web elements or <codeph class="+ topic/ph pr-d/codeph ">null</codeph> if cannot find
+         any.</p>
+    
+  </section><section id="id_4" class="- topic/section ">
+    <title class="- topic/title ">Example</title>
+    
+      <p class="- topic/p ">You want to find all social networking icons on the <xref format="html" href="https://katalon-demo-cura.herokuapp.com/" scope="external" class="- topic/xref ">https://katalon-demo-cura.herokuapp.com/</xref>
+         demo website using a test object.</p>
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">import com.kms.katalon.core.testobject.ConditionType as ConditionType
+import com.kms.katalon.core.util.KeywordUtil
+import org.openqa.selenium.WebElement
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.testobject.TestObject as TestObject
+​
+WebUI.openBrowser('https://katalon-demo-cura.herokuapp.com/')
+// Wait for the browser to be stable
+WebUI.delay(3)
+​
+TestObject testObj = findTestObject('icon_Social_networking')
+List&lt;WebElement&gt; elements = WebUI.findWebElements(testObj, 10)
+for (int i = 0;  i &lt; elements.size(); ++i) {
+    KeywordUtil.logInfo(elements.get(i).toString())
+}
+</codeblock>
+      
+      <p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">See also</b>:<ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "><xref href="../webui-find-web-element/webui-find-web-element.dita" class="- topic/xref ">[WebUI]
+            Find Web Element</xref></p></li></ul>
+      </p>
+    
+  </section></conbody></concept>

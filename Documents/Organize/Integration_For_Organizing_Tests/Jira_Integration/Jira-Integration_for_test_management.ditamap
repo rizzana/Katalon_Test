@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-Jira-Integration" class="- map/map "><title class="- topic/title ">Jira Integration for test management</title><mapref format="ditamap" href="Enable-Jira-TestOps-integration/Enable-TestOps-Jira-integration-for-test-management.ditamap" class="+ map/topicref mapgroup-d/mapref "/><mapref format="ditamap" href="configure-jira-integration-in-KS/configure-jira-integrationin-katalon-studio.ditamap" class="+ map/topicref mapgroup-d/mapref "/><mapref format="ditamap" href="configure-Jira-integration-BDD-testing/Manage-BDD-test-cases-Jira-integration.ditamap" class="+ map/topicref mapgroup-d/mapref "/></map>

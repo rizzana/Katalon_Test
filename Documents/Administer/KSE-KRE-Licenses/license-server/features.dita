@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Features</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">The following features are available for users of a Katalon
+         Studio On-Premises License Server:</p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">Private installation and setup (within your internal
+            network).</li>
+        <li class="- topic/li ">User and organization management.</li>
+        <li class="- topic/li ">License management.</li>
+        <li class="- topic/li ">Katalon Studio subscription.</li>
+      </ul>
+    </conbody>
+  </concept>

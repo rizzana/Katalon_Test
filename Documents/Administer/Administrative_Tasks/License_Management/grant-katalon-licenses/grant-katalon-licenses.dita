@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Grant Katalon Licenses</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">In this guide, you will learn to assign Katalon Studio
+         Enterprise (KSE) and Katalon Runtime Engine (KRE) licenses to Users
+         in your Organization.</p>
+    </conbody>
+  </concept>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Parameters</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">The parameters for the WebUI keywords are as given below:</p><table class="- topic/table "><tgroup cols="4" class="- topic/tgroup "><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Parameter</entry><entry class="- topic/entry ">Type</entry><entry class="- topic/entry ">Mandatory</entry><entry class="- topic/entry ">Description</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">fileName</entry><entry class="- topic/entry ">String</entry><entry class="- topic/entry ">Optional</entry><entry class="- topic/entry ">A String that represents the path to the saved image. The path
+                  can be an absolute or relative path.</entry></row><row class="- topic/row "><entry class="- topic/entry ">flowControl</entry><entry class="- topic/entry ">FailureHandling</entry><entry class="- topic/entry ">Optional</entry><entry class="- topic/entry ">Specify <xref href="https://docs.katalon.com/katalon-studio/docs/failure-handling.html" scope="external" class="- topic/xref ">failure handling</xref> schema to
+                  determine whether the execution should be allowed to continue or
+                  stop.</entry></row><row class="- topic/row "><entry class="- topic/entry ">screenshotOptions</entry><entry class="- topic/entry ">Map</entry><entry class="- topic/entry ">Optional</entry><entry class="- topic/entry ">A String representing the information to be printed on the
+                  captured screenshot.</entry></row></tbody></tgroup></table><note type="note" class="- topic/note ">
+        <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "><i class="+ topic/ph hi-d/i ">ScreenshotOptions  </i>is available for refer Katalon Studio version
+            8.0.5 onwards.</p></li></ul>
+      </note></conbody></concept>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_34" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">New feature</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+
+          <li class="- topic/li ">Support importing test scripts of Selenium IDE version 3.x. <xref href="../../../../Get_Started/Migration_From_Other_Tools/Import_Selenium_IDE_v3_Projects_To_Katalon_Studio/intro_import_selenium_ide.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li>
+        </ul>
+      </conbody>
+    </concept>

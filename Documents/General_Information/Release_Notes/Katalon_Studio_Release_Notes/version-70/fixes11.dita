@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_55" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Fixes</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">Bug: [Runtime Engine] An issue of counting the number of
+            execution processes</li>
+          <li class="- topic/li ">Bug: [Windows] An issue of debugging Windows test scripts</li>
+          <li class="- topic/li ">Bug: [Kobiton Integration] An issue of not displaying error
+            message for invalid account</li>
+          <li class="- topic/li ">Bug: [BDD] <codeph class="+ topic/ph pr-d/codeph ">runFeatureFolder</codeph> throws exception when
+            tests fail</li>
+          <li class="- topic/li ">Bug: An issue of configuring the port of Mail Server in Email
+            settings</li>
+          <li class="- topic/li ">Bug: [API] Unable to send a request in macOS or Linux if its
+            HTTP body uses <codeph class="+ topic/ph pr-d/codeph ">form-data</codeph> or <codeph class="+ topic/ph pr-d/codeph ">file</codeph> with
+            relative path on Windows machine</li>
+        </ul>
+      </conbody>
+    </concept>

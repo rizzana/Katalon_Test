@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Overview</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p "><ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/> is an enterprise-class platform for QA
+         orchestration, test analytics, and advanced reports.</p><p class="- topic/p ">With <ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/>, you can coordinate various activities,
+         cycles, and frameworks in software testing. By doing so, you can
+         ensure software quality at every stage without the need to
+         sacrifice speed or require DevOps expertise.</p><p class="- topic/p "><ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/> integration in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> allows you to upload
+         test results to <ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/> for test management and reports.
+         See: <xref href="../../../Analyze/Reports/Upload_Test_Reports/Upload_test_results_from_KS_to_TestOps/katalon-analytics-beta-integration.dita" class="- topic/xref ">Upload
+            Test Results to <ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/> from <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></xref>.</p><p class="- topic/p ">For information on the key modules <ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/> offers, see: <xref href="../../../About_Katalon_Platform/Katalon_TestOps_Overview/test_planning.dita" class="- topic/xref "><ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/>
+            Overview</xref>.</p></conbody></concept>

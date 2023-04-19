@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_8" class="- topic/topic concept/concept "><title class="- topic/title ">
+      Step 7: Create an execution
+               event extension
+    </title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To create an <xref href="https://github.com/katalon-studio/katalon-studio-platform/blob/master/com.katalon.platform/src/main/java/com/katalon/platform/api/extension/EventListenerInitializer.java" scope="external" class="- topic/xref ">execution event extension</xref>, we go back to <codeph class="+ topic/ph pr-d/codeph ">
+          <xref format="html" href="https://github.com/katalon-studio/katalon-studio-platform/blob/master/com.katalon.platform/plugin.xml" scope="external" class="- topic/xref ">plugin.xml</xref>
+        </codeph>
+         file of Katalon Studio Platform, and find the declaration of
+         <codeph class="+ topic/ph pr-d/codeph ">Subscribe KS execution event</codeph>:</p><codeblock class="+ topic/pre pr-d/codeblock ">&lt;extension
+        point="com.katalon.platform.extensions_point"&gt;
+    &lt;point
+        id="com.katalon.platform.api.extension.eventListener"
+        interfaceClass="com.katalon.platform.api.event.EventListenerInitializer"
+        serviceClass="com.katalon.platform.internal.event.EventListenerService"&gt;
+    &lt;/point&gt;
+&lt;/extension&gt;
+</codeblock><p class="- topic/p ">Now, we need to declare our extension in
+         <codeph class="+ topic/ph pr-d/codeph ">plugin.xml</codeph>
+      </p><codeblock class="+ topic/pre pr-d/codeblock ">&lt;extension
+        point="com.katalon.platform.extensions"&gt;
+    &lt;point
+        id="com.mycompany.plugin.myAnotherExtensionId"
+        extensionPointId="com.katalon.platform.api.extension.eventListener"
+        implementationClass="com.mycompany.plugin.MyExecutionEventListener"&gt;
+    &lt;/point&gt;
+&lt;/extension&gt;
+</codeblock><p class="- topic/p ">and create <codeph class="+ topic/ph pr-d/codeph ">implementationClass</codeph>:</p><codeblock class="+ topic/pre pr-d/codeblock ">package com.mycompany.plugin;
+
+import org.osgi.service.event.Event;
+
+import com.katalon.platform.api.event.EventListener;
+import com.katalon.platform.api.event.ExecutionEvent;
+import com.katalon.platform.api.execution.TestSuiteExecutionContext;
+import com.katalon.platform.api.extension.EventListenerInitializer;
+public class MyExecutionEventListener implements EventListenerInitializer {
+
+    @Override
+    public void registerListener(EventListener listener) {
+        listener.on(Event.class, event -&gt; {
+            if (ExecutionEvent.TEST_SUITE_FINISHED_EVENT.equals(event.getTopic())) {
+                ExecutionEvent eventObject = (ExecutionEvent) event.getProperty("org.eclipse.e4.data");
+
+                TestSuiteExecutionContext testSuiteContext = (TestSuiteExecutionContext) eventObject
+                        .getExecutionContext();
+
+                System.out.println("Test execution completed: " + testSuiteContext.getReportId());
+            }
+        });
+    }
+}
+</codeblock><p class="- topic/p ">This <codeph class="+ topic/ph pr-d/codeph ">implementationClass</codeph> just prints an execution
+         completed message to console but you can extend this class to do
+         more business logics. A good example for this is <xref format="html" href="https://github.com/katalon-studio/katalon-studio-slack-plugin" scope="external" class="- topic/xref ">Slack
+            Integration Plugin</xref>. You can see how it integrates with Slack
+         application.</p></conbody></concept>

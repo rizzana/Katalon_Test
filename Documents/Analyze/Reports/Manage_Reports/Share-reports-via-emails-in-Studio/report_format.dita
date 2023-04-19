@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Report Format</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">You can decide whether to include a test execution report as an
+         email attachment or not. Specifically, you are given options to
+         include <b class="+ topic/ph hi-d/b ">log files</b> and configure which
+         <b class="+ topic/ph hi-d/b ">report format</b> (HTML, CSV, and PDF) of test
+         executions to be sent as attachments in the email report.</p>
+    </conbody>
+  </concept>

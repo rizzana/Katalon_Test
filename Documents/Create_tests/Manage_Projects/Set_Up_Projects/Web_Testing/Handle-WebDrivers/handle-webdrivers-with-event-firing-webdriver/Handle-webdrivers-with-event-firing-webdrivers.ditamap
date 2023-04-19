@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-Handle-webdrivers-with-event-firing-webdrivers" class="- map/map ">
+  <title class="- topic/title ">Handle WebDrivers with EventFiringWebDriver</title>
+  <topicref href="handle-webdrivers-with-event-firing-webdrivers.dita" class="- map/topicref "><topicref href="use_webdriver_event_listeners.dita" class="- map/topicref "/>
+  <topicref href="use_remotewebdriver.dita" class="- map/topicref "/>
+  <topicref href="see_also_1647942191692.289.dita" class="- map/topicref "/>
+</topicref>
+  </map>

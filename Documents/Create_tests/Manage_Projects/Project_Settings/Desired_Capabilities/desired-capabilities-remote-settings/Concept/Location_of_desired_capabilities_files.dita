@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-1585" xml:lang="en-us" class="- topic/topic concept/concept "><title class="- topic/title ">Location of desired capabilities files</title><prolog class="- topic/prolog "><author translate="no" type="creator" class="- topic/author ">Yen Nguyen &lt;yen.nguyen@katalon.com&gt;</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "/></metadata></prolog><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">You can find the settings files for each environment in the <codeph class="+ topic/ph pr-d/codeph ">&lt;your test project location&gt;\settings\internal</codeph> folder. The files for each driver are named as follows:</p><table class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><colspec colname="col1" class="- topic/colspec "/>
+        <colspec colname="col2" class="- topic/colspec "/>
+        <thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Driver</entry>
+            <entry class="- topic/entry ">Settings' file</entry></row></thead>
+        <tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">Remote Web Server</entry>
+            <entry class="- topic/entry ">com.kms.katalon.core.webui.remote.properties</entry></row></tbody></tgroup></table></conbody></concept>

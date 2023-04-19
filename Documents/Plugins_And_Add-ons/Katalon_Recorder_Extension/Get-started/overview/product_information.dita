@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">Product information</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Does Katalon Recorder collect the data and send to
+            external services?</b>
+      </p><p class="- topic/p ">Katalon team do NOT collect information on end-users' test
+         artifacts. Katalon Recorder will only save test artifacts on your
+         local machine, and never send it to our server.</p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Will Katalon Recorder be maintained
+            regularly?</b>
+      </p><p class="- topic/p ">Katalon team commit to maintaining both Katalon Recorder up
+         to date and keeping the tools free of charge. 2021 Products Roadmap
+         will be soon available to all users.</p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Is Katalon Recorder available for commercial
+            use?</b>
+      </p><p class="- topic/p ">Katalon Recorder is free to use on any projects (commercial
+         or not) of yours. But it's prohibited for you to
+         sell/redistribute/decode Katalon Recorder.</p><p class="- topic/p ">Learn more in our free Katalon Academy course:  <xref href="https://academy.katalon.com/courses/browser-automation/?utm_source=kat_docs&amp;utm_medium=kr_overview" scope="external" class="- topic/xref ">Katalon Recorder: Test Automation for Start-Ups &amp; Small Teams</xref>.</p></conbody></concept>

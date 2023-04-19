@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Transfer Ownership</title><conbody class="- topic/body  concept/conbody "><note type="important" class="- topic/note ">
+        
+        <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">You must be the Owner of your Organization.</p></li></ul>
+      </note><p class="- topic/p ">You may want to transfer ownership in the following
+         circumstances:</p><ul class="- topic/ul "><li class="- topic/li ">When you want to change your current email address.</li><li class="- topic/li ">When you want to transfer your Organization to another
+            member.</li></ul></conbody></concept>

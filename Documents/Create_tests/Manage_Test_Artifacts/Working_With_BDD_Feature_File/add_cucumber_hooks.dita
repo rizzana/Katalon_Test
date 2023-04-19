@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Add Cucumber Hooks</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Create another step definition or a custom keyword that includes the Cucumber hooks. Here, we create a step definition.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/cucumber-test-hooks/KS-New-Cucumber-hooks-script.png" scope="external" class="- topic/image "><alt class="- topic/alt ">New Cucumber hook script</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Enter Cucumber hooks into the new step definition. For example, to add <codeph class="+ topic/ph pr-d/codeph ">@Before</codeph> and <codeph class="+ topic/ph pr-d/codeph ">@After</codeph> scenario hooks, copy and paste the following script:</p>
+                <codeblock class="+ topic/pre pr-d/codeblock ">class SampleTestHook {
+    @Before
+    public void beforeScenario(Scenario scenario) {
+        println 'This is a before scenario method: ' + scenario.getName()
+    }
+
+    @After
+    public void afterScenario(Scenario scenario) {
+        println 'This is a after scenario method: ' + scenario.getName()
+    }
+}
+</codeblock>
+            </li></ol></conbody></concept>

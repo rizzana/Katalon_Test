@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_0" class="- topic/topic concept/concept "><title class="- topic/title ">[WebUI] Set Encrypted Text</title><conbody class="- topic/body  concept/conbody "><section id="id_1" class="- topic/section ">
+    <title class="- topic/title ">Description</title>
+    
+      <p class="- topic/p ">Set encrypted text into an input field. It also clears the
+         previous value of the input field. To encrypt raw text, go to
+         <b class="+ topic/ph hi-d/b ">Help &gt; Encrypt Text</b>.</p>
+      <p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b "><i class="+ topic/ph hi-d/i ">Manual mode</i></b>
+      </p>
+      <p class="- topic/p ">The pop-up dialog has been shown when calling keyword
+         "<b class="+ topic/ph hi-d/b ">Set Encrypted Text</b>". Input raw text and select
+         insert.</p>
+      <p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">
+          <i class="+ topic/ph hi-d/i ">Script Mode</i>
+        </b>
+      </p>
+      <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Help &gt; Encrypt Text</b>, input raw text to
+         encrypt. Next, copy and paste encrypted text into the
+         test scripts.</p>
+    
+  </section><section id="id_2" class="- topic/section ">
+    <title class="- topic/title "> Parameters</title>
+    
+      <table class="- topic/table "><tgroup cols="4" class="- topic/tgroup "><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Param</entry><entry class="- topic/entry ">Param Type</entry><entry class="- topic/entry ">Mandatory</entry><entry class="- topic/entry ">Description</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">to</entry><entry class="- topic/entry ">TestObject</entry><entry class="- topic/entry ">Required</entry><entry class="- topic/entry ">Represent a web element.</entry></row><row class="- topic/row "><entry class="- topic/entry ">text</entry><entry class="- topic/entry ">String</entry><entry class="- topic/entry ">Required</entry><entry class="- topic/entry ">The encrypted text.</entry></row><row class="- topic/row "><entry class="- topic/entry ">flowControl</entry><entry class="- topic/entry ">FailureHandling</entry><entry class="- topic/entry ">Optional</entry><entry class="- topic/entry ">Specify <xref href="../../../../../Maintain/failure-handling/failure-handling.dita" class="- topic/xref ">failure handling</xref> schema to
+                  determine whether the execution should be allowed to continue or
+                  stop.</entry></row></tbody></tgroup></table>
+    
+  </section><section id="id_3" class="- topic/section ">
+    <title class="- topic/title ">Example</title>
+    
+      <p class="- topic/p ">Set the encrypted text to txt_Password of a login form.</p>
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">'Open browser and navigate to AUT'
+WebUI.openBrowser('http://demoaut.katalon.com/profile.php#login')
+
+'Input username'
+WebUI.setText(findTestObject('Page_Login/txt_UserName'), 'John Doe')
+
+'Input password'
+WebUI.setEncryptedText(findTestObject('Page_Login/txt_Password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
+
+'Click on "Login" button'
+WebUI.click(findTestObject('Page_Login/btn_Login'))
+
+'Close browser'
+WebUI.closeBrowser()
+</codeblock>
+      
+    
+  </section></conbody></concept>

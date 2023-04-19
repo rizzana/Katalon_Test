@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_8" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">What is a dynamic element?</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">One of the challenging and time-consuming tasks in test
+         automation is to modify test scripts when the AUT is changed,
+         especially in the early stages of software development. Developers
+         may change identifiers and elements quite often from one build to
+         another. In addition, during the execution, the AUT elements may
+         change dynamically.</p>
+        <p class="- topic/p ">Dynamic web elements are elements whose IDs and any other
+         attributes like class names or values keep changing when you
+         refresh the page. Dynamic elements are database-driven or
+         session-driven. For example, when you edit an element in a
+         database, it changes a number of areas of the application under
+         test.</p>
+      </conbody>
+    </concept>

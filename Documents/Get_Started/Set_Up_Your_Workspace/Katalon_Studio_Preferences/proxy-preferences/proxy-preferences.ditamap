@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-proxy-preferences" class="- map/map "><title class="- topic/title ">Proxy Preferences</title><topicref href="proxy-preferences.dita" class="- map/topicref "><topicref href="Use_desired_capabilities_of_a_TC.dita" class="- map/topicref "/><topicref href="override_proxy_details_in_the_test_script.dita" class="- map/topicref "/></topicref></map>

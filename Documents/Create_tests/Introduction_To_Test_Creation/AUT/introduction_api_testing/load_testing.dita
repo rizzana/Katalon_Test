@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_9" class="- topic/topic concept/concept "><title class="- topic/title ">Load testing</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Load testing is generally done after a specific unit, or the
+         whole codebase has been completed to check if the theoretical
+         solutions work as the practical plan. Load testing is performed to
+         ensure the performance under both normal and at peak conditions. To
+         do so, load testing takes on some various scenarios:</p><ul class="- topic/ul "><li class="- topic/li ">Baseline – tests the API against theoretical regular
+            traffic that the API expects in ordinary usage;</li><li class="- topic/li ">Theoretical maximum traffic – this is to make sure during
+            the full load periods, the solutions respond to those requests
+            properly;</li><li class="- topic/li ">Overload test – to test the maximum capability according
+            to the theory, then add 10-20% more on the peak traffic.
+             </li></ul></conbody></concept>

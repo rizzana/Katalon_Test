@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">With Katalon Runtime Engine</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Running a test with KRE automatically fetches your machine ID to
+         validate your license. You can view your machine ID information in
+         the terminal.</p><p class="- topic/p ">
+          
+        <image width="700" href="image/kre-activate.png" class="- topic/image "/></p></conbody></concept>

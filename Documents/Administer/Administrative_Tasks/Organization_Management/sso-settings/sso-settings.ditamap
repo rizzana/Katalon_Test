@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-sso-settings" class="- map/map ">
+  <title class="- topic/title ">Single Sign-On Configurations</title>
+  <topicref href="sso-settings.dita" class="- map/topicref "><topicref href="configure_an_identity_provider.dita" class="- map/topicref "/>
+  <topicref href="configure_single_sign-on.dita" class="- map/topicref "/>
+  <topicref href="enable_sso_for_new_members_and_existing_members.dita" class="- map/topicref ">
+    <topicref href="for_a_new_user.dita" class="- map/topicref "/>
+    <topicref href="for_an_existing_user.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="view_pending_sso_invitations.dita" class="- map/topicref "/>
+  <topicref href="revoke_pending_sso_invitations.dita" class="- map/topicref ">
+    <topicref href="for_existing_users.dita" class="- map/topicref "/>
+    <topicref href="for_new_users.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="activate_sso_in_katalon_studio.dita" class="- map/topicref "/>
+  <topicref href="enable_sso_as_a_user.dita" class="- map/topicref "/>
+</topicref>
+  </map>

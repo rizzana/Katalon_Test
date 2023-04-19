@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Sample BDD (Cucumber) tests project in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">This sample demonstrates fundamental behavior-driven development
+         (BDD) testing. The application under test (AUT) is the react
+         calculator:
+         <codeph class="+ topic/ph pr-d/codeph ">https://katalon-studio-samples.github.io/calculator</codeph>.
+         To learn more about BDD testing, you can refer to this document: <xref href="../../../../General_Information/Supported_Integrations/BDD_Testing_Framework_Overview/cucumber-features-file.dita" class="- topic/xref ">BDD
+            Testing Framework (Cucumber integration)</xref>.</p></conbody></concept>

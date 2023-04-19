@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task-6801" class="- topic/topic task/task "><title class="- topic/title ">Temporarily turn off Smart Wait</title><taskbody class="- topic/body task/taskbody "><prereq class="- topic/section task/prereq ">The <uicontrol class="+ topic/ph ui-d/uicontrol ">Default Smart Wait</uicontrol> function is enabled.</prereq><context class="- topic/section task/context ">
+                <p class="- topic/p ">You can use the <codeph class="+ topic/ph pr-d/codeph ">enableSmartWait</codeph> and <codeph class="+ topic/ph pr-d/codeph ">disableSmartWait</codeph> keywords to enable/disable Smart Wait during the test temporarily.</p>
+            </context><steps-unordered class="- topic/ul task/steps-unordered "><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Use the <codeph class="+ topic/ph pr-d/codeph ">enableSmartWait</codeph> or <codeph class="+ topic/ph pr-d/codeph ">disableSmartWait</codeph> keywords to enable/disable Smart Wait on your target elements.</cmd><info class="- topic/itemgroup task/info "><p class="- topic/p ">In the following example, we first use the <codeph class="+ topic/ph pr-d/codeph ">disableSmartWait</codeph> keyword to disable Smart Wait at the beginning of the test temporarily.</p><p class="- topic/p ">Then we use the <codeph class="+ topic/ph pr-d/codeph ">enableSmartWait</codeph> keyword to enable Smart Wait when setting text on the <codeph class="+ topic/ph pr-d/codeph ">Username</codeph> object. Smart Wait is enabled until the <codeph class="+ topic/ph pr-d/codeph ">disableSmartWait</codeph> keyword is applied.<codeblock class="+ topic/pre pr-d/codeblock ">
+WebUI.disableSmartWait()
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://store.katalon.com/')
+
+WebUI.maximizeWindow()
+
+WebUI.click(findTestObject('signin-link'))
+
+WebUI.enableSmartWait()
+
+WebUI.setText(findTestObject('username'), 'demo@katalon.com')
+
+WebUI.setEncryptedText(findTestObject('password'),'3zBGMH+v8QQXwX1AbEAx2g==')
+
+WebUI.click(findTestObject('signin-button'))
+
+WebUI.click(findTestObject('menu-dropdown'))
+
+WebUI.click(findTestObject('dashboard-item'))
+
+WebUI.click(findTestObject('plugins-item'))
+
+WebUI.disableSmartWait()
+
+WebUI.closeBrowser()</codeblock></p></info></step></steps-unordered></taskbody></task>

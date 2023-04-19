@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept "><title class="- topic/title ">Activate a license with Private Instance</title><conbody class="- topic/body  concept/conbody "><section class="- topic/section "><title class="- topic/title ">Requirements</title><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Katalon Studio version 8.3.5 onwards.</p></li><li class="- topic/li "><p class="- topic/p ">A
+            private instance URL. If you want to learn more about Private
+            Instance, contact our sales team via business@katalon.com.</p></li></ul></section></conbody></concept>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Enhanced Variable Binding in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><note type="note" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">Starting from version 6.3.0, variable binding can be configured to read test data values as the intended data types. This feature is only applicable for Test data of type Excel and Database.</li></ul>
+        </note><p class="- topic/p ">You can enable this feature to obtain old variable binding behaviors. Old test data continue to be read as string to ensure that we don't break existing test cases.</p><p class="- topic/p ">In this example, we create a test suite and a test case with variables. <i class="+ topic/ph hi-d/i ">booleanVar</i> is a test case variable of type Boolean; <i class="+ topic/ph hi-d/i ">numberVar</i> a test case variable of type Number; and, <i class="+ topic/ph hi-d/i ">stringVar</i> a test case variable of type String.</p><table class="- topic/table "><tgroup cols="3" class="- topic/tgroup "><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Boolean</entry><entry class="- topic/entry ">Integer</entry><entry class="- topic/entry ">String</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">TRUE</entry><entry class="- topic/entry ">1</entry><entry class="- topic/entry ">one</entry></row><row class="- topic/row "><entry class="- topic/entry ">FALSE</entry><entry class="- topic/entry ">2</entry><entry class="- topic/entry ">zero</entry></row></tbody></tgroup></table><ul class="- topic/ul "><li class="- topic/li ">Create the following custom keyword <b class="+ topic/ph hi-d/b ">TestDataKeyword</b>:</li></ul><codeblock class="+ topic/pre pr-d/codeblock ">public class testdata {
+
+    public static void printString(String str) {
+        println str;
+    }
+
+    public static void printInt(BigDecimal integer) {
+        println integer;
+    }
+
+    public static void printBoolean(boolean bool) {
+        println bool;
+    }
+
+}
+</codeblock><ul class="- topic/ul "><li class="- topic/li ">Use them in the test case Sample Test Case as followed:</li></ul><codeblock class="+ topic/pre pr-d/codeblock ">TestDataKeyword.takeBooleanAndPrint(booleanVar);
+TestDataKeyword.takeNumberAndPrint(numberVar);
+TestDataKeyword.takeStringAndPrint(stringVar);
+</codeblock><p class="- topic/p ">where <i class="+ topic/ph hi-d/i ">booleanVar</i>, <i class="+ topic/ph hi-d/i ">numberVar</i>, <i class="+ topic/ph hi-d/i ">stringVar</i> are test case variables.</p></conbody></concept>

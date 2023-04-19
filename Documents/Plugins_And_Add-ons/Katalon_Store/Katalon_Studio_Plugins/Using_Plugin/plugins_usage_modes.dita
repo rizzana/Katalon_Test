@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title "><ph conkeyref="name-variables/katalon-store" class="- topic/ph "/> Plugins usage modes</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">All Katalon users are eligible for using the community plugins
+         published on Store.</p><p class="- topic/p ">Compared to the community users, in addition to Store's plugins,
+         Katalon Studio Enterprise users can use their private plugins or
+         all plugins in an offline environment.</p><p class="- topic/p ">Katalon Runtime Engine users can use plugins in console
+         mode.</p></conbody></concept>

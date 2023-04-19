@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-8982" xml:lang="en-us" class="- topic/topic concept/concept "><title class="- topic/title ">In script view</title><prolog class="- topic/prolog "><author translate="no" type="creator" class="- topic/author ">Yen Nguyen &lt;yen.nguyen@katalon.com&gt;</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "/></metadata></prolog><conbody class="- topic/body  concept/conbody "><p class="- topic/p "> The <uicontrol conkeyref="ks-UI-text/ks-ui-script" class="+ topic/ph ui-d/uicontrol "/> view of test cases allows you to programmatically define and handle assertions using either Groovy or Java language. For more details regarding assertions in Groovy, refer to this Groovy documentation: <xref format="html" href="http://docs.groovy-lang.org/docs/latest/html/documentation/core-testing-guide.html" scope="external" class="- topic/xref ">Core Testing Guide.html</xref>. </p><p class="- topic/p ">For example:<codeblock class="+ topic/pre pr-d/codeblock ">WebUiBuiltInKeywords.openBrowser('', FailureHandling.STOP_ON_FAILURE)
+WebUiBuiltInKeywords.navigateToUrl(GlobalVariable.global_Gmail_Url, FailureHandling.STOP_ON_FAILURE)
+assert varA == true    
+            </codeblock></p></conbody></concept>

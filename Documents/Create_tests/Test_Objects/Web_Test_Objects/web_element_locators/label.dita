@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">Label</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">A label is usually used to describe a message (error message,
+         info message, hint message, etc.), a control (textbox, radio
+         button, text area, etc.), or a tooltip. As shown in the user
+         interface, a label is usually unique—otherwise it would be
+         confusing for users to differentiate UI elements. Therefore, the
+         label's text is considered a good candidate of the label's locator.
+         To make the locator more readable, 
+         can be used to narrow the
+            scope of the locator.</p><p class="- topic/p ">To locate a label, you should focus on: tag and text. For
+            example:</p></conbody></concept>

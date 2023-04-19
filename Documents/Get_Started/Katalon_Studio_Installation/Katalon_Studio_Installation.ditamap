@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-6800" class="- map/map "><title class="- topic/title ">Katalon Studio installation</title><topicref href="Installation_Overview.dita" class="- map/topicref "/><mapref format="ditamap" href="Install_Katalon_Studio_on_macOS_and_Windows/Install_KS_on_macOSWindows.ditamap" class="+ map/topicref mapgroup-d/mapref "/><mapref format="ditamap" href="Install_Katalon_Studio_for_Linux_GUI/Install_KS_for_Linux.ditamap" class="+ map/topicref mapgroup-d/mapref "/></map>

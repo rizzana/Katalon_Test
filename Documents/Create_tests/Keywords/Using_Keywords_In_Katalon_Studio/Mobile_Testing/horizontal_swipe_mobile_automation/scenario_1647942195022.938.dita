@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Scenario</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">The screenshot of the app contains a list of applications which
+         are installed in the mobile device. We want to swipe horizontally
+         from left to right on any application from this list.</p>
+      <p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/horizontal_swipe_mobile_automation/Handling-Horizontal-Swipe-in-Mobile-Automation.png" scope="external" class="- topic/image ">
+          <alt class="- topic/alt ">Handling Horizontal Swipe in Mobile Automation</alt>
+        </image>
+      </p>
+    </conbody>
+  </concept>

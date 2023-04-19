@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-handling_iframe_issue" class="- map/map ">
+  <title class="- topic/title ">Handling iFrame issue with Katalon Studio</title>
+  <topicref href="handling_iframe_issue.dita" class="- map/topicref "><topicref href="how_to_identify_an_iframe.dita" class="- map/topicref ">
+    <topicref href="usage_example_1.dita" class="- map/topicref "/>
+    <topicref href="usage_example_2.dita" class="- map/topicref "/>
+    <topicref href="usage_example_3_switch_to_frame.dita" class="- map/topicref "/>
+    <topicref href="usage_example_4_switch_to_default_content.dita" class="- map/topicref "/>
+    <topicref href="common_exceptions.dita" class="- map/topicref "/>
+  </topicref>
+</topicref>
+  </map>

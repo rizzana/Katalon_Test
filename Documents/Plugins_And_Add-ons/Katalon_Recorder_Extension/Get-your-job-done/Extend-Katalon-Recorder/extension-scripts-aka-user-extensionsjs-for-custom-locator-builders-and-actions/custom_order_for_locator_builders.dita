@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Custom order for locator builders</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">The preferred order for locator builders can be customized.</p>
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">// built-in locators: "id", "link", "name", "dom:name", "xpath:link", "xpath:img", "xpath:attributes", "xpath:idRelative", "xpath:href", "dom:index", "xpath:position", "css"
+LocatorBuilders._preferredOrder = ['xpath:position', 'my super locator'];
+// Change the default order to preferredOrder
+LocatorBuilders._orderChanged();
+</codeblock>
+      
+    </conbody>
+  </concept>

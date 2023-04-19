@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Add commands to interact with websites</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To get started, use the Recorder to automatically create a test
+         case: <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Click on the <b class="+ topic/ph hi-d/b ">Record</b> button.</p></li><li class="- topic/li "><p class="- topic/p ">Switch to
+         the currently active tab.</p></li><li class="- topic/li "><p class="- topic/p ">Start interacting with your website.</p></li><li class="- topic/li "><p class="- topic/p ">Switch to Katalon Recorder.</p></li><li class="- topic/li "><p class="- topic/p ">Click the <b class="+ topic/ph hi-d/b ">Stop</b>
+         button.</p></li></ul></p><p class="- topic/p ">You should see your interactions are recorded as a test
+         case.</p></conbody></concept>

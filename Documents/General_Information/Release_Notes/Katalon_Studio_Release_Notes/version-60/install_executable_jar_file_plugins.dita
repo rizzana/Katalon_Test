@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_38" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Install Executable JAR File Plugins</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-60/1.png" scope="external" class="- topic/image "/> Katalon allows you to install executable JAR plugins
+         right on the Quick Access Toolbar. In case these JAR files are
+         already available on your computer, you can easily install them by
+         navigating to <b class="+ topic/ph hi-d/b ">Plugin</b> &gt; <b class="+ topic/ph hi-d/b ">Install
+            Plugin</b>.</p>
+      </conbody>
+    </concept>

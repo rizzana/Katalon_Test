@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Handling Web element locators using <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">
+          <xref href="understanding_your_application_under_test_aut.dita" class="- topic/xref ">Understanding Your Application Under
+               Test (AUT)</xref>
+        </li><li class="- topic/li ">
+          <xref href="understanding_application_lifecycles.dita" class="- topic/xref ">Understanding Application
+               Lifecycles</xref>
+        </li><li class="- topic/li ">
+          <xref href="using_static_locators.dita" class="- topic/xref ">Using Static Locators</xref>
+        </li><li class="- topic/li ">
+          <xref href="using_uniquely_present_text.dita" class="- topic/xref ">Using Uniquely Present Text</xref>
+        </li><li class="- topic/li ">
+          <xref href="summary.dita" class="- topic/xref ">Summary</xref>
+        </li></ol><p class="- topic/p ">In Web test automation, locator is the only way to identify an
+         element on a Web page when running test scripts. When it comes to
+         automated testing of Web applications, choosing a suitable strategy
+         is essential. Web element locators depend entirely on the
+         implementation process, so there is no one-size-fits-all approach
+         for every Web applications. The selection strategy can be
+         influenced by these factors: Web application frameworks,
+         development conventions, software life cycles, and the experience
+         of automation leaders.</p><p class="- topic/p ">Picking a suitable strategy is crucial not only to Selenium but
+         also to Katalon Studio. Katalon Studio provides features to
+         generate necessary locators (XPath, CSS, etc.); so that users only
+         need to choose the correct one to use. In other words, Katalon
+         Studio has done 80% of the task, and the remaining 20% will be
+         decided by users. Starting a project with a good strategy will make
+         test projects stable and scalable, as well as reduce effort at the
+         maintenance phase. This tutorial will help you fulfill this
+         expectation.</p><p class="- topic/p ">
+         There are many different types of Web element with the most common
+         including Label, Textbox, Button, Select, Hyperlink, Checkbox and
+         Radio button. Custom elements built from other basic elements are
+         Frame, Dialog, Dropdown, Calendar, and Form.</p><p class="- topic/p ">To identify these elements, we can follow one of these
+         strategies.</p><ul class="- topic/ul "><li class="- topic/li ">Simple
+            locators: id, name, class, tag, link
+            text, attribute</li><li class="- topic/li ">Advanced locators by combining the simple locators above: 
+            
+            <ul class="- topic/ul "><li class="- topic/li ">XPath</li><li class="- topic/li ">CSS</li></ul>
+        </li><li class="- topic/li ">Using functions in XPath: 
+            
+            <ul class="- topic/ul "><li class="- topic/li ">contains</li><li class="- topic/li ">sibling</li><li class="- topic/li ">ancestor</li></ul>
+        </li></ul><p class="- topic/p ">This tutorial will help your team choose a good approach for Web
+         element locators.</p></conbody></concept>

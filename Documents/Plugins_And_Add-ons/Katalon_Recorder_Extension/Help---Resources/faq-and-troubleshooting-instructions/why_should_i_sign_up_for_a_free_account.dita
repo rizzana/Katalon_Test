@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Why should I sign up for a free account?</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">When you sign up for a free account, you will get access to the
+         following capabilities in Katalon Recorder:<ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Create
+         <b class="+ topic/ph hi-d/b ">unlimited automation scripts</b> to automate unlimited
+         scenarios.</p></li><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b "><xref href="../../Get-your-job-done/Automate-scenarios/auto-backup/auto-backup.dita" class="- topic/xref ">Automatically
+               back up your data to TestOps</xref></b> to avoid data loss.</p></li><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b "><xref href="../../Get-your-job-done/Execution-report/monitor-scenario-executions/upload_test_executions_to_katalon_testops..dita" class="- topic/xref ">Store
+               execution results to TestOps</xref></b> to review trends and
+         history.</p></li><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Receive updates</b> on Katalon, new
+         features and bug fixes regularly to maximize the value of the
+         product.</p></li></ul> </p></conbody></concept>

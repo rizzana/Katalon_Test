@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-generate-customized-report" class="- map/map ">
+  <title class="- topic/title ">Develop a customized report plugin</title>
+  <topicref href="generate-customized-report.dita" class="- map/topicref "><topicref href="relevant_project_structure.dita" class="- map/topicref "/>
+  <topicref href="how_to_build.dita" class="- map/topicref "/>
+  <topicref href="how_to_use.dita" class="- map/topicref "/>
+</topicref>
+  </map>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">View the summary of a Test Result's status change</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">No matter how many times a test result has been modified, you can always view the full history of changes.</p><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Select the <b class="+ topic/ph hi-d/b ">Test Results</b> tab.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Mouse over the <i class="+ topic/ph hi-d/i ">Information</i> icon next to the Test Result status, then click <b class="+ topic/ph hi-d/b ">View changes log</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-override-test-result/View%2520key%2520information-2.png" scope="external" class="- topic/image "><alt class="- topic/alt ">view changes log</alt></image>
+                </p>
+            </li></ol><p class="- topic/p ">Now you can view the following information:</p><ul class="- topic/ul "><li class="- topic/li ">the original status of a Test Result.</li><li class="- topic/li ">the latest status of that Test Result.</li><li class="- topic/li ">further detailed changes of that Test Result.</li></ul></conbody></concept>

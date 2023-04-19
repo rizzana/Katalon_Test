@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Manage published plugins on <ph conkeyref="name-variables/katalon-store" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Publishing plugins allows them to be used by others, who can
+         access and install them from <ph conkeyref="name-variables/katalon-store" class="- topic/ph "/>.</p><p class="- topic/p ">You can publish your plugin publicly so that any Katalon users
+         can find and install it. In addition to published plugins, you can
+         also save your plugin as a draft—this lets you test it or
+         just use it yourself without publishing.</p><p class="- topic/p ">Once you've successfully published a plugin, 
+         on the <xref format="html" href="https://store.katalon.com/manage/publisher" scope="external" class="- topic/xref ">Published
+            plugins</xref> page, you can continue to:</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Update plugins</p></li><li class="- topic/li "><p class="- topic/p ">Remove drafts</p></li><li class="- topic/li "><p class="- topic/p ">Publish/Unpublish plugins</p></li><li class="- topic/li "><p class="- topic/p ">Manage versions: This feature allows you to update new versions for your
+         plugins.</p></li></ul></conbody></concept>

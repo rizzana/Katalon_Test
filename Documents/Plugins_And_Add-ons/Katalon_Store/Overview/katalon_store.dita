@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">About <ph conkeyref="name-variables/katalon-store" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p "><ph conkeyref="name-variables/katalon-store" class="- topic/ph "/> is the open-source Katalon plugin development
+         platform where you can:</p><ul class="- topic/ul "><li class="- topic/li ">Extend Katalon Studio automation capabilities</li><li class="- topic/li ">Adapt Katalon Studio into any SDLC</li><li class="- topic/li ">Build your business on a single, scalable, and customizable
+            platform</li></ul><p class="- topic/p ">Let’s take a look at what <ph conkeyref="name-variables/katalon-store" class="- topic/ph "/> can offer you:</p><ul class="- topic/ul "><li class="- topic/li ">Deploy and maintain plugins in a consistent, secure, and
+            optimized way</li><li class="- topic/li ">Distribute your plugins for Katalon products</li><li class="- topic/li ">Leverage the power of the community to maximize testing
+            efficiency</li></ul>
+        <p class="- topic/p "><xref format="html" href="https://store.katalon.com" scope="external" class="- topic/xref ">Discover Katalon Store
+               now!</xref></p>
+      </conbody></concept>

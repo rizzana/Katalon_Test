@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Grid Node</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">Before executing the scripts, please set the Hub URL in
+         <codeph class="+ topic/ph pr-d/codeph ">nodeConfigForWindow.json</codeph> (for Windows) or
+         <codeph class="+ topic/ph pr-d/codeph ">nodeConfig.json</codeph> (for macOS and Linux) so that Grid
+         Nodes can register themselves with the above Grid Hub, e.g.
+         <codeph class="+ topic/ph pr-d/codeph ">http://hub_ip:4444</codeph>.</p>
+        <p class="- topic/p ">To start Katalium Server as a Grid Node, execute
+         <codeph class="+ topic/ph pr-d/codeph ">node.sh</codeph> file (in macOS and Linux) or
+         <codeph class="+ topic/ph pr-d/codeph ">node.bat</codeph> file (in Windows).</p>
+        
+          <codeblock class="+ topic/pre pr-d/codeblock ">cd katalium-server
+node.bat
+</codeblock>
+        
+        
+          <codeblock class="+ topic/pre pr-d/codeblock ">cd katalium-server
+chmod u+x ./node.sh
+./node.sh
+</codeblock>
+        
+        <p class="- topic/p ">See <b class="+ topic/ph hi-d/b ">Standalone mode</b> for activation steps.</p>
+      </conbody>
+    </concept>

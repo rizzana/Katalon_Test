@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-katalon-compact-utility" class="- map/map "><title class="- topic/title ">Katalon Compact Utility</title><topicref href="c_intro_katalon-compact-utility.dita" class="- map/topicref "><topicref href="installing_katalon_compact_utility.dita" class="- map/topicref "/><topicref href="configuring_and_using_the_compact_utility_with_chrome_profile.dita" class="- map/topicref "/><topicref href="configuring_and_using_the_compact_utility_with_microsoft_edge_profile.dita" class="- map/topicref "><topicref href="disable_xpath_visibility.dita" class="- map/topicref "/></topicref></topicref></map>

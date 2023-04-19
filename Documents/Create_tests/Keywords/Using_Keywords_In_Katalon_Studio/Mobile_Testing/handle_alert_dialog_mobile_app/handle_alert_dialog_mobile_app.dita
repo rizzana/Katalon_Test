@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Handling Alert Dialog in Mobile App in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">An alert dialog box is used to send a message to the user. An
+         alert box displays a dialog with a specific message and allows user
+         to accept or reject the alert (OK/Cancel buttons).</p><p class="- topic/p ">The .apk file can be downloaded <xref format="html" href="https://github.com/katalon-studio/katalon-mobile-automation/blob/master/Data%20Files/ApiDemos.apk" scope="external" class="- topic/xref ">here</xref>.
+         Start the app. Select <b class="+ topic/ph hi-d/b ">App</b> &gt; <b class="+ topic/ph hi-d/b ">Alert
+            Dialogs</b>.</p></conbody></concept>

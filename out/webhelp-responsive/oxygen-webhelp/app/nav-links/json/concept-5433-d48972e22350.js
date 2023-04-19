@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"concept-5433-d48972e22350":{"topics":[{"title":"How to use Defects Report","href":"Documents\/Analyze\/Analytics\/Defects_report\/How_to_use_Defects_Report.html","attributes":{"data-id":"task-6874"},"menu":{"hasChildren":false},"tocID":"task-6874-d48972e22358","topics":[]}]}};

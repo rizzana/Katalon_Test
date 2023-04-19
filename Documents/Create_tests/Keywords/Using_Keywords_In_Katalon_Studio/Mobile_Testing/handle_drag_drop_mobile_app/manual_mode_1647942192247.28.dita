@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Manual Mode</title><conbody class="- topic/body  concept/conbody "><ul class="- topic/ul "><li class="- topic/li ">Step 1: Select <b class="+ topic/ph hi-d/b ">Start
+               Application</b> from mobile keyword and click on
+            <b class="+ topic/ph hi-d/b ">Input</b> to open a new dialogue. In
+            <b class="+ topic/ph hi-d/b ">appFile</b>, select '<b class="+ topic/ph hi-d/b ">Value Type</b>' as
+            <b class="+ topic/ph hi-d/b ">Variable</b>. In <b class="+ topic/ph hi-d/b ">Value</b>, pass the
+            variable name as '<b class="+ topic/ph hi-d/b ">path'</b>.</li></ul><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_drag_drop_mobile_app/Handling-Drag-and-Drop-in-Mobile-App.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Handling Drag and Drop in Mobile App</alt></image>
+      </p><ul class="- topic/ul "><li class="- topic/li ">Step 2: Add a <b class="+ topic/ph hi-d/b ">Wait For Element Present</b> item to
+            wait for Basic Usage playground to pop up.</li><li class="- topic/li ">Step 3: Select <b class="+ topic/ph hi-d/b ">Tap</b> from mobile keyword and
+            pass the object of Basic Usage playground.</li><li class="- topic/li ">Step 4: Similarly, add a <b class="+ topic/ph hi-d/b ">Wait For Element
+               Present</b> item to wait for the 'Brad Mehldau' text.</li><li class="- topic/li ">Step 5: Select the <b class="+ topic/ph hi-d/b ">DragAndDrop</b>
+          <b class="+ topic/ph hi-d/b ">keyword</b> to perform the drag and drop action.</li><li class="- topic/li ">Step 6: The draggable object will be dragged into the droppable
+            object.</li></ul><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_drag_drop_mobile_app/Handling-Drag-and-Drop-in-Mobile-App-6.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Handling Drag and Drop in Mobile App</alt></image>
+      </p><p class="- topic/p ">You can utilize our <b class="+ topic/ph hi-d/b ">Script</b> feature to automate
+         the test.</p></conbody></concept>

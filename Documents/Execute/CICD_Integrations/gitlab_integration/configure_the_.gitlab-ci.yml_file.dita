@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Configure the <codeph class="+ topic/ph pr-d/codeph ">.gitlab-ci.yml</codeph> file</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Open <b class="+ topic/ph hi-d/b ">Pipeline Editor</b> by selecting <b class="+ topic/ph hi-d/b ">CI/CD</b> &gt; <b class="+ topic/ph hi-d/b ">Editor</b>.</p><p class="- topic/p ">The editor displays the <codeph class="+ topic/ph pr-d/codeph ">.gitlab-ci.yml</codeph> file as follows:</p><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/continuous_integration_gitlab/GitLab-Pipeline-Editor.png" scope="external" class="- topic/image "><alt class="- topic/alt ">GitLab Pipeline Editor .gitlab-ci.yml file</alt></image>
+        </p><codeblock class="+ topic/pre pr-d/codeblock "># Requirements
+# A Katalon Studio project with the content saved in the root repository folder. If the project is under another location, you need to update KATALON_PROJECT_DIR with the corresponding value in the variable section
+# An active KRE license
+# A valid Katalon API key, which is stored as KATALON_API_KEY in Settings/CI/CD/Variables
+image: 'katalonstudio/katalon' # Use the latest version of Katalon Runtime Engine. We can also use other versions of Katalon Runtime Engine by specifying another tag, such as `katalonstudio/katalon:8.1.2` or `katalonstudio/katalon:8.3.0`
+services:
+  - docker:dind
+variables:
+  # Specify Katalon Studio project directory. By default, it is stored under the root project folder.
+  KATALON_PROJECT_DIR: $CI_PROJECT_DIR
+stages:
+  - test
+test_job:
+  stage: test
+  # Update your desired katalonc commands. All of katalonc supported arguments can be found in this document https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html
+  script:
+    - katalonc.sh -projectPath=$KATALON_PROJECT_DIR -apiKey=$KATALON_API_KEY -browserType="Chrome" -retry=0 -statusDelay=20 -testSuitePath="Test Suites/TS_RegressionTest" 
+</codeblock><p class="- topic/p ">You can modify the file with your CI/CD configurations, including:</p><ul class="- topic/ul "><li class="- topic/li ">
+                <p class="- topic/p "> <codeph class="+ topic/ph pr-d/codeph ">image</codeph>: The Katalon Studio Docker image that the job runs in. By default, <codeph class="+ topic/ph pr-d/codeph ">katalonstudio/katalon</codeph> uses the latest version of Katalon Studio. To use a specific version, input <codeph class="+ topic/ph pr-d/codeph ">katalonstudio/katalon:&lt;version_tag&gt;</codeph>, for example <codeph class="+ topic/ph pr-d/codeph ">katalonstudio/katalon:8.1.2</codeph>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p "> <codeph class="+ topic/ph pr-d/codeph ">KATALON_PROJECT_DIR</codeph>: Katalon Studio project directory. By default, it is stored under the root project folder.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p "> <codeph class="+ topic/ph pr-d/codeph ">script</codeph>: Your desired <codeph class="+ topic/ph pr-d/codeph ">katalonc</codeph> commands. All of <codeph class="+ topic/ph pr-d/codeph ">katalonc</codeph> supported arguments can be found in this document: <xref href="../../Katalon_Runtime_Engine/console-mode-execution/console-mode-execution_1.dita" class="- topic/xref ">Command Syntax</xref>.</p>
+            </li></ul><p class="- topic/p ">To learn more about configuration options, refer to this GitLab document: <xref format="html" href="https://docs.gitlab.com/ee/ci/yaml/gitlab_ci_yaml.html" scope="external" class="- topic/xref ">.gitlab-ci.yml file</xref>.</p></conbody></concept>

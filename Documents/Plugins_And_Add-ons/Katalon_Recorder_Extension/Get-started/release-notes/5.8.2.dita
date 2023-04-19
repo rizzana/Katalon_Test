@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id_1" class="- topic/topic ">
+    <title class="- topic/title ">5.8.2</title>
+    <body class="- topic/body ">
+      <p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">Improvements</b>
+      </p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">After a test execution, Katalon Recorder automatically pops
+            up.</li>
+      </ul>
+      <p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">Bug fixes</b>
+      </p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">Fixed an issue where the command
+            <codeph class="+ topic/ph pr-d/codeph ">assertConfirmation</codeph> did not work.</li>
+        <li class="- topic/li ">Fixed an issue where Katalon Recorder selected a test step and
+            a cell at the same time.</li>
+        <li class="- topic/li ">Fixed an issue where <codeph class="+ topic/ph pr-d/codeph ">In Startnull</codeph> errors keep
+            occurring.</li>
+        <li class="- topic/li ">Fixed an issue where users could not close the <b class="+ topic/ph hi-d/b ">Open
+               Test Suite</b> drop-down.</li>
+        <li class="- topic/li ">Fixed an issue where users could not create a new dynamic test
+            suite.</li>
+        <li class="- topic/li ">Fixed an issue where the <b class="+ topic/ph hi-d/b ">Target</b> section had
+            XPath errors.</li>
+      </ul>
+    </body>
+  </topic>

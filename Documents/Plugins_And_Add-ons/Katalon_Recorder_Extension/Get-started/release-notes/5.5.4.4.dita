@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id_10" class="- topic/topic "><title class="- topic/title ">5.5.4.4</title><body class="- topic/body "><p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">Bug fixes</b> - Users now can navigate between
+         Target, Command and Value using tabs again. - Users can now restore
+         their backup data from TestOps again. - Breakpoints are remembered
+         when users switch between test case again.
+         <b class="+ topic/ph hi-d/b ">Improvements</b> - Auto-suggested options now will
+         disappear when users interact with other elements. - Test cases'
+         execution status will be retained when users stop the execution
+         mid-way. - Added an explanation via tooltip when users use Save
+         Test Case functionality the first time.</p></body></topic>

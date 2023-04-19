@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">ResponseObject</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">As you can see above, we get a ResponseObject instance when
+         sending an API request. This object contains all information needed
+         for a response, including status code, response body, response
+         headers, waiting time and many others. Methods for handling
+         response objects may look like this:</p>
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">import com.kms.katalon.core.testobject.ResponseObject
+ 
+public class SampleResponseObject {
+ 
+public static int getStatusCode(ResponseObject resp) {
+return resp.getStatusCode()
+}
+public static String getResponseText(ResponseObject resp) {
+return resp.getResponseText()
+}
+public static long getResponseBodySize(ResponseObject resp) {
+return resp.getResponseBodySize()
+}
+public static long getResponseHeaderSize(ResponseObject resp) {
+return resp.getResponseHeaderSize()
+}
+public static long getWaitingTime(ResponseObject resp) {
+return resp.getWaitingTime()
+}
+}
+
+</codeblock>
+      
+      <p class="- topic/p ">And sample usage in your test case:</p>
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">import com.kms.katalon.core.testobject.ResponseObject
+import com.kms.katalon.core.util.KeywordUtil
+ 
+import mypackage.SampleRequestObject
+import mypackage.SampleResponseObject as SampleResponseObject
+ 
+SampleRequestObject req = new SampleRequestObject()
+ 
+ResponseObject resp = req.buildApiRequest1()
+ 
+if(SampleResponseObject.getStatusCode(resp) != 200) {
+KeywordUtil.markFailed("Status code is not 200 as expected. It is "
++ SampleResponseObject.getStatusCode(resp))
+}
+ 
+if(SampleResponseObject.getWaitingTime(resp) &gt; 5000) {
+KeywordUtil.markFailed("Your request takes more than 5000ms. Actual time is "
++ SampleResponseObject.getWaitingTime(resp))
+}
+
+</codeblock>
+      
+      <p class="- topic/p ">You may wonder why the SampleResponseObject class is needed as I
+         can get all information directly by calling the methods from the
+         response object. This wrapper may be helpful for your future
+         enhancements as your code is less dependent on the ResponseObject
+         class. If there are changes to this class, you only need to update
+         the wrapper class. It is up to you which approach you follow, but
+         both of them are correct.</p>
+    </conbody>
+    
+  </concept>

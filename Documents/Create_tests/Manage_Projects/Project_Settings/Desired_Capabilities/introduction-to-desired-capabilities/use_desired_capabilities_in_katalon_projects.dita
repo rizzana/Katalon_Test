@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Use desired capabilities in Katalon projects</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">Desired capabilities can be configured to customize your testing
+         environment, you can refer to the following tutorials for better
+         guidance:</p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">
+          <xref href="../start-browsers-in-private-mode/start-browsers-in-private-mode.dita" class="- topic/xref ">Start
+               browsers in private mode</xref>
+        </li>
+        <li class="- topic/li ">
+          <xref href="../test-different-browser-locales-in-chrome-with-desired-capabilities/how-to-test-different-locales-with-desired-capabilities.dita" class="- topic/xref ">Test
+               different browser locales in Chrome with desired
+               capabilities</xref>
+        </li>
+        <li class="- topic/li ">
+          <xref href="../selenium-grid-integration/selenium-grid-integration.dita" class="- topic/xref ">Selenium
+               Grid - Execution on remote machines</xref>
+        </li>
+      </ul>
+    </conbody>
+  </concept>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Delete an Execution</title><conbody class="- topic/body  concept/conbody "><note type="important" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">
+                    <p class="- topic/p ">You must be the Owner or Admin of an Organization.</p>
+                </li></ul>
+        </note><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Go to your Project &gt; <b class="+ topic/ph hi-d/b ">Reports</b> &gt; <b class="+ topic/ph hi-d/b ">Test Runs</b>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click on the <i class="+ topic/ph hi-d/i ">Extension</i> icon of the Test Run you want to delete and choose <b class="+ topic/ph hi-d/b ">Delete</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-delete-data/extension-icon-delete-button-2.png" scope="external" class="- topic/image "><alt class="- topic/alt ">extension icon for deletion</alt></image>
+                </p>
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Delete Execution</b> box then pops up.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Delete</b> to confirm your action.</p>
+            </li></ol><note type="note" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">
+                    <p class="- topic/p ">After deleting, it might take a while for the Execution to disappear from the Test Runs list.</p>
+                </li></ul>
+        </note></conbody></concept>

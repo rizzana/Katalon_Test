@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id_46" class="- topic/topic ">
+    <title class="- topic/title ">3.0.0 - 3.0.2</title>
+    <body class="- topic/body ">
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">Added new features: Play Suite, Play All, Speed Configuration,
+            Pause, Resume.</li>
+        <li class="- topic/li ">Supported debugging: Pause, Resume, Breakpoints, Variables
+            View.</li>
+        <li class="- topic/li ">Improved logging: Save, Clear.</li>
+        <li class="- topic/li ">Improved Test Cases authoring: Copy, Paste.</li>
+      </ul>
+    </body>
+  </topic>

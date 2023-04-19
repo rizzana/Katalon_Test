@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">What is a nested element?</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">Elements can contain other elements. Nested elements are
+         children of their parent container.</p>
+        <p class="- topic/p ">For example, the download link in the script below is an element
+         nested in another.</p>
+        
+          <codeblock class="+ topic/pre pr-d/codeblock ">&lt;div class="container"&gt;
+    &lt;div class="navbar-collapse navbar-right"&gt;
+        &lt;div class="nav-bar-decorated"&gt;
+            &lt;ul&gt;
+                &lt;li&gt;&lt;a class="pbtn-download" href="#katalon-download"&gt;Download&lt;/a&gt; &lt;!-- Deeply nested element  --&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+</codeblock>
+        
+        <p class="- topic/p ">It is difficult to identify a nested element, such as the
+         <codeph class="+ topic/ph pr-d/codeph ">&lt;a&gt;</codeph> element in the script above. To define the
+         XPath manually, we need to have solid knowledge about the DOM
+         structure of the webpage.</p>
+      </conbody>
+    </concept>

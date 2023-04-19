@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_7" class="- topic/topic concept/concept "><title class="- topic/title ">Execute the test case with a mobile browser</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Double-check to ensure that the real device is connected, the
+         virtual device loaded, or cloud device connected successfully. From
+         Katalon Studio, select the test case and choose to execute with
+         Android/iOS as follows:</p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/running_application_mobile_browsers/830-execution.png" scope="external" width="850" class="- topic/image "><alt class="- topic/alt ">execution</alt></image>
+      </p><p class="- topic/p ">It may take a while before the browser can be loaded into the
+         device.</p></conbody></concept>

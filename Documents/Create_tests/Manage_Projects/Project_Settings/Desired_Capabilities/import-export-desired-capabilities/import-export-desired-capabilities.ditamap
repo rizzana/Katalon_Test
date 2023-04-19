@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-import-export-desired-capabilities" class="- map/map ">
+  <title class="- topic/title ">Manage Desired Capabilities</title>
+  <topicref href="import-export-desired-capabilities.dita" class="- map/topicref "><topicref href="export_desired_capabilities.dita" class="- map/topicref "/>
+  <topicref href="import_desired_capabilities.dita" class="- map/topicref "/>
+  <topicref href="see_also_1647942196866.575.dita" class="- map/topicref "/>
+</topicref>
+  </map>

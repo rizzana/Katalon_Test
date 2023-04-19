@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-3915" class="- map/map "><title class="- topic/title ">TestCloud Subscription</title><mapref format="ditamap" href="subscribe-to-testcloud/subscribe-to-testcloud.ditamap" class="+ map/topicref mapgroup-d/mapref "/><topicref href="tc-upgrade-subscriptions/tc-upgrade-subscriptions.dita" class="- map/topicref "/><mapref format="ditamap" href="tc-cancel-subscriptions/tc-cancel-subscriptions.ditamap" class="+ map/topicref mapgroup-d/mapref "/></map>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-code-repo" class="- map/map ">
+  <title class="- topic/title ">Upload Test Scripts to a Script Repository</title>
+  <topicref href="code-repo.dita" class="- map/topicref "><topicref href="upload_test_scripts_as_a_.zip_file.dita" class="- map/topicref "/>
+</topicref>
+  </map>

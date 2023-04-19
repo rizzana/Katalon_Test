@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">Debug a test case in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Creating automation test cases is a repetitive task that
+         requires a lot of editing and re-running test cases. In many
+         automation tools, when a test case fails and you make certain
+         changes to the script, you usually have to execute the whole script
+         all over again to make sure the test is executed as expected.</p><p class="- topic/p ">To save your precious time from tedious repetitive re-running
+         all unnecessary steps for debugging and to make debugging easier,
+         <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> provides the following utilities:</p><ul class="- topic/ul "><li class="- topic/li ">Debug: Run from here</li><li class="- topic/li ">Debug: Enable/Disable steps</li><li class="- topic/li ">Debug mode</li><li class="- topic/li ">Debug from here</li></ul><section class="- topic/section "><title class="- topic/title ">Requirements</title><ul class="- topic/ul "><li class="- topic/li ">An active Katalon Studio Enterprise license.</li></ul></section></conbody></concept>

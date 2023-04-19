@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Example</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Here in this example, When I clicked a link, it will open a new
+         window. So I want to switch to that window to perform actions on
+         the newly opened window. We can handle it using Katalon Studio
+         built-in keywords as shown below.</p><p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">Switch to Window Index:</b>
+      </p><p class="- topic/p ">We need to use it when you want to switch to the second window
+         (index 1).</p><p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">Manual Mode:</b>
+      </p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/pop_up_dialog_issue/Switch-to-Window-Index.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Switch To Window Index</alt></image>
+      </p><p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">Script Mode:</b>
+      </p><codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+ 
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+ 
+'Open browser and navigate to website '
+ 
+WebUI.openBrowser('http://the-internet.herokuapp.com/windows')
+ 
+'Maximize the window'
+ 
+WebUI.maximizeWindow()
+ 
+'Click on Click Here link'
+ 
+WebUI.click(findTestObject('Windows/Link_Click Here'))
+ 
+'Switch to New window by Switch to Window index method'
+ 
+WebUI.switchToWindowIndex(1)
+ 
+'Capturing the Heading of the New Window text and Storing it in a variable'
+ 
+Heading_NewWindow = WebUI.getText(findTestObject('Windows/Heading_New Window'))
+ 
+'Validating the heading so that it is navigated to desired window by Switch To Window Url Method'
+ 
+WebUI.verifyEqual(Heading_NewWindow, 'New Window')
+
+</codeblock><p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">Switch To Window Title :</b>
+      </p><p class="- topic/p ">Switch to the window with given title.</p><p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">Manual Mode:</b>
+      </p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/pop_up_dialog_issue/switch-to-window-title.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Switch To Window Title </alt></image>
+      </p><p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">Script Mode:</b>
+      </p><codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+ 
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+ 
+'Open browser and navigate to website '
+ 
+WebUI.openBrowser('http://the-internet.herokuapp.com/windows')
+ 
+'Maximize the window'
+ 
+WebUI.maximizeWindow()
+ 
+'Click on Click Here link'
+ 
+WebUI.click(findTestObject('Windows/Link_Click Here'))
+ 
+'Switch to New window by Switch to Window Title method'
+ 
+WebUI.switchToWindowTitle('New Window')
+ 
+'Capturing the Heading of the New Window text and Storing it in a variable'
+ 
+Heading_NewWindow = WebUI.getText(findTestObject('Windows/Heading_New Window'))
+ 
+'Validating the heading so that it is naviagted to desired window by Switch To Window Title Method'
+ 
+WebUI.verifyEqual(Heading_NewWindow, 'New Window')
+
+</codeblock><p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">Switch To Window Url :</b>
+      </p><p class="- topic/p ">Switch to the window with given URL.</p><p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">Manual Mode:</b>
+      </p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/pop_up_dialog_issue/switch-to-window-url.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Switch To Window Url </alt></image>
+      </p><p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">Script Mode:</b>
+      </p><codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+ 
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+ 
+'Open browser and navigate to website '
+ 
+WebUI.openBrowser('http://the-internet.herokuapp.com/windows')
+ 
+'Maximize the window'
+ 
+WebUI.maximizeWindow()
+ 
+'Click on Click Here link'
+ 
+WebUI.click(findTestObject('Windows/Link_Click Here'))
+ 
+'Switch to New window by Switch to Window URL method'
+ 
+WebUI.switchToWindowUrl('http://the-internet.herokuapp.com/windows/new')
+ 
+'Capturing the Heading of the New Window text and Storing it in a variable'
+ 
+Heading_NewWindow = WebUI.getText(findTestObject('Windows/Heading_New Window'))
+ 
+'Validating the heading so that it is naviagted to desired window by Switch To Window Url Method'
+ 
+WebUI.verifyEqual(Heading_NewWindow, 'New Window')
+
+</codeblock><p class="- topic/p ">That is some examples of how we handle window using Katalon
+         Studio. You can download the source code <xref format="html" href="https://github.com/katalon-studio/katalon-web-automation" scope="external" class="- topic/xref ">here</xref>.</p><p class="- topic/p ">
+        <i class="+ topic/ph hi-d/i ">
+          <b class="+ topic/ph hi-d/b ">Exception</b>
+        </i>
+      </p><p class="- topic/p ">
+        <i class="+ topic/ph hi-d/i ">Noted
+            that <b class="+ topic/ph hi-d/b ">NoSuchWindowException</b></i> <i class="+ topic/ph hi-d/i ">exception
+         will be thrown when window target to be switched doesn't
+         exist.</i></p><p class="- topic/p ">For further instructions and help, please refer to <xref href="../../../../Record_And_Spy/WebUI_Record_And_Spy_Utilities/record-web-utility/record-web-utility.dita" class="- topic/xref ">[WebUI] Window</xref> and join us on <xref format="html" href="https://forum.katalon.com/" scope="external" class="- topic/xref ">Katalon Forum</xref>.</p></conbody></concept>

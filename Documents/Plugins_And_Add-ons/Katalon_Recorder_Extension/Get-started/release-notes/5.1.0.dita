@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id_26" class="- topic/topic ">
+    <title class="- topic/title ">5.1.0</title>
+    <body class="- topic/body ">
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">Add some <codeph class="+ topic/ph pr-d/codeph ">waitFor</codeph> contextual menu actions
+            (@anthonybriand).</li>
+        <li class="- topic/li ">Support more commands for Protractor exporter
+            (@anthonybriand).</li>
+      </ul>
+    </body>
+  </topic>

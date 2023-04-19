@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"tocId-d48972e304":{"topics":[{"title":"Katalon TestOps Release Notes","href":"Documents\/General_Information\/Release_Notes\/Katalon_TestOps_Release_Notes\/Katalon_TestOps_Release_Notes.html","attributes":{"data-id":"concept-5391"},"menu":{"hasChildren":false},"tocID":"concept-5391-d48972e308","next":"concept-5391-d48972e308"}]}};

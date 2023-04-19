@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Quick Tips</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">You can also install the Katalon Integration Plugin in your Chrome browser. This Plugin allows you to navigate directly to Jira to create a new Jira issue. It then automatically links the Jira issue back to the Test Result you have selected.</p><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Download <xref format="html" href="https://chrome.google.com/webstore/detail/katalon-integration/cechonbcopffiimhnkgghckbgipciedg" scope="external" class="- topic/xref ">Katalon Integration Plugin</xref>.</p>
+                <note type="note" class="- topic/note ">
+                        <ul class="- topic/ul "><li class="- topic/li ">
+                                <p class="- topic/p ">The download is only available on the Chrome browser.</p>
+                            </li></ul>
+                </note>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Enable Katalon Plugin in Chrome Extensions.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-defects/chrome-extension-page-katalon-plugin.png" scope="external" width="100%" class="- topic/image "><alt class="- topic/alt ">chrome extension page</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Check the <b class="+ topic/ph hi-d/b ">Jira Defects</b> section in Katalon TestOps again.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-defects/create-icon-enabled-in-jira-defect-2.png" scope="external" width="100%" class="- topic/image "><alt class="- topic/alt ">create icon enabled in testops</alt></image>
+                </p>
+                <p class="- topic/p ">After completing the installation, the <i class="+ topic/ph hi-d/i ">Create</i> icon is enabled.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click on the <b class="+ topic/ph hi-d/b ">Create</b> icon to switch directly to Jira, then create a new Jira issue.</p>
+                <p class="- topic/p ">The new Jira issue is automatically linked to the Test Result you have selected.</p>
+            </li></ol><note type="note" class="- topic/note ">
+            <p class="- topic/p ">Once you have enabled Katalon Plugin, you can see the <i class="+ topic/ph hi-d/i ">Plugin</i> icon in the corner of a Jira issue. <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-defects/link-test-run-to-kat102defect-blurname.png" scope="external" width="100%" class="- topic/image "><alt class="- topic/alt ">plugin icon floating in jira</alt></image></p>
+            <p class="- topic/p ">You can always click on the <i class="+ topic/ph hi-d/i ">Plugin</i> icon to quickly switch back to Katalon TestOps.</p>
+        </note></conbody></concept>

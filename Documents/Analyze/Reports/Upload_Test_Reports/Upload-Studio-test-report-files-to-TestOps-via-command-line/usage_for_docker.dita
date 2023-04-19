@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Usage for Docker</title><conbody class="- topic/body  concept/conbody "><section class="- topic/section "><title class="- topic/title ">Environment variables</title><p class="- topic/p ">
+          <codeph class="+ topic/ph pr-d/codeph ">SERVER</codeph> The URL of Katalon TestOps. Default
+         <codeph class="+ topic/ph pr-d/codeph ">https://analytics.katalon.com</codeph>.</p><p class="- topic/p ">
+          <codeph class="+ topic/ph pr-d/codeph ">EMAIL</codeph> The email registered for your Katalon
+         account.</p><p class="- topic/p ">
+          <codeph class="+ topic/ph pr-d/codeph ">PASSWORD</codeph> The password used for signing in Katalon
+         TestOps or an API Key.</p><p class="- topic/p ">
+          <codeph class="+ topic/ph pr-d/codeph ">PROJECT_ID</codeph> Your project ID in Katalon TestOps.</p><p class="- topic/p ">
+          <codeph class="+ topic/ph pr-d/codeph ">TYPE</codeph> One of the values including "katalon",
+         "junit", or "katalon_recorder".</p><p class="- topic/p ">
+          <codeph class="+ topic/ph pr-d/codeph ">REPORT_PATH</codeph> The path of the report folder. The
+         physical report folder should be mounted as a Docker volume
+         first.</p></section><section class="- topic/section "><title class="- topic/title ">Example</title><codeblock class="+ topic/pre pr-d/codeblock ">docker run -t --rm -v &lt;path&gt;:/katalon/report -e PASSWORD=&lt;APIKey&gt; -e PROJECT_ID=&lt;ProjectId&gt;-e TYPE=katalon -e REPORT_PATH=/katalon/report katalonstudio/report-uploader:0.0.8</codeblock></section></conbody></concept>

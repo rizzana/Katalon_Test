@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_0" class="- topic/topic concept/concept "><title class="- topic/title ">[Mobile] Take Screenshot As Checkpoint</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p "><note type="note" class="- topic/note ">
+        <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">From version <b class="+ topic/ph hi-d/b ">7.9</b>, this keyword is
+            available.</p></li></ul>
+      </note></p><section id="id_1" class="- topic/section ">
+    <title class="- topic/title ">takeScreenshotAsCheckpoint</title>
+    
+      <ul class="- topic/ul "><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Description</b>: Take a screenshot of the current
+            application to send to TestOps Vision. The captured image will be
+            saved to the <b class="+ topic/ph hi-d/b ">keyes</b> folder in the report. The
+            screenshot will not include OS's status and navigation bars.</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Keyword name</b>: takeScreenshotAsCheckpoint</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Keyword syntax</b>:
+            <codeblock class="+ topic/pre pr-d/codeblock ">Mobile.takeScreenshotAsCheckpoint(String checkpointName, List&lt;TestObject&gt; ignoredElements, Color hidingColor, FailureHandling flowControl)</codeblock>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Parameters</b>:</p>
+          <ul class="- topic/ul "><li class="- topic/li ">
+              <p class="- topic/p ">Name: checkpointName</p>
+              <ul class="- topic/ul "><li class="- topic/li ">Description: A String representing the name of the image on
+                        TestOps Vision. This name will be used to detect which baseline
+                        this checkpoint is compared with. This name will be appended with
+                        the TestOps Vision prefix ('keyes-') on a local machine.</li><li class="- topic/li ">Parameter Type: String</li><li class="- topic/li ">Mandatory: Required</li></ul>
+            </li><li class="- topic/li ">
+              <p class="- topic/p ">Name: ignoredElements</p>
+              <ul class="- topic/ul "><li class="- topic/li ">Description: List of the ignored elements. These elements will
+                        be hidden by drawing an overlap color layer. If the test engine
+                        failed to hide the element by any problems, this keyword would
+                        continue without impacting the result.</li><li class="- topic/li ">Parameter Type: List
+                        
+                        
+                        </li><li class="- topic/li ">Mandatory: Optional</li></ul>
+            </li><li class="- topic/li ">
+              <p class="- topic/p ">Name: hidingColor</p>
+              <ul class="- topic/ul "><li class="- topic/li ">Description: The color used to draw the overlap layer. If not
+                        defined, Color.GRAY is used.</li><li class="- topic/li ">Parameter Type: Color</li><li class="- topic/li ">Mandatory: Optional</li></ul>
+            </li><li class="- topic/li ">
+              <p class="- topic/p ">Name: flowControl</p>
+              <ul class="- topic/ul "><li class="- topic/li ">Description: Specify <xref href="../../../../../Maintain/failure-handling/failure-handling.dita" class="- topic/xref ">failure handling</xref>
+                        schema to determine whether the execution should be allowed to
+                        continue or stop.</li><li class="- topic/li ">STOP<i class="+ topic/ph hi-d/i ">ON</i>FAILURE: throws a StepFailedException if the
+                        step fails (default).</li><li class="- topic/li ">CONTINUE<i class="+ topic/ph hi-d/i ">ON</i>FAILURE: continues the test if the test
+                        fails, but the test result is still FAILED.</li><li class="- topic/li ">OPTIONAL: continues the test and ignores the test result.</li><li class="- topic/li ">Parameter Type: FailureHandling</li><li class="- topic/li ">Mandatory: Optional</li></ul>
+            </li></ul>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Return</b>: a String representing the path to the
+               captured image.</p>
+        </li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Throw</b>: StepFailedException If the test engine
+            can't store the image in the disk.</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Example</b>:<p class="- topic/p "><codeblock class="+ topic/pre pr-d/codeblock ">Mobile.takeScreenshotAsCheckpoint('screenshot_keyes', [findTestObject('hide_element_1'), findTestObject('hide_element_2')], Color.RED, FailureHandling.STOP_ON_FAILURE)
+</codeblock></p></li></ul>
+      
+        
+      
+    
+  </section></conbody></concept>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">Transfer Team ownership</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">The Owner can reassign <b class="+ topic/ph hi-d/b ">Owner</b> and lower roles to existing members.</p><p class="- topic/p ">The Admin can reassign <b class="+ topic/ph hi-d/b ">Admin</b> and lower roles to existing members.</p><p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Manage Users</b> page, click on the <i class="+ topic/ph hi-d/i ">Pencil</i> icon to edit the User's role.</p><p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Edit Current User</b> box pops up. Select the new role in the dropdown list. Click <b class="+ topic/ph hi-d/b ">Save</b>.</p><note type="note" class="- topic/note ">
+                <ul class="- topic/ul "><li class="- topic/li ">
+                        <p class="- topic/p ">Users can have different roles in different teams.</p>
+                    </li></ul>
+        </note></conbody></concept>

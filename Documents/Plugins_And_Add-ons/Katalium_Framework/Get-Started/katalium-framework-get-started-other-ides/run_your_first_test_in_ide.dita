@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Run your first test in IDE</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">Refer to this guide to learn how to <xref href="../../katalium-framework-create-test-case/katalium-framework-create-test-case.dita" class="- topic/xref ">create
+            a test case</xref> or <xref href="../../katalium-framework-create-test-suite/katalium-framework-create-test-suite.dita" class="- topic/xref ">test
+            suite</xref>.</p>
+      <p class="- topic/p ">Example of a test case run in IntelliJ IDEA:</p>
+      <p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalium-framework/docs/katalium-framework-get-started-other-ides/run-test-ide.png" scope="external" class="- topic/image "/>
+      </p>
+    </conbody>
+  </concept>

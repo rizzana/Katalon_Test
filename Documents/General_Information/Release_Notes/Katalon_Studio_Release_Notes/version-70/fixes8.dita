@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_40" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Fixes</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">Bug: [Mobile] NullPointerException exception thrown by the
+            <codeph class="+ topic/ph pr-d/codeph ">startExistingApplication</codeph> keyword when running on a
+            Sauce Labs device</li>
+          <li class="- topic/li ">Bug: [Mobile] Unable to capture objects using Spy Mobile</li>
+        </ul>
+      </conbody>
+    </concept>

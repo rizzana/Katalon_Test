@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-2261" class="- map/map "><title class="- topic/title ">qTest integration for reports and analytics</title><mapref format="ditamap" href="qtest-integration-reports/View_and_upload_test_executions_results_to_qTest.ditamap" class="+ map/topicref mapgroup-d/mapref "/><mapref format="ditamap" href="qTest-Generate-qTest-Katalon-parity-reports/Generate_qTest_-_Katalon_Studio_parity_reports.ditamap" class="+ map/topicref mapgroup-d/mapref "/></map>

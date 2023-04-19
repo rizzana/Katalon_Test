@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Test Execution with TestOps</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">In Katalon TestOps, you can set up a remote execution to run
+         tests in console mode.</p><p class="- topic/p ">Follow these steps: <ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p ">Create a Test Environment.</p></li><li class="- topic/li "><p class="- topic/p ">Create a Script Repository.</p></li><li class="- topic/li "><p class="- topic/p ">Schedule Test Runs.</p></li></ol></p></conbody></concept>

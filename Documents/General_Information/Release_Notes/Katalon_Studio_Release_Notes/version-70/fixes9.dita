@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_44" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Fixes</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">Bug: An issue of OAUth1.0 Authorization</li>
+          <li class="- topic/li ">Bug: [Mobile Testing] Unable to scroll down to see all test
+            object attributes</li>
+
+          <li class="- topic/li ">Bug: [Tests Explorer] Unable to open a feature file if it is
+            not under the <b class="+ topic/ph hi-d/b ">Include</b> folder. Address <xref format="html" href="https://github.com/katalon-studio/katalon-studio/issues/293" scope="external" class="- topic/xref ">#293</xref>
+          </li>
+
+          <li class="- topic/li ">Bug: Window Objects' references in Test Case not being updated
+            automatically when Windows Objects are renamed. Address <xref format="html" href="https://github.com/katalon-studio/katalon-studio/issues/289" scope="external" class="- topic/xref ">#289</xref>
+          </li>
+          <li class="- topic/li ">Bug: Exposing proxy password</li>
+        </ul>
+      </conbody>
+    </concept>

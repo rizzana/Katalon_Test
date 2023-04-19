@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-intro-spy-windows" class="- map/map ">
+  <title class="- topic/title ">Windows Spy Utility</title>
+  <topicref href="intro-spy-windows.dita" class="- map/topicref "><topicref href="the_windows_spy_utility.dita" class="- map/topicref ">
+    <topicref href="configurations_1647942200399.334.dita" class="- map/topicref "/>
+    <topicref href="all_objects.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="screen_view_1647942200399.334.dita" class="- map/topicref ">
+    <topicref href="captured_objects_1647942200399.334.dita" class="- map/topicref "/>
+    <topicref href="object_properties.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="view_and_edit_the_captured_objects.dita" class="- map/topicref "/>
+</topicref>
+  </map>

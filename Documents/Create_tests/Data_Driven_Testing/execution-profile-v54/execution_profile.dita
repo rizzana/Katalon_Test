@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Execution Profile</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">Execution Profile</b> helps cover multiple and
+         different environments to execute your automation test scripts with
+         ease. You can configure the testing environment in terms of data
+         and behaviors through <b class="+ topic/ph hi-d/b ">Global variables</b>.</p>
+    </conbody>
+    
+    
+    
+    
+    
+  </concept>

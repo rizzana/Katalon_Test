@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">For configuration in version 7.8 and onwards</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">Go to <b class="+ topic/ph hi-d/b ">Project</b> &gt; <b class="+ topic/ph hi-d/b ">Settings</b> &gt; <b class="+ topic/ph hi-d/b ">Execution</b> to open the <b class="+ topic/ph hi-d/b ">Execution</b> view.</li><li class="- topic/li ">
+                <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">During-Execution Options</b> panel, enable Video Recorder by checking <b class="+ topic/ph hi-d/b ">Record Video during execution</b>.</p>
+                <p class="- topic/p ">By default, <b class="+ topic/ph hi-d/b ">Browser-based Recorder</b> for <b class="+ topic/ph hi-d/b ">failed Test Cases only</b> is selected.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Select <b class="+ topic/ph hi-d/b ">Screen Recorder</b> and specify Video settings based on your preferences.</p>
+                <p class="- topic/p ">We recommend AVI (<codeph class="+ topic/ph pr-d/codeph ">.avi</codeph>) format and low quality to save disk space. The higher the video quality is, the bigger the file size is.</p>
+                <ul class="- topic/ul "><li class="- topic/li "> <b class="+ topic/ph hi-d/b ">Video format</b>: AVI (<codeph class="+ topic/ph pr-d/codeph ">.avi</codeph>) or MOV (<codeph class="+ topic/ph pr-d/codeph ">.mov</codeph>)</li><li class="- topic/li "> <b class="+ topic/ph hi-d/b ">Video quality</b>: Low; Medium or High</li></ul>
+            </li><li class="- topic/li ">Click <b class="+ topic/ph hi-d/b ">Apply and Close</b>.</li></ol></conbody></concept>

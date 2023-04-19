@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-web_element_locators" class="- map/map ">
+  <title class="- topic/title ">Handling Web element locators using Katalon Studio</title>
+  <topicref href="web_element_locators.dita" class="- map/topicref "><topicref href="understanding_your_application_under_test_aut.dita" class="- map/topicref "/>
+  <topicref href="understanding_application_lifecycles.dita" class="- map/topicref "/>
+  <topicref href="using_static_locators.dita" class="- map/topicref "/>
+  <topicref href="using_uniquely_present_text.dita" class="- map/topicref ">
+    <topicref href="label.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="welcome_to_jira.dita" class="- map/topicref ">
+    <topicref href="textbox.dita" class="- map/topicref "/>
+    <topicref href="button.dita" class="- map/topicref "/>
+    <topicref href="select.dita" class="- map/topicref "/>
+    <topicref href="hyperlink.dita" class="- map/topicref "/>
+    <topicref href="checkbox.dita" class="- map/topicref "/>
+    <topicref href="radio_button.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="summary.dita" class="- map/topicref "/>
+</topicref>
+  </map>

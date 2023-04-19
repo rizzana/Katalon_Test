@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task-9196" class="- topic/topic task/task "><title class="- topic/title ">Download the Katalon On-Premises package and configure</title><shortdesc class="- topic/shortdesc ">Here's how you can obtain the Katalon On-Premises package and configure it according to your needs. </shortdesc><taskbody class="- topic/body task/taskbody "><context class="- topic/section task/context ">Start the process by contacting the Katalon Sales team at business@katalon.com and asking for the On-Premises package. </context><steps class="- topic/ol task/steps "><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Receive the On-Premises package from the Katalon sales team.</cmd></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Extract or unzip the .zip package file. </cmd></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Open a terminal emulator (command line). Input this code: </cmd><info class="- topic/itemgroup task/info "><codeblock class="+ topic/pre pr-d/codeblock ">mkdir -p /katalon/
+cp katalon-op.zip /katalon/
+cd /katalon/
+unzip katalon-op.zip</codeblock></info></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Go back to the unzipped folder (named katalon-op). It should contain these files:</cmd><info class="- topic/itemgroup task/info "><codeblock class="+ topic/pre pr-d/codeblock ">cd /katalon/katalon-op/
+ls -la
+-rw-r--r--  .env
+-rw-r--r--  docker-compose.yml
+-rw-r--r--  images_2.1.0.tar.gz
+-rw-r--r--  katalon-op.crt
+-rw-r--r--  katalon-op.key</codeblock></info></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Run the command below to load the Docker image. </cmd><info class="- topic/itemgroup task/info "><codeblock class="+ topic/pre pr-d/codeblock ">docker load &lt; images_2.1.0.tar.gz
+docker images</codeblock></info></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Open and reconfigure the .env file. It should contain the following: </cmd><info class="- topic/itemgroup task/info "><codeblock class="+ topic/pre pr-d/codeblock ">### Katalon-OP env
+
+DB_HOST=&lt;database_hostname&gt;
+DB_PORT=5432
+DB_USERNAME=postgres
+DB_PASSWORD=&lt;database_password&gt;
+
+# License Server configs
+ADMIN_EMAIL=&lt;email&gt;
+ADMIN_PASSWORD=&lt;password&gt;
+LICENSE_SERVER_URL=https://admin.kata-op.com
+
+# TestOps configs (ignored without testops profile)
+TESTOPS_FILE_STORAGE_PATH=/opt/testops-data
+TESTOPS_SERVER_URL=https://testops.kata-op.com
+
+# HTTPS config
+HTTPS_PORT=443
+CERT_PATH=./katalon-op.crt
+KEY_PATH=./katalon-op.key
+KEY_PASSPHRASE=</codeblock></info></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Make sure you create a folder for <uicontrol class="+ topic/ph ui-d/uicontrol ">TESTOPS_FILE_STORAGE_PATH</uicontrol>. For example, if your preferred configuration is <uicontrol class="+ topic/ph ui-d/uicontrol ">TESTOPS_FILE_STORAGE_PATH=/opt/testops_data</uicontrol>, then create folder "/opt/testops_data". Run the code below to do so.</cmd><info class="- topic/itemgroup task/info "><codeblock class="+ topic/pre pr-d/codeblock ">mkdir /opt/testops_data
+chmode 755 /opt/testops_data</codeblock></info></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Make sure you have two PostgreSQL databases with name: k1, kit</cmd></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Copy your SSL cert and key to the Katalon On-Premises folder. </cmd><info class="- topic/itemgroup task/info "><note class="- topic/note ">If you are running the <b class="+ topic/ph hi-d/b ">License Server with Katalon Platform</b>, then you need to rin with two sub-domains (ex: <uicontrol class="+ topic/ph ui-d/uicontrol ">admin.my-domain.com</uicontrol>, <uicontrol class="+ topic/ph ui-d/uicontrol ">testops.my-domain.com</uicontrol>) and Wildcard SSL.</note>Run the code below to copy your SSL cert:</info><info class="- topic/itemgroup task/info "><codeblock class="+ topic/pre pr-d/codeblock ">cp my-domain.crt /katalon/katalon-op/my-domain.crt
+cp my-domain.key /katalon/katalon-op/my-domain.key</codeblock></info></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Update the .env file with your information. </cmd><substeps class="- topic/ol task/substeps "><substep class="- topic/li task/substep "><cmd class="- topic/ph task/cmd ">Replace <uicontrol class="+ topic/ph ui-d/uicontrol ">admin.kata-op.com</uicontrol> and <uicontrol class="+ topic/ph ui-d/uicontrol ">testops.kata-op.com</uicontrol> with your domain. </cmd><info class="- topic/itemgroup task/info ">For example: <p class="- topic/p "><codeph class="+ topic/ph pr-d/codeph ">DB_HOST=10.10.20.5</codeph></p><p class="- topic/p "><codeph class="+ topic/ph pr-d/codeph ">DB_PASSWORD=adminpasswdsql@!!!</codeph></p><p class="- topic/p "><codeph class="+ topic/ph pr-d/codeph ">LICENSE_SERVER_URL=https://admin.my-domain.com</codeph></p><p class="- topic/p "><codeph class="+ topic/ph pr-d/codeph ">TESTOPS_SERVER_URL=https://testops.my-domain.com</codeph></p><p class="- topic/p "><codeph class="+ topic/ph pr-d/codeph ">TESTOPS_FILE_STORAGE_PATH=/opt/testops_data</codeph></p><p class="- topic/p "><codeph class="+ topic/ph pr-d/codeph ">ADMIN_EMAIL=admin@katalon-op.local</codeph></p><p class="- topic/p "><codeph class="+ topic/ph pr-d/codeph ">ADMIN_PASSWORD=adminpasswd@!!!</codeph></p><p class="- topic/p "><codeph class="+ topic/ph pr-d/codeph ">CERT_PATH=./my-domain.crt</codeph></p><p class="- topic/p "><codeph class="+ topic/ph pr-d/codeph ">KEY_PATH=./my-domain.key</codeph></p></info></substep></substeps></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Run the corresponding command below to start the application. Ensure to use the one that aligns with your plan. </cmd><substeps class="- topic/ol task/substeps "><substep class="- topic/li task/substep "><cmd class="- topic/ph task/cmd "><b class="+ topic/ph hi-d/b ">Start Katalon On-Premises, License Server only: </b></cmd><info class="- topic/itemgroup task/info "><codeblock class="+ topic/pre pr-d/codeblock ">cd /katalon/katalon-op/
+docker-compose up -d</codeblock></info></substep><substep class="- topic/li task/substep "><cmd class="- topic/ph task/cmd "><b class="+ topic/ph hi-d/b ">Start Katalon On-Premises, License Server with Katalon Platform: </b></cmd><info class="- topic/itemgroup task/info "><codeblock class="+ topic/pre pr-d/codeblock ">cd /katalon/katalon-op/
+docker-compose --profile testops up -d</codeblock></info></substep></substeps></step></steps><result class="- topic/section task/result ">After these steps, activate your license. </result></taskbody></task>

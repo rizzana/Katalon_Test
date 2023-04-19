@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept "><title class="- topic/title ">Execute selected test case or test suite</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To execute a test case or a test suite in the sample project:</p><ol class="- topic/ol "><li class="- topic/li ">Select the test case/test suite you want to execute.</li><li class="- topic/li ">
+                <p class="- topic/p ">On the main toolbar, select <b class="+ topic/ph hi-d/b ">Android</b> as the device type in the dropdown list next to <b class="+ topic/ph hi-d/b ">Run</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-mobile-testing-with-emulator/KS-TOOLBAR-Android.png" scope="external" width="250" class="- topic/image "><alt class="- topic/alt ">Execute the selected test</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Select your device from the <b class="+ topic/ph hi-d/b ">Android Devices</b> list. Click <b class="+ topic/ph hi-d/b ">OK</b>. </p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-on-macos/device.png" scope="external" width="400" class="- topic/image "><alt class="- topic/alt ">Select the Android device</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Observe the test result in the <b class="+ topic/ph hi-d/b ">Log Viewer</b> tab. To learn more about analyzing test execution logs, you can refer to this document: <xref href="../../WebUI/WebUI_Analyze_Test_Execution_Logs_And_Debug_The_Test_Case/Analyze_Test_execution_logs_in_Log_Viewer.dita" class="- topic/xref ">[WebUI] Analyze Test Execution Logs and Debug the Test Case</xref>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/android-sample-prj/KS-ANDROID-Log-viewer.png" scope="external" width="850" class="- topic/image "><alt class="- topic/alt ">View results</alt></image>
+                </p>
+                <note type="note" class="- topic/note ">
+                    <ul class="- topic/ul "><li class="- topic/li ">You can view test results in the <b class="+ topic/ph hi-d/b ">Result</b> tab at the test suite level. The test results can be Passed, Failed, Error, or Incomplete. To learn more about test statuses, you can refer to this document: <xref href="../../../../Analyze/Reports/View_Test_Reports/View_test_reports_in_Studio/working-with-execution-log-in-Studio/view_execution_log.dita" class="- topic/xref ">View and Customize Execution Log</xref>.</li><li class="- topic/li ">After executing test suites, you can view your reports and details in <codeph class="+ topic/ph pr-d/codeph ">&lt;your-project-folder&gt;/Reports</codeph>. Katalon Studio also supports exporting test reports into different formats, such as HTML, CSV, PDF, and JUnit.</li><li class="- topic/li ">For real-time monitoring and better reporting capabilities, consider integrating your project with Katalon TestOps. Learn more about test result reports here: <xref href="../../../../Analyze/Reports/Upload_Test_Reports/Upload_test_results_from_KS_to_TestOps/katalon-analytics-beta-integration.dita" class="- topic/xref ">Upload Test Results to Katalon TestOps from Katalon Studio</xref>.</li></ul>
+                </note>
+            </li></ol><p class="- topic/p "><b class="+ topic/ph hi-d/b ">See also: </b><xref href="../Mobile_Create_And_Run_Android_Test_Case/mobile-create-android-test-case.dita" class="- topic/xref ">[Mobile] Create and Run Android Test Case</xref>
+        </p></conbody></concept>

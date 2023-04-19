@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Object properties</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Object Properties</b> section allows you to
+         configure the following information:</p>
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">
+            <b class="+ topic/ph hi-d/b ">Object Name</b>: the Windows object name.</li>
+          <li class="- topic/li ">
+            <b class="+ topic/ph hi-d/b ">Locator Strategy</b>: the type of object locator
+            to identify the Windows element. To generate the object locator of
+            the desired locator type, click on the <b class="+ topic/ph hi-d/b ">Generate</b>
+            button.</li>
+          <li class="- topic/li ">
+            <b class="+ topic/ph hi-d/b ">Locator</b>: the generated object locator that can
+            be customized.</li>
+          <li class="- topic/li ">
+            <b class="+ topic/ph hi-d/b ">Properties</b> table: all properties of the
+            captured objects.</li>
+        </ul>
+        <p class="- topic/p ">To add the captured objects to the <b class="+ topic/ph hi-d/b ">Object
+            Repository</b>, click <b class="+ topic/ph hi-d/b ">OK</b> and select the
+         target folder where you want to save the objects.</p>
+      </conbody>
+    </concept>

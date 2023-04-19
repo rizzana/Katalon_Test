@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-5706" class="- map/map "><title class="- topic/title ">License Management</title><mapref format="ditamap" href="license-management/license-management.ditamap" class="+ map/topicref mapgroup-d/mapref "/><mapref format="ditamap" href="grant-katalon-licenses/grant-katalon-licenses.ditamap" class="+ map/topicref mapgroup-d/mapref "/><mapref format="ditamap" href="remove-license/remove-license.ditamap" class="+ map/topicref mapgroup-d/mapref "/></map>

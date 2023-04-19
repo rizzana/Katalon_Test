@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id_49" class="- topic/topic ">
+    <title class="- topic/title ">2.0.0 - 2.0.9</title>
+    <body class="- topic/body ">
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">First releases with Selenium IDE-based features: Record, Play,
+            Selenese, Export to other programming languages and
+            frameworks.</li>
+        <li class="- topic/li ">Fixed bugs.</li>
+      </ul>
+    </body>
+  </topic>

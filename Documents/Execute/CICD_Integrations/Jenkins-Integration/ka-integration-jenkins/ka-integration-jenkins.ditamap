@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-ka-integration-jenkins" class="- map/map "><title class="- topic/title ">Jenkins Integration</title><topicref href="ka-integration-jenkins.dita" class="- map/topicref "><topicref href="../../../../../Global_reuse/Common_tasks_warehouse/Integration/Install_the_Katalon_plugin_on_Jenkins.dita" class="- map/topicref "/><topicref href="configure_test_runs_in_katalon_testops.dita" class="- map/topicref "/><topicref href="file_name.dita" class="- map/topicref "/></topicref></map>

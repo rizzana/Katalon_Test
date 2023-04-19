@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-generate_css_xpath_selector_spy_web_utility" class="- map/map ">
+  <title class="- topic/title ">Generating reliable object selector using Spy Web utility</title>
+  <topicref href="generate_css_xpath_selector_spy_web_utility.dita" class="- map/topicref "><topicref href="how_to_find_object_locators.dita" class="- map/topicref "/>
+  <topicref href="working_with_xpath_selector.dita" class="- map/topicref ">
+    <topicref href="checking_multiple_attributes.dita" class="- map/topicref "/>
+    <topicref href="index.dita" class="- map/topicref "/>
+    <topicref href="chained_xpath.dita" class="- map/topicref "/>
+    <topicref href="contains.dita" class="- map/topicref "/>
+    <topicref href="last.dita" class="- map/topicref "/>
+    <topicref href="start-with.dita" class="- map/topicref "/>
+    <topicref href="xpath_axes_methods.dita" class="- map/topicref "/>
+  </topicref>
+</topicref>
+  </map>

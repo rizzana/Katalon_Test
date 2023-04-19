@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Upload  KatalonDemoProject</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">This section provides you a usage example on how to upload
+         <b class="+ topic/ph hi-d/b ">KatalonDemoProject</b> packaged in JUnit by
+         <b class="+ topic/ph hi-d/b ">sideload</b> and start a test run in App Center
+         Test.</p><ol class="- topic/ol "><li class="- topic/li ">Clone or download <b class="+ topic/ph hi-d/b ">sideload</b> from our
+            repository: <xref format="html" href="https://github.com/katalon-studio/sideload" scope="external" class="- topic/xref ">Katalon Studio
+               sideload</xref>.</li><li class="- topic/li ">
+          <p class="- topic/p ">Open the workspace of the usage example project by following the
+               path: <codeph class="+ topic/ph pr-d/codeph ">src/test/resources/KatalonDemoProject.zip</codeph>.</p>
+
+          <p class="- topic/p ">On App Center Test, create and start a new test run. See
+               Microsoft documentation: <xref format="html" href="https://docs.microsoft.com/en-us/appcenter/test-cloud/starting-a-test-run#new-test-run" scope="external" class="- topic/xref ">Starting
+                  a test run</xref>.</p>
+          <ul class="- topic/ul "><li class="- topic/li ">Device: Android 7.1.1 or prior. Ex: Motorola Nexus 6</li><li class="- topic/li ">Test framework: Appium</li></ul>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">To pack your sideload project, execute the file
+               <codeph class="+ topic/ph pr-d/codeph ">package.bat</codeph>/<codeph class="+ topic/ph pr-d/codeph ">package.sh</codeph>.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Upload sideload:</p>
+          <ul class="- topic/ul "><li class="- topic/li ">Before uploading, you should configure in the file
+                  <codeph class="+ topic/ph pr-d/codeph ">upload.sh</codeph>/<codeph class="+ topic/ph pr-d/codeph ">upload.bat</codeph>.</li><li class="- topic/li ">To upload and run your sideload project on the App Center,
+                  execute the file
+                  <codeph class="+ topic/ph pr-d/codeph ">upload.sh</codeph>/<codeph class="+ topic/ph pr-d/codeph ">upload.bat</codeph>.</li></ul>
+
+          <p class="- topic/p ">You can view test reports on App Center Test. See Microsoft
+               documentation: <xref format="html" href="https://docs.microsoft.com/en-us/appcenter/test-cloud/test-reports" scope="external" class="- topic/xref ">Test
+                  reports</xref>.</p>
+        </li></ol></conbody></concept>

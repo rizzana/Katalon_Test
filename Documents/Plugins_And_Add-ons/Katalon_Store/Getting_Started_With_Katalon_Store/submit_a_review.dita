@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_9" class="- topic/topic concept/concept "><title class="- topic/title ">Submit a review on <ph conkeyref="name-variables/katalon-store" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Before you submit a review for any plugin from the
+         <b class="+ topic/ph hi-d/b "><ph conkeyref="name-variables/katalon-store" class="- topic/ph "/></b>, you must sign in using your Katalon
+         ID. A rating is required to submit a review.</p><p class="- topic/p ">To write and submit your review for a plugin, perform the
+         following steps:</p><ol class="- topic/ol "><li class="- topic/li ">Click on the plugin to go to the plugin details page.</li><li class="- topic/li ">
+            <p class="- topic/p ">Switch to the <b class="+ topic/ph hi-d/b ">Reviews</b> tab, then click on
+               <b class="+ topic/ph hi-d/b ">Write a Review</b>.</p>
+            <p class="- topic/p ">
+              <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/user/Gettins%20Started%20Updated%20Images/reviews-tab.png" scope="external" width="700" class="- topic/image "><alt class="- topic/alt ">review tab</alt></image>
+            </p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">Input your review in the text field, then click
+               <b class="+ topic/ph hi-d/b ">Publish</b> to post your review.</p>
+            <p class="- topic/p ">
+              <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/user/Gettins%20Started%20Updated%20Images/submit-review.png" scope="external" width="600" class="- topic/image "><alt class="- topic/alt ">submit a review</alt></image>
+            </p>
+          </li></ol></conbody></concept>

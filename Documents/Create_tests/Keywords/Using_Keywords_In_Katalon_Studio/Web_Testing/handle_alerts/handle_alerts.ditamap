@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-handle_alerts" class="- map/map ">
+  <title class="- topic/title ">How to Handle Alerts</title>
+  <topicref href="handle_alerts.dita" class="- map/topicref "><topicref href="what_is_an_alert.dita" class="- map/topicref "/>
+  <topicref href="handle_alerts_using_katalon_studio.dita" class="- map/topicref ">
+    <topicref href="1._handle_accept_alert.dita" class="- map/topicref "/>
+    <topicref href="2._handle_dismiss_alert.dita" class="- map/topicref "/>
+    <topicref href="3._send_data_to_an_alert_dialog.dita" class="- map/topicref "/>
+    <topicref href="4._capture_the_alert_message.dita" class="- map/topicref "/>
+  </topicref>
+</topicref></map>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_0" class="- topic/topic concept/concept "><title class="- topic/title ">[WebUI] Take Area Screenshot</title><conbody class="- topic/body  concept/conbody "><section id="id" class="- topic/section ">
+    <title class="- topic/title ">Description</title>
+    
+      <note type="note" class="- topic/note ">
+        <p class="- topic/p ">From version <b class="+ topic/ph hi-d/b ">7.7.0</b>, this keyword is
+            available.</p>
+      </note>
+    
+  </section><section id="id_1" class="- topic/section ">
+    <title class="- topic/title ">takeAreaScreenshot</title>
+    
+      <ul class="- topic/ul "><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Description</b>: Take screenshot of a specific
+            area in the viewport. The captured image will be saved in '.png'
+            format.</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Keyword name</b>: takeAreaScreenshot</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Keyword syntax</b>:
+            <codeph class="+ topic/ph pr-d/codeph ">WebUI.takeAreaScreenshot(fileName, rect, flowControl)</codeph>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Parameters</b>:</p>
+          <ul class="- topic/ul "><li class="- topic/li ">
+              <p class="- topic/p ">Name: fileName</p>
+              <ul class="- topic/ul "><li class="- topic/li ">Description: A String that represents the path to the saved
+                        image. The path can be absolute path or relative path.</li><li class="- topic/li ">Parameter Type: String</li><li class="- topic/li ">Mandatory: Optional</li></ul>
+            </li><li class="- topic/li ">
+              <p class="- topic/p ">Name: rect</p>
+              <ul class="- topic/ul "><li class="- topic/li ">Description: A Rectangle which defines location and size of the
+                        area you want to take screenshot. The area must be within the
+                        viewport.</li><li class="- topic/li ">Parameter Type: Rectangle</li><li class="- topic/li ">Mandatory: Required</li></ul>
+            </li><li class="- topic/li ">
+              <p class="- topic/p ">Name: flowControl</p>
+              <ul class="- topic/ul "><li class="- topic/li ">Description: Specify <xref href="../../../../../Maintain/failure-handling/failure-handling.dita" class="- topic/xref ">failure handling</xref>
+                        schema to determine whether the execution should be allowed to
+                        continue or stop.</li><li class="- topic/li ">Parameter Type: FailureHandling</li><li class="- topic/li ">Mandatory: Optional</li></ul>
+            </li></ul>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Examples</b>:</p>
+        </li></ul>
+      <ol class="- topic/ol "><li class="- topic/li ">You want to take a screenshot of an area at x: 50, y: 25,
+            width: 100, height: 150 and save the 'advertisements.png' file in
+            the current project's report folder:<codeblock class="+ topic/pre pr-d/codeblock ">import org.openqa.selenium.Rectangle as Rectangle
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+
+WebUI.takeAreaScreenshot(RunConfiguration.getReportFolder() + '/advertisements.png', new Rectangle(50, 25, 100, 150))
+</codeblock></li><li class="- topic/li ">You want to take a screenshot of an area at x: 50, y: 25,
+            width: 100, height: 150 and use the default file name:<codeblock class="+ topic/pre pr-d/codeblock ">import org.openqa.selenium.Rectangle as Rectangle
+
+WebUI.takeAreaScreenshot(new Rectangle(50, 25, 150, 100))
+</codeblock></li><li class="- topic/li ">You want to take a screenshot of an area at x: 50, y: 25,
+            width: 100, height: 150 and save it somewhere else:<codeblock class="+ topic/pre pr-d/codeblock ">import org.openqa.selenium.Rectangle as Rectangle
+
+WebUI.takeAreaScreenshot('E:\\area.png', new Rectangle(50, 25, 150, 100))</codeblock></li></ol>
+      
+        
+      
+      
+      
+        
+      
+      
+      
+        
+      
+    
+  </section></conbody></concept>

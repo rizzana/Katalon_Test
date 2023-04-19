@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id_7" class="- topic/topic ">
+    <title class="- topic/title ">5.5.4.9</title>
+    <body class="- topic/body ">
+      <p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">Shiny new things</b> - The ability to export
+         multiple test cases to Selenium frameworks. - Improve visibility
+         Template Dialog.</p>
+    </body>
+  </topic>

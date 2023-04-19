@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Backup data to Katalon TestOps</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <ol class="- topic/ol ">
+        <li class="- topic/li ">Log in to Katalon TestOps using your Katalon account.</li>
+        <li class="- topic/li ">Go to Katalon Recorder.</li>
+        <li class="- topic/li ">Click on the <b class="+ topic/ph hi-d/b ">Backup data</b> action.</li>
+      </ol>
+    </conbody>
+  </concept>

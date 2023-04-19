@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_62" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">New Features</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+
+          <li class="- topic/li ">[Web Service] Support configuring Content Type in HTTP Header
+            separately from HTTP Body. <xref href="../../../../Create_tests/Test_Objects/API_Test_Object/restful/restful.dita" class="- topic/xref ">Learn
+               more</xref>.</li>
+        </ul>
+      </conbody>
+    </concept>

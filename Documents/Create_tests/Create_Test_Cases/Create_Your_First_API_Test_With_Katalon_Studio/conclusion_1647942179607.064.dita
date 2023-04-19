@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_12" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Conclusion</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">This complete tutorial helped us go through all the steps and
+         concepts needed for users to create the first API test. In order to
+         achieve the best outcomes and save time and effort, we have to
+         learn how to use API testing properly. For example, we need to have
+         an appropriate implementation of techniques and awareness of
+         whether an API should be tested automatically or manually.
+         Therefore, if we make enough effort and master your Katalon Studio
+         skills, the tool will definitely help us significantly increase the
+         quality of any target product.</p>
+    </conbody>
+  </concept>

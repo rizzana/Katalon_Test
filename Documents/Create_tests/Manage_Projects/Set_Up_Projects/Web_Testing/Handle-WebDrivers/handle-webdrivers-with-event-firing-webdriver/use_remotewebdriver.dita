@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Use RemoteWebDriver</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Because <codeph class="+ topic/ph pr-d/codeph ">EventFiringWebDriver</codeph> does not implement the interface <codeph class="+ topic/ph pr-d/codeph ">RemoteWebDriver</codeph>, to obtain a RemoteWebDriver instance safely, do as follows:</p><codeblock class="+ topic/pre pr-d/codeblock ">....
+// Cast Katalon's WebDriver into EventFiringWebDriver
+EventFiringWebDriver eventFiring = (EventFiringWebDriver) DriverFactory.getWebDriver()
+// Get the driver wrapped inside
+WebDriver wrappedWebDriver = eventFiring.getWrappedDriver()
+// Cast the wrapped driver into RemoteWebDriver
+RemoteWebDriver katalonWebDriver = (RemoteWebDriver) wrappedWebDriver
+// Katalon now uses RemoteWebDriver instead of your local driver
+</codeblock><p class="- topic/p ">We recommend encapsulating the above logic into a function to avoid code duplication.</p><note type="note" class="- topic/note ">
+            <p class="- topic/p "/>
+            <p class="- topic/p ">This is to avoid an exception in the case that your code is casting the WebDriver from DriverFactory, such as with:</p>
+            <codeblock class="+ topic/pre pr-d/codeblock ">....
+RemoteWebDriver katalonWebDriver = (RemoteWebDriver) DriverFactory.getWebDriver()
+
+</codeblock>
+            <p class="- topic/p ">In this scenario, from Katalon Studio 7.0.0, an exception would appear as below:</p>
+            <codeblock class="+ topic/pre pr-d/codeblock ">Cannot cast object 'com.kms.katalon.core.webui.driver.SmartWaitWebDriver@7cab1508' with class 'com.kms.katalon.core.webui.driver.SmartWaitWebDriver' to class 'org.openqa.selenium.remote.RemoteWebDriver'
+</codeblock>
+            <p class="- topic/p ">(From <xref format="html" href="https://forum.katalon.com/t/bug-katalon-v7-cannot-cast-smartwaitwebdriver-to-remotewebdriver/33236" scope="external" class="- topic/xref ">
+                    Russ Thomas's bug report</xref>)</p>
+        </note></conbody></concept>

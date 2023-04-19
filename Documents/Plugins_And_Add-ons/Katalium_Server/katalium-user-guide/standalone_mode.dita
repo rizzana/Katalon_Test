@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Standalone mode</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To start the server in the standalone mode, execute
+         <codeph class="+ topic/ph pr-d/codeph ">standalone.sh</codeph> file (in macOS and Linux) or
+         <codeph class="+ topic/ph pr-d/codeph ">standalone.bat</codeph> file (in Windows) with these
+         commands:</p><codeblock class="+ topic/pre pr-d/codeblock ">cd katalium-server
+standalone.bat
+</codeblock><codeblock class="+ topic/pre pr-d/codeblock ">cd katalium-server
+chmod u+x ./standalone.sh
+./standalone.sh
+</codeblock><p class="- topic/p ">Successfully activated Katalium Server will be displayed as
+         belows:</p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalium-server/docs/katalium-user-guide/1-standalone-mode.png" scope="external" class="- topic/image "/>
+      </p><p class="- topic/p ">When you activate the server for the first time, you have to
+         enter the email and password of your Katalon Account. It is
+         recommended to use Katalon API Keys instead of your account's
+         password. Refer to <xref href="../../../Administer/Security_Settings/API_Key_In_Katalon/c_katalon_api_keys_in_katalon_studio.dita" class="- topic/xref ">Katalon
+            API Keys</xref> for further details.</p><p class="- topic/p ">
+
+        <b class="+ topic/ph hi-d/b ">KATALON_EMAIL</b>: Enter your Katalon account. If
+         you don't have an account, sign up here: <xref format="html" href="https://www.katalon.com/sign-up/" scope="external" class="- topic/xref ">Sign up</xref>.</p><p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">KATALON_API_KEY</b>: Enter the API Key.</p><note type="note" class="- topic/note ">
+        <p class="- topic/p ">If you want to re-activate Katalium Server, you have to remove
+            <codeph class="+ topic/ph pr-d/codeph ">framework.properties</codeph> file in <codeph class="+ topic/ph pr-d/codeph ">.katalon</codeph>
+            folder.</p>
+      </note></conbody></concept>

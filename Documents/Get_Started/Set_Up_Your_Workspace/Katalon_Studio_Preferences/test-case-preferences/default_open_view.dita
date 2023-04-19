@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Default Open View</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">By default, Katalon Studio opens your test case in the manual
+         view. You can choose to always open your test case in the manual
+         view or the script view.</p>
+    </conbody>
+  </concept>

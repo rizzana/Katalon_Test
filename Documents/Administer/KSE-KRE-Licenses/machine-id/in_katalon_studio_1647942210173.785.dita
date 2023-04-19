@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">In Katalon Studio</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To view your machine ID in Katalon Studio, follow these
+         steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+            <p class="- topic/p ">Open Katalon Studio. In the toolbar, click on the
+               <i class="+ topic/ph hi-d/i ">Profile</i> button and select <b class="+ topic/ph hi-d/b ">Log out</b>. You
+               will be logged out of your current account, and the <b class="+ topic/ph hi-d/b ">Katalon
+                  Studio Activation</b> dialog appears.</p>
+            <p class="- topic/p ">
+              
+            <image width="400" href="image/ks-pe-log-out.png" class="- topic/image "/></p>
+            <note type="note" class="- topic/note ">
+              
+              <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">If this is your first time opening Katalon Studio, the
+                  <b class="+ topic/ph hi-d/b ">Katalon Studio Activation</b> automatically pops
+                  up.</p></li></ul>
+            </note>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Katalon Studio Activation</b> log, you can
+               view and copy your machine ID.</p>
+            <p class="- topic/p ">
+              
+            <image width="500" href="image/ks-pe-machine-id.png" class="- topic/image "/></p>
+          </li></ol></conbody></concept>

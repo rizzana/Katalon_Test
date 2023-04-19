@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_0" class="- topic/topic concept/concept "><title class="- topic/title ">[WebUI] Take Element Screenshot</title><conbody class="- topic/body  concept/conbody "><section id="id" class="- topic/section ">
+    <title class="- topic/title ">Description</title>
+    
+      <note type="note" class="- topic/note ">
+        <p class="- topic/p ">From version <b class="+ topic/ph hi-d/b ">7.7.0</b>, this keyword is
+            available.</p>
+      </note>
+    
+  </section><section id="id_1" class="- topic/section ">
+    <title class="- topic/title ">takeElementScreenshot</title>
+    
+      <ul class="- topic/ul "><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Description</b>: Take a screenshot of a specific
+            web element. The captured image will be saved in '.png'
+            format.</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Keyword name</b>: takeElementScreenshot</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Keyword syntax</b>:
+            <codeph class="+ topic/ph pr-d/codeph ">WebUI.takeElementScreenshot(fileName, to, flowControl)</codeph>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Parameters</b>:</p>
+          <ul class="- topic/ul "><li class="- topic/li ">
+              <p class="- topic/p ">Name: fileName</p>
+              <ul class="- topic/ul "><li class="- topic/li ">Description: A String that represents a path to the saved
+                        image. The path can be absolute path or relative path.</li><li class="- topic/li ">Parameter Type: String</li><li class="- topic/li ">Mandatory: Optional</li></ul>
+            </li><li class="- topic/li ">
+              <p class="- topic/p ">Name: to</p>
+              <ul class="- topic/ul "><li class="- topic/li ">Description: A Test Object which represents the element you
+                        want to take screenshot of.</li><li class="- topic/li ">Parameter Type: TestObject</li><li class="- topic/li ">Mandatory: Optional</li></ul>
+            </li><li class="- topic/li ">
+              <p class="- topic/p ">Name: flowControl</p>
+              <ul class="- topic/ul "><li class="- topic/li ">Description: Specify <xref href="https://docs.katalon.com/katalon-studio/docs/failure-handling.html" scope="external" class="- topic/xref ">failure handling</xref>
+                        schema to determine whether the execution should be allowed to
+                        continue or stop.</li><li class="- topic/li ">Parameter Type: FailureHandling</li><li class="- topic/li ">Mandatory: Optional</li></ul>
+            </li></ul>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Examples</b>:</p>
+        </li></ul>
+      <ol class="- topic/ol "><li class="- topic/li ">You want to take a screenshot of an element that you have
+            captured by using Katalon Spy Utility and stored in Test Object
+            &gt; UI &gt; logo. The file name is 'logo.png' and stored in the
+            report folder. Default <xref href="https://docs.katalon.com/katalon-studio/docs/failure-handling.html" scope="external" class="- topic/xref ">failure handling</xref> is
+            used:<codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+
+WebUI.takeElementScreenshot(RunConfiguration.getReportFolder() + '/logo.png', findTestObject('UI/logo'))
+</codeblock></li><li class="- topic/li ">You want to take a screenshot of a Test Object stored in a
+            variable named 'header' for TestOps Vision. Use the default
+            fileName:<codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+
+// where ignoredElements is a user-defined List-typed variable.
+WebUI.takeElementScreenshot(header)
+</codeblock></li></ol>
+      
+        
+      
+      
+      
+        
+      
+    
+  </section></conbody></concept>

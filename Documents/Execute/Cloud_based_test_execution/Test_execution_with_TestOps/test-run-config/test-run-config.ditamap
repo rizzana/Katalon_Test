@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-test-run-config" class="- map/map ">
+  <title class="- topic/title ">Overview</title>
+  <topicref href="test-run-config.dita" class="- map/topicref "><topicref href="create_a_test_environment.dita" class="- map/topicref "/>
+  <topicref href="set_up_a_script_repository.dita" class="- map/topicref "/>
+  <topicref href="schedule_test_runs_1647955937481.286.dita" class="- map/topicref "/>
+</topicref>
+  </map>

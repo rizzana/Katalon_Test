@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-3607" class="- map/map "><title class="- topic/title ">REST request</title><mapref format="ditamap" href="../restful/restful.ditamap" class="+ map/topicref mapgroup-d/mapref "/><mapref format="ditamap" href="Create_REST_API_requests_manually/create_rest_api_requests_manually.ditamap" class="+ map/topicref mapgroup-d/mapref "/><mapref format="ditamap" href="Parameterize_A_Web_Service_Object/parameterize-a-web-service-object.ditamap" class="+ map/topicref mapgroup-d/mapref "/></map>

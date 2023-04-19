@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-4098" xml:lang="en-us" class="- topic/topic concept/concept "><title class="- topic/title ">In script view</title><prolog class="- topic/prolog "><author translate="no" type="creator" class="- topic/author ">Yen Nguyen &lt;yen.nguyen@katalon.com&gt;</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "/></metadata></prolog><conbody class="- topic/body  concept/conbody "><section class="- topic/section ">
+            <title class="- topic/title "/>
+            <p class="- topic/p "> The <uicontrol conkeyref="ks-UI-text/ks-ui-script" class="+ topic/ph ui-d/uicontrol "/> view of a test case allows you to programmatically define and handle method calls using Groovy or Java language. </p>
+            <p class="- topic/p ">For example:</p>
+            <codeblock class="+ topic/pre pr-d/codeblock ">WebUiBuiltInKeywords.openBrowser('', FailureHandling.STOP_ON_FAILURE) WebUiBuiltInKeywords.navigateToUrl(GlobalVariable.global_Gmail_Url, FailureHandling.STOP_ON_FAILURE) WebUiBuiltInKeywords.setText(ObjectRepository.findTestObject(null), 'varA'.toString(), FailureHandling.STOP_ON_FAILURE) Integer.notifyAll()
+            </codeblock>
+        </section></conbody></concept>

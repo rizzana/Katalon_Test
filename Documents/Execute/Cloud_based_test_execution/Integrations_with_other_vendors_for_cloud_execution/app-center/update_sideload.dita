@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Update sideload</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">
+
+            <p class="- topic/p ">Clone or download <b class="+ topic/ph hi-d/b ">sideload</b> from our repository:
+               <xref format="html" href="https://github.com/katalon-studio/sideload" scope="external" class="- topic/xref ">Katalon Studio
+                  sideload</xref>.</p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">Inside sideload, place your Katalon Project
+               .<b class="+ topic/ph hi-d/b ">zip</b> file in this directory:
+               <codeph class="+ topic/ph pr-d/codeph ">src/test/resources</codeph>.</p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">Configure sideload.</p>
+            <p class="- topic/p ">There are two ways to update sideload for you to choose:</p>
+            <ul class="- topic/ul "><li class="- topic/li ">Configure .bat file: <codeph class="+ topic/ph pr-d/codeph ">upload.sh/upload.bat</codeph>
+              </li><li class="- topic/li ">Configure .java file:
+                  <codeph class="+ topic/ph pr-d/codeph ">src/test/java/com/katalon/sideload/SideloadTest.java</codeph>
+              </li></ul>
+            <note type="note" class="- topic/note ">
+              
+              <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">If both files contain the configuration, the configuration in
+                  the <b class="+ topic/ph hi-d/b ">.bat</b> file will be prioritized.</p></li></ul></note>
+            <p class="- topic/p "><b class="+ topic/ph hi-d/b ">Configure .bat file</b>Upload 
+            </p>
+            <p class="- topic/p ">Open the upload.bat file. Change the following variables as your
+               context:</p>
+            <ul class="- topic/ul "><li class="- topic/li ">
+                <codeph class="+ topic/ph pr-d/codeph ">&lt;app_name&gt;</codeph>: Your App Name on App Center</li><li class="- topic/li ">
+                <codeph class="+ topic/ph pr-d/codeph ">&lt;device_id/device_name&gt;</codeph>: Device ID or Device
+                  Name on App Center. To find your Device ID or Device Name on App
+                  Center, go to <codeph class="+ topic/ph pr-d/codeph ">Test &gt; Device sets</codeph>.</li><li class="- topic/li ">
+                <codeph class="+ topic/ph pr-d/codeph ">&lt;path_to_app_file&gt;</codeph>: The App to upload to App
+                  Center</li><li class="- topic/li ">
+                <codeph class="+ topic/ph pr-d/codeph ">&lt;katalon_version&gt;</codeph>: The version of Katalon
+                  Studio used to execute. Left blank or set as "latest" to run with
+                  the latest version of Katalon Studio.</li><li class="- topic/li ">
+                <codeph class="+ topic/ph pr-d/codeph ">&lt;katalon_project_package_file&gt;</codeph>: Your package
+                  file</li><li class="- topic/li ">
+                <codeph class="+ topic/ph pr-d/codeph ">&lt;katalon_project_path&gt;</codeph>: Relative path of
+                  Katalon project's folder inside the <codeph class="+ topic/ph pr-d/codeph ">zip</codeph> package</li><li class="- topic/li ">
+                <codeph class="+ topic/ph pr-d/codeph ">&lt;katalon_execute_args&gt;</codeph>: The arguments part
+                  of your Katalon run command 
+                  
+                  <ul class="- topic/ul "><li class="- topic/li ">The argument <codeph class="+ topic/ph pr-d/codeph ">browserType</codeph> must be set as
+                        <codeph class="+ topic/ph pr-d/codeph ">"Chome"</codeph>
+                  </li><li class="- topic/li ">The argument <codeph class="+ topic/ph pr-d/codeph ">projectPath</codeph> must be excluded from
+                        this parameter</li><li class="- topic/li ">For more arguments, refer to <xref href="../../../Katalon_Runtime_Engine/console-mode-execution/General_Options.dita" class="- topic/xref ">Command
+                           Syntax</xref>
+                  </li></ul>
+              </li></ul>
+            <p class="- topic/p ">For example:</p>
+            <p class="- topic/p ">
+              <codeblock class="+ topic/pre pr-d/codeblock ">appcenter test run appium ^
+--app "katalon/Sideload" ^
+--devices "katalon/nexus" ^
+--app-path "apps/APIDemos.apk" ^
+--test-series "master" ^
+--locale "en_US" ^
+--build-dir target/upload ^
+--test-parameter "test_env=KATALON_VERSION=" ^
+--test-parameter "test_env=KATALON_PROJECT_PACKAGE_FILE=KatalonDemoProject.zip" ^
+--test-parameter "test_env=KATALON_PROJECT_PATH=" ^
+--test-parameter "test_env=KATALON_EXECUTE_ARGS=-retry=0 -testSuitePath=""Test Suites/Regression Tests"" -executionProfile=default -browserType=Chrome -apiKey=""12345678-aaaa-bbbb-cccc-91011121314"""</codeblock>
+            </p>
+            <p class="- topic/p "><b class="+ topic/ph hi-d/b ">Configure .java file</b>
+            </p>
+            <p class="- topic/p ">Open
+               <codeph class="+ topic/ph pr-d/codeph ">src/test/java/com/katalon/sideload/SideloadTest.java</codeph>,
+               find the <codeph class="+ topic/ph pr-d/codeph ">SideloadTest</codeph> section and change the following
+               variables as your context:</p>
+            <ul class="- topic/ul "><li class="- topic/li ">
+                <b class="+ topic/ph hi-d/b ">API_KEY</b>: Your API key</li><li class="- topic/li ">
+                <b class="+ topic/ph hi-d/b ">KATALON_VERSION</b>: The version of Katalon Studio
+                  used to execute. Left blank or set as "latest" to run with the
+                  latest version of Katalon Studio.</li><li class="- topic/li ">
+                <p class="- topic/p ">
+                  <b class="+ topic/ph hi-d/b ">KATALON<i class="+ topic/ph hi-d/i ">PROJECT</i>PACKAGE_FILE</b>: Your
+                  package file</p>
+              </li><li class="- topic/li ">
+                <p class="- topic/p ">
+                  <b class="+ topic/ph hi-d/b ">KATALON<i class="+ topic/ph hi-d/i ">PROJECT</i>PATH</b>: Path to the
+                  Katalon project inside the package file.</p>
+              </li><li class="- topic/li ">
+                <p class="- topic/p ">
+                  <b class="+ topic/ph hi-d/b ">KATALON<i class="+ topic/ph hi-d/i ">EXECUTE</i>ARGS</b>: The arguments
+                  part of your Katalon run command</p>
+                <p class="- topic/p ">
+                  <ul class="- topic/ul "><li class="- topic/li ">The argument <codeph class="+ topic/ph pr-d/codeph ">browserType</codeph> must be set as
+                        <codeph class="+ topic/ph pr-d/codeph ">"Chome"</codeph>
+                    </li><li class="- topic/li ">The argument <codeph class="+ topic/ph pr-d/codeph ">projectPath</codeph> must be excluded from
+                        this parameter</li><li class="- topic/li ">For more arguments, refer to <xref href="../../../Katalon_Runtime_Engine/console-mode-execution/General_Options.dita" class="- topic/xref ">Command
+                           Syntax</xref>
+                    </li></ul>
+                </p>
+              </li></ul>
+            <p class="- topic/p ">For example:</p>
+            
+              <codeblock class="+ topic/pre pr-d/codeblock ">public class SideloadTest {
+/**
+ * Your Katalon API Key
+ */
+private static final String API_KEY = "12345678-aaaa-bbbb-cccc-91011121314";
+
+/**
+ * Katalon version which will be used to run the test
+ */
+private static final String KATALON_VERSION = ""; // Leave it blank to always use the latest version
+
+/**
+ * The package file under the "src/test/resources" folder
+ */
+private static final String KATALON_PROJECT_PACKAGE_FILE = "KatalonDemoProject.zip";
+
+/**
+ * Path to the katalon project inside the package file.
+ * If not specified it will use the same name with the package file.
+ * (In this case, it is: KatalonDemoProject)
+ */
+private static final String KATALON_PROJECT_PATH = "";
+
+/**
+ * Katalon arguments
+ * @apiNote Remember to always set "browserType" to "Chrome". This will prevent Katalon from inject inappropriate configurations in execution.
+ * @apiNote Besides, you do not need to include project path in the argument list.
+ */
+private static final String KATALON_EXECUTE_ARGS = String.format("-retry=0 -testSuitePath=\"Test Suites/Regression Tests\" -executionProfile=default -browserType=Chrome -apiKey=\"%s\"", API_KEY);
+</codeblock>
+            
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">To pack your sideload project, execute the file
+               <codeph class="+ topic/ph pr-d/codeph ">package.bat</codeph>/<codeph class="+ topic/ph pr-d/codeph ">package.sh</codeph>.</p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">To upload and run your sideload project on the App Center,
+               execute the file
+               <codeph class="+ topic/ph pr-d/codeph ">upload.sh</codeph>/<codeph class="+ topic/ph pr-d/codeph ">upload.bat</codeph>.</p>
+          </li></ol></conbody></concept>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_0" class="- topic/topic concept/concept "><title class="- topic/title ">[Windows] Close Application</title><conbody class="- topic/body  concept/conbody "><section id="id" class="- topic/section ">
+            <title class="- topic/title "/>
+            <note type="note" class="- topic/note ">
+                    <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Starting from <b class="+ topic/ph hi-d/b ">version 7.0.0</b>, Windows desktop
+            application testing is available on Katalon Studio.</p></li></ul>
+            </note>
+        </section><section id="id_1" class="- topic/section ">
+            <title class="- topic/title ">closeApplication</title>
+            <ul class="- topic/ul "><li class="- topic/li "> <b class="+ topic/ph hi-d/b ">Description</b>: Trigger a closing event of the running application on the Windows System. This action is similar to pressing ALT + F4 and does not force the application to close. If there is a pop-up confirmation, you need to take some extra steps to actually close it.</li><li class="- topic/li "> <b class="+ topic/ph hi-d/b ">Keyword name</b>: closeApplication</li><li class="- topic/li "> <b class="+ topic/ph hi-d/b ">Keyword syntax</b>: Windows.closeApplication()</li><li class="- topic/li "> <b class="+ topic/ph hi-d/b ">Example</b>:</li></ul>
+            <codeblock class="+ topic/pre pr-d/codeblock ">"Start the note pad application"
+Windows.startApplication('C:\\Windows\\System32\\notepad.exe')
+
+"Close note pad application"
+Windows.closeApplication()
+</codeblock>
+        </section></conbody></concept>

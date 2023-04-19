@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Object Spy Preferences in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">You can access the <uicontrol class="+ topic/ph ui-d/uicontrol ">Object Spy Preferences</uicontrol>
+         at <uicontrol class="+ topic/ph ui-d/uicontrol ">Katalon Studio</uicontrol> &gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">Preferences</uicontrol>
+            &gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">Katalon</uicontrol> &gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">Object Spy</uicontrol>.</p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/object-spy-preferences/object-spy.png" scope="external" width="700" class="- topic/image "><alt class="- topic/alt ">Object spy preferences</alt></image>
+      </p></conbody></concept>

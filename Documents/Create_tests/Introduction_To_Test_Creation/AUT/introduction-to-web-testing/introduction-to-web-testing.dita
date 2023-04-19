@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Introduction to Web testing in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">This is a basic tutorial about how to begin testing with <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/>. If you are completely new to <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> or have just
+         begun testing with the app, this document
+         is for you. We will go over a few principal steps, basic concepts,
+         and operations in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/>. You will learn how to create
+         projects, create, verify, debug, as well as successfully plan and
+         execute test cases.</p></conbody></concept>

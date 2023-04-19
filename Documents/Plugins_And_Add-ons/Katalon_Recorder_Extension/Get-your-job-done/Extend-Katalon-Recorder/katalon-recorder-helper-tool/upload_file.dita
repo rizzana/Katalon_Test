@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Upload file</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">For testing input elements with type="file" on Firefox, the
+         command "type | locator | filepath" only works when Katalon
+         Recorder Helper has started. It utilizes Java's Robot to trigger
+         key presses in order to manipulate the "File Upload" 
+         dialog.</p>
+        <p class="- topic/p ">For Chrome, Katalon Recorder Helper is not required.</p>
+      </conbody>
+    </concept>

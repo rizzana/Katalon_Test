@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">Test cases</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/iOS-sample-projects/KS-iOS-Test-cases.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Sample test cases</alt></image></p><p class="- topic/p ">There are two test cases for different purposes:</p><p class="- topic/p ">The <uicontrol class="+ topic/ph ui-d/uicontrol ">Mexican Coffee Timer</uicontrol> test case starts and stops the timer for making a Mexican coffee. In this example, we run the test case with a real iOS device.</p><ul class="- topic/ul "><li class="- topic/li ">Start the <codeph class="+ topic/ph pr-d/codeph ">Coffee Timer.ipa</codeph> application. Here, we use the <codeph class="+ topic/ph pr-d/codeph ">sample.Common.startApplication</codeph> custom keyword to run the application.</li><li class="- topic/li ">Tap <b class="+ topic/ph hi-d/b ">Mexican</b>. We set the timeout for 0 seconds.</li><li class="- topic/li ">Tap <b class="+ topic/ph hi-d/b ">Start</b>. We set the timeout for 0 seconds.</li><li class="- topic/li ">Tap <b class="+ topic/ph hi-d/b ">3:19</b>. We set the timeout for 0 seconds.</li><li class="- topic/li ">Tap <b class="+ topic/ph hi-d/b ">Stop</b>. We set the timeout for 0 seconds.</li><li class="- topic/li ">Tap <b class="+ topic/ph hi-d/b ">Back</b>. We set the timeout for 0 seconds.</li><li class="- topic/li ">Close the application.</li></ul><p class="- topic/p ">You can see the test script as follows:</p><p class="- topic/p "><codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.checkpoint.CheckpointFactory as CheckpointFactory
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as MobileBuiltInKeywords
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testcase.TestCaseFactory as TestCaseFactory
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testdata.TestDataFactory as TestDataFactory
+import com.kms.katalon.core.testobject.ObjectRepository as ObjectRepository
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WSBuiltInKeywords
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
+
+CustomKeywords.'sample.Common.startAppliucation'()
+
+Mobile.verifyElementText(findTestObject('Spy/XCUIElementTypeStaticText - Mexican'), 'Mexican')
+
+Mobile.tap(findTestObject('XCUIElementTypeStaticText - Mexican'), 0)
+
+Mobile.tap(findTestObject('XCUIElementTypeButton - Start'), 0)
+
+Mobile.tap(findTestObject('XCUIElementTypeStaticText - 319'), 0)
+
+Mobile.tap(findTestObject('XCUIElementTypeButton - Stop'), 0)
+
+Mobile.tap(findTestObject('XCUIElementTypeButton - Back'), 0)
+
+Mobile.closeApplication()
+</codeblock></p><p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Verify the main list</b> test case verifies the list of the coffee name in the application. In this example, we run the test case with a real iOS device.</p><ul class="- topic/ul "><li class="- topic/li ">Start the <codeph class="+ topic/ph pr-d/codeph ">Coffee Timer.ipa</codeph> application. Here, we use the <codeph class="+ topic/ph pr-d/codeph ">sample.Common.startApplication</codeph> custom keyword to run the application.</li><li class="- topic/li ">Verify if the application is showing the <b class="+ topic/ph hi-d/b ">Mexican</b> item.</li><li class="- topic/li ">Verify if the application is showing the <b class="+ topic/ph hi-d/b ">Colombian</b> item.</li><li class="- topic/li ">Verify if the application is showing the <b class="+ topic/ph hi-d/b ">Coffees</b> item.</li><li class="- topic/li ">Close the application.</li></ul><p class="- topic/p ">You can see the test script as follows:</p><p class="- topic/p "><codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.checkpoint.CheckpointFactory as CheckpointFactory
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as MobileBuiltInKeywords
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testcase.TestCaseFactory as TestCaseFactory
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testdata.TestDataFactory as TestDataFactory
+import com.kms.katalon.core.testobject.ObjectRepository as ObjectRepository
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WSBuiltInKeywords
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
+
+CustomKeywords.'sample.Common.startAppliucation'()
+
+Mobile.verifyElementText(findTestObject('Spy/XCUIElementTypeStaticText - Mexican'), 'Mexican')
+
+MobileBuiltInKeywords.verifyElementText(findTestObject('Spy/XCUIElementTypeStaticText - Colombian'), 'Colombian')
+
+MobileBuiltInKeywords.verifyElementText(findTestObject('Spy/XCUIElementTypeStaticText - Coffees'), 'Coffees')
+
+Mobile.closeApplication()
+</codeblock></p></conbody></concept>

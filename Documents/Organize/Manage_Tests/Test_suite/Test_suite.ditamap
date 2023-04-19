@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-7648" class="- map/map "><title class="- topic/title ">Test suite</title><mapref format="ditamap" href="manage-test-suite-in-TestOps/manage-test-suite-in-TestOps.ditamap" class="+ map/topicref mapgroup-d/mapref "/><mapref format="ditamap" href="manage-test-cases-in-test-suite-ks/manage-test-suites-in-Studio.ditamap" class="+ map/topicref mapgroup-d/mapref "/></map>

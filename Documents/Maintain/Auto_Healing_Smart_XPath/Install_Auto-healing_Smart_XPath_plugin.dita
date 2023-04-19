@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-2292" xml:lang="en-us" class="- topic/topic concept/concept "><title class="- topic/title ">Install Auto-healing Smart XPath plugin</title><prolog class="- topic/prolog "><author translate="no" type="creator" class="- topic/author ">Hao Le &lt;hao.le@katalon.com&gt;</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "/></metadata></prolog><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Go to Katalon Store and download the plugin: <xref format="html" href="https://store.katalon.com/product/5/Auto-healing-Smart-XPath" scope="external" class="- topic/xref ">Auto-healing Smart XPath</xref>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">After successfully installing the plugin, open Katalon Studio. Click on the dropdown icon of the <i class="+ topic/ph hi-d/i ">Profile</i> button and choose <b class="+ topic/ph hi-d/b ">Reload Plugins</b>. To learn more about plugin installation, see <xref href="../../Plugins_And_Add-ons/Katalon_Store/Access_To_Katalon_Store_In_Katalon_Studio/reload_your_plugins.dita" class="- topic/xref ">Reload plugins</xref>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In the main toolbar, click on the <b class="+ topic/ph hi-d/b ">Auto-healing Smart XPath</b> button. If you see the <b class="+ topic/ph hi-d/b ">Smart XPath Disable</b>, the <b class="+ topic/ph hi-d/b ">Auto-healing Smart XPath</b> is currently enabled.
+                <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/auto-healing-smart-xpath/xpath_03.png" scope="external" class="- topic/image "/> </p>
+            </li></ol></conbody></concept>

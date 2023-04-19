@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Create test case variables</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Create a new test case. Go to <b class="+ topic/ph hi-d/b ">File &gt; New &gt; Test Case</b>. Here, we name the test case <b class="+ topic/ph hi-d/b ">DDT at TC level</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-test-case-level/830/KS-830-DDT-New-test-case.png" scope="external" class="- topic/image "><alt class="- topic/alt ">New test case</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In the new test case, switch to the <b class="+ topic/ph hi-d/b ">Variables</b> tab. To add test case variables, click <b class="+ topic/ph hi-d/b ">Add</b>. Input variables in the newly added row.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-test-case-level/830/KS-830-Variables-tab.png" scope="external" class="- topic/image "><alt class="- topic/alt ">The variables tab</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Navigate to the <b class="+ topic/ph hi-d/b ">Data Binding</b> tab. You can see there are two tables:<ul class="- topic/ul "><li class="- topic/li ">
+                            <p class="- topic/p "><b class="+ topic/ph hi-d/b ">Test Data</b>: Specify here the data files for your test execution.</p>
+                        </li><li class="- topic/li ">
+                            <p class="- topic/p "><b class="+ topic/ph hi-d/b ">Variable Binding</b>: This displays all variables input in the <b class="+ topic/ph hi-d/b ">Variables</b> tab.</p>
+                            <p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-test-case-level/830/KS-830-Data-binding-tab.png" scope="external" class="- topic/image "><alt class="- topic/alt ">The data binding tab</alt></image></p>
+                            <p class="- topic/p ">Values input in the <b class="+ topic/ph hi-d/b ">Variables</b> tab from step 2 will automatically populate in the <b class="+ topic/ph hi-d/b ">Variable Binding</b> section.</p>
+                            <p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-test-case-level/830/KS-830-Variables-in-data-binding-tab.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Input variables appear in the variable binding section</alt></image></p>
+                        </li></ul></p>
+            </li></ol></conbody></concept>

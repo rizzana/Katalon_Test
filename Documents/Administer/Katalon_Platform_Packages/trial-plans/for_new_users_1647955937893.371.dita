@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">[Archived] For new users </title><conbody class="- topic/body  concept/conbody "><note class="- topic/note "> The trial request is applied for Cloud version only. <ph conkeyref="name-variables/katalon-platform" class="- topic/ph "/> does not support a trial for the On-Premises solution.</note><p class="- topic/p ">A valid business email registration is eligible for a 30-day
+         trial of <ph conkeyref="name-variables/katalon-platform" class="- topic/ph "/> <ph conkeyref="plan-variables/plan-2" class="- topic/ph "/> plan.<image width="700" href="Katalon-platform-create-new-organization.png" class="- topic/image "><alt class="- topic/alt ">Create new organization in Katalon Platform</alt></image></p><p class="- topic/p ">When your trial period expires, you need to purchase a monthly
+         or annual subscription. Otherwise, your plan is switched to
+         the <ph conkeyref="plan-variables/plan-1" class="- topic/ph "/> plan.</p></conbody></concept>

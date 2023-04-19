@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">Add test requests to a test case</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">There are multiple ways to add a test request object to a test
+         case Katalon Studio. You can call the web service requests in the
+         Manual View (keywords test) or Script View (test scripts) of a test
+         case, and verify the responses. <xref href="../../../../Create_Test_Cases/using-web-services-in-a-test-case/using-web-services-in-a-test-case.dita" class="- topic/xref ">Learn
+            more</xref>.      </p></conbody></concept>

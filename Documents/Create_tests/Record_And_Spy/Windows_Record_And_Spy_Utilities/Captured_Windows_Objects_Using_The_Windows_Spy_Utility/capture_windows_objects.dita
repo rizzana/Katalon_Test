@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Capture Windows objects</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To capture Windows objects, follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Start the connection to the WinAppDriver by clicking on the <b class="+ topic/ph hi-d/b ">Start</b> button.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-spy-tutorial/KS-Windows-spy-utility-start-button.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Start button</alt></image>
+                </p>
+                <p class="- topic/p ">You can see the opened window of the executed AUT in the <b class="+ topic/ph hi-d/b ">Screen View</b> section:</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-spy-tutorial/KS-Windows-spy-utility-executed-AUT.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Screen View section</alt></image>
+                </p>
+                <p class="- topic/p ">All available objects on the window are displayed in the <b class="+ topic/ph hi-d/b ">All Objects</b> section. You can verify an object by clicking on it; the utility highlights the object with a green border in <b class="+ topic/ph hi-d/b ">Screen View</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-spy-tutorial/KS-Windows-spy-utility-executed-highlighted-object.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Highlighted object in the Screen View</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Add the captured objects. Select the objects you want to capture by checking on the checkbox on the left.</p>
+                <p class="- topic/p ">The selected objects are displayed in the <b class="+ topic/ph hi-d/b ">Captured Objects</b> section.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-spy-tutorial/KS-Select-Captured-Objects.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Added object in the Captured Objects section</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">To save the captured objects, click on the <b class="+ topic/ph hi-d/b ">Add to Object Repository</b> button. In the opened dialog, select your desired folder, then click <b class="+ topic/ph hi-d/b ">OK</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-spy-tutorial/KS-Add-to-Object-Repository.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Add to Object Repository</alt></image>
+                </p>
+                <p class="- topic/p ">The captured objects are added to the selected folder in the <b class="+ topic/ph hi-d/b ">Object Repository</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-spy-tutorial/KS-Object-Repository.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Added objects in the Object Repository</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">To end the capturing session, click on the <b class="+ topic/ph hi-d/b ">OK</b> button at the bottom of the dialog.</p>
+            </li></ol><note type="tip" class="- topic/note ">
+            <p class="- topic/p ">While spying, recording, or executing a test on a desktop application:</p>
+            <p class="- topic/p ">
+                <ul class="- topic/ul "><li class="- topic/li ">
+                        <p class="- topic/p ">Do not lock the screen of the testing machine</p>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p ">Do not run multiple instances of the AUT simultaneously.</p>
+                    </li></ul>
+            </p>
+        </note></conbody></concept>

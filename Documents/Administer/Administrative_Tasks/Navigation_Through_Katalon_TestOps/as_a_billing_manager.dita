@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">As a Billing Manager</title><conbody class="- topic/body  concept/conbody "><table class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">TestOps Admin Console Page</entry><entry class="- topic/entry ">Usage</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">
+                  <b class="+ topic/ph hi-d/b ">License Management</b>
+                </entry><entry class="- topic/entry ">Assign and remove your licenses. See: <xref href="../License_Management/license-management/license-management.dita" class="- topic/xref ">Manage
+                     Katalon Licenses</xref>.</entry></row><row class="- topic/row "><entry class="- topic/entry ">
+                  <b class="+ topic/ph hi-d/b ">Payment Method</b>
+                </entry><entry class="- topic/entry ">Update your billing information. See: <xref href="../Payment_Method/billing-info/billing-info.dita" class="- topic/xref ">Change
+                     Billing Information</xref>.</entry></row><row class="- topic/row "><entry class="- topic/entry "><b class="+ topic/ph hi-d/b ">Subscription Management</b>
+                </entry><entry class="- topic/entry ">Create a new order and upgrade your subscriptions. See: <xref href="../Subscription_Management/Platform_Subscription_Management/platform-subscriptions/testops-subscription.dita" class="- topic/xref ">Create
+                     TestOps subscriptions</xref> and <xref href="../Subscription_Management/KSE_KRE_License_Management/license-subscription/license-subscription.dita" class="- topic/xref ">Purchase
+                     Katalon Licenses</xref>.</entry></row></tbody></tgroup></table></conbody></concept>

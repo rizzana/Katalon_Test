@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-version-70" class="- map/map ">
+  <title class="- topic/title ">Version 7.x</title>
+  <topicref href="version-70.dita" class="- map/topicref "><topicref href="official_release_-_version_7.9.1.dita" class="- map/topicref ">
+    <topicref href="improvements_1647942266133.561.dita" class="- map/topicref "/>
+    <topicref href="fixes_1647942266133.561.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="version_7.9.0.dita" class="- map/topicref ">
+    <topicref href="new_features_1647942266133.561.dita" class="- map/topicref "/>
+    <topicref href="improvements1_1647942266133.561.dita" class="- map/topicref "/>
+    <topicref href="deprecated.dita" class="- map/topicref "/>
+    <topicref href="fixes1_1647942266133.561.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="version_7.8.2.dita" class="- map/topicref ">
+    <topicref href="improvements2_1647942266133.561.dita" class="- map/topicref "/>
+    <topicref href="fixes2_1647942266133.561.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="version_7.8.0_-_7.8.1.dita" class="- map/topicref ">
+    <topicref href="new_features1.dita" class="- map/topicref "/>
+    <topicref href="improvements3_1647942266133.561.dita" class="- map/topicref "/>
+    <topicref href="fixes3_1647942266133.561.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="version_7.7.0_-_7.7.1_-_7.7.2.dita" class="- map/topicref ">
+    <topicref href="new_features2.dita" class="- map/topicref "/>
+    <topicref href="improvements4.dita" class="- map/topicref "/>
+    <topicref href="fixes4.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="version_7.6.6.dita" class="- map/topicref ">
+    <topicref href="improvements5.dita" class="- map/topicref "/>
+    <topicref href="fixes5.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="version_7.6.5.dita" class="- map/topicref ">
+    <topicref href="improvements6.dita" class="- map/topicref "/>
+    <topicref href="fixes6.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="version_7.6.2.dita" class="- map/topicref ">
+    <topicref href="new_features3.dita" class="- map/topicref "/>
+    <topicref href="fixes7.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="version_7.6.0_-_7.6.1.dita" class="- map/topicref ">
+    <topicref href="new_features4.dita" class="- map/topicref "/>
+    <topicref href="improvements7.dita" class="- map/topicref "/>
+    <topicref href="fix.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="version_7.5.10.dita" class="- map/topicref ">
+    <topicref href="new_feature.dita" class="- map/topicref "/>
+    <topicref href="improvement.dita" class="- map/topicref "/>
+    <topicref href="fix1.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="version_7.5.5.dita" class="- map/topicref ">
+    <topicref href="new_features5.dita" class="- map/topicref "/>
+    <topicref href="improvements8.dita" class="- map/topicref "/>
+    <topicref href="fixes8.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="version_7.5.0_-_7.5.2.dita" class="- map/topicref ">
+    <topicref href="new_features6.dita" class="- map/topicref "/>
+    <topicref href="improvements9.dita" class="- map/topicref "/>
+    <topicref href="fixes9.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="version_7.4.0.dita" class="- map/topicref ">
+    <topicref href="new_features7.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="version_7.3.2_-_7.3.3.dita" class="- map/topicref ">
+    <topicref href="fix2.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="version_7.3.1.dita" class="- map/topicref ">
+    <topicref href="improvement1.dita" class="- map/topicref "/>
+    <topicref href="fixes10.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="version_7.3.0.dita" class="- map/topicref ">
+    <topicref href="new_features8.dita" class="- map/topicref "/>
+    <topicref href="improvements10.dita" class="- map/topicref "/>
+    <topicref href="fixes11.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="version_7.2.7.dita" class="- map/topicref ">
+    <topicref href="fixes12.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="version_7.2.6.dita" class="- map/topicref ">
+    <topicref href="fixes13.dita" class="- map/topicref "/>
+    <topicref href="discontinued_support.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="version_7.2.5.dita" class="- map/topicref ">
+    <topicref href="new_features9.dita" class="- map/topicref "/>
+    <topicref href="improvements11.dita" class="- map/topicref "/>
+    <topicref href="fixes14.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="version_7.2.4.dita" class="- map/topicref ">
+    <topicref href="new_features10.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="version_7.2.3.dita" class="- map/topicref ">
+    <topicref href="fixes15.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="version_7.2.2.dita" class="- map/topicref ">
+    <topicref href="new_features11.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="version_7.2.0_-_7.2.1.dita" class="- map/topicref ">
+    <topicref href="new_features12.dita" class="- map/topicref "/>
+    <topicref href="changes_and_improvements.dita" class="- map/topicref "/>
+    <topicref href="fixes16.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="version_7.1.0-7.1.1.dita" class="- map/topicref ">
+    <topicref href="new_features13.dita" class="- map/topicref "/>
+    <topicref href="changes_and_improvements1.dita" class="- map/topicref "/>
+    <topicref href="fixes17.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="version_7.0.0-_7.0.10.dita" class="- map/topicref ">
+    <topicref href="new_features14.dita" class="- map/topicref "/>
+    <topicref href="changes_and_improvements2.dita" class="- map/topicref "/>
+    <topicref href="fixes18.dita" class="- map/topicref "/>
+  </topicref>
+</topicref></map>

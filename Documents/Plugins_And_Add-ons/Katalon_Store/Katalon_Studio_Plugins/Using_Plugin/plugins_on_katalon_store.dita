@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Plugins on <ph conkeyref="name-variables/katalon-store" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">You can find many plugins published on <xref format="html" href="https://store.katalon.com/" scope="external" class="- topic/xref "><ph conkeyref="name-variables/katalon-store" class="- topic/ph "/></xref>, which are
+         developed by the Katalon team or the community user.</p><p class="- topic/p ">Some plugins are exclusive for Katalon Studio Enterprise users
+         only while the other plugins are available for the community, free
+         of charge.</p><p class="- topic/p ">You can trial an Enterprise plugin for 30 days. After the trial
+         period, if you wish to continue using the plugin for configuration,
+         you need to subscribe to a Katalon Studio Enterprise license.</p></conbody></concept>

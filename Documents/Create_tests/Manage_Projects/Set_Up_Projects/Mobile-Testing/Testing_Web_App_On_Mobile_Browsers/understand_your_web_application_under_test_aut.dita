@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Understand your web application under test (AUT)</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">When a smartphone is a must-have for everyone, it is required
+         for a web application to accommodate both desktop browsers and
+         mobile browsers.</p>
+      <p class="- topic/p ">Often, a desktop UI and a mobile web UI will vary for the same
+         web application since the screen of a desktop is different from
+         that of a phone (in resolution, size, ratio, for example). Thus, a
+         web application with responsive implementation can adapt to various
+         devices, which might cause a problem during the quality assurance
+         period. The same element in different implementation for desktop
+         and mobile may have different locators, and this fact alone can
+         prevent our test cases from executing correctly on mobile
+         browsers.</p>
+      <p class="- topic/p ">Do not stress out when your test cases cannot execute properly
+         on mobile browsers as they do on desktop browsers. Automation
+         testing is all about understanding the AUT (Application Under Test)
+         clearly to find a suitable approach. This practice should be a top
+         priority before we want to continue testing our web
+         application.</p>
+    </conbody>
+  </concept>

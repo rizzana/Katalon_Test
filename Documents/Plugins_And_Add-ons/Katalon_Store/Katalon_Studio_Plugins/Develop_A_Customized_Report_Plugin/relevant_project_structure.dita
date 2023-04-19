@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Relevant project structure</title>
+    <conbody class="- topic/body  concept/conbody ">
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">katalon-studio-sample-report-plugin
+├── Keywords
+│   ├── sample.report
+│   │   ├── SampleReportUtil.groovy
+│   │   ├── TxtReportBuilder.groovy
+├── Test Listeners
+│   ├── SampleReportTSListener.groovy
+</codeblock>
+      
+    </conbody>
+  </concept>

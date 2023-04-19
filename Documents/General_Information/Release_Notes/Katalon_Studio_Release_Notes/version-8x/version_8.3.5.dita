@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Version 8.3.5</title><conbody class="- topic/body  concept/conbody "><section class="- topic/section "><title class="- topic/title ">New features</title><ul class="- topic/ul "><li class="- topic/li ">Introduced TestOps Private Instance integration in Katalon
+            Studio. See <xref href="../../../../Administer/Katalon_Platform_Packages/private-instance-integration/testops-private-instance.dita" class="- topic/xref ">TestOps
+               Private Instance integration</xref>.</li><li class="- topic/li ">Introduced Katalon Compact Utility on Microsoft Edge. You can
+            install this extension from Microsoft Edge Add-ons: <xref format="html" href="https://microsoftedge.microsoft.com/addons/detail/katalon-compact-utility/kkmafoknllgdaapbegpkpmbncidodkaa" scope="external" class="- topic/xref ">Katalon
+               Compact Utility</xref>. Learn how to configure and use the Katalon
+            Compact Utility with a Microsoft Edge Profile on our documentation:
+            <xref href="../../../../Create_tests/Record_And_Spy/WebUI_Record_And_Spy_Utilities/katalon-compact-utility/c_intro_katalon-compact-utility.dita" class="- topic/xref ">Katalon
+               Compact Utility</xref>.</li></ul></section><section class="- topic/section "><title class="- topic/title ">Enhancements</title><ul class="- topic/ul "><li class="- topic/li ">Added Chrome 101 compatibility.</li><li class="- topic/li ">Added Microsoft Edge (Chromium) 101 compatibility.</li><li class="- topic/li ">[TestCloud Report]: Enhanced reports in JUnit, PDF, and CSV
+            format when integrating with Katalon TestCloud.</li><li class="- topic/li ">[Security Compliance]: 
+            
+            <ul class="- topic/ul "><li class="- topic/li ">[Spring4Shell] Updated spring-context from 5.1.0.RELEASE to
+                  5.3.19.</li><li class="- topic/li ">Updated jackson-databind from 2.11.2 to 2.13.2.2 to resolve the
+                  <xref format="html" href="https://vuln.whitesourcesoftware.com/vulnerability/CVE-2020-36518" scope="external" class="- topic/xref ">CVE-2020-36518</xref>
+                  vulnerability.</li><li class="- topic/li ">Updated PostgreSQL from 42.2.17.jre7 to 42.3.3 to resolve the
+                  <xref format="html" href="https://vuln.whitesourcesoftware.com/vulnerability/CVE-2022-26520" scope="external" class="- topic/xref ">CVE-2022-26520</xref>
+                  and <xref format="html" href="https://vuln.whitesourcesoftware.com/vulnerability/CVE-2022-21724" scope="external" class="- topic/xref ">CVE-2022-21724</xref>
+                  vulnerabilities.</li></ul></li><li class="- topic/li ">[Docker image] Improved sending email in Docker image.</li></ul></section></conbody></concept>

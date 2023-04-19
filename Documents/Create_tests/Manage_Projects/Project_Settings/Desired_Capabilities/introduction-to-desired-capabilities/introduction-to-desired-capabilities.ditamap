@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-introduction-to-desired-capabilities" class="- map/map ">
+  <title class="- topic/title ">Introduction to Desired Capabilities</title>
+  <topicref href="introduction-to-desired-capabilities.dita" class="- map/topicref "><topicref href="supported_environments_for_desired_capabilities_settings.dita" class="- map/topicref "/>
+  <topicref href="manage_desired_capabilities.dita" class="- map/topicref "/>
+  <topicref href="use_desired_capabilities_in_katalon_projects.dita" class="- map/topicref "/>
+</topicref>
+  </map>

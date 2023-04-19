@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">Components in an API test project</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Before creating our first API test, let's have a look at the
+         format we use to set up a testing project.</p><p class="- topic/p ">
+          <b class="+ topic/ph hi-d/b ">Object repository</b>
+        </p><ul class="- topic/ul "><li class="- topic/li ">Object repository is a place which stores all the Web service
+            endpoints along with all information of request method, URL,
+            header, content, and authentication.</li><li class="- topic/li ">Web service test objects in object repository are integrated by
+            a folder system for better management.</li></ul><p class="- topic/p ">
+          <b class="+ topic/ph hi-d/b ">Test cases</b>
+        </p><ul class="- topic/ul "><li class="- topic/li ">Test cases stores all test scenarios and is grouped by a folder
+            system. Each test case includes a few steps illustrating a test
+            scenario.</li><li class="- topic/li ">We can execute a test case individually with a specified
+            execution profile.</li></ul><p class="- topic/p ">
+          <b class="+ topic/ph hi-d/b ">Test suites</b>
+        </p><ul class="- topic/ul "><li class="- topic/li ">Test suites is the place where all test suites are stored. A
+            test suite is a collection of test cases verifying a specific
+            target.</li><li class="- topic/li ">Test cases at the test suite level can be executed with a
+            data-driven approach.</li><li class="- topic/li ">Test reports are also generated at the test suite level</li></ul><p class="- topic/p ">
+          <b class="+ topic/ph hi-d/b ">Test suite collection</b>
+        </p><ul class="- topic/ul "><li class="- topic/li ">Test suite collection is a collection of test suites verifying
+            a larger target.</li><li class="- topic/li ">Test suite at test suite collection level has specific test
+            environments specified.</li></ul><p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/creat-first-API-testing/API-Testing-Tutorial-2.png" scope="external" width="700" class="- topic/image "><alt class="- topic/alt ">Plan test execution</alt></image>
+        </p></conbody></concept>

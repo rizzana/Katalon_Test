@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-load-balancing-agents" class="- map/map "><title class="- topic/title ">Load Balancing for Local Test Environments</title><topicref href="load-balancing-agents.dita" class="- map/topicref "><topicref href="configure_an_agent_threshold.dita" class="- map/topicref "/><topicref href="assign_an_agent_to_execute_test_runs.dita" class="- map/topicref "><topicref href="for_a_new_test_plan.dita" class="- map/topicref "/><topicref href="for_an_existing_test_plan.dita" class="- map/topicref "/></topicref></topicref></map>

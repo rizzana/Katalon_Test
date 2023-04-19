@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">For a new Test Plan</title>
+      <conbody class="- topic/body  concept/conbody ">
+
+        <p class="- topic/p ">You can create a new Test Runs Schedule to assign an Agent for
+         Test Executions. See: <xref href="../../../../Schedule_test_executions/Schedule-test-runs-in-testops/create-plan.dita" class="- topic/xref ">Schedule
+            Test Runs</xref>.</p>
+        <p class="- topic/p ">When creating a new Test Runs Schedule, you are asked to select
+         Test Environments. You can select an Agent here to assign it to
+         your new Test Plan.</p>
+      </conbody>
+    </concept>

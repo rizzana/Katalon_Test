@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">
+        Step 4: Create a Java Remote Application
+            Debugger
+      </title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Click on the arrow dropdown of Eclipse debug icon <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/publisher/debug-icon.png" placement="inline" scope="external" class="- topic/image "/>, choose <codeph class="+ topic/ph pr-d/codeph ">Debug Configuration</codeph> item.</p><p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/publisher/debug-configurations.png" scope="external" width="500" class="- topic/image "/>
+        </p><p class="- topic/p ">Right-click on the <codeph class="+ topic/ph pr-d/codeph ">Java Remote Application</codeph> and
+         choose <codeph class="+ topic/ph pr-d/codeph ">New Configuration</codeph> to add new Remote
+         Debugger</p><p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/publisher/new-configuration.png" scope="external" width="600" class="- topic/image "/>
+        </p></conbody></concept>

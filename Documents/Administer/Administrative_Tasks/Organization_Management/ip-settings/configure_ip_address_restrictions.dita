@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Configure IP Address Restrictions</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">You can whitelist IP addresses individually or by range to grant access to your system. Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Sign in to <xref format="html" href="https://testops.katalon.io/login" scope="external" class="- topic/xref ">Katalon TestOps</xref>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click on the <i class="+ topic/ph hi-d/i ">Settings</i> icon at the top right corner and select <b class="+ topic/ph hi-d/b ">Organization Management</b>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Select <b class="+ topic/ph hi-d/b ">Settings</b> on the left bar, then scroll down to the <b class="+ topic/ph hi-d/b ">IP Address Restrictions</b> section.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-ip-whitelist-setting/ip-address-restrictions-section.png" scope="external" class="- topic/image "><alt class="- topic/alt ">ip address restrictions section</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Enter the valid IP addresses or IP address ranges you wish to whitelist.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Update</b>.</p>
+            </li></ol><p class="- topic/p ">After configuring IP Address Restrictions, only IP addresses you have entered have access to your system (the whitelist).</p></conbody></concept>

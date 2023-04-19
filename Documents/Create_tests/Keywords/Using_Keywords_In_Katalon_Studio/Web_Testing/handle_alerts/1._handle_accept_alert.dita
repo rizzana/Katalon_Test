@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">1. Handle Accept Alert</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">This alert method is used to confirm an action performed by the
+         user. You can handle this method either in the manual or script
+         modes.</p><p class="- topic/p ">
+          <b class="+ topic/ph hi-d/b ">Manual Mode</b>
+        </p><ul class="- topic/ul "><li class="- topic/li ">Step 1: Launching the browser navigating to Alert present page
+            by Open Browser method</li><li class="- topic/li ">Step 2: Maximize the window of the browser with Maximize
+            window</li><li class="- topic/li ">Step 3: Clicking on button</li><li class="- topic/li ">Step 4: Call the Accept alert method</li></ul><p class="- topic/p ">
+          
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_alerts/Handle-accept-alert.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Handle Accept Alerts using Katalon Studio</alt></image>
+          
+        </p><p class="- topic/p ">
+          <b class="+ topic/ph hi-d/b ">Script Mode</b>
+        </p><codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+ 
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+ 
+'Launching the browser navigating to Alert present page\r\n'
+ 
+WebUI.openBrowser('C:\\\\Users\\\\User\\\\Desktop\\\\How to Handle Alerts.html')
+ 
+'Maximize the window of the browser'
+ 
+WebUI.maximizeWindow()
+ 
+'Clicking on  button'
+ 
+WebUI.click(findTestObject('Alerts/button_ClickHere'))
+ 
+'Accepting the Alert'
+ 
+WebUI.acceptAlert()
+
+</codeblock></conbody></concept>

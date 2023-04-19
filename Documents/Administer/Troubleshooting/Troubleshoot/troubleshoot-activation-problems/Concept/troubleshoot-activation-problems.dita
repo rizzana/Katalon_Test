@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_troubleshoot-activation-problems" class="- topic/topic concept/concept "><title class="- topic/title ">Troubleshoot activation problems overview</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">When installing Katalon Studio on your machine, make sure you
+         have configured the date and time of the machine based on the local
+         time zone.</p><p class="- topic/p ">Time differences might affect the validation of licenses on the
+         Katalon Server.</p><p class="- topic/p ">This topic lists out some of the   common issues when activating Katalon Studio
+         and/or starting Katalon TestOps, followed by possible
+         solutions:</p></conbody></concept>

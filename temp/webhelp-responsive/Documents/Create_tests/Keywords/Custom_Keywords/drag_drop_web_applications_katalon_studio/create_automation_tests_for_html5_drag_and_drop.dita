@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio?><?workdir-uri file:/Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/?><?path2project ../../../../../?><?path2project-uri ../../../../../?><?path2rootmap-uri ../../../../../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="id_2" class="- topic/topic concept/concept " ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="concept:1;3:59" specializations="@props/deliveryTarget"><title class="- topic/title " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="title:1;3:89">Create automation tests for HTML5 Drag and Drop</title><conbody class="- topic/body  concept/conbody " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="conbody:1;3:192"><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="p:1;3:214">For this section, we will use the <xref format="html" href="https://www.w3schools.com/html/html5_draganddrop.asp" scope="external" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="xref:1;3:367"><?ditaot usertext?>w3school
+            HTML5 Drag and Drop page</xref> as the application under test
+         (AUT):</p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="p:2;5:42">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/drag_drop_web_applications_katalon_studio/w3school-HTML5-Drag-and-Drop-page.png" scope="external" class="- topic/image " placement="inline" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="image:1;6:226" dita-ot:image-width="393" dita-ot:image-height="270" dita-ot:horizontal-dpi="96" dita-ot:vertical-dpi="96"/>
+      </p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="p:3;7:33">This web page contains a simple implementation of drag and drop
+         which allows you to simply drag the W3Schools.com image to change
+         its container. After the W3Schools image is dragged and dropped to
+         the right rectangle, it appears as below:</p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="p:4;10:77">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/drag_drop_web_applications_katalon_studio/drag-and-drop-custom-keyword-for-HTML-Drag-and-Drop.png" scope="external" class="- topic/image " placement="inline" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="image:2;11:244" dita-ot:image-width="383" dita-ot:image-height="275" dita-ot:horizontal-dpi="96" dita-ot:vertical-dpi="96"/>
+      </p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="p:5;12:33">We will implement the drag and drop custom keyword for HTML Drag
+         and Drop, then verify the innerHTML of the right rectangle when the
+         drag and drop is completed.</p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="p:6;14:63">Implementing an automation test for HTML5 Drag and Drop is a bit
+         more complex than the JavaScript version. If you run the test case
+         above to test this drag and drop feature, you will see that the
+         draggable image does not move although the test passes.</p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="p:7;17:91">This happens because as of the day of this article (May 22,
+         2017), Selenium still not provide official support for testing
+         HTML5 Drag and Drop. You can follow the related Selenium issue <xref format="html" href="https://github.com/seleniumhq/selenium-google-code-issue-archive/issues/3604" scope="external" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="xref:2;19:216"><?ditaot usertext?>here</xref>.</p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="p:8;19:254">Therefore, as Katalon Studio utilizes Selenium for the
+         automation execution, implementing the automated test for HTML5
+         Drag and Drop requires a little bit of workaround:</p><ol class="- topic/ol " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="ol:1;21:88"><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="li:1;21:112">Capture the draggable and droppable objects into the project's
+            repository like above. If done correctly we have 2 test objects as
+            below:<p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="p:9;23:41">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/drag_drop_web_applications_katalon_studio/DragDrop6.png" scope="external" class="- topic/image " placement="inline" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="image:3;24:201" dita-ot:image-width="362" dita-ot:image-height="331" dita-ot:horizontal-dpi="96" dita-ot:vertical-dpi="96"><alt class="- topic/alt " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="alt:1;24:227">Tests Explorer Katalon Studio</alt></image>
+      </p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="p:10;25:33">
+        <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="b:1;26:39">
+          <i class="+ topic/ph hi-d/i " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="i:1;27:41">img</i>drag1 </b>is the identifier of the
+            draggle image object, while <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="b:2;28:71">div</b><i class="+ topic/ph hi-d/i " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="i:2;28:108"><b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="b:3;28:138">div2 </b></i>identifies
+         the destination rectangle element.</p></li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="li:2;29:77"><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="p:11;29:99">Create a package inside Keywords with the name
+         <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="b:4;30:40">
+          <i class="+ topic/ph hi-d/i " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="i:3;31:41">dnd.</i>
+        </b>
+      </p></li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="li:3;33:40"><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="p:12;33:62">Create a keyword class named
+         <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="b:5;34:40">
+          <i class="+ topic/ph hi-d/i " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="i:4;35:41">DragAndDropHelper</i>
+        </b> and open it. Copy the
+         following scripts to create the custom keyword:</p><codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="codeblock:1;37:108">package html5.dnd
+ 
+import org.openqa.selenium.JavascriptExecutor
+import org.openqa.selenium.WebDriver
+import org.openqa.selenium.WebElement
+import com.kms.katalon.core.annotation.Keyword
+import com.kms.katalon.core.testobject.TestObject
+import com.kms.katalon.core.webui.driver.DriverFactory
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
+ 
+public class DragAndDropHelper {
+private static String getJsDndHelper() {
+return '''
+function simulateDragDrop(sourceNode, destinationNode) {
+var EVENT_TYPES = {
+DRAG_END: 'dragend',
+DRAG_START: 'dragstart',
+DROP: 'drop'
+}
+ 
+function createCustomEvent(type) {
+var event = new CustomEvent("CustomEvent")
+event.initCustomEvent(type, true, true, null)
+event.dataTransfer = {
+data: {
+},
+setData: function(type, val) {
+this.data[type] = val
+},
+getData: function(type) {
+return this.data[type]
+}
+}
+return event
+}
+ 
+function dispatchEvent(node, type, event) {
+if (node.dispatchEvent) {
+return node.dispatchEvent(event)
+}
+if (node.fireEvent) {
+return node.fireEvent("on" + type, event)
+}
+}
+ 
+var event = createCustomEvent(EVENT_TYPES.DRAG_START)
+dispatchEvent(sourceNode, EVENT_TYPES.DRAG_START, event)
+ 
+var dropEvent = createCustomEvent(EVENT_TYPES.DROP)
+dropEvent.dataTransfer = event.dataTransfer
+dispatchEvent(destinationNode, EVENT_TYPES.DROP, dropEvent)
+ 
+var dragEndEvent = createCustomEvent(EVENT_TYPES.DRAG_END)
+dragEndEvent.dataTransfer = event.dataTransfer
+dispatchEvent(sourceNode, EVENT_TYPES.DRAG_END, dragEndEvent)
+}
+ 
+''';
+}
+ 
+@Keyword
+def dragAndDrop(TestObject sourceObject, TestObject destinationObject) {
+WebElement sourceElement = WebUiBuiltInKeywords.findWebElement(sourceObject);
+WebElement destinationElement = WebUiBuiltInKeywords.findWebElement(destinationObject);
+WebDriver webDriver = DriverFactory.getWebDriver();
+((JavascriptExecutor) webDriver).executeScript(getJsDndHelper() + "simulateDragDrop(arguments[0], arguments[1])", sourceElement, destinationElement)
+}
+}
+
+</codeblock><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="p:13;106:35">This keyword uses the JavaScript function from <xref format="html" href="https://gist.github.com/druska/624501b7209a74040175" scope="external" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="xref:3;106:200"><?ditaot usertext?>https://gist.github.com/druska/624501b7209a74040175</xref>
+         (thanks to <xref format="html" href="https://gist.github.com/druska" scope="external" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="xref:4;107:118"><?ditaot usertext?>Druska</xref>) to
+         mimic HTML5 native events to simulate drag and drop for HTML5.</p></li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="li:4;108:105">
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="p:14;109:33">Use our newly created custom keyword. Create a test case with
+               the name <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="b:6;110:55">
+              <i class="+ topic/ph hi-d/i " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="i:5;111:45">HTML5 Drag And Drop</i>
+            </b>, open it
+               then changing to the Script mode and pasting the following Groovy
+               code:</p>
+          
+            <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="codeblock:2;116:60">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+
+
+'Open the selected browser and navigate to our AUT website'
+WebUI.openBrowser('https://www.w3schools.com/html/html5_draganddrop.asp')'Use the previous custom keywords to perform the drag and drop action.'
+CustomKeywords.'html5.dnd.DragAndDropHelper.dragAndDrop'(findTestObject('Page_HTML5 Drag and Drop/img_drag1'), findTestObject(
+'Page_HTML5 Drag and Drop/div_div2'))'Verify that the drag and drop action is performed successfully by checking the innerHTML of the destination element for the draggable image.'
+WebUI.verifyElementAttributeValue(findTestObject('Page_HTML5 Drag and Drop/div_div2'), 'innerHTML', '&lt;img src=\"img_w3slogo.gif\" draggable=\"true\" ondragstart=\"drag(event)\" id=\"drag1\" alt=\"W3Schools\"&gt;',
+0)'Close the browser to clean up the testing environment.'
+WebUI.closeBrowser();
+
+</codeblock>
+          
+        <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="p:15;130:31">This sample project could be found <xref format="html" href="https://github.com/katalon-studio/DragAndDropExample" scope="external" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="xref:5;130:185"><?ditaot usertext?><b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="b:7;130:215">here</b></xref>
+        <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="b:8;131:39">.</b>
+      </p></li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="li:5;132:40"><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="p:16;132:62">Run the test case and you will notice that the W3Schools image
+         is dragged and dropped in the right rectangle successfully.</p></li></ol><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="p:17;133:105">We hope you enjoy the tutorial, please comment if you have any question or another solution to automate the drag &amp; drop testing. For additional tip &amp; tricks, access <xref format="html" href="https://forum.katalon.com/tags/c/community-discussion/katalon-studio/7/tips-tricks" scope="external" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="xref:6;133:427"><?ditaot usertext?><b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/create_automation_tests_for_html5_drag_and_drop.dita" xtrc="b:9;133:457">Katalon Studio tutorial</b></xref>.</p></conbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="ditamap-8764" xtrc="topicref:3;6:98" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/drag_drop_web_applications_katalon_studio.ditamap"><link class="- topic/link " format="dita" href="../../../../../Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/drag_drop_web_applications_katalon_studio.dita" mapclass="- map/topicref " role="parent" scope="local" type="concept" xtrc="topicref:1;5:91" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/drag_drop_web_applications_katalon_studio/drag_drop_web_applications_katalon_studio.ditamap"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Handling drag and drop testing for web applications with Katalon Studio</linktext></link></linkpool></related-links></concept>

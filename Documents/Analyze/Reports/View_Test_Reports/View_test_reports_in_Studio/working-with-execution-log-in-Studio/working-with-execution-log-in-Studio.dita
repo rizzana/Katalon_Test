@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">View and customize execution log in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Viewing the execution log is the very first approach when
+         troubleshooting automation test execution. The critical information
+         in the log can quickly help project teams pinpoint the root causes
+         of any issues. Katalon Studio execution logs are optimized to
+         provide such information so that you can have a comprehensive view
+         of the tests run.</p></conbody></concept>

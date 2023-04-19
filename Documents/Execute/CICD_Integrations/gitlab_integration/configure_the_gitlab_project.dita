@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Configure the GitLab project</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">After setting up the sample GitLab project, you need to
+         configure the following components:</p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">The <codeph class="+ topic/ph pr-d/codeph ">.gitlab-ci.yml</codeph> file: A file containing CI/CD
+            configurations.</li>
+        <li class="- topic/li ">Katalon API key variable: A key representing your credentials
+            for Katalon Studio and Katalon Runtime Engine.</li>
+      </ul>
+    </conbody>
+    
+    
+  </concept>

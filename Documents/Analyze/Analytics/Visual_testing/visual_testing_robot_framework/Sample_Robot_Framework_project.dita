@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task-3151" class="- topic/topic task/task "><title class="- topic/title ">Sample Robot Framework project</title><taskbody class="- topic/body task/taskbody "><context class="- topic/section task/context "><p class="- topic/p ">To quickly get started with <codeph class="+ topic/ph pr-d/codeph ">testops-robot</codeph>, you can clone our sample project and run a sample test case: <xref href="https://github.com/katalon-studio-samples/katalon-testops-robot-sample" scope="external" class="- topic/xref ">katalon-testops-robot-sample</xref>.</p><p class="- topic/p ">In the <codeph class="+ topic/ph pr-d/codeph ">resource.robot</codeph> file of the project, you can find all the sample keywords and the use of the <codeph class="+ topic/ph pr-d/codeph ">Verify checkpoint</codeph> function defined in <codeph class="+ topic/ph pr-d/codeph ">VisualLibrary</codeph> class:<codeblock class="+ topic/pre pr-d/codeblock ">
+*** Settings ***
+Documentation     A resource file with reusable keywords and variables.
+...
+...               The system specific keywords created here form our own
+...               domain specific language. They utilize keywords provided
+...               by the imported SeleniumLibrary.
+| Library |       SeleniumLibrary
+| Library |       ../library/VisualLibrary.py
+
+
+*** Variables ***
+${SERVER}         https://katalon-demo-cura.herokuapp.com
+${BROWSER}        Chrome
+${DELAY}          0
+${VALID USER}     John Doe
+${VALID PASSWORD}    ThisIsNotAPassword
+${CHECKPOINT_LOCATION}    checkpoint
+${BOOKING_URL}    ${SERVER}/#appointment
+*** Keywords ***
+Analyze checkpoint "${checkpoint}"
+    Verify checkpoint    ${checkpoint}
+
+Open Browser To Cura Shop
+    Open Browser    ${SERVER}    ${BROWSER}
+    Maximize Browser Window
+    Set Selenium Speed    ${DELAY}
+
+Input Username
+    [Arguments]    ${username}
+    Input Text    txt-username    ${username}
+
+Enter Password
+    [Arguments]    ${password}
+    Input Text    txt-password    ${password}
+
+Submit Credentials
+    Click Button    btn-login
+
+Welcome Page Should Be Open
+    Location Should Be    ${BOOKING_URL}
+    Title Should Be    CURA Healthcare Service
+
+Login Should Have Failed
+    Element Should Be Visible    //p[contains(text(), "Login failed! Please ensure the username and password are valid.")]
+</codeblock></p><p class="- topic/p ">In the test case <codeph class="+ topic/ph pr-d/codeph ">valid_login_with_AI.robot</codeph>, we use the <codeph class="+ topic/ph pr-d/codeph ">Analyze checkpoint</codeph> keyword to verify images:<codeblock class="+ topic/pre pr-d/codeblock ">
+*** Settings ***
+Documentation     A test suite with a single test for valid login.
+...
+...               This test has a workflow that is created using keywords in
+...               the imported resource file.
+Resource          resource.robot
+
+*** Test Cases ***
+Valid Login
+    Open Browser To Cura Shop
+    Capture Page Screenshot    ${CHECKPOINT_LOCATION}/Review-Appoitment.png
+    Analyze checkpoint "${CHECKPOINT_LOCATION}/Review-Appoitment.png"
+    Click Element       //a[contains(text(),'Make Appointment')]
+    Capture Page Screenshot    ${CHECKPOINT_LOCATION}/Login-Dialog-Origin.png
+    Analyze checkpoint "${CHECKPOINT_LOCATION}/Login-Dialog-Origin.png"
+    Input Username    ${VALID USER}
+    Enter Password    ${VALID PASSWORD}
+    Capture Page Screenshot    ${CHECKPOINT_LOCATION}/Login-Dialog-With-Data.png
+    Analyze checkpoint "${CHECKPOINT_LOCATION}/Login-Dialog-With-Data.png"
+    Submit Credentials
+    Element Should Be Visible  appointment
+    [Teardown]    Close Browser
+</codeblock></p><p class="- topic/p ">To execute the test case, follow these steps in your terminal:</p></context><steps class="- topic/ol task/steps "><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Clone the sample project to your local machine.</cmd><stepxmp class="- topic/itemgroup task/stepxmp "><codeblock class="+ topic/pre pr-d/codeblock ">git clone https://github.com/katalon-studio-samples/katalon-testops-robot-sample.git</codeblock></stepxmp></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Navigate into the project folder and install the Python dependencies.</cmd><stepxmp class="- topic/itemgroup task/stepxmp "><codeblock class="+ topic/pre pr-d/codeblock ">pip install -r requirements.txt</codeblock></stepxmp></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Run a sample test case. Here we run a sample test case with a valid login scenario <codeph class="+ topic/ph pr-d/codeph ">valid_login_with_AI.robot</codeph>.</cmd><stepxmp class="- topic/itemgroup task/stepxmp "><codeblock class="+ topic/pre pr-d/codeblock ">robot --listener testops.Listener test_sample/valid_login_with_AI.robot</codeblock><p class="- topic/p ">The test case is then executed with the Visual Testing steps.<image width="600" href="images/Robot_Framework_sample_test_run.png" class="- topic/image "><alt class="- topic/alt ">Execution terminal</alt></image></p></stepxmp></step></steps><result class="- topic/section task/result "><p class="- topic/p ">Once the execution is done, you can view the test results stored in the <codeph class="+ topic/ph pr-d/codeph ">testops-report</codeph> folder (specified in <codeph class="+ topic/ph pr-d/codeph ">testops-config.json</codeph>) or with the <codeph class="+ topic/ph pr-d/codeph ">report.html</codeph> file.<image width="700" href="images/Robot_Framework_sample_report.png" class="- topic/image "><alt class="- topic/alt ">report.html</alt></image></p></result></taskbody><concept id="d8s572cz18zagd9" class="- topic/topic concept/concept "><title class="- topic/title ">Known Issues</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">When running a Robot Framework with Katalon Visual Testing steps for the first time, you might encounter the following behaviors and issues:<ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">If the baseline collection is not specified in the configuration file, <ph conkeyref="name-variables/testops" class="- topic/ph "/> will generate a default baseline collection.</p></li><li class="- topic/li "><p class="- topic/p ">When a Robot Framework test case is run, captured images are uploaded to <ph conkeyref="name-variables/testops" class="- topic/ph "/> one after another (as opposed to being uploaded altogether in a Katalon test suite). The first captured image will be labeled <i class="+ topic/ph hi-d/i ">New - Passed</i> and the rest will have <i class="+ topic/ph hi-d/i ">New - Unresolved</i> status. Therefore, to correctly compare images, you need to mark and add the <i class="+ topic/ph hi-d/i ">Unresolved</i> images to the default baseline manually. </p></li></ul></p><p class="- topic/p ">We recommend creating a baseline collection and specifying it in the configuration file.</p></conbody></concept></task>

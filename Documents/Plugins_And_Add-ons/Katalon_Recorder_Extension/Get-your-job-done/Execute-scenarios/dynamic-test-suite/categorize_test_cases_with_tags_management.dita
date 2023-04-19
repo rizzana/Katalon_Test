@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Categorize test cases with Tags Management</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Tags Management</b> function allows you to manage all tags in one place. You can add/remove or edit tags in one or many selected test cases.</p><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Actions</b> panel, click <b class="+ topic/ph hi-d/b ">Tags Management</b>. The <b class="+ topic/ph hi-d/b ">Tags Management</b> dialog opens.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In the opened dialog, the first interface shows you a list of existing tags and the number of test cases where the tags are present. If you have no tags, this page should be blank.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/dynamic-test-suite/KR-DYNAMIC-List-of-existing-tags.png" scope="external" class="- topic/image "><alt class="- topic/alt ">List of existing tags</alt></image>
+                </p>
+                <ul class="- topic/ul "><li class="- topic/li ">
+                        <p class="- topic/p ">To add new tags, click <b class="+ topic/ph hi-d/b ">Add new tag</b>. The opened interface allows you to add new tags to one or many selected test cases. You can also add tags to all test cases in a test suite.</p>
+                        <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/dynamic-test-suite/KR-DYNAMIC-Add-new-tag.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Add new tags from tags management</alt></image>
+                        </p>
+                        <ul class="- topic/ul "><li class="- topic/li ">
+                                <p class="- topic/p ">Input the new tag name, then click <b class="+ topic/ph hi-d/b ">Save</b> to add tags to selected test cases.</p>
+                                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/dynamic-test-suite/KR-DYNAMIC-Add-tags-from-tags-management.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Add new tags from tags management</alt></image>
+                                </p>
+                            </li><li class="- topic/li ">
+                                <p class="- topic/p ">After adding tags, the tag icon is highlighted in the sidebar for this test case.</p>
+                                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/dynamic-test-suite/KR-DYNAMIC-Highlighted-tag-icon-after-adding-tags.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Tags icon highlighted after adding tags</alt></image>
+                                </p>
+                            </li></ul>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p ">To remove tags, click <i class="+ topic/ph hi-d/i ">Remove</i> (Trash icon) of the tag you wish to remove. Katalon Recorder deletes it from all test cases.</p>
+                        <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/dynamic-test-suite/KR-DYNAMIC-Remove-the-tag.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Remove tags in all test cases</alt></image>
+                        </p>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p ">To edit tags, click <i class="+ topic/ph hi-d/i ">Edit</i> (Pencil icon) of the tag you wish to edit. By default, Katalon Recorder will check the box of the test case where the edited tag exists. After editing the tags, click <b class="+ topic/ph hi-d/b ">Save</b>. The new tag will replace the previous one in all checked test cases.</p>
+                        <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/dynamic-test-suite/KR-DYNAMIC-Edit-tags.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Edit tags in all test cases</alt></image>
+                        </p>
+                        <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/dynamic-test-suite/KS-DYNAMIC-Click-save-to-edit.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Save edited tags</alt></image>
+                        </p>
+                        <note type="note" class="- topic/note ">
+                            <ul class="- topic/ul "><li class="- topic/li ">
+                                    <p class="- topic/p ">If you wish to remove the edited tag from a test case, leave the box of the test case unchecked. In the above example, when changing the tag name from <codeph class="+ topic/ph pr-d/codeph ">Dashboard</codeph> to <codeph class="+ topic/ph pr-d/codeph ">Calculator</codeph>, if you uncheck the <b class="+ topic/ph hi-d/b ">Test case 01</b> test case, there will be no tags named <codeph class="+ topic/ph pr-d/codeph ">Dashboard</codeph> or <codeph class="+ topic/ph pr-d/codeph ">Calculator</codeph> in this test case.</p>
+                                </li><li class="- topic/li ">
+                                    <p class="- topic/p ">If you wish to add the edited tag to a test case, check the box of the test case you wish to add the tag. In the above example, when changing the tag name from <codeph class="+ topic/ph pr-d/codeph ">Dashboard</codeph> to <codeph class="+ topic/ph pr-d/codeph ">Calculator</codeph>, if you check the box of the <b class="+ topic/ph hi-d/b ">UI Test</b> test case, a new tag named <codeph class="+ topic/ph pr-d/codeph ">Calculator</codeph> will be added to this test case.</p>
+                                </li></ul>
+                        </note>
+                    </li></ul>
+            </li></ol></conbody></concept>

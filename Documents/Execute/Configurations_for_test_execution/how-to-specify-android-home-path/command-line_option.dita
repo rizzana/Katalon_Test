@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Command-line Option</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Start Katalon Studio with this command-line option instead of double-clicking on the <b class="+ topic/ph hi-d/b ">Katalon</b> app:</p><ul class="- topic/ul "><li class="- topic/li ">
+                <p class="- topic/p ">For Linux and macOS:</p>
+                <p class="- topic/p ">
+                    <codeblock class="+ topic/pre pr-d/codeblock ">$ export ANDROID_HOME=&lt;Your Android SDK
+                  location&gt;</codeblock>
+                </p>
+                <p class="- topic/p ">For example:</p>
+                <codeblock class="+ topic/pre pr-d/codeblock ">$ export ANDROID_HOME=/opt/dev/android-sdk-linux
+$ ./katalon &lt;arguments&gt;
+</codeblock>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">For Windows:</p>
+                <p class="- topic/p ">1. In the Windows explorer search bar, search for <b class="+ topic/ph hi-d/b ">Edit the system environment variables</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/android-home-path/KS-android-home-edit-environment-variables.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Edit the system environment variable</alt></image>
+                </p>
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">System Properties</b> dialog appears. Click <b class="+ topic/ph hi-d/b ">Environment Variables</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/android-home-path/KS-android-home-environment.png" scope="external" class="- topic/image "><alt class="- topic/alt ">system properties</alt></image>
+                </p>
+                <p class="- topic/p ">2. In the <b class="+ topic/ph hi-d/b ">System variables</b>, click <b class="+ topic/ph hi-d/b ">New</b> to create a new environment variable like so:</p>
+                <ul class="- topic/ul "><li class="- topic/li "> <b class="+ topic/ph hi-d/b ">Variable</b>: <b class="+ topic/ph hi-d/b ">ANDROID_HOME</b>
+                    </li><li class="- topic/li "> <b class="+ topic/ph hi-d/b ">Value</b>: your custom path to the Android SDK root folder</li></ul>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/android-home-path/KS-android-home-new.png" scope="external" class="- topic/image "><alt class="- topic/alt ">new</alt></image>
+                </p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/android-home-path/KS-android-home-value.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Window Environment Variable</alt></image>
+                </p>
+            </li></ul><note type="note" class="- topic/note ">
+            <p class="- topic/p ">For Appium to locate the tools, keep the ADB file and these folders as their original names:</p>
+            <ul class="- topic/ul "><li class="- topic/li ">build-tools</li><li class="- topic/li ">platform-tools</li><li class="- topic/li ">tools</li></ul>
+        </note></conbody></concept>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-1867" xml:lang="en-us" class="- topic/topic concept/concept "><title class="- topic/title ">Analyze test execution logs in Log Viewer</title><prolog class="- topic/prolog "><author translate="no" type="creator" class="- topic/author ">Xuan Tran &lt;xuan.tran@katalon.com&gt;</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "/></metadata></prolog><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">After executing the test case, <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> displays the results in the <b class="+ topic/ph hi-d/b ">Log Viewer</b> as follows:</p><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-analyze-execution-logs-and-debug/KS-Execution-Results.png" scope="external" width="750" class="- topic/image "><alt class="- topic/alt ">Test Execution overview</alt></image>
+        </p><p class="- topic/p ">Here we use the <b class="+ topic/ph hi-d/b ">Tree View</b> mode of the <b class="+ topic/ph hi-d/b ">Log Viewer</b> to analyze the logs. This mode displays execution logs in a structural way that helps you trace the Test execution and locate failed steps quickly.</p><p class="- topic/p ">Follow these steps to analyze the logs:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Switch to the <b class="+ topic/ph hi-d/b ">Tree View</b>. Toggle on the <b class="+ topic/ph hi-d/b ">Tree View</b> button on the top-right corner of the <b class="+ topic/ph hi-d/b ">Log Viewer</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-analyze-execution-logs-and-debug/KS-Tree-View-Button.png" scope="external" width="250" class="- topic/image "><alt class="- topic/alt ">Tree View button</alt></image>
+                </p>
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Tree View</b> displays the execution logs in a tree-like structure on the left pane. Each node in the tree corresponds to a step in the test case, and failed steps are marked in red.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-analyze-execution-logs-and-debug/KS-Log-Viewer-Tree-View.png" scope="external" width="650" class="- topic/image "><alt class="- topic/alt ">Tree View Structure</alt></image>
+                </p>
+                <p class="- topic/p ">On the right pane, the view displays detailed log messages of each step.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-analyze-execution-logs-and-debug/KS-Log-Viewer-Log-Message-Overview.png" scope="external" width="750" class="- topic/image "><alt class="- topic/alt ">Log Message Pane</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">To view warning messages of the failed step, click on the <i class="+ topic/ph hi-d/i ">expand</i> icon on the left of the step.</p>
+                <p class="- topic/p ">Here the warnings indicate that <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> fails to find a test object with a specific XPath.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-analyze-execution-logs-and-debug/KS-Log-Viewer-Warnings.png" scope="external" width="750" class="- topic/image "><alt class="- topic/alt ">Log Message Pane</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">To view the detailed log message, click on the step. The log message is displayed on the right pane.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-analyze-execution-logs-and-debug/KS-Log-Viewer-Click-on-step.png" scope="external" width="750" class="- topic/image "><alt class="- topic/alt ">Tree View Click on step</alt></image>
+                </p>
+                <p class="- topic/p ">In the root cause section, the message shows an exception: <codeph class="+ topic/ph pr-d/codeph ">com.kms.katalon.core.webui.exception.WebElementNotFoundException:
+                  Web element with id ... not found.</codeph>
+                </p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-analyze-execution-logs-and-debug/KS-Log-Viewer-Root-cause-section.png" scope="external" width="750" class="- topic/image "><alt class="- topic/alt ">Root cause section</alt></image>
+                </p>
+                
+                    <p class="- topic/p ">To learn how to troubleshoot common exceptions in Web tests, you can refer to this document: <xref href="../../../../Create_tests/Troubleshooting_For_Test_Creation/Troubleshoot_Common_Execution_Exceptions_Web_Test/Troubleshoot_web_test_execution_exceptions_overview.dita" class="- topic/xref ">Troubleshoot common exceptions when executing web tests</xref>.</p>
+                
+                <p class="- topic/p ">Below the root cause section, the message displays the failed step in the form of test script.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-analyze-execution-logs-and-debug/KS-Log-Viewer-Error-Script.png" scope="external" width="700" class="- topic/image "><alt class="- topic/alt ">Error Script</alt></image>
+                </p>
+                <p class="- topic/p ">From the details provided, we know that Katalon Studio cannot locate the sign-in button with the id <codeph class="+ topic/ph pr-d/codeph ">'Object
+                  Repository/Page_Zack
+                  Market/input_Password_button_btn__2lzmo'</codeph> and the Object Locator <codeph class="+ topic/ph pr-d/codeph ">//*[@value = 'Signing_in']</codeph>.</p>
+            </li></ol><note type="note" class="- topic/note ">
+            
+            <ul class="- topic/ul "><li class="- topic/li ">Execution logs of test cases are preserved only in the running session of <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/>. Once you reload <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/>, the logs will disappear.</li></ul>
+        </note></conbody></concept>

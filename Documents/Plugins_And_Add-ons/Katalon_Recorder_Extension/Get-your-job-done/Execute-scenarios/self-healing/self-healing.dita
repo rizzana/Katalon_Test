@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Use the Self-Healing function in <ph conkeyref="name-variables/katalon-recorder" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">On some websites, automation scripts can fail because the
+         default locator fails to find an element. In that case,
+         Self-Healing will automatically try out other locators. If it finds
+         a valid locator, it will continue the automation script using that
+         locator and records the broken and valid locators for later
+         use.</p></conbody></concept>

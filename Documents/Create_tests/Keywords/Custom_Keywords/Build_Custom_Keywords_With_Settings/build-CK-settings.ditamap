@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-build-CK-settings" class="- map/map ">
+  <title class="- topic/title ">Build custom keywords with Settings</title>
+  <topicref href="build-ck-settings.dita" class="- map/topicref "><topicref href="add_settings_page.dita" class="- map/topicref "/>
+  <topicref href="prepare_to_test.dita" class="- map/topicref "/>
+  <topicref href="retrieve_the_setting_values.dita" class="- map/topicref "/>
+</topicref>
+  </map>

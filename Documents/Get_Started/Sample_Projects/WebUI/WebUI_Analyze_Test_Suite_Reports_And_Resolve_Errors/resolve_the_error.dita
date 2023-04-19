@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Resolve the Error</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Because the incorrect test data in our example is associated with an external data file (Excel test data), we navigate to the data file and update it.</p><note type="note" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">To learn more about Test Data management, refer to this guide: <xref href="../../../../Create_tests/Data_Driven_Testing/manage-test-data/manage-test-data.dita" class="- topic/xref ">Manage Test Data</xref>.</li></ul>
+        </note><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Open the Test Suite, then click on the <b class="+ topic/ph hi-d/b ">Show Data Binding</b> button.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-view-and-analyze-test-suite-reports/830-show-data-binding.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Opened Test Suite</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Open the associated data file. In the displayed <b class="+ topic/ph hi-d/b ">Test Data</b> section, right-click on the data file in use and select <b class="+ topic/ph hi-d/b ">Open Data File</b>.</p>
+                <p class="- topic/p ">In our example, we open the data file "Multiple Checkout."</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-view-and-analyze-test-suite-reports/830-open-multiple-checkout.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Right-click on Data Fle</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Update the data file.</p>
+                <p class="- topic/p ">In the opened data file, we can see the file contains the incorrect test data.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-view-and-analyze-test-suite-reports/KS-Incorrect-Data-File.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Incorrect Test Data</alt></image>
+                </p>
+                <p class="- topic/p ">We then update the data file with the correct test data.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-view-and-analyze-test-suite-reports/KS-Correct-Data-File.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Corrected Test Data</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Run the Test Suite and verify the results in the new Test Report.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-view-and-analyze-test-suite-reports/KS-Displayed-Successful-Test-Suite-reports.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Successful Test Report</alt></image>
+                </p>
+            </li></ol><note type="note" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li "><ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> also supports exporting test reports into different formats, such as HTML, CSV, PDF, and JUnit. For detailed instructions on exporting test reports, refer to this guide: <xref href="../../../../Analyze/Reports/View_Test_Reports/View_test_reports_in_Studio/view-test-suite-report-in-Studio/export_reports_to_other_formats.dita" class="- topic/xref ">Export reports to other formats</xref> .</li><li class="- topic/li ">For real-time monitoring and better reporting capabilities, consider integrating your project with Katalon TestOps. Learn more about test result reports here: <xref href="../../../../Analyze/Reports/Upload_Test_Reports/Upload_test_results_from_KS_to_TestOps/katalon-analytics-beta-integration.dita" class="- topic/xref ">Upload Test Results to Katalon TestOps from <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></xref>.</li></ul>
+        </note><p class="- topic/p "> <b class="+ topic/ph hi-d/b ">See also</b>:</p><ul class="- topic/ul "><li class="- topic/li "> <xref href="../../../../Analyze/Reports/View_Test_Reports/View_test_reports_in_Studio/view-test-suite-report-in-Studio/intro-view-test-suite-and-test-suite-collection-reports-in-Studio.dita" class="- topic/xref ">Test Suite and Test Suite Collection Reports</xref>.</li></ul></conbody></concept>

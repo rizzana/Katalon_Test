@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id_6" class="- topic/topic ">
+    <title class="- topic/title ">5.5.4.10</title>
+    <body class="- topic/body ">
+      <p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">Bug fixes</b> - Users cannot use a CSV file in test
+         cases on some Windows machines.</p>
+    </body>
+  </topic>

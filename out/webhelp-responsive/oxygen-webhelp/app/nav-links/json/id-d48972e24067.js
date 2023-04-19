@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"id-d48972e24067":{"topics":[{"title":"Manage TestOps Profile Settings","href":"Documents\/Administer\/Administrative_Tasks\/manage-user-profile\/manage_testops_profile_settings.html","attributes":{"data-id":"id_1"},"menu":{"hasChildren":false},"tocID":"id_1-d48972e24075","next":"id_1-d48972e24075"}]}};

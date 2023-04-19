@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-create-test-case?><?workdir-uri file:/Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-create-test-case/?><?path2project ../../../../?><?path2project-uri ../../../../?><?path2rootmap-uri ../../../../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="id" class="- topic/topic concept/concept " ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-create-test-case/katalium-framework-create-test-case.dita" xtrc="concept:1;3:57" specializations="@props/deliveryTarget"><title class="- topic/title " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-create-test-case/katalium-framework-create-test-case.dita" xtrc="title:1;3:87">Create a Test Case in Katalium Framework</title><conbody class="- topic/body  concept/conbody " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-create-test-case/katalium-framework-create-test-case.dita" xtrc="conbody:1;3:183"><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-create-test-case/katalium-framework-create-test-case.dita" xtrc="p:1;3:205">Test cases are essentially TestNG's test classes. Katalium
+         Framework provides an abstract class
+         <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-create-test-case/katalium-framework-create-test-case.dita" xtrc="codeph:1;5:50">com.katalon.kata.testng.TestTemplate</codeph> with some
+         convenient utilities:</p><ul class="- topic/ul " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-create-test-case/katalium-framework-create-test-case.dita" xtrc="ul:1;6:59"><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-create-test-case/katalium-framework-create-test-case.dita" xtrc="li:1;6:83">
+        <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-create-test-case/katalium-framework-create-test-case.dita" xtrc="p:2;7:31">WebDriver is initialized before each test method and can be
+               accessed with <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-create-test-case/katalium-framework-create-test-case.dita" xtrc="codeph:2;8:70">this.driver</codeph> or <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-create-test-case/katalium-framework-create-test-case.dita" xtrc="codeph:3;8:134">driver</codeph>. If
+               the test method ends with a <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-create-test-case/katalium-framework-create-test-case.dita" xtrc="codeph:4;9:84">driver.quit()</codeph> statement, a
+               new WebDriver will be created for the next test method.</p>
+      </li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-create-test-case/katalium-framework-create-test-case.dita" xtrc="li:2;11:36">
+
+        <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-create-test-case/katalium-framework-create-test-case.dita" xtrc="p:3;13:31">Page instances are also preinitialized using Selenium's
+               <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-create-test-case/katalium-framework-create-test-case.dita" xtrc="codeph:5;14:56">PageFactory</codeph>. Refer to <xref href="../katalium-framework-page-object-model/katalium-framework-page-object-model.dita" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-create-test-case/katalium-framework-create-test-case.dita" xtrc="xref:1;14:204" type="concept"><?ditaot usertext?>this
+                  article</xref> to learn more about the Page Object Model.</p>
+      </li></ul><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-create-test-case/katalium-framework-create-test-case.dita" xtrc="p:4;16:39">Here is a very simple Selenium test (<xref format="html" href="https://github.com/katalon-studio/katalium-sample/blob/master/src/test/java/com/katalon/kata/sample/testcase/simple/LoginTest.java" scope="external" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-create-test-case/katalium-framework-create-test-case.dita" xtrc="xref:2;16:273"><?ditaot usertext?>source
+            code</xref>):</p><codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-create-test-case/katalium-framework-create-test-case.dita" xtrc="codeblock:1;17:77">package com.katalon.kata.sample.testcase.simple;
+
+import com.katalon.kata.sample.Constants;
+import com.katalon.kata.sample.page.CuraAppoinmentPage;
+import com.katalon.kata.sample.page.CuraHomePage;
+import com.katalon.kata.sample.page.CuraLoginPage;
+import com.katalon.kata.testng.TestTemplate;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class LoginTest extends TestTemplate {
+
+  private CuraHomePage curaHomePage = new CuraHomePage(Constants.baseUrl);
+
+  private CuraLoginPage curaLoginPage;
+
+  private CuraAppoinmentPage curaAppoinmentPage;
+
+  @Test
+  public void shouldLogin() {
+    curaHomePage.open();
+    curaHomePage.makeAppointment();
+    curaLoginPage.login(Constants.username, Constants.password);
+    boolean exist = curaAppoinmentPage.isOnPage();
+    Assert.assertTrue(exist);
+    driver.quit();
+  }
+}
+</codeblock></conbody></concept>

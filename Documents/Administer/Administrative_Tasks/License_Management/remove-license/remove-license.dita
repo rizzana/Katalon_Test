@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Remove a License</title><conbody class="- topic/body  concept/conbody "><note type="important" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">You must be the Owner or Admin of your Organization to access the <b class="+ topic/ph hi-d/b ">License Management</b> page. For further details on roles and user management, see: <xref href="../../User_Management/kt_invite_user_org/kt_invite_user_org.dita" class="- topic/xref ">TestOps User Management</xref>.</li></ul>
+        </note><p class="- topic/p ">On the <b class="+ topic/ph hi-d/b ">License Management</b> page, you can remove a Licensed User, a machine ID, or a license from a machine ID. To access the <b class="+ topic/ph hi-d/b ">License Management</b> page, do as follows:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Sign in to <xref format="html" href="https://testops.katalon.io/login" scope="external" class="- topic/xref ">Katalon TestOps</xref>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Settings</b> &gt; <b class="+ topic/ph hi-d/b ">License Management</b>.</p>
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">License Management</b> page appears.</p>
+            </li></ol><note type="note" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">Contact us at license@katalon.com if you need further help with your licenses.</li></ul>
+        </note></conbody></concept>

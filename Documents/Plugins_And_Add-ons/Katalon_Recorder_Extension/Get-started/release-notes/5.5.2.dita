@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id_15" class="- topic/topic ">
+    <title class="- topic/title ">5.5.2</title>
+    <body class="- topic/body ">
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Improvements</b>
+          <ul class="- topic/ul ">
+            <li class="- topic/li ">Add sample project "Upload a set of images sand their metadata"
+                  to showcase how to use <codeph class="+ topic/ph pr-d/codeph ">upload</codeph> command.</li>
+            <li class="- topic/li ">Improve export function from KR to KS.</li>
+            <li class="- topic/li ">Users now can export recorded tests, tests using <codeblock class="+ topic/pre pr-d/codeblock ">if
+                     else</codeblock> and <codeph class="+ topic/ph pr-d/codeph ">while</codeph> commands, tests containing
+                  <codeph class="+ topic/ph pr-d/codeph ">verify/assert</codeph> commands and tests using command
+                  <codeph class="+ topic/ph pr-d/codeph ">runScript</codeph> from Katalon Recorder to Katalon
+                  Studio.</li>
+          </ul>
+        </li>
+        <li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Bug fixes</b>
+          <ul class="- topic/ul ">
+            <li class="- topic/li ">Fix an issue where users cannot see the selected autosuggested
+                  command when navigating with key up/key down.</li>
+          </ul>
+        </li>
+      </ul>
+    </body>
+  </topic>

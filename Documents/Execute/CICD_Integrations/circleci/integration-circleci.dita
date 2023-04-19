@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">CircleCI - Katalon Orb</title><conbody class="- topic/body  concept/conbody "><note type="note" class="- topic/note ">
+
+        <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Katalon TestOps CI is another way to execute or schedule Katalon
+            Studio tests remotely. To learn more about Katalon TestOps CI, see
+            <xref href="../../Schedule_test_executions/Schedule-test-runs-in-testops/create-plan.dita" class="- topic/xref ">Test
+               Planning Overview</xref>.</p></li></ul>
+      </note><p class="- topic/p ">Orbs are shareable packages of configuration elements, including
+         jobs, commands, and executors. See CircleCI documents about Orbs:
+         <xref format="html" href="https://circleci.com/docs/2.0/orb-intro/" scope="external" class="- topic/xref ">Orbs
+            Introduction Cloud</xref>.</p><p class="- topic/p ">Katalon Orb enables you to execute Katalon tests with your
+         CircleCI CI/CD pipeline. We recommend getting the latest version
+         from the CircleCI Orb registry page. Download the latest Katalon
+         Orb on CircleCI: <xref format="html" href="https://circleci.com/orbs/registry/orb/katalon/katalon-studio" scope="external" class="- topic/xref ">katalon/katalon-studio</xref>.</p></conbody></concept>

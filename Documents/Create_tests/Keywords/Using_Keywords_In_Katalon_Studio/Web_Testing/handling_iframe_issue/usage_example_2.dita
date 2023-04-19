@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Usage example 2</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">
+            <p class="- topic/p ">Given that you want to capture the JQueryUI's Drag and Drop
+               example (this draggable control is an iframe), as shown in the
+               screenshot below, you can drag the 'Drag me around' object to other
+               areas of the iframe.</p>
+            <p class="- topic/p ">
+              <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handling_iframe_issue/JQueryUIs-Drag-and-Drop.png" scope="external" class="- topic/image "><alt class="- topic/alt ">capture the JQueryUI's Drag and Drop example</alt></image>
+            </p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">Use the Object Spy to capture the iframe as usual. The Object
+               Spy can detect, capture the iframe, and show all of the iframe's
+               elements accordingly.</p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">As you save the captured object to Katalon Studio, the iframe is
+               also included as the object's parent element. This is illustrated
+               in the following screenshot (Note that you can uncheck the option
+               to use parent iframe if needed):</p>
+            <p class="- topic/p ">
+              <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handling_iframe_issue/objects-parent-element..png" scope="external" class="- topic/image "><alt class="- topic/alt ">save the captured object to Katalon Studio</alt></image>
+            </p>
+          </li><li class="- topic/li ">
+
+            <p class="- topic/p ">Given the situation where you opt not to specify the iframe
+               parent for an element, in order to interact with the element, you
+               need to use the <xref href="../../../Keywords_Description_In_Katalon_Studio/Web-UI-Keywords/webui-switch-to-frame/webui-switch-to-frame.dita" class="- topic/xref ">Switch To Frame</xref>
+               keyword to have Katalon focus on the parent iframe before being
+               able to interact with the element.</p>
+          </li></ol><p class="- topic/p ">The sample code below shows how to switch to the parent frame
+         before using the drag and drop action on the elements within the
+         iframe:</p><p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handling_iframe_issue/sample-code_drag_n_drop.png" scope="external" class="- topic/image "><alt class="- topic/alt ">how to switch to the parent frame before using the drag and drop action</alt></image>
+        </p><codeblock class="+ topic/pre pr-d/codeblock ">import com.kms.katalon.core.annotation.SetUp as SetUp
+import com.kms.katalon.core.annotation.TearDown as TearDown
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testobject.ObjectRepository as ObjectRepository
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
+
+'Open a browser and navigate to jQuery UI page'
+WebUI.openBrowser('http://jqueryui.com/')
+
+'Maximize current browser window'
+WebUI.maximizeWindow()
+
+'Click on \'Draggle\' link'
+WebUI.click(findTestObject('Page_jQuery_Homepage/lnk_Draggable'))
+
+'Switch to iframe of Demo panel'
+WebUI.switchToFrame(findTestObject('Page_jQuery_Drag and Drop Example/ifr_Demo Frame'),GlobalVariable.G_Timeout_Small, FailureHandling.STOP_ON_FAILURE)
+
+'Drag and drop iframe into other position'
+WebUI.dragAndDropByOffset(findTestObject('Page_jQuery_Drag and Drop Example/div_Frame_Draggable'),200, 38)
+
+'Switch back to current window'
+WebUI.switchToDefaultContent()
+
+'Click on \'Droppable\' link'
+WebUI.click(findTestObject('Page_jQuery_Homepage/lnk_Droppable'))
+
+'Switch to iframe of Demo panel'
+WebUI.switchToFrame(findTestObject('Page_jQuery_Drag and Drop Example/ifr_Demo Frame'),GlobalVariable.G_Timeout_Small, FailureHandling.STOP_ON_FAILURE)
+
+'Drag the left rectangle and Drop it the right-side one'
+WebUI.dragAndDropToObject(findTestObject('Page_jQuery_Drag and Drop Example/div_Frame_Draggable'),findTestObject('Page_jQuery_Drag and Drop Example/div_Frame_Droppable'), FailureHandling.STOP_ON_FAILURE)
+WebUI.closeBrowser()
+
+</codeblock></conbody></concept>

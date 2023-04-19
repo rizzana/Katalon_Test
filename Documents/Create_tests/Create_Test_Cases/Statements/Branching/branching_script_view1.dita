@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-801" xml:lang="en-us" class="- topic/topic concept/concept "><title class="- topic/title ">In script view</title><prolog class="- topic/prolog "><author translate="no" type="creator" class="- topic/author ">Yen Nguyen &lt;yen.nguyen@katalon.com&gt;</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "/></metadata></prolog><conbody class="- topic/body  concept/conbody "><section class="- topic/section "><title class="- topic/title "/>
+            <p class="- topic/p "> The <uicontrol conkeyref="ks-UI-text/ks-ui-script" class="+ topic/ph ui-d/uicontrol "/> &#160;view of test cases allows you to programmatically define and handle <b class="+ topic/ph hi-d/b ">Break</b> , <b class="+ topic/ph hi-d/b ">Continue</b> and <b class="+ topic/ph hi-d/b ">Return</b> , using either Groovy or Java language.&#160; </p>
+            <p class="- topic/p ">For example:</p>
+            <ul class="- topic/ul "><li class="- topic/li "><b class="+ topic/ph hi-d/b ">Break</b> : </li></ul>
+            <codeblock class="+ topic/pre pr-d/codeblock ">for (int i = 0; i &lt; max; i++) { // interested only in p's if (searchMe.charAt(i) != 'p') { break; } // process p's numPs++; }
+            </codeblock>
+            <ul class="- topic/ul "><li class="- topic/li "><b class="+ topic/ph hi-d/b ">Continue</b> : </li></ul>
+            <codeblock class="+ topic/pre pr-d/codeblock ">for (int i = 0; i &lt; max; i++) { // interested only in p's if (searchMe.charAt(i) != 'p') { continue; } // process p's numPs++; }
+            </codeblock>
+            <ul class="- topic/ul "><li class="- topic/li "><b class="+ topic/ph hi-d/b ">Return</b> : </li></ul>
+            <codeblock class="+ topic/pre pr-d/codeblock ">for (int i = 0; i &lt; max; i++) { // interested only in p's if (searchMe.charAt(i) != 'p') { return true; } // process p's numPs++; }
+            </codeblock></section></conbody></concept>

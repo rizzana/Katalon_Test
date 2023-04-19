@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-webui-take-screenshot" class="- map/map ">
+  <title class="- topic/title ">[WebUI] Take Screenshot</title>
+  <topicref href="webui-take-screenshot.dita" class="- map/topicref "><topicref href="parameters_1647942308555.443.dita" class="- map/topicref ">
+    <topicref href="screenshotoptions_parameters.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="example_uses_of_webui_keywords.dita" class="- map/topicref ">
+    <topicref href="take_a_screenshot_of_your_current_browser_after_logging_in.dita" class="- map/topicref "/>
+    <topicref href="store_your_screenshot_in_a_custom_location.dita" class="- map/topicref "/>
+    <topicref href="sort_and_store_screenshots_by_projects_using_relative_paths.dita" class="- map/topicref "/>
+    <topicref href="print_text_on_your_screenshots.dita" class="- map/topicref "/>
+  </topicref>
+</topicref></map>

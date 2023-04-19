@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Version 8.2.5</title><conbody class="- topic/body  concept/conbody "><section class="- topic/section "><title class="- topic/title ">New features</title><ul class="- topic/ul "><li class="- topic/li ">[WebUI] Introduced an option to use the Spy, Record, and Smart
+            Wait function with a packed extension, now available on the Chrome
+            Web Store. This extension is compatible with Katalon Studio version
+            8.2.5 onwards. See <xref href="../../../../Create_tests/Record_And_Spy/WebUI_Record_And_Spy_Utilities/katalon-compact-utility/c_intro_katalon-compact-utility.dita" class="- topic/xref ">Katalon
+               Compact Utility</xref>. 
+            
+            <ul class="- topic/ul "><li class="- topic/li ">Introduced an option to enable/disable Xpath visibility on the
+                  Katalon Compact Utility extension. See <xref href="../../../../Create_tests/Record_And_Spy/WebUI_Record_And_Spy_Utilities/katalon-compact-utility/disable_xpath_visibility.dita" class="- topic/xref ">Disable
+                     XPath visibility</xref>.</li></ul></li><li class="- topic/li ">Introduced TestCloud integration (Beta). See <xref href="../../../../Execute/Cloud_based_test_execution/Test_execution_with_TestCloud/KS_TestCloud_integration/testcloud-integration.dita" class="- topic/xref ">Integrate
+               TestCloud with Studio</xref> and <xref href="../../../../Execute/Cloud_based_test_execution/Test_execution_with_TestCloud/testcloud-integration-kre/testcloud-integration-kre.dita" class="- topic/xref ">Run
+               TestCloud with Katalon Runtime Engine</xref>.</li></ul></section><section class="- topic/section "><title class="- topic/title ">Enhancements</title><ul class="- topic/ul "><li class="- topic/li ">Added Microsoft Edge (Chromium) 96 compatibility.</li><li class="- topic/li ">Added Chrome 97 compatibility.</li><li class="- topic/li ">[Operating System] Windows 11 support: You can use Katalon
+            Studio and Katalon Runtime Engine on computers running under
+            Windows 11.</li><li class="- topic/li ">[Security Compliance]: 
+            
+            <ul class="- topic/ul "><li class="- topic/li ">Upgraded Netty library to netty-all 4.1.61.Final.</li><li class="- topic/li ">Upgraded jsoup library to jsoup 1.14.3.</li></ul></li><li class="- topic/li ">Enabled the connection to the SAP HANA database. To set up SAP
+            HANA database for Data-driven testing, download this executable jar
+            file: <xref format="html" href="https://mvnrepository.com/artifact/com.sap.cloud.db.jdbc/ngdbc" scope="external" class="- topic/xref ">SAP
+               HANA JDBC Driver</xref> and follow this tutorial: <xref href="../../../../Create_tests/Data_Driven_Testing/database-settings/connect_to_a_database_with_an_external_jdbc_driver.dita" class="- topic/xref ">Connect
+               to a database with an external JDBC driver</xref>.</li><li class="- topic/li ">Introduced the <codeph class="+ topic/ph pr-d/codeph ">xpath:customAttributes</codeph> in the web
+            locator strategies. See <xref href="../../../../Create_tests/Test_Objects/Web_Test_Objects/web-selection-methods/configure_xpath.dita" class="- topic/xref ">Configure
+               XPath</xref>.</li><li class="- topic/li ">Introduced an option in the <b class="+ topic/ph hi-d/b ">Project Setting</b> to
+            include/exclude timestamps in the .properties files. See <xref href="../../../../Create_tests/Manage_Projects/Project_Settings/Project_Information/IncludeExclude_timestamp_in_-properties_files.dita" class="- topic/xref ">Include/Exclude
+               timestamp in .properties files</xref>.</li><li class="- topic/li ">[TestOps Integration]: 
+            
+            <ul class="- topic/ul "><li class="- topic/li ">Removed the <b class="+ topic/ph hi-d/b ">Create Script Repository</b> and
+                  <b class="+ topic/ph hi-d/b ">Update Script Repository</b> options.</li><li class="- topic/li ">Turned on Katalon TestOps Integration by default for new Web
+                  and API users.</li></ul></li><li class="- topic/li ">[License Activation] Changed the Katalon license server to <xref format="html" href="https://admin.katalon.com/" scope="external" class="- topic/xref ">https://admin.katalon.com/</xref>.
+            For authentication, Katalon Studio and Katalon Runtime Engine call
+            this new server URL.</li><li class="- topic/li ">Improved the visibility of the search function. See <xref href="../../../../Organize/Manage_Workspace/Search_Test_Cases_In_KS/intro-search_test_cases-in-Studio.dita" class="- topic/xref ">Search
+               Test Cases</xref>.</li><li class="- topic/li ">Removed unused messages in Test Suite.</li><li class="- topic/li ">[UI changes]: 
+            
+            <ul class="- topic/ul "><li class="- topic/li ">[Dynamic Test Suite] Updated UI for the retry function in
+                  Dynamic Test Suite.</li><li class="- topic/li ">Changed the <b class="+ topic/ph hi-d/b ">Communication</b>,
+                  <b class="+ topic/ph hi-d/b ">Feedback</b>, and <b class="+ topic/ph hi-d/b ">Support Portal</b>
+                  buttons.</li><li class="- topic/li ">[TestOps Integration] Changed the UI in the <b class="+ topic/ph hi-d/b ">Katalon
+                     TestOps Integration</b> dialog. See <xref href="../../../../Analyze/Reports/Upload_Test_Reports/Upload_test_results_from_KS_to_TestOps/katalon-analytics-beta-integration.dita" class="- topic/xref ">Upload
+                     Test Results to Katalon TestOps from Katalon Studio</xref>.</li><li class="- topic/li ">[License Activation] Changed UI text from
+                  <b class="+ topic/ph hi-d/b ">Deactivate</b> to <b class="+ topic/ph hi-d/b ">Log out</b>.</li></ul></li></ul></section><section class="- topic/section "><title class="- topic/title ">Fixes</title><ul class="- topic/ul "><li class="- topic/li ">Bug: Editing script and executing a test could intermittently
+            cause the error: "java.lang.ClassFormatError: Truncated class
+            file".</li><li class="- topic/li ">Bug: [qTest] Missing screenshots in the qTest HTML report.</li><li class="- topic/li ">Bug: [qTest] Could not run test suite right after configuring
+            qTest integration.</li><li class="- topic/li ">Bug: Failed to update webdriver automatically when using custom
+            desired capabilities.</li><li class="- topic/li ">Bug: [Katalon Runtime Engine] Not sending all Jira IDs test
+            results in the Jira report when executing with Katalon Runtime
+            Engine.</li><li class="- topic/li ">Bug: [On-Premises and Cloud Licensing Servers] Not showing the
+            terminate session popup when deleting online licenses.</li><li class="- topic/li ">Bug: [Web Recorder] Lacked test steps in the Recorder Logs when
+            playing back the test case.</li><li class="- topic/li ">Bug: Inside the <b class="+ topic/ph hi-d/b ">Log Viewer</b>, unable to navigate
+            to a specific step by right-clicking on the step and choosing
+            <b class="+ topic/ph hi-d/b ">Go to this step in Script View</b>.</li></ul></section></conbody></concept>

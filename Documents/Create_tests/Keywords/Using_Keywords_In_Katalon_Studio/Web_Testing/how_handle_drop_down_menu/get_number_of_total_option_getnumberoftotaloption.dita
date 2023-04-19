@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Get the number of total options</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">The <codeph class="+ topic/ph pr-d/codeph ">getNumberOfTotalOption</codeph> keyword returns the number of options listed in the combo box. See: <xref href="../../../Keywords_Description_In_Katalon_Studio/Web-UI-Keywords/webui-get-number-of-total-option/webui-get-number-of-total-option.dita" class="- topic/xref "/>.</p><p class="- topic/p ">Example:</p><p class="- topic/p ">We have a dropdown and want to get the total number of available options in a dropdown then we will use <codeph class="+ topic/ph pr-d/codeph ">getNumberOfTotalOption</codeph>.</p><p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/how_handle_drop_down_menu/Total_Options_Image.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Sample dropdown menu with 5 options</alt></image></p><p class="- topic/p ">As there are 5 options in the dropdown, the keyword returns the value 5.</p><p class="- topic/p ">In <uicontrol class="+ topic/ph ui-d/uicontrol ">Manual View</uicontrol>:<image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/how_handle_drop_down_menu/Get_Number_of_Total_Options_Manual.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Sample test case in Manual view with keyword getNumberOfTotalOption</alt></image></p><p class="- topic/p ">In <uicontrol class="+ topic/ph ui-d/uicontrol ">Script View</uicontrol>:<codeblock class="+ topic/pre pr-d/codeblock ">'Launch Browser'
+ 
+WebUI.openBrowser('C:\\\\Users\\\\User\\\\Desktop\\\\DropDown\\\\MultiSelection_dropDown.html')
+ 
+'Maximize the window'
+ 
+WebUI.maximizeWindow()
+ 
+'Capturing the Number of  Values in the dropdown and storing it in a variable'
+ 
+TotalOptions = WebUI.getNumberOfTotalOption(findTestObject('comboBox_Role'))
+ 
+println('No of Roles are :' + TotalOptions)
+ 
+'Verifying the number of Options in the dropdown with Expected result'
+ 
+WebUI.verifyEqual(TotalOptions, 5)
+
+</codeblock></p></conbody></concept>

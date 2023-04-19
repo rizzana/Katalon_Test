@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Supported environments for desired capabilities settings</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">In each selected environment, you can add, delete or clear
+         (delete all) desired capabilities settings. To learn more about
+         configuring desired capabilities for different testing environment,
+         you can refer to the following documents:</p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">
+          <p class="- topic/p ">
+            <xref href="../desired-capabilities-settings-webui/desired-capabilities-settings-webui.dita" class="- topic/xref ">Set
+                  up desired capabilities in WebUI testing</xref>
+          </p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">
+            <xref href="../desired-capabilities-settings-mobile/desired-capabilities-settings-mobile.dita" class="- topic/xref ">Set
+                  up desired capabilities in mobile testing</xref>
+          </p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">
+            <xref href="../desired-capabilities-settings-windows/desired-capabilities-settings-windows.dita" class="- topic/xref ">Set
+                  up desired capabilities in Windows Desktop App testing</xref>
+          </p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">
+            <xref href="../desired-capabilities-remote-settings/Concept/desired-capabilities-remote-settings.dita" class="- topic/xref ">Set
+                  up remote server in desired capabilities</xref>
+          </p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">
+            <xref href="../set-custom-desired-capabilities/desired-capabilities-custom-settings.dita" class="- topic/xref ">Set
+                  custom desired capabilities</xref>
+          </p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">
+            <xref href="../desired-capabilities-at-runtime/c_desired-capabilities-at-runtime.dita" class="- topic/xref ">Pass
+                  desired capabilities at runtime</xref>
+          </p>
+        </li>
+      </ul>
+    </conbody>
+  </concept>

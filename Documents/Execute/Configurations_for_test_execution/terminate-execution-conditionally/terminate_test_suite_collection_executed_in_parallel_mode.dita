@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_9" class="- topic/topic concept/concept "><title class="- topic/title ">Terminate Test Suite Collection Executed In Parallel Mode</title><conbody class="- topic/body  concept/conbody "><ul class="- topic/ul "><li class="- topic/li ">
+                <p class="- topic/p ">Given that you have a test suite collection that has 5 test suites with 3 parallel instances. You want to stop the test suite collection after 20 test failures. Set T = 20.</p>
+                <note type="note" class="- topic/note ">
+                    <ul class="- topic/ul "><li class="- topic/li ">
+                            <p class="- topic/p ">Instances is the number of test suites you set to run at the same time.</p>
+                        </li><li class="- topic/li ">
+                            <p class="- topic/p ">T is the maximum number of test case failures (threshold).</p>
+                        </li></ul>
+                </note>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">When the test suite begins execution, the first 3 test suites run at the same time with T = 20 in each test suite.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">The test suite collection is terminated once the total number of failures becomes 20. The rest test cases in the terminated test suite and the rest test suite do not run. However, the currently running test suites will not be terminated.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/Report%20UC%203.png" scope="external" class="- topic/image "><alt class="- topic/alt ">report test suite collection in parallel mode</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Katalon Studio generates a report in JUnit, HTML, PDF, and CSV format. The report does not show information for test cases and test suites that were not run.</p>
+            </li></ul></conbody></concept>

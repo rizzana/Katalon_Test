@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">View full Re-runs history</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To see the detailed history of re-run tests, select the <b class="+ topic/ph hi-d/b ">Test Results</b> tab, click on a Test Result ID, then select the <b class="+ topic/ph hi-d/b ">Re-runs</b> tab.</p><p class="- topic/p ">The latest Re-runs display on the top of the list by default.</p><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-june-release-rerun-results/All%2520rerun%2520results%2520log-2.png" scope="external" class="- topic/image "><alt class="- topic/alt ">re-runs list</alt></image>
+        </p></conbody></concept>

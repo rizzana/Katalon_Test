@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-import-export-test-artifact" class="- map/map ">
+  <title class="- topic/title ">Test Artifacts Sharing</title>
+  <topicref href="import-export-test-artifact.dita" class="- map/topicref "><topicref href="export_test_artifacts.dita" class="- map/topicref "/>
+  <topicref href="import_test_artifacts.dita" class="- map/topicref "/>
+</topicref>
+  </map>

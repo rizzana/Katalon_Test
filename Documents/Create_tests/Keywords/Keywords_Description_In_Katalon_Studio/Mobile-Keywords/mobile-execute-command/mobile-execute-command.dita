@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_0" class="- topic/topic concept/concept "><title class="- topic/title ">[Mobile] Execute Mobile Command </title><conbody class="- topic/body  concept/conbody "><section id="id" class="- topic/section ">
+    <title class="- topic/title "/>
+    
+      <note type="note" class="- topic/note ">
+        <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Starting from <b class="+ topic/ph hi-d/b ">version 7.2.</b>, this keyword is
+            available for Mobile testing on Katalon Studio.</p></li></ul>
+      </note>
+    
+  </section><section id="id_1" class="- topic/section ">
+    <title class="- topic/title ">executeMobileCommand</title>
+    
+      <ul class="- topic/ul "><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Description</b>: Execute a native mobile
+            command.</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Keyword syntax</b>:
+            Mobile.executeMobileCommand(command, args, flowControl)</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Parameters</b>: 
+            
+            <ul class="- topic/ul "><li class="- topic/li ">Name: command</li><li class="- topic/li ">Description: Mobile command name.</li><li class="- topic/li ">Parameter Type: String</li><li class="- topic/li ">Mandatory: Required</li><li class="- topic/li ">Name: args</li><li class="- topic/li ">Description: The provided arguments for which the command is
+                  required.</li><li class="- topic/li ">Parameter Type: Map</li><li class="- topic/li ">Mandatory: Required</li><li class="- topic/li ">Name: flowControl</li><li class="- topic/li ">Description: Used to control the step if the step failed.</li><li class="- topic/li ">Parameter Type: FailureHandling</li><li class="- topic/li ">Mandatory: optional</li></ul>
+        </li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Returns</b>: the command's result with the
+            <i class="+ topic/ph hi-d/i ">Object</i> type.</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Throw</b>: <b class="+ topic/ph hi-d/b ">StepFailedException</b> if
+            Katalon Studio could not find the specified element.</li><li class="- topic/li ">
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Example</b>:</p>
+          
+            <codeblock class="+ topic/pre pr-d/codeblock ">import com.google.common.collect.ImmutableMap as ImmutableMap;
+
+Mobile.startApplication('C:\\Users\\katalon\\Sample Apps\\APIDemos.apk', 
+true)
+
+String command = "mobile:changePermissions"
+Map args = ImmutableMap.of(
+  "action", "grant",
+  "appPackage","com.hmh.api",
+  "permissions", "android.permission.READ_CONTACTS")
+Object result = Mobile.executeMobileCommand(command, args)
+
+print result
+
+Mobile.closeApplication()
+</codeblock>
+          
+        </li></ul>
+    
+  </section></conbody></concept>

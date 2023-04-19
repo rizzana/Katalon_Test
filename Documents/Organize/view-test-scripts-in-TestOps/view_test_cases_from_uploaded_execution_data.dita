@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">View test scripts from uploaded execution data</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">If you upload your execution data using the frameworks we
+         support, or upload manually to <ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/> (see: <xref href="../../Analyze/Reports/Upload_Test_Reports/Upload-Studio-report-files-to-TestOps-manually/upload-Studio-files-to-TestOps-manually.dita" class="- topic/xref ">Upload
+            JUnit and Katalon Studio Test Results to Katalon TestOps</xref>), you
+         can also view test data in the <uicontrol conkeyref="kt-ui-text/kt-ui-test-management" class="+ topic/ph ui-d/uicontrol "/> tab.</p><p class="- topic/p "><ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/> supports uploading test results from the
+         following frameworks:</p><ul class="- topic/ul "><li class="- topic/li ">
+          <p class="- topic/p ">Jasmine. See: <xref href="../../Analyze/Reports/Upload_Test_Reports/Upload_reports_to_TestOps_from_other_framework/kt-upload-test-jasmine/kt-upload-test-jasmine.dita" class="- topic/xref ">Upload
+                  Test to Katalon TestOps via Jasmine</xref>.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Jest. See: <xref href="../../Analyze/Reports/Upload_Test_Reports/Upload_reports_to_TestOps_from_other_framework/kt-upload-test-jest/kt-upload-test-jest.dita" class="- topic/xref ">Upload
+                  Test to Katalon TestOps via Jest</xref>.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Mocha. See: <xref href="../../Analyze/Reports/Upload_Test_Reports/Upload_reports_to_TestOps_from_other_framework/kt-upload-test-mocha/kt-upload-test-mocha.dita" class="- topic/xref ">Upload
+                  Test to Katalon TestOps via Mocha</xref>.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Pytest. See: <xref href="../../Analyze/Reports/Upload_Test_Reports/Upload_reports_to_TestOps_from_other_framework/kt-upload-test-pytest/kt-upload-test-pytest.dita" class="- topic/xref ">Upload
+                  Test to Katalon TestOps via Pytest</xref>.</p>
+        </li></ul><p class="- topic/p ">After uploading the execution data, go to <uicontrol conkeyref="kt-ui-text/kt-ui-test-management" class="+ topic/ph ui-d/uicontrol "/> &gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">Test Cases</uicontrol>/<uicontrol class="+ topic/ph ui-d/uicontrol ">Test Suites</uicontrol> and click on
+         the <uicontrol class="+ topic/ph ui-d/uicontrol ">Uploaded Data</uicontrol> folder.</p><p class="- topic/p ">You can see test cases and their execution data in folders
+         inside the <uicontrol class="+ topic/ph ui-d/uicontrol ">Uploaded Data</uicontrol> folder.</p></conbody></concept>

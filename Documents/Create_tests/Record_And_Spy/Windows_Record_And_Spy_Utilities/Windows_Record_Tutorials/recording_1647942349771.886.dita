@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Recording</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">To start recording a Windows action, Click the <b class="+ topic/ph hi-d/b ">Record Windows Action</b> icon on the main toolbar of Katalon Studio.</p>
+                <p class="- topic/p "> <image height="65" href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-desktop-app-testing/Windows_Record_Action.png" scope="external" width="600.5" class="- topic/image "/>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">The Windows Recorder dialog box is displayed. Specify the information at the <b class="+ topic/ph hi-d/b ">CONFIGURATIONS</b> section.</p>
+                <ul class="- topic/ul "><li class="- topic/li ">
+                        <p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Configuration</b>: where you can view and edit the <codeph class="+ topic/ph pr-d/codeph ">WinAppDriver URL</codeph> and <codeph class="+ topic/ph pr-d/codeph ">Desired
+                  Capabilities</codeph>.</p>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Application File</b>: the absolute path to the <codeph class="+ topic/ph pr-d/codeph ">Windows Executable File (*.exe)</codeph> of the testing machine. For Windows users, click <b class="+ topic/ph hi-d/b ">Browse...</b> button to locate the application file.</p>
+                        <p class="- topic/p "> <image height="144" href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/Record-step2.png" scope="external" width="402" class="- topic/image "/>
+                        </p>
+                        <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Start</b> button is enabled after the Application File text box is filled.</p>
+                        <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Start</b> when you're done with the settings.</p>
+                    </li></ul>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">The specified Windows application is deployed and opened on a testing machine.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Screen View</b> dialog box is displayed to show the current screenshot of your application on the testing machine.</p>
+                <p class="- topic/p ">All the Windows objects in that screenshot are analyzed and organized in a tree at the <b class="+ topic/ph hi-d/b ">Screen Objects</b> section.</p>
+                <p class="- topic/p ">Click on any object in that tree and it's highlighted in the Screen View accordingly.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/highlighted.png" scope="external" class="- topic/image "/>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Select an element, then specify an action to perform at the <b class="+ topic/ph hi-d/b ">Possible Actions</b> section.</p>
+                <p class="- topic/p "> <image height="147" href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/actions.png" scope="external" width="299" class="- topic/image "/>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">All of the specified actions above are recorded at the <b class="+ topic/ph hi-d/b ">Recorded Actions</b> section.</p>
+                <p class="- topic/p "> <image height="193" href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/step-6.png" scope="external" width="424" class="- topic/image "/>
+                </p>
+                <p class="- topic/p ">In <b class="+ topic/ph hi-d/b ">Captured Objects</b>, you can view all elements captured during the recording session. Here you can customize the locator of a captured object by modifying it in the Locator tab of <b class="+ topic/ph hi-d/b ">Object Properties</b> and clicking <b class="+ topic/ph hi-d/b ">Highlight</b> to verify if the new locator correctly identifies the intended object.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">You can stop the application or start another application if needed. To reload the <b class="+ topic/ph hi-d/b ">Screen View</b> as well as <b class="+ topic/ph hi-d/b ">Screen Objects</b>, simply click on the <b class="+ topic/ph hi-d/b ">Refresh Screen</b> button. When you’re done with recording, click <b class="+ topic/ph hi-d/b ">OK</b> to save the recorded actions in Katalon Studio.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">You will be prompted to save the captured objects in the Object Repository of Katalon Studio. Choose an existing folder or create a new one, then click <b class="+ topic/ph hi-d/b ">OK</b> to continue.</p>
+                <p class="- topic/p "> <image height="258" href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/Step9.png" scope="external" width="267" class="- topic/image "/>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">When you finish your recording session, export the recorded steps to a new test case.</p>
+                <p class="- topic/p "> <image height="197" href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/Export-new-TC.png" scope="external" width="494" class="- topic/image "/>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Recorded objects and actions are saved in the test case.</p>
+                <p class="- topic/p "> <image height="191" href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/test-case.png" scope="external" width="609" class="- topic/image "/> 
+                </p>
+            </li></ol></conbody></concept>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Line-wrapping Settings</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">When you edit in script view, depending on how you want to view your scripts, you can enable/disable the line-wrapping to wrap up the code lines in customized maximum line width.</p><p class="- topic/p ">When switching from the manual mode to the script mode, you can also wrap the code lines by pressing a keyboard combination of <userinput class="+ topic/ph sw-d/userinput ">⌘</userinput>+<userinput class="+ topic/ph sw-d/userinput ">Shift</userinput>+<userinput class="+ topic/ph sw-d/userinput ">F</userinput> for macOS or <userinput class="+ topic/ph sw-d/userinput ">Ctrl</userinput>+<userinput class="+ topic/ph sw-d/userinput ">Shift</userinput>+<userinput class="+ topic/ph sw-d/userinput ">F</userinput> for Windows and Linux.</p><ul class="- topic/ul "><li class="- topic/li ">
+                <p class="- topic/p ">Line-wrapping disabled:</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-case-preferences/wrap.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Before the line-wrapping enabled</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Line-wrapping enabled:</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-case-preferences/wrapped.png" scope="external" class="- topic/image "><alt class="- topic/alt ">After the line-wrapping enabled</alt></image>
+                </p>
+            </li></ul><p class="- topic/p "> <b class="+ topic/ph hi-d/b ">See also</b>:</p><ul class="- topic/ul "><li class="- topic/li "> <xref href="../katalon-preferences/katalon-studio-preferences.dita" class="- topic/xref ">Katalon Preferences</xref>
+            </li><li class="- topic/li "> <xref href="../import-preferences/import-preferences.dita" class="- topic/xref ">Import Preferences</xref>
+            </li><li class="- topic/li "> <xref href="../proxy-preferences/proxy-preferences.dita" class="- topic/xref ">Proxy Preferences</xref>
+            </li><li class="- topic/li "> <xref href="../object-spy-preferences/object-spy-preferences.dita" class="- topic/xref ">Object Spy Preferences</xref>
+            </li></ul></conbody></concept>

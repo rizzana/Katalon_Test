@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">[Mobile] Android Setup in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">This article shows you how to set up real Android devices to
+         test Android applications with <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/>.</p><note type="note" class="- topic/note ">
+
+        <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">If you want to perform Android mobile testing with Android
+            Studio (Emulator), you can refer to this document: <xref href="../Mobile_Configure_Android_Studio_Emulator/configure_android_studio.dita" class="- topic/xref ">[Mobile]
+               Configure Android Studio (Emulator)</xref>.</p></li></ul>
+              </note></conbody></concept>

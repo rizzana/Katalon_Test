@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Add an external JDBC driver for MySQL database connection</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Project &gt; Settings &gt; Library Management</b> &gt; <b class="+ topic/ph hi-d/b ">Add</b> the jar file to the external library.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/configure_mysql/KS-MYSQL-Add-MySQL-library.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Add MySQL to the external library</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In <b class="+ topic/ph hi-d/b ">Project Settings</b>, go to <b class="+ topic/ph hi-d/b ">Database</b> to configure the database connection.</p>
+                <ul class="- topic/ul "><li class="- topic/li ">Select <b class="+ topic/ph hi-d/b ">Secure User and Password</b> to enable <b class="+ topic/ph hi-d/b ">User</b> and <b class="+ topic/ph hi-d/b ">Password</b> for editing.</li><li class="- topic/li ">Input <b class="+ topic/ph hi-d/b ">User</b> name and <b class="+ topic/ph hi-d/b ">Password</b> used for authentication.</li><li class="- topic/li ">
+                        <p class="- topic/p ">Enter <b class="+ topic/ph hi-d/b ">Connection URL</b>.</p>
+                        <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/configure_mysql/KS-MYSQL-Connect-MySQL.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Connect MySQL</alt></image>
+                        </p>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Test Connection</b> to verify whether your database is connected successfully.</p>
+                    </li><li class="- topic/li ">Click <b class="+ topic/ph hi-d/b ">Apply and Close</b> to complete the connection process.</li></ul>
+            </li></ol><p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Next</b>: See <xref href="../manage-test-data/manage-test-data.dita" class="- topic/xref ">Manage Test Data</xref>.</p></conbody></concept>

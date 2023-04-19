@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-example-plugin-testrail" class="- map/map ">
+  <title class="- topic/title ">Example plugin: Build Katalon Studio's TestRail Integration plugin</title>
+  <topicref href="example-plugin-testrail.dita" class="- map/topicref "><topicref href="setting_page.dita" class="- map/topicref ">
+    <topicref href="add_an_icon_to_the_toolbar.dita" class="- map/topicref "/>
+    <topicref href="add_a_setting_page.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="link_katalon_studio_s_test_cases_with_testrail_s_test_cases.dita" class="- map/topicref "/>
+  <topicref href="execute_test_cases_selectively_based_on_testrail_s_settings.dita" class="- map/topicref "/>
+  <topicref href="sending_result_to_testrail.dita" class="- map/topicref "/>
+  <topicref href="testrail_sdk.dita" class="- map/topicref "/>
+</topicref>
+  </map>

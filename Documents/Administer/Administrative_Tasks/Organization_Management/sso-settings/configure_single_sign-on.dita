@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Configure Single Sign-On</title><conbody class="- topic/body  concept/conbody "><note type="important" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">
+                    <p class="- topic/p ">You must be an <b class="+ topic/ph hi-d/b ">Owner</b> or <b class="+ topic/ph hi-d/b ">Admin</b> of an Organization. </p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">You have configured a Subdomain. See <xref href="../subdomain/subdomain.dita" class="- topic/xref ">Configure a Subdomain for an Organization</xref>. </p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">You have configured an identity provider for SSO in Katalon TestOps, see above: <xref href="configure_an_identity_provider.dita" class="- topic/xref ">Configure identity provider</xref>.</p>
+                </li></ul>
+        </note><p class="- topic/p ">As an Owner or Admin, you can configure SSO by following these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Sign in to <xref format="html" href="https://testops.katalon.io/login" scope="external" class="- topic/xref ">Katalon TestOps</xref>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Settings</b> &gt; <b class="+ topic/ph hi-d/b ">Organization Management</b>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Scroll down to the <b class="+ topic/ph hi-d/b ">Single Sign-On (SSO) Settings</b> section.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Switch <b class="+ topic/ph hi-d/b ">Enable SSO</b> to <b class="+ topic/ph hi-d/b ">Active</b>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Enter the metadata from the configured identity provider.</p>
+                <p class="- topic/p ">
+                    <svg-container class="+ topic/foreign svg-d/svg-container "><svg:svg xmlns:svg="http://www.w3.org/2000/svg" height="345" id="svgcontent" overflow="visible" viewBox="0 0 778 345" width="778" x="778" y="345"><svg:g style="pointer-events:all"><svg:title style="pointer-events:inherit">Layer 1
+                                </svg:title><svg:image xmlns:xlink="http://www.w3.org/1999/xlink" height="345" id="svg_e658d2e1-7e57-489c-8850-6b68addcd809" width="778" xlink:actuate="onLoad" xlink:show="embed" xlink:type="simple" xlink:href="image/k1-organization-management-page-sso-section.png"/><svg:rect fill="#000000" fill-opacity="0" height="44" id="svg_1" rx="5" ry="5" stroke="#6bb545" stroke-opacity="1" stroke-width="4" style="pointer-events:inherit" width="56" x="187.5" y="98.5"/></svg:g></svg:svg></svg-container>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Update</b>.</p>
+            </li></ol></conbody></concept>

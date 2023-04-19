@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Sample API tests project in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">This sample demonstrates fundamental API testing with RESTful
+         requests. The sample uses the following base URL:
+         <codeph class="+ topic/ph pr-d/codeph ">https://sample-web-service-aut.herokuapp.com</codeph>. To learn
+         more about API testing, you can refer to this document: <xref href="../../../Create_tests/Introduction_To_Test_Creation/AUT/introduction_api_testing/introduction_api_testing.dita" class="- topic/xref ">Introduction
+            to API testing</xref>.</p></conbody></concept>

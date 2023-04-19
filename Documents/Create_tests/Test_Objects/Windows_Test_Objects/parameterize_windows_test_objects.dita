@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Parameterize Windows Test Objects</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <note type="note" class="- topic/note ">
+        <p class="- topic/p ">Parameterizing Windows test objects is available in version
+            7.3.0+.</p>
+      </note>
+
+      <p class="- topic/p ">The benefit of parameterizing test objects in general is to
+         handle object with dynamic properties (<xref href="../Web_Test_Objects/manage-web-test-object/manage-web-test-object.dita" class="- topic/xref ">Read
+            more</xref>). With this feature, you can update test objects' locators
+         dynamically by using either local or global variables.</p>
+      <p class="- topic/p ">Here are the steps demonstrating how to use this feature:</p>
+      <ol class="- topic/ol ">
+        <li class="- topic/li ">Select a Windows object you want to parameterize</li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Capture its locator with Katalon Studio Windows Object Spy or
+               Recorder and create a variable with this syntax
+               <codeph class="+ topic/ph pr-d/codeph ">${variable_name}</codeph> as a place holder for its dynamic
+               locator. For example, we create the <codeph class="+ topic/ph pr-d/codeph ">${xpath}</codeph> variable
+               for the XPATH locator strategy. You can parameterize test objects
+               with other locator strategies as well.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-test-objects/step2.png" scope="external" class="- topic/image "/>
+          </p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Use the parameterized test object.</p>
+        </li>
+      </ol>
+    </conbody>
+    
+    
+  </concept>

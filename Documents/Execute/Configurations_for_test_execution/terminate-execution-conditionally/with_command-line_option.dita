@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">With Command-line option</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Use the command-line option: <codeph class="+ topic/ph pr-d/codeph ">-maxFailedTests=T</codeph>, where T is the maximum number of test failures.</p><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/Command-line-2.png" scope="external" class="- topic/image "/>
+        </p><p class="- topic/p ">See <xref href="../../Katalon_Runtime_Engine/console-mode-execution/console-mode-execution_1.dita" class="- topic/xref ">Katalonc command-line option</xref> for the list of common command-line options supported.</p></conbody></concept>

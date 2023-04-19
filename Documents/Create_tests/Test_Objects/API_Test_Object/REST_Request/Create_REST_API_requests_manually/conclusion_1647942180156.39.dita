@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">Conclusion</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">This tutorial was focused on advanced usage of REST API requests
+         in Katalon. As I prefer writing code instead of clicking in Manual
+         mode, this tutorial may be helpful to similar automation engineers
+         as I am.</p><p class="- topic/p ">RequestObject and ResponseObject are powerful classes, which may
+         help you to customize your API tests in details.</p><p class="- topic/p ">
+          <xref format="html" href="https://www.katalon.com/download" scope="external" class="- topic/xref ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/create_rest_api_requests_manually/api-testing-interview-question-1024x101.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Rest API Request Katalon Studio</alt></image></xref>
+        </p></conbody></concept>

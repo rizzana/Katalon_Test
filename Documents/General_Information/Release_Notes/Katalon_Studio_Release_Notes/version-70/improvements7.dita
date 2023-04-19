@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_31" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Improvements</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">[Katalon Studio Enteprise] Applitools Integration becomes a
+            built-in feature with its libraries updated to the latest
+            versions</li>
+          <li class="- topic/li ">Support updating Microsoft Edge (Chromium) driver in Katalon
+            Studio Tools</li>
+          <li class="- topic/li ">Set Chrome as the default browser</li>
+        </ul>
+      </conbody>
+    </concept>

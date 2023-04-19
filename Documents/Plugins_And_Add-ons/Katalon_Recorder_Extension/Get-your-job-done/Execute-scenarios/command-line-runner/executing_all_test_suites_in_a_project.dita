@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">Executing all test suites in a project</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">
+            <p class="- topic/p ">Place all KR test suites under folder /tests/kr-test in your
+               NodeJS project.</p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">Copy the following command:</p><p class="- topic/p ">
+            <codeph class="+ topic/ph pr-d/codeph ">kr-cli dev &lt;browser&gt; --lg</codeph>
+          </p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">Replace browser with chrome or firefox.</p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">Execute the command.</p>
+          </li></ol>
+          
+        <note type="note" class="- topic/note ">
+          
+          <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">By default, no report or log files are generated when
+            running commands in development mode. Instead, An overview of test
+            execution will be printed directly to your command line tool.</p></li><li class="- topic/li "><p class="- topic/p ">Specify --lg to print the logs to your command line tool during
+            test execution.</p></li></ul>.
+        </note></conbody></concept>

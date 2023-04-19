@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Reports and analytics</title>
+    <conbody class="- topic/body  concept/conbody ">
+
+      <p class="- topic/p ">This key module provides dynamic perspectives and insights into
+         your automated testing activities. See: <xref href="../../Analyze/Reports/View_Test_Reports/View_reports_in_TestOps/View-TestOps-Dashboard/dashboard-overview/dashboard-overview.dita" class="- topic/xref ">Introduction
+            to TestOps Dashboard</xref>.</p>
+    </conbody>
+  </concept>

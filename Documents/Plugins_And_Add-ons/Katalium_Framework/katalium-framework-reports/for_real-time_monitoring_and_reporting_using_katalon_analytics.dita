@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">For real-time monitoring and reporting using Katalon
+         Analytics</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Go to <codeph class="+ topic/ph pr-d/codeph ">src</codeph> &gt; <codeph class="+ topic/ph pr-d/codeph ">test</codeph> &gt;
+         <codeph class="+ topic/ph pr-d/codeph ">kata-default.properties</codeph>.</p><p class="- topic/p ">Set default values for parameters in the file
+         <codeph class="+ topic/ph pr-d/codeph ">kata-default.properties</codeph>.</p><p class="- topic/p ">For example, kataProjectId=2, the Project ID will be displayed
+         as <codeph class="+ topic/ph pr-d/codeph ">https://analytics.katalon.com/team/1/project/2</codeph></p><p class="- topic/p ">See real-time monitoring progress of the test execution:</p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalium-framework/docs/katalium-framework-reports/1-test-results.png" scope="external" class="- topic/image "/>
+      </p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalium-framework/docs/katalium-framework-reports/2-test-results.png" scope="external" class="- topic/image "/>
+      </p><ul class="- topic/ul "><li class="- topic/li ">
+          <p class="- topic/p ">With Katalium extension in Visual Studio Code, this will be
+               automatically setup.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">With other IDEs, you need to set values for parameters in the
+               files <codeph class="+ topic/ph pr-d/codeph ">&lt;user_home&gt;/.katalon/framework.properties</codeph>
+               in Katalium Framework.</p>
+          <p class="- topic/p ">KATALON_API_KEY: Enter the API Key. You can generate new
+               API keys at <codeph class="+ topic/ph pr-d/codeph ">https://analytics.katalon.com</codeph>. Go to <b class="+ topic/ph hi-d/b ">
+              <xref format="html" href="https://analytics.katalon.com/user/profile" scope="external" class="- topic/xref ">Profile</xref>
+            </b>
+               &gt; <b class="+ topic/ph hi-d/b ">Create API Key</b> &gt; Input key name &gt; Click
+               <b class="+ topic/ph hi-d/b ">Create</b>.</p>
+          <p class="- topic/p ">KATALON_EMAIL: Enter your Katalon account. You can sign up for a
+               free account at <codeph class="+ topic/ph pr-d/codeph ">https://www.katalon.com</codeph>.</p>
+          <p class="- topic/p ">For example:</p>
+          
+            <codeblock class="+ topic/pre pr-d/codeblock ">KATALON_API_KEY=8077730e-0e09-4b9d-a959-1a62b0a0d6f2
+KATALON_EMAIL=info@katalon.com
+</codeblock>
+          
+        </li></ul></conbody></concept>

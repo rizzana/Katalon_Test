@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Capture WebDriver actions</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">You can attach a custom <codeph class="+ topic/ph pr-d/codeph ">org.openqa.selenium.support.events.AbstractWebDriverEventListener</codeph> to capture WebDriver events (<xref format="html" href="https://github.com/katalon-studio/katalium-sample/blob/master/src/test/java/com/katalon/kata/sample/listener/EventListener.java" scope="external" class="- topic/xref ">source code</xref>):</p><codeblock class="+ topic/pre pr-d/codeblock ">package com.katalon.kata.sample.listener;
+
+import com.katalon.kata.webdriver.WebDriverPool;
+import org.testng.IExecutionListener;
+
+public class EventListener implements IExecutionListener {
+  @Override
+  public void onExecutionStart() {
+    WebDriverPool webDriverPool = WebDriverPool.get();
+    webDriverPool.setAfterCreateDriverListener(driver -&gt; {
+      driver.register(new WebDriverEventListener());
+    });
+  }
+
+  @Override
+  public void onExecutionFinish() {
+
+  }
+}
+</codeblock></conbody></concept>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">Build your project</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Save</b>, then click <b class="+ topic/ph hi-d/b ">Build Now</b> to run the Jenkinsfile. While the test is being run, if Docker cannot find the <codeph class="+ topic/ph pr-d/codeph ">katalonstudio/katalon</codeph> image locally, it will automatically pull this image.</p>
+                <p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-Build-now.png" scope="external" width="600" class="- topic/image "><alt class="- topic/alt ">Build your Jenkins project</alt></image></p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">To view the console log, click on your current build on Jenkins and select <b class="+ topic/ph hi-d/b ">Console Output</b>.</p>
+                <p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-pipeline-console-output-2.png" scope="external" class="- topic/image "><alt class="- topic/alt ">View console output</alt></image></p>
+                <p class="- topic/p ">You can also view the console log in Docker during the test.</p>
+                <p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-docker/docker-log.png" scope="external" class="- topic/image "><alt class="- topic/alt ">docker log</alt></image></p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">To view your report files, you can go to this directory: <codeph class="+ topic/ph pr-d/codeph ">&lt;your-project-folder&gt;/Reports</codeph> or your third-party integration like Katalon TestOps, Azure DevOps, or qTest. Katalon Studio supports exporting test reports in <b class="+ topic/ph hi-d/b ">HTML</b>, <b class="+ topic/ph hi-d/b ">CSV</b>, <b class="+ topic/ph hi-d/b ">PDF</b>, and <b class="+ topic/ph hi-d/b ">JUnit</b>.</p>
+                <p class="- topic/p ">
+                    <note class="- topic/note ">
+                        <ul class="- topic/ul "><li class="- topic/li ">
+                                <p class="- topic/p ">To display characters with UTF-8 encoding in test reports, you can specify the <codeph class="+ topic/ph pr-d/codeph ">-Dfile.encoding=UTF8</codeph> argument in the jenkins.xml file.</p>
+                            </li></ul>
+                    </note>
+                </p>
+            </li></ol></conbody></concept>

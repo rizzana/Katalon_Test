@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_dashboard-local-test-environment" class="- topic/topic concept/concept "><title class="- topic/title ">Local test environment reports</title><conbody class="- topic/body  concept/conbody "><section class="- topic/section "><title class="- topic/title ">Overview</title><p class="- topic/p ">The <uicontrol class="+ topic/ph ui-d/uicontrol ">Local Test Environment</uicontrol> report allows you to check:</p><ul class="- topic/ul "><li class="- topic/li ">The number of online and offline agents.</li><li class="- topic/li ">The distribution of all agents by the operating system.</li></ul><p class="- topic/p "><image href="KT-JULY22-dashboard-local-test-environment.png" class="- topic/image "><alt class="- topic/alt ">View local test environment report</alt></image></p></section><section class="- topic/section "><title class="- topic/title ">Insights</title><p class="- topic/p ">With auto-distributed executions in <ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/>, you can run
+         tests in parallel. See: <xref href="../../../../../../Execute/Cloud_based_test_execution/Test_execution_with_TestOps/Local-Test-Environments/auto-distributed-execution/auto-distributed-execution.dita" class="- topic/xref ">Auto-distributed
+            execution</xref>.</p><p class="- topic/p ">A test execution is distributed to an available and active
+         agent, minimizing execution time. By knowing the number of offline
+         agents (and in which operating system there are more inactive
+         agents), you can find out which agents need more jobs, optimizing
+         testing performance across all platforms by ensuring that all
+         agents are executing tests.</p>
+    </section></conbody></concept>

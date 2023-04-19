@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"id_3-d48972e11309":{"topics":[{"title":"Call Test Case in Script mode","href":"Documents\/Create_tests\/Data_Driven_Testing\/test-case-variables\/call_test_case_in_script_mode.html","attributes":{"data-id":"id_4"},"menu":{"hasChildren":false},"tocID":"id_4-d48972e11317","topics":[]}]}};

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Pin Object Spy Window</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">You can check the <uicontrol class="+ topic/ph ui-d/uicontrol ">Pin Object Spy Window while
+            spying</uicontrol> option to make the <uicontrol class="+ topic/ph ui-d/uicontrol ">Object Spy</uicontrol>
+         window always stay on top while spying.</p></conbody></concept>

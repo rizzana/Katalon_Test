@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification?><?workdir-uri file:/Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/?><?path2project ../../../../../?><?path2project-uri ../../../../../?><?path2rootmap-uri ../../../../../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="id_2" class="- topic/topic concept/concept " ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/in_script_view_1647942209803.151.dita" xtrc="concept:1;3:59" specializations="@props/deliveryTarget"><title class="- topic/title " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/in_script_view_1647942209803.151.dita" xtrc="title:1;3:89">In Script View</title><conbody class="- topic/body  concept/conbody " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/in_script_view_1647942209803.151.dita" xtrc="conbody:1;3:159"><ol class="- topic/ol " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/in_script_view_1647942209803.151.dita" xtrc="ol:1;3:183"><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/in_script_view_1647942209803.151.dita" xtrc="li:1;3:207"><b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/in_script_view_1647942209803.151.dita" xtrc="b:1;3:237">Accessibility ID </b>
+                <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/in_script_view_1647942209803.151.dita" xtrc="codeblock:1;4:64">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.testobject.MobileTestObject
+import com.kms.katalon.core.testobject.MobileTestObject.MobileLocatorStrategy
+
+MobileTestObject mobileObject = findTestObject("Object Repository/New Mobile Object")
+mobileObject.setMobileLocatorStrategy(MobileLocatorStrategy.ACCESSIBILITY)
+mobileObject.setMobileLocator("ImageView")
+</codeblock>
+            </li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/in_script_view_1647942209803.151.dita" xtrc="li:2;12:42"><b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/in_script_view_1647942209803.151.dita" xtrc="b:2;12:72">Class name </b>
+                <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/in_script_view_1647942209803.151.dita" xtrc="codeblock:2;13:64">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.testobject.MobileTestObject
+import com.kms.katalon.core.testobject.MobileTestObject.MobileLocatorStrategy
+
+MobileTestObject mobileObject = findTestObject("Object Repository/New Mobile Object")
+mobileObject.setMobileLocatorStrategy(MobileLocatorStrategy.CLASS_NAME)
+mobileObject.setMobileLocator("General")
+</codeblock>
+            </li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/in_script_view_1647942209803.151.dita" xtrc="li:3;21:42"><b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/in_script_view_1647942209803.151.dita" xtrc="b:3;21:72">ID </b>
+                <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/in_script_view_1647942209803.151.dita" xtrc="codeblock:3;22:64">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.testobject.MobileTestObject
+import com.kms.katalon.core.testobject.MobileTestObject.MobileLocatorStrategy
+
+MobileTestObject mobileObject = findTestObject("Object Repository/New Mobile Object")
+mobileObject.setMobileLocatorStrategy(MobileLocatorStrategy.ID)
+mobileObject.setMobileLocator("General")
+</codeblock>
+            </li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/in_script_view_1647942209803.151.dita" xtrc="li:4;30:42"><b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/in_script_view_1647942209803.151.dita" xtrc="b:4;30:72">Name </b>
+                <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/in_script_view_1647942209803.151.dita" xtrc="codeblock:4;31:64">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.testobject.MobileTestObject
+import com.kms.katalon.core.testobject.MobileTestObject.MobileLocatorStrategy
+
+MobileTestObject mobileObject = findTestObject("Object Repository/New Mobile Object")
+mobileObject.setMobileLocatorStrategy(MobileLocatorStrategy.NAME)
+mobileObject.setMobileLocator("General")
+</codeblock>
+            </li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/in_script_view_1647942209803.151.dita" xtrc="li:5;39:42"><b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/in_script_view_1647942209803.151.dita" xtrc="b:5;39:72">XPath </b>
+                <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/in_script_view_1647942209803.151.dita" xtrc="codeblock:5;40:64">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.testobject.MobileTestObject
+import com.kms.katalon.core.testobject.MobileTestObject.MobileLocatorStrategy
+
+MobileTestObject mobileObject = findTestObject("Object Repository/New Mobile Object")
+mobileObject.setMobileLocatorStrategy(MobileLocatorStrategy.XPATH)
+mobileObject.setMobileLocator("//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTable[1]/XCUIElementTypeCell[2]/XCUIElementTypeStaticText[1]")
+</codeblock>
+            </li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/in_script_view_1647942209803.151.dita" xtrc="li:6;48:42"><b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/in_script_view_1647942209803.151.dita" xtrc="b:6;48:72">Image </b>
+                <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/in_script_view_1647942209803.151.dita" xtrc="codeblock:6;49:64">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import org.apache.commons.io.FileUtils
+import com.kms.katalon.core.testobject.MobileTestObject
+import com.kms.katalon.core.testobject.MobileTestObject.MobileLocatorStrategy
+
+MobileTestObject mobileObject = findTestObject("Object Repository/New Mobile Object")
+mobileObject.setMobileLocatorStrategy(MobileLocatorStrategy.IMAGE)
+byte[] fileContent = FileUtils.readFileToByteArray(new File(imageFilePath))
+mobileObject.setMobileLocator(Base64.getEncoder().encodeToString(fileContent))
+</codeblock>
+            </li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/in_script_view_1647942209803.151.dita" xtrc="li:7;59:42"><b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/in_script_view_1647942209803.151.dita" xtrc="b:7;59:72">Andoid UIAutomator </b>
+                <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/in_script_view_1647942209803.151.dita" xtrc="codeblock:7;60:64">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.testobject.MobileTestObject
+import com.kms.katalon.core.testobject.MobileTestObject.MobileLocatorStrategy
+
+MobileTestObject mobileObject = findTestObject("Object Repository/New Mobile Object")
+mobileObject.setMobileLocatorStrategy(MobileLocatorStrategy.ANDROID_UI_AUTOMATOR)
+mobileObject.setMobileLocator('new UiSelector().className("android.widget.TextView").text("General").resourceId("android:id/title").packageName("com.android.settings").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)')
+</codeblock>
+            </li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/in_script_view_1647942209803.151.dita" xtrc="li:8;68:42"><b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/in_script_view_1647942209803.151.dita" xtrc="b:8;68:72">Android View Tag </b>
+                <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/in_script_view_1647942209803.151.dita" xtrc="codeblock:8;69:64">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.testobject.MobileTestObject
+import com.kms.katalon.core.testobject.MobileTestObject.MobileLocatorStrategy
+
+MobileTestObject mobileObject = findTestObject("Object Repository/New Mobile Object")
+mobileObject.setMobileLocatorStrategy(MobileLocatorStrategy.ANDROID_VIEWTAG)
+mobileObject.setMobileLocator("MY VIEW TAG")
+</codeblock>
+            </li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/in_script_view_1647942209803.151.dita" xtrc="li:9;77:42"><b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/in_script_view_1647942209803.151.dita" xtrc="b:9;77:72">iOS Predicate String </b>
+                <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/in_script_view_1647942209803.151.dita" xtrc="codeblock:9;78:64">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.testobject.MobileTestObject
+import com.kms.katalon.core.testobject.MobileTestObject.MobileLocatorStrategy
+
+MobileTestObject mobileObject = findTestObject("Object Repository/New Mobile Object")
+mobileObject.setMobileLocatorStrategy(MobileLocatorStrategy.IOS_PREDICATE_STRING)
+mobileObject.setMobileLocator("type == 'XCUIElementTypeStaticText' AND enabled == 1 AND label == 'General' AND name == 'General' AND name == 'General'")
+</codeblock>
+            </li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/in_script_view_1647942209803.151.dita" xtrc="li:10;86:42"><b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/in_script_view_1647942209803.151.dita" xtrc="b:10;86:72">iOS Class Chain </b>
+                <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/in_script_view_1647942209803.151.dita" xtrc="codeblock:10;87:64">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.testobject.MobileTestObject
+import com.kms.katalon.core.testobject.MobileTestObject.MobileLocatorStrategy
+
+MobileTestObject mobileObject = findTestObject("Object Repository/New Mobile Object")
+mobileObject.setMobileLocatorStrategy(MobileLocatorStrategy.IOS_CLASS_CHAIN)
+mobileObject.setMobileLocator("**/XCUIElementTypeStaticText[`enabled == 1 AND label == 'General' AND name == 'General' AND value == 'General'`]")
+</codeblock>
+            </li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/in_script_view_1647942209803.151.dita" xtrc="li:11;95:42"><b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/in_script_view_1647942209803.151.dita" xtrc="b:11;95:72">Custom </b>
+                <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/in_script_view_1647942209803.151.dita" xtrc="codeblock:11;96:64">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.testobject.MobileTestObject
+import com.kms.katalon.core.testobject.MobileTestObject.MobileLocatorStrategy
+
+MobileTestObject mobileObject = findTestObject("Object Repository/New Mobile Object")
+mobileObject.setMobileLocatorStrategy(MobileLocatorStrategy.CUSTOM)
+mobileObject.setMobileLocator("foo")
+</codeblock>
+            </li></ol></conbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="ditamap-8764" xtrc="topicref:3;3:393" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/locators_object_identification.ditamap"><link class="- topic/link " format="dita" href="../../../../../Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/locator_strategies_for_detecting_a_mobile_object.dita" mapclass="- map/topicref " role="parent" scope="local" type="concept" xtrc="topicref:2;3:313" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/locators_object_identification.ditamap"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Locator Strategies for detecting a mobile object</linktext></link></linkpool></related-links></concept>

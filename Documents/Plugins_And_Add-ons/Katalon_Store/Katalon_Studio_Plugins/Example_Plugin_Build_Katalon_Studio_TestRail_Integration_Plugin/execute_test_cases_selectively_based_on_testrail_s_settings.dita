@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">
+      Execute Test Cases selectively based on
+            TestRail settings
+    </title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/publisher/4_querying.png" scope="external" class="- topic/image "/>
+      </p><codeblock class="+ topic/pre pr-d/codeblock ">&lt;extension
+        point="com.katalon.platform.extensions"&gt;
+    &lt;point
+            id="com.katalon.plugin.dynamic_execution.TestRailFilteringTestSuiteImpl"
+            extensionPointId="com.katalon.platform.api.extension.dynamicQueryingTestSuiteDescription"
+            implementationClass="com.katalon.plugin.testrail.TestRailQueryingTestSuite"&gt;
+    &lt;/point&gt;
+&lt;/extension&gt;
+</codeblock><p class="- topic/p ">For implementation, see class
+         <codeph class="+ topic/ph pr-d/codeph ">com.katalon.plugin.testrail.TestRailQueryingTestSuite</codeph>.</p></conbody></concept>

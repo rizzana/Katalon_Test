@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">What is Katalon Recorder?</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Katalon Recorder is a free, Selenium IDE alternative, lightweight web extension for automating actions and automated testing on the browser. Currently, Katalon Recorder is available on Chrome, Firefox and Edge.</p></conbody></concept>

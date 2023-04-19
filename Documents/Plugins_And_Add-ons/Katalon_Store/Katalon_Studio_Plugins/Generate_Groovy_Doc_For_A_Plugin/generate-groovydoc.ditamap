@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-generate-groovydoc" class="- map/map "><title class="- topic/title ">Generate groovy doc for a plugin</title><topicref href="generate-groovydoc.dita" class="- map/topicref "><topicref href="add_documentation_title_to_build.gradle.dita" class="- map/topicref "/><topicref href="add_dependencies_to_build.gradle.dita" class="- map/topicref "/><topicref href="How_to_build.dita" class="- map/topicref "/><topicref href="add_the_project_to_katalon-plugin-docs_repository.dita" class="- map/topicref "/></topicref></map>

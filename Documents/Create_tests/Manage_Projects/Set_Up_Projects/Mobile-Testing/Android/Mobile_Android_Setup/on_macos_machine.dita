@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">On macOS machine</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Supported environments<ul class="- topic/ul "><li class="- topic/li ">
+                            <p class="- topic/p ">Appium: 1.12.1 onwards. </p>
+                        </li><li class="- topic/li ">
+                            <p class="- topic/p ">Android: 6.x onwards. </p>
+                        </li></ul></p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Download and install the suitable version of Node.js for your system from the Node.js website: <xref format="html" href="https://nodejs.org/en/download/" scope="external" class="- topic/xref ">Downloads</xref>.</p>
+                <p class="- topic/p ">
+                    <note type="note" class="- topic/note ">
+                        
+                        <ul class="- topic/ul "><li class="- topic/li ">Make sure you install Node.js into a location where you have full Read/Write permissions.</li></ul>
+                    </note>
+                </p>
+            </li><li class="- topic/li "><p class="- topic/p ">Install Appium version 1.12.1 or newer via NPM. To install the latest Appium version, copy and paste the command-line argument as follows: <codeph class="+ topic/ph pr-d/codeph ">npm install -g appium</codeph><note class="- topic/note ">
+                        <ul class="- topic/ul "><li class="- topic/li ">We recommend installing the latest Appium version.</li><li class="- topic/li ">Some emulators support Appium directly when installed. If you want to run an application on an emulator, check your emulator settings before installing Appium</li></ul>
+                    </note></p>To learn more about Appium, you can refer to the Appium document here: <xref format="html" href="http://appium.io/docs/en/about-appium/getting-started/#installing-appium" scope="external" class="- topic/xref ">Getting started</xref>.</li><li class="- topic/li ">
+                <p class="- topic/p ">Set up the devices<ul class="- topic/ul "><li class="- topic/li ">
+                            <p class="- topic/p ">Turn on developer mode on your Android device. Go to <b class="+ topic/ph hi-d/b ">Settings</b> &gt; <b class="+ topic/ph hi-d/b ">Developer options</b>. </p>
+                        </li><li class="- topic/li ">
+                            <p class="- topic/p ">Connect your Android Phone to your computer via a USB cable. Just confirm if prompted to accept or trust the device. </p>
+                        </li></ul></p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Install Android SDK</p>
+                <p class="- topic/p ">Katalon Studio will automatically detect and ask you to install <b class="+ topic/ph hi-d/b ">Android SDK</b> if your current machine does not have it.</p>
+            </li></ol></conbody></concept>

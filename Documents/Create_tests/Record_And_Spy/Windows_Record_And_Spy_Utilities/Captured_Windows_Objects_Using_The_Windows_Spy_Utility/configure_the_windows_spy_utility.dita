@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Configure the Windows spy utility</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To configure the utility, in the <b class="+ topic/ph hi-d/b ">Configurations</b> section, specify the following fields:</p><ul class="- topic/ul "><li class="- topic/li ">
+                <p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Configuration</b>: the WinAppDriver URL and desired capabilities.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Application File</b>: the absolute path to the Windows executable file (*.exe) of the testing machine. For Windows users, click on the <b class="+ topic/ph hi-d/b ">Browse...</b> button to locate the application file.</p>
+            </li></ul><p class="- topic/p ">For example, we provide the IP address to the remote Windows machine and the path to Notepad executable as the AUT.</p><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-spy-tutorial/KS-Configure-Spy-Utility.png" scope="external" class="- topic/image "><alt class="- topic/alt ">CONFIGURATIONS section</alt></image>
+        </p><note type="note" class="- topic/note ">
+            <p class="- topic/p ">For Universal Windows Platform (UWP) applications, the executable file should be:</p>
+            <p class="- topic/p ">
+                <ul class="- topic/ul "><li class="- topic/li ">
+                        <p class="- topic/p "><i class="+ topic/ph hi-d/i ">ApplicationID</i>, if the application is published on the Microsoft store.</p>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p "><i class="+ topic/ph hi-d/i ">PackageFamilyName!Application ID</i>, if the application is still in development.</p>
+                    </li></ul>
+            </p>
+        </note></conbody></concept>

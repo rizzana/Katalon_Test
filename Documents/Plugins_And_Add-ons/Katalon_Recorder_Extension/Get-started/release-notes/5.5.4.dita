@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id_14" class="- topic/topic ">
+    <title class="- topic/title ">5.5.4</title>
+    <body class="- topic/body ">
+      <p class="- topic/p ">
+
+        <b class="+ topic/ph hi-d/b ">Improvements</b> - Roll out a completely reworked
+         UI/UX. - Users can now duplicate a test suite along with all of its
+         test cases through an option in context menu. <b class="+ topic/ph hi-d/b ">Bug
+            fixes</b> - Fixed an issue where <xref format="html" href="https://forum.katalon.com/t/error-using-appendtocsv-with-katalon-recorder-v-5-5-3/57655/4" scope="external" class="- topic/xref ">Goto</xref>,
+         <xref format="html" href="https://forum.katalon.com/t/error-using-appendtocsv-with-katalon-recorder-v-5-5-3/57655/4" scope="external" class="- topic/xref ">AppendToCSV
+            and WriteToCSV</xref> commands do not work as expected. - Fixed an
+         issue where autosuggestion dropdowns do not disappear after
+         selecting an option. - Fixed an issue that prevents users from
+         singing up a Katalon account in-app.</p>
+    </body>
+  </topic>

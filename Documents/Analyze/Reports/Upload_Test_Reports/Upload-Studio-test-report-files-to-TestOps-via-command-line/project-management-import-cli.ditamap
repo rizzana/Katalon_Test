@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-project-management-import-cli" class="- map/map "><title class="- topic/title ">Upload JUnit and Katalon Studio report files using command line</title><topicref href="intro-upload-test-reports-to-TestOps-via-cli.dita" class="- map/topicref "><topicref href="usage_for_cli.dita" class="- map/topicref "/><topicref href="usage_for_docker.dita" class="- map/topicref "/><topicref href="usage_for_continuous_integration_ci_systems.dita" class="- map/topicref "/></topicref></map>

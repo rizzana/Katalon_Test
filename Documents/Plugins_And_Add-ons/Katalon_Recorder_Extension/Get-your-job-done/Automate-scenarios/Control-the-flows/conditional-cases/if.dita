@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">if</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">The <codeph class="+ topic/ph pr-d/codeph ">if</codeph> command opens a conditional branch. The
+         target of an <codeph class="+ topic/ph pr-d/codeph ">if</codeph> command is an expression that
+         evaluates to either <codeph class="+ topic/ph pr-d/codeph ">true</codeph> or <codeph class="+ topic/ph pr-d/codeph ">false</codeph>. The
+         expression can be a JavaScript expression with variables. If the
+         expression evaluates to <codeph class="+ topic/ph pr-d/codeph ">true</codeph>, all the steps following
+         <codeph class="+ topic/ph pr-d/codeph ">if</codeph> will be executed until a <codeph class="+ topic/ph pr-d/codeph ">else if</codeph>,
+         <codeph class="+ topic/ph pr-d/codeph ">else</codeph> or <codeph class="+ topic/ph pr-d/codeph ">endif</codeph> command is found.</p>
+      </conbody>
+    </concept>

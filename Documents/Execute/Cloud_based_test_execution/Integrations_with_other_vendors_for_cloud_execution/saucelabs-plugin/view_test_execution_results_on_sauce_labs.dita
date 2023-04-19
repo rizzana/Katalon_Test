@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_8" class="- topic/topic concept/concept "><title class="- topic/title ">View test execution results on Sauce Labs</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To view Katalon test execution results on Sauce Labs, on the Sauce Labs Dashboard, switch to the <b class="+ topic/ph hi-d/b ">Automated &gt; Test Results</b> tab.</p><p class="- topic/p ">You can see the test results displayed as follows:</p><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/saucelabs-plugin/KS-SAUCELABS-Uploaded-test-results.png" scope="external" class="- topic/image "><alt class="- topic/alt ">View test execution results in Sauce Labs</alt></image>
+        </p><note type="note" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">
+                    <p class="- topic/p ">If you are running with the <codeph class="+ topic/ph pr-d/codeph ">saucelabs_default</codeph> profile, your test result is uploaded to the <b class="+ topic/ph hi-d/b ">US West 1</b> data center.</p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">Make sure to select the correct data center that you specify in the <b class="+ topic/ph hi-d/b ">Remote server URL</b> of your Sauce Labs custom profile. <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/saucelabs-plugin/KS-SAUCELABS-data-center.png" scope="external" width="300" class="- topic/image "><alt class="- topic/alt ">Select data center</alt></image></p>
+                </li></ul>
+        </note></conbody></concept>

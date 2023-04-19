@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Schedule Test Runs</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">Planning test executions allows you to keep track of testing
+         progress and monitor test results.</p>
+      <p class="- topic/p ">You can configure a schedule for automatic Test Runs or execute
+         tests manually in Katalon TestOps.</p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">For automatic test executions, see: <xref href="../../../Schedule_test_executions/Schedule-test-runs-in-testops/create-plan.dita" class="- topic/xref ">Schedule
+               Test Runs</xref>.</li>
+        <li class="- topic/li ">For manual test executions, see: <xref href="../../../Schedule_test_executions/Execute-test-run-in-testops/kt-scheduler.dita" class="- topic/xref ">Execute
+               Test Runs manually</xref>.</li>
+      </ul>
+    </conbody>
+  </concept>

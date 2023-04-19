@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Supported Windows platforms</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p "><ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> fully supports automation testing for desktop
+         apps written in the following platforms:</p><ul class="- topic/ul "><li class="- topic/li ">Universal Windows Platform (UWP)</li><li class="- topic/li ">Windows Forms (WinForms)</li><li class="- topic/li ">Windows Presentation Foundation (WPF)</li><li class="- topic/li ">Classic Windows (Win32)</li></ul></conbody></concept>

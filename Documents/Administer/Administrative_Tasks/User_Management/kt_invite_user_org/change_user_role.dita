@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_9" class="- topic/topic concept/concept "><title class="- topic/title ">Change user role</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">In an organization, different roles have different permissions. See: <xref href="../../../Administrative_Roles/testops-roles-privileges/org-level-roles-privileges.dita" class="- topic/xref ">Roles and permissions</xref>.</p><p class="- topic/p ">As an Owner or Admin, you can change the role of an existing member by following these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Go to the <b class="+ topic/ph hi-d/b ">User Management</b> page.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Check the box next to the User's name to select the User and enable the <b class="+ topic/ph hi-d/b ">Change Role</b> button.</p>
+                <p class="- topic/p ">You can check multiple boxes if you want to update the same role for multiple users.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Change Role</b>.</p>
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Change User Role</b> box pops up.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/k1-change-user-role-popup.png" scope="external" class="- topic/image "><alt class="- topic/alt ">change user role popup</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Select a new role in the dropdown list, then click <b class="+ topic/ph hi-d/b ">Change Role</b>.</p>
+                <note type="note" class="- topic/note ">
+                    <ul class="- topic/ul "><li class="- topic/li ">Organization members can have different roles in different teams.</li><li class="- topic/li ">The <b class="+ topic/ph hi-d/b ">Billing Manager</b> cannot be added to Teams or Projects.</li></ul>
+                </note>
+            </li></ol></conbody></concept>

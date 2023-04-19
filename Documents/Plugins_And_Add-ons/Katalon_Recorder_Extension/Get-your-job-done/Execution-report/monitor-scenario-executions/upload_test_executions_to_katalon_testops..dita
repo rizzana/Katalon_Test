@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Upload test executions to Katalon TestOps.</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <ol class="- topic/ol ">
+        <li class="- topic/li ">Click on the <b class="+ topic/ph hi-d/b ">Upload Report</b> action.</li>
+        <li class="- topic/li ">Choose a TestOps project if you have multiple TestOps
+            projects.</li>
+        <li class="- topic/li ">Click the <b class="+ topic/ph hi-d/b ">Upload</b> button.</li>
+      </ol>
+      <p class="- topic/p ">Once the results are uploaded, a new tab will be opened where
+         you can see the results.</p>
+      <p class="- topic/p ">
+        <image href="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/monitor-scenarios/image8.png" scope="external" class="- topic/image "/>
+      </p>
+    </conbody>
+  </concept>

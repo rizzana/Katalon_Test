@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_8" class="- topic/topic concept/concept "><title class="- topic/title ">Version 8.2.0</title><conbody class="- topic/body  concept/conbody "><section class="- topic/section ">
+            <title class="- topic/title ">New features</title>
+            <ul class="- topic/ul "><li class="- topic/li ">[Web Service] Introduced <codeph class="+ topic/ph pr-d/codeph ">setHarFileGeneration(boolean enable)</codeph> and <codeph class="+ topic/ph pr-d/codeph ">getHarFileGeneration</codeph> Web Service Keywords for disabling HAR file generation on demand. See <xref href="../../../../Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Web-Service-Keywords/ws-set-har-file-generation/ws-set-har-file-generation.dita" class="- topic/xref ">[WS] Set HAR File Generation</xref> and <xref href="../../../../Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Web-Service-Keywords/ws-get-har-file-generation/ws-get-har-file-generation.dita" class="- topic/xref ">[WS] Get HAR File Generation</xref>.</li></ul>
+        </section><section class="- topic/section "><title class="- topic/title ">Enhancements</title><ul class="- topic/ul "><li class="- topic/li ">Added Chrome 95 compatibility.</li><li class="- topic/li ">Added Microsoft Edge (Chromium) 95 compatibility.</li><li class="- topic/li ">[Security] Addressed Security Vulnerabilities of Open-Source
+            Software.</li><li class="- topic/li ">Added an option in Katalon Studio Preferences to automatically
+            disable connection to external domains.</li><li class="- topic/li ">[Performance] Improved Katalon Studio IDE and Katalon Runtime
+            Engine performance: 
+            
+            <ul class="- topic/ul "><li class="- topic/li ">Introduced <b class="+ topic/ph hi-d/b ">Delay between instances</b> option in
+                  Katalon Studio and <codeph class="+ topic/ph pr-d/codeph ">-delayBetweenInstances</codeph> parameter in
+                  Katalon Runtime Engine to execute Test Suite Collection in parallel
+                  mode. See <xref href="../../../../Execute/Katalon_Runtime_Engine/console-mode-execution/console-mode-execution_1.dita" class="- topic/xref ">Command
+                     Syntax</xref>, quick tip: search for <codeph class="+ topic/ph pr-d/codeph ">-delay</codeph>.</li><li class="- topic/li ">Improved loading time in Katalon Runtime Engine. Results from
+                  our benchmarking tests show: 2x faster for big projects, 1.5x
+                  faster for small and medium projects.</li><li class="- topic/li ">Improved responsiveness and loading time for big projects in
+                  Katalon Studio. Results from our benchmarking tests show:
+                  renaming/opening test cases 2x faster, moving test cases 1.5x
+                  faster.</li><li class="- topic/li ">Reduced 12% memory consumption on average of Katalon Studio
+                  when opening/executing tests.</li><li class="- topic/li ">Reduced 30% memory consumption on average of Katalon Runtime
+                  Engine for long execution sessions.</li></ul></li><li class="- topic/li ">[Web Testing] Improved Synchronization Handling for Web
+            Testing: 
+            
+            <ul class="- topic/ul "><li class="- topic/li ">[Katalon Studio and Katalon Runtime Engine] Improved the
+                  <codeph class="+ topic/ph pr-d/codeph ">Click</codeph> and <codeph class="+ topic/ph pr-d/codeph ">Click Offset</codeph> Keywords to
+                  automatically delay and click again on an element behind a loading
+                  overlay. See <xref href="../../../../Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Web-UI-Keywords/webui-click/webui-click.dita" class="- topic/xref ">Click</xref>
+                  and <xref href="../../../../Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Web-UI-Keywords/webui-click-offset/webui-click-offset.dita" class="- topic/xref ">Click
+                     Offset</xref>.</li><li class="- topic/li ">[Smart Wait] Added detection and waiting capabilities for
+                  fetch-based requests to finish before continuing with the next
+                  action.</li><li class="- topic/li ">[Smart Wait] Added Edge Chromium compatibility for Smart Wait.
+                  See <xref href="../../../../Create_tests/Record_And_Spy/WebUI_Record_And_Spy_Utilities/webui-smartwait/webui-smartwait.dita" class="- topic/xref ">[WebUI]
+                     Smart Wait Function</xref>.</li></ul></li><li class="- topic/li ">[Katalon Studio Enterprise] Introduced Idle Timeout Bypass
+            Limit to automatically log out licensed users due to timeout. See
+            <xref href="../../../../Administer/Administrative_Tasks/Settings/license-idle-timeout/license-idle-timeout.dita" class="- topic/xref ">Configure
+               Idle Timeout</xref>.</li><li class="- topic/li ">[BDD] Added BDD testing onboarding flow.</li><li class="- topic/li ">[Jira Integration] Only displayed the <i class="+ topic/ph hi-d/i ">Bug</i> icon in
+            Final test results.</li><li class="- topic/li ">[Console Log] Enhanced Plugin loading information in the
+            console log of Katalon Studio Enterprise and Katalon Runtime
+            Engine.</li><li class="- topic/li ">[Katalon Runtime Engine] Removed the "Offline activation
+            failed" message in the execution log.</li><li class="- topic/li ">[DDT] Specified the input data of iterations in the Data-driven
+            Testing report.</li></ul></section><section class="- topic/section "><title class="- topic/title ">Fixes</title><ul class="- topic/ul "><li class="- topic/li ">Bug: [CSV Report] Incorrect status for skipped Test Suite in
+            CSV Report.</li><li class="- topic/li ">Bug: Unable to recognize namespace in SOAP Envelope Body.</li><li class="- topic/li ">Bug: [BDD] Failed feature file from the second run when calling
+            custom keywords.</li><li class="- topic/li ">Bug: null.null Katalon version in the Report Viewer when
+            deactivating the current account and activating a new one.</li><li class="- topic/li ">Bug: Incorrect information of test case in Log Report
+            Viewer.</li><li class="- topic/li ">Bug: Not matching between the Elapsed time of execution in
+            Katalon Studio and the generated report.</li><li class="- topic/li ">Bug: [Jira Integration] Could not interact with embedded Jira
+            page. Fixed with changes to Jira Integration version 1.0.22.
+            Download here: <xref format="html" href="https://store.katalon.com/product/3/Jira-Integration#overview-content" scope="external" class="- topic/xref ">Jira
+               Integration</xref>.</li><li class="- topic/li ">Bug: [Jira Integration] Jira-linked tickets had no step in the
+            description.</li><li class="- topic/li ">Bug: [WebUI] Could not generate test steps when using
+            <codeph class="+ topic/ph pr-d/codeph ">replace, trim, split</codeph> function and opening WebUI
+            Recorder.</li><li class="- topic/li ">Bug: Incorrect Copyright and Version information for Katalon
+            Studio and Katalon Runtime Engine packages on macOS.</li></ul></section></conbody></concept>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-webui-analyze-test-case-execution-logs-and-resolve-errors" class="- map/map "><title class="- topic/title ">[WebUI] Analyze Test Execution Logs and Debug the Test Case</title><topicref href="webui-analyze-test-case-execution-logs-and-resolve-errors.dita" class="- map/topicref "><topicref href="Analyze_Test_execution_logs_in_Log_Viewer.dita" class="- map/topicref "/><topicref href="debug_the_test_case.dita" class="- map/topicref "><topicref href="update_the_object_locator.dita" class="- map/topicref "/><topicref href="Resume_the_Test_execution.dita" class="- map/topicref "/></topicref></topicref></map>

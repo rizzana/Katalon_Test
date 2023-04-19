@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">endLoadVars</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">The <codeph class="+ topic/ph pr-d/codeph ">endLoadVars</codeph> command terminates the data-driven
+         block. You need to add it to your test; otherwise, you will get an
+         error message.</p>
+      </conbody>
+    </concept>

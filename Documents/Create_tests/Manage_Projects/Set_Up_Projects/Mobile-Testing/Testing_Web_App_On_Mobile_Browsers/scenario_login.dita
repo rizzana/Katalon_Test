@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Scenario: Login</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">Step 1: Launch Chrome browser on mobile.</p>
+        <p class="- topic/p ">Step 2: Enter valid username and password.</p>
+        <p class="- topic/p ">Step 3: Click on the login button.</p>
+        <p class="- topic/p ">Step 4: Verify login is successful.</p>
+      </conbody>
+    </concept>

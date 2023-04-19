@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Using Git Submodules to share Test Artifacts in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">While working on a <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> project, you might want to use
+         test artifacts from external resources. You can manually share test
+         artifacts with the Test Artifacts Sharing feature provided by
+         <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/>. See: <xref href="../Test_Artifact_Sharing/import-export-test-artifact.dita" class="- topic/xref ">Test
+            Artifacts Sharing</xref>.</p><p class="- topic/p ">To maintain and update shared resources easily, you can also
+         integrate them as Git submodules. Git submodules enable you to
+         incorporate and track the version history of external resources. To
+         learn more about Git submodules, you can refer to the official Git
+         documentation: <xref format="html" href="https://git-scm.com/book/en/v2/Git-Tools-Submodules" scope="external" class="- topic/xref ">Git
+            Tools - Submodules</xref>.</p><p class="- topic/p ">This tutorial shows you how to use the Git submodule feature to
+         incorporate test artifacts from an external resource, such as Test
+         Cases, Test Objects, Profiles, and Keywords. In our example, we
+         cover common tasks such as adding, updating, and removing a custom
+         keyword package as a submodule in a test project.</p><p class="- topic/p ">You can download the sample project here on our GitHub            repository: <xref format="html" href="https://github.com/katalon-studio-samples/healthcare-tests" scope="external" class="- topic/xref ">Healthcare
+               Tests</xref>.</p><section class="- topic/section "><title class="- topic/title ">Requirements</title><ul class="- topic/ul "><li class="- topic/li ">An active Katalon Studio Enterprise license.</li><li class="- topic/li ">A Katalon Studio project configured as a Git repository. To
+               configure Git integration in a project, refer to this guide: <xref href="../../Manage_Projects/Project_Settings/Git-Integration/Git_Integration/configure_git_integration.dita" class="- topic/xref ">Git
+                  Integration</xref>.</li><li class="- topic/li ">A custom keyword repository hosted on GitHub.</li></ul></section></conbody></concept>

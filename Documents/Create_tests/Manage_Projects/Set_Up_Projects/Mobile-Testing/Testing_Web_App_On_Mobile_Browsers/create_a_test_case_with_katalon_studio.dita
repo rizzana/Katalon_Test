@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Create a test case with Katalon Studio</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">After understanding your AUT, and you have decided to perform
+         automation testing, let's create a test case with Katalon Studio.
+         Below is the test scenario and how to create the test case in
+         manual mode.</p>
+    </conbody>
+    
+    
+    
+  </concept>

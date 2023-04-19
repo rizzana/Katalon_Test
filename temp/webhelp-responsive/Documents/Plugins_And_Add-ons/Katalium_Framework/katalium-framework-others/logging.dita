@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-others?><?workdir-uri file:/Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-others/?><?path2project ../../../../?><?path2project-uri ../../../../?><?path2rootmap-uri ../../../../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="id_2" class="- topic/topic concept/concept " ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-others/logging.dita" xtrc="concept:1;3:59" specializations="@props/deliveryTarget">
+    <title class="- topic/title " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-others/logging.dita" xtrc="title:1;4:35">Logging</title>
+    <conbody class="- topic/body  concept/conbody " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-others/logging.dita" xtrc="conbody:1;5:53">
+      <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-others/logging.dita" xtrc="p:1;6:29">Katalium Framework provides the class
+         <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-others/logging.dita" xtrc="codeph:1;7:50">com.katalon.kata.helper.LogHelper</codeph> to help retrieve
+         <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-others/logging.dita" xtrc="codeph:2;8:50">org.slf4j.Logger</codeph> instances with correct class
+         names.</p>
+      
+        <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-others/logging.dita" xtrc="codeblock:1;11:56">private static final Logger log = LogHelper.getLogger();
+</codeblock>
+      
+      
+        <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-others/logging.dita" xtrc="codeblock:2;15:56">log.info("Open CURA home page.");
+</codeblock>
+      
+      <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-others/logging.dita" xtrc="p:2;18:29">Sample output:</p>
+      
+        <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-others/logging.dita" xtrc="codeblock:3;20:56">09:26:29.475 [main] INFO  com.katalon.kata.testng.TestTemplate - Make appointment with parameters
+09:26:29.475 [main] INFO  com.katalon.kata.testng.TestTemplate - Facility Hongkong CURA Healthcare Center
+09:26:29.476 [main] INFO  com.katalon.kata.testng.TestTemplate - VisitDate 27/12/2016
+09:26:29.476 [main] INFO  com.katalon.kata.testng.TestTemplate - Comment Please make appointment as soon as possible.
+09:26:29.476 [main] INFO  c.katalon.kata.selenium.PageTemplate - Open CURA home page.
+09:26:38.528 [main] INFO  c.katalon.kata.selenium.PageTemplate - Make appointment.
+</codeblock>
+      
+      <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-others/logging.dita" xtrc="p:3;28:29">Logs will be printed out on the console and in TestNG XML
+         reports.</p>
+    </conbody>
+  <related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="ditamap-8764" xtrc="topicref:3;3:308" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-others/katalium-framework-others.ditamap"><link class="- topic/link " format="dita" href="../../../../Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-others/katalium-framework-others.dita" mapclass="- map/topicref " role="parent" scope="local" type="concept" xtrc="topicref:1;3:189" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-others/katalium-framework-others.ditamap"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Other Utilities in Katalium Framework</linktext></link></linkpool></related-links></concept>

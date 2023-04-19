@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Create a Test Suite in Katalium Framework</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Test suites and their parameters are defined using TestNG
+         syntax.</p><p class="- topic/p ">Here is a simple example (<xref format="html" href="https://github.com/katalon-studio/katalium-sample/blob/master/src/test/resources/testng.xml" scope="external" class="- topic/xref ">source
+            code</xref>):</p><codeblock class="+ topic/pre pr-d/codeblock ">&lt;?xml version = "1.0" encoding = "UTF-8"?&gt;
+&lt;!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" &gt;
+
+&lt;suite name="Suite1" verbose="1"&gt;
+    &lt;test name="simple" &gt;
+        &lt;parameter name="kataDisableScreenshot" value="false" /&gt;
+        &lt;classes&gt;
+            &lt;class name="com.katalon.kata.sample.testcase.simple.MakeAppointmentTest" /&gt;
+        &lt;/classes&gt;
+    &lt;/test&gt;
+
+    &lt;test name="parameterize" &gt;
+        &lt;parameter name="kataDisableScreenshot" value="true" /&gt;
+        &lt;parameter name="facility" value="Hongkong CURA Healthcare Center" /&gt;
+        &lt;parameter name="visitDate" value="27/12/2016" /&gt;
+        &lt;parameter name="comment" value="Please make appointment as soon as possible." /&gt;
+        &lt;classes&gt;
+            &lt;class name="com.katalon.kata.sample.testcase.parameterize.ParameterizedMakeAppointmentTest" /&gt;
+        &lt;/classes&gt;
+    &lt;/test&gt;
+&lt;/suite&gt;
+</codeblock><p class="- topic/p ">Test suites can be specified in command line, e.g. <codeph class="+ topic/ph pr-d/codeph ">mvn
+            clean test
+            -Dsurefire.suiteXmlFiles=src/test/resources/testng-parallel.xml</codeph>.</p></conbody></concept>

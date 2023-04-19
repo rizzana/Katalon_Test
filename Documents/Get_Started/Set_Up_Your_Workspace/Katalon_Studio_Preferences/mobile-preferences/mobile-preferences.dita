@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Mobile Preferences in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p "><ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> supports Appium version 1.12.1 onwards. In
+         <uicontrol class="+ topic/ph ui-d/uicontrol ">Katalon Mobile Preferences</uicontrol>, you can set up your Appium directory
+         and the <uicontrol class="+ topic/ph ui-d/uicontrol ">Appium Log Level</uicontrol>.</p><p class="- topic/p ">
+      
+    <image width="700" href="image/ks-841-mobile-preference.png" class="- topic/image "/></p><p class="- topic/p ">Go to <uicontrol class="+ topic/ph ui-d/uicontrol ">Katalon Studio</uicontrol> &gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">Preferences</uicontrol> &gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">Katalon</uicontrol> &gt;
+            <uicontrol class="+ topic/ph ui-d/uicontrol ">Mobile</uicontrol>:</p><ul class="- topic/ul "><li class="- topic/li ">Appium Directory: Set the Appium directory manually. The
+            default directory should be
+            <codeph class="+ topic/ph pr-d/codeph ">/usr/lib/node_modules/appium/</codeph>. Learn how to install
+            Appium in the Appium documentation: <xref format="html" href="http://appium.io/docs/en/about-appium/getting-started/#installing-appium" scope="external" class="- topic/xref ">Installing
+               Appium</xref>.</li><li class="- topic/li ">Appium Log Level: Change the level at which Appium logs
+            information. Supported values are <uicontrol class="+ topic/ph ui-d/uicontrol ">Info</uicontrol> and
+            <uicontrol class="+ topic/ph ui-d/uicontrol ">Debug</uicontrol>. 
+            
+            <ul class="- topic/ul "><li class="- topic/li ">Info: Generate information representing program events or
+                  behavior tracking.</li><li class="- topic/li ">Debug: Generate information related to diagnosing issues and
+                  troubleshooting.</li></ul>
+      </li></ul></conbody></concept>

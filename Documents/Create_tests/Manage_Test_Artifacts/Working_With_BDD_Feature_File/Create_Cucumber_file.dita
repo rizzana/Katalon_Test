@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task-197" class="- topic/topic task/task "><title class="- topic/title ">Create Cucumber Features file</title><taskbody class="- topic/body task/taskbody "><context class="- topic/section task/context ">To apply hooks in the Cucumber BDD test, you need to create a Cucumber Features file firstand its corresponding step definitions. </context><steps class="- topic/ol task/steps "><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">To create a Cucumber Features file, go to <uicontrol class="+ topic/ph ui-d/uicontrol ">File</uicontrol> &gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">New</uicontrol> &gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">BDD Feature File</uicontrol>.</cmd><stepresult class="- topic/itemgroup task/stepresult "><image width="400" href="image/ks-840-new-feature-file.png" class="- topic/image "><alt class="- topic/alt ">new BDD feature file</alt></image>  <p class="- topic/p ">Tick the <uicontrol class="+ topic/ph ui-d/uicontrol ">Generate sample Feature template</uicontrol> option for a sample features file.</p><p class="- topic/p ">The script below is a generated sample features template:<codeblock class="+ topic/pre pr-d/codeblock ">#Sample Feature Definition Template
+@tag
+Feature: Title of your feature
+I want to use this template for my feature file
+
+@tag1
+Scenario Outline: Title of your scenario outline
+    Given I want to write a step with &lt;name&gt;
+    When I check for the &lt;value&gt; in step
+    Then I verify the &lt;status&gt; in step
+
+    Examples: 
+    | name  | value | status  |
+    | name1 |     5 | success |
+    | name2 |     7 | Fail    |</codeblock></p></stepresult></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">To create step definitions, go to <uicontrol class="+ topic/ph ui-d/uicontrol ">File</uicontrol> &gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">New</uicontrol> &gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">Groovy Script</uicontrol>.</cmd><stepresult class="- topic/itemgroup task/stepresult "><image width="400" href="image/KS-create-step-defintions.png" class="- topic/image "><alt class="- topic/alt ">Create step definition</alt></image><note type="attention" class="- topic/note "><ul class="- topic/ul "><li class="- topic/li ">You can only use custom keywords with BDD testing when the step definition belongs to the default package. If the package is different from the default package, you cannot call the custom keyword.</li></ul></note><p class="- topic/p ">Tick the <uicontrol class="+ topic/ph ui-d/uicontrol ">Generate sample @Given, @When, @Then steps</uicontrol> for sample step definitions.</p><p class="- topic/p ">The script below is a generated sample @Given, @When, @Then steps:<codeblock class="+ topic/pre pr-d/codeblock ">class Sample {
+
+    /**
+    * The step definitions below match with Katalon sample Gherkin steps
+    */
+    @Given("I want to write a step with (.*)")
+    def I_want_to_write_a_step_with_name(String name) {
+        println name
+    }
+
+    @When("I check for the (\\d+) in step")
+    def I_check_for_the_value_in_step(int value) {
+        println value
+    }
+
+    @Then("I verify the (.*) in step")
+    def I_verify_the_status_in_step(String status) {
+        println status
+    }
+}
+
+</codeblock></p></stepresult></step></steps></taskbody></task>

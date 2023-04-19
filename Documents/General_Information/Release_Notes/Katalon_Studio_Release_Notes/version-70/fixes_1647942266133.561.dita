@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Fixes</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">Bug: [Web Testing] Cannot run assertion test steps with the
+            active web driver.</li>
+          <li class="- topic/li ">Bug: Cannot export execution reports manually on Windows
+            machines.</li>
+          <li class="- topic/li ">Bug: [Katalon Runtime Engine] Cannot run the command generated
+            by Command Builder due to the <codeph class="+ topic/ph pr-d/codeph ">apiKeyOnPremise</codeph>
+            parameter.</li>
+          <li class="- topic/li ">Bug: An error displayed when moving the Search tab.</li>
+          <li class="- topic/li ">Bug: An error displayed when using Ctrl+Shift+O to remove
+            libraries while scripting.</li>
+        </ul>
+      </conbody>
+    </concept>

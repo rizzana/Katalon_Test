@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept "><title class="- topic/title ">Use a profile</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">By default, Katalon Studio uses the <b class="+ topic/ph hi-d/b ">default</b> profile for executing tests, as indicated on the screen's top right corner. You can select any available execution profiles in the drop-down menu.</p><p class="- topic/p ">The following section shows you a usage example. There are three profiles based on testing environments: <b class="+ topic/ph hi-d/b ">local</b>, <b class="+ topic/ph hi-d/b ">staging</b>, and <b class="+ topic/ph hi-d/b ">production</b>.</p><ul class="- topic/ul "><li class="- topic/li ">
+                <p class="- topic/p "> <b class="+ topic/ph hi-d/b ">For test cases or test suites</b>: Select your desired profile on the top right &gt; <b class="+ topic/ph hi-d/b ">all Global Variables</b> within your current project automatically uses these values.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/Untitled2.png" scope="external" class="- topic/image "/>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p "> <b class="+ topic/ph hi-d/b ">For Test Suite Collection</b>: Select your desired profile to be executed with your Test Suite on the <b class="+ topic/ph hi-d/b ">Profile</b> column.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/4.png" scope="external" class="- topic/image "/>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p "> <b class="+ topic/ph hi-d/b ">For <xref href="../../../Execute/Katalon_Runtime_Engine/console-mode-execution/console-mode-execution_1.dita" class="- topic/xref ">Console Mode</xref> execution</b>: Select your desired profile on the <b class="+ topic/ph hi-d/b ">Profile</b> field.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/5.png" scope="external" class="- topic/image "/>
+                </p>
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Generated Command</b> has <b class="+ topic/ph hi-d/b ">executionProfile</b> parameter so that you can change it manually. For example:</p>
+                <codeblock class="+ topic/pre pr-d/codeblock ">katalonc -noSplash  -runMode=console -consoleLog -projectPath="C:\Users\Admin\Katalon Studio\yourProject.prj" -retry=0 -testSuitePath="Test Suites/TS_RegressionTest" -executionProfile="local" -browserType="Chrome (headless)
+</codeblock>
+            </li></ul></conbody></concept>

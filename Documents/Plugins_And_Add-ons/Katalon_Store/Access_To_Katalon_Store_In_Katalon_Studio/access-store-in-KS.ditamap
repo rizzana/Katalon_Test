@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-access-store-in-KS" class="- map/map ">
+  <title class="- topic/title ">Access to Katalon Store in Katalon Studio</title>
+  <topicref href="access-store-in-ks.dita" class="- map/topicref "><topicref href="access_the_katalon_store.dita" class="- map/topicref "/>
+  <topicref href="reload_your_plugins.dita" class="- map/topicref "/>
+  <topicref href="manage_your_plugins_in_the_katalon_store.dita" class="- map/topicref "/>
+</topicref>
+  </map>

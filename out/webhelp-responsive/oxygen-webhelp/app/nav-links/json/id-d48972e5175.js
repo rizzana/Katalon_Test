@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"id-d48972e5175":{"topics":[{"title":"About Git integration","href":"Documents\/Create_tests\/Manage_Projects\/Project_Settings\/Git-Integration\/Git_Integration\/about_git_integration.html","attributes":{"data-id":"id_1"},"menu":{"hasChildren":false},"tocID":"id_1-d48972e5185","topics":[]}]}};

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Import from Git </title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">If the user is importing the keywords from a public repository,
+         <b class="+ topic/ph hi-d/b ">NO</b> authentication is <b class="+ topic/ph hi-d/b ">required</b>.
+         However, if the repository is private, please provide your Git
+         authentication. </p><p class="- topic/p ">
+          
+        <image width="600" href="image/ks-850-se-clone-git-repository.png" class="- topic/image "/></p><p class="- topic/p ">When Katalon Studio successfully discovers the desired
+         repository, it will ask the user to choose a branch to check out.
+         Please select the branch that contains the keywords you want to
+         import. </p><p class="- topic/p ">
+          
+        <image width="600" href="image/ks-850-clone-git-repository.png" class="- topic/image "/></p><p class="- topic/p ">Katalon Studio will clone the Git repository to a default
+         location in your project folder. Choose your initial
+         branch and click <b class="+ topic/ph hi-d/b ">Finish.</b>
+        </p><p class="- topic/p ">
+          
+        <image width="600" href="image/ks-850-local-destination.png" class="- topic/image "/></p><p class="- topic/p ">Katalon Studio will notify you whether the keywords are imported
+         successfully. If the keywords imported don't belong to any package,
+         Katalon Studio will put them into a <b class="+ topic/ph hi-d/b ">default</b>
+         package.</p></conbody></concept>

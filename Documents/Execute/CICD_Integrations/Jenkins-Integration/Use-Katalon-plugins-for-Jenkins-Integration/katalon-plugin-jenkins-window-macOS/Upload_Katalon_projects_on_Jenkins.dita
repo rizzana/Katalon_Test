@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-2352" xml:lang="en-us" class="- topic/topic concept/concept "><title class="- topic/title ">Upload Katalon projects on Jenkins</title><prolog class="- topic/prolog "><author translate="no" type="creator" class="- topic/author ">Hao Le &lt;hao.le@katalon.com&gt;</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "/></metadata></prolog><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">After installing the <b class="+ topic/ph hi-d/b ">Katalon</b> plugin, you can now start the Katalon Studio test in Jenkins.</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">In the Jenkins Dashboard, go to <b class="+ topic/ph hi-d/b ">New Item</b> and create a <b class="+ topic/ph hi-d/b ">Freestyle project</b>.</p>
+                <p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/KS-JENKINS-Create-a-freestyle-project.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Create a new Freestyle project</alt></image></p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">To upload your Katalon project on Jenkins, you can upload your Katalon project from a Git repository or your local workspace. Here, we use a Git repository.</p>
+                <ul class="- topic/ul "><li class="- topic/li ">In the <b class="+ topic/ph hi-d/b ">Source Code Management</b> section, choose <b class="+ topic/ph hi-d/b ">Git</b>.</li><li class="- topic/li ">
+                        <p class="- topic/p ">Enter your repository URL, then select branches to build, repository browser, and additional behaviors, if any.</p>
+                        <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-windows/Picture4.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Upload Katalon project</alt></image>
+                        </p>
+                    </li></ul>
+            </li></ol></conbody></concept>

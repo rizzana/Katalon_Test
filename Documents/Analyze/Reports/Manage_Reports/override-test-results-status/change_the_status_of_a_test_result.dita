@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Change the status of a Test Result</title><conbody class="- topic/body  concept/conbody "><note type="warning" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">
+                    <p class="- topic/p ">Changing the status of a Test Result affects the status of a Test Run and its Test Suite. You should override Test Results statuses with caution. See <xref href="../../../../Get_Started/Terminology_And_Formulas/testops_formulas.dita" class="- topic/xref ">TestOps Formulas</xref> for definitions of <b class="+ topic/ph hi-d/b ">Status (Test Run)</b> and <b class="+ topic/ph hi-d/b ">Status (Test Suite)</b>.</p>
+                </li></ul>
+        </note><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Sign in to <xref format="html" href="https://testops.katalon.io/login" scope="external" class="- topic/xref ">Katalon TestOps</xref> and go to your Project.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Reports</b> &gt; <b class="+ topic/ph hi-d/b ">Test Runs</b>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click on a Test Run ID, then select the <b class="+ topic/ph hi-d/b ">Test Results</b> tab.</p>
+                <p class="- topic/p ">You can see the list of all test results and their details (Status, ID, Name, Time, Assertions, Links) here.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click on the <i class="+ topic/ph hi-d/i ">Extension</i> icon of the Test Result you want to change.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-override-test-result/extension-icon-change-test-result-status-2.png" scope="external" class="- topic/image "><alt class="- topic/alt ">test result extension icon</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Mark as Passed</b> (for a <b class="+ topic/ph hi-d/b ">failed</b>/<b class="+ topic/ph hi-d/b ">incomplete</b>/<b class="+ topic/ph hi-d/b ">error</b> Test Result) or <b class="+ topic/ph hi-d/b ">Mark as Failed</b> (for a <b class="+ topic/ph hi-d/b ">passed</b> Test Result). See <xref href="../../../../Get_Started/Terminology_And_Formulas/testops_formulas.dita" class="- topic/xref ">TestOps Formulas</xref> for definitions of <b class="+ topic/ph hi-d/b ">Status (Test Result)</b>.</p>
+                <p class="- topic/p ">A box pops up asking you to choose a reason for the status change.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-override-test-result/change-test-result-status-popup-2.png" scope="external" class="- topic/image "><alt class="- topic/alt ">change status popup</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Select an option, then submit the new status for this Test Result.</p>
+            </li></ol></conbody></concept>

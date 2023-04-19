@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept "><title class="- topic/title ">Install and set up the Katalon License Server</title><conbody class="- topic/body  concept/conbody "><note type="note" class="- topic/note "><ul class="- topic/ul "><li class="- topic/li ">Contact our Sales team at business@katalon.com for the On-Premises package and license file. </li></ul></note><note type="note" class="- topic/note "><ul class="- topic/ul "><li class="- topic/li ">Destination directory: the location where the License Server is installed in your machine.</li><li class="- topic/li ">TCP ports: the HTTP connector and control ports which the License Server runs on. We recommend you use the default ports (unless you're running another application on the same port).</li><li class="- topic/li ">Database URL: the JDBC URL for your database.</li><li class="- topic/li ">Server URL: the address for the License Server's site (e.g., http://localhost:8080).</li></ul></note><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p ">Extract the .zip package file.</p><p class="- topic/p ">Unzip the license server package. Open a terminal emulator (command line), go to the unzipped folder. The folder contains the Docker image of the license server images.tar.gz, an .env file, and a docker-compose.yml file.</p></li><li class="- topic/li "><p class="- topic/p ">Reconfigure the .env file.</p><p class="- topic/p ">The .env file should be like below: </p><codeblock class="+ topic/pre pr-d/codeblock ">
+# version of license server
+LICENSE_SERVER_VERSION=latest
+# port using, can access at {LICENSE_SERVER_URL}:{LICENSE_SERVER_PORT}
+LICENSE_SERVER_PORT=80
+# database host
+DB_HOST=host.docker.internal
+# database port 
+DB_PORT=5432
+# database username
+DB_USERNAME=postgres
+# database password
+DB_PASSWORD=admin
+# license server url, for example: http://10.20.10.10
+LICENSE_SERVER_URL=http://localhost
+# testops server url (for TestOps)
+TESTOPS_SERVER_URL=http://localhost:8444
+                </codeblock></li><li class="- topic/li "><p class="- topic/p ">Run command to load the Docker image and start the application.</p><p class="- topic/p ">Command to load the Docker image:</p><codeblock class="+ topic/pre pr-d/codeblock ">docker load -i images.tar.gz</codeblock><p class="- topic/p ">Command to start the application:</p><codeblock class="+ topic/pre pr-d/codeblock ">docker-compose up -d</codeblock></li><li class="- topic/li "><p class="- topic/p ">Activate the license.</p><p class="- topic/p ">Access <codeph class="+ topic/ph pr-d/codeph ">{LICENSE_SERVER_URL}:{LICENSE_SERVER_PORT}</codeph> on the browser, for example: <codeph class="+ topic/ph pr-d/codeph ">10.10.20.10:10000</codeph>. The first time accessing the admin server, we need to activate the license: </p><image width="700" href="Images/OP_License_-_TestOps_-_activate_license.png" class="- topic/image "><alt class="- topic/alt ">TestOps - activate OP License server</alt></image></li><li class="- topic/li "><p class="- topic/p ">Create root user account and login: <image href="Images/OP_License-TestOps-Create_root_users_and_login.png" class="- topic/image "><alt class="- topic/alt ">TestOps - Create account &amp; login</alt></image></p></li><li class="- topic/li "><p class="- topic/p ">Create an organization: <image href="Images/OP_License-TestOps-create_organization.png" class="- topic/image "><alt class="- topic/alt ">TestOps - create organization</alt></image></p></li><li class="- topic/li "><p class="- topic/p ">Access the admin homepage on the browser, for example, if your <b class="+ topic/ph hi-d/b ">LICENSE_SERVER_URL</b> is <codeph class="+ topic/ph pr-d/codeph ">10.10.20.10</codeph> and <b class="+ topic/ph hi-d/b ">LICENSE_SERVER_PORT</b> is <codeph class="+ topic/ph pr-d/codeph ">10000</codeph>, enter the URL: <codeph class="+ topic/ph pr-d/codeph ">http://10.10.20.10:10000/katone/home</codeph> <image href="Images/OP_License-TestOp-access_homepage.png" class="- topic/image "/></p></li></ol></conbody></concept>

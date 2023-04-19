@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_10" class="- topic/topic concept/concept "><title class="- topic/title ">Activate SSO in Katalon Studio</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">After configuring SSO in Katalon TestOps, you must reactivate Katalon Studio to enable SSO.</p><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Open Katalon Studio.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click on the <i class="+ topic/ph hi-d/i ">Profile</i> icon at the top right corner, and select <b class="+ topic/ph hi-d/b ">Deactivate</b>.</p>
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Katalon Studio Activation</b> box appears as below.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-sso-settings/activate-sso-in-studio.png" scope="external" class="- topic/image "><alt class="- topic/alt ">ks activation box</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Fill in the required information.</p>
+                <ul class="- topic/ul "><li class="- topic/li ">
+                        <p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Server URL</b>: enter the Subdomain you have configured (e.g., https://techwrite.katalon.io).</p>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Email</b>: enter your registered Katalon account.</p>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Password</b>: enter an API key generated in Katalon TestOps. See: <xref href="../../../Security_Settings/ka-api-key/ka-api-key.dita" class="- topic/xref ">API Keys</xref>.</p>
+                    </li></ul>
+            </li></ol></conbody></concept>

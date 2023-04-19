@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-docker" class="- map/map "><title class="- topic/title ">Docker Test Environments</title><topicref href="docker.dita" class="- map/topicref "><topicref href="set_up_an_agent_1647955929899.216.dita" class="- map/topicref "/><topicref href="start_an_agent.dita" class="- map/topicref "/><topicref href="view_an_agent_status.dita" class="- map/topicref "/></topicref></map>

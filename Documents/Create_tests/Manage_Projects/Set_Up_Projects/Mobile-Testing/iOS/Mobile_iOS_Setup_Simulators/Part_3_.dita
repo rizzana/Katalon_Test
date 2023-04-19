@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-8181" xml:lang="en-us" class="- topic/topic concept/concept "><title class="- topic/title ">Part 3: Set up Xcode simulators for mobile testing in Katalon Studio</title><prolog class="- topic/prolog "><author translate="no" type="creator" class="- topic/author ">Yen Nguyen &lt;yen.nguyen@katalon.com&gt;</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "/></metadata></prolog><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">After installing Xcode, Katalon automatically recognizes Xcode
+            simulators as iOS devices. To check whether Katalon successfully
+            recognizes Xcode simulators, on the main toolbar, select the
+            <b class="+ topic/ph hi-d/b ">iOS</b> device in the dropdown list next to
+            <b class="+ topic/ph hi-d/b ">Run</b>.</p><p class="- topic/p "><image href="Pictures/KS-TOOLBAR-iOS.png" class="- topic/image "><alt class="- topic/alt ">Katalon recognizes Xcode simulators</alt></image></p><p class="- topic/p ">You should see a list of pre-installed Xcode simulators appearing as iOS devices.</p><p class="- topic/p "><image href="Pictures/KS-iOS-Katalon-regconizes-simulators.png" class="- topic/image "><alt class="- topic/alt ">Katalon recognizes Xcode simulators</alt></image></p></conbody></concept>

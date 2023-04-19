@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Delete an existing credit card</title><conbody class="- topic/body  concept/conbody "><note type="warning" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">You cannot undo this action. Once you delete the card, it is permanently removed from your organization.</li></ul>
+        </note><p class="- topic/p ">To delete an existing credit card, in the <b class="+ topic/ph hi-d/b ">Payment Method</b> section, click <b class="+ topic/ph hi-d/b ">Delete</b> and confirm your action.</p></conbody></concept>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Upload your dependencies to Maven Central Repository</title><conbody class="- topic/body  concept/conbody "><note type="note" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">If your dependencies are already available on the Maven Central Repository, skip this step.</li></ul>
+        </note><p class="- topic/p ">To upload your dependencies to the Maven Central Repository, you can refer to this guide in the Maven document: <xref format="html" href="https://maven.apache.org/repository/guide-central-repository-upload.html#guide-to-uploading-artifacts-to-the-central-repository" scope="external" class="- topic/xref ">Guide to uploading artifacts to the Central Repository</xref>.</p></conbody></concept>

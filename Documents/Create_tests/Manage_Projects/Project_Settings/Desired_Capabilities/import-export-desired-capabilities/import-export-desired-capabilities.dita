@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Manage Desired Capabilities in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">From version 8.0.0 onwards, you can reuse desired capabilities
+         across Katalon Studio projects by importing and exporting desired
+         capabilities in a JSON file. See also <xref href="../introduction-to-desired-capabilities/introduction-to-desired-capabilities.dita" class="- topic/xref ">Desired
+            capabilities</xref>.</p><p class="- topic/p ">This is useful if you want to: <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Reuse or copy the configured
+         desired capabilities to another projects with some minor changes.</p></li><li class="- topic/li "><p class="- topic/p ">Share the configured desired capabilities for team members to
+         reduce effort.</p></li></ul></p><section class="- topic/section "><title class="- topic/title ">Requirements</title><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Katalon Studio version 8.0.0 onwards.</p></li><li class="- topic/li "><p class="- topic/p ">An active
+            Katalon Studio Enterprise license. You can learn more about
+            activating licenses in this document: <xref href="../../../../../Administer/KSE-KRE-Licenses/activate-license/activate_a_license_with_internet_access.dita" class="- topic/xref ">Activate
+               Katalon License</xref>.</p></li></ul></section></conbody></concept>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id_13" class="- topic/topic ">
+    <title class="- topic/title ">5.5.4.1</title>
+    <body class="- topic/body ">
+      <p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">Bug fixes</b> - Fixed an issue where users cannot
+         execute tests with CSV files on Windows. - Fixed an issue where
+         copy and pasting a command does not work as expected. - Fixed an
+         issue where users cannot open .krecorder files. - Fixed an issue
+         where users can't see test steps' statuses after executions. -
+         Fixed an issue where users can't visually distinguish between
+         passed and failed tests.</p>
+    </body>
+  </topic>

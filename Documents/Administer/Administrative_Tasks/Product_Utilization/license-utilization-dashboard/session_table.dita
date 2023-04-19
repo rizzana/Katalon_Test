@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Session Table</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Below the graph section, you can view the detailed list of sessions completed by your team members.</p><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/4e58d346a97b11c73bc029feb1b84e5a991335bf/katalon-studio/docs/license-utilization-dashboard/K.S.E-8.2.5-license-utilization-dashboard-session_table.png" scope="external" class="- topic/image "><alt class="- topic/alt ">sessions</alt></image>
+        </p><p class="- topic/p ">If you leave the filter blank by default, you can still find the removed user emails or machine IDs session in the session table.</p></conbody></concept>

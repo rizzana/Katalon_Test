@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_37" class="- topic/topic concept/concept "><title class="- topic/title ">Download, Manage, and Search for Plugins from Your Katalon
+         Studio</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Directly linked to your Katalon Studio app., all of the
+         installed plugins can be easily reloaded and managed from your
+         local device. Learn more <xref href="../../../../Get_Started/Get_Started_Overview/get-started-overview.dita" class="- topic/xref ">here</xref>.
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-60/2.png" scope="external" class="- topic/image "/>
+        </p></conbody></concept>

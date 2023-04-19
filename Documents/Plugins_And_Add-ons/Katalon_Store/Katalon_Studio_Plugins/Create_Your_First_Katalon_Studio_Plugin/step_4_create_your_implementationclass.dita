@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">
+      Step 4: Create your
+            <codeph class="+ topic/ph pr-d/codeph ">implementationClass</codeph>
+      
+    </title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Create a class file <codeph class="+ topic/ph pr-d/codeph ">MyPluginActivationListener</codeph>
+         under <codeph class="+ topic/ph pr-d/codeph ">src/java/main</codeph> folder:</p><codeblock class="+ topic/pre pr-d/codeblock ">package com.mycompany.plugin;
+
+import com.katalon.platform.api.Plugin;
+import com.katalon.platform.api.extension.PluginActivationListener;
+
+public class MyPluginActivationListener implements PluginActivationListener {
+    // After this plugin is activated, we will print a hello message to console.
+    @Override
+    public void afterActivation(Plugin plugin) {
+        System.out.println("Hello, my plugin is: " + plugin.getPluginId());
+    }
+}
+</codeblock></conbody></concept>

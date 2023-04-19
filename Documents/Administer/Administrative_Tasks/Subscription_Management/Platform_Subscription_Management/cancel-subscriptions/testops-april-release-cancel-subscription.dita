@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Cancel <ph conkeyref="name-variables/katalon-platform" class="- topic/ph "/> Subscription</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">You can cancel your subscription at any time.</p><p class="- topic/p ">Canceling a subscription will turn off the automatic renewal of your subscription.</p><p class="- topic/p ">The cancellation takes effect at the end of the current billing period. You can continue using your subscription until it ends.</p><note type="important" class="- topic/note ">
+                <ul class="- topic/ul "><li class="- topic/li ">
+                        <p class="- topic/p ">You must be the Account Owner or Admin of your Account.</p>
+                    </li></ul>
+        </note><p class="- topic/p ">Follow these steps: <ol class="- topic/ol "><li class="- topic/li ">
+                    <p class="- topic/p ">Sign in to <xref format="html" href="https://testops.katalon.io/" scope="external" class="- topic/xref ">Katalon TestOps</xref> and select your Account.</p>
+                </li><li class="- topic/li "><p class="- topic/p ">Go to <uicontrol class="+ topic/ph ui-d/uicontrol ">Settings</uicontrol> &gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">Subscription Management</uicontrol>.</p>  
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">In the <uicontrol class="+ topic/ph ui-d/uicontrol ">Current Plan Details</uicontrol> section, click on the <i class="+ topic/ph hi-d/i ">option</i> icon and select <uicontrol class="+ topic/ph ui-d/uicontrol ">Cancel</uicontrol>.</p>
+                    
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">In the cancellation dialog, click <uicontrol class="+ topic/ph ui-d/uicontrol ">Cancel</uicontrol> to confirm.<image width="500" href="Platform-plan-cancellation-dialog.png" class="- topic/image "><alt class="- topic/alt ">Platform-cancellation-dialog</alt></image></p>
+                </li></ol></p><p class="- topic/p ">You have canceled your subscription successfully.</p></conbody></concept>

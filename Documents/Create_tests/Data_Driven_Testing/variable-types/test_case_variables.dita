@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Test Case Variables</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">Test Case Variables allow you to pass dynamic data into a test
+         case.</p>
+
+      <p class="- topic/p ">You can create test case variables and call test cases with
+         variables in the manual and script mode. To learn more about
+         managing test case variables, you can refer to this document: <xref href="../test-case-variables/manage_test_case_variables.dita" class="- topic/xref ">Test
+            case variables</xref>.</p>
+
+      <p class="- topic/p ">You can also use test case variables in a test suite. To learn
+         more about binding data for test suite execution, you can refer to
+         this document: <xref href="../run-test-case-external-data/run-test-case-external-data.dita" class="- topic/xref ">Manage
+            data binding</xref>.</p>
+    </conbody>
+  </concept>

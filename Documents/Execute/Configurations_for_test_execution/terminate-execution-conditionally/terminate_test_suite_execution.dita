@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_7" class="- topic/topic concept/concept "><title class="- topic/title ">Terminate Test Suite Execution</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">In this section, we outline an example execution of a test suite with this parameter.</p><ul class="- topic/ul "><li class="- topic/li ">
+                <p class="- topic/p ">Given that you have a test suite that has 10 test cases.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/Test%20suite%20UC%201.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Test Suites</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">You want to stop the test suite after 4 test failures. Set T = 4.</p>
+                <p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Configure in Command Builder</b>
+                </p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/terminate.png" scope="external" class="- topic/image "><alt class="- topic/alt ">command builder</alt></image>
+                </p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/command%20UC%201.png" scope="external" class="- topic/image "><alt class="- topic/alt ">execution log</alt></image>
+                </p>
+                <p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Execute in Console Mode</b>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">The test suite is terminated once the number of failures becomes 4. The execution ends, and the rest test cases do not run.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/Test%20log%20result%20-%20UC%201.png" scope="external" class="- topic/image "><alt class="- topic/alt ">info</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Katalon Studio generates a report in JUnit, HTML, PDF, and CSV format. The report does not show information for test cases that were not run.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/Test%20Result%20in%20KS%20-%20UC%201.png" scope="external" class="- topic/image "><alt class="- topic/alt ">report in Katalon Studio</alt></image>
+                </p>
+                <note type="note" class="- topic/note ">
+                    <p class="- topic/p ">See also <xref href="../../../Analyze/Reports/View_Test_Reports/View_test_reports_in_Studio/view-test-suite-report-in-Studio/test_suite_report.dita" class="- topic/xref ">Test Suite and Test Suite Collection Reports</xref>.</p>
+                </note>
+            </li></ul></conbody></concept>

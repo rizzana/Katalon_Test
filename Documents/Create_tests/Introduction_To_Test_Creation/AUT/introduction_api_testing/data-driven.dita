@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_19" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Data-driven</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">   The most important feature of any API test
+         tools is the capability of the data-driven approach. Lacking
+         data-driven ability will lead to test data hardcoded, duplicated
+         test scripts, test verification, therefore causing massive effort
+         at maintenance phase.</p>
+        <p class="- topic/p ">   Together with data-driven, there are some
+         important notes for test data that we should pay attention
+         seriously: data types, blank, empty, null string. With RESTful web
+         services, the input data is typically in JSON format, and missing
+         value of a specific key is considered differently (null, empty) in
+         some cases. To avoid these ambiguous test scenarios, using a subset
+         of input data models are highly suggested.</p>
+        <p class="- topic/p ">
+          <xref format="html" href="https://www.katalon.com/download" scope="external" class="- topic/xref ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/introduction_api_testing/api-testing-interview-question.png" scope="external" class="- topic/image "/>
+          </xref>
+        </p>
+      </conbody>
+    </concept>

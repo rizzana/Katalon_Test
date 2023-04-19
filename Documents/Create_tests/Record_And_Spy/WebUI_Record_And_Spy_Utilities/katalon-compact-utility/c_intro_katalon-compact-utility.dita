@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Katalon Compact Utility for <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><note type="important" class="- topic/note ">
+        
+        <ul class="- topic/ul "><li class="- topic/li ">For Chrome: Katalon Studio version 8.2.5 onwards.</li><li class="- topic/li ">For Microsoft Edge: Katalon Studio version 8.3.5 onwards.</li><li class="- topic/li ">A Chrome or Microsoft Edge Profile. Find more information at
+               Google Help Center: <xref format="html" href="https://support.google.com/chrome/answer/2364824/share-chrome-with-others-computer" scope="external" class="- topic/xref ">Share
+                  Chrome with others</xref>, and Microsoft Support: <xref format="html" href="https://support.microsoft.com/en-us/topic/sign-in-and-create-multiple-profiles-in-microsoft-edge-df94e622-2061-49ae-ad1d-6f0e43ce6435" scope="external" class="- topic/xref ">Sign
+                  in and create multiple profiles in Microsoft Edge</xref>.</li></ul>
+      </note><p class="- topic/p ">In restricted environments, unpacked extensions are disabled as
+         a security feature. In that case, using the Spy, Record, and Smart
+         Wait with Chrome might prompt this error: "<i class="+ topic/ph hi-d/i ">Loading the unpacked
+            extension is disabled by the administrators</i>."</p><p class="- topic/p ">It is possible to use the packed extension <b class="+ topic/ph hi-d/b ">Katalon
+            Compact Utility</b> as an alternative. The extension is
+         available on Chrome Web Store and Microsoft Edge Add-ons.</p><p class="- topic/p ">This article shows you how to install the extension, configure
+         your Profile, and use the Spy, Record, and Smart Wait in Katalon
+         Studio.</p><note type="note" class="- topic/note ">
+        
+        
+        <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">This utility is associated with your Chrome/ Microsoft Edge Profile, which means you can only have one active session at any given time. Hence, before executing, make sure you log out of all your
+            Chrome/ Microsoft Edge sessions.</p></li></ul>
+      </note></conbody></concept>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Add a Git submodule to a project</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">The structure of our test project repository is as follows:</p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration-submodules/KS-Test-Explorer.png" scope="external" width="400" class="- topic/image "><alt class="- topic/alt ">Test project repository in Test Explorer</alt></image>
+      </p><p class="- topic/p ">The content of the custom keyword package on GitHub is as
+         follows:</p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration-submodules/KS-remote-repo-overview.png" scope="external" width="700" class="- topic/image "><alt class="- topic/alt ">Custom keyword package repository</alt></image>
+      </p><p class="- topic/p ">Katalon Studio stores test keywords in the
+         <b class="+ topic/ph hi-d/b ">Keywords</b> folder. Therefore, we want to add the
+         custom keyword package to the <codeph class="+ topic/ph pr-d/codeph ">Keywords</codeph> folder as a Git
+         submodule.</p><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+          <p class="- topic/p ">Open <b class="+ topic/ph hi-d/b ">Terminal</b>, then go to the
+               <codeph class="+ topic/ph pr-d/codeph ">Keywords</codeph> folder in the test project directory. For
+               example, we go to the <codeph class="+ topic/ph pr-d/codeph ">healthcare-tests/Keywords</codeph>
+               folder:</p>
+          
+            <codeblock class="+ topic/pre pr-d/codeblock ">$ cd healthcare-tests/Keywords
+</codeblock>
+          
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">To add the keyword package from GitHub to our test project
+               repository, we use the <codeph class="+ topic/ph pr-d/codeph ">git submodule add &lt;URL&gt;</codeph>
+               command. The URL in the command is the URL for the keyword package
+               hosted on GitHub.</p>
+          
+            <codeblock class="+ topic/pre pr-d/codeblock "># Add the keyword repository from remote as a submodule
+$ git submodule add https://github.com/&lt;username&gt;/mykeywords.git
+</codeblock>
+          
+          <p class="- topic/p ">If you check the status of the project repository with the
+               <codeph class="+ topic/ph pr-d/codeph ">git status</codeph> command, you can see two changes: the
+               <codeph class="+ topic/ph pr-d/codeph ">.gitmodules</codeph> file and the added submodule folder. The
+               <codeph class="+ topic/ph pr-d/codeph ">.gitmodules</codeph> file contains information about added
+               submodules, including directory paths and URLs for cloning and
+               fetching.</p>
+          <p class="- topic/p ">In our case, the status output shows the
+               <codeph class="+ topic/ph pr-d/codeph ">.gitmodules</codeph> file and the <codeph class="+ topic/ph pr-d/codeph ">mykeywords</codeph>
+               folder as follows:</p>
+          
+            <codeblock class="+ topic/pre pr-d/codeblock ">On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+(use "git restore --staged &lt;file&gt;..." to unstage)
+    new file:   ../.gitmodules
+    new file:   mykeywords
+</codeblock>
+          
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Add and commit the changes.</p>
+          <p class="- topic/p ">Once the submodule is added to the main repository, you can
+               track the changes of the submodule like in a normal repository.
+               Here we track the submodule by adding and committing the changes to
+               our test project repository.</p>
+          
+            <codeblock class="+ topic/pre pr-d/codeblock ">$ git add .
+$ git commit -m "Add the mykeywords package as submodule"
+</codeblock>
+          
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Verify that the custom keyword package is added to the test
+               project. Open the project in Katalon Studio, from the main toolbar,
+               select <b class="+ topic/ph hi-d/b ">Project &gt; Refresh</b>.</p>
+          <p class="- topic/p ">Katalon Studio should display the added package with keyword
+               files in the <b class="+ topic/ph hi-d/b ">Keywords</b> section.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration-submodules/KS-Keywords-added-package.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">Added keyword package in Test Explorer</alt></image>
+          </p>
+        </li></ol></conbody></concept>

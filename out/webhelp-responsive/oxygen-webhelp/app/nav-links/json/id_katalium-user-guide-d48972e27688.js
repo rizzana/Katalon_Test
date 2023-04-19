@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"id_katalium-user-guide-d48972e27688":{"topics":[{"title":"Set up Katalium Server","href":"Documents\/Plugins_And_Add-ons\/Katalium_Server\/katalium-user-guide\/set_up_katalium_server.html","attributes":{"data-id":"id_1"},"menu":{"hasChildren":false},"tocID":"id_1-d48972e27696","next":"id_1-d48972e27696"}]}};

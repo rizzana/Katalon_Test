@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_14" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Improvements</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">Support Microsoft Edge (Chromium) 86</li>
+          <li class="- topic/li ">Support Chrome 86</li>
+          <li class="- topic/li ">[qTest Integration]: Generate qTest - Katalon Studio parity
+            report in HTML, sync up qTest test case version and test steps's
+            content, and send Skipped test results to qTest. Learn
+               more</li>
+
+          <li class="- topic/li ">[Kobiton Integration] Support SSO for authentication and
+            corresponding command options. <xref href="../../../../Execute/Katalon_Runtime_Engine/console-mode-execution/Integrations_Options.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li>
+
+          <li class="- topic/li ">[Jira Cloud Integration]: Support importing BDD Feature Files.
+            <xref href="../../../../Organize/Integration_For_Organizing_Tests/Jira_Integration/configure-jira-integration-in-KS/intro-configure-jira-integration-in-Katalon-Studio.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li>
+
+          <li class="- topic/li ">[BDD Testing Framework] Allow setting default package for step
+            defenitions. <xref href="../../../../Create_tests/Manage_Test_Artifacts/Working_With_BDD_Feature_File/set_default_package_for_step_definitions.dita" class="- topic/xref ">Learn
+               more</xref>.</li>
+          <li class="- topic/li ">[Mobile Testing] Support "Attributes" Selector Strategy and add
+            "Verify and Highlight" feature to Mobile Spy/Recorder.</li>
+          <li class="- topic/li ">[Katalon TestOps (Beta) Integration]: Support automatically
+            retrying uploading Test Projects and Test Reports from Katalon
+            Studio to Katalon TestOps upon failure.</li>
+          <li class="- topic/li ">Replace Katalon Help with Start Page for a new fresh look and
+            more customized information for each user.</li>
+          <li class="- topic/li ">Reduce the size of Katalon Docker Image.</li>
+
+          <li class="- topic/li ">Discontinued new purchase of Katalon Runtime Engine DevOps
+            license. Read more about <xref href="../../../../Administer/KSE-KRE-Licenses/kre-devops-sunset/kre-devops-sunset.dita" class="- topic/xref ">Katalon
+               Runtime Engine DevOps Sunsetting</xref>.</li>
+          <li class="- topic/li ">Display SKIP test status in execution reports.</li>
+        </ul>
+      </conbody>
+    </concept>

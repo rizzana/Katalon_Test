@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title "> Run Test Case with an external data source</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Katalon Studio provides the ability to execute automation test
+         with external data sources.</p></conbody></concept>

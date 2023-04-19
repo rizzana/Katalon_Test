@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_25" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Auto-healing Smart XPath Plugin</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">Fixed an issue where XPaths with incorrect syntax stop the
+            healing process.</li>
+          <li class="- topic/li ">Added screenshots of alternative XPaths' results to assist the
+            review process.</li>
+        </ul>
+      </conbody>
+    </concept>

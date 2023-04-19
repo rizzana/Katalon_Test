@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title "> Basic Authentication in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Basic authorization is the simplest authorization for a request, which involves sending a verified username and password with your request. With basic authentication, you need to input your credentials to authenticate the request. These credentials will be encoded into the authorization request headers.</p></conbody></concept>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Manual Mode</title><conbody class="- topic/body  concept/conbody "><ul class="- topic/ul "><li class="- topic/li ">Step 1: Select <b class="+ topic/ph hi-d/b ">Start
+               Application</b> from mobile keyword and click on
+            <b class="+ topic/ph hi-d/b ">Input.</b> A dialog will be displayed. In
+            <b class="+ topic/ph hi-d/b ">appFile</b>, select <b class="+ topic/ph hi-d/b ">Value Type</b> as
+            <b class="+ topic/ph hi-d/b ">Variable</b>. In <b class="+ topic/ph hi-d/b ">Value</b>, pass the
+            variable name as <b class="+ topic/ph hi-d/b ">path</b>.</li></ul><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_spinner_mobile_automation_testing/Handle-spinner-in-Mobile-automation-test-1.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Handle Spinner in Mobile Automation Testing</alt></image>
+      </p><ul class="- topic/ul "><li class="- topic/li ">Step 2: Add <b class="+ topic/ph hi-d/b ">Wait For Element Present</b>
+            item.</li><li class="- topic/li ">Step 3: Call <b class="+ topic/ph hi-d/b ">Scroll To Text</b> from mobile
+            keyword, pass the input as <b class="+ topic/ph hi-d/b ">Views</b>. <b class="+ topic/ph hi-d/b ">Scroll
+               To Text</b> accepts String type parameter (Text of the element
+            to scroll to).</li></ul><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_spinner_mobile_automation_testing/Handle-spinner-in-Mobile-automation-test-3.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Handle Spinner in Mobile Automation Testing</alt></image>
+      </p><ul class="- topic/ul "><li class="- topic/li ">Step 4: Call Tap method and pass the object of
+            <b class="+ topic/ph hi-d/b ">Views.</b>
+        </li><li class="- topic/li ">Step 5: Call <b class="+ topic/ph hi-d/b ">Scroll To Text</b> from mobile
+            keyword, pass the input as <b class="+ topic/ph hi-d/b ">Spinner.</b>
+        </li><li class="- topic/li ">Step 6: Tap on <b class="+ topic/ph hi-d/b ">Spinner.</b>
+        </li><li class="- topic/li ">Step 7: Here in this step after tapping on 'Spinner' we need to
+            wait for Heading 'Views/Spinner' is visible on the screen.</li><li class="- topic/li ">Step 8: Call <b class="+ topic/ph hi-d/b ">Tap</b> method and pass the object of
+             'Planet Spinner' option.</li><li class="- topic/li ">Step 9: Call <b class="+ topic/ph hi-d/b ">Scroll To Text</b> from mobile
+            keyword, pass the input as <b class="+ topic/ph hi-d/b ">Pluto</b>.</li><li class="- topic/li ">Step 10: Call <b class="+ topic/ph hi-d/b ">Tap</b> method and pass the object
+            of <b class="+ topic/ph hi-d/b ">Pluto</b> option.</li><li class="- topic/li ">Step 11: To verify that <b class="+ topic/ph hi-d/b ">Pluto</b> option has been
+            selected, we are capturing the text of the selected object by
+            calling <b class="+ topic/ph hi-d/b ">Get Text</b> keyword and storing it in a
+            variable.</li></ul><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_spinner_mobile_automation_testing/Handle-spinner-in-Mobile-automation-test-11.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Handle Spinner in Mobile Automation Testing</alt></image>
+      </p><ul class="- topic/ul "><li class="- topic/li ">Step 12: Call <b class="+ topic/ph hi-d/b ">'Verify Match'</b> keyword to
+            validate whether the value stored a variable is matched with the
+            expected result.</li></ul><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_spinner_mobile_automation_testing/Handle-spinner-in-Mobile-automation-test-12.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Handle Spinner in Mobile Automation Testing</alt></image>
+      </p><p class="- topic/p ">The step-by-step guide can also be achieved through
+         <b class="+ topic/ph hi-d/b ">Script Mode</b>. We suggest using the Script feature
+         in Katalon to automate the process faster.</p></conbody></concept>

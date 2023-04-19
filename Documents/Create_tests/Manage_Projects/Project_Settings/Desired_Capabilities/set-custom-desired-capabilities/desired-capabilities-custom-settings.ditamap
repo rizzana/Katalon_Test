@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-desired-capabilities-custom-settings" class="- map/map ">
+  <title class="- topic/title ">Set Custom Desired Capabilities</title>
+  <topicref href="desired-capabilities-custom-settings.dita" class="- map/topicref "><topicref href="custom_desired_capabilities.dita" class="- map/topicref "/>
+  <topicref href="location_of_custom_desired_capabilities_files.dita" class="- map/topicref "/>
+</topicref>
+  </map>

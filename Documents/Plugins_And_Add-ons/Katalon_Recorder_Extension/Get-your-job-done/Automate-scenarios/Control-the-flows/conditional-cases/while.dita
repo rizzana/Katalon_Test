@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_7" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">while</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">The <codeph class="+ topic/ph pr-d/codeph ">while</codeph> command starts a loop. The target of a
+         <codeph class="+ topic/ph pr-d/codeph ">while</codeph> command is an expression that evaluates to
+         either <codeph class="+ topic/ph pr-d/codeph ">true</codeph> or <codeph class="+ topic/ph pr-d/codeph ">false</codeph>. The expression can
+         be a JavaScript with variables. If the expression evaluates to
+         <codeph class="+ topic/ph pr-d/codeph ">true</codeph>, the steps following <codeph class="+ topic/ph pr-d/codeph ">while</codeph> will be
+         executed until <codeph class="+ topic/ph pr-d/codeph ">endwhile</codeph> is found and the expression
+         evaluates again. The steps between <codeph class="+ topic/ph pr-d/codeph ">while</codeph> and
+         <codeph class="+ topic/ph pr-d/codeph ">endwhile</codeph> will be executed repeatedly until the
+         expression evaluates to <codeph class="+ topic/ph pr-d/codeph ">false</codeph>.</p>
+      </conbody>
+    </concept>

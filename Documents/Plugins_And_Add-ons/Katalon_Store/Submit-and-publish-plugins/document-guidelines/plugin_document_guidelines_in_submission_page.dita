@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Plugin document guidelines in <ph conkeyref="name-variables/katalon-store" class="- topic/ph "/> submission page</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Providing detailed information will help end-users understand
+         your plugin's values and features better. In order to have an
+         user-friendly document for your plugin, follow this questionaire
+         below:</p><ul class="- topic/ul "><li class="- topic/li ">Which problem(s) does your plugin hope to solve?</li><li class="- topic/li ">How is your plugin going to solve these problems?</li><li class="- topic/li ">For which purposes would the end-users use this plugin in
+            Katalon Studio?</li></ul></conbody></concept>

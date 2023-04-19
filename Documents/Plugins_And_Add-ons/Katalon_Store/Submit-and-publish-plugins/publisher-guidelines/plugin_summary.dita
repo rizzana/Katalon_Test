@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">Plugin summary</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">This summary will be displayed in a thumbnail  of the
+         plugin and below the plugin name.</p><ul class="- topic/ul "><li class="- topic/li ">
+            <p class="- topic/p ">Word limit: no more than 252 characters</p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">This must be a brief summary of what your plugin does.</p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">Example of approved description:</p>
+            <p class="- topic/p ">"Supporting tag management, and execute test case that is
+               filtered by tag name."</p>
+          </li></ul></conbody></concept>

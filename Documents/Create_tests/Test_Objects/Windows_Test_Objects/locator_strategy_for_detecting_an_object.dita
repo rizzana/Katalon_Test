@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Locator strategy for detecting an object</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Built upon Windows Application Driver, Katalon Studio supports 6
+         locator strategies to identify UI elements of a Desktop
+         application. You can choose different ways to locate a Windows test
+         object.</p><ul class="- topic/ul "><li class="- topic/li ">
+            <p class="- topic/p ">
+              <b class="+ topic/ph hi-d/b ">Accessibility ID</b>: The AutomationId of an
+               object</p>
+            <ul class="- topic/ul "><li class="- topic/li ">E.x.: <codeph class="+ topic/ph pr-d/codeph ">AppNameTitle</codeph>
+                <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-test-objects/accessibility-id.png" scope="external" class="- topic/image "/>
+              </li></ul>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">
+              <b class="+ topic/ph hi-d/b ">Class Name</b>: The ClassName property of an
+               object</p>
+            <ul class="- topic/ul "><li class="- topic/li ">E.x.: TextBlock <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-test-objects/class-name.png" scope="external" class="- topic/image "/>
+              </li></ul>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">
+              <b class="+ topic/ph hi-d/b ">ID</b>: The unique runtime ID of an object</p>
+            <ul class="- topic/ul "><li class="- topic/li ">E.x.: 42.333896.3.1 <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-test-objects/runtime-id.png" scope="external" class="- topic/image "/>
+              </li></ul>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">
+              <b class="+ topic/ph hi-d/b ">Name</b>: The name of an object</p>
+            <ul class="- topic/ul "><li class="- topic/li ">E.x.: Calculator <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-test-objects/name.png" scope="external" class="- topic/image "/>
+              </li></ul>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">
+              <b class="+ topic/ph hi-d/b ">Tag Name</b>: The tag name (aka the element type)
+               of an object</p>
+            <ul class="- topic/ul "><li class="- topic/li ">E.x.: <codeph class="+ topic/ph pr-d/codeph ">Text</codeph>
+                
+              </li></ul>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">
+              <b class="+ topic/ph hi-d/b ">XPath</b>
+            </p>
+            <ul class="- topic/ul "><li class="- topic/li ">E.x.: <codeph class="+ topic/ph pr-d/codeph ">//Button[0]</codeph>
+                
+              </li></ul>
+          </li></ul></conbody></concept>

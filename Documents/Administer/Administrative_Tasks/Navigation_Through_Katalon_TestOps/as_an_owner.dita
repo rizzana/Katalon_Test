@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">As an Owner</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <table class="- topic/table ">
+          <tgroup cols="2" class="- topic/tgroup ">
+            <thead class="- topic/thead ">
+              <row class="- topic/row ">
+                <entry class="- topic/entry ">TestOps Admin Console Page</entry>
+                <entry class="- topic/entry ">Usage</entry>
+              </row>
+            </thead>
+            <tbody class="- topic/tbody ">
+              <row class="- topic/row ">
+                <entry class="- topic/entry ">
+                  <b class="+ topic/ph hi-d/b ">Product Utilization</b>
+                </entry>
+                <entry class="- topic/entry ">View your product usage. See: <xref href="../Product_Utilization/license-utilization-dashboard/c_intro_license-utilization-dashboard.dita" class="- topic/xref ">License
+                     Utilization Dashboard</xref>.</entry>
+              </row>
+              <row class="- topic/row ">
+                <entry class="- topic/entry ">
+                  <b class="+ topic/ph hi-d/b ">License Management</b>
+                </entry>
+                <entry class="- topic/entry ">Assign and remove your licenses. See: <xref href="../License_Management/license-management/license-management.dita" class="- topic/xref ">Manage
+                     Katalon Licenses</xref>.</entry>
+              </row>
+              <row class="- topic/row ">
+                <entry class="- topic/entry ">
+                  <b class="+ topic/ph hi-d/b ">User Management</b>
+                </entry>
+
+                <entry class="- topic/entry ">Invite members to your organization, edit their roles, or
+                  remove members in your organization. See: <xref href="../User_Management/kt_invite_user_org/kt_invite_user_org.dita" class="- topic/xref ">TestOps
+                     User Management</xref>.</entry>
+              </row>
+              <row class="- topic/row ">
+                <entry class="- topic/entry ">
+                  <b class="+ topic/ph hi-d/b ">Payment Method</b>
+                </entry>
+                <entry class="- topic/entry ">Update your billing information. See: <xref href="../Payment_Method/billing-info/billing-info.dita" class="- topic/xref ">Change
+                     Billing Information</xref>.</entry>
+              </row>
+              <row class="- topic/row ">
+                <entry class="- topic/entry ">
+                  <b class="+ topic/ph hi-d/b ">Subscription Management</b>
+                </entry>
+
+                <entry class="- topic/entry ">Create a new order and upgrade your subscriptions. See: <xref href="../Subscription_Management/Platform_Subscription_Management/platform-subscriptions/testops-subscription.dita" class="- topic/xref ">Create
+                     TestOps subscriptions</xref> and <xref href="../Subscription_Management/KSE_KRE_License_Management/license-subscription/license-subscription.dita" class="- topic/xref ">Purchase
+                     Katalon Licenses</xref>.</entry>
+              </row>
+              <row class="- topic/row ">
+                <entry class="- topic/entry ">
+                  <b class="+ topic/ph hi-d/b ">Organization Management</b>
+                </entry>
+                <entry class="- topic/entry ">Edit organization information and manage security.</entry>
+              </row>
+            </tbody>
+          </tgroup>
+        </table>
+      </conbody>
+    </concept>

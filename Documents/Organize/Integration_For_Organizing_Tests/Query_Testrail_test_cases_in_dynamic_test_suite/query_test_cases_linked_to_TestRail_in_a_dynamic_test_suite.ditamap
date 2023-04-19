@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-8722" class="- map/map "><title class="- topic/title ">Query test cases linked to TestRail in a dynamic test suite</title><topicref href="query_test_cases_linked_to_TestRail_in_a_dynamic_test_suite.dita" class="- map/topicref "/><reltable class="- map/reltable ">
+    <relheader class="- map/relheader ">
+      <relcolspec type="concept" class="- map/relcolspec "/>
+      <relcolspec type="task" class="- map/relcolspec "><title class="- topic/title ">Next step</title></relcolspec>
+      
+    </relheader>
+    <relrow class="- map/relrow ">
+      <relcell class="- map/relcell ">
+      <topicref linking="sourceonly" href="query_test_cases_linked_to_TestRail_in_a_dynamic_test_suite.dita" class="- map/topicref "/></relcell>
+      <relcell class="- map/relcell ">
+      <topicref href="../../../Analyze/Integrations_For_Reports_And_Analytics/Upload_Studio_Test_Results_To_TestRail/intro_upload_test_execution_results_from_katalon_studio_to_testrail.dita" class="- map/topicref "/></relcell>
+      
+    </relrow>
+  </reltable></map>

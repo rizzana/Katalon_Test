@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Part 4: Install the WebDriverAgent</title>
+    <conbody class="- topic/body  concept/conbody ">
+
+      <p class="- topic/p ">The WebDriverAgent is a WebDriver server used to control iOS
+         devices remotely. To install the WebDriverAgent, you can refer to
+         this document: <xref href="../Mobile_Install_WebDriverAgent_For_iOS_Devices/Concept/installing-webdriveragent-for-ios-devices.dita" class="- topic/xref ">Install
+            WebDriverAgent for iOS devices</xref>.</p>
+    </conbody>
+  </concept>

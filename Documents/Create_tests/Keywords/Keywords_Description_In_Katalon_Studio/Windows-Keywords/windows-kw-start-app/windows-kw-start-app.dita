@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_0" class="- topic/topic concept/concept "><title class="- topic/title ">[Windows] Start Application</title><conbody class="- topic/body  concept/conbody "><section id="id" class="- topic/section ">
+    <title class="- topic/title "/>
+    
+      <note type="note" class="- topic/note ">
+        <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Starting from <b class="+ topic/ph hi-d/b ">version 7.0.0</b>, Windows desktop
+            application testing is available on Katalon Studio.</p></li></ul>
+      </note>
+    
+  </section><section id="id_1" class="- topic/section ">
+    <title class="- topic/title ">startApplication</title>
+    
+      <ul class="- topic/ul "><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Description</b>: Start the Windows driver and the
+            Windows application with the given absolute path.</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Keyword name</b>: startApplication</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Keyword syntax</b>:
+            Windows.startApplication(appFile)</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Parameter</b>: appFile 
+            
+            <ul class="- topic/ul "><li class="- topic/li ">Description: The absolute path to the Windows Executable File
+                  (*.exe) of the test machine.</li><li class="- topic/li ">Parameter Type: String</li><li class="- topic/li ">Mandatory: Required</li></ul>
+        </li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Example</b>:</li></ul>
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">"Start the note pad application"
+Windows.startApplication('C:\\Windows\\System32\\notepad.exe')
+</codeblock>
+      
+    
+  </section></conbody></concept>

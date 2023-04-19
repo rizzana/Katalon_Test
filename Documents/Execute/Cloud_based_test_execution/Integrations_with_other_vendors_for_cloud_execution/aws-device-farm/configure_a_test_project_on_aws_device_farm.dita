@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">Configure a test project on AWS Device Farm</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">After preparing your Katalon Project, log in to the AWS Console
+         and go to <b class="+ topic/ph hi-d/b ">Device Farm &gt; Mobile Device: Projects</b>
+         to create a new project.</p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/aws-device-farm-integration/3-create-test-project.png" scope="external" width="700" class="- topic/image "><alt class="- topic/alt ">create test project</alt></image>
+      </p><p class="- topic/p ">Input your <b class="+ topic/ph hi-d/b ">Project Name</b>, then hit
+         <b class="+ topic/ph hi-d/b ">Create</b>.</p><p class="- topic/p ">This section guides you through 4 steps to configure your
+         Katalon test project on AWS Device Farm.</p><ol class="- topic/ol "><li class="- topic/li ">
+          <p class="- topic/p "><b class="+ topic/ph hi-d/b ">Choose application</b>
+          </p>
+          <p class="- topic/p ">Choose between <b class="+ topic/ph hi-d/b ">Mobile App</b> and <b class="+ topic/ph hi-d/b ">Web
+                  App</b> with the toggle button.</p>
+          <ul class="- topic/ul "><li class="- topic/li ">
+              <p class="- topic/p ">For mobile app testing, select <b class="+ topic/ph hi-d/b ">Mobile App</b>.
+                     Upload your application under test, which is an
+                     <b class="+ topic/ph hi-d/b ">.apk</b> file for an Android application or an
+                     <b class="+ topic/ph hi-d/b ">.ipa</b> file for an iOS application. Wait for the
+                     file to upload, then click <b class="+ topic/ph hi-d/b ">Next</b>.</p>
+              <p class="- topic/p ">
+                <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/aws-device-farm-integration/3-upload-mobile-app.png" scope="external" width="600" class="- topic/image "><alt class="- topic/alt ">upload mobile app</alt></image>
+              </p>
+            </li><li class="- topic/li ">
+              <p class="- topic/p ">For Web app testing, select <b class="+ topic/ph hi-d/b ">Web App</b>. Enter your
+                     run name, then click <b class="+ topic/ph hi-d/b ">Next</b>. The
+                     <b class="+ topic/ph hi-d/b ">Configure</b> page appears.</p>
+            </li></ul>
+        </li><li class="- topic/li ">
+          <p class="- topic/p "><b class="+ topic/ph hi-d/b ">Configure</b>
+          </p>
+          <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Setup test framework</b> section, click the
+               <i class="+ topic/ph hi-d/i ">dropdown</i> button and select <codeph class="+ topic/ph pr-d/codeph ">Appium Java
+                  JUnit</codeph>.</p>
+          <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Selected File</b> section, upload the
+               <codeph class="+ topic/ph pr-d/codeph ">zip-with-dependencies.zip</codeph> file.</p>
+          <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Choose your execution environment</b>,
+               choose <b class="+ topic/ph hi-d/b ">Run your test in a custom environment</b>, then
+               click <b class="+ topic/ph hi-d/b ">Next</b>.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/aws-device-farm-integration/3-upload-zip-file.png" scope="external" width="700" class="- topic/image "><alt class="- topic/alt ">upload zip file</alt></image>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p "><b class="+ topic/ph hi-d/b ">Select Devices</b>
+          </p>
+          <p class="- topic/p ">Choose a suitable device pool, then click
+               <b class="+ topic/ph hi-d/b ">Next</b>.</p>
+          <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Specify device state</b> page appears. Review
+               other settings and change when needed, then click
+               <b class="+ topic/ph hi-d/b ">Next</b>.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p "><b class="+ topic/ph hi-d/b ">Review and start Run</b>
+          </p>
+          <p class="- topic/p ">Review all of the configurations one last time, then click
+               <b class="+ topic/ph hi-d/b ">Confirm and Start Run</b>.</p>
+          <p class="- topic/p ">In AWS Console, a new test run is created. Its status is
+               pending.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/aws-device-farm-integration/3-finish-creating-run.png" scope="external" width="700" class="- topic/image "><alt class="- topic/alt ">finish creating run</alt></image>
+          </p>
+          <p class="- topic/p ">After the run starts, you can click on the test run name and a
+               specified device to view the test status.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/aws-device-farm-integration/3-view-test-run-status.png" scope="external" width="700" class="- topic/image "><alt class="- topic/alt ">view test run status</alt></image>
+          </p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/aws-device-farm-integration/3-test-runs-finish.png" scope="external" width="700" class="- topic/image "><alt class="- topic/alt ">test runs finish</alt></image>
+          </p>
+          <p class="- topic/p ">After the run finishes, you can download the execution report at
+               Files/Customer Artifacts.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/aws-device-farm-integration/3-download-report.png" scope="external" width="700" class="- topic/image "><alt class="- topic/alt ">download report</alt></image>
+          </p>
+        </li></ol></conbody></concept>

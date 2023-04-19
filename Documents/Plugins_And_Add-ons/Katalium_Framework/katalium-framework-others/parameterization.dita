@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Parameterization</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">TestNG provides a comprehensive mechanism for customizing
+         parameters, which can be referred <xref format="html" href="https://testng.org/doc/documentation-main.html#parameters" scope="external" class="- topic/xref ">here</xref>.</p><p class="- topic/p ">In Katalium Framework, you can set default values for parameters
+         in the file <codeph class="+ topic/ph pr-d/codeph ">kata-default.properties</codeph> (<xref format="html" href="https://github.com/katalon-studio/katalium-sample/blob/master/src/test/resources/kata-default.properties" scope="external" class="- topic/xref ">example</xref>),
+         or using at runtime using Java's system properties, e.g. <codeph class="+ topic/ph pr-d/codeph ">mvn
+            clean test -DkataBrowser=firefox</codeph>. This is very handy when
+         you do not want reconfigure unchanged parameters.</p><p class="- topic/p ">Default values of parameters can be accessed using the helper
+         <codeph class="+ topic/ph pr-d/codeph ">com.katalon.kata.helper.ParameterHelper</codeph>.</p></conbody></concept>

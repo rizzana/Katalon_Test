@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">Private Plugins in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Private plugins are Katalon plugins that are developed for
+         private use. With private plugins supported, you can build,
+         distribute, install, and use your plugins without publishing them
+         on Store for public access.</p><section class="- topic/section "><title class="- topic/title ">Requirements</title><ul class="- topic/ul "><li class="- topic/li "><ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> version 7.0.0 onwards.</li><li class="- topic/li ">An active Katalon Studio Enterprise license. To learn more
+               about activating licenses, you can refer to this document: <xref href="../../../../Administer/KSE-KRE-Licenses/activate-license/activate_a_license_with_internet_access.dita" class="- topic/xref ">Activate
+                  Katalon licenses</xref>.</li></ul></section></conbody></concept>

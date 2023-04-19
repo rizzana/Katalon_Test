@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_27" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">New Features</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+
+          <li class="- topic/li ">Katalon TestOps (Beta) Integration: Support associating a test
+            execution in Katalon Studio with Release on Katalon TestOps (Beta)
+            via command-line parameter. <xref href="../../../../Plan/link-execution-with-TestOps-release-via-cli-in-Studio/intro-link-execution-to-TestOps-release-via-cli.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li>
+
+          <li class="- topic/li ">Katalon TestOps (Beta) Integration: Display the Executions
+            table in Tests Explorer. <xref href="../../../../Get_Started/Set_Up_Your_Workspace/Integrate_Katalon_TestOps_and_TestCloud_With_Katalon_Studio/Integrate_Katalon_TestOps_with_Katalon_Studio.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li>
+        </ul>
+      </conbody>
+    </concept>

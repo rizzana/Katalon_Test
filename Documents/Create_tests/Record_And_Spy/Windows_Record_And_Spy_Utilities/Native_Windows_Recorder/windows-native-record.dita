@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Native Windows Recorder in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">From version 7.0.0, Katalon supports the recording utility for
+         Desktop apps testing. From version <b class="+ topic/ph hi-d/b ">7.5.0</b>, Native
+         Windows Recorder is available for Windows machines. This
+         new-generation Windows Recorder gives you a seamless recording
+         experience that is similar to Web Recorder.</p><section class="- topic/section "><title class="- topic/title ">Requirements</title><ul class="- topic/ul "><li class="- topic/li ">Your Katalon Studio version must be
+            <b class="+ topic/ph hi-d/b ">7.5.0+</b></li><li class="- topic/li ">You need an active <b class="+ topic/ph hi-d/b ">Katalon Studio Enterprise</b>
+            license</li><li class="- topic/li ">This feature is supported on <b class="+ topic/ph hi-d/b ">Windows only</b></li><li class="- topic/li "><xref href="../../../Manage_Projects/Set_Up_Projects/Windows_Desktop_Apps_Testing/Setup-Winappdriver/setup-winappdriver.dita" class="- topic/xref ">Setting
+               up WinAppDriver</xref>. If your machine hasn't installed it yet, open
+            Katalon Studio and go to <b class="+ topic/ph hi-d/b ">Tools &gt; Windows &gt; Install
+               WinAppDrivers</b> and follow the set-up wizard.</li><li class="- topic/li ">Installing <xref format="html" href="https://dotnet.microsoft.com/download/dotnet-framework/net452" scope="external" class="- topic/xref ">Microsoft
+               .NET Framework 4.5.2 or later</xref></li></ul></section></conbody></concept>

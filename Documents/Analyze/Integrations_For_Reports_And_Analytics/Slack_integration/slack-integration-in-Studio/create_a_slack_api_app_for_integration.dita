@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Create a Slack API app for integration</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">
+
+          <p class="- topic/p ">To create a Slack API app, open a Slack workspace and navigate
+               to the <xref format="html" href="https://api.slack.com/apps" scope="external" class="- topic/xref ">Slack API app</xref> site
+               to create a new app from scratch.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/slack-plugin-integration/Slack-create-app-from-scratch.png" scope="external" width="400" class="- topic/image "><alt class="- topic/alt ">Create an app from scratch</alt></image>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Configure the app. In the <b class="+ topic/ph hi-d/b ">Feature</b> sidebar,
+               navigate to the <b class="+ topic/ph hi-d/b ">OAuth &amp; Permissions</b> section,
+               scroll down to the <b class="+ topic/ph hi-d/b ">Scopes</b> pane and add these
+               <b class="+ topic/ph hi-d/b ">Bot Token Scopes</b>: <codeph class="+ topic/ph pr-d/codeph ">app_mentions:read</codeph>,
+               <codeph class="+ topic/ph pr-d/codeph ">calls:write</codeph>, <codeph class="+ topic/ph pr-d/codeph ">chat:write</codeph>, and
+               <codeph class="+ topic/ph pr-d/codeph ">chat:write.customize</codeph>.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/slack-plugin-integration/Slack-add-scope.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">Add scopes</alt></image>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">To install the app, scroll up to the <b class="+ topic/ph hi-d/b ">OAuth Tokens for
+                  Your Workspace</b> pane and click on the <b class="+ topic/ph hi-d/b ">Install to
+                  Workspace</b> button.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/slack-plugin-integration/Slack-app-api-install-app.png" scope="external" width="550" class="- topic/image "><alt class="- topic/alt ">Install to Workspace button</alt></image>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">After the installation, a <b class="+ topic/ph hi-d/b ">Bot User OAuth Token</b>
+               is displayed. Click on the <b class="+ topic/ph hi-d/b ">Copy</b> button to copy the
+               token to your clipboard.</p>
+          <p class="- topic/p ">Katalon Studio requires this token to integrate with a Slack API
+               app.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/slack-plugin-integration/Slack-bot-OAuth-token.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">Copy the OAuth token</alt></image>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Select a channel in your Slack workspace. In the message field,
+               type in "<codeph class="+ topic/ph pr-d/codeph ">/invite</codeph>" and select <b class="+ topic/ph hi-d/b ">Add apps to this
+                  channel</b>. Enter your app's name.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/slack-plugin-integration/Slack-add-app-to-channel.png" scope="external" width="700" class="- topic/image "><alt class="- topic/alt ">Add apps to this channel</alt></image>
+          </p>
+        </li></ol></conbody></concept>

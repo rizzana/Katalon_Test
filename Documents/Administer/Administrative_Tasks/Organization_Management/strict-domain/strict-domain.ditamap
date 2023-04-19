@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-strict-domain" class="- map/map ">
+  <title class="- topic/title ">Enable/Disable Strict Domain</title>
+  <topicref href="strict-domain.dita" class="- map/topicref "><topicref href="enable_the_strict_domain.dita" class="- map/topicref "/>
+  <topicref href="disable_the_strict_domain.dita" class="- map/topicref "/>
+</topicref>
+  </map>

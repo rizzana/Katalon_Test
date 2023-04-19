@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Linux</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">Download and install <xref format="html" href="https://cmake.org/download/" scope="external" class="- topic/xref ">CMake</xref>.</li><li class="- topic/li ">Export CMake binary folder to PATH of Environment
+            Variables.</li><li class="- topic/li ">Run the following commands</li></ol><codeblock class="+ topic/pre pr-d/codeblock ">   npm install -g appium
+    npm install -g opencv4nodejs
+</codeblock><note type="note" class="- topic/note "> It takes 30-40 minutes to complete the installation.
+        </note></conbody></concept>

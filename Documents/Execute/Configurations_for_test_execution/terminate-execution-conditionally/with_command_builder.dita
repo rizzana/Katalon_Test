@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">With Command Builder</title><conbody class="- topic/body  concept/conbody "><note type="note" class="- topic/note ">
+            <p class="- topic/p ">For detailed instruction on how to run a test execution in Console mode, see <xref href="../../Katalon_Runtime_Engine/console-mode-execution/command_builder_1.dita" class="- topic/xref ">Command Builder</xref>.</p>
+        </note><p class="- topic/p ">Go to Katalon Studio and set a maximum number of test failures.</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">In the toolbar, select <b class="+ topic/ph hi-d/b ">Build CMD</b> (Build Command).</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Generate Command for Console Mode &gt; Execution Configurations</b>, check the box <b class="+ topic/ph hi-d/b ">Terminate the execution once the total number of test failures reaches this threshold</b>. In the text field, input your desired maximum number of test failures.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/condition%20to%20stop%20-%202.png" scope="external" class="- topic/image "><alt class="- topic/alt ">command builder</alt></image>
+                </p>
+                <note type="note" class="- topic/note ">
+                    <p class="- topic/p ">The maximum test cases failure must be greater than 0 and a natural number (1, 2, 3...). Otherwise, Katalon Studio will not start the execution.</p>
+                </note>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">After you are done with the configuration, click <b class="+ topic/ph hi-d/b ">Generate command</b>. A command containing the <codeph class="+ topic/ph pr-d/codeph ">-maxFailedTests</codeph> option is generated.</p>
+                <p class="- topic/p ">Copy the generated command to use in Console mode.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/generate%20command%201.png" scope="external" class="- topic/image "/>
+                </p>
+                <p class="- topic/p ">You can also execute the test with the property file. To save the property file in the <b class="+ topic/ph hi-d/b ">Execution Configurations</b> dialog, click <b class="+ topic/ph hi-d/b ">Generate property file &gt; Save</b>.</p>
+            </li></ol></conbody></concept>

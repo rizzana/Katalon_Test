@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_8" class="- topic/topic concept/concept "><title class="- topic/title ">Button</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">A button is normally used to receive an action from users
+            such as hover, click, and double click. Similar to a textbox, a
+            button is often recognized by its text. Here are some typical
+            examples of buttons in a web page:</p><p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/web_element_locators/examples-of-buttons-in-a-web-page-300x60.png" scope="external" class="- topic/image "><alt class="- topic/alt ">examples-of-buttons-in-a-web-page</alt></image>
+        </p><codeblock class="+ topic/pre pr-d/codeblock ">&lt;input accesskey="s" class="aui-button aui-button-primary" type="submit" value="Create"&gt;
+</codeblock><p class="- topic/p ">The text in this button is from the 'value' attribute. So
+            the XPath should be:<codeblock class="+ topic/pre pr-d/codeblock "> //input[@value='Create']</codeblock></p><p class="- topic/p ">Sometimes, the text in the button is not from the 'value'
+            attribute. It is actually a text or label with the format that
+            makes it look like a button.</p><p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/web_element_locators/the-text-in-the-button-300x92.png" scope="external" class="- topic/image "><alt class="- topic/alt ">the-text-in-the-button</alt></image>
+        </p><codeblock class="+ topic/pre pr-d/codeblock ">&lt;button type="submit" class="_1ptkf58d" aria-busy="false" data-veloute="book-it-footer-trigger"&gt;
+&lt;span class="_cgr7tc7"&gt;
+&lt;small class="_1pqj8ky3"&gt;
+&lt;div class="_1283fq"&gt;
+&lt;span&gt;Book
+&lt;/div&gt;
+&lt;/small&gt;
+&lt;/button&gt;
+</codeblock><p class="- topic/p ">The following XPaths will help to locate the button.
+            You can use one of them.<codeblock class="+ topic/pre pr-d/codeblock ">//span[text()='Book']//ancestor::button[1] *
+            //button[.//span[text()='Book']] * //button[.='Book']</codeblock></p></conbody></concept>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-web-image-based-testing" class="- map/map ">
+  <title class="- topic/title ">Web Image-based Testing</title>
+  <topicref href="web-image-based-testing.dita" class="- map/topicref "><topicref href="enable_image-based_object_recognition_1647942270824.85.dita" class="- map/topicref "/>
+  <topicref href="capture_screenshots_for_object_recognition.dita" class="- map/topicref ">
+    <topicref href="using_built-in_tools.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="add_image_locator_to_objects.dita" class="- map/topicref "/>
+  <topicref href="reduce_image-based_testing_failures.dita" class="- map/topicref "/>
+</topicref>
+  </map>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_24" class="- topic/topic concept/concept "><title class="- topic/title ">Sequencing the API calls</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">It is a challenge for testing teams when API needs to be in a
+         specific order to work correctly. For instance, a call to return a
+         user's profile information goes through before the profile is
+         created, the request will return an error. The process can become
+         even more significantly difficult when involving more
+         applications.</p><p class="- topic/p ">To help overcome this issue, a flowchart is recommended to
+         visualize the API calls. Developers then can build and integrate
+         API calls faster with less unexpected problems.</p></conbody></concept>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Configure proxy</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">
+          <p class="- topic/p ">Open Katalon Studio. In the toolbar, click on the
+               <i class="+ topic/ph hi-d/i ">Profile</i> button and select <b class="+ topic/ph hi-d/b ">Log out</b>. You
+               will be logged out of your current account, and the <b class="+ topic/ph hi-d/b ">Katalon
+                  Studio Activation</b> dialog appears.</p>
+          <p class="- topic/p ">
+            
+          <image width="500" href="image/ks-pe-activation-dialog.png" class="- topic/image "/></p>
+          <note type="note" class="- topic/note "><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">If you download Katalon Studio for the first time or are not
+                  logged in to any account in Katalon Studio, when you open Katalon
+                  Studio, the <b class="+ topic/ph hi-d/b ">Katalon Studio Activation</b>
+                  automatically pops up.</p></li></ul>
+          </note>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Configure Authentication Proxy</b> at the
+               bottom of the Activation dialog box.</p>
+          <p class="- topic/p ">
+            
+          <image href="image/ks-pe-set-proxy.png" class="- topic/image "/></p>
+          <p class="- topic/p ">In the Proxy Settings dialog box, you can select one of the
+               three options below.</p>
+          <ul class="- topic/ul "><li class="- topic/li ">
+              <b class="+ topic/ph hi-d/b ">Use system proxy configuration</b>: Katalon Studio
+                  automatically syncs with the proxy server behind your system.</li><li class="- topic/li ">
+              <b class="+ topic/ph hi-d/b ">No proxy</b>: There's no proxy.</li><li class="- topic/li ">
+              <b class="+ topic/ph hi-d/b ">Manual proxy configuration</b>: You can manually
+                  set up your proxy.</li></ul>
+        </li></ol><p class="- topic/p ">If you are in  a highly secured environment, you might encounter a
+            situation where you fail to execute test scripts or activate
+            Katalon Studio. To fix this problem, you need to whitelist the domains listed in this document: <xref href="../../Troubleshooting/Troubleshoot/troubleshoot-activation-problems/Troubleshooting/Network_Security_errors.dita" class="- topic/xref ">Network security errors</xref>.</p></conbody></concept>

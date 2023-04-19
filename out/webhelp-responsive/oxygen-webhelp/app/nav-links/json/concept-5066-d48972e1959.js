@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"concept-5066-d48972e1959":{"topics":[{"title":"Automate Microsoft Dynamics 365 applications","href":"Documents\/General_Information\/Unsupported-Integrations\/Microsoft_Dynamics_365\/Automate_Microsoft_Dynamics_365_applications.html","attributes":{"data-id":"task-7219"},"menu":{"hasChildren":false},"tocID":"task-7219-d48972e1967","topics":[]}]}};

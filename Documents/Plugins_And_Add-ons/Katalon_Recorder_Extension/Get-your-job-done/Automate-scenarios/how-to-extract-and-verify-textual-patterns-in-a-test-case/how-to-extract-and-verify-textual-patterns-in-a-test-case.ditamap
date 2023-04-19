@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-how-to-extract-and-verify-textual-patterns-in-a-test-case" class="- map/map ">
+  <title class="- topic/title ">How to extract and verify textual patterns in a test case</title>
+  <topicref href="how-to-extract-and-verify-textual-patterns-in-a-test-case.dita" class="- map/topicref "><topicref href="test_case_scenario_1653306429262.9904.dita" class="- map/topicref "/>
+  <topicref href="record_the_test_case.dita" class="- map/topicref "/>
+  <topicref href="extract_and_verify_textual_patterns.dita" class="- map/topicref "/>
+</topicref>
+  </map>

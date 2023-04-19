@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-testing_mobile_apps_using_katalon_studio_kobiton" class="- map/map "><title class="- topic/title ">Testing Mobile Apps using Katalon Studio and Kobiton cloud-based device farm</title><topicref href="testing_mobile_apps_using_katalon_studio_kobiton.dita" class="- map/topicref "><topicref href="create_mobile_automation_test_cases_using_katalon_studio_recording_utility.dita" class="- map/topicref "/><topicref href="run_your_mobile_automation_test_case_on_kobiton_cloud_devices.dita" class="- map/topicref "/></topicref></map>

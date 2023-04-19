@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Call Test Case with variables</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Open a Test Case in <b class="+ topic/ph hi-d/b ">Manual</b> view, then click <b class="+ topic/ph hi-d/b ">Add</b> and select option <b class="+ topic/ph hi-d/b ">Call Test Case</b>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Test Case Browser</b> dialog which shows all existing test cases within the project will be displayed. Select the test case to be called and click <b class="+ topic/ph hi-d/b ">OK</b>.</p>
+                <p class="- topic/p ">In the following example, we call the <b class="+ topic/ph hi-d/b ">Test Case with variables</b> test case.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-case-variables/4-test-case-browser.png" scope="external" class="- topic/image "/>
+                </p>
+            </li><li class="- topic/li ">A <b class="+ topic/ph hi-d/b ">Call Test Case</b> step will be added with the selected test case above as its target.<image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-case-variables/KS-830-call-tc-with-variables.png" scope="external" class="- topic/image "><alt class="- topic/alt ">call test case with variables</alt></image><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-case-variables/6-input.png" scope="external" class="- topic/image "/>
+                </p><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-case-variables/7-map-input.png" scope="external" class="- topic/image "/>
+                </p><p class="- topic/p ">The result after running the test case will be displayed as below:</p><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-case-variables/8-result-after-call-test-case.png" scope="external" class="- topic/image "/>
+                </p></li></ol></conbody></concept>

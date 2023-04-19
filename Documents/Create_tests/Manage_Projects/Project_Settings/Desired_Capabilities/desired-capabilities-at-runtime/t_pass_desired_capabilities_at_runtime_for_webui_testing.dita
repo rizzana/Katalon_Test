@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Pass desired capabilities at runtime for WebUI Testing</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">To apply desired capabilities at runtime, place the following
+         sample code before the test script. This also overrides the desired
+         capabilities predefined in project settings.</p>
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">import com.kms.katalon.core.configuration.RunConfiguration
+RunConfiguration.setWebDriverPreferencesProperty(&lt;key&gt;, &lt;value&gt;)
+</codeblock>
+      
+    </conbody>
+    
+    
+  </concept>

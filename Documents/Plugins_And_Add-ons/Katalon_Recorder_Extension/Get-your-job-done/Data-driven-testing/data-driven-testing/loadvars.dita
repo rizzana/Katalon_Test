@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">loadVars</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">The <codeph class="+ topic/ph pr-d/codeph ">loadVars</codeph> command starts a loop to repeatedly
+         load the values from the data file specified in the
+         <b class="+ topic/ph hi-d/b ">Target</b> field.</p>
+      </conbody>
+    </concept>

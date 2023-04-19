@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Usage example 1</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ol class="- topic/ol ">
+          <li class="- topic/li ">
+            <p class="- topic/p ">Given that you want to capture the Comment text field of a
+               certain question in Katalon Forum (this text field is an iframe),
+               you can use the Web Object Spy of Katalon and see that it can
+               detect the iframe in the red highlighted area.</p>
+            <p class="- topic/p ">
+              <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handling_iframe_issue/Web-Object-Spy.png" scope="external" class="- topic/image ">
+                <alt class="- topic/alt ">iframe issue</alt>
+              </image>
+            </p>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">Once the Comment iframe is captured, Katalon shows all of its
+               child elements, which you can see in the Object Spy dialog.</p>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">As you save the captured object to Katalon Studio, its iframe is
+               also included. This is illustrated in the following screenshot:</p>
+            <p class="- topic/p ">
+              <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handling_iframe_issue/captured-object.png" scope="external" class="- topic/image ">
+                <alt class="- topic/alt ">Captured object to Katalon Studio</alt>
+              </image>
+            </p>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">Then, you can proceed to set the text to the Comment field by
+               specifying the child element for the Set Text keyword as described
+               below:</p>
+            <p class="- topic/p ">
+              <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handling_iframe_issue/Comment-field-1024x238.png" scope="external" class="- topic/image ">
+                <alt class="- topic/alt ">Set the text to the Comment field</alt>
+              </image>
+            </p>
+          </li>
+        </ol>
+      </conbody>
+    </concept>

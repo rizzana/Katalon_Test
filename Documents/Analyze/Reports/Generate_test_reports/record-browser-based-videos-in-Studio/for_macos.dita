@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">For macOS</title><conbody class="- topic/body  concept/conbody "><ul class="- topic/ul "><li class="- topic/li ">
+            <p class="- topic/p ">Install FFmpeg via Homebrew with <codeph class="+ topic/ph pr-d/codeph ">$ brew install ffmpeg</codeph>,</p>
+            <p class="- topic/p ">OR</p>
+          </li><li class="- topic/li ">Install it manually:</li><li class="- topic/li ">Go to the <xref format="html" href="https://ffmpeg.org/download.html" scope="external" class="- topic/xref ">FFmpeg
+               download web page</xref>.</li><li class="- topic/li ">Download the package which is appropriate for your operating
+            system.</li><li class="- topic/li ">Add the path to the <codeph class="+ topic/ph pr-d/codeph ">.../ffmpeg/bin</codeph> folder to the
+            <codeph class="+ topic/ph pr-d/codeph ">/etc/paths</codeph> file.</li></ul><p class="- topic/p ">Click <xref format="html" href="https://avpres.net/FFmpeg/install_Apple.html" scope="external" class="- topic/xref ">here</xref> for
+         detailed instructions.</p></conbody></concept>

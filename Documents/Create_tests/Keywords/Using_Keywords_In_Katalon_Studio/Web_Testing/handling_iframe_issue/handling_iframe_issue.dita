@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Handling iFrame issue with <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">A prevalent type of control used in a website is the HTML
+         iframe. And this control needs to be handled in a specific manner
+         when testing. An iframe (Inline Frame) is an HTML document embedded
+         in another HTML document. The iframe HTML element is often used to
+         insert the content from another source, such as an advertisement,
+         into a Web page.</p><p class="- topic/p ">Verifying text and objects within iframes can be a challenge.
+         For example, even though you can see a text displayed in an iframe,
+         automation tools may not be able to detect the text. You have to
+         tell your script how to traverse through a website's iframes
+         structure and select the correct iframe where the text and its
+         object are present. This article shows you how to handle iframes
+         properly in Katalon Studio.</p></conbody></concept>

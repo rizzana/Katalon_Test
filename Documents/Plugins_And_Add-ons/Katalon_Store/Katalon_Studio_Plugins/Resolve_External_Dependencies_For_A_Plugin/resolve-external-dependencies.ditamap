@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-resolve-external-dependencies" class="- map/map ">
+  <title class="- topic/title ">How to resolve external dependencies for a plugin</title>
+  <topicref href="resolve-external-dependencies.dita" class="- map/topicref "><topicref href="upload_your_dependencies_to_maven_central_repository.dita" class="- map/topicref "/>
+  <topicref href="add_your_dependencies_to_the_build.gradle_file_1647962163173.62.dita" class="- map/topicref "/>
+  <topicref href="see_also_1647962163173.62.dita" class="- map/topicref "/>
+</topicref>
+  </map>

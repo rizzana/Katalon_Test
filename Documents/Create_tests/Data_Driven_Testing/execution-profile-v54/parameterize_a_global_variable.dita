@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_10" class="- topic/topic concept/concept "><title class="- topic/title ">Parameterize a Global Variable</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">You can directly parameterize Global Variables in WebUI, Mobile, Windows, and API Test Objects. To parameterize a global variable, enter the syntax <codeph class="+ topic/ph pr-d/codeph ">${GlobalVariable.name}</codeph> in each type's supported locations.</p><ul class="- topic/ul "><li class="- topic/li "> <xref href="../../Test_Objects/Web_Test_Objects/parameterize-web-objects/parameterize-web-objects.dita" class="- topic/xref ">Web Test Objects</xref>
+            </li><li class="- topic/li "> <xref href="../../Test_Objects/Mobile_Test_Objects/Parameterize_Mobile_Test_Object_Properties/parameterize-mobile-test-object-properties.dita" class="- topic/xref ">Mobile Test Objects</xref>
+            </li><li class="- topic/li "> <xref href="../../Test_Objects/Windows_Test_Objects/parameterize_windows_test_objects.dita" class="- topic/xref ">Windows Test Objects</xref>
+            </li><li class="- topic/li "> <xref href="../../Test_Objects/API_Test_Object/REST_Request/Parameterize_A_Web_Service_Object/for_restful_request.dita" class="- topic/xref ">RESTful request</xref>
+            </li><li class="- topic/li ">
+                <p class="- topic/p "> <xref href="../../Test_Objects/API_Test_Object/REST_Request/Parameterize_A_Web_Service_Object/for_soap-based_request.dita" class="- topic/xref ">SOAP-based request</xref>.</p>
+                <p class="- topic/p ">For example:</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">in HTTP Body of an API Test Object:</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/http-body.png" scope="external" class="- topic/image "/>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">in Selected Locator of a WebUI Test Object:</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/web-ui-test-object.png" scope="external" class="- topic/image "/>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">in Requested URL of a Web Service Request:</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/requested-url.png" scope="external" class="- topic/image "/>
+                </p>
+            </li></ul></conbody></concept>

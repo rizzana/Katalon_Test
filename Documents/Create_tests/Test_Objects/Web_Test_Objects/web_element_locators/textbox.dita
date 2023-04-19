@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_7" class="- topic/topic concept/concept "><title class="- topic/title ">Textbox</title><conbody class="- topic/body  concept/conbody "><codeblock class="+ topic/pre pr-d/codeblock ">&lt;input, type="text"&gt;</codeblock><p class="- topic/p ">A textbox is normally used to receive an input from users.
+            If there is no single static locator, you need to look for
+            references to unique elements to locate the textbox. Oftentimes
+            when look at a webpage, what helps us recognize the functionality
+            of a textbox is the text next to it. This is a good tactic of how
+            to locate the textbox.</p><p class="- topic/p ">Here are several examples of textbox:<ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">A textbox has a label outside and next to it. Depending
+            on the location of the label, you can select the most suitable
+            XPath.</p><p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/web_element_locators/Username.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Username</alt></image>
+        </p><codeblock class="+ topic/pre pr-d/codeblock ">&lt;div class="field-group"&gt;
+&lt;label accesskey="u" for="tl0156"&gt;Username&lt;/label&gt;
+&lt;input class="text medium-field" id="tl0156" type="text"&gt;
+&lt;/div&gt;
+
+</codeblock></li><li class="- topic/li "><p class="- topic/p ">There are some XPath that can be used to locate the
+            textbox:<ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "><codeph class="+ topic/ph pr-d/codeph ">//label[.='Username']/following-sibling::input</codeph></p></li><li class="- topic/li "><p class="- topic/p "><codeph class="+ topic/ph pr-d/codeph ">//label[.='Username']//ancestor::div[1]//input</codeph></p></li><li class="- topic/li "><p class="- topic/p "><codeph class="+ topic/ph pr-d/codeph ">//input[@id=//label[.='Username']/@for]</codeph></p></li></ul></p></li><li class="- topic/li "><p class="- topic/p ">Sometimes you may see some textboxes that already have
+            text (or a placeholder) inside them:<image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/web_element_locators/textboxes.png" scope="external" class="- topic/image "><alt class="- topic/alt ">textboxes</alt></image></p><codeblock class="+ topic/pre pr-d/codeblock ">&lt;input data-selenium="textInput" tabindex="-1" type="text" class="SearchBoxTextEditor SearchBoxTextEditor--autocomplete" placeholder="Enter a destination or property" value=""&gt;
+</codeblock></li></ul></p><p class="- topic/p ">Use the 'placeholder' attribute in an XPath to locate the
+            textbox as:<codeblock class="+ topic/pre pr-d/codeblock ">//input[@placeholder='Enter a destination or property']</codeblock></p> <p class="- topic/p ">Pay attention to the 'placeholder' attribute.
+            It may be dynamic as well. The Search bar of Airbnb's website is an
+            example:<image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/web_element_locators/Search-bar-of-Airbnbs.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Search-bar-of-Airbnb's</alt></image></p><p class="- topic/p ">In this case, use Tag or texts next to the
+            textbox.</p></conbody></concept>

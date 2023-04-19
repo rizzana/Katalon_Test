@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Integrate Jenkins on Docker hosted in Ubuntu</title><conbody class="- topic/body  concept/conbody "><note type="important" class="- topic/note ">
+        
+        <ul class="- topic/ul "><li class="- topic/li ">An active floating Katalon Runtime Engine license.</li><li class="- topic/li ">Docker and Jenkins already installed and configured. You can
+               learn how to install Docker and Jenkins in this Jenkins guide: <xref format="html" href="https://www.jenkins.io/doc/book/installing/docker/" scope="external" class="- topic/xref ">Docker</xref>.</li></ul>
+      </note><p class="- topic/p ">Docker is a platform for running applications in an isolated
+         environment called a Docker container. Applications like Jenkins
+         can be downloaded as read-only images, each of which is run in
+         Docker as a container.</p><p class="- topic/p ">However, when your Jenkins is installed on a dynamic Docker
+         hosted in Ubuntu without GUI, you might not be able to configure
+         build and integration with Katalon Studio from the user interface
+         normally.</p><p class="- topic/p ">This tutorial will guide you through configuring and building
+         your Katalon Project with Jenkins on Docker hosted in Ubuntu. Your
+         Katalon Project will be run with Katalon Studio Docker Image; hence
+         pre-installed Katalon Studio and Katalon Runtime Engine in your
+         local machine are not required. You can pull Docker Image for
+         Katalon Studio at Docker Hub: <xref format="html" href="https://hub.docker.com/r/katalonstudio/katalon" scope="external" class="- topic/xref ">katalonstudio/katalon</xref>.</p></conbody></concept>

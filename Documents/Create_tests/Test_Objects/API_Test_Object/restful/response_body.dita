@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_10" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Response Body</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">Katalon can read a service response in JSON, XML, HTML, and
+         JavaScript. The response body can be displayed in three
+         formats: pretty, raw, and preview.</p>
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">
+            <p class="- topic/p ">
+
+              <b class="+ topic/ph hi-d/b ">pretty</b>: Response is displayed in a pretty
+               format which is easier to read <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/restful-web-services/Screen-Shot-2018-04-10-at-17.23.21.png" scope="external" class="- topic/image "/>
+            </p>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">
+
+              <b class="+ topic/ph hi-d/b ">raw</b>: Response is displayed in the raw text
+               without any format <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/restful-web-services/image2018-9-5-143A253A6.png" scope="external" class="- topic/image "/>
+            </p>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">
+
+              <b class="+ topic/ph hi-d/b ">preview</b>: Response is displayed as visualized
+               (e.g., If a Response is from loading a specific webpage, it is
+               displayed as the screenshot below) <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/restful-web-services/image2018-4-1-19_10_26.png" scope="external" class="- topic/image "/>
+            </p>
+          </li>
+        </ul>
+      </conbody>
+    </concept>

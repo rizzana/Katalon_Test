@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Run Test Suites in parallel</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Test Execution</b> &gt; <b class="+ topic/ph hi-d/b ">Test Run List</b>.</p>
+                <p class="- topic/p ">You can see the new Test Run List here.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click on the <i class="+ topic/ph hi-d/i ">Run</i> icon.</p>
+                <p class="- topic/p ">The two Agents are now running at the same time.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt_run_parallel_agent/kt_two_agents_run.png" scope="external" class="- topic/image "><alt class="- topic/alt ">2 agents run concurrently</alt></image>
+                </p>
+            </li></ol></conbody></concept>

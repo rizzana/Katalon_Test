@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Manage an Organization</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To manage your Organization, click on the
+         <b class="+ topic/ph hi-d/b ">Settings</b> icon and choose <b class="+ topic/ph hi-d/b ">Organization
+            Management</b>.</p><p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Organization profile</b> page appears as
+         below.</p><p class="- topic/p ">
+        
+      <image width="700" href="image/to-org-management.png" class="- topic/image "><alt class="- topic/alt ">TestOps - Organization Management</alt></image></p><p class="- topic/p ">You can find your Organization ID, update Organization name or
+         delete your Organization here.</p></conbody></concept>

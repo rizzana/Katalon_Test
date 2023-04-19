@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id_23" class="- topic/topic ">
+    <title class="- topic/title ">5.4.5</title>
+    <body class="- topic/body ">
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">Improvements 
+            
+            <ul class="- topic/ul ">
+            <li class="- topic/li ">Improved registration process.</li>
+            <li class="- topic/li ">We are constantly refining the registration process to offer
+                  users the best experience while balancing againt our business
+                  needs.</li>
+            <li class="- topic/li ">Since version 5.4.5, new users will be able to execute 25 tests
+                  without being forced or suggested to sign up. However, when the
+                  quota is exceeded, you will need a <b class="+ topic/ph hi-d/b ">free</b> account
+                  and log in to continue your work.</li>
+          </ul>
+        </li>
+      </ul>
+    </body>
+  </topic>

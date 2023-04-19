@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Script Mode</title><conbody class="- topic/body  concept/conbody "><codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+ 
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+ 
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+ 
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+ 
+'Path of the Apk File Store in path variable'
+ 
+def path = RunConfiguration.getProjectDir() + '/Data Files/ApiDemos.apk'
+ 
+'Start the application'
+ 
+Mobile.startApplication(path, false)
+ 
+'Wait for element Present of Heading API Demos'
+ 
+Mobile.waitForElementPresent(findTestObject('API Demos Objects/Zoom_IN/heading_API_Demos'), 45)
+ 
+'Checking the Element "Heading API Demos" is in Visible '
+ 
+Mobile.verifyElementVisible(findTestObject('API Demos Objects/Zoom_IN/heading_API_Demos'), 30)
+ 
+'Scroll to Views text'
+ 
+Mobile.scrollToText('Views', FailureHandling.STOP_ON_FAILURE)
+ 
+'Tap on Views'
+ 
+Mobile.tap(findTestObject('API Demos Objects/Zoom_IN/text_Views'), 20)
+ 
+'Scroll to WebView text'
+ 
+Mobile.scrollToText('WebView', FailureHandling.STOP_ON_FAILURE)
+ 
+'Checking the Element "WebView" is in Visible '
+ 
+Mobile.verifyElementVisible(findTestObject('API Demos Objects/Zoom_IN/text_WebView'), 30)
+ 
+'Tap on WebView'
+ 
+Mobile.tap(findTestObject('API Demos Objects/Zoom_IN/text_WebView'), 30)
+ 
+'Wait for Element Present "Hello World"'
+ 
+Mobile.waitForElementPresent(findTestObject('API Demos Objects/Zoom_IN/link_Hello World'), 30)
+ 
+'Checking the Element "Hello World" is in Visible '
+ 
+Mobile.verifyElementVisible(findTestObject('API Demos Objects/Zoom_IN/link_Hello World'), 30)
+ 
+'Get Element Height of "Hello World" Element'
+ 
+ele_Height = Mobile.getElementHeight(findTestObject('API Demos Objects/Zoom_IN/link_Hello World'), 30)
+ 
+'Get Element Width of "Hello World" Element'
+ 
+ele_Width = Mobile.getElementWidth(findTestObject('API Demos Objects/Zoom_IN/link_Hello World'), 30)
+ 
+'Pinch to Zoom In on "Hello World" Element up to 200 Offset'
+ 
+Mobile.pinchToZoomInAtPosition(ele_Height, ele_Width, 200)
+ 
+'Get Element Height of  Zoom In "Hello World" Element'
+ 
+zoom_ele_Height = Mobile.getElementHeight(findTestObject('API Demos Objects/Zoom_IN/link_Hello World'), 30)
+ 
+'Get Element Width of Zoom In "Hello World" Element'
+ 
+zoom_ele_Width = Mobile.getElementWidth(findTestObject('API Demos Objects/Zoom_IN/link_Hello World'), 30)
+ 
+'Verify the Element Height of Zoom In greater than normal Element height'
+ 
+Mobile.verifyGreaterThan(zoom_ele_Height, ele_Height)
+ 
+'Verify the Element Width of Zoom In greater than normal Element Width'
+ 
+Mobile.verifyGreaterThan(zoom_ele_Width, ele_Width)
+ 
+'Close the Application.'
+ 
+Mobile.closeApplication()
+
+</codeblock><p class="- topic/p ">The source code is available <xref format="html" href="https://github.com/katalon-studio/katalon-mobile-automation" scope="external" class="- topic/xref ">here</xref>. For
+         further instructions and help, please refer to <xref href="../../../Keywords_Description_In_Katalon_Studio/Mobile-Keywords/mobile-pinch-to-zoom-in-at-position/mobile-pinch-to-zoom-in-at-position.dita" class="- topic/xref ">Pinch
+            To Zoom In At Position</xref> guide and join us on <xref format="html" href="http://forum.katalon.com/" scope="external" class="- topic/xref ">Katalon Forum</xref>.</p></conbody></concept>

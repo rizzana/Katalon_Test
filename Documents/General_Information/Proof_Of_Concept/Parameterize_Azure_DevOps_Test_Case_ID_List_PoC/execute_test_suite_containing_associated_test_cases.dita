@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Execute a test suite containing associated test cases in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Add the test case above to a test suite.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">To conduct <b class="+ topic/ph hi-d/b ">Data Binding</b>, in the test suite editor, click <b class="+ topic/ph hi-d/b ">Show Data Binding</b>.</p>
+                <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Test Data</b> table, you can add or check your test data files. The <b class="+ topic/ph hi-d/b ">Variable Binding</b> table shows your variable list with related test data files and values. See <xref href="../../../Create_tests/Data_Driven_Testing/run-test-case-external-data/manage_data_binding.dita" class="- topic/xref ">Manage Data Binding</xref>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/associated-ADO-TC-IDs/ks-ddt-ado-binding.png" scope="external" class="- topic/image "><alt class="- topic/alt ">conduct data binding</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">When you are done with the configuration, click <b class="+ topic/ph hi-d/b ">Run</b> to execute your test suite. After the test suite execution, you can view your test results in ADO. Each test iteration in Katalon Studio is automatically mapped to related ADO test cases. Invalid ADO test case IDs are showed in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> <b class="+ topic/ph hi-d/b ">Event Log</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/associated-ADO-TC-IDs/event-log-ado.png" scope="external" class="- topic/image "><alt class="- topic/alt ">event log</alt></image>
+                </p>
+                <p class="- topic/p ">In Azure Test Plans, you can find a report with a list of test iterations.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/associated-ADO-TC-IDs/report%20in%20ADO.png" scope="external" class="- topic/image "><alt class="- topic/alt ">report in ADO</alt></image>
+                </p>
+            </li></ol></conbody></concept>

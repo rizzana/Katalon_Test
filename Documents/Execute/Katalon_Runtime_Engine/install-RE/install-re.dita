@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Install Katalon Runtime Engine</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Starting from <b class="+ topic/ph hi-d/b ">version 7.0.0</b>, you need a <xref href="../../../About_Katalon_Platform/Katalon_Runtime_Engine_Overview/intro-re.dita" class="- topic/xref ">Katalon
+            Runtime Engine</xref> (KRE) license to activate and run Katalon Studio
+         or Katalon Studio Enterprise from the command line.</p></conbody></concept>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Example Katalon project</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">You can clone or download our sample project and iOS application
+         here. This step is optional, you can still use your own project in
+         this tutorial.</p><ul class="- topic/ul "><li class="- topic/li ">Sample Katalon project: <xref href="https://github.com/katalon-studio-samples/aws-device-farm-integration/tree/main/aut/KatalonDemoProject" scope="external" class="- topic/xref ">AWS Device Farm integration</xref></li><li class="- topic/li ">Sample iOS application: <xref format="html" href="https://github.com/katalon-studio-samples/aws-device-farm-integration/blob/main/aut/Coffee%20Timer.ipa" scope="external" class="- topic/xref ">Coffee
+               Timer.ipa</xref>
+        </li><li class="- topic/li "><p class="- topic/p ">For CI/CD pipelines with Jenkins, clone or download from our
+            repository: <xref format="html" href="https://github.com/katalon-studio-samples/ci-samples" scope="external" class="- topic/xref ">Jenkins
+               integration</xref>.</p></li></ul></conbody></concept>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Execute Katalon Studio tests in Jenkins</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">The following documents are tutorials and tips that can help you
+         execute Katalon Studio tests after Jenkins integration.</p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">
+          <xref href="../jenkins-tags-runtime/create_global_variables.dita" class="- topic/xref ">Passing
+               feature file and scenario tags at runtime when building with
+               Jenkins</xref>
+        </li>
+        <li class="- topic/li ">
+          <xref href="../execute-katalon-tests-with-jenkins-pipeline-script/katalon-jenkins-pipeline-script.dita" class="- topic/xref ">Execute
+               Katalon Studio tests with Jenkins Pipeline Script
+               (Jenkinsfile)</xref>
+        </li>
+      </ul>
+    </conbody>
+  </concept>

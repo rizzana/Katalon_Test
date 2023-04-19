@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_soap" class="- topic/topic concept/concept "><title class="- topic/title ">SOAP Request in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">When sending a SOAP Request in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/>, you can receive a
+         response from the API server for examination and troubleshooting.
+         This section includes a tutorial of how to create a SOAP request
+         object and an introduction to each field of a request service in
+         its opened editor.</p></conbody></concept>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_12" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Improvements</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">Show plugins which failed to reload</li>
+          <li class="- topic/li ">Support SSL client certificate</li>
+          <li class="- topic/li ">Support Appium v1.12.1, iOS 12.2, Xcode 10.2</li>
+          <li class="- topic/li ">Support overriding default WebDrivers per project</li>
+          <li class="- topic/li ">Update selenium-standalone-server from 3.7.1 to 3.141.59</li>
+          <li class="- topic/li ">Update appium-java-client from 5.0.0 to 7.0.0</li>
+          <li class="- topic/li ">Remove embedded carthage, libimobiledevice, and ios-deploy</li>
+        </ul>
+      </conbody>
+    </concept>

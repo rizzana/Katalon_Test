@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Use Katalon plugins for Jenkins integration on  Windows/macOS</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">This tutorial shows you how to integrate Katalon with Jenkins on
+         Windows and macOS via the <b class="+ topic/ph hi-d/b ">Katalon</b> plugin for
+         Jenkins.</p><note type="important" class="- topic/note ">
+
+        <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">An active Katalon Runtime Engine license. To
+            learn more about activating the Katalon Runtime Engine license, you
+            can refer to this document: <xref href="../../../../../Administer/KSE-KRE-Licenses/activate-license/activate_trial_license.dita" class="- topic/xref ">Activate
+               Katalon License</xref>.</p></li></ul>
+      </note></conbody></concept>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">View all sessions</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">To see the list of all sessions, go to
+         <codeph class="+ topic/ph pr-d/codeph ">http://hub_grid:4444/grid/admin/KatalonConsole/index.html</codeph>.</p>
+      <p class="- topic/p ">For example:</p>
+      <p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalium-server/docs/view-session-details/1-view-session.png" scope="external" class="- topic/image "/>
+      </p>
+    </conbody>
+  </concept>

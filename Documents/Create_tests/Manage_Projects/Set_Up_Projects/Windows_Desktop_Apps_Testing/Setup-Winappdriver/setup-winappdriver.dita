@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Set up WinAppDriver in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">This document shows you how to install and run Windows
+         Application Driver (WinAppDriver) on a Windows 10 machine before
+         performing Windows Desktop Apps tests.</p><note type="note" class="- topic/note ">
+        
+        <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">What is the test machine?</b></p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">The test machine is where you have the Application Under Test
+            installed and tested.</p></li></ul></li><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">What is the test runner machine?</b></p><ul class="- topic/ul "><li class="- topic/li ">The test runner machine is where you install Katalon Studio and
+               store the test scripts.</li><li class="- topic/li ">The test runner machine and the test machine can be the same
+               machine or different ones (remote connection)</li></ul></li></ul>
+      </note></conbody></concept>

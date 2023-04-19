@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Example</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">
+      There are some cases in which you can identify an object's locator
+      only when it's runtime. In other words, the exact locator of the
+      intended object cannot be specified beforehand in test scripts. In
+      the<xref href="https://katalon-demo-cura.herokuapp.com/profile.php#login" scope="external" class="- topic/xref "> Cura Healthcare Center appointment web
+      page</xref>,
+      for instance, there are three options of the healthcare program,
+      and the selected one is only known with passing data during
+      execution. </p><image height="567" href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manage-web-test-object/medicare.png" scope="external" width="670" class="- topic/image "/><p class="- topic/p "> How can we specify an option in a test
+      script? By parameterizing its locator. You need to create only one
+      Test Object, and you can determine which the exact object is with
+      the passed data during execution. </p><p class="- topic/p ">Now for the exciting part: How do
+      you determine which attribute(s) you have to adjust to parameterize
+      this object's XPath? The answer to this question is mainly based on
+      your knowledge of the web AUT. Knowing the pattern of how similar
+      objects are grouped is the key. In this case, the index's value of
+      <b class="+ topic/ph hi-d/b ">label attribute</b> is the value to parameterize for options on
+      the current web screen. </p><p class="- topic/p ">Depending on your preferred <xref href="../manage-web-test-object/manage-web-test-object.dita" class="- topic/xref ">selection
+      method</xref>,
+      including XPath (Smart XPath), Attributes or CSS, the captured
+      object has a corresponding selected locator. </p><p class="- topic/p ">Below steps are how to
+      apply parameterizing test objects in this case:
+<ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Capture the <b class="+ topic/ph hi-d/b ">XPath</b> locator of those 3 options and save them to the Object Repository in Katalon Studio.</p><ul class="- topic/ul "><li class="- topic/li "><b class="+ topic/ph hi-d/b ">Medicare</b>: <codeph class="+ topic/ph pr-d/codeph ">//*[@id=\"appointment\"]/div/div/form/div[3]/div/label[1]</codeph></li><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Medicaid</b>: <codeph class="+ topic/ph pr-d/codeph ">//*[@id=\"appointment\"]/div/div/form/div[3]/div/label[2]</codeph></p></li><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">None</b>: <codeph class="+ topic/ph pr-d/codeph ">//*[@id=\"appointment\"]/div/div/form/div[3]/div/label[3]</codeph></p></li></ul></li></ul>As can be seen in the captured XPath
+         locators of those 3 options,
+         they share this same pattern <codeph class="+ topic/ph pr-d/codeph ">//*[@id=\"appointment\"]/div/div/form/div[3]/div/label</codeph>; hence, in this case, the property variation is the label index.</p><p class="- topic/p "><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">In the test object view of the <i class="+ topic/ph hi-d/i ">Medicare </i>object, create
+         an XPath property and enter the captured XPath locator as its
+         value. </p></li></ul><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/param-web-object/label1.png" scope="external" class="- topic/image "/>
+      <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Create a variable as a place holder for the property change in
+         the locator with this syntax:<codeph class="+ topic/ph pr-d/codeph ">${Variable_name}</codeph></p><p class="- topic/p "> In
+         this case, it's the label index so we create
+         <codeph class="+ topic/ph pr-d/codeph ">[${index}]</codeph>. </p><p class="- topic/p ">Modify this XPath value with that variable. There are two
+         options for you: to parameterize the whole XPath value or merely a
+         part of it.</p><ul class="- topic/ul "><li class="- topic/li "><codeph class="+ topic/ph pr-d/codeph ">${index}</codeph> = <codeph class="+ topic/ph pr-d/codeph ">//*[@id=\"appointment\"]/div/div/form/div[3]/div/label[1]</codeph>.</li><li class="- topic/li "><p class="- topic/p "><codeph class="+ topic/ph pr-d/codeph ">${index}</codeph> = <codeph class="+ topic/ph pr-d/codeph ">[1]</codeph> =&gt; the XPath locator: <codeph class="+ topic/ph pr-d/codeph ">//*[@id=\"appointment\"]/div/div/form/div[3]/div/label[${index}]</codeph>.</p></li></ul></li></ul></p><p class="- topic/p ">Above is a simple approach to leverage the
+         '<b class="+ topic/ph hi-d/b ">Parameterized Test Object</b>', a powerful feature.
+         There are other approaches you can apply in your test scripts to
+         reduce the efforts of maintaining many Test Objects at the same
+         time.</p></conbody></concept>

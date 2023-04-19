@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_7" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Global Variables</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">A <b class="+ topic/ph hi-d/b ">global variable</b> is a variable defined in the
+         execution profile and can be used in a test case, test object, web
+         service object, and email configuration in a project.</p>
+    </conbody>
+    
+    
+    
+    
+    
+    
+  </concept>

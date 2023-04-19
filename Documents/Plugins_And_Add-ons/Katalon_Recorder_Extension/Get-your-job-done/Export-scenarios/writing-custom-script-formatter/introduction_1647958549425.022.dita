@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Introduction</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">Starting from version 3.4.0, Katalon Recorder provides a plugin
+         platform for people to extend its capabilities.</p>
+    </conbody>
+  </concept>

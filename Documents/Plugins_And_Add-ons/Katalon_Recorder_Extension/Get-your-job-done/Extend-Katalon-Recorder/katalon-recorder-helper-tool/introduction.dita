@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Introduction</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">Due to limitations in JavaScript and browsers' API, there are
+         some actions that cannot be done by Katalon Recorder alone. In
+         these cases, Katalon Recorder will send commands to a CLI tool
+         named Katalon Recorder Helper to finish the actions.</p>
+      <p class="- topic/p ">Katalon Recorder Helper is an open source project (<xref format="html" href="https://github.com/katalon-studio/katalon-recorder-helper" scope="external" class="- topic/xref ">https://github.com/katalon-studio/katalon-recorder-helper</xref>).
+         It is actually a very lightweight Java server that listens for
+         commands from Katalon Recorder. It is built on top of the Spring
+         Boot framework.</p>
+    </conbody>
+  </concept>

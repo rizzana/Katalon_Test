@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Execute test case/test suite</title><conbody class="- topic/body  concept/conbody "><ul class="- topic/ul "><li class="- topic/li ">
+                <p class="- topic/p ">Open a test case or test suite you want to execute.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Select either Chrome (headless) or Firefox (headless) from the execution items list.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/headless-browsers-execution/KS-HEADLESS-Execute-with-headless.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">Execute a test case with a headless browser</alt></image> 
+        </p>
+            </li><li class="- topic/li "><p class="- topic/p ">Then, your current test case/test suite will be executed using the selected headless browser.</p>
+            <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/headless-browsers-execution/KS-HEADLESS-Test%20cases-passed-with-headless-browser.png" scope="external" width="70%" class="- topic/image "><alt class="- topic/alt ">Execute a test case with a headless browser</alt></image>
+        </p></li></ul></conbody></concept>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task-2997" class="- topic/topic task/task "><title class="- topic/title ">Create new Test Listeners</title><taskbody class="- topic/body task/taskbody "><context class="- topic/section task/context "><p class="- topic/p ">Test listeners are test artifacts. You can perform all basic operations such as create, copy/cut, rename, or delete with test listeners. To create a new test listener, do as follows:</p></context><steps class="- topic/ol task/steps "><step conkeyref="ks-common-steps/ks-create-new-test-listener" class="- topic/li task/step "><cmd class="- topic/ph task/cmd "/></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">The <uicontrol conkeyref="ks-UI-text/ks-ui-new-test-listener" class="+ topic/ph ui-d/uicontrol "/> dialog appears with four options as below:</cmd><info class="- topic/itemgroup task/info "><image width="500" href="Images/new-test-listener-dialog.png" class="- topic/image "><alt class="- topic/alt ">New test listeners dialog</alt></image><p class="- topic/p "><table class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><colspec colname="col1" class="- topic/colspec "/><colspec colname="col2" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Option</entry><entry class="- topic/entry ">Description</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">Generate sample Before Test Case method</entry><entry class="- topic/entry ">Create a sample test listener executed before every test case starts.</entry></row><row class="- topic/row "><entry class="- topic/entry ">Generate sample After Test Case method</entry><entry class="- topic/entry ">Create a sample test listener executed after every test case ends.</entry></row><row class="- topic/row "><entry class="- topic/entry ">Generate sample Before Test Suite method</entry><entry class="- topic/entry ">Create a sample test listener executed before every test suite starts.</entry></row><row class="- topic/row "><entry class="- topic/entry ">Generate sample After Test Suite method</entry><entry class="- topic/entry ">Create a sample test listener executed after every test suite ends</entry></row></tbody></tgroup></table></p></info><tutorialinfo class="- topic/itemgroup task/tutorialinfo ">You can select one or multiple options, then click&#160;<uicontrol conkeyref="ks-UI-text/ks-ui-ok" class="+ topic/ph ui-d/uicontrol "/>. </tutorialinfo><stepresult class="- topic/itemgroup task/stepresult ">Once finished, <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> generates a sample template accordingly. The template includes necessary annotations, libraries, and supported functions.<p class="- topic/p "><note class="- topic/note "><ul class="- topic/ul "><li class="- topic/li ">You can create multiple test listeners.</li><li class="- topic/li ">If you have more than one test listener class, the classes themselves are instantiated in Katalon storage in alphabetical order. Only then are the individual listener methods executed top-down.</li><li class="- topic/li ">The execution status of any steps within test listeners does not affect the overall status of the executed test case. For example, if you have a FAILED output in any of your test listeners, but the final status of the executed test case is PASSED, then the test case status is PASSED.</li></ul></note></p><p class="- topic/p ">You can view the test listener template here:</p><p class="- topic/p "><codeblock class="+ topic/pre pr-d/codeblock ">import internal.GlobalVariable as GlobalVariable
+
+import com.kms.katalon.core.annotation.BeforeTestCase
+import com.kms.katalon.core.annotation.BeforeTestSuite
+import com.kms.katalon.core.annotation.AfterTestCase
+import com.kms.katalon.core.annotation.AfterTestSuite
+import com.kms.katalon.core.context.TestCaseContext
+import com.kms.katalon.core.context.TestSuiteContext
+
+class NewTestListener {
+	/**
+	 * Executes before every test case starts.
+	 * @param testCaseContext related information of the executed test case.
+	 */
+	@BeforeTestCase
+	def sampleBeforeTestCase(TestCaseContext testCaseContext) {
+		println testCaseContext.getTestCaseId()
+		println testCaseContext.getTestCaseVariables()
+	}
+
+	/**
+	 * Executes after every test case ends.
+	 * @param testCaseContext related information of the executed test case.
+	 */
+	@AfterTestCase
+	def sampleAfterTestCase(TestCaseContext testCaseContext) {
+		println testCaseContext.getTestCaseId()
+		println testCaseContext.getTestCaseStatus()
+	}
+
+	/**
+	 * Executes before every test suite starts.
+	 * @param testSuiteContext: related information of the executed test suite.
+	 */
+	@BeforeTestSuite
+	def sampleBeforeTestSuite(TestSuiteContext testSuiteContext) {
+		println testSuiteContext.getTestSuiteId()
+	}
+	/**
+	 * Executes after every test suite ends.
+	 * @param testSuiteContext: related information of the executed test suite.
+	 */
+	@AfterTestSuite
+	def sampleAfterTestSuite(TestSuiteContext testSuiteContext) {
+		println testSuiteContext.getTestSuiteId()
+	}
+}</codeblock></p></stepresult></step></steps></taskbody></task>

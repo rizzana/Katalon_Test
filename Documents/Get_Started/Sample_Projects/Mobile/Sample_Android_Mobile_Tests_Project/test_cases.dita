@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Test cases</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To access test cases in this project, go to the <uicontrol class="+ topic/ph ui-d/uicontrol ">Test Cases</uicontrol> folder in the <uicontrol class="+ topic/ph ui-d/uicontrol ">Test Explorer</uicontrol> panel.</p><p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/android-sample-prj/KS-ANDROID-Test-case.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">Sample test cases</alt></image></p><p class="- topic/p ">There are two test cases for different purposes:</p><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p ">The <uicontrol class="+ topic/ph ui-d/uicontrol ">Verify Correct Alarm Message</uicontrol> test case is to verify if we can get the correct displayed message.</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Start the <codeph class="+ topic/ph pr-d/codeph ">APIDemos.apk</codeph> application. Here, the location of the AUT is under the <codeph class="+ topic/ph pr-d/codeph ">&lt;sample-project-folder&gt;/androidapp</codeph> folder. We use the following sample code to identify the absolute path to the application:</p><codeblock class="+ topic/pre pr-d/codeblock ">/*Get full directory's path of android application*/
+def appPath = PathUtil.relativeToAbsolutePath(GlobalVariable.G_AndroidApp, RunConfiguration.getProjectDir())
+
+/*Start the AUT*/
+Mobile.startApplication(appPath, false)
+</codeblock></li><li class="- topic/li ">Tap <b class="+ topic/ph hi-d/b ">App</b>. We set the timeout for 10 seconds.</li><li class="- topic/li ">Tap <b class="+ topic/ph hi-d/b ">Activity</b>. We set the timeout for 10 seconds.</li><li class="- topic/li ">Tap <b class="+ topic/ph hi-d/b ">Custom Dialog</b>. We set the timeout for 10 seconds.</li><li class="- topic/li "><p class="- topic/p ">Verify if the text displaying on the <b class="+ topic/ph hi-d/b ">App/Activity/Custom Dialog</b> dialog is correct.</p><p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/android-sample-prj/KS-ANDROID-TC1.gif" scope="external" class="- topic/image "><alt class="- topic/alt ">Verify Correct Alarm Message</alt></image></p><p class="- topic/p ">You can see the test script as follows:</p><p class="- topic/p "><codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.util.internal.PathUtil as PathUtil
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+
+Mobile.comment('Story: Verify correct alarm message')
+
+Mobile.comment('Given that user has started an application')
+
+'Get full directory\'s path of android application'
+def appPath = PathUtil.relativeToAbsolutePath(GlobalVariable.G_AndroidApp, RunConfiguration.getProjectDir())
+
+Mobile.startApplication(appPath, false)
+
+Mobile.comment('And he navigates the application to Activity form')
+
+Mobile.tap(findTestObject('Alarm Message/android.widget.TextView - App'), 10)
+
+Mobile.tap(findTestObject('Alarm Message/android.widget.TextView - Activity'), 10)
+
+Mobile.comment('When he taps on the Custom Dialog button')
+
+Mobile.tap(findTestObject('Alarm Message/android.widget.TextView - Custom Dialog'), 10)
+
+'Get displayed message on the dialog'
+def message = Mobile.getText(findTestObject('Application/App/Activity/Custom Dialog/android.widget.TextViewCustomDialog'), 
+  10)
+
+Mobile.comment('Then the correct dialog message should be displayed')
+
+Mobile.verifyEqual(message, 'Example of how you can use a custom Theme.Dialog theme to make an activity that looks like a customized dialog, here with an ugly frame.')
+
+Mobile.closeApplication()
+</codeblock></p></li></ul></li><li class="- topic/li "><p class="- topic/p ">The <uicontrol class="+ topic/ph ui-d/uicontrol ">Verify Last Items In List</uicontrol> test case is to verify whether we can identify the correct last item in the list.</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Start the <codeph class="+ topic/ph pr-d/codeph ">APIDemos.apk</codeph> application. Here, the location of the AUT is under the <codeph class="+ topic/ph pr-d/codeph ">&lt;sample-project-folder&gt;/androidapp</codeph> folder. We use the following sample code to identify the absolute path to the application:</p><codeblock class="+ topic/pre pr-d/codeblock ">/*Get full directory path of the android application*/
+def appPath = PathUtil.relativeToAbsolutePath(GlobalVariable.G_AndroidApp, RunConfiguration.getProjectDir())
+
+/*Start the AUT*/
+Mobile.startApplication(appPath, false)
+</codeblock></li><li class="- topic/li ">Tap <b class="+ topic/ph hi-d/b ">Graphics</b>. We use the <codeph class="+ topic/ph pr-d/codeph ">G_Timeout</codeph> global variable as the timeout value.</li><li class="- topic/li ">Scroll to <b class="+ topic/ph hi-d/b ">Xfermodes</b> item.</li><li class="- topic/li "><p class="- topic/p ">Verify if the current screen should show Xfermodes text after scrolling</p><p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/android-sample-prj/KS-ANDROID-TC2.gif" scope="external" class="- topic/image "><alt class="- topic/alt ">Verify Last Items In List</alt></image></p><p class="- topic/p ">You can see the test script as follows:</p><p class="- topic/p "><codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.util.internal.PathUtil as PathUtil
+
+Mobile.comment('Story: Verify correct alarm message')
+
+Mobile.comment('Given that user has started an application')
+
+'Get full directory\'s path of android application'
+def appPath = PathUtil.relativeToAbsolutePath(GlobalVariable.G_AndroidApp, RunConfiguration.getProjectDir())
+
+Mobile.startApplication(appPath, false)
+
+Mobile.comment('And he navigates the application to Graphics form')
+
+Mobile.tap(findTestObject('Last Items/android.widget.TextView - Graphics'), GlobalVariable.G_Timeout)
+
+Mobile.comment('When he scroll to Xfermodes text')
+
+Mobile.scrollToText('Xfermodes')
+
+Mobile.comment('Then the current screen should show Xfermodes text after scrolling')
+
+'Get item\'s label'
+def itemText = Mobile.getText(findTestObject('Last Items/android.widget.TextView - Xfermodes'), GlobalVariable.G_Timeout)
+
+Mobile.verifyEqual(itemText, 'Xfermodes')
+
+Mobile.closeApplication()
+</codeblock></p></li></ul></li></ol></conbody></concept>

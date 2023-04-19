@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_18" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Endpoint as a template</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">   This endpoint is a part of the <xref href="/katalon-studio/tutorials/data-driven-testing/" scope="external" class="- topic/xref ">data-driven
+            approach</xref>, which relates to data models more than input data.
+         One of the most challenging issues in API testing is test data
+         mapping with data models, subsets of data models. For examples:</p>
+        <p class="- topic/p ">   An API creating new Jira issue requires an
+         input data model having required fields (such as Project Key,
+         Summary) and non-required fields (such as Description, Assignee,
+         etc.). All the combination of required and non-required fields
+         should be tested to ensure that all the test scenarios are covered.
+         For each combination, we then apply data-driven to test with
+         different data set.</p>
+        <p class="- topic/p ">   This practice suggests that we consider each
+         combination as a test template for the endpoint, then apply
+         data-driven approach for this test template to generate actual
+         executable test scenarios.</p>
+      </conbody>
+    </concept>

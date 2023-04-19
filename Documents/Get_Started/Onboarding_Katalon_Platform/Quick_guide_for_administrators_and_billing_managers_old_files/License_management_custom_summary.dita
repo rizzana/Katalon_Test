@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-5866" xml:lang="en-us" class="- topic/topic concept/concept "><title class="- topic/title ">License management</title><prolog class="- topic/prolog "><author translate="no" type="creator" class="- topic/author ">Marjorie Chua &lt;marjorie.chua@katalon.com&gt;</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "/></metadata></prolog><conbody class="- topic/body  concept/conbody "><section class="- topic/section ">
+            <title class="- topic/title "> Assign and manage licenses to organization members</title>
+            <p class="- topic/p ">As an administrator, you can assign licenses to users within their organization. This feature is useful for maximizing the use of purchased Katalon licenses.</p>
+            <p class="- topic/p ">You can do this step automatically when setting up new users for their team. You can perform this step right after sending out the email invitations.</p>
+            <p class="- topic/p ">To learn how to assign licenses, see: <xref href="../../../Administer/Administrative_Tasks/License_Management/grant-katalon-licenses/grant_a_license.dita" class="- topic/xref ">Assign a license</xref>.</p>
+            <p class="- topic/p ">To read more on license management, see: <xref href="../../../Administer/Administrative_Tasks/License_Management/license-management/license-management.dita" class="- topic/xref "/>.</p>
+        </section><section class="- topic/section ">
+            <title class="- topic/title ">Transfer a license </title>
+            <p class="- topic/p ">You can re-assign a license to the users within your organization any time. Doing so will remove a the previous user's access to the Katalon product. It will grant access to the user to whom the license was assigned. </p><p class="- topic/p ">To learn how to transfer a license to a user,see: <xref href="../../../Administer/Administrative_Tasks/License_Management/license-management/transfer_a_license.dita" class="- topic/xref "/>.</p>
+            <p class="- topic/p "/>
+        </section><section class="- topic/section ">
+            <title class="- topic/title ">Remove licenses from an organization</title>
+            <p class="- topic/p ">An administrator can remove one or multiple licenses. Doing so will convert that user's license to the free version of that Katalon product.</p><p class="- topic/p ">To learn how to remove a license,see: <xref href="../../../Administer/Administrative_Tasks/License_Management/license-management/remove_a_license.dita" class="- topic/xref "/>.</p>
+            
+        </section><section class="- topic/section ">
+            <title class="- topic/title ">View purchased licenses </title>
+            <p class="- topic/p ">To see the subscriptions your account currently has running,  navigate to the<b class="+ topic/ph hi-d/b "> Subscription Management </b>section in the settings. It will list all your active ones as below: </p>
+            <p class="- topic/p "><image href="concept_id_8119_images/view_purchased_subscription_concept_id_5866.png" class="- topic/image "><alt class="- topic/alt ">View purchased subscriptions in Katalon TestOps.</alt></image></p>
+        </section></conbody></concept>

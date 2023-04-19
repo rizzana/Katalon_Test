@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_7" class="- topic/topic concept/concept "><title class="- topic/title ">Activate a KSE license with Private Instance in Katalon Studio</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">Open Katalon Studio:<ul class="- topic/ul "><li class="- topic/li ">
+                        <p class="- topic/p ">If you open Katalon Studio for the first time, the <b class="+ topic/ph hi-d/b ">Katalon Studio Activation</b> dialog automatically pops up.</p>
+                        <p class="- topic/p "> <image width="500" href="image/ks-pe-activate-trial.png" class="- topic/image "/></p>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p ">If you are already logged in to a Katalon account in Katalon Studio, click on the <b class="+ topic/ph hi-d/b ">Profile</b> button and select <b class="+ topic/ph hi-d/b ">Log out</b>.</p>
+                        <p class="- topic/p "> <image width="400" href="image/ks-pe-log-out.png" class="- topic/image "/></p>
+                        <p class="- topic/p ">You are now logged out, and the <b class="+ topic/ph hi-d/b ">Katalon Studio Activation</b> dialog appears.</p>
+                    </li></ul></li><li class="- topic/li ">
+                <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Server URL</b> section, input the Private Instance URL used for authentication. For example: <codeph class="+ topic/ph pr-d/codeph ">https://admin-tenant1.katalon-cloudops.com</codeph>.</p><p class="- topic/p "><image width="500" href="image/ks-pe-private-instance.png" class="- topic/image "/></p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Log in with the licensed user account email and password. Click <b class="+ topic/ph hi-d/b ">Activate</b>.</p>
+            </li></ol></conbody></concept>

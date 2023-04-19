@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN" "glossentry.dtd">
+<glossentry id="glossentry-8670" class="- topic/topic concept/concept glossentry/glossentry "><glossterm class="- topic/title concept/title glossentry/glossterm ">% flakiness</glossterm><glossdef class="- topic/abstract concept/abstract glossentry/glossdef ">= (Number of times the status of test results changes/Total number of test results) x 100%<p class="- topic/p ">The total number of test results represents 30 latest test results (sorted by execution start time).</p></glossdef></glossentry>

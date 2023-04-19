@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Enhancements</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">Removed warning about untrusted files when setting up TestCloud
+            tunnel on macOS/Windows.</li>
+          <li class="- topic/li ">Improved performance and stability when running test suite
+            collections.</li>
+          <li class="- topic/li ">Improved Windows node start-up time by pre-building Selenium
+            Grid Docker Image when building TestCloud AMI instead of
+            downloading the Docker Image every time.</li>
+          <li class="- topic/li ">UI/UX improvement when running TestCloud via Katalon
+            TestOps.</li>
+        </ul>
+      </conbody>
+    </concept>

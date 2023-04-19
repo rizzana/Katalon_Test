@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Using KR CLI as a developer</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">If you are a developer, you can integrate KR tests into your
+         development process to ensure that your code doesn't break
+         important user experiences.</p>
+    </conbody>
+    
+  </concept>

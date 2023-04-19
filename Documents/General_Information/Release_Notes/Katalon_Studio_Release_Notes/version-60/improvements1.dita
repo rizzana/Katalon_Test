@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Improvements</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+
+          <li class="- topic/li ">Allow Test Reports to be viewed directly in Test Suite and Test
+            Suite Collection Views in Result Tab. See <xref href="../../../../Analyze/Reports/View_Test_Reports/View_test_reports_in_Studio/view-test-suite-report-in-Studio/intro-view-test-suite-and-test-suite-collection-reports-in-Studio.dita" class="- topic/xref ">Test
+               Suite Report</xref> or <xref href="../../../../Analyze/Reports/View_Test_Reports/View_test_reports_in_Studio/view-test-suite-report-in-Studio/intro-view-test-suite-and-test-suite-collection-reports-in-Studio.dita" class="- topic/xref ">Test
+               Suite Collection Report</xref>.</li>
+          <li class="- topic/li ">Support sending custom headers in SOAP requests.</li>
+
+          <li class="- topic/li ">Directly parameterize Global variables in Test Objects. See <xref href="../../../../Create_tests/Data_Driven_Testing/execution-profile-v54/execution-profile-v54.dita" class="- topic/xref ">Global
+               Variables</xref>.</li>
+
+          <li class="- topic/li ">Allow implementing variable binding without converting test
+            data to strings. See <xref href="../../../../Create_tests/Data_Driven_Testing/Enhance_Variable_Binding_In_Katalon_Studio/variable_binding_for_test_data_with_option_bind_to_test_case_as_string_enabled.dita" class="- topic/xref ">Enhanced
+               Variable Binding</xref>.</li>
+
+          <li class="- topic/li ">Support implementing an annotation called
+            BeforeTestDataBindToTestCase in test listener. See <xref href="../../../../Create_tests/Data_Driven_Testing/Enhance_Variable_Binding_In_Katalon_Studio/bind-as-string.dita" class="- topic/xref ">[Quick
+               tip] Enhanced Variable Binding</xref>.</li>
+
+          <li class="- topic/li ">Support Move up and Move down items in the default profile. See
+            <xref href="../../../../Create_tests/Data_Driven_Testing/execution-profile-v54/execution-profile-v54.dita" class="- topic/xref ">Global
+               Variables</xref>.</li>
+          <li class="- topic/li ">Support quickly setting up your devices by displaying sub-menus
+            of Android, iOS and Kobiton devices in Mobile Spy and Recorder tool
+            items.</li>
+          <li class="- topic/li ">Enhancement: Remove the <b class="+ topic/ph hi-d/b ">-- disable-extensions</b>
+            argument from Chrome Desired Capabilities.</li>
+          <li class="- topic/li ">Support Chrome version 76.</li>
+        </ul>
+      </conbody>
+    </concept>

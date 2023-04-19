@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept "><title class="- topic/title ">Product detailed description</title><conbody class="- topic/body  concept/conbody "><ul class="- topic/ul "><li class="- topic/li ">This detailed description must be error-free and written in
+            good English.</li><li class="- topic/li ">
+            <p class="- topic/p ">The length of the overview should contain at least 512
+               characters. There is no maximum length.</p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">The text of your detail description should contain:</p>
+            <ul class="- topic/ul "><li class="- topic/li "><b class="+ topic/ph hi-d/b ">description of the plugin</b>
+              </li><li class="- topic/li ">information about the <b class="+ topic/ph hi-d/b ">key features</b> of the
+                  plugin</li><li class="- topic/li "><b class="+ topic/ph hi-d/b ">installation instructions (with
+                     screenshots)</b>
+              </li><li class="- topic/li ">describe the <b class="+ topic/ph hi-d/b ">uniqueness/benefits</b> of the plugin
+                  (if any)</li><li class="- topic/li "><b class="+ topic/ph hi-d/b ">relevant keywords</b>
+              </li></ul>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">The description field supports <xref format="html" href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet" scope="external" class="- topic/xref ">Markdown</xref>.</p>
+          </li></ul></conbody></concept>

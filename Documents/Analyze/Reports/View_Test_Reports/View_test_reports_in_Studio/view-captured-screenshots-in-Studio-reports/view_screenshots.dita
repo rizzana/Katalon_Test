@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">View screenshots</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">When a test suite fails, you can either open a test suite's report or go to a test suite's <b class="+ topic/ph hi-d/b ">Result</b> tab for captured screenshots.</p><p class="- topic/p ">To view the captured screenshots in a test suite's <b class="+ topic/ph hi-d/b ">Results</b> tab, follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">Select the failed Test Suite.</li><li class="- topic/li ">Open its <b class="+ topic/ph hi-d/b ">Result</b> tab.</li><li class="- topic/li ">Select a failed test case.</li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Show Test Case Details</b> on the top right corner.</p>
+                <p class="- topic/p ">The Test Case's Log then appears.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click on the <b class="+ topic/ph hi-d/b ">Image</b> tab.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/screenshots-videos/log-image.png" scope="external" class="- topic/image "><alt class="- topic/alt ">log image</alt></image>
+                </p>
+            </li></ol><p class="- topic/p ">To view the captured screenshots in a test suite's report, click <b class="+ topic/ph hi-d/b ">Export report</b> and select the file type (HTML, CSV or PDF), then open the exported file for viewing.</p><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/screenshots-videos/export-report-for-screenshots.png" scope="external" class="- topic/image "><alt class="- topic/alt ">export report pdf</alt></image>
+        </p><p class="- topic/p ">You can also use the captured screenshots (screenshots taken as checkpoints) for visual testing with TestOps Visual Testing. See: <xref href="../../../../Analytics/Visual_testing/ks-visual-testing/intro_ks_visual_testing.dita" class="- topic/xref ">Visual Testing</xref>.</p></conbody></concept>

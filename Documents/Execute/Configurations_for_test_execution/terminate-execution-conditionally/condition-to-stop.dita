@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Terminate Execution Conditionally</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">In this article, you will learn how to terminate a test
+         execution automatically by configuring a maximum number of test
+         failures in manual view or via the command-line option, with
+         examples using common use cases.</p><note type="important" class="- topic/note ">
+        
+        <ul class="- topic/ul "><li class="- topic/li ">Katalon Studio <b class="+ topic/ph hi-d/b ">version 8.1.0 onwards</b>
+          </li><li class="- topic/li ">Katalon Runtime Engine <b class="+ topic/ph hi-d/b ">version 8.1.0
+                  onwards</b>
+          </li><li class="- topic/li ">A Katalon Runtime Engine License. See <xref href="../../../Administer/KSE-KRE-Licenses/license_overview/c_intro_license_overview.dita" class="- topic/xref ">Katalon
+                  licensing</xref>.</li></ul>
+      </note><p class="- topic/p ">Consider using the condition to terminate execution when a set
+         of tests is mature and takes hours to finish. Once a significant
+         number of tests fail, they may fail for the same cause. This
+         feature helps you save time, provide early feedback, and avoid the
+         execution of unnecessary test cases.</p></conbody></concept>

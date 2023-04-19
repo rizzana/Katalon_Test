@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"id-d48972e11595":{"topics":[{"title":"Add an external JDBC driver for MySQL database connection","href":"Documents\/Create_tests\/Data_Driven_Testing\/how-to-implement-ddt-mysql\/Add_a_driver_for_MySQL_database_connection.html","attributes":{"data-id":"task-1265"},"menu":{"hasChildren":false},"tocID":"task-1265-d48972e11603","topics":[]}]}};

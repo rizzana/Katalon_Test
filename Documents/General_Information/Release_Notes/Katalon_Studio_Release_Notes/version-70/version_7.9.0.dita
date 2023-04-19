@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Version 7.9.0</title><conbody class="- topic/body  concept/conbody "><note type="note" class="- topic/note ">
+        
+        <p class="- topic/p ">You will not be able to use <b class="+ topic/ph hi-d/b ">Check
+               for updates...</b> to upgrade to v7.9+ due to the core engine
+            upgrade (but you can upgrade from v7.9 to later versions via
+            <b class="+ topic/ph hi-d/b ">Check for updates...</b>).</p>
+        <ul class="- topic/ul "><li class="- topic/li ">
+            <p class="- topic/p ">Download the latest version from <xref format="html" href="https://www.katalon.com/download/" scope="external" class="- topic/xref ">our website</xref>.</p>
+          </li><li class="- topic/li ">
+
+            <p class="- topic/p ">To reuse Preferences from previous versions, refer to <xref href="../../../../Get_Started/Set_Up_Your_Workspace/Katalon_Studio_Preferences/katalon-preferences/katalon-studio-preferences.dita" class="- topic/xref ">this
+                     guide</xref>.</p>
+          </li></ul>
+      </note></conbody></concept>

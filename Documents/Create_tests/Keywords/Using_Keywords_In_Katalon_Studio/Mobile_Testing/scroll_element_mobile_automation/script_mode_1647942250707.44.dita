@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Script Mode</title><conbody class="- topic/body  concept/conbody "><codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+
+'Path of the Apk File Store in path variable'
+def path = RunConfiguration.getProjectDir() + '/Data Files/ApiDemos.apk'
+
+'Start the application'
+Mobile.startApplication(path, false)
+
+'Wait for element Present of Heading API Demos'
+Mobile.waitForElementPresent(findTestObject('API Demos Objects/heading_API_Demos'), 45)
+
+'Scroll to Views text'
+Mobile.scrollToText('Views', FailureHandling.STOP_ON_FAILURE)
+
+'Tap on Views'
+Mobile.tap(findTestObject('API Demos Objects/text_Views'), 20)
+
+'Scroll to Tabs text'
+Mobile.scrollToText('Tabs', FailureHandling.STOP_ON_FAILURE)
+
+</codeblock><p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">Note:</b> Steps 1 to 6 in Manual mode can be
+         optimized by adding a single line in script mode; i.e.,</p><codeblock class="+ topic/pre pr-d/codeblock ">def path = RunConfiguration.getProjectDir() + '/Data Files/ApiDemos.apk'
+
+</codeblock><p class="- topic/p ">The source code is available <xref format="html" href="https://github.com/katalon-studio/katalon-mobile-automation" scope="external" class="- topic/xref ">here</xref>. For
+         further instructions and help, please refer to <xref href="../../../Keywords_Description_In_Katalon_Studio/Mobile-Keywords/mobile-scroll-to-text/mobile-scroll-to-text.dita" class="- topic/xref ">Scroll to
+            Text</xref> guideline and join us on <xref format="html" href="http://forum.katalon.com/" scope="external" class="- topic/xref ">Katalon Forum</xref>.</p></conbody></concept>

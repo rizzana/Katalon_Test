@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines?><?workdir-uri file:/Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/?><?path2project ../../../../../?><?path2project-uri ../../../../../?><?path2rootmap-uri ../../../../../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="id_2" class="- topic/topic concept/concept " ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="concept:1;3:59" specializations="@props/deliveryTarget">
+      <title class="- topic/title " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="title:1;4:37">Logo</title>
+      <conbody class="- topic/body  concept/conbody " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="conbody:1;5:55">
+        <ul class="- topic/ul " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="ul:1;6:33">
+          <li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="li:1;7:35">
+            <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="p:1;8:35">Dimension: 150 x 150px</p>
+          </li>
+          <li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="li:2;10:35">
+            <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="p:2;11:35">Format: png, jpeg</p>
+          </li>
+        </ul>
+        <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="p:3;14:31">Use a unique logo to represent your brand and unique logos to
+         represent your plugins in the Katalon Store.</p>
+        <ul class="- topic/ul " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="ul:2;16:33">
+          <li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="li:3;17:35">
+            <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="b:1;18:43">Guidelines for a plugin logo</b>
+          </li>
+        </ul>
+        <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="p:4;21:31">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/publisher/guidelines-logo.png" scope="external" class="- topic/image " placement="inline" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="image:1;22:172" dita-ot:image-width="881" dita-ot:image-height="685" dita-ot:horizontal-dpi="150" dita-ot:vertical-dpi="150"/>
+        </p>
+        <ul class="- topic/ul " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="ul:3;24:33">
+          <li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="li:4;25:35">
+            <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="b:2;26:43">Example of an approved logo:</b>
+          </li>
+        </ul>
+        <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="p:5;29:31">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/publisher/approved-logo-1.png" scope="external" class="- topic/image " placement="inline" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="image:2;30:172" dita-ot:image-width="140" dita-ot:image-height="140" dita-ot:horizontal-dpi="96" dita-ot:vertical-dpi="96"/>
+        </p>
+        <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="p:6;32:31">
+          <i class="+ topic/ph hi-d/i " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="i:1;33:41">Note: The plugin logo should be clear and simple and should
+            not use Katalon or any of Katalon's product logos, wordmarks,
+            fonts, names, illustrations, or icons.</i>
+        </p>
+        <ul class="- topic/ul " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="ul:4;37:33">
+          <li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="li:5;38:35">
+            <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="b:3;39:43">Examples of NOT approved logos:</b>
+          </li>
+        </ul>
+        <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="p:7;42:31">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/publisher/not-approved-1.png" scope="external" class="- topic/image " placement="inline" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="image:3;43:171" dita-ot:image-width="1174" dita-ot:image-height="296" dita-ot:horizontal-dpi="144" dita-ot:vertical-dpi="144"/>
+        </p>
+        <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="p:8;45:31">
+          <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="b:4;46:41">
+            <i class="+ topic/ph hi-d/i " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="i:2;47:43">Note 1: Do not use our product logos, either on
+               their own or in conjunction with your logo.</i>
+          </b>
+        </p>
+        <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="p:9;51:31">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/publisher/not-approved-2.png" scope="external" class="- topic/image " placement="inline" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="image:4;52:171" dita-ot:image-width="1174" dita-ot:image-height="296" dita-ot:horizontal-dpi="144" dita-ot:vertical-dpi="144"/>
+        </p>
+        <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="p:10;54:31">
+          <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="b:5;55:41">
+            <i class="+ topic/ph hi-d/i " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="i:3;56:43">Note 2: Do not create logos in the likeness of
+               Katalon product logos.</i>
+          </b>
+        </p>
+        <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="p:11;60:31">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/publisher/not-approved-3.png" scope="external" class="- topic/image " placement="inline" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="image:5;61:171" dita-ot:image-width="587" dita-ot:image-height="148"/>
+        </p>
+        <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="p:12;63:31">
+          <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="b:6;64:41">
+            <i class="+ topic/ph hi-d/i " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="i:4;65:43">Note 3: Do not use Katalon product names, wordmarks,
+               or wordmark font.</i>
+          </b>
+        </p>
+        <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="p:13;69:31">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/publisher/rejected-logo-11.png" scope="external" class="- topic/image " placement="inline" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="image:6;70:173" dita-ot:image-width="140" dita-ot:image-height="140" dita-ot:horizontal-dpi="96" dita-ot:vertical-dpi="96"/>
+        </p>
+        <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="p:14;72:31">
+          <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="b:7;73:41">
+            <i class="+ topic/ph hi-d/i " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo.dita" xtrc="i:5;74:43">Note 4: Do not use Katalon-owned illustrations,
+               icons, or other brand assets.</i>
+          </b>
+        </p>
+      </conbody>
+    <related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="ditamap-8764" xtrc="topicref:3;3:323" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/publisher-guidelines.ditamap"><link class="- topic/link " format="dita" href="../../../../../Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/logo_and_assets.dita" mapclass="- map/topicref " role="parent" scope="local" type="concept" xtrc="topicref:2;3:271" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalon_Store/Submit-and-publish-plugins/publisher-guidelines/publisher-guidelines.ditamap"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Logo and assets</linktext></link></linkpool></related-links></concept>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Create an Incoming Webhook on Slack</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Go to <xref format="html" href="https://api.slack.com/messaging/webhooks" scope="external" class="- topic/xref ">Slack API</xref> &gt; <b class="+ topic/ph hi-d/b ">Using Webhooks</b>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click on the green <b class="+ topic/ph hi-d/b ">Create your Slack app</b> button.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-slack-integration/slack-step1-create-apps.png" scope="external" class="- topic/image "><alt class="- topic/alt ">slack api create app</alt></image>
+                </p>
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Create an app</b> box appears.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Select your preferred configuration, then name your app and choose your workspace.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Create App</b>.</p>
+                <p class="- topic/p ">You will be automatically navigated to the <b class="+ topic/ph hi-d/b ">Basic Information</b> page.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-slack-integration/slack-step4-basic-info.png" scope="external" class="- topic/image "><alt class="- topic/alt ">slack api basic info page</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click on the <b class="+ topic/ph hi-d/b ">Incoming Webhooks</b> box.</p>
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Incoming Webhooks</b> page appears.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Switch the toggle <b class="+ topic/ph hi-d/b ">On</b> to activate Incoming Webhooks.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-slack-integration/slack-step5-activate-incoming-webhook.png" scope="external" class="- topic/image "><alt class="- topic/alt ">slack api incoming webhook page</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Add New Webhook to Workspace</b>.</p>
+                <p class="- topic/p ">A new window appears as below.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-slack-integration/slack-step5-allow-webhook-on-slack.png" scope="external" class="- topic/image "><alt class="- topic/alt ">add webhook to workspace</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Select a channel to receive Slack notifications, click <b class="+ topic/ph hi-d/b ">Allow</b>.</p>
+                <p class="- topic/p ">You will be automatically navigated back to the <b class="+ topic/ph hi-d/b ">Incoming Webhooks</b> page.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Scroll down to the <b class="+ topic/ph hi-d/b ">Webhook URL</b> section.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-slack-integration/slack-step6-add-webhook.png" scope="external" class="- topic/image "><alt class="- topic/alt ">webhook url</alt></image>
+                </p>
+                <p class="- topic/p ">You can see that your channel has been added (e.g., <b class="+ topic/ph hi-d/b ">#qa-demo</b>).</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Copy</b> to copy the Webhook URL.</p>
+            </li></ol><p class="- topic/p ">You use this URL for Slack integration on Katalon TestOps.</p></conbody></concept>

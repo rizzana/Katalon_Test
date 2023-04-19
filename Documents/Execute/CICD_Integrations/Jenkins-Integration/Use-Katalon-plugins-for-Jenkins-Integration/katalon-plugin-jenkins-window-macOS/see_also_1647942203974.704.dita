@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_7" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">See also</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">
+          <xref href="../../execute-katalon-tests-with-jenkins-pipeline-script/katalon-jenkins-pipeline-script.dita" class="- topic/xref ">Execute
+               Katalon Studio tests with Jenkins Pipeline Script
+               (Jenkinsfile)</xref>.</li>
+      </ul>
+    </conbody>
+  </concept>

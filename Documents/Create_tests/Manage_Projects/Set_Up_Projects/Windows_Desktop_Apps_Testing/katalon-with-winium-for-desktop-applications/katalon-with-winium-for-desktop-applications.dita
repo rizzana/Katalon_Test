@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Katalon with Winium for Desktop Applications in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">As you may know, <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> only supports WebUI, Mobile, and
+         API automation testing. However, there is a workaround solution to
+         this problem, utilizing Winium .jar package in order to test
+         desktop applications.</p><p class="- topic/p ">Steps :<ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p ">Download and extract Winium.Desktop.Driver.zip from the Winium.Desktop GitHub release page:<xref href="https://github.com/2gis/Winium.Desktop/releases" scope="external" class="- topic/xref "/> .</p></li><li class="- topic/li "><p class="- topic/p ">Run
+         Winium.Desktop.Driver.exe.</p></li><li class="- topic/li "><p class="- topic/p ">Download the <xref format="html" href="https://jar-download.com/?search_box=com.github.2gis.winium" scope="external" class="- topic/xref ">jar
+            package</xref>. </p></li><li class="- topic/li "><p class="- topic/p ">From Katalon studio --&gt; Project settings --&gt;
+         External libraries, add two jars
+         winium-elements-desktop-0.2.0-1.jar and
+         winium-webdriver-0.1.0-1.jar (Refer :
+         https://i.imgur.com/haDI84P.png).</p></li><li class="- topic/li "><p class="- topic/p ">Use the example below to import
+         the Winium driver and use script into Katalon Studio.</p></li></ol> </p><p class="- topic/p ">This example works perfect in Windows 10.</p><codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.checkpoint.CheckpointFactory as CheckpointFactory
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as MobileBuiltInKeywords
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testcase.TestCaseFactory as TestCaseFactory
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testdata.TestDataFactory as TestDataFactory
+import com.kms.katalon.core.testobject.ObjectRepository as ObjectRepository
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WSBuiltInKeywords
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.By as By
+import org.openqa.selenium.WebElement as WebElement
+import org.openqa.selenium.winium.DesktopOptions as DesktopOptions
+import org.openqa.selenium.winium.WiniumDriver as WiniumDriver
+import java.net.MalformedURLException as MalformedURLException
+import java.net.URL as URL
+
+WiniumDriver driver = null
+
+String appPath = 'C:/windows/system32/calc.exe'
+
+DesktopOptions option = new DesktopOptions()
+
+option.setApplicationPath(appPath)
+
+option.setDebugConnectToRunningApp(false)
+
+option.setLaunchDelay(2)
+
+driver = new WiniumDriver(new URL('http://localhost:9999'), option)
+
+Thread.sleep(1000)
+
+driver.findElement(By.name('Seven')).click()
+
+driver.findElement(By.name('Plus')).click()
+
+driver.findElement(By.name('Eight')).click()
+
+driver.findElement(By.name('Equals')).click()
+
+driver.close()
+</codeblock></conbody></concept>

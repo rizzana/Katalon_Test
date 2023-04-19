@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept "><title class="- topic/title ">Test the trigger</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To test the trigger, you can start the build manually by clicking <b class="+ topic/ph hi-d/b ">Run</b> on the trigger.</p><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/google-cloud-build-integration/GCP-Run-trigger.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Google Cloud Platform run trigger</alt></image>
+        </p></conbody></concept>

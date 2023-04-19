@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_21" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Improvements</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">[qTest Integration] Upload test results of the integrated Test
+            Suites in Test Suite Collection to qTest</li>
+
+          <li class="- topic/li ">[Katalon TestOps (Beta) Integration] Display TestOps Plans in
+            Tests Explorer. <xref href="../../../../Execute/Schedule_test_executions/Schedule-test-runs-in-testops/create-plan.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li>
+
+          <li class="- topic/li ">[Katalon Studio Enterprise] Enhance Self-healing Insights. <xref href="../../../../Maintain/self-healing-in-Studio/self-healing_insights.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li>
+          <li class="- topic/li ">[Katalon Studio Enterprise] Enhance UX of adding test cases to
+            test suites</li>
+          <li class="- topic/li ">Support <xref href="../../../../Administer/Troubleshooting/Troubleshoot/troubleshoot-activation-problems/Concept/troubleshoot-activation-problems.dita" class="- topic/xref ">troubleshooting
+               activation problems</xref>
+          </li>
+        </ul>
+      </conbody>
+    </concept>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id_37" class="- topic/topic ">
+    <title class="- topic/title ">3.4.11</title>
+    <body class="- topic/body ">
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">Supported storing returned values from "runScript"
+            commands.</li>
+        <li class="- topic/li ">Fixed various bugs of "store" and "storeEval" commands.</li>
+        <li class="- topic/li ">Supported parameters in selectFrame, selectWindow
+            commands.</li>
+        <li class="- topic/li ">Show variable types in the tab "Variables".</li>
+        <li class="- topic/li ">Added command "#" for writing comments.</li>
+        <li class="- topic/li ">Added command "storeCsv" for loading values from CSV data
+            files.</li>
+      </ul>
+    </body>
+  </topic>

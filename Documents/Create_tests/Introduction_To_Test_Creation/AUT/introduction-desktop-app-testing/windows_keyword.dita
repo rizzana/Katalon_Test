@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Windows keyword</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To add a Windows keyword in the manual view:</p><p class="- topic/p ">
+        <image height="364" href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-desktop-app-testing/Windows_Keyword_1.png" scope="external" width="481" class="- topic/image "/>
+      </p><p class="- topic/p ">To add a Windows keyword in the script view, enter
+         <codeph class="+ topic/ph pr-d/codeph ">Win</codeph>, then press <codeph class="+ topic/ph pr-d/codeph ">Ctrl+Space</codeph>:</p><p class="- topic/p ">
+        <image height="268" href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-desktop-app-testing/Windows_Keyword_2.png" scope="external" width="563" class="- topic/image "/>
+      </p><p class="- topic/p ">To have a picture of Windows built-in keywords, navigate to
+         <b class="+ topic/ph hi-d/b ">Keywords Browser</b> &gt; <b class="+ topic/ph hi-d/b ">Built-in
+            Keywords</b> &gt; <b class="+ topic/ph hi-d/b ">Windows Keyword</b>:</p><p class="- topic/p ">
+        <image height="449" href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-desktop-app-testing/Windows_Keyword_3.png" scope="external" width="317" class="- topic/image "/>
+      </p></conbody></concept>

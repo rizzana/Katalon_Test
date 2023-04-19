@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Query Parameters</title><conbody class="- topic/body  concept/conbody "><note type="note" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">Only available for <b class="+ topic/ph hi-d/b ">RESTful</b> Web Service requests</li></ul>
+        </note><p class="- topic/p ">Query parameters can be added to a REST request's URL to tailor and filter the response output. When you input a URL, Katalon Studio detects the query parameters (after the question mark <codeph class="+ topic/ph pr-d/codeph ">?</codeph>) and list them in the table for better management.</p><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/updated-parameterize-a-web-service-object/Screen-Shot-2018-09-18-at-5.04.18-PM.png" scope="external" class="- topic/image "/>
+        </p></conbody></concept>

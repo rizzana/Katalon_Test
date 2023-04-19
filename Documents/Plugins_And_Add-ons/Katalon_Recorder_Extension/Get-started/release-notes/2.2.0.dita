@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id_47" class="- topic/topic ">
+    <title class="- topic/title ">2.2.0</title>
+    <body class="- topic/body ">
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">Added support for offline mode in Chrome.</li>
+        <li class="- topic/li ">Added support for Glob &amp; Regex patterns in Assert &amp;
+            Verify commands.</li>
+        <li class="- topic/li ">Added confirmation before deleting all test steps.</li>
+      </ul>
+    </body>
+  </topic>

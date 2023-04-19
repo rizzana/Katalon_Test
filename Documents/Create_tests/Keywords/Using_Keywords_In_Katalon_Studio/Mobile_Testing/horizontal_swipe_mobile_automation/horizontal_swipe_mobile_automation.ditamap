@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-horizontal_swipe_mobile_automation" class="- map/map ">
+  <title class="- topic/title ">Handling Horizontal Swipe in Mobile Automation</title>
+  <topicref href="horizontal_swipe_mobile_automation.dita" class="- map/topicref "><topicref href="swipe_horizontally_from_left_to_right.dita" class="- map/topicref ">
+    <topicref href="scenario_1647942195022.938.dita" class="- map/topicref "/>
+    <topicref href="manual_mode_1647942195022.938.dita" class="- map/topicref "/>
+    <topicref href="script_mode_1647942195022.938.dita" class="- map/topicref "/>
+  </topicref>
+</topicref></map>

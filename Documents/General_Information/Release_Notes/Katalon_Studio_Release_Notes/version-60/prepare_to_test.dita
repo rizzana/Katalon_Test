@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_21" class="- topic/topic concept/concept "><title class="- topic/title ">Prepare to test</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">Clone <codeph class="+ topic/ph pr-d/codeph ">https://github.com/katalon-studio/katalon-studio-excel-custom-keywords-plugin</codeph></li><li class="- topic/li ">Open the project in Katalon Studio at least once </li><li class="- topic/li ">
+                <p class="- topic/p ">Modify katalon-plugin.json with this template</p>
+                <codeblock class="+ topic/pre pr-d/codeblock ">{
+   "keywords": ["com.katalon.plugin.keyword.excel.ExcelReadKeywords", "com.katalon.plugin.keyword.excel.ExcelWriteKeywords"],
+   "configuration": {
+      "settingId": "com.katalon.plugin.keyword.excel-keywords",
+      "settingPage": {
+         "name": "Excel Keywords",
+         "components": [
+            {
+               "key": "username",
+               "type": "text",
+               "label": "Username"
+            },
+            {
+               "key": "password",
+               "type": "secret",
+               "label": "Password"
+            }
+         ]
+      }
+   }
+}
+</codeblock></li><li class="- topic/li ">Build excel keyword project
+            <codeph class="+ topic/ph pr-d/codeph ">gradle katalonPluginPackage</codeph>
+                <p class="- topic/p ">A jar file will be generated in <b class="+ topic/ph hi-d/b ">/build/libs</b> folder</p></li><li class="- topic/li "><p class="- topic/p ">Copy and paste the generated jar file to <b class="+ topic/ph hi-d/b ">Plugins</b> folder of a Katalon Studio project (Project A)</p>
+            </li><li class="- topic/li "><p class="- topic/p ">Open <b class="+ topic/ph hi-d/b ">Project A</b> and navigate to <b class="+ topic/ph hi-d/b ">Project Settings/Plugins/Excel Keywords</b></p>
+            </li><li class="- topic/li "><p class="- topic/p ">Customize the settings as wish</p></li></ol></conbody></concept>

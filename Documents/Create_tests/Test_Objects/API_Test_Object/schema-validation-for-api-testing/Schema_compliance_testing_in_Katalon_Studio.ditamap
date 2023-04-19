@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-9836" class="- map/map "><title class="- topic/title ">Schema compliance testing in Katalon Studio</title><topicref href="schema-validation.dita" class="- map/topicref "><topicref href="what_is_a_schema.dita" class="- map/topicref "/><topicref href="validate_against_a_json_xml_schema_in_the_web_service_object_view.dita" class="- map/topicref "/><topicref href="validate_against_schemas_in_a_test_case.dita" class="- map/topicref "/></topicref></map>

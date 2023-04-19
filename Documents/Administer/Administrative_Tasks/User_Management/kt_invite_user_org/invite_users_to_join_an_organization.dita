@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Invite users to join an Organization</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Click on the <b class="+ topic/ph hi-d/b ">Settings</b> icon at the top right corner of the TestOps homepage and choose <b class="+ topic/ph hi-d/b ">User Management</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/k1-user-mgt-settings.png" scope="external" class="- topic/image "><alt class="- topic/alt ">kt settings</alt></image>
+                </p>
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">User Management</b> page appears as below.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/k1-user-mgt-page-new-ui.png" scope="external" class="- topic/image "><alt class="- topic/alt ">new ui user mgt page</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Invite Users</b> at the top right corner.</p>
+                <p class="- topic/p ">A new window appears, asking you to enter the email addresses.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/invite-user-to-org-page.png" scope="external" class="- topic/image "><alt class="- topic/alt ">new ui user mgt page</alt></image>
+                </p>
+                <p class="- topic/p ">You can enter multiple email addresses to invite members.</p>
+                <note type="note" class="- topic/note ">
+                    <ul class="- topic/ul "><li class="- topic/li ">
+                            <p class="- topic/p ">Multiple email addresses should be separated by a Comma, Space, Tab, Alt, Out Focus, or Enter.</p>
+                        </li></ul>
+                </note>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Next</b> to go to the next step: assign licenses to your users.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Switch the toggle on to select the product licenses.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/assign-licenses-step.png" scope="external" class="- topic/image "><alt class="- topic/alt ">new ui user mgt page</alt></image>
+                </p>
+                <note type="note" class="- topic/note ">
+                    <ul class="- topic/ul "><li class="- topic/li ">
+                            <p class="- topic/p ">For detailed information about assigning KSE/KRE licenses, see <xref href="../../License_Management/grant-katalon-licenses/grant-katalon-licenses.dita" class="- topic/xref ">Grant Katalon Licenses</xref>.</p>
+                        </li></ul>
+                </note>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Confirm</b>.</p>
+                <p class="- topic/p ">You will be redirected to the <b class="+ topic/ph hi-d/b ">Pending Invitation</b> section. An invitation email has also been sent to the users you have invited.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Send your users this guide: <xref href="../../kt_users_joining_org/kt-users-joining-org.dita" class="- topic/xref ">Join TestOps Organizations</xref>.</p>
+                <p class="- topic/p ">Once your users follow the guide to join your Organization, they become Members of your Organization.</p>
+            </li></ol><note type="note" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">
+                    <p class="- topic/p ">The invitation link is valid for 24 hours. After that, you will have to invite your team members again.</p>
+                </li></ul>
+        </note><p class="- topic/p ">Alternatively, you can copy the activation link in the <b class="+ topic/ph hi-d/b ">Pending Invitation</b> section and send it to your users.</p></conbody></concept>

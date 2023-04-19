@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_8" class="- topic/topic concept/concept "><title class="- topic/title ">Self-healing Insights</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">After you run your test with self-healing, you can see the
+         <b class="+ topic/ph hi-d/b ">Self-healing Report</b> in the <b class="+ topic/ph hi-d/b ">Log
+            Viewer</b>.</p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/self-healing/self-healing-report.png" scope="external" width="850" class="- topic/image "/>
+      </p><p class="- topic/p ">Next to the <b class="+ topic/ph hi-d/b ">Log Viewer</b> tab, the
+         <b class="+ topic/ph hi-d/b ">Self-healing Insights</b> tab displays a table with
+         all the suggestions to replace broken locators. The table
+         includes:</p><ul class="- topic/ul "><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Test Object ID</b>: The ID of broken test
+            objects.</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Broken Locator</b>: The default locator that could
+            not detect the object during execution.</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Proposed Locator</b>: The alternative locator that
+            located the object during execution. The proposed locator is the
+            newly generated smart XPath of that element if the object is found
+            by using its screenshot.</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Recovered By</b>: The Selection Method that
+            Katalon Studio used for detecting the object.</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Screenshot</b>: When finding an object with its
+            alternative locator, Katalon would capture a screenshot of the test
+            object for you to verify whether the found object is the wanted
+            one. Click <b class="+ topic/ph hi-d/b ">Preview</b> to check the healed
+            object.</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Select</b>: Decide which locator for you to take
+            action.</li></ul><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/self-healing/self-healing-insights-766.png" scope="external" width="850" class="- topic/image "><alt class="- topic/alt ">self-healing insights</alt></image>
+      </p><p class="- topic/p ">During the test run, the locator replacement is temporary. In
+         <b class="+ topic/ph hi-d/b ">Self-Healing Insights</b>, you can discover broken
+         locators that have been recovered at runtime.</p><p class="- topic/p ">Verify if the found object is the one you expect. You can select
+         one or multiple suggested locators, then click:</p><ul class="- topic/ul "><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Approve</b>: Make the changes permanent.</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Discard</b>: Decline the proposal.</li></ul><note type="attention" class="- topic/note ">
+        
+        <ul class="- topic/ul "><li class="- topic/li ">Only available for Web UI testing.</li><li class="- topic/li ">Image-based testing: During recording and spying, you have to
+               decide which elements will be captured as images to create an image
+               property. It's sometimes hard to know which elements can be broken
+               during execution. This means you have to capture them all manually,
+               or decide that certain elements are likely to be resilient and
+               should be backed up with an image.</li></ul>
+      </note></conbody></concept>

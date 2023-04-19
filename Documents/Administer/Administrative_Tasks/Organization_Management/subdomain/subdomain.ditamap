@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-subdomain" class="- map/map ">
+  <title class="- topic/title ">Subdomain Configurations</title>
+  <topicref href="subdomain.dita" class="- map/topicref "><topicref href="create_a_subdomain.dita" class="- map/topicref "/>
+</topicref>
+  </map>

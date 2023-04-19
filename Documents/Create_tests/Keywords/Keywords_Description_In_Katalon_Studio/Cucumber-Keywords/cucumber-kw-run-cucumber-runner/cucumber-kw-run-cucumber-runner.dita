@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">[Cucumber] Run with Cucumber Runner</title><conbody class="- topic/body  concept/conbody "><ul class="- topic/ul "><li class="- topic/li "><b class="+ topic/ph hi-d/b ">Description</b>: Execute a Feature File with a set
+            of options using <xref format="html" href="http://toolsqa.com/cucumber/junit-test-runner-class/" scope="external" class="- topic/xref ">Cucumber
+               Runner</xref>. Example you've created a Step Definitions called
+            <b class="+ topic/ph hi-d/b ">MyCucumberRunner</b> within scripts folder
+            ("Include/scripts/groovy" folder).</li><li class="- topic/li "><b class="+ topic/ph hi-d/b ">Keyword name</b>: runWithCucumberRunner</li><li class="- topic/li "><b class="+ topic/ph hi-d/b ">Keyword syntax</b>:
+            runWithCucumberRunner(cucumberRunnerClass, flowControl)</li><li class="- topic/li "><b class="+ topic/ph hi-d/b ">Parameters</b>: 
+            
+            <ul class="- topic/ul "><li class="- topic/li ">Name: cucumberRunnerClass</li><li class="- topic/li ">Description: a class that is annotated with Cucumber
+                  runner</li><li class="- topic/li ">Parameter Type: Class</li><li class="- topic/li ">Mandatory: Required</li><li class="- topic/li ">Name: flowControl</li><li class="- topic/li ">Description: an instance
+                  com.kms.katalon.core.model.FailureHandling that controls the
+                  running flow</li><li class="- topic/li ">Parameter Type: FailureHandling</li><li class="- topic/li ">Mandatory: Optional</li></ul>
+      </li><li class="- topic/li "><b class="+ topic/ph hi-d/b ">Returns</b>: an instance of CucumberRunnerResult
+            that includes status of keyword and JUnit Runner result.</li><li class="- topic/li "><b class="+ topic/ph hi-d/b ">Example</b>:</li></ul><codeblock class="+ topic/pre pr-d/codeblock ">CucumberKW.runWithCucumberRunner(MyCucumberRunner.class)
+</codeblock><p class="- topic/p ">
+      <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/running-cucumber-features-file/Screen-Shot-2018-09-06-at-17.13.04.png" scope="external" class="- topic/image "/>
+    </p><ul class="- topic/ul "><li class="- topic/li ">
+        <b class="+ topic/ph hi-d/b ">Example #1</b>: Run all Feature files
+            in <b class="+ topic/ph hi-d/b ">Include/features</b> Folder</li></ul><codeblock class="+ topic/pre pr-d/codeblock ">   import org.junit.runner.RunWith;
+    import cucumber.api.CucumberOptions;
+    import cucumber.api.junit.Cucumber;
+
+    @RunWith(Cucumber.class)
+    @CucumberOptions(features = "Include/features", glue = "")
+    public class MyCucumberRunner {}
+
+</codeblock><ul class="- topic/ul "><li class="- topic/li ">
+        <b class="+ topic/ph hi-d/b ">Example #2</b>: Run all Feature files in a
+            specified file/folder</li></ul><codeblock class="+ topic/pre pr-d/codeblock ">   import org.junit.runner.RunWith;
+    import cucumber.api.CucumberOptions;
+    import cucumber.api.junit.Cucumber;
+
+    @RunWith(Cucumber.class)
+    @CucumberOptions(features = "Your_Folder_Or_File_Path", glue = "")
+    public class MyCucumberRunner {}
+
+</codeblock><ul class="- topic/ul "><li class="- topic/li ">
+        <b class="+ topic/ph hi-d/b ">Example #3</b>: Run all Feature files in a
+            specified file/folder, generate JUnit Cucumber report with XML
+            pretty format, and copy to a specified folder</li></ul><codeblock class="+ topic/pre pr-d/codeblock ">   import org.junit.runner.RunWith;
+    import cucumber.api.CucumberOptions;
+    import cucumber.api.junit.Cucumber;
+    @RunWith(Cucumber.class)
+    @CucumberOptions(features="Your_Folder_Path", glue="", plugin = ["pretty",
+                        "junit:Folder_Name/cucumber.xml"])
+    public class MyCucumberRunner {
+    }
+
+</codeblock><ul class="- topic/ul "><li class="- topic/li ">
+        <b class="+ topic/ph hi-d/b ">Example #4</b>: Run all Feature files in a
+            specified file/folder, generate multi Cucumber reports with XML,
+            JSON, HTML pretty format, and copy to a specified folder</li></ul><codeblock class="+ topic/pre pr-d/codeblock ">   import org.junit.runner.RunWith;
+    import cucumber.api.CucumberOptions;
+    import cucumber.api.junit.Cucumber;
+    @RunWith(Cucumber.class)
+    @CucumberOptions(features="Your_Folder_Path", glue="", plugin = ["pretty",
+                        "junit:Folder_Name/cucumber.xml",
+                        "html:Folder_Name",
+                        "json:Folder_Name/cucumber.json"])
+    public class MyCucumberRunner {
+    }
+</codeblock></conbody></concept>

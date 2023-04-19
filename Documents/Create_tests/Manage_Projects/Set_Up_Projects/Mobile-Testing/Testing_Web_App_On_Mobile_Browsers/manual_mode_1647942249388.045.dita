@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">Manual Mode</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Step 1: Click on Add from Toolbar and select Web UI Keyword.</p><p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/running_application_mobile_browsers/web-ui-keyword.png" scope="external" width="250" class="- topic/image "><alt class="- topic/alt ">web UI keyword</alt></image>
+        </p><p class="- topic/p ">Step 2: Select <i class="+ topic/ph hi-d/i ">Open Browser</i> and pass the URL in the
+         input field. Call <i class="+ topic/ph hi-d/i ">Wait for Page to Load</i> and provide a
+         timeout value in the input field.</p><p class="- topic/p ">Step 3: Add <i class="+ topic/ph hi-d/i ">Wait for Element Visible</i> keyword for button
+         object "Make Appointment."</p><p class="- topic/p ">Step 4: Before performing the click action, Verify whether the
+         element is clickable using <i class="+ topic/ph hi-d/i ">Verify Element Clickable</i>
+         keyword, pass the object button "Make Appointment."</p><p class="- topic/p ">Step 5: Call <i class="+ topic/ph hi-d/i ">Click</i> action to be performed on the "Make
+         Appointment" button.</p><p class="- topic/p ">Step 6: <i class="+ topic/ph hi-d/i ">Wait for Element Visible</i> "Login."</p><p class="- topic/p ">Step 7: Add <i class="+ topic/ph hi-d/i ">Verify Element Clickable</i> and pass the
+         object as the "Login" button.</p><p class="- topic/p ">Step 8: <i class="+ topic/ph hi-d/i ">Set Text</i> for the username as "John Doe".</p><p class="- topic/p ">Step 9:  <i class="+ topic/ph hi-d/i ">Set Text</i> in the password as
+         "ThisIsNotAPassword".</p><p class="- topic/p ">Step 10: Add <i class="+ topic/ph hi-d/i ">Click</i> action to be performed on the Login
+         button.</p><p class="- topic/p ">Step 11: <i class="+ topic/ph hi-d/i ">Wait for Element</i> present of text "Make
+         Appointment".</p><p class="- topic/p ">Step12: Add <i class="+ topic/ph hi-d/i ">Get Text</i> keyword to capture the Header
+         "Make Appointment" and store it in a variable called
+         "actual_Header".</p><p class="- topic/p ">Step 13: Use the <i class="+ topic/ph hi-d/i ">Verify Match</i> Keyword to verify the
+         actual and expected texts.</p><p class="- topic/p ">Step 14: Close the browser.</p><p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/running_application_mobile_browsers/830-test-steps.png" scope="external" width="850" class="- topic/image "><alt class="- topic/alt ">test steps</alt></image>
+        </p><p class="- topic/p ">You can also achieve the desired test case by using
+         <b class="+ topic/ph hi-d/b ">Script Mode</b>.</p></conbody></concept>

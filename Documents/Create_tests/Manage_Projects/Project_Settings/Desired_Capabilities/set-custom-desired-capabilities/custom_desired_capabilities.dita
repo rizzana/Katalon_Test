@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Custom desired capabilities</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To create a custom execution with desired capabilities, follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Project &gt; Settings &gt; Desired Capabilities &gt; Custom</b>. Click <b class="+ topic/ph hi-d/b ">Add</b> on the command toolbar to add a custom profile.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/project-settings-new-ui/KS-DC-Custom-settings.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Create a custom profile</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Change the name if needed, then click on <i class="+ topic/ph hi-d/i ">More</i> (...) under the <b class="+ topic/ph hi-d/b ">Value</b> column.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/project-settings-new-ui/KS-DC-CUSTOM-Add-property.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Edit the custom profile settings</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Custom Execution Configuration Builder</b> dialog, click <b class="+ topic/ph hi-d/b ">Add</b>, then specify the <b class="+ topic/ph hi-d/b ">Driver Name</b> for your custom execution.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/KS-DC-Choose-environment.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Choose the environment to set DC</alt></image>
+                </p>
+                <note type="tip" class="- topic/note ">
+                    <ul class="- topic/ul "><li class="- topic/li ">
+                            <p class="- topic/p ">You can have at most one web driver and one mobile driver here since there may be a potential conflict if you use multiple web or mobile drivers in the same test execution.</p>
+                        </li></ul>
+                </note>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click on <i class="+ topic/ph hi-d/i ">More</i> (...) under the <b class="+ topic/ph hi-d/b ">Preferences</b> column.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Driver Builder</b> dialog opens. Set desired capabilities for the selected driver. The steps to add new desired capabilities here is similar to configuring desired capabilities in each environment. You can refer to the following documents for setting up desired capabilities in different environment:</p>
+                <ul class="- topic/ul "><li class="- topic/li ">
+                        <p class="- topic/p "> <xref href="../desired-capabilities-settings-webui/desired-capabilities-settings-webui.dita" class="- topic/xref ">Set up desired capabilities in WebUI testing</xref>
+                        </p>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p "> <xref href="../desired-capabilities-settings-mobile/desired-capabilities-settings-mobile.dita" class="- topic/xref ">Set up desired capabilities in mobile testing</xref>
+                        </p>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p "> <xref href="../desired-capabilities-settings-windows/desired-capabilities-settings-windows.dita" class="- topic/xref ">Set up desired capabilities in Windows Desktop App testing</xref>
+                        </p>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p "> <xref href="../desired-capabilities-remote-settings/Concept/desired-capabilities-remote-settings.dita" class="- topic/xref ">Set up remote server in desired capabilities</xref>
+                        </p>
+                    </li></ul>
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">OK</b> when you finish.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/KS-DC-Set-DC-for-the-chosen-%20environment.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Set DC for the chosen environment</alt></image>
+                </p>
+            </li></ol></conbody></concept>

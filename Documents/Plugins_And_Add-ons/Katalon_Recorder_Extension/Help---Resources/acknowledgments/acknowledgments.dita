@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title "><ph conkeyref="name-variables/katalon-recorder" class="- topic/ph "/> Acknowledgments</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Special thanks to:</p><ul class="- topic/ul "><li class="- topic/li ">The following teams and individuals who inspired and provided
+            open source projects to help us creating Katalon Automation
+            Recorder as a contribution back to the software testing community. 
+            
+            <ul class="- topic/ul "><li class="- topic/li ">Selenium IDE Project - <xref format="html" href="http://www.seleniumhq.org/" scope="external" class="- topic/xref ">http://www.seleniumhq.org</xref>.</li><li class="- topic/li ">SideeX - <xref format="html" href="https://github.com/SideeX/sideex" scope="external" class="- topic/xref ">https://github.com/SideeX/sideex</xref>.</li><li class="- topic/li ">Robot Framework Formatter Project - <xref format="html" href="https://github.com/ngocbv/Robot-Framework-Formatter" scope="external" class="- topic/xref ">https://github.com/ngocbv/Robot-Framework-Formatter</xref>.</li><li class="- topic/li ">Formatter for C# with MSTest is provided by <xref format="html" href="https://forum.katalon.com/discussion/4209/export-to-c-with-webdriver-and-mstest" scope="external" class="- topic/xref ">Mark
+                     Gibson</xref>.</li></ul>
+      </li><li class="- topic/li ">
+        <xref format="html" href="https://forum.katalon.com/u/Patrick_Groot/summary" scope="external" class="- topic/xref ">Patrick
+               Groot</xref> and other active members at <xref format="html" href="https://forum.katalon.com" scope="external" class="- topic/xref ">our forum</xref> who have provided a
+            lot of valuable suggestions and bug reports.</li><li class="- topic/li ">Plugin developers: 
+            
+            <ul class="- topic/ul "><li class="- topic/li ">Jan Esser - PHPUnit formatter for Katalon Recorder (<xref href="https://bitbucket.org/inventis/phpunit-formatter-katalon-recorder/src/master/" scope="external" class="- topic/xref ">Bitbucket</xref>).</li></ul>
+      </li></ul></conbody></concept>

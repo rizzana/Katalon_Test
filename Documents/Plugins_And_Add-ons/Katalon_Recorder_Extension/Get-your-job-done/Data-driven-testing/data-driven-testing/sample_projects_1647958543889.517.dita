@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_8" class="- topic/topic concept/concept "><title class="- topic/title ">Sample projects</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Katalon Recorder comes with a set of built-in sample projects to get you started with DDT.</p><p class="- topic/p ">Follow these steps to add a sample project:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Actions</b> sidebar, select <b class="+ topic/ph hi-d/b ">Sample Projects</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/ddt-guide/KR-Action-sidebar-Sample-Projects.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Action sidebar</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In the displayed dialog, select the <b class="+ topic/ph hi-d/b ">Fill a form with data from CSV file with Sample Test Data</b> sample project. Click <b class="+ topic/ph hi-d/b ">Add</b> to add the project.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/ddt-guide/KR-Sample-Project-dialog.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Sample project dialog</alt></image>
+                </p>
+            </li></ol><p class="- topic/p "> <b class="+ topic/ph hi-d/b ">See also</b>: <ul class="- topic/ul "><li class="- topic/li ">
+                    <p class="- topic/p ">The Katalon Academy course: <xref format="html" href="https://academy.katalon.com/courses/katalon-recorder-data-driven-testing/" scope="external" class="- topic/xref ">Data-Driven Testing with Katalon Recorder</xref>.</p>
+                </li></ul></p></conbody></concept>

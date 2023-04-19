@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_36" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Introduce Katalon Store Integration</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">Katalon Store is a platform that leads users to the world of
+         amazing plugins for Katalon Studio. This is also a collaborative
+         marketplace for both end-users and developers to build add-on
+         products, in order to maximize Katalon Studio's test automation
+         capabilities. Katalon Store website is available at
+         www.store.katalon.com.</p>
+        <p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-60/3.png" scope="external" class="- topic/image "/> Each plugin in Katalon Store comes with a detailed
+         description so that you can preview the functions and features
+         before installing.</p>
+        <p class="- topic/p ">If you cannot find the suitable add-on to your wish, you are
+         welcomed to be the publisher with the Publish A New Plugin and
+         Manage Published Plugins functions.</p>
+      </conbody>
+    </concept>

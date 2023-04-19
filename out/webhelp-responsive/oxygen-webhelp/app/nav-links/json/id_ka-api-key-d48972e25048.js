@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"id_ka-api-key-d48972e25048":{"topics":[{"title":"Generate a Katalon API Key","href":"Documents\/Administer\/Security_Settings\/ka-api-key\/generate_a_katalon_api_key.html","attributes":{"data-id":"id_1"},"menu":{"hasChildren":false},"tocID":"id_1-d48972e25056","next":"id_1-d48972e25056"}]}};

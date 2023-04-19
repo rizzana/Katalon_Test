@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_7" class="- topic/topic concept/concept "><title class="- topic/title ">Commit</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Commit</b> option allows users to view all
+         current changes and decide which changes are stored in the local
+         branch. For more information on the commit command, refer to this
+         Git document: <xref format="html" href="https://git-scm.com/docs/git-commit" scope="external" class="- topic/xref ">Commit</xref>.</p><ol class="- topic/ol "><li class="- topic/li ">
+          <p class="- topic/p ">In the main toolbar, click on <b class="+ topic/ph hi-d/b ">Git &gt;
+                  Commit</b>.</p>
+          <p class="- topic/p "><image width="200" href="../image/ks-840-git-commit.png" class="- topic/image "><alt class="- topic/alt ">Git commit</alt></image>
+            
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Git Staging</b> tab is displayed for
+               configuration.</p>
+          <p class="- topic/p "><image width="700" href="../image/ks-840-commit.png" class="- topic/image "><alt class="- topic/alt ">Git stagging</alt></image>
+            
+          </p>
+          <table class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Field</entry><entry class="- topic/entry ">Description</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">Unstaged Changes</entry><entry class="- topic/entry ">Changes which have been made.</entry></row><row class="- topic/row "><entry class="- topic/entry ">Staged Changes</entry><entry class="- topic/entry ">Selected changes from <b class="+ topic/ph hi-d/b ">Unstaged Changes.</b> These
+                        changes are committed.</entry></row></tbody></tgroup></table>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">From the <b class="+ topic/ph hi-d/b ">Unstaged Changes</b> list, select the
+               changes to be committed, then right-click on them and select
+               <b class="+ topic/ph hi-d/b ">Add To Index</b>. Selected changes are added to the
+               <b class="+ topic/ph hi-d/b ">Staged Changes</b> list.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Enter your comments into the <b class="+ topic/ph hi-d/b ">Commit Message</b>,
+               then click on <b class="+ topic/ph hi-d/b ">Commit</b> to store your staged changes
+               into the local branch.</p>
+        </li></ol></conbody></concept>

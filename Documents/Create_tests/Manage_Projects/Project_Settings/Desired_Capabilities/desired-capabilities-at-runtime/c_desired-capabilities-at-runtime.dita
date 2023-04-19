@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Pass desired capabilities at runtime in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Desired capabilities configured in project settings are applied
+         at the project level. You can also use desired capabilities at the
+         test case level by passing desired capabilities to the test
+         script.</p></conbody></concept>

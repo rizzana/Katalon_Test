@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Manage versions</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">This feature allows you to update new versions for your
+         plugins</p>
+    </conbody>
+  </concept>

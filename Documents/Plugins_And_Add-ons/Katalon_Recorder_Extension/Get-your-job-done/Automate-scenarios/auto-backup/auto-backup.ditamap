@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-auto-backup" class="- map/map ">
+  <title class="- topic/title ">Back up data automatically</title>
+  <topicref href="auto-backup.dita" class="- map/topicref "><topicref href="backup_data_to_katalon_testops.dita" class="- map/topicref "/>
+  <topicref href="view_backup_data_in_katalon_testops.dita" class="- map/topicref "/>
+</topicref>
+  </map>

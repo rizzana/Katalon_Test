@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Create_tests/Keywords/Custom_Keywords/How_To_Perform_Database_Testing_Using_Katalon_Studio?><?workdir-uri file:/Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Create_tests/Keywords/Custom_Keywords/How_To_Perform_Database_Testing_Using_Katalon_Studio/?><?path2project ../../../../../?><?path2project-uri ../../../../../?><?path2rootmap-uri ../../../../../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="id" class="- topic/topic concept/concept " ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/How_To_Perform_Database_Testing_Using_Katalon_Studio/connect_db_gui_testing.dita" xtrc="concept:1;3:57" specializations="@props/deliveryTarget"><title class="- topic/title " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/How_To_Perform_Database_Testing_Using_Katalon_Studio/connect_db_gui_testing.dita" xtrc="title:1;3:87">How to perform Database Testing using <ph class="- topic/ph " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Global_reuse/Name_variables_warehouse/Common_phrases.dita" xtrc="ph:2;3:1075">Katalon Studio</ph></title><conbody class="- topic/body  concept/conbody " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/How_To_Perform_Database_Testing_Using_Katalon_Studio/connect_db_gui_testing.dita" xtrc="conbody:1;3:248"><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/How_To_Perform_Database_Testing_Using_Katalon_Studio/connect_db_gui_testing.dita" xtrc="p:1;3:270">Katalon Studio allows users to create <xref href="../Introduction_To_Custom_Keywords/introduction-to-custom-keywords.dita" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/How_To_Perform_Database_Testing_Using_Katalon_Studio/connect_db_gui_testing.dita" xtrc="xref:1;3:415" type="concept"><?ditaot usertext?>custom keywords</xref> to address specific needs. With custom keywords, you can connect to databases and perform database testing. This tutorial describes details on how to create custom keywords for database testing in Katalon Studio.</p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/How_To_Perform_Database_Testing_Using_Katalon_Studio/connect_db_gui_testing.dita" xtrc="p:2;3:676">Below is a code sample demonstrating how to</p><ul class="- topic/ul " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/How_To_Perform_Database_Testing_Using_Katalon_Studio/connect_db_gui_testing.dita" xtrc="ul:1;3:747"><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/How_To_Perform_Database_Testing_Using_Katalon_Studio/connect_db_gui_testing.dita" xtrc="li:1;3:771">establish a database connection</li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/How_To_Perform_Database_Testing_Using_Katalon_Studio/connect_db_gui_testing.dita" xtrc="li:2;3:831">execute a query</li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/How_To_Perform_Database_Testing_Using_Katalon_Studio/connect_db_gui_testing.dita" xtrc="li:3;3:875">close  the connection</li></ul><codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/How_To_Perform_Database_Testing_Using_Katalon_Studio/connect_db_gui_testing.dita" xtrc="codeblock:1;3:953">package com.database
+ 
+import java.sql.DriverManager
+ 
+import java.sql.ResultSet
+ 
+import java.sql.Statement
+ 
+import com.kms.katalon.core.annotation.Keyword
+ 
+import com.mysql.jdbc.Connection
+ 
+public class DemoMySql {
+ 
+private static Connection connection = null;
+ 
+/**
+ 
+* Open and return a connection to database
+ 
+* @param dataFile absolute file path
+ 
+* @return an instance of java.sql.Connection
+ 
+*/
+ 
+//Establishing a connection to the DataBase
+ 
+@Keyword
+ 
+def connectDB(String url, String dbname, String port, String username, String password){
+ 
+//Load driver class for your specific database type
+ 
+String conn = "jdbc:mysql://" + url + ":" + port + "/" + dbname
+ 
+//Class.forName("org.sqlite.JDBC")
+ 
+//String connectionString = "jdbc:sqlite:" + dataFile
+ 
+if(connection != null &amp;&amp; !connection.isClosed()){
+ 
+connection.close()
+ 
+}
+ 
+connection = DriverManager.getConnection(conn, username, password)
+ 
+return connection
+ 
+}
+ 
+/**
+ 
+* execute a SQL query on database
+ 
+* @param queryString SQL query string
+ 
+* @return a reference to returned data collection, an instance of java.sql.ResultSet
+ 
+*/
+ 
+//Executing the constructed Query and Saving results in resultset
+ 
+@Keyword
+ 
+def executeQuery(String queryString) {
+ 
+Statement stm = connection.createStatement()
+ 
+ResultSet rs = stm.executeQuery(queryString)
+ 
+return rs
+ 
+}
+ 
+//Closing the connection
+ 
+@Keyword
+ 
+def closeDatabaseConnection() {
+ 
+if(connection != null &amp;&amp; !connection.isClosed()){
+ 
+connection.close()
+ 
+}
+ 
+connection = null
+ 
+}
+ 
+/**
+ 
+* Execute non-query (usually INSERT/UPDATE/DELETE/COUNT/SUM...) on database
+ 
+* @param queryString a SQL statement
+ 
+* @return single value result of SQL statement
+ 
+*/
+ 
+@Keyword
+ 
+def execute(String queryString) {
+ 
+Statement stm = connection.createStatement()
+ 
+boolean result = stm.execute(queryString)
+ 
+return result
+ 
+}
+ 
+}
+
+</codeblock><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/How_To_Perform_Database_Testing_Using_Katalon_Studio/connect_db_gui_testing.dita" xtrc="p:3;119:35">
+      <i class="+ topic/ph hi-d/i " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/How_To_Perform_Database_Testing_Using_Katalon_Studio/connect_db_gui_testing.dita" xtrc="i:1;120:37">Tips: Press "</i>
+      <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/How_To_Perform_Database_Testing_Using_Katalon_Studio/connect_db_gui_testing.dita" xtrc="b:1;121:37">
+        <i class="+ topic/ph hi-d/i " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/How_To_Perform_Database_Testing_Using_Katalon_Studio/connect_db_gui_testing.dita" xtrc="i:2;122:39">Ctrl + Shift +
+               o</i>
+      </b>
+      <i class="+ topic/ph hi-d/i " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/How_To_Perform_Database_Testing_Using_Katalon_Studio/connect_db_gui_testing.dita" xtrc="i:3;125:37">" to automatically import missing libraries in
+            test scripts.</i>
+    </p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/How_To_Perform_Database_Testing_Using_Katalon_Studio/connect_db_gui_testing.dita" xtrc="p:4;127:31">The Custom Keywords file will look like the following:</p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/How_To_Perform_Database_Testing_Using_Katalon_Studio/connect_db_gui_testing.dita" xtrc="p:5;127:111">
+      <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/connect_db_gui_testing/Test-Explorer_Custom-Keywords.png" scope="external" class="- topic/image " placement="inline" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/How_To_Perform_Database_Testing_Using_Katalon_Studio/connect_db_gui_testing.dita" xtrc="image:1;128:200" dita-ot:image-width="867" dita-ot:image-height="511" dita-ot:horizontal-dpi="96" dita-ot:vertical-dpi="96"><alt class="- topic/alt " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/How_To_Perform_Database_Testing_Using_Katalon_Studio/connect_db_gui_testing.dita" xtrc="alt:1;128:226">Katalon Custom Keywords</alt></image>
+    </p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/How_To_Perform_Database_Testing_Using_Katalon_Studio/connect_db_gui_testing.dita" xtrc="p:6;129:31">You can add the sample code above to your keyword file and
+         modify the details as appropriated. Refer to these links for the
+         formats of database connection strings:</p><ul class="- topic/ul " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/How_To_Perform_Database_Testing_Using_Katalon_Studio/connect_db_gui_testing.dita" xtrc="ul:2;131:77"><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/How_To_Perform_Database_Testing_Using_Katalon_Studio/connect_db_gui_testing.dita" xtrc="li:4;131:101">For MSSQL: <xref format="html" href="https://www.connectionstrings.com/sql-server/" scope="external" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/How_To_Perform_Database_Testing_Using_Katalon_Studio/connect_db_gui_testing.dita" xtrc="xref:2;131:224"><?ditaot usertext?>https://www.connectionstrings.com/sql-server/</xref>
+      </li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/How_To_Perform_Database_Testing_Using_Katalon_Studio/connect_db_gui_testing.dita" xtrc="li:5;132:36">For Oracle: <xref format="html" href="https://www.connectionstrings.com/oracle/" scope="external" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/How_To_Perform_Database_Testing_Using_Katalon_Studio/connect_db_gui_testing.dita" xtrc="xref:3;132:156"><?ditaot usertext?>https://www.connectionstrings.com/oracle/</xref>
+      </li></ul><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/How_To_Perform_Database_Testing_Using_Katalon_Studio/connect_db_gui_testing.dita" xtrc="p:7;133:39">
+      <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/How_To_Perform_Database_Testing_Using_Katalon_Studio/connect_db_gui_testing.dita" xtrc="b:2;134:37">Use Defined Keywords in Test Cases for DB
+            Testing</b>
+    </p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/How_To_Perform_Database_Testing_Using_Katalon_Studio/connect_db_gui_testing.dita" xtrc="p:8;136:31">1. Create new custom keywords for database connection (see
+         above).</p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/How_To_Perform_Database_Testing_Using_Katalon_Studio/connect_db_gui_testing.dita" xtrc="p:9;137:43">2. Copy the DB script provided above and paste it into the new
+         keyword editor as illustrated below:<image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/connect_db_gui_testing/DB-Testing.png" scope="external" class="- topic/image " placement="inline" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/How_To_Perform_Database_Testing_Using_Katalon_Studio/connect_db_gui_testing.dita" xtrc="image:2;138:220" dita-ot:image-width="801" dita-ot:image-height="593" dita-ot:horizontal-dpi="96" dita-ot:vertical-dpi="96"><alt class="- topic/alt " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/How_To_Perform_Database_Testing_Using_Katalon_Studio/connect_db_gui_testing.dita" xtrc="alt:2;138:246">Katalon Defined Keywords</alt></image>
+    </p></conbody></concept>

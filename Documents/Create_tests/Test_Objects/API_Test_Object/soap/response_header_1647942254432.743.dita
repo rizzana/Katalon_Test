@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_11" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Response Header</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">The response's header is displayed in
+         the <b class="+ topic/ph hi-d/b ">Header</b> tab.</p>
+      </conbody>
+    </concept>

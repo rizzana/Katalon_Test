@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-extract-and-write-data" class="- map/map ">
+  <title class="- topic/title ">How to extract and write data in a test case</title>
+  <topicref href="extract-and-write-data.dita" class="- map/topicref "><topicref href="test_case_scenario.dita" class="- map/topicref "/>
+  <topicref href="prepare_a_csv_file.dita" class="- map/topicref "/>
+  <topicref href="add_the_csv_file_to_the_workspace.dita" class="- map/topicref "/>
+  <topicref href="extract_and_write_the_data.dita" class="- map/topicref "/>
+</topicref>
+  </map>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Upload your Katalon project on Jenkins</title><conbody class="- topic/body  concept/conbody "><note type="note" class="- topic/note ">
+        
+        <ul class="- topic/ul "><li class="- topic/li ">Make sure you have Docker open, with <b class="+ topic/ph hi-d/b ">Docker
+                  Plugin</b> and <b class="+ topic/ph hi-d/b ">Docker Pipeline</b> activated on
+               Jenkins.</li><li class="- topic/li ">You can clone or download our sample CI/CD project at our
+               GitHub repository: <xref format="html" href="https://github.com/katalon-studio-samples/ci-samples" scope="external" class="- topic/xref ">CI
+                  sample</xref>.</li></ul>
+      </note><p class="- topic/p ">You can either upload your Katalon project from a Git repository
+         or your local workspace.</p></conbody></concept>

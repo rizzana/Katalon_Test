@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Request URL</title>
+      <conbody class="- topic/body  concept/conbody ">
+
+        <p class="- topic/p ">You need to specify a URL indicating the service endpoint of
+         each request. For example, the following URL
+         <codeph class="+ topic/ph pr-d/codeph ">https://petstore.swagger.io/v2/pet/findByStatus?status=${status}</codeph>
+         is registered for the RESTful request we've created. In URLs, you
+         can use variables, <codeph class="+ topic/ph pr-d/codeph ">status=${status}</codeph>, for instance, to
+         update the Query Parameter dynamically. <xref href="../REST_Request/Parameterize_A_Web_Service_Object/parameterize-a-web-service-object.dita" class="- topic/xref ">More
+            details</xref>.</p>
+      </conbody>
+    </concept>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">In Manual view</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">Follow the steps below to use your defined custom keywords
+         in the <b class="+ topic/ph hi-d/b ">Manual</b> view of a Test Case:</p>
+        <ol class="- topic/ol ">
+          <li class="- topic/li ">
+            <p class="- topic/p ">Open a test case in the Manual view and select
+               <b class="+ topic/ph hi-d/b ">Custom Keyword</b> from the command toolbar.</p>
+            <p class="- topic/p ">
+              <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-to-custom-keywords/image2017-6-30-203A323A47.png" scope="external" class="- topic/image "/>
+            </p>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">A new test step is added. Select one of your custom
+               keywords.</p>
+            <p class="- topic/p ">
+              <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-to-custom-keywords/image2017-2-6-163A443A46.png" scope="external" class="- topic/image "/>
+            </p>
+          </li>
+        </ol>
+      </conbody>
+    </concept>

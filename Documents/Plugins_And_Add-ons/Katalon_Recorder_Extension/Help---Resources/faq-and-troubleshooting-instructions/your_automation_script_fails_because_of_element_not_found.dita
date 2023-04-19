@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Your automation script fails because of element not found</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">Locators are methods that KR use to find elements on websites.
+         If your automation script fails because of an element not found,
+         click on the target dropdown of the failed step and choose another
+         locator.</p>
+      </conbody>
+    </concept>

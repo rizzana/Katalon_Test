@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">TestOps Visual Testing</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Katalon TestOps offers visual testing with three image
+         comparison methods: pixel-based, layout-based, and content-based
+         comparison. Since AI powers the layout-based and content-based
+         methods, TestOps Visual Testing could become an integral part of
+         your visual testing infrastructure.</p><p class="- topic/p ">To learn more about TestOps Visual Testing features and plans, you can refer to this document: <xref href="../../../../Administer/Katalon_Platform_Packages/visual_testing_comparision_overview/intro_feature_comparisons_in_visual_testing.dita" class="- topic/xref "/>.</p></conbody></concept>

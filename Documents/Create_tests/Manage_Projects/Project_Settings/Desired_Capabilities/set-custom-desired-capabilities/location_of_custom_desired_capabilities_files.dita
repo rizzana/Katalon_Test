@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Location of custom desired capabilities files</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">You can find the settings files for custom desired capabilities
+         in the <codeph class="+ topic/ph pr-d/codeph ">  &lt;your test project location&gt;\settings\external\execution</codeph> folder.</p></conbody></concept>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Disable the Strict Domain</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">If you have enabled the Strict Domain before, you have an option
+         to disable it by following the same steps.</p>
+    </conbody>
+  </concept>

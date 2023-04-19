@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword?><?workdir-uri file:/Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/?><?path2project ../../../../../?><?path2project-uri ../../../../../?><?path2rootmap-uri ../../../../../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="id_2" class="- topic/topic concept/concept " ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="concept:1;3:59" specializations="@props/deliveryTarget"><title class="- topic/title " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="title:1;3:89">Run Flutter-based application test with custom SetText
+         keyword</title><conbody class="- topic/body  concept/conbody " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="conbody:1;4:73"><ol class="- topic/ol " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="ol:1;4:97"><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="li:1;4:121">
+
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="p:1;6:33">In Katalon Studio, open your project and create a new test case.
+               Record your mobile testing script. Use <xref href="../../Keywords_Description_In_Katalon_Studio/Mobile-Keywords/mobile-tap/mobile-tap.dita" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="xref:1;7:178" type="concept"><?ditaot usertext?>Tap
+                  keyword</xref> on elements <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="b:1;8:76">EditText - Email</b> and
+               <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="b:2;9:46">EditText - Password</b>, then click
+               <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="b:3;10:46">Save</b>.</p>
+        </li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="li:2;11:38">
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="p:2;12:33">In the <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="b:4;12:70">Tests Explorer</b> section on the left side
+               of Katalon Studio, navigate to the <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="b:5;13:81">Keywords</b> folder
+               and create a new keyword package. Name the package
+               <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="b:6;15:46">com.kms.katalon.core.mobile.keyword.builtin</b>.</p>
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="p:3;16:33">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/flutter-based-application-testing/create%20package.png" scope="external" width="700" class="- topic/image " placement="inline" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="image:1;17:216" dita-ot:image-width="976" dita-ot:image-height="780" dita-ot:horizontal-dpi="144" dita-ot:vertical-dpi="144"><alt class="- topic/alt " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="alt:1;17:242">create package</alt></image>
+          </p>
+        </li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="li:3;19:38">
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="p:4;20:33">
+
+            Right click on the
+               <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="b:7;23:46">com.kms.katalon.core.mobile.keyword.builtin</b>
+               package and create a new keyword named
+               <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="b:8;25:46">SetTextKeyword</b>. See also: <xref href="../Introduction_To_Custom_Keywords/introduction-to-custom-keywords.dita" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="xref:2;25:183" type="concept"><?ditaot usertext?>Introduction
+                  to Custom Keywords</xref>.
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/flutter-based-application-testing/create%20keyword.png" scope="external" width="600" class="- topic/image " placement="inline" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="image:2;27:216" dita-ot:image-width="988" dita-ot:image-height="548" dita-ot:horizontal-dpi="144" dita-ot:vertical-dpi="144"><alt class="- topic/alt " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="alt:2;27:242">create Class name</alt></image>
+            In the <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="b:9;28:50">SetTextKeyword.groovy</b> file, copy and
+               paste the following script and save it.
+            <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="b:10;30:43">SetTextKeyword.groovy script</b>:
+            
+              <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="codeblock:1;32:62">package com.kms.katalon.core.mobile.keyword.builtin
+
+import java.text.MessageFormat
+
+import org.openqa.selenium.InvalidElementStateException
+import org.openqa.selenium.Keys
+import org.openqa.selenium.WebElement
+import org.openqa.selenium.interactions.KeyInput
+import org.openqa.selenium.interactions.Sequence;
+
+import com.kms.katalon.core.annotation.internal.Action
+import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.exception.StepFailedException
+import com.kms.katalon.core.helper.KeywordHelper
+import com.kms.katalon.core.keyword.internal.SupportLevel
+import com.kms.katalon.core.mobile.constants.StringConstants
+import com.kms.katalon.core.mobile.keyword.internal.MobileAbstractKeyword
+import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
+import com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain
+import com.kms.katalon.core.model.FailureHandling
+import com.kms.katalon.core.testobject.TestObject
+import com.kms.katalon.selenium.util.SeleniumKeysUtil;
+
+import groovy.transform.CompileStatic
+import io.appium.java_client.AppiumDriver
+
+@Action(value = "setText")
+public class SetTextKeyword extends MobileAbstractKeyword {
+
+    @CompileStatic
+    @Override
+    public SupportLevel getSupportLevel(Object ...params) {
+        return super.getSupportLevel(params)
+    }
+
+    @CompileStatic
+    @Override
+    public Object execute(Object ...params) {
+        TestObject to = getTestObject(params[0])
+        String text = (String) params[1]
+        int timeout = (int) params[2]
+        FailureHandling flowControl = (FailureHandling)(params.length &gt; 3 &amp;&amp; params[3] instanceof FailureHandling ? params[3] : RunConfiguration.getDefaultFailureHandling())
+        setText(to,text,timeout,flowControl)
+    }
+
+    @CompileStatic
+    public void setText(TestObject to, String text, int timeout, FailureHandling flowControl) throws StepFailedException {
+        MobileKeywordMain.runKeyword({
+            KeywordHelper.checkTestObjectParameter(to)
+            timeout = KeywordHelper.checkTimeout(timeout)
+            WebElement element = findElement(to, timeout * 1000)
+            if (element == null) {
+                MobileKeywordMain.stepFailed(MessageFormat.format(StringConstants.KW_MSG_OBJ_NOT_FOUND, to.getObjectId()), flowControl, null, true)
+                return
+            }
+            element.clear()
+            try {
+                element.sendKeys(text.toString())
+            } catch (InvalidElementStateException e) {
+                AppiumDriver driver = MobileDriverFactory.getDriver()
+                element.click()
+                KeyInput keyboard = new KeyInput("keyboard");
+                Sequence sendKeys = new Sequence(keyboard, 0);
+
+                for (int i = 0; i &lt; text.length(); i++) {
+                    String c = text.charAt(i).toString()
+
+                    sendKeys.addAction(keyboard.createKeyDown(c.codePointAt(0)));
+                }
+
+                driver.perform(Arrays.asList(sendKeys));
+            }
+            String readableText = SeleniumKeysUtil.getReadableText(text)
+            logger.logPassed(MessageFormat.format(StringConstants.KW_LOG_PASSED_TEXT_HAS_BEEN_SET_TO_ELEMENT, [
+                readableText,
+                to.getObjectId()] as Object[]))
+        }, flowControl, true, to != null ? MessageFormat.format(StringConstants.KW_MSG_FAILED_TO_SET_ELEMENT_TEXT, to.getObjectId()) : StringConstants.KW_MSG_FAILED_TO_SET_ELEMENT_TEXT)
+    }
+}
+</codeblock>
+            
+          </p>
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="p:5;114:33">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/flutter-based-application-testing/KS-flutter-based-application-testing-folder.png" scope="external" width="700" class="- topic/image " placement="inline" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="image:3;115:243" dita-ot:image-width="1460" dita-ot:image-height="975"><alt class="- topic/alt " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="alt:3;115:269">create custom keyword</alt></image>
+          </p>
+        </li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="li:4;117:38">
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="p:6;118:33">In the toolbar, select <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="b:11;118:86">Window &gt; Reset
+                  Perspective...</b>
+          </p>
+        </li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="li:5;121:38">
+
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="p:7;123:33">Create a Test Case and switch to <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="b:12;123:96">Script</b> mode.
+               Enter <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="b:13;124:52">Mobile.setText</b>, then select
+               <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="codeph:1;125:56">setText(TestObject to, String text, int timeout, FailureHandling flowcontrol)</codeph>. See also: <xref href="../../Keywords_Description_In_Katalon_Studio/Mobile-Keywords/mobile-set-text/mobile-set-text.dita" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="xref:3;125:287" type="concept"><?ditaot usertext?>[Mobile]
+                  Set Text</xref>.</p>
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="p:8;127:33">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/flutter-based-application-testing/KS-flutter-setText.png" scope="external" width="700" class="- topic/image " placement="inline" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="image:4;128:218" dita-ot:image-width="1382" dita-ot:image-height="538" dita-ot:horizontal-dpi="144" dita-ot:vertical-dpi="144"><alt class="- topic/alt " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="alt:4;128:244">settext option</alt></image>
+          </p>
+        </li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="li:6;130:38">
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/run_flutter-based_application_test_with_custom_settext_keyword.dita" xtrc="p:9;131:33">Run your Test Case and see if it passes successfully.</p>
+        </li></ol></conbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="ditamap-8764" xtrc="topicref:3;6:113" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/flutter-based-application-testing.ditamap"><link class="- topic/link " format="dita" href="../../../../../Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/flutter-based-application-testing.dita" mapclass="- map/topicref " role="parent" scope="local" type="concept" xtrc="topicref:1;5:83" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/flutter-based-application-testing.ditamap"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Flutter-based application testing with custom SetText keyword in Katalon Studio</linktext></link></linkpool></related-links></concept>

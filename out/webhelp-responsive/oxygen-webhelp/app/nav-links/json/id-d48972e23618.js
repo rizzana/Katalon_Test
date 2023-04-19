@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"id-d48972e23618":{"topics":[{"title":"License types","href":"Documents\/Administer\/KSE-KRE-Licenses\/license_overview\/license_types.html","attributes":{"data-id":"id_1"},"menu":{"hasChildren":false},"tocID":"id_1-d48972e23626","topics":[]}]}};

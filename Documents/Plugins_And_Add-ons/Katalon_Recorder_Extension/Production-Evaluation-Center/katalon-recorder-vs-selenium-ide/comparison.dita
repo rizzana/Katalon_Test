@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Comparison</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">Below are the comparison between Katalon Recorder and Selenium
+         IDE:</p>
+      <table class="- topic/table ">
+        <tgroup cols="4" class="- topic/tgroup ">
+          <thead class="- topic/thead ">
+            <row class="- topic/row ">
+              <entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">Items</b>
+              </entry>
+              <entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">Katalon Recorder</b>
+              </entry>
+              <entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">Selenium IDE</b>
+              </entry>
+              <entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">Notes</b>
+              </entry>
+            </row>
+          </thead>
+          <tbody class="- topic/tbody ">
+            <row class="- topic/row ">
+              <entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">Time To First Value</b>
+              </entry>
+              <entry class="- topic/entry ">
+                <image href="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" scope="external" class="- topic/image "/>
+              </entry>
+              <entry class="- topic/entry ">
+                <image href="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image2.png" scope="external" class="- topic/image "/>
+              </entry>
+              <entry class="- topic/entry ">
+                <ul class="- topic/ul ">
+                  <li class="- topic/li ">
+                    <p class="- topic/p ">
+                      <b class="+ topic/ph hi-d/b ">KR:</b> users are able to start recording tests on
+                           the current tab immediately</p>
+                  </li>
+                  <li class="- topic/li ">
+                    <p class="- topic/p ">
+                      <b class="+ topic/ph hi-d/b ">S.IDE:</b> users must create/open a project,
+                           specify a URL and then start recording</p>
+                  </li>
+                </ul>
+              </entry>
+            </row>
+            <row class="- topic/row ">
+              <entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">Test structures</b>
+              </entry>
+              <entry class="- topic/entry ">
+                <image href="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" scope="external" class="- topic/image "/>
+              </entry>
+              <entry class="- topic/entry ">
+                <image href="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image2.png" scope="external" class="- topic/image "/>
+              </entry>
+              <entry class="- topic/entry ">
+                <ul class="- topic/ul ">
+                  <li class="- topic/li ">
+                    <p class="- topic/p ">
+                      <b class="+ topic/ph hi-d/b ">KR:</b> supports test suites and test cases</p>
+                  </li>
+                  <li class="- topic/li ">
+                    <p class="- topic/p ">
+                      <b class="+ topic/ph hi-d/b ">S.IDE</b>: There is a little bit hard to manage
+                           test suites/test cases</p>
+                  </li>
+                </ul>
+              </entry>
+            </row>
+            <row class="- topic/row ">
+              <entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">Drag and Drop</b>
+              </entry>
+              <entry class="- topic/entry ">
+                <image href="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" scope="external" class="- topic/image "/>
+              </entry>
+              <entry class="- topic/entry ">
+                <image href="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image2.png" scope="external" class="- topic/image "/>
+              </entry>
+              <entry class="- topic/entry ">
+                <ul class="- topic/ul ">
+                  <li class="- topic/li ">
+                    <p class="- topic/p ">
+                      <b class="+ topic/ph hi-d/b ">KR</b>: Drag and drop to arrange test suites, test
+                           cases, and test steps</p>
+                  </li>
+                  <li class="- topic/li ">
+                    <p class="- topic/p ">
+                      <b class="+ topic/ph hi-d/b ">S.IDE</b>: Drag and drop to arrange test steps</p>
+                  </li>
+                </ul>
+              </entry>
+            </row>
+            <row class="- topic/row ">
+              <entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">Record actions</b>
+              </entry>
+              <entry class="- topic/entry ">
+                <image href="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" scope="external" class="- topic/image "/>
+              </entry>
+              <entry class="- topic/entry ">
+                <image href="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" scope="external" class="- topic/image "/>
+              </entry>
+              <entry class="- topic/entry "/>
+            </row>
+            <row class="- topic/row ">
+              <entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">Dashboard</b>
+              </entry>
+              <entry class="- topic/entry ">
+                <image href="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" scope="external" class="- topic/image "/>
+              </entry>
+              <entry class="- topic/entry ">
+                <image href="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image3.png" scope="external" class="- topic/image "/>
+              </entry>
+              <entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">KR</b> enables dashboard view with TestOps</entry>
+            </row>
+            <row class="- topic/row ">
+              <entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">Data-Driven Testing</b>
+              </entry>
+              <entry class="- topic/entry ">
+                <image href="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" scope="external" class="- topic/image "/>
+              </entry>
+              <entry class="- topic/entry ">
+                <image href="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image3.png" scope="external" class="- topic/image "/>
+              </entry>
+              <entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">KR</b> supports CSV, JSON as data sources</entry>
+            </row>
+            <row class="- topic/row ">
+              <entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">Extension Scripts</b>
+              </entry>
+              <entry class="- topic/entry ">
+                <image href="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" scope="external" class="- topic/image "/>
+              </entry>
+              <entry class="- topic/entry ">
+                <image href="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image3.png" scope="external" class="- topic/image "/>
+              </entry>
+              <entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">KR</b> allows developers to add custom locators
+                  and actions</entry>
+            </row>
+            <row class="- topic/row ">
+              <entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">User Guides</b>
+              </entry>
+              <entry class="- topic/entry ">
+                <image href="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" scope="external" class="- topic/image "/>
+              </entry>
+              <entry class="- topic/entry ">
+                <image href="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" scope="external" class="- topic/image "/>
+              </entry>
+              <entry class="- topic/entry "/>
+            </row>
+            <row class="- topic/row ">
+              <entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">Manual add a test step</b>
+              </entry>
+              <entry class="- topic/entry ">
+                <image href="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" scope="external" class="- topic/image "/>
+              </entry>
+              <entry class="- topic/entry ">
+                <image href="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" scope="external" class="- topic/image "/>
+              </entry>
+              <entry class="- topic/entry "/>
+            </row>
+            <row class="- topic/row ">
+              <entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">Playback</b>
+              </entry>
+              <entry class="- topic/entry ">
+                <image href="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" scope="external" class="- topic/image "/>
+              </entry>
+              <entry class="- topic/entry ">
+                <image href="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" scope="external" class="- topic/image "/>
+              </entry>
+              <entry class="- topic/entry ">Both support pause and resume</entry>
+            </row>
+            <row class="- topic/row ">
+              <entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">Pause/Resume</b>
+              </entry>
+              <entry class="- topic/entry ">
+                <image href="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" scope="external" class="- topic/image "/>
+              </entry>
+              <entry class="- topic/entry ">
+                <image href="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" scope="external" class="- topic/image "/>
+              </entry>
+              <entry class="- topic/entry "/>
+            </row>
+            <row class="- topic/row ">
+              <entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">Skip a step</b>
+              </entry>
+              <entry class="- topic/entry ">
+                <image href="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image3.png" scope="external" class="- topic/image "/>
+              </entry>
+              <entry class="- topic/entry ">
+                <image href="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" scope="external" class="- topic/image "/>
+              </entry>
+              <entry class="- topic/entry "/>
+            </row>
+            <row class="- topic/row ">
+              <entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">Run in parallel</b>
+              </entry>
+              <entry class="- topic/entry ">
+                <image href="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image3.png" scope="external" class="- topic/image "/>
+              </entry>
+              <entry class="- topic/entry ">
+                <image href="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" scope="external" class="- topic/image "/>
+              </entry>
+              <entry class="- topic/entry "/>
+            </row>
+            <row class="- topic/row ">
+              <entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">Run in CI</b>
+              </entry>
+              <entry class="- topic/entry ">
+                <image href="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image3.png" scope="external" class="- topic/image "/>
+              </entry>
+              <entry class="- topic/entry ">
+                <image href="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" scope="external" class="- topic/image "/>
+              </entry>
+              <entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">S.IDE</b> supports Command-line runner</entry>
+            </row>
+            <row class="- topic/row ">
+              <entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">Control flow</b>
+              </entry>
+              <entry class="- topic/entry ">
+                <image href="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" scope="external" class="- topic/image "/>
+              </entry>
+              <entry class="- topic/entry ">
+                <image href="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" scope="external" class="- topic/image "/>
+              </entry>
+              <entry class="- topic/entry "/>
+            </row>
+            <row class="- topic/row ">
+              <entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">Support multiple browsers</b>
+              </entry>
+              <entry class="- topic/entry ">
+                <image href="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" scope="external" class="- topic/image "/>
+              </entry>
+              <entry class="- topic/entry ">
+                <image href="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" scope="external" class="- topic/image "/>
+              </entry>
+              <entry class="- topic/entry "/>
+            </row>
+            <row class="- topic/row ">
+              <entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">Export test scripts</b>
+              </entry>
+              <entry class="- topic/entry ">
+                <image href="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" scope="external" class="- topic/image "/>
+              </entry>
+              <entry class="- topic/entry ">
+                <image href="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/jtbd/katalon-recorder-vs-selenium-ide/image1.png" scope="external" class="- topic/image "/>
+              </entry>
+              <entry class="- topic/entry "/>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </conbody>
+  </concept>

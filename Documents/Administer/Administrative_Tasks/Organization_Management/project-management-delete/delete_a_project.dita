@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Delete a Project</title><conbody class="- topic/body  concept/conbody "><note type="important" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">
+                    <p class="- topic/p ">You must be the Owner or Admin of a Team.</p>
+                </li></ul>
+        </note><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Settings</b> &gt; <b class="+ topic/ph hi-d/b ">Team Management</b>.</p>
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Manage Teams</b> page appears.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Choose your Team in the <b class="+ topic/ph hi-d/b ">Teams</b> section.</p>
+                <p class="- topic/p ">The Team's <b class="+ topic/ph hi-d/b ">Dashboard</b> page appears.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Select <b class="+ topic/ph hi-d/b ">Projects</b> on the left bar to view all Projects your Team has.</p>
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Manage Projects</b> page appears.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click on the <i class="+ topic/ph hi-d/i ">Settings</i> icon of the Project you want to delete.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-delete-data/manage-project-page-settings-icon.png" scope="external" class="- topic/image "><alt class="- topic/alt ">manage project page</alt></image>
+                </p>
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Project Settings</b> page appears.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Scroll down to the <b class="+ topic/ph hi-d/b ">Danger zone</b> section, and click <b class="+ topic/ph hi-d/b ">Delete this project</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-delete-data/project-settings-page-danger-zone-section-2.png" scope="external" class="- topic/image "><alt class="- topic/alt ">delete this project button</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Enter the Project's name, then click <b class="+ topic/ph hi-d/b ">I understand the consequences, delete this project</b> to confirm your action.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-delete-data/delete-project-popup-confirm-action.png" scope="external" class="- topic/image "><alt class="- topic/alt ">delete this project button</alt></image>
+                </p>
+            </li></ol></conbody></concept>

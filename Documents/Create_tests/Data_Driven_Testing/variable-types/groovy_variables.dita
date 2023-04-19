@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Groovy Variables</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <note type="note" class="- topic/note ">
+        <p class="- topic/p ">Katalon Studio supports Groovy from version 2.4.x onwards.</p>
+      </note>
+      <p class="- topic/p ">Katalon Studio allows you to define variables in Groovy.</p>
+      <p class="- topic/p ">For example:</p>
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">// x is defined as a variable of String type
+String x = "Hello";
+ 
+// y is defined as a variable of int type
+int y = 5;
+
+// The value of the variables are printed to the console
+println(x);
+println(y);
+</codeblock>
+      
+
+      <p class="- topic/p ">To learn more about Groovy, you can refer to the Apache Groovy
+         document: <xref format="html" href="http://groovy-lang.org/semantics.html" scope="external" class="- topic/xref ">Groovy
+            documentation</xref>.</p>
+    </conbody>
+  </concept>

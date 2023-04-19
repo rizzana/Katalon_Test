@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Usage Example</title><conbody class="- topic/body  concept/conbody "><codeblock class="+ topic/pre pr-d/codeblock ">name: CI
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2.1
+    - name: Katalon Studio Github Action
+      uses: katalon-studio/katalon-studio-github-action@v2
+      with:
+          version: '7.5.5'
+          projectPath: '${{ github.workspace }}'
+          args: '-noSplash -retry=0 -testSuiteCollectionPath="Test Suites/Simple Test Suite Collection" -apiKey= ${{ secrets.API_KEY }} --config -webui.autoUpdateDrivers=true'
+</codeblock><p class="- topic/p ">You can find the CI samples for macOS and Windows on our GitHub repository: <xref format="html" href="https://github.com/katalon-studio-samples/ci-samples/tree/master/.github/workflows" scope="external" class="- topic/xref ">ci-samples/.github/workflows/</xref>.</p></conbody></concept>

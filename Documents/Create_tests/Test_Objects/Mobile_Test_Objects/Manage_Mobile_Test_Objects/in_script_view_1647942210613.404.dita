@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">In Script View</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Script View</b> allows defining and handling <b class="+ topic/ph hi-d/b ">Test Objects</b> programmatically. The following is a usage example demonstrating how to do that:</p><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manage-mobile-test-object./script-ex.png" scope="external" class="- topic/image "/><codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.testobject.MobileTestObject
+import com.kms.katalon.core.testobject.MobileTestObject.MobileLocatorStrategy
+
+// Find an object which was defined already in Object Repository
+myPredefinedObject = findTestObject('android.widget.TextView - App')
+
+// Create a new mobile object programmatically
+MobileTestObject mobileTestObject = new MobileTestObject("TestObjectID")
+mobileTestObject.setMobileLocatorStrategy(MobileLocatorStrategy.XPATH)
+mobileTestObject.setMobileLocator("//android.widget.TextView[(text() = 'App' or . = 'App')]")
+</codeblock></conbody></concept>

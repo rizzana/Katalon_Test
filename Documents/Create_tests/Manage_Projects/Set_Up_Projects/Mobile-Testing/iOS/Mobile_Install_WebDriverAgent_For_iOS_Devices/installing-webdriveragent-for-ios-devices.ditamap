@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-installing-webdriveragent-for-ios-devices" class="- map/map "><title class="- topic/title ">Installing WebDriverAgent for iOS devices</title><topicref href="Concept/installing-webdriveragent-for-ios-devices.dita" class="- map/topicref "><topicref href="Task/Install_the_WebDriverAgent_with_Katalon_built-in_tools.dita" class="- map/topicref "/><topicref href="Install_the_WebDriverAgent_manually.dita" class="- map/topicref "/></topicref><mapref format="ditamap" processing-role="resource-only" href="../../../../../../../Global_reuse/Global_reuse_shared_map.ditamap" class="+ map/topicref mapgroup-d/mapref "/></map>

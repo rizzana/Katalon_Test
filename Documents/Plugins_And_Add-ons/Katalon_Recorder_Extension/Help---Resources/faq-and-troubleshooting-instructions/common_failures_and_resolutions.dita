@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Common failures and resolutions</title>
+    <conbody class="- topic/body  concept/conbody ">
+
+      <p class="- topic/p ">Try the following suggestions when your automation scripts fail.
+         If they don't work either, open a thread on <xref format="html" href="https://forum.katalon.com/c/katalon-recorder/17" scope="external" class="- topic/xref ">our
+            forum</xref> to ask experts for help.</p>
+    </conbody>
+    
+    
+  </concept>

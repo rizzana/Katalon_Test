@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-create_rest_api_requests_manually" class="- map/map ">
+  <title class="- topic/title ">Create REST API requests manually</title>
+  <topicref href="create_rest_api_requests_manually.dita" class="- map/topicref "><topicref href="introduction_1647942180156.39.dita" class="- map/topicref ">
+    <topicref href="requirements_1647942180156.39.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="requestobject_and_responseobject.dita" class="- map/topicref "/>
+  <topicref href="responseobject.dita" class="- map/topicref ">
+    <topicref href="conclusion_1647942180156.39.dita" class="- map/topicref "/>
+  </topicref>
+</topicref>
+  </map>

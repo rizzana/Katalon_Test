@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept "><title class="- topic/title ">Execute Test Cases With Specific Tags in Console Mode</title><conbody class="- topic/body  concept/conbody "><note type="important" class="- topic/note ">
+        
+        <ul class="- topic/ul "><li class="- topic/li ">An active Katalon Runtime Engine license</li><li class="- topic/li ">The Test Case Management with Tags plugin installed</li></ul>
+      </note><p class="- topic/p ">In console mode, you can filter and execute test cases attached
+         with certain tags.</p><p class="- topic/p ">In your command, add this argument:</p><p class="- topic/p ">
+        <codeph class="+ topic/ph pr-d/codeph ">-testCaseTags="&lt;tag1&gt;,&lt;tag2&gt;"</codeph>
+      </p><note type="note" class="- topic/note ">
+
+        <p class="- topic/p ">Learn more about how to run tests in console mode with Katalon
+            Runtime Engine at <xref href="../../../../Execute/Katalon_Runtime_Engine/console-mode-execution/console-mode-execution_1.dita" class="- topic/xref ">Command
+               Syntax (Command-line/Console Mode Execution)</xref>.</p>
+      </note><p class="- topic/p ">When you execute a test in the terminal, you can see the process
+         where test cases are filtered before executing. For example:</p><p class="- topic/p ">TC1 <i class="+ topic/ph hi-d/i ">Verify Successful Login is associated with these tags:
+            jan,apr TC2</i> Verify Successful Appointment is associated with
+         these tags: jan,feb,mar TC3_Visual Testing Example is associated
+         with these tags: jan,feb</p><p class="- topic/p ">In the command, you add this argument:
+         <codeph class="+ topic/ph pr-d/codeph ">testCaseTags="jan,feb"</codeph>.</p><p class="- topic/p ">The execution log should look like this:</p><codeblock class="+ topic/pre pr-d/codeblock ">----------------- TEST CASE TAGS PLUGIN START FILTERING -----------------
+Test Cases/Main Test Cases/TC1_Verify Successful Login is filtered out 
+Test Cases/Main Test Cases/TC2_Verify Successful Appointment is a test case to be run
+Test Cases/Main Test Cases/TC3_Visual Testing Example is a test case to be run
+----------------- TEST CASE TAGS PLUGIN FINISH FILTERING -----------------
+</codeblock></conbody></concept>

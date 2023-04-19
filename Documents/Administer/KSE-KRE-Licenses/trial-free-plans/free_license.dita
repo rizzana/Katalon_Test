@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Free License</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">The free license offers core features of the low-code test
+         automation experience in Katalon Studio. You can see a breakdown of
+         features available to free users here: <xref href="../katalon-studio-vs-katalon-studio-enterprise/ks-vs-kse.dita" class="- topic/xref ">Katalon Studio vs Katalon Studio Enterprise Features</xref>.</p><p class="- topic/p ">Currently, the free license does not include Katalon Runtime
+         Engine and console mode features.</p><p class="- topic/p ">You can upgrade Katalon Studio to Katalon Studio Enterprise at
+         any time without re-download.</p></conbody></concept>

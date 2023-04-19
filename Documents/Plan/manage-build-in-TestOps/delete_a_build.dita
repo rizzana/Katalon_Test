@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept "><title class="- topic/title ">Delete a build</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Planning</b> &gt; <b class="+ topic/ph hi-d/b ">Releases</b>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Select a Release.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Scroll down to view a list of Builds in the <b class="+ topic/ph hi-d/b ">Builds</b> section.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click on the <i class="+ topic/ph hi-d/i ">Extension</i> icon of the Build you want to delete.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Delete</b>.</p>
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Delete Build</b> box pops up as below.</p>
+                <p class="- topic/p "> <image href="https://raw.githubusercontent.com/katalon-studio/docs-images/testops-new/katalon-analytics/docs/build/build-delete.png" scope="external" class="- topic/image "><alt class="- topic/alt ">edit build</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Delete</b> to confirm your action.</p>
+            </li></ol><note type="warning" class="- topic/note ">
+                <ul class="- topic/ul "><li class="- topic/li ">
+                        <p class="- topic/p ">You cannot undo this action.</p>
+                    </li></ul>
+        </note><p class="- topic/p ">See also: <xref href="../create-edit-release-in-TestOps/intro-create-edit-releases-testops.dita" class="- topic/xref ">Manage Test Runs by Release</xref>.</p></conbody></concept>

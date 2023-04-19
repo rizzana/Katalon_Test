@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title "><ph conkeyref="name-variables/katalon-runtime-engine" class="- topic/ph "/> overview</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p "><b class="+ topic/ph hi-d/b "><ph conkeyref="name-variables/katalon-runtime-engine" class="- topic/ph "/> (KRE)</b> is the test
+         execution add-on of <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/>. <ph conkeyref="name-variables/katalon-runtime-engine" class="- topic/ph "/> allows you to execute
+         automation tests in CLI mode. It can be used in a variety of
+         scenarios, such as scheduling your tests, integrating with CI/CD
+         system, or bundling your tests to execute in virtual containers
+         like Docker.</p></conbody></concept>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Integrate <uicontrol conkeyref="tc-ui-text/tc-ui-testcloud" class="+ topic/ph ui-d/uicontrol "/> with <uicontrol conkeyref="ks-UI-text/ks-ui-testops" class="+ topic/ph ui-d/uicontrol "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Follow the guidelines below to run tests in a TestCloud
+         environment.</p></conbody></concept>

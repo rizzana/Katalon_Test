@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept "><title class="- topic/title ">Migrate Selenium/TestNG/JUnit projects to <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><note type="important" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">
+                    <p class="- topic/p ">Install Gradle version 5 or prior. You can download from the Gradle website here: <xref format="html" href="https://gradle.org/" scope="external" class="- topic/xref ">Gradle</xref>.</p>
+                </li></ul>
+        </note><p class="- topic/p ">To migrate Selenium/TestNG/JUnit scripts to a Katalon Studio project, do as follows:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Open a project in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Build project dependencies.</p>
+                <p class="- topic/p ">2.1 Open the .gradle file and add the Java dependencies of your Selenium/TestNG/JUnit project.</p>
+                <note type="note" class="- topic/note ">
+                    <ul class="- topic/ul "><li class="- topic/li ">You only need to add the JUnit/TestNG project dependencies that are not Selenium dependencies.</li><li class="- topic/li ">Katalon Studio has bundled TestNG, JUnit and Selenium dependencies, you don't need to declare those dependencies again.</li></ul>
+                </note>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/Selenium-TestNG-Migration/build-gradle.png" scope="external" width="629" class="- topic/image "><alt class="- topic/alt ">Selenium migration gradle</alt></image>
+                </p>
+                <p class="- topic/p ">2.2 Open the <b class="+ topic/ph hi-d/b ">Command Prompt</b> or <b class="+ topic/ph hi-d/b ">Terminal</b> and navigate to the folder of your project. Enter <codeph class="+ topic/ph pr-d/codeph ">gradle katalonCopyDependencies</codeph>, then wait for the Gradle to build successfully.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/Selenium-TestNG-Migration/build-success.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">Selenium migration build successful</alt></image>
+                </p>
+                <p class="- topic/p ">2.3 Reopen the project to reload all the dependencies.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Copy and paste the source code of your Selenium/TestNG/JUnit project in the <codeph class="+ topic/ph pr-d/codeph ">Include/scripts/groovy</codeph> folder of your Katalon project.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/Selenium-TestNG-Migration/Copy-the-source-code.gif" scope="external" class="- topic/image "><alt class="- topic/alt ">Add TestNG source code</alt></image>
+                </p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/Selenium-TestNG-Migration/step5.png" scope="external" width="322" class="- topic/image "><alt class="- topic/alt ">Add TestND source code</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Copy and paste other resources of your Selenium/TestNG/JUnit project in the <codeph class="+ topic/ph pr-d/codeph ">Include</codeph> folder of your Katalon project (if any).</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/Selenium-TestNG-Migration/Add-other-resources.gif" scope="external" class="- topic/image "><alt class="- topic/alt ">Add TestNG resoureces</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">To reload the source code and resources from your Selenium/TestNG/JUnit project, right-click the <codeph class="+ topic/ph pr-d/codeph ">Include</codeph> folder, then click <b class="+ topic/ph hi-d/b ">Refresh</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/Selenium-TestNG-Migration/KS-Selenium-Reload-source-code.png" scope="external" width="322" class="- topic/image "><alt class="- topic/alt ">Reload TestNG source code and resources</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Create a test case that includes TestNG keywords to run TestNG test suites or JUnit test classes. To learn more about TestNG keywords, see above: <xref href="built-in_testngjunit_keywords.dita" class="- topic/xref ">Built-in TestNG/JUnit keywords</xref>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/Selenium-TestNG-Migration/step7.png" scope="external" width="629" class="- topic/image "><alt class="- topic/alt ">Create test case using TestNG/JUnit keywords</alt></image>
+                </p>
+                <p class="- topic/p ">For real-time monitoring and better reporting capabilities, consider integrating your project with Katalon TestOps. See also <xref href="../../../Analyze/Reports/Upload_Test_Reports/Upload_test_results_from_KS_to_TestOps/katalon-analytics-beta-integration.dita" class="- topic/xref ">Upload Test Results to Katalon TestOps from Katalon Studio</xref>.</p>
+            </li></ol></conbody></concept>

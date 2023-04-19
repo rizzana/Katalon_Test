@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">[Mobile] Verify Element Text</title><conbody class="- topic/body  concept/conbody "><section class="- topic/section "><title class="- topic/title ">Description</title><p class="- topic/p ">Verify the text of an element.</p></section><section class="- topic/section "><title class="- topic/title ">Parameters  </title><p class="- topic/p "><table class="- topic/table "><tgroup cols="4" class="- topic/tgroup "><colspec colname="col1" class="- topic/colspec "/><colspec colname="col2" class="- topic/colspec "/><colspec colname="col3" class="- topic/colspec "/><colspec colname="col4" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Param</entry><entry class="- topic/entry ">Param Type</entry><entry class="- topic/entry ">Mandatory</entry><entry class="- topic/entry ">Description</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">to</entry><entry class="- topic/entry ">TestObject </entry><entry class="- topic/entry ">Required</entry><entry class="- topic/entry ">Represent a mobile element</entry></row><row class="- topic/row "><entry class="- topic/entry ">expectedText</entry><entry class="- topic/entry ">String</entry><entry class="- topic/entry ">Required</entry><entry class="- topic/entry ">The text of the element that needs verifying</entry></row><row class="- topic/row "><entry class="- topic/entry ">flowControl</entry><entry class="- topic/entry ">FailureHandling</entry><entry class="- topic/entry ">Optional</entry><entry class="- topic/entry ">Specify failure handling schema to determine whether the execution should be allowed to continue or stop. To learn more about failure handling settings, you can refer to this document: <xref href="../../../../../Maintain/failure-handling/default_failure_handling_behavior.dita" class="- topic/xref ">Failure Handling</xref>.</entry></row></tbody></tgroup></table></p></section><section class="- topic/section "><title class="- topic/title ">Returns</title><p class="- topic/p "><table class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><colspec colname="col1" class="- topic/colspec "/><colspec colname="col2" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Param</entry><entry class="- topic/entry ">Description</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">boolean</entry><entry class="- topic/entry "><b class="+ topic/ph hi-d/b ">true</b> if the element has the desired text, otherwise <b class="+ topic/ph hi-d/b ">false</b>.</entry></row></tbody></tgroup></table></p></section><section class="- topic/section "><title class="- topic/title ">Example</title><p class="- topic/p ">Here, we want to verify if the <b class="+ topic/ph hi-d/b ">Views</b> button has the correct <i class="+ topic/ph hi-d/i ">Views</i> label.</p><p class="- topic/p ">
+<codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+'Start the application on the selected Android device'
+Mobile.startApplication(GlobalVariable.G_AndroidApp, false)
+
+'Verify if the 'Views' button has the same label as expected'
+Mobile.verifyElementText(findTestObject('Object Repository/Application/android.widget.TextView - Views'), 'Views')
+
+'Close the application on the selected Android device'
+Mobile.closeApplication()
+</codeblock></p></section></conbody></concept>

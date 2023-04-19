@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Validate against a schema in the web service request</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">This section walks you through adding validation to a web service request and viewing results.<note class="- topic/note ">
+                <ul class="- topic/ul "><li class="- topic/li ">
+                        <p class="- topic/p ">Make sure that you declare the JSON schema used in that URL or file. For more information, you can refer to JSON schema document: <xref format="html" href="https://json-schema.org/understanding-json-schema/reference/schema.html#schema" scope="external" class="- topic/xref ">$schema</xref>.</p>
+                    </li></ul>
+            </note></p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">In an API tests project, open or create a new <uicontrol class="+ topic/ph ui-d/uicontrol ">Web Service Request</uicontrol>. To create a new <uicontrol class="+ topic/ph ui-d/uicontrol ">Web Service Request</uicontrol>, go to <uicontrol class="+ topic/ph ui-d/uicontrol ">Test Explorer</uicontrol> &gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">Object Repository</uicontrol>. Right-click and choose <uicontrol class="+ topic/ph ui-d/uicontrol ">New</uicontrol> &gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">Web Service Request</uicontrol>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/schema-validation/new-web-service-request.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">new web service request</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In the object editor view, switch to the <uicontrol class="+ topic/ph ui-d/uicontrol ">Validation</uicontrol> tab.</p>
+                <p class="- topic/p "><image href="ks-840-validation-tab.png" class="- topic/image "><alt class="- topic/alt ">validation tab</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">To add new validation, click on <uicontrol class="+ topic/ph ui-d/uicontrol ">Add</uicontrol> and input the below information:</p>
+                <table class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><colspec colname="c1" colnum="1" class="- topic/colspec "/><colspec colname="c2" colnum="2" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Option</entry><entry class="- topic/entry ">Description</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">Name</entry><entry class="- topic/entry ">Name of the validation.</entry></row><row class="- topic/row "><entry class="- topic/entry ">Target</entry><entry class="- topic/entry ">
+                                    <ul class="- topic/ul "><li class="- topic/li ">Response: check the response body.</li><li class="- topic/li ">Request: check the request body.</li></ul>
+                                </entry></row><row class="- topic/row "><entry class="- topic/entry ">Schema Type</entry><entry class="- topic/entry ">
+                                    <ul class="- topic/ul "><li class="- topic/li ">JSON</li><li class="- topic/li ">XML</li><li class="- topic/li ">
+                                            <p class="- topic/p ">GraphQL</p>
+                                        </li><li class="- topic/li ">Auto Detect</li></ul>
+                                </entry></row><row class="- topic/row "><entry class="- topic/entry ">Input Type</entry><entry class="- topic/entry ">
+                                    <ul class="- topic/ul "><li class="- topic/li ">URL</li><li class="- topic/li ">File</li><li class="- topic/li ">Auto detect</li></ul>
+                                </entry></row><row class="- topic/row "><entry class="- topic/entry ">Location/Value</entry><entry class="- topic/entry ">Input an URL to a schema, or file path to a schema. If the <uicontrol class="+ topic/ph ui-d/uicontrol ">Input Type</uicontrol> is a file, you can click on <uicontrol class="+ topic/ph ui-d/uicontrol ">Browse</uicontrol> on the <uicontrol class="+ topic/ph ui-d/uicontrol ">Location/Value</uicontrol> cell to browse to the schema file location.</entry></row><row class="- topic/row "><entry class="- topic/entry ">Validate</entry><entry class="- topic/entry ">Select which schemas to validate against.</entry></row></tbody></tgroup></table>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Validate against the schema:</p>
+                <p class="- topic/p ">When you are done adding validation, click <uicontrol class="+ topic/ph ui-d/uicontrol ">Save</uicontrol>. Then, click on the dropdown menu of the <uicontrol class="+ topic/ph ui-d/uicontrol ">Test Request</uicontrol> and choose <uicontrol class="+ topic/ph ui-d/uicontrol ">Test Request And Verify</uicontrol>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/schema-validation/test-request-and-verify.png" scope="external" width="250" class="- topic/image "><alt class="- topic/alt ">test request and verify</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">View validation results:</p>
+                <p class="- topic/p ">In the <uicontrol class="+ topic/ph ui-d/uicontrol ">Response</uicontrol> section, switch to the <uicontrol class="+ topic/ph ui-d/uicontrol ">Validation Log</uicontrol> tab. The validation results appear:</p>
+                <p class="- topic/p "><image href="ks-840-validation-log.png" class="- topic/image "><alt class="- topic/alt ">validation log</alt></image></p>
+                <p class="- topic/p "> <uicontrol class="+ topic/ph ui-d/uicontrol ">Result</uicontrol>: <ul class="- topic/ul "><li class="- topic/li "><uicontrol class="+ topic/ph ui-d/uicontrol ">PASSED</uicontrol>: All the requests/ responses passed the validation.</li><li class="- topic/li "><uicontrol class="+ topic/ph ui-d/uicontrol ">FAILED</uicontrol>: At least one of the request/ response failed the validation.</li></ul></p>
+                <p class="- topic/p ">Click on each line of the <uicontrol class="+ topic/ph ui-d/uicontrol ">Result</uicontrol> table to view <uicontrol class="+ topic/ph ui-d/uicontrol ">Problem details</uicontrol>. The <uicontrol class="+ topic/ph ui-d/uicontrol ">Problem details</uicontrol> section appears with a list of issues. For example: <codeph class="+ topic/ph pr-d/codeph ">$[0].password: string found, integer expected</codeph>, or <codeph class="+ topic/ph pr-d/codeph ">$[0].username: string found, integer expected</codeph>.</p>
+            </li></ol><p class="- topic/p ">You have successfully validated requests/ responses against schemas using Katalon Studio.</p></conbody></concept>

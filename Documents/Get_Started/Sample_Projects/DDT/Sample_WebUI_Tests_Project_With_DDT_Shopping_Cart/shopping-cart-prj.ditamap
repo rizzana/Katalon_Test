@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-shopping-cart-prj" class="- map/map ">
+  <title class="- topic/title ">Sample WebUI tests project with data-driven testing (Shopping Cart sample)</title>
+  <topicref href="shopping-cart-prj.dita" class="- map/topicref "><topicref href="open_the_shopping_cart_sample_project.dita" class="- map/topicref "/>
+  <topicref href="shopping_cart_sample_project_components.dita" class="- map/topicref ">
+    <topicref href="profiles_1647942253432.104.dita" class="- map/topicref "/>
+    <topicref href="custom_keywords_1647942253432.104.dita" class="- map/topicref "/>
+    <topicref href="test_cases_1647942253432.104.dita" class="- map/topicref "/>
+    <topicref href="data_files.dita" class="- map/topicref "/>
+    <topicref href="test_suites_1647942253432.104.dita" class="- map/topicref "/>
+    <topicref href="test_suite_collection.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="execute_selected_test_case_or_test_suitetest_suite_collection_1647942253432.104.dita" class="- map/topicref "/>
+  <topicref href="see_also_1647942253432.104.dita" class="- map/topicref "/>
+</topicref>
+  </map>

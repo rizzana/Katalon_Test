@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Schedule test runs with <uicontrol conkeyref="tc-ui-text/tc-ui-testcloud" class="+ topic/ph ui-d/uicontrol "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+          <p class="- topic/p ">Sign in to <xref format="html" href="https://testops.katalon.io/login" scope="external" class="- topic/xref ">Katalon
+                  TestOps</xref> and go to your Project.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Test Execution</b> and click <b class="+ topic/ph hi-d/b ">Schedule
+                  Test Run</b>.</p>
+          <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Schedule Test Run</b> dialog pops up.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Select <b class="+ topic/ph hi-d/b ">TestCloud Test Environment</b> from the
+               dropdown list in the <b class="+ topic/ph hi-d/b ">Test Environment Type</b>
+               section.</p>
+          <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">TestCloud</b> section appears as below.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-testcloud/testops-integration/public-domains/beta-testcloud-browser-selections.png" scope="external" width="100%" class="- topic/image "><alt class="- topic/alt ">testcloud section in schedule test run dialog</alt></image>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Select the OS and browsers you want to test in the
+               <b class="+ topic/ph hi-d/b ">TestCloud</b> section.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Schedule</b>.</p>
+          <p class="- topic/p ">You are directed to the <b class="+ topic/ph hi-d/b ">Test Run List</b> page,
+               where you can see the TestCloud Test Environment.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Click on the <i class="+ topic/ph hi-d/i ">Play</i> icon to run tests.</p>
+        </li></ol><p class="- topic/p ">You have successfully run tests in public domains using the
+         TestCloud Test Environment.</p><p class="- topic/p ">To check the progress of your test runs, see: <xref href="../../../../Analyze/Reports/View_Test_Reports/View_reports_in_TestOps/View_test_run_results/View_test_run_results_and_execution_logs/view_test_results_and_execution_logs_in_TestOps.dita" class="- topic/xref ">View
+            Logs</xref>.</p></conbody></concept>

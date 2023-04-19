@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept "><title class="- topic/title ">Request Authentication</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">This part is used for authenticating and authorizing the
+         request, which means to verify if the client is permitted to send
+         the request and to perform the endpoint operation.</p><p class="- topic/p ">For more details on using each type of auth, please see:</p><ul class="- topic/ul "><li class="- topic/li "><xref href="../Authorization/authorization-basic/authorization-basic.dita" class="- topic/xref ">Basic</xref>
+          </li><li class="- topic/li "><xref href="../Authorization/authorization-oauth1/authorization-oauth1.dita" class="- topic/xref ">OAuth
+               1.0</xref>
+          </li><li class="- topic/li "><xref href="../Authorization/authorization-oauth2/authorization-oauth2.dita" class="- topic/xref ">OAuth
+               2.0</xref>
+          </li><li class="- topic/li "><p class="- topic/p "><xref href="../Authorization/ntlm-authentication/intro_NTLM_Authentication.dita" class="- topic/xref ">NTLM</xref> (version 8.4.0 beta onwards)</p></li></ul></conbody></concept>

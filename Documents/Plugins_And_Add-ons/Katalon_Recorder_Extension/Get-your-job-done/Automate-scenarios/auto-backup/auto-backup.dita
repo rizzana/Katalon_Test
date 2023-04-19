@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Back up data automatically with <ph conkeyref="name-variables/katalon-recorder" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">Katalon Recorder</b> data can be automatically
+         backed up in <b class="+ topic/ph hi-d/b ">Katalon TestOps</b> with
+         Internet-connected devices.</p><note type="note" class="- topic/note ">
+        <p class="- topic/p ">Make sure you have signed in to Katalon TestOps to enable
+            automatic backups.</p>
+      </note><p class="- topic/p ">Once you see the below message, your <b class="+ topic/ph hi-d/b ">Katalon
+            Recorder</b> data will be automatically backed up and retained
+         in <b class="+ topic/ph hi-d/b ">Katalon TestOps</b> for 7 days.</p></conbody></concept>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Create an Account and Organization</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">By creating an Organization, team members can collaborate across
+         several projects instantly.</p><p class="- topic/p ">You can also join any other Organization you are invited to.</p><p class="- topic/p ">To create new Account and Organization, follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+          <p class="- topic/p ">Sign in <xref format="html" href="https://testops.katalon.io/login" scope="external" class="- topic/xref ">Katalon
+                  TestOps</xref>.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">In the <uicontrol conkeyref="ks-UI-text/ks-ui-testops" class="+ topic/ph ui-d/uicontrol "/> homepage, click on the dropdown at the top left
+               corner  and choose <uicontrol class="+ topic/ph ui-d/uicontrol ">Create
+                  Organization</uicontrol>.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-create-org/kt-june-create-org-1.png" scope="external" class="- topic/image "/>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Type a name for the Organization, then click
+               <b class="+ topic/ph hi-d/b ">Create</b>.</p>
+        </li></ol><p class="- topic/p ">You are now the Owner of a new Organization.</p></conbody></concept>

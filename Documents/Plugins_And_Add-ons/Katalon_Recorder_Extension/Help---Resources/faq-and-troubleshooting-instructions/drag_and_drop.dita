@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_7" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Drag and drop</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">If the drag-and-drop feature on your website was built with
+         HTML5, please use the command "dragAndDropToObject". If it was
+         built with jQuery UI, please use the command
+         "dragAndDropToObjectByJqueryUI".</p>
+      </conbody>
+    </concept>

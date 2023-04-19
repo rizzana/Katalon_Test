@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-handle_multi_touch_action" class="- map/map ">
+  <title class="- topic/title ">How to Perform Multi-touch Actions in Mobile App</title>
+  <topicref href="handle_multi_touch_action.dita" class="- map/topicref "><topicref href="in_manual_mode.dita" class="- map/topicref "/>
+  <topicref href="in_script_mode.dita" class="- map/topicref "/>
+</topicref>
+  </map>

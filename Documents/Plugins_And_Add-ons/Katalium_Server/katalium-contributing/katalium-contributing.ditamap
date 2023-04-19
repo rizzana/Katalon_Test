@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-katalium-contributing" class="- map/map ">
+  <title class="- topic/title ">Contributing Guidelines</title>
+  <topicref href="katalium-contributing.dita" class="- map/topicref "><topicref href="frontend.dita" class="- map/topicref "/>
+  <topicref href="backend.dita" class="- map/topicref "/>
+  <topicref href="package.dita" class="- map/topicref "/>
+  <topicref href="references.dita" class="- map/topicref "/>
+</topicref>
+  </map>

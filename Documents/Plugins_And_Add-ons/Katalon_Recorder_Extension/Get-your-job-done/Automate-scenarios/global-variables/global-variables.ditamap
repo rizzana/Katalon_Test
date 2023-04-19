@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-global-variables" class="- map/map ">
+  <title class="- topic/title ">Global variables</title>
+  <topicref href="global-variables.dita" class="- map/topicref "><topicref href="global_variable_profile.dita" class="- map/topicref "/>
+  <topicref href="add_global_variables.dita" class="- map/topicref "/>
+</topicref>
+  </map>

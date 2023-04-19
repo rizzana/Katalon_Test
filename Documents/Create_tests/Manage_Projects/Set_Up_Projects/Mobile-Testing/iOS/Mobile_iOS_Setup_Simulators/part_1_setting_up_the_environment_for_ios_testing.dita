@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Part 1: Install Xcode</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Install Xcode version 10.2 or newer. You can download Xcode from
+               the App Store or the Apple Developer website: <xref format="html" href="https://developer.apple.com/xcode/" scope="external" class="- topic/xref ">Xcode 13</xref>.</p><p class="- topic/p "><note class="- topic/note "><ul class="- topic/ul "><li class="- topic/li ">Xcode must support the current version of your iOS device.</li><li class="- topic/li ">Katalon Studio can only support iOS version 9.0 or above. To
+                     learn more about the supported environment in Katalon Studio, you
+                     can refer to this document: <xref href="../../../../../../General_Information/Supported_Environments/Supported_Environments_For_Katalon_Studio/supported-environments.dita" class="- topic/xref ">Supported
+                        environment</xref>.</li></ul></note></p></conbody></concept>

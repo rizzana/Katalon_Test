@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_12" class="- topic/topic concept/concept "><title class="- topic/title ">Version 8.1.0</title><conbody class="- topic/body  concept/conbody "><section class="- topic/section "><title class="- topic/title ">New features</title><ul class="- topic/ul "><li class="- topic/li ">[Katalon Runtime Engine] Introduced an ability to terminate
+            execution based on the maximum number of test failures allowed. See
+            <xref href="../../../../Execute/Configurations_for_test_execution/terminate-execution-conditionally/condition-to-stop.dita" class="- topic/xref ">Terminate
+               Execution Conditionally</xref></li><li class="- topic/li ">[Mobile testing] Introduced
+            <codeph class="+ topic/ph pr-d/codeph ">waitForElementNotPresent</codeph>. See <xref href="../../../../Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Mobile-Keywords/mobile-wait-for-element-not-present/mobile-wait-for-element-not-present.dita" class="- topic/xref ">[Mobile]
+               Wait For Element Not Present</xref></li></ul></section><section class="- topic/section "><title class="- topic/title ">Enhancements</title><ul class="- topic/ul "><li class="- topic/li ">[Katalon Studio Enterprise] Improved the Retry Failed
+            Executions Immediately feature and Introduced the consolidated
+            execution reports to address test flakiness. See <xref href="../../../../Execute/Execute_tests_in_Katalon_Studio/execute-a-test-suite/modify_execution_information.dita" class="- topic/xref ">Retry
+               Failed Execution Immediately</xref>.</li><li class="- topic/li ">[Azure DevOps Integration] Introduced an option to submit
+            Release Information together with Test Run to Azure DevOps. See <xref href="../../../../Organize/Integration_For_Organizing_Tests/azure-devops-test-plans/intro-azure-devops-test-plans.dita" class="- topic/xref ">Integration
+               with Azure DevOps Test Plans</xref></li><li class="- topic/li ">[Kobiton Integration] Introduced custom remote server and
+            device name functionality. See <xref href="../../../../Execute/Cloud_based_test_execution/Integrations_with_other_vendors_for_cloud_execution/kobiton_integration_studio/integrate_with_kobiton.dita" class="- topic/xref ">Mobile
+               Testing with Kobiton Devices</xref></li><li class="- topic/li ">Added Chrome 92 compatibility.</li><li class="- topic/li ">Added Microsoft Edge (Chromium) 92 compatibility.</li><li class="- topic/li ">[Plugin] Introduced new APIs for the Plugin platform. See <xref format="html" href="https://github.com/katalon-studio/katalon-studio-platform/blob/master/docs/tutorials/apilist.md" scope="external" class="- topic/xref ">new
+               APIs list</xref></li><li class="- topic/li ">Performance: Reduced time to open a Test Case with many
+            variables.</li><li class="- topic/li ">[Katalon Runtime Engine] Passed a path to the Android SDK root
+            folder by using ANDROID_HOME environment variable. See <xref href="../../../../Execute/Configurations_for_test_execution/how-to-specify-android-home-path/specify-android-home-path.dita" class="- topic/xref ">Specify
+               a path to Android SDK root folder</xref></li></ul></section><section class="- topic/section "><title class="- topic/title ">Fixes</title><ul class="- topic/ul "><li class="- topic/li ">Fixed UI issues: 
+            
+            <ul class="- topic/ul "><li class="- topic/li ">[Azure DevOps] Expanding Submission Options broke the UI.</li><li class="- topic/li ">[TestOps] Creating new files with TestOps broke the UI.</li><li class="- topic/li ">Expanding Execution Information broke the UI.</li><li class="- topic/li ">[macOS Big Sur] Could not switch to Object Properties
+                  View.</li><li class="- topic/li ">[macOS Big Sur] Text of selected items on table and tree were
+                  hidden.</li><li class="- topic/li ">[macOS Big Sur] Could not update Log Viewer when the execution
+                  items were changed on the Job Progress.</li><li class="- topic/li ">[Mobile Object Spy] Fixed typo error "Application ID".</li><li class="- topic/li ">[Mobile] An issue of displaying device ID instead of device
+                  name in the Progress bar.</li><li class="- topic/li ">[Mobile] An incorrect UI thrown when opening Object from the
+                  script.</li><li class="- topic/li ">[API Testing] An issue of displaying incorrect redirect link to
+                  "Customize API method".</li><li class="- topic/li ">Could not display test steps after recording.</li><li class="- topic/li ">Clarified warning message for when broken Test Object could not
+                  be moved.</li><li class="- topic/li ">Options in "Retry after executing all" were disabled when
+                  generating command.</li><li class="- topic/li ">Fixed labels and added referral link in the Library
+                  Management.</li></ul></li><li class="- topic/li ">Fixed Report issues: 
+            
+            <ul class="- topic/ul "><li class="- topic/li ">An incorrect test status thrown when finish executing in the
+                  BDD Report.</li><li class="- topic/li ">An issue of displaying incorrect in-line color and icon for
+                  failed test steps in the Report and Report Viewer when using
+                  assertion.</li><li class="- topic/li ">Skipped Test Cases were marked as Passed in HTML report.</li><li class="- topic/li ">[Cucumber] Executed steps were not displaying correctly in the
+                  Console log.</li><li class="- topic/li ">Duplicated information in the Event log.</li><li class="- topic/li ">An incorrect response thrown when users cancel the Export
+                  Report.</li><li class="- topic/li ">Could not configure Report in Project Setting without internet
+                  connection.</li></ul></li><li class="- topic/li ">Bug: [Slack Integration] Failed to connect to Slack.</li><li class="- topic/li ">Bug: [TestRail Integration] Solved issues with Project
+            Settings.</li><li class="- topic/li ">Bug: [Katalon Studio Enterprise] Could not select Run and Debug
+            from here in specific cases.</li><li class="- topic/li ">Bug: [Katalon Runtime Engine] Failed to replace excluded
+            built-in libraries with external libraries.</li><li class="- topic/li ">Bug: [API Testing] An incorrect response thrown when leaving
+            the parameter blank in the request URL path.</li><li class="- topic/li ">Bug: [API Testing] Could not change object status after
+            updating query parameters in Web Service object.</li><li class="- topic/li ">Bug: <codeph class="+ topic/ph pr-d/codeph ">waitForImagePresent</codeph> returned False despite
+            the image appearing correctly.</li><li class="- topic/li ">Bug: <codeph class="+ topic/ph pr-d/codeph ">verifyElementPropertyValue</codeph> returned an
+            incorrect error message.</li><li class="- topic/li ">Bug: When continuing to record scripts with an existing test
+            case returned error messages incorrectly.</li><li class="- topic/li ">Bug: An issue of deleting script when using customized keywords
+            with incorrect values.</li><li class="- topic/li ">Bug: Could not link an existing Window Object to Window
+            built-in keyword.</li><li class="- topic/li ">Bug: Could not activate Katalon Studio by providing email with
+            extra spacing.</li><li class="- topic/li ">Bug: Browser-based recorder could not record videos for the
+            second test case if reusing an open browser.</li><li class="- topic/li ">Bug: Explorer Configuration in Project Settings was not working
+            as intended.</li></ul></section><section class="- topic/section "><title class="- topic/title ">Known issues</title><p class="- topic/p "><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Bug: [Windows OS] Import error of some javax classes:
+            "Groovy:unable to resolve class javax.*". More details on this
+            forum post: </p><xref format="html" href="https://forum.katalon.com/t/katalon-8-customkeywords-groovy-import-error/58225" scope="external" class="- topic/xref ">Katalon
+               8 custom keywords groovy import error</xref>.</li></ul></p></section></conbody></concept>

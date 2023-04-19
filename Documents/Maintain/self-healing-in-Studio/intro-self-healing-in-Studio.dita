@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Self-healing tests in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><note type="important" class="- topic/note "><ul class="- topic/ul "><li class="- topic/li ">Katalon Studio version 7.6.0 onwards</li><li class="- topic/li ">An active Katalon Studio Enterprise license</li></ul>
+      </note><p class="- topic/p ">When the application under test (AUT) changes, object locators
+         might be broken or unable to identify the target element. Hence,
+         creating and using correct, resilient locators are crucial to the
+         success of Web UI test automation.</p><p class="- topic/p ">From version 7.6.0, Katalon Studio supports the self-healing
+         mechanism to tackle the issue of broken locators during execution.
+         This feature can reduce your test maintenance effort substantially,
+         especially when test cases run in batch overnight.</p><p class="- topic/p ">This article guides you through:</p><ul class="- topic/ul "><li class="- topic/li ">Understanding the self-healing mechanism</li><li class="- topic/li ">Configuring and executing a test with the self-healing
+            mode</li><li class="- topic/li ">Viewing self-healing insights and replacing broken
+            locators</li></ul><p class="- topic/p ">We also offer a sample project for you to try out. You can clone
+         or download this sample project from our GitHub repository: <xref format="html" href="https://github.com/katalon-studio/self-healing-demo#self-healing-sample-project" scope="external" class="- topic/xref ">Self-healing
+            sample project</xref>.</p><note type="note" class="- topic/note ">
+        <p class="- topic/p ">Learn more with our Katalon Academy course: <xref format="html" href="https://academy.katalon.com/courses/self-healing-testing/?utm_source=kat_docs&amp;utm_medium=self_healing_tests" scope="external" class="- topic/xref ">Self-Healing
+               Mechanism in Test Automation</xref>.t</p></note></conbody></concept>

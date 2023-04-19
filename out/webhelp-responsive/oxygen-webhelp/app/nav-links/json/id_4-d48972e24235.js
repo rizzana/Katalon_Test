@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"id_4-d48972e24235":{"topics":[{"title":"Transfer the KRE license to another machine","href":"Documents\/Administer\/Administrative_Tasks\/License_Management\/license-management\/transfer_the_kre_license_to_another_machine.html","attributes":{"data-id":"id_5"},"menu":{"hasChildren":false},"tocID":"id_5-d48972e24243","topics":[]}]}};

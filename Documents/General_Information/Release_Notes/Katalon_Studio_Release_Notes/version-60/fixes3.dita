@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_13" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Fixes</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">Bug: Cannot send emails if the attachment is empty</li>
+          <li class="- topic/li ">Bug: Cannot import Postman requests with protocol HTTP</li>
+          <li class="- topic/li ">Bug: TimeoutException when evaluating variables for Web Service
+            requests</li>
+          <li class="- topic/li ">Bug: Cannot save a draft request to Object Repository</li>
+          <li class="- topic/li ">Bug: Cannot edit build.gradle files</li>
+          <li class="- topic/li ">Bug: [Linux] Icons on the toolbar aren't displayed</li>
+          <li class="- topic/li ">Bug: [Linux] Katalon Studio UI hangs when selecting Keywords in
+            Manual view</li>
+          <li class="- topic/li ">Bug: Cannot filter files in Project Explorer using keywords
+            containing uppercase characters</li>
+          <li class="- topic/li ">Bug: Cannot import Postman collections containing requests with
+            the same names</li>
+          <li class="- topic/li ">Bug: Cannot import Postman collections with long folder
+            names</li>
+          <li class="- topic/li ">Bug: Cannot execute web testing projects on cloud mobile
+            devices (e.g. Sauce Labs)</li>
+          <li class="- topic/li ">Bug: Cannot import Postman collections containing requests with
+            body information missing</li>
+          <li class="- topic/li ">Bug: Cannot import Postman requests whose names are URLs</li>
+          <li class="- topic/li ">Bug: Custom headers are not sent along with SOAP requests</li>
+          <li class="- topic/li ">Bug: Postman collection's sub-folder structure was not
+            preserved</li>
+          <li class="- topic/li ">Bug: Katalon Studio is hanged when editing an argument type in
+            Desired Capabilities dialog</li>
+        </ul>
+      </conbody>
+    </concept>

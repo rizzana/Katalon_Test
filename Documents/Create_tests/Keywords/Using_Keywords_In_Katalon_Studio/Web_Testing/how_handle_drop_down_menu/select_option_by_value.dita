@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_8" class="- topic/topic concept/concept "><title class="- topic/title ">Select option by value</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">The <codeph class="+ topic/ph pr-d/codeph ">selectOptionByValue</codeph> keyword selects the option which has value of the <userinput class="+ topic/ph sw-d/userinput ">value</userinput> attribute. See: <xref href="../../../Keywords_Description_In_Katalon_Studio/Web-UI-Keywords/webui-select-option-by-value/webui-select-option-by-value.dita" class="- topic/xref "/>.</p><p class="- topic/p ">Example:</p><p class="- topic/p ">If we want to select "Mar" from the dropdown, we pass the value as 3 because "Mar" has the value as 3 for <userinput class="+ topic/ph sw-d/userinput ">Value</userinput> attribute.</p><p class="- topic/p ">In this example, we are also verifying that the right option is selected.</p><p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/how_handle_drop_down_menu/SelectByValue_Exp.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Sample dropdown option with the attribute "value=3"</alt></image></p><p class="- topic/p ">In <uicontrol class="+ topic/ph ui-d/uicontrol ">Manual View</uicontrol>:<image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/how_handle_drop_down_menu/Select_By_Value_Manual.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Sample test case in Manual view with keyword selectOptionByValue </alt></image></p><p class="- topic/p ">In <uicontrol class="+ topic/ph ui-d/uicontrol ">Script View</uicontrol>:<codeblock class="+ topic/pre pr-d/codeblock ">'Open browser'
+ 
+WebUI.openBrowser('file:///C:/Users/User/Desktop/Dropdown.html')
+ 
+'Maximize the window'
+ 
+WebUI.maximizeWindow()
+ 
+'Selecting the month from Select By value method'
+ 
+WebUI.selectOptionByValue(findTestObject('dropdown_Month'), '3', false)
+ 
+'Verifying the Option is Selected by Value option'
+ 
+WebUI.verifyOptionSelectedByValue(findTestObject('dropdown_Month'), '3', false, 60)
+ 
+WebUI.closeBrowser()
+
+</codeblock></p><p class="- topic/p ">For further instructions and help, please refer to <xref href="../../../../../Get_Started/Sample_Projects/WebUI/WebUI_Create_And_Run_WebUI_Test_Case_Using_Record_And_Playback_in_KS/webui-create-test-case.dita" class="- topic/xref ">Katalon Studio WebUI</xref> tutorials.</p></conbody></concept>

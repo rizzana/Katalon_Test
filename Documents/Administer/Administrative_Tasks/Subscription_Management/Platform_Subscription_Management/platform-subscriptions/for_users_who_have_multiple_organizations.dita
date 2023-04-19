@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">For users who have multiple Accounts</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+            <p class="- topic/p ">Go to the <xref format="html" href="https://www.katalon.com/pricing/" scope="external" class="- topic/xref ">Katalon
+                  Pricing</xref> page.</p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">Click on the <uicontrol class="+ topic/ph ui-d/uicontrol ">Katalon Platform</uicontrol>  tab.</p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">Select a plan.</p>
+            <ul class="- topic/ul "><li class="- topic/li ">
+                <p class="- topic/p ">If you choose <b class="+ topic/ph hi-d/b ">TestOps Business</b>, click
+                     <b class="+ topic/ph hi-d/b ">Buy Now</b>, sign in with your Katalon account, select
+                     the organization you want, fill out the billing information and
+                     payment method, then click <b class="+ topic/ph hi-d/b ">Checkout</b> to finish.</p>
+              </li><li class="- topic/li ">
+                <p class="- topic/p ">If you choose <b class="+ topic/ph hi-d/b ">TestOps Enterprise</b>, click
+                     <b class="+ topic/ph hi-d/b ">Contact sales</b> to send us a subscription
+                     request.</p>
+              </li></ul>
+          </li></ol></conbody></concept>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Terminate WebDrivers in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><note type="note" class="- topic/note ">
+        <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Starting from <b class="+ topic/ph hi-d/b ">Katalon Studio version 7.0.0</b>, you
+            can terminate WebDriver processes. This feature supports Chrome,
+            Firefox and Internet Explorer.</p></li></ul>
+      </note></conbody></concept>

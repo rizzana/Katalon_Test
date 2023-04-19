@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_11" class="- topic/topic concept/concept "><title class="- topic/title ">Security testing</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Security, Penetration and Fuzz testing are the three separate
+         elements of the security auditing process. They are used to ensure
+         the API implementation is secure from external threats.</p><p class="- topic/p ">Besides enclosing with penetration and fuzz testing, security
+         testing also includes additional steps like the validation of
+         encryption methodologies, and of the design of the access control
+         for the API. It also contains the user rights management and
+         validating authorization checks to access the resources.</p></conbody></concept>

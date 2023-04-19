@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Script Mode</title><conbody class="- topic/body  concept/conbody "><codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+
+'Path of the Apk File Store in path variable'
+def path = RunConfiguration.getProjectDir() + '/Data Files/ApiDemos.apk'
+
+'Start the application'
+Mobile.startApplication(path, false)
+
+'Wait for element Present of Heading API Demos'
+Mobile.waitForElementPresent(findTestObject('API Demos Objects/Spinner_Example/heading_API_Demos'), 45)
+
+'Scroll to Views text'
+Mobile.scrollToText('Views', FailureHandling.STOP_ON_FAILURE)
+
+'Tap on Views'
+Mobile.tap(findTestObject('API Demos Objects/Spinner_Example/text_Views'), 20)
+
+'Scroll to Spinner text'
+Mobile.scrollToText('Spinner', FailureHandling.STOP_ON_FAILURE)
+
+'Tap on Spinner'
+Mobile.tap(findTestObject('API Demos Objects/Spinner_Example/text_Spinner'), 20)
+
+'wait for Element Present of text Header Spinner'
+Mobile.waitForElementPresent(findTestObject('API Demos Objects/Spinner_Example/text_header Spinner'), 20)
+
+'Verify Element Visible of text Header Spinner'
+Mobile.verifyElementVisible(findTestObject('API Demos Objects/Spinner_Example/text_header Spinner'), 30)
+
+'Tap on Spinner Planet'
+Mobile.tap(findTestObject('API Demos Objects/Spinner_Example/spinner_Planet'), 30)
+
+'Scroll to "Pluto" text'
+Mobile.scrollToText('Pluto', FailureHandling.STOP_ON_FAILURE)
+
+'Tap on Pluto'
+Mobile.tap(findTestObject('API Demos Objects/Spinner_Example/text_Pluto'), 20)
+
+'Get Selected Dropdown Value and Stored in to "actual_SelectedValue" variable'
+actual_SelectedValue = Mobile.getText(findTestObject('API Demos Objects/Spinner_Example/validation_Selected Spinner value'),
+    30)
+
+'Verify Actual and Expected value of Selected Dropdown'
+Mobile.verifyMatch(actual_SelectedValue, 'Pluto', false)
+
+Mobile.closeApplication()
+
+</codeblock><p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">Note:</b> This scenario can be also handled by
+         capturing the values in a list and tapping on the desired value
+         from spinner.</p><p class="- topic/p ">
+        <i class="+ topic/ph hi-d/i ">The source code is available <xref format="html" href="https://github.com/katalon-studio/katalon-mobile-automation" scope="external" class="- topic/xref ">here</xref>.
+            For further instructions and help, please refer to <xref href="../../../../../About_Katalon_Platform/Katalon_Studio_Overview/overview.dita" class="- topic/xref ">Katalon User Guide</xref> or <xref format="html" href="https://forum.katalon.com/" scope="external" class="- topic/xref ">Katalon Forum</xref>.</i>
+      </p></conbody></concept>

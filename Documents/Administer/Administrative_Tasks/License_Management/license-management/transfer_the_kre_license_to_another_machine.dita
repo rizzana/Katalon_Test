@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Transfer the KRE license to another machine</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">All licensed Users in an Organization can use available KRE
+         licenses by default once the Organization has purchased the KRE
+         licenses.</p>
+        <p class="- topic/p ">Licensed Users activate a KRE license by running KSE with KRE.
+         After activation, their machine ID is then added to the
+         <b class="+ topic/ph hi-d/b ">Online Licenses</b> section. This license is then
+         reserved for their use.</p>
+        <p class="- topic/p ">Therefore, to make a KRE license available when all licenses are
+         reserved, a machine ID has to be deactivated.</p>
+        <p class="- topic/p ">To deactivate a machine ID, see: <xref href="../remove-license/remove_a_registered_machine_id.dita" class="- topic/xref ">Remove
+            a registered machine ID</xref>.</p>
+      </conbody>
+    </concept>

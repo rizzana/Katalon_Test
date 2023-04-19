@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Override failure handling behavior</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">You can override the default failure handling behavior for each
+         test step manually in either <b class="+ topic/ph hi-d/b ">Manual view</b> or
+         <b class="+ topic/ph hi-d/b ">Scripting view</b> of test case. </p>
+    </conbody>
+    
+    
+  </concept>

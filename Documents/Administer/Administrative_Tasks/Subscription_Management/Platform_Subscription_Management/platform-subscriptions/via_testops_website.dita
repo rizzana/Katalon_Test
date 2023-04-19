@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Subscribe to <ph conkeyref="name-variables/katalon-platform" class="- topic/ph "/> via <ph conkeyref="name-variables/testops" class="- topic/ph "/> website</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+          <p class="- topic/p ">Sign in to <xref format="html" href="https://testops.katalon.io/login" scope="external" class="- topic/xref ">Katalon
+                  TestOps</xref> and select the desired Account.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Go to <uicontrol class="+ topic/ph ui-d/uicontrol ">Settings</uicontrol> &gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">Subscription Management</uicontrol>.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">In the <uicontrol class="+ topic/ph ui-d/uicontrol ">Choose a plan</uicontrol> section, select a plan.<image width="700" href="Subscription-management-choose-a-plan.png" class="- topic/image "><alt class="- topic/alt ">Subscription management - choose a plan section</alt></image></p>
+          <ul class="- topic/ul "><li class="- topic/li ">
+              <p class="- topic/p ">If you choose the <ph conkeyref="plan-variables/plan-2" class="- topic/ph "/> plan, click
+                     <uicontrol class="+ topic/ph ui-d/uicontrol ">Switch</uicontrol>, fill in the required information for billing and payment method, then click <uicontrol class="+ topic/ph ui-d/uicontrol ">Checkout</uicontrol>.</p>
+              
+            </li><li class="- topic/li ">
+              <p class="- topic/p ">If you choose the  <ph conkeyref="plan-variables/plan-3" class="- topic/ph "/>, click
+                     <uicontrol class="+ topic/ph ui-d/uicontrol ">Contact Sales</uicontrol> to send us a subscription
+                     request.</p>selecand
+            </li></ul>
+        </li></ol></conbody></concept>

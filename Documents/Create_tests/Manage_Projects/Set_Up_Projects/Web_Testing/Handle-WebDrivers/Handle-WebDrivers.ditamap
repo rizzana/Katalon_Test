@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-Handle-WebDrivers" class="- map/map "><title class="- topic/title ">Handle WebDrivers</title><mapref format="ditamap" href="terminate-webdrivers/terminate-webdriver.ditamap" class="+ map/topicref mapgroup-d/mapref "/><mapref format="ditamap" href="update-or-downgrade-webdrivers/update-or-downgrade-webdrivers.ditamap" class="+ map/topicref mapgroup-d/mapref "/><mapref format="ditamap" href="handle-webdrivers-with-event-firing-webdriver/Handle-webdrivers-with-event-firing-webdrivers.ditamap" class="+ map/topicref mapgroup-d/mapref "/></map>

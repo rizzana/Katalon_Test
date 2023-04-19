@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Scenario</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">Scroll down in Planet Spinner list and <b class="+ topic/ph hi-d/b ">select</b>
+         "Pluto". <b class="+ topic/ph hi-d/b ">Verify</b> selected value "Pluto".</p>
+      <p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_spinner_mobile_automation_testing/Handle-spinner-in-Mobile-automation-test.png" scope="external" class="- topic/image ">
+          <alt class="- topic/alt ">Handle Spinner in Mobile Automation Testing</alt>
+        </image>
+      </p>
+    </conbody>
+  </concept>

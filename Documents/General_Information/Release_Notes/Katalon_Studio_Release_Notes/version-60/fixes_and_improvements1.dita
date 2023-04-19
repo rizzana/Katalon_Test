@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_18" class="- topic/topic concept/concept "><title class="- topic/title ">Fixes and Improvements</title><conbody class="- topic/body  concept/conbody "><ul class="- topic/ul "><li class="- topic/li ">Allowed users to disable auto-redirection for API test
+            objects.</li><li class="- topic/li ">Highlighted test steps that call <codeph class="+ topic/ph pr-d/codeph ">markFailed</codeph>.</li><li class="- topic/li ">Fixed a bug that caused test cases to fail with status
+            <codeph class="+ topic/ph pr-d/codeph ">Reason: BUG! exception in phase 'semantic analysis' in source
+               unit</codeph>.</li><li class="- topic/li ">Showed test case tags in HTML, CSV, and PDF reports.</li><li class="- topic/li ">Added a tab to Search Dialog for searching test objects.</li><li class="- topic/li ">Showed raw data of request and response when executing an API
+            test object.</li><li class="- topic/li ">Fixed a bug that caused the last step to by marked as
+            <codeph class="+ topic/ph pr-d/codeph ">failed</codeph> if any previous steps had failed.</li><li class="- topic/li ">Fixed an issue of API testing where POST request JSON Body
+            content is disappeared.</li></ul></conbody></concept>

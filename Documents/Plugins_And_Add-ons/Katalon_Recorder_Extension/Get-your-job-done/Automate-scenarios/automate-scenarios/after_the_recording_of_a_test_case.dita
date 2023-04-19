@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">After the recording of a test case</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">If you just have just recorded a test case:<ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "> Add a new test
+         step through the toolbar item.</p></li><li class="- topic/li "><p class="- topic/p ">Type <codeph class="+ topic/ph pr-d/codeph ">verify</codeph> or
+         <codeph class="+ topic/ph pr-d/codeph ">assert</codeph> in the Command field of the new test step.</p></li><li class="- topic/li "><p class="- topic/p ">Choose from the list of available suggested commands (for example
+         <codeph class="+ topic/ph pr-d/codeph ">verifyElementPresent</codeph>).</p></li><li class="- topic/li "><p class="- topic/p ">Click on the button
+         <b class="+ topic/ph hi-d/b ">Select a target element for the current command</b>
+         located next to the Target field of the new test step.</p></li><li class="- topic/li "><p class="- topic/p ">Switch to
+         the currently active tab.</p></li><li class="- topic/li "><p class="- topic/p ">Select an element on the page.</p></li><li class="- topic/li "><p class="- topic/p ">Switch
+         back to Katalon Recorder.</p></li></ul>  </p><p class="- topic/p ">You should see the newly created assert or verify command for
+         the target element.</p></conbody></concept>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">How <ph conkeyref="name-variables/katalon-store" class="- topic/ph "/> works</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">You can install, manage, rate, and write reviews for plugins.
+         See <xref href="../Getting_Started_With_Katalon_Store/ratings__reviews.dita" class="- topic/xref ">Getting
+            Started</xref>.</p><note type="note" class="- topic/note ">
+        <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Can't find your desired plugin? Request it on our <xref format="html" href="https://forum.katalon.com/new-topic?category=plugin-platform" scope="external" class="- topic/xref ">Forum</xref>.</p></li></ul>
+      </note><p class="- topic/p ">In addition, you can also build your plugins and share useful
+         custom keywords to address the market demands.</p><note type="note" class="- topic/note ">
+        <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Submit your plugin here on <xref format="html" href="https://store.katalon.com/manage/publisher/upload-product" scope="external" class="- topic/xref ">Katalon
+               Store</xref>.</p></li></ul>
+      </note><p class="- topic/p ">For more details about how to build and submit your plugins to
+         <ph conkeyref="name-variables/katalon-store" class="- topic/ph "/>, see <xref href="../Katalon_Studio_Plugins/Create_Your_First_Katalon_Studio_Plugin/create-plugin.dita" class="- topic/xref ">Create
+            your first Katalon Studio plugin</xref> and <xref href="../Submit-and-publish-plugins/submit-plugin/submit-plugin.dita" class="- topic/xref ">Submit
+            and publish plugins</xref>.</p></conbody></concept>

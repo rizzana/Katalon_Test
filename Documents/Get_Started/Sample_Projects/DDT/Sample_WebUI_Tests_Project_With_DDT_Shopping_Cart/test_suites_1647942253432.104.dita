@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_7" class="- topic/topic concept/concept "><title class="- topic/title ">Test Suites</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">The sample test suites demonstrate the data-driven testing in Katalon Studio. To view sample test suites, go to the <b class="+ topic/ph hi-d/b ">Test Suite</b> folder in the <b class="+ topic/ph hi-d/b ">Test Explorer</b> panel. Double-click to open one of the three following test suites:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">The test suite <b class="+ topic/ph hi-d/b ">Order and check out a single product multiple times</b> demonstrates data-driven testing by data-binding.</p>
+                <p class="- topic/p ">This test suite binds the test case <b class="+ topic/ph hi-d/b ">Order and check out a single product</b> with the <b class="+ topic/ph hi-d/b ">Multiple Checkout</b> data file. After opening the <b class="+ topic/ph hi-d/b ">Test Suite</b>, click <b class="+ topic/ph hi-d/b ">Show Data Binding</b> to see the binding data.</p>
+                <p class="- topic/p ">To learn more about binding data, you can refer to the following document: <xref href="../../../../Create_tests/Data_Driven_Testing/run-test-case-external-data/manage_data_binding.dita" class="- topic/xref ">Data Binding</xref>.</p>
+                <p class="- topic/p "> <image href="Pictures/KS-830-TS-Order-check-1-product-multiple-times.png" class="- topic/image "><alt class="- topic/alt ">Order and check out a single product multiple times</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">The test suite <b class="+ topic/ph hi-d/b ">Order and check out multiple products</b> demonstrates data-driven testing by the Groovy script.</p>
+                <p class="- topic/p ">This test suite calls the test case <b class="+ topic/ph hi-d/b ">Order and check out multiple products</b> . This test case reads the <b class="+ topic/ph hi-d/b ">Product list</b> test data file by using the Groovy script. In the script mode of the test case <b class="+ topic/ph hi-d/b ">Order and check out multiple products</b>, you can see the following sample code:</p>
+                <codeblock class="+ topic/pre pr-d/codeblock ">TestData product = findTestData(GlobalVariable.dataFile)
+List&lt;String&gt; productList = product.getAllData().stream()
+.map{data -&gt; data[0]}/*get first column of each row in data file */
+.collect(Collectors.toList())/*add collect and parse to list*/
+
+  /*Add extracted product names to cart*/
+for(def productName : productList){
+CustomKeywords.'sample.Shop.addToCart'(productName.toString(), GlobalVariable.urlProduct)
+}
+</codeblock>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/shopping-cart-samples/KS-SHOPPING-Test-suites-data-testing-goorvy-script.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Order and check out multiple products</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">The test suite <b class="+ topic/ph hi-d/b ">Order and check out with Global Variable</b> demonstrates data-driven testing by global variables.</p>
+                <p class="- topic/p ">In <b class="+ topic/ph hi-d/b ">Order and check out with Global Variable</b> test suite, we call the <b class="+ topic/ph hi-d/b ">Custom-keywords samples</b> test cases. These test cases use custom keywords with global variables.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/shopping-cart-samples/KS-SHOPPING-Test-suite-global-variables.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Order and check out multiple products</alt></image>
+                </p>
+            </li></ol></conbody></concept>

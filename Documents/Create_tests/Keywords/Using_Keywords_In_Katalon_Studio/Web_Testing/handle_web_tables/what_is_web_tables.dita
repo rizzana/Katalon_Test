@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">What is Web Tables?</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">A Web table is a collection of rows and columns. For a Web
+         table, data is stored in cells. Tables are used not only in data
+         sheets but also in organizing web pages.</p>
+      <p class="- topic/p ">A Web table normally contains the following tags:</p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">table – indicates a table.</li>
+        <li class="- topic/li ">tbody – defines a container for rows and columns.</li>
+        <li class="- topic/li ">tr – specifies a row in the table.</li>
+        <li class="- topic/li ">td / th – table data/table header indicating columns in
+            respective table rows.</li>
+      </ul>
+      <p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">A basic web table</b>
+      </p>
+      <p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_web_tables/A-Basic-Webtable.png" scope="external" class="- topic/image ">
+          <alt class="- topic/alt ">basic web table</alt>
+        </image>
+      </p>
+      <p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">A basic web table's HTML code looks like
+            below:</b>
+      </p>
+      <p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_web_tables/web-tables-HTML-code.png" scope="external" class="- topic/image ">
+          <alt class="- topic/alt ">web table html</alt>
+        </image>
+      </p>
+      <p class="- topic/p ">Handling Web tables is perhaps much more complicated than any
+         other elements or controls. This article will show you how to
+         handle web tables using Katalon Studio.</p>
+    </conbody>
+  </concept>

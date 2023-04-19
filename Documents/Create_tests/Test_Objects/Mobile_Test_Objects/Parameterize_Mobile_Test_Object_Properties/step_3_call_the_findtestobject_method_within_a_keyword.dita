@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Step 3: Call the findTestObject method within a keyword</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">In this example, the <codeph class="+ topic/ph pr-d/codeph ">tap</codeph> keyword is performed on
+         the object with the text value that we have just specified.</p>
+        <p class="- topic/p ">
+          <codeblock class="+ topic/pre pr-d/codeblock ">groovy
+            Mobile.tap(findTestObject('Application/android.widget.TextView -
+            App', [('text') : 'demokatalon']), 10)</codeblock>
+        </p>
+      </conbody>
+    </concept>

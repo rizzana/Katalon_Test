@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Link Test Cases to Jira Requirements</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">Follow these steps:</p>
+      <ol class="- topic/ol ">
+        <li class="- topic/li ">
+          <p class="- topic/p ">Sign in to <xref format="html" href="https://testops.katalon.io/login" scope="external" class="- topic/xref ">Katalon
+                  TestOps</xref> and go to your Project.</p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Test Management</b> &gt; <b class="+ topic/ph hi-d/b ">Test
+                  Cases</b>. Click on a Test Case (e.g., CuraHealth).</p>
+          <p class="- topic/p ">The Test Case page appears (e.g., <b class="+ topic/ph hi-d/b ">Test Case:
+                  CuraHealth</b> page).</p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Enter the Jira issue in <b class="+ topic/ph hi-d/b ">Jira Requirements</b>
+               (e.g., <b class="+ topic/ph hi-d/b ">KAT-104</b>), then click on the <i class="+ topic/ph hi-d/i ">Link</i>
+               icon.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-integration-jira/linking-test-case-step-red-2.png" scope="external" width="100%" class="- topic/image ">
+              <alt class="- topic/alt ">link test case to jira requirement</alt>
+            </image>
+          </p>
+          <p class="- topic/p ">The Jira issue is now added to the <b class="+ topic/ph hi-d/b ">Linked Issue</b>
+               section.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-integration-jira/kat104-under-idfeature-section-2.png" scope="external" width="100%" class="- topic/image ">
+              <alt class="- topic/alt ">jira issue appears after linking</alt>
+            </image>
+          </p>
+          <p class="- topic/p ">Click on the Jira issue to go to Jira and view the linked Test
+               Case.</p>
+        </li>
+      </ol>
+    </conbody>
+  </concept>

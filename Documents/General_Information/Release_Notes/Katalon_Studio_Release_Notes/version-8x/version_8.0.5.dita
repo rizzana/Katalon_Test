@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_17" class="- topic/topic concept/concept "><title class="- topic/title ">Version 8.0.5</title><conbody class="- topic/body  concept/conbody "><section class="- topic/section "><title class="- topic/title ">Enhancements</title><ul class="- topic/ul "><li class="- topic/li ">Enhanced <xref href="../../../../Maintain/time-capsule/intro-time-capsule.dita" class="- topic/xref ">Time
+               Capsule</xref> by leveraging a built-in ChromeDevTools function to
+            create a MHTML snapshot. Credited to Kazurayam for suggesting <xref format="html" href="https://forum.katalon.com/t/saving-web-page-as-mhtml-in-katalon-studio/49368" scope="external" class="- topic/xref ">Saving
+               Web Page as MHTML in Katalon Studio</xref>.</li><li class="- topic/li ">[Web UI] Introduced new parameters for
+            <codeph class="+ topic/ph pr-d/codeph ">WebUI.takeScreenshot</codeph> keyword to print text on captured
+            screenshots. See <xref href="../../../../Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Web-UI-Keywords/webui-take-screenshot/webui-take-screenshot.dita" class="- topic/xref ">Take
+               screenshots with WebUI keywords</xref>.</li></ul></section><section class="- topic/section "><title class="- topic/title ">Fixes</title><ul class="- topic/ul "><li class="- topic/li ">Fixed Katalon Docker Image not sending reports to Katalon
+            TestOps.</li><li class="- topic/li ">Fixed issues with Custom Keywords where: 
+            
+            <ul class="- topic/ul "><li class="- topic/li ">Back and Forth navigation in the Editor was not working.</li><li class="- topic/li ">Hyperlink was not working.</li><li class="- topic/li ">Javadoc was not working.</li><li class="- topic/li ">The Declaration of the keyword could not be opened.</li><li class="- topic/li ">[Cucumber] Custom Keywords in Step definitions were not
+                  working.</li></ul></li><li class="- topic/li ">Bug: Resolved activation issue of Enterprise-exclusive
+            plugins.</li><li class="- topic/li ">Bug: Resolved Test Suite stopped executing after some test
+            cases.</li><li class="- topic/li ">Fixed reports parsing issues: 
+            
+            <ul class="- topic/ul "><li class="- topic/li ">[Katalon Runtime Engine] Could not generate and submit JUnit
+                  report to Katalon TestOps.</li><li class="- topic/li ">Could not generate reports due to <codeph class="+ topic/ph pr-d/codeph ">Null</codeph> character
+                  in log files.</li><li class="- topic/li ">[Katalon Runtime Engine] Katalon Studio Image could not send
+                  report to Katalon TestOps.</li></ul></li><li class="- topic/li ">Fixed Katalon Runtime Engine hanging issues when: 
+            
+            <ul class="- topic/ul "><li class="- topic/li ">Running tests with Selenium Grid.</li><li class="- topic/li ">[Test Suite Collection] The number of Java threads kept
+                  increasing during execution.</li></ul></li></ul></section></conbody></concept>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Subscribe to <ph conkeyref="name-variables/name-variable-testcloud" class="- topic/ph "/> via <ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/> homepage</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+          <p class="- topic/p ">Sign in to <xref format="html" href="https://testops.katalon.io/login" scope="external" class="- topic/xref ">Katalon
+                  TestOps</xref> and select the desired Account.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Go to <uicontrol class="+ topic/ph ui-d/uicontrol ">Settings</uicontrol> &gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">Subscription
+                  Management</uicontrol>.</p>
+        </li><li class="- topic/li ">
+          
+          <p class="- topic/p ">In the <uicontrol class="+ topic/ph ui-d/uicontrol ">Additional Products</uicontrol> section, click on the <uicontrol class="+ topic/ph ui-d/uicontrol ">Subscribe</uicontrol> button of TestCloud.</p><p class="- topic/p "><image width="700" href="Subscription-management-additional-products-testcloud.png" class="- topic/image "><alt class="- topic/alt "/></image></p></li><li class="- topic/li "><p class="- topic/p ">In the checkout page, select the billing cycle (monthly or annual) and the number of <ph conkeyref="name-variables/name-variable-testcloud" class="- topic/ph "/> sessions you want to purchase.</p>
+          
+        </li><li class="- topic/li "><p class="- topic/p ">Fill in or update your billing information, then click <uicontrol class="+ topic/ph ui-d/uicontrol ">Checkout</uicontrol>.</p></li></ol><p class="- topic/p ">Once you have successfully subscribed to <ph conkeyref="name-variables/katalon-testcloud" class="- topic/ph "/>, go to  <uicontrol class="+ topic/ph ui-d/uicontrol ">Subscription Management</uicontrol>  &gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">Additional Subscription</uicontrol> to view your subscription information.</p></conbody></concept>

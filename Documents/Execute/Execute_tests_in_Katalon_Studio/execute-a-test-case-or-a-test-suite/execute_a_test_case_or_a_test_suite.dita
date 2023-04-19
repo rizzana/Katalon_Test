@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Execute a test case or a test suite</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To run test:</p><ol class="- topic/ol "><li class="- topic/li ">In <b class="+ topic/ph hi-d/b ">Tests Explorer</b>, open a test case or test
+            suite.</li><li class="- topic/li ">
+
+          <p class="- topic/p ">In Katalon Toolbar, in the drop-down list of button
+               <b class="+ topic/ph hi-d/b ">Run</b>, select an environment to run the test case.
+               If you click on the <b class="+ topic/ph hi-d/b ">Run</b> button, the test case is
+               executed using the default browser defined in <xref href="../../../Create_tests/Manage_Projects/Project_Settings/Project_settings.dita" class="- topic/xref ">Execution Settings</xref>.</p>
+          <p class="- topic/p ">
+            
+          <image width="250" href="../execute-a-test-case/image/ks-execute-test-suite.png" class="- topic/image "/></p>
+        </li></ol></conbody></concept>

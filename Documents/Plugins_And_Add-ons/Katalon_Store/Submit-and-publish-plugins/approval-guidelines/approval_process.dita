@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Approval process on <ph conkeyref="name-variables/katalon-store" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Approval times vary depending on current volume and the <ph conkeyref="name-variables/katalon-store" class="- topic/ph "/> team's availability, submissions fall into an internal queue
+         which the <ph conkeyref="name-variables/katalon-store" class="- topic/ph "/> team works through chronologically as they come in.
+         Our team checks a range of requirements for your plugin, like
+         whether it installs properly and has documentation. In order to
+         avoid unnecessary updates and resubmissions, <b class="+ topic/ph hi-d/b "><i class="+ topic/ph hi-d/i ">make sure
+               your plugin adheres to the guidelines</i> on this page</b>.
+         If you believe your approval is taking too long, feel free to
+         contact our team via store@katalon.com.</p><ul class="- topic/ul "><li class="- topic/li "><b class="+ topic/ph hi-d/b ">Log in</b> to <xref format="html" href="https://store.katalon.com" scope="external" class="- topic/xref ">https://store.katalon.com</xref> with
+            your Katalon account.</li><li class="- topic/li ">Click <b class="+ topic/ph hi-d/b ">New Plugin</b> button in <xref format="html" href="https://store.katalon.com/manage/publisher" scope="external" class="- topic/xref ">Published
+               Plugins</xref> tab.</li><li class="- topic/li ">Upload your file and fill out the plugin information form
+            (Refer to <xref href="../document-guidelines/submit_documents_for_published_plugins.dita" class="- topic/xref ">Plugin
+               Documents Guidelines</xref>) to learn how to submit documents for
+            published plugins).</li><li class="- topic/li ">Accept the <xref format="html" href="https://www.katalon.com/terms/#developer-agreement" scope="external" class="- topic/xref ">Developer
+               Agreement</xref>, and submit your plugin.</li><li class="- topic/li ">Back to <xref format="html" href="https://store.katalon.com/manage/publisher" scope="external" class="- topic/xref ">Published
+               Plugins</xref> tab and click <b class="+ topic/ph hi-d/b ">Publish</b> below your
+            plugin.</li><li class="- topic/li ">You'll be notified via email that your submission was
+            successful, and <b class="+ topic/ph hi-d/b ">receive a URL to view</b> the approval
+            status.</li><li class="- topic/li ">Once approved, your plugin is published to <ph conkeyref="name-variables/katalon-store" class="- topic/ph "/>.</li></ul></conbody></concept>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-parameterize-a-web-service-object" class="- map/map ">
+  <title class="- topic/title ">Parameterize a Web Service Object</title>
+  <topicref href="parameterize-a-web-service-object.dita" class="- map/topicref "><topicref href="query_parameters.dita" class="- map/topicref "/>
+  <topicref href="variables_and_parameterizing_request_objects.dita" class="- map/topicref ">
+    <topicref href="for_restful_request.dita" class="- map/topicref "/>
+    <topicref href="for_soap-based_request.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="add_test_requests_to_a_test_case.dita" class="- map/topicref "/>
+</topicref></map>

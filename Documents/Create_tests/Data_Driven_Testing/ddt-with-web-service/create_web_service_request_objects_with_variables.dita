@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Create Web Service request objects with variables</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">Here we need to create two RESTful requests with variables:</p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">A POST request with variables to register a new user.</li>
+        <li class="- topic/li ">A GET request with variables to get a user by ID.</li>
+      </ul>
+    </conbody>
+    
+    
+  </concept>

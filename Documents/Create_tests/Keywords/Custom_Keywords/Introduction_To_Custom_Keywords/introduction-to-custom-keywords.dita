@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Introduction to custom keywords in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">In addition to built-in keywords, you can define custom keywords to extend the capabilities of <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/>. Once created, custom keywords can be used when executing test cases like other built-in keywords.</p></conbody></concept>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_7" class="- topic/topic concept/concept "><title class="- topic/title ">Select option by label</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">The <codeph class="+ topic/ph pr-d/codeph ">selectOptionByLabel</codeph> keyword selects the option which has the exactly displayed text of a particular option. See: <xref href="../../../Keywords_Description_In_Katalon_Studio/Web-UI-Keywords/webui-select-option-by-label/webui-select-option-by-label.dita" class="- topic/xref "/>.</p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Example</b>: </p><p class="- topic/p ">If we want to select "Apr" from the dropdown, we pass the exactly visible text from it.</p><p class="- topic/p ">In this example, we are also verifying the right option is selected.</p><p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/how_handle_drop_down_menu/SelectByLabel_Expample.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Dropdown option with the label "April" selected</alt></image></p><p class="- topic/p ">In <uicontrol class="+ topic/ph ui-d/uicontrol ">Manual View</uicontrol>:<image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/how_handle_drop_down_menu/Select_option_By_label_Manual.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Sample test case with keyword "selectOptionByLabel"</alt></image></p><p class="- topic/p ">In <uicontrol class="+ topic/ph ui-d/uicontrol ">Script View</uicontrol>:<codeblock class="+ topic/pre pr-d/codeblock ">'Open browser'
+ 
+WebUI.openBrowser('file:///C:/Users/User/Desktop/Dropdown.html')
+ 
+'Maximize the Window'
+ 
+WebUI.maximizeWindow()
+ 
+'Select the dropdown value by Select option By Label Method'
+ 
+WebUI.selectOptionByLabel(findTestObject('dropdown_Month'), 'Apr', false)
+ 
+'Verifying the Option is Selected by Label option'
+ 
+WebUI.verifyOptionSelectedByLabel(findTestObject('dropdown_Month'), 'Apr', false, 60)
+ 
+WebUI.closeBrowser()
+
+</codeblock></p></conbody></concept>

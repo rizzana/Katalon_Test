@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Steps definitions</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">After you added your feature files, you need to define and link steps before using that feature file. </p><p class="- topic/p ">Each Gherkin step in the features file needs to be defined as a set of programming code so that <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> can execute the action of that step. These step definitions can be implemented in the <uicontrol class="+ topic/ph ui-d/uicontrol ">Keyword</uicontrol> folder by leveraging the <uicontrol class="+ topic/ph ui-d/uicontrol ">Script Mode</uicontrol>. <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> built-in keywords can also be re-used in <uicontrol class="+ topic/ph ui-d/uicontrol ">Step Definition</uicontrol> files as well. When <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> executes any features files in a test case, it  also look for the matching step definitions in the source folder.</p><p class="- topic/p "><uicontrol class="+ topic/ph ui-d/uicontrol ">Step Definitions</uicontrol> can be written in any Cucumber-supported programming languages including Groovy and Java.</p><p class="- topic/p ">For example, we have two scenario outlines: Login with a valid credential and login with an invalid credential. With two scenario outlines, we have totally 6 steps like below:</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Given I navigate to Cura System homepage
+</p></li><li class="- topic/li "><p class="- topic/p ">When I click Make Appointment button
+</p></li><li class="- topic/li "><p class="- topic/p ">And I enter username &lt;username&gt; and password &lt;password&gt;
+</p></li><li class="- topic/li "><p class="- topic/p ">And I click Log in button </p></li><li class="- topic/li "><p class="- topic/p ">Then I should be able to login successfully
+</p></li><li class="- topic/li "><p class="- topic/p ">Then I should NOT be able to login successfully</p></li></ul><p class="- topic/p "><image width="750" href="image/ks-840-step-definition.png" class="- topic/image "><alt class="- topic/alt ">step definition</alt></image></p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Step Definitions Sample Script</b></p><codeblock class="+ topic/pre pr-d/codeblock ">class MyStepDefinition {
+
+    /**
+     * The step definitions below match with Katalon sample Gherkin steps
+     */
+
+    @Given("I navigate to Cura System homepage")
+    def I_navigate_to_Cura_System_homepage() {
+
+        WebUI.openBrowser("https://katalon-demo-cura.herokuapp.com/")
+        //WebUI.waitForPageLoad(30)
+    }
+
+    @When("I click Make Appointment button")
+    def I_click_makeAppointment_button() {
+
+        WebUI.click(findTestObject('Page_CURA Healthcare Service/a_Make Appointment'))
+    }
+ 
+    @And("I enter username (.*) and password (.*)")
+    def I_enter_valid_username_password(String username, String password) {
+
+        WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_userName'), username)
+        WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_password'), password)
+    }
+ 
+    @And("I click Log in button")
+    def I_click_login_btn() {
+
+        WebUI.click(findTestObject('Page_CURA Healthcare Service/button_Login'))
+    }
+ 
+    @Then("I should be able to login successfully")
+    def I_login_successfully() {
+
+        WebUI.click(findTestObject('Page_CURA Healthcare Service/button_Login'))
+        WebUI.verifyTextPresent('Make Appointment', false)
+        WebUI.closeBrowser()
+    }
+
+    @And("I enter an invalid username (.*) and password (.*)")
+    def I_enter_invalid_username_password(String username, String password) {
+
+        WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_userName'), username)
+        WebUI.setText(findTestObject('Page_CURA Healthcare Service/input_password'), password)
+    }
+
+ 
+    @Then("I should NOT be able to login successfully")
+    def I_login_unsuccessfully() {
+
+        WebUI.verifyTextPresent('Login failed! Please ensure the username and password are valid.', false)
+        WebUI.closeBrowser()
+    }
+
+}
+
+</codeblock></conbody></concept>

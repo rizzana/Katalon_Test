@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-create-test-suite?><?workdir-uri file:/Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-create-test-suite/?><?path2project ../../../../?><?path2project-uri ../../../../?><?path2rootmap-uri ../../../../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="id" class="- topic/topic concept/concept " ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-create-test-suite/katalium-framework-create-test-suite.dita" xtrc="concept:1;3:57" specializations="@props/deliveryTarget"><title class="- topic/title " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-create-test-suite/katalium-framework-create-test-suite.dita" xtrc="title:1;3:87">Create a Test Suite in Katalium Framework</title><conbody class="- topic/body  concept/conbody " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-create-test-suite/katalium-framework-create-test-suite.dita" xtrc="conbody:1;3:184"><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-create-test-suite/katalium-framework-create-test-suite.dita" xtrc="p:1;3:206">Test suites and their parameters are defined using TestNG
+         syntax.</p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-create-test-suite/katalium-framework-create-test-suite.dita" xtrc="p:2;4:43">Here is a simple example (<xref format="html" href="https://github.com/katalon-studio/katalium-sample/blob/master/src/test/resources/testng.xml" scope="external" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-create-test-suite/katalium-framework-create-test-suite.dita" xtrc="xref:1;4:227"><?ditaot usertext?>source
+            code</xref>):</p><codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-create-test-suite/katalium-framework-create-test-suite.dita" xtrc="codeblock:1;5:77">&lt;?xml version = "1.0" encoding = "UTF-8"?&gt;
+&lt;!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" &gt;
+
+&lt;suite name="Suite1" verbose="1"&gt;
+    &lt;test name="simple" &gt;
+        &lt;parameter name="kataDisableScreenshot" value="false" /&gt;
+        &lt;classes&gt;
+            &lt;class name="com.katalon.kata.sample.testcase.simple.MakeAppointmentTest" /&gt;
+        &lt;/classes&gt;
+    &lt;/test&gt;
+
+    &lt;test name="parameterize" &gt;
+        &lt;parameter name="kataDisableScreenshot" value="true" /&gt;
+        &lt;parameter name="facility" value="Hongkong CURA Healthcare Center" /&gt;
+        &lt;parameter name="visitDate" value="27/12/2016" /&gt;
+        &lt;parameter name="comment" value="Please make appointment as soon as possible." /&gt;
+        &lt;classes&gt;
+            &lt;class name="com.katalon.kata.sample.testcase.parameterize.ParameterizedMakeAppointmentTest" /&gt;
+        &lt;/classes&gt;
+    &lt;/test&gt;
+&lt;/suite&gt;
+</codeblock><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-create-test-suite/katalium-framework-create-test-suite.dita" xtrc="p:3;26:35">Test suites can be specified in command line, e.g. <codeph class="+ topic/ph pr-d/codeph " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plugins_And_Add-ons/Katalium_Framework/katalium-framework-create-test-suite/katalium-framework-create-test-suite.dita" xtrc="codeph:1;26:126">mvn
+            clean test
+            -Dsurefire.suiteXmlFiles=src/test/resources/testng-parallel.xml</codeph>.</p></conbody></concept>

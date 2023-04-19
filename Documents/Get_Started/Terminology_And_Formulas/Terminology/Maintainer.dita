@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN" "glossentry.dtd">
+<glossentry id="glossentry-9079" class="- topic/topic concept/concept glossentry/glossentry "><glossterm class="- topic/title concept/title glossentry/glossterm ">Maintainer</glossterm><glossdef class="- topic/abstract concept/abstract glossentry/glossdef ">A maintainer is responsible for all test results of a test case.<p class="- topic/p ">In Katalon TestOps, within an organization, you can assign a person to maintain a test case (the maintainer) and the history of its test results.</p></glossdef></glossentry>

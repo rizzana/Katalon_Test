@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_15" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Priorities</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">When starting to develop test scenarios, some of us are
+         relatively common to jump right into some of the negative test
+         scenarios (to verify invalid information, validation on special
+         characters, uncommon input, etc.). These types of verification
+         might cause crashes and other interesting problems. In other words,
+         easy bugs might be found quickly with negative test scenarios.
+         Unfortunately, it is not necessarily the best use of a tester's
+         effort. It is suggested that mainline scenarios should be focus
+         first with higher priority. A basic guideline is to identify the
+         most common parameters and conditions that an end developer will
+         use when calling the APIs and test these scenarios extensively.</p>
+      </conbody>
+    </concept>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-5359" xml:lang="en-us" class="- topic/topic concept/concept "><title class="- topic/title ">Generate SSH keys</title><prolog class="- topic/prolog "><author translate="no" type="creator" class="- topic/author ">Xuan Tran &lt;xuan.tran@katalon.com&gt;</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "/></metadata></prolog><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">To configure options for SSH, in <b class="+ topic/ph hi-d/b ">Katalon Studio &gt; Preferences</b>, go to <b class="+ topic/ph hi-d/b ">General &gt; Network Connection &gt; SSH2</b>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Manage your SSH keys:</p>
+                <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">General</b> tab, you can manage your SSH home directory and which private key you are using.</p>
+                <p class="- topic/p ">For example, the SSH is usually located at <codeph class="+ topic/ph pr-d/codeph ">:/Users/your_user_name/.ssh</codeph> or <codeph class="+ topic/ph pr-d/codeph ">C:\Users\your_user_name\.ssh</codeph>). The <codeph class="+ topic/ph pr-d/codeph ">.ssh</codeph> folder contains your SSH private and public keys, for example: <codeph class="+ topic/ph pr-d/codeph ">id_rsa</codeph> or <codeph class="+ topic/ph pr-d/codeph ">id_rsa.pub</codeph>.</p>
+                <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Private keys</b> section, you can view or delete the old keys and only keep the ID key you use.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/RSA%20id.png" scope="external" width="700" class="- topic/image "><alt class="- topic/alt ">SSH URL</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Generate new SSH keys:</p>
+                <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Configuration options for SSH2</b> section, select the <b class="+ topic/ph hi-d/b ">Key Management</b> tab.</p>
+                <p class="- topic/p ">You can check if you already have an existing SSH key by clicking <b class="+ topic/ph hi-d/b ">Load Existing Key</b>. This action opens your <codeph class="+ topic/ph pr-d/codeph ">.ssh</codeph> folder.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/load-existing-key.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">load existing key</alt></image>
+                </p>
+                <p class="- topic/p ">To generate a new SSH key, select <b class="+ topic/ph hi-d/b ">Generate DSA Key</b> or <b class="+ topic/ph hi-d/b ">Generate RSA Key</b> and copy the generated key to your clipboard.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/generate-ssh-key.png" scope="external" width="850" class="- topic/image "><alt class="- topic/alt ">rsa key</alt></image>
+                </p>
+                <p class="- topic/p ">You can also generate an RSA key with this command:</p>
+                <p class="- topic/p ">
+                    <codeph class="+ topic/ph pr-d/codeph ">ssh-keygen -m PEM -t rsa -b 2048 -C
+                  "your_email@example.com"</codeph>
+                </p>
+                <note type="note" class="- topic/note ">
+                    <ul class="- topic/ul "><li class="- topic/li ">Katalon Studio only supports <codeph class="+ topic/ph pr-d/codeph ">OpenSSL</codeph>, not <codeph class="+ topic/ph pr-d/codeph ">OpenSSH</codeph> formats.</li></ul>
+                </note>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Add your SSH key to the SSH agent:</p>
+                <p class="- topic/p ">Enter the <b class="+ topic/ph hi-d/b ">Passphrase</b> or leave it empty, then click <b class="+ topic/ph hi-d/b ">Save Private Keys</b>. Enter the file name and click <b class="+ topic/ph hi-d/b ">Save</b>. A new private and a new public key are generated.</p>
+                <note type="note" class="- topic/note ">
+                    <ul class="- topic/ul "><li class="- topic/li ">You can read more about passphrases in this GitHub document: <xref format="html" href="https://help.github.com/en/articles/working-with-ssh-key-passphrases" scope="external" class="- topic/xref ">Working with SSH key passphrases</xref>.</li></ul>
+                </note>
+            </li></ol></conbody></concept>

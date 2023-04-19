@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-import-selenium-ide" class="- map/map ">
+  <title class="- topic/title ">Import Tests from Selenium IDE</title>
+  <topicref href="import-selenium-ide.dita" class="- map/topicref "><topicref href="import_tests_from_selenium_ide.dita" class="- map/topicref "/>
+</topicref>
+  </map>

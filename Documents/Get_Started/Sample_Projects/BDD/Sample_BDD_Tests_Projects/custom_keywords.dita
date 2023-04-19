@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept "><title class="- topic/title ">Custom keywords</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">You can use custom keywords in the test case. To learn more
+         about custom keywords, you can refer to this document: <xref href="../../../../Create_tests/Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/introduction-to-custom-keywords.dita" class="- topic/xref ">Introduction
+            to custom keywords</xref>.</p><p class="- topic/p ">Katalon creates a custom keyword in this sample project. To see
+         the custom keyword, in the <b class="+ topic/ph hi-d/b ">Test Explorer</b> panel, go
+         to <b class="+ topic/ph hi-d/b ">Keywords &gt; sample &gt;
+            ClickNumber.groovy</b>.</p><p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/BDD-sample-prj/KS-BDD-Custom-keyword.png" scope="external" width="400" class="- topic/image "><alt class="- topic/alt ">Custom keywords in the BDD project</alt></image>
+        </p><p class="- topic/p ">The <codeph class="+ topic/ph pr-d/codeph ">ClickNumber.clickNumber</codeph> keyword converts a
+         given number into an integer, then inputs the number on the react
+         calculator.</p><p class="- topic/p ">This keyword includes the following parameters:</p><table class="- topic/table "><tgroup cols="4" class="- topic/tgroup "><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Parameter</entry><entry class="- topic/entry ">Type</entry><entry class="- topic/entry ">Mandatory</entry><entry class="- topic/entry ">Description</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">number</entry><entry class="- topic/entry ">string</entry><entry class="- topic/entry ">Yes</entry><entry class="- topic/entry ">The number you want to input in the react calculator.</entry></row></tbody></tgroup></table></conbody></concept>

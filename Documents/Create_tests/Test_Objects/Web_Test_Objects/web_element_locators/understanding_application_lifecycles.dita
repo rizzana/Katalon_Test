@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Understanding Application Lifecycles</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">If the AUT life cycle is too short and the content is static,
+         the absolute XPath, which can be copied from the browser, is
+         sufficient. There is no need to find a better approach for this
+         type of project.</p><p class="- topic/p ">However, if the AUT is large and its life cycle is long,
+         including the maintenance phase, you have to think about the
+         locator strategy seriously. A wrong approach may lead to wasting
+         tremendous time and effort to update and maintain test cases.</p></conbody></concept>

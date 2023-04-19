@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">How to use a custom keyword from other custom keywords and step definition classes in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Besides built-in keywords, Katalon Studio also allows users to
+         create custom keywords for these purposes:<ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Creating reusable
+         scripts</p></li><li class="- topic/li "><p class="- topic/p ">Extending testing capability</p></li><li class="- topic/li "><p class="- topic/p ">Setting up testing
+         projects with a specific pattern</p></li></ul> </p><p class="- topic/p ">Initially, custom keywords are designed use in test cases.
+         Combined with built-in keywords, custom keywords can help perform a
+         complete test scenario.</p><p class="- topic/p ">Here is an example of a custom keyword, which prints out a
+         parameter.</p><codeblock class="+ topic/pre pr-d/codeblock ">class ParamTypes {
+  @Keyword
+  def map_variables(Map &lt;String, String&gt; my_map) {
+    println my_map
+  }
+}
+</codeblock><p class="- topic/p ">The keyword can be used in a test case via
+         <b class="+ topic/ph hi-d/b ">CustomKeywords</b> class</p><codeblock class="+ topic/pre pr-d/codeblock ">CustomKeywords.'ParamTypes.map_variables'([('last name') : 'ducson', ('first name') : 'brian'])
+</codeblock><p class="- topic/p ">In Katalon Studio, the test case Script is not the only place
+         that allows users to script. Users can script at the custom keyword
+         class and the BDD step definition class. Unfortunately, you will
+         get the following error message when calling the custom keyword in
+         these classes:</p><codeblock class="+ topic/pre pr-d/codeblock ">Test Cases/Tips and Tricks/Custom Keywords/Params - Map FAILED because (of) (Stack trace: 
+groovy.lang.MissingPropertyException: No such property: CustomKeywords for class: com.common.types.ParamTypes
+</codeblock><p class="- topic/p ">In the custom keyword class and the BDD step definition class,
+         custom keywords cannot be called directly as in test case via
+         CustomKeywords class. They can be called as methods of a groovy
+         class. Here are two options you can choose to get it work:</p><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Option 1</b>: Create a new instance of the class and
+         call the method<codeblock class="+ topic/pre pr-d/codeblock ">def param_types = new ParamTypes()
+param_types.map_variables([('last name') : 'ducson', ('first name') : 'brian'])
+</codeblock></p></li><li class="- topic/li ">
+        <b class="+ topic/ph hi-d/b ">Option 2</b>: Declare the custom keyword as
+            static<codeblock class="+ topic/pre pr-d/codeblock ">class ParamTypes {
+  @Keyword
+  def static map_variables(Map &lt;String, String&gt; my_map) {
+    println my_map
+  }
+}
+</codeblock></li></ul><p class="- topic/p ">and call the method<codeblock class="+ topic/pre pr-d/codeblock ">ParamTypes.map_variables([('last name') : 'ducson', ('first name') : 'brian'])
+</codeblock></p></conbody></concept>

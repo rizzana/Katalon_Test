@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_17" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">End-points management</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">   A typical product may have hundreds of API/Web
+         services endpoints, which look very similar to each other, and
+         might cause duplication issues to the testing project. How you
+         organize the tests and the endpoints will influence the
+         productivity, effectiveness, and maintenance of your tests.</p>
+        <p class="- topic/p ">   Test endpoints could be grouped by path
+         (including path parameters), which generally performance action on
+         specific object types. For examples:</p>
+        
+          <codeblock class="+ topic/pre pr-d/codeblock ">api/2/issue: affects to Jira issue
+   -- Create issue
+   POST /rest/api/2/issue
+   -- Create issues
+   POST /rest/api/2/issue/bulk
+   -- Get issue
+   GET /rest/api/2/issue/{issueIdOrKey}
+
+</codeblock>
+        
+        <p class="- topic/p ">while</p>
+        
+          <codeblock class="+ topic/pre pr-d/codeblock ">api/2/group: affects to Jira Group
+   -- Create group
+   POST /rest/api/2/group
+   -- Get group  DEPRECATED
+   GET /rest/api/2/group
+   -- Remove group
+   DELETE /rest/api/2/group
+
+</codeblock>
+        
+        <p class="- topic/p ">This method will help us preventing missing test endpoints, and
+         test scenarios.</p>
+      </conbody>
+    </concept>

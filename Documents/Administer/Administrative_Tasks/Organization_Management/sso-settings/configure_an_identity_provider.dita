@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Configure an identity provider</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To generate metadata for SSO configuration in Katalon TestOps,
+         you need to set up an identity provider as follows:</p><ul class="- topic/ul "><li class="- topic/li ">Single sign-on SSO URL:
+            <codeph class="+ topic/ph pr-d/codeph ">https://sso.katalon.io/saml/SSO</codeph>
+        </li><li class="- topic/li ">SP Entity ID: <codeph class="+ topic/ph pr-d/codeph ">com:katalon:testops</codeph>
+        </li><li class="- topic/li ">Attribute statement: <codeph class="+ topic/ph pr-d/codeph ">Email</codeph>
+        </li></ul><note type="note" class="- topic/note ">
+        <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">The values for the above configurations are
+            case-sensitive.</p></li></ul>
+      </note><p class="- topic/p ">Your metadata is then automatically encrypted in the Katalon
+         database. To learn more about the identity provider, you can refer
+         to this Okta document: <xref format="html" href="https://help.okta.com/oie/en-us/Content/Topics/Security/Identity_Providers.htm" scope="external" class="- topic/xref ">Identity
+            Providers</xref>.</p></conbody></concept>

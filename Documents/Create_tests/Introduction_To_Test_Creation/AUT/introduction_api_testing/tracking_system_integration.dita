@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_26" class="- topic/topic concept/concept "><title class="- topic/title ">Tracking system integration</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Ensuring the API testing system is working correctly with the
+         data tracking system is another challenge in API testing. This
+         integration is essential in bringing back the appropriate responses
+         on whether a call is working properly. It is also useful in
+         monitoring the API performance. Tracking system integration is a
+         late stage in a whole process, which cause the team not to give it
+         enough attention.</p><p class="- topic/p ">It can be improved by planning since the design phase to see how
+         it will integrate with other systems. Each application has various
+         requirements that need to be met. So, the team should not test in
+         parallel with other critical integration systems. This can be
+         achieved by implementing and adding load testing in the continuous
+         delivery.</p><p class="- topic/p ">See also:</p><ul class="- topic/ul "><li class="- topic/li ">
+            <xref href="../../../Create_Test_Cases/Create_Your_First_API_Test_With_Katalon_Studio/create_first_api_test_katalon_studio.dita" class="- topic/xref ">Create
+               your first API test with Katalon Studio</xref>
+          </li><li class="- topic/li ">
+            <xref href="../../../Manage_Projects/API_Web_Service_Project/APIWeb_Service_Project.dita" class="- topic/xref ">API/Web
+               Service Project</xref>
+          </li><li class="- topic/li ">Follow this course on Katalon Academy: <xref format="html" href="https://academy.katalon.com/courses/api-boost-web-testing-lambdatest/?utm_source=kat_docs_api_intro&amp;utm_medium=bottom_link&amp;utm_campaign=academy_promotion" scope="external" class="- topic/xref ">Leverage
+               API to Boost Web Testing with Katalon and LambdaTest</xref>
+          </li></ul></conbody></concept>

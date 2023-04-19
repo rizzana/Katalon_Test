@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Common use cases</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Below are some common use cases of the desired capabilities for Chrome in Katalon Studio:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p "> To start Chrome maximized by default. Click <b class="+ topic/ph hi-d/b ">Add</b> on the command toolbar, then type in the following value: <table class="- topic/table "><tgroup cols="3" class="- topic/tgroup "><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Name</entry><entry class="- topic/entry ">Type</entry><entry class="- topic/entry ">Value</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">args</entry><entry class="- topic/entry ">List</entry><entry class="- topic/entry ">--start-maximized</entry></row></tbody></tgroup></table>
+                </p>
+                <p class="- topic/p "> Alternatively, you can copy and paste the following script into the settings files. <codeblock class="+ topic/pre pr-d/codeblock ">{"CHROME_DRIVER":{"args":["--start-maximized"]}}</codeblock></p>
+                <p class="- topic/p "><image href="Pictures/KS-DC-Chrome-maximized.png" class="- topic/image "><alt class="- topic/alt ">Maximized in Chrome</alt></image></p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">To start Chrome in incognito (private) mode. Click <b class="+ topic/ph hi-d/b ">Add</b> on the command toolbar, then type in the following value: <table class="- topic/table "><tgroup cols="3" class="- topic/tgroup "><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Name</entry><entry class="- topic/entry ">Type</entry><entry class="- topic/entry ">Value</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">args</entry><entry class="- topic/entry ">List</entry><entry class="- topic/entry ">--incognito</entry></row></tbody></tgroup></table>
+                </p>
+                <p class="- topic/p ">Alternatively, you can copy and paste the following script into the settings files. <codeblock class="+ topic/pre pr-d/codeblock ">{"CHROME_DRIVER":{"args":["--incognito"]}}</codeblock><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/project-settings-new-ui/KS-DC-Chrome-INCOGNITO.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Open Chrome in incognito</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">You can also combine many desired capabilities for starting a browser as follows:</p>
+                <table class="- topic/table "><tgroup cols="3" class="- topic/tgroup "><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Name</entry><entry class="- topic/entry ">Type</entry><entry class="- topic/entry ">Value</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">args</entry><entry class="- topic/entry ">List</entry><entry class="- topic/entry ">--start-maximized,--incognito</entry></row></tbody></tgroup></table>
+                <p class="- topic/p ">Alternatively, you can copy and paste the following script into the settings files.</p>
+                <codeblock class="+ topic/pre pr-d/codeblock ">{"CHROME_DRIVER":{"args":["--start-maximized","--incognito"]}}</codeblock>
+                <p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/project-settings-new-ui/KS-DC-Chrome-INCOGNITO-MAXIMIZED.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Open Chrome maximized in incognito</alt></image>
+                </p>
+            </li></ol><note type="note" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">
+                    <p class="- topic/p ">To find other Chrome arguments, you can refer to Peter Beverloo's personal weblog here: <xref format="html" href="https://peter.sh/experiments/chromium-command-line-switches/" scope="external" class="- topic/xref ">List of Chromium Command Line Switches</xref>.</p>
+                </li></ul>
+        </note></conbody></concept>

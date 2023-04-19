@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-overview" class="- map/map ">
+  <title class="- topic/title ">Overview</title>
+  <topicref href="overview.dita" class="- map/topicref "><topicref href="katalon_store.dita" class="- map/topicref "/>
+  <topicref href="katalon_plugins.dita" class="- map/topicref "/>
+  <topicref href="how_katalon_store_works.dita" class="- map/topicref "/>
+</topicref></map>

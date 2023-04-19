@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Configure the <codeph class="+ topic/ph pr-d/codeph ">cloudbuild.yml</codeph> file</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Here in the sample GitHub repository, we have the following
+         <codeph class="+ topic/ph pr-d/codeph ">cloudbuild.yml</codeph> file:</p><codeblock class="+ topic/pre pr-d/codeblock ">steps:
+- name: 'docker'
+  args: ['pull', 'katalonstudio/katalon']
+- name: 'docker'
+  entrypoint: 'sh'
+  args: ['-c', 'docker run -t --rm -v /workspace:/tmp/project katalonstudio/katalon katalonc.sh -projectPath=/tmp/project -browserType="Chrome" -retry=0 -retryStrategy=immediately -testSuiteCollectionPath="Test Suites/Simple Test Suite Collection" --config -webui.autoUpdateDrivers=true -apiKey=$$KATALON_API_KEY']
+  secretEnv: ['KATALON_API_KEY']
+availableSecrets:
+  secretManager:
+  - versionName: projects/$PROJECT_ID/secrets/KATALON_API_KEY/versions/1
+    env: 'KATALON_API_KEY'
+</codeblock><p class="- topic/p ">In the build configuration file, there are two build steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+            <p class="- topic/p ">Use a <codeph class="+ topic/ph pr-d/codeph ">docker</codeph> cloud builder to pull the
+               <codeph class="+ topic/ph pr-d/codeph ">katalonstudio/katalon</codeph> Docker image from Docker
+               Hub.</p>
+            <ul class="- topic/ul "><li class="- topic/li ">In the <b class="+ topic/ph hi-d/b ">args</b> field, you can specify an image
+                  version with the syntax
+                  <codeph class="+ topic/ph pr-d/codeph ">katalonstudio/katalon:&lt;version_tag&gt;</codeph>, for example
+                  <codeph class="+ topic/ph pr-d/codeph ">katalonstudio/katalon:8.1.2</codeph>.</li></ul>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">Use a <codeph class="+ topic/ph pr-d/codeph ">docker</codeph> cloud builder to run the
+               <codeph class="+ topic/ph pr-d/codeph ">katalonstudio/katalon</codeph> image as a container and execute
+               the tests stored in the GitHub repository.</p>
+            <ul class="- topic/ul "><li class="- topic/li ">
+
+                <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">args</b> field, you can input your desired
+                     <codeph class="+ topic/ph pr-d/codeph ">katalonc</codeph> commands. All of <codeph class="+ topic/ph pr-d/codeph ">katalonc</codeph>
+                     supported arguments can be found in this document: <xref href="../../Katalon_Runtime_Engine/console-mode-execution/console-mode-execution_1.dita" class="- topic/xref ">Command
+                        Syntax</xref>.</p>
+              </li><li class="- topic/li ">
+                <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">secretEnv</b> field, you can input the
+                     environment variables for the build. Here we have the
+                     <codeph class="+ topic/ph pr-d/codeph ">KATALON_API_KEY</codeph> variable to specify the use of a
+                     secret named <codeph class="+ topic/ph pr-d/codeph ">KATALON_API_KEY</codeph>.</p>
+              </li></ul>
+          </li></ol></conbody></concept>

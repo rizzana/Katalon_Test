@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-visual-testing-overview" class="- map/map "><title class="- topic/title ">Visual Testing Overview</title><topicref href="intro-visual-testing-overview.dita" class="- map/topicref "><topicref href="testops_visual_testing.dita" class="- map/topicref "><topicref href="pixel-based_comparison.dita" class="- map/topicref "/><topicref href="layout-based_comparison.dita" class="- map/topicref "/><topicref href="content-based_comparison.dita" class="- map/topicref "/></topicref></topicref></map>

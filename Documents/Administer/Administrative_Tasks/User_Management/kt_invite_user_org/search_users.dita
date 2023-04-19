@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Search users</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Active Users</b> section, use the search bar
+         if you want to find a specific user.</p>
+        <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Pending Invitations</b> section, use the
+         search bar if you want to find the invitation to a specific
+         user.</p>
+        <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Removed Users</b> section, use the search
+         bar if you want to find the user you have removed.</p>
+      </conbody>
+    </concept>

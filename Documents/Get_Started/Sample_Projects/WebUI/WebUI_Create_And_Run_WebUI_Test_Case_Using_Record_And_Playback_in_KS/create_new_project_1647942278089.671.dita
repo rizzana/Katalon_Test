@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Create New Project</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">
+            <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Test Explorer</b> on the sidebar &gt; click
+               <b class="+ topic/ph hi-d/b ">New Project</b>.</p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">In the displayed <b class="+ topic/ph hi-d/b ">New Project</b> dialog:</p>
+            <ul class="- topic/ul "><li class="- topic/li ">Enter project <b class="+ topic/ph hi-d/b ">Name</b>.</li><li class="- topic/li ">In project <b class="+ topic/ph hi-d/b ">Type</b>, select
+                  <b class="+ topic/ph hi-d/b ">Web</b>.</li><li class="- topic/li ">In <b class="+ topic/ph hi-d/b ">Project</b>, select <b class="+ topic/ph hi-d/b ">Sample Web
+                     UI...(Shopping Cart)</b>, the <b class="+ topic/ph hi-d/b ">Repository URL</b>
+                  is filled automatically.</li><li class="- topic/li ">
+                <p class="- topic/p ">Browse a <b class="+ topic/ph hi-d/b ">Location</b> to store your project &gt;
+                     click <b class="+ topic/ph hi-d/b ">OK</b>.</p>
+                <p class="- topic/p ">
+                  <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/recording-webui-test/new-project.png" scope="external" width="750" class="- topic/image "/>
+                </p>
+              </li></ul>
+          </li></ol></conbody></concept>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Install Jenkins on Ubuntu</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To install Jenkins, follow the instructions in this Jenkins document: <xref format="html" href="https://jenkins.io/doc/book/installing/#debianubuntu" scope="external" class="- topic/xref ">Debian/Ubuntu</xref>.</p></conbody></concept>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Java class files</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">You can create, view and edit Java class files.</p>
+      <p class="- topic/p ">To create a new Java class file, in the <b class="+ topic/ph hi-d/b ">Tests
+            Explorer</b> panel, go to the <b class="+ topic/ph hi-d/b ">Include &gt; scripts
+            &gt; groovy</b> folder, right-click and choose <b class="+ topic/ph hi-d/b ">New
+            &gt; Java Class</b>. Choose a package and enter class name in
+         the <b class="+ topic/ph hi-d/b ">New</b> dialog.</p>
+      <p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/Selenium-TestNG-Migration/new-java-class.png" scope="external" width="362" class="- topic/image ">
+          <alt class="- topic/alt ">Create Java Class files</alt>
+        </image>
+      </p>
+      <p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/Selenium-TestNG-Migration/java1.png" scope="external" width="285" class="- topic/image ">
+          <alt class="- topic/alt ">Sample Java Class file</alt>
+        </image>
+      </p>
+      <p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/Selenium-TestNG-Migration/java-script.png" scope="external" width="501" class="- topic/image ">
+          <alt class="- topic/alt ">Sample Java Class file</alt>
+        </image>
+      </p>
+    </conbody>
+  </concept>

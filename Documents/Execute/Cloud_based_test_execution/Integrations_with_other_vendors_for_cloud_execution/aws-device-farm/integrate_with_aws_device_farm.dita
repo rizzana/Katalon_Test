@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Integrate with AWS Device Farm</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To run your Katalon project with AWS Device Farm, you have to
+         configure your Katalon projects and make updates in the
+         <b class="+ topic/ph hi-d/b ">aws-device-farm-integration</b>.</p><note type="important" class="- topic/note ">
+        
+        <ul class="- topic/ul "><li class="- topic/li ">An active Katalon Runtime Engine license.</li><li class="- topic/li ">Katalon Runtime Engine version 7.8.0 onwards.</li><li class="- topic/li ">
+            <xref format="html" href="https://maven.apache.org/download.cgi" scope="external" class="- topic/xref ">Apache
+                  Maven</xref> version 3.3.9 onwards.</li><li class="- topic/li ">Java JDK 8 installed (This version is recommended).</li></ul>
+      </note><note type="note" class="- topic/note "><p class="- topic/p ">Supported testing types and platforms:</p><ul class="- topic/ul "><li class="- topic/li ">Mobile app on Android</li><li class="- topic/li ">Mobile app on iOS</li><li class="- topic/li ">Web app on Android</li></ul>
+        <p class="- topic/p ">Web app on iOS is currently not supported.</p>
+      </note></conbody></concept>

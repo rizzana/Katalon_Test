@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">How to use</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">Copy the above jar file and place it under <i class="+ topic/ph hi-d/i ">Plugins</i>
+         folder of your Katalon project.</p>
+    </conbody>
+  </concept>

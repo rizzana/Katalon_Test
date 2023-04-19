@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Scenario</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">We want to test the alert dialog which usually appears on mobile
+         app when there are suspicious/potentially dangerous actions.</p>
+      <p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_alert_dialog_mobile_app/Handling-Alert-Dialog-in-Mobile-App.png" scope="external" class="- topic/image ">
+          <alt class="- topic/alt ">Handling Alert Dialog in Mobile App</alt>
+        </image>
+      </p>
+    </conbody>
+  </concept>

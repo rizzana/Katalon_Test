@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Install Katalon plugin for Jenkins</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">Go to <i class="+ topic/ph hi-d/i ">Manage Jenkins &gt; Manage Plugins &gt; Available</i>
+         and find Katalon plugin on the list.</p>
+      <p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-plugin-ubuntu/Picture1.png" scope="external" width="100%" class="- topic/image ">
+          <alt class="- topic/alt ">jenkins plugin</alt>
+        </image>
+      </p>
+    </conbody>
+  </concept>

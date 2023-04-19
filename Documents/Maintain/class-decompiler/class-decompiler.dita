@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Configure  class file decompilation in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">As a precondition before debugging test scripts, you need to
+         prepare and attach source code to a class file in Katalon
+         Studio.</p><p class="- topic/p ">You can read and interact with source code in previous versions
+         by using the default feature of Eclipse Platform, Source
+         Attachment. In version 7.9 onwards, Katalon Studio decompiles class
+         files automatically and directly. Particularly, Katalon finds,
+         downloads, and attaches source code behind the scene; hence, you do
+         not have to manually perform these steps.</p><p class="- topic/p ">In case Katalon Studio fails to find the source attachment owing
+         to the Internet connection or the <codeph class="+ topic/ph pr-d/codeph ">jar</codeph> file not being found,
+         it decompiles a class file and displays the decompiled source.</p><p class="- topic/p ">Katalon Class Decompiler is <b class="+ topic/ph hi-d/b ">enabled by default</b>
+         for all Katalon Studio instances. This document gives you many
+          additional configurations.</p><section class="- topic/section "><title class="- topic/title ">Requirement</title><p class="- topic/p "><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "><ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> version 7.9.0 onwards.</p></li></ul></p></section></conbody></concept>

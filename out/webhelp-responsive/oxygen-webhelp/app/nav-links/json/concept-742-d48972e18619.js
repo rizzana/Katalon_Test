@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"concept-742-d48972e18619":{"topics":[{"title":"Execute a test suite collection","href":"Documents\/Execute\/Execute_tests_in_Katalon_Studio\/execute-a-test-suite-collection\/t_execute_a_test_suite_collection.html","attributes":{"data-id":"task-1662"},"menu":{"hasChildren":false},"tocID":"task-1662-d48972e18635","topics":[]}]}};

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Install WinAppDriver</title><conbody class="- topic/body  concept/conbody "><note type="note" class="- topic/note ">
+        
+        <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Install and run WinAppDriver on the test machine.</p></li></ul>
+      </note><p class="- topic/p ">There are two ways to install WinAppDriver on a Windows 10
+         machine:</p><ol class="- topic/ol "><li class="- topic/li ">
+          <p class="- topic/p ">From the Katalon Studio toolbar, select <b class="+ topic/ph hi-d/b ">Tools &gt;
+                  Windows &gt; Install WinAppDrivers</b>. The <b class="+ topic/ph hi-d/b ">Windows
+                  Application Driver Setup</b> window opens. Follow the
+               instructions to install the Windows Application Driver.</p>
+        </li><li class="- topic/li ">
+
+          <p class="- topic/p ">You can also refer to the WinAppDriver Github project document
+               here: <xref format="html" href="https://github.com/microsoft/WinAppDriver#installing-and-running-windows-application-driver" scope="external" class="- topic/xref ">Installing
+                  and Running Windows Application Driver</xref> for the
+               installation.</p>
+          </li></ol></conbody></concept>

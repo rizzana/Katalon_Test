@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Configure your Katalon Project</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Before executing any test, you need to manually create an
+         <b class="+ topic/ph hi-d/b ">Appium Driver instance</b> and set it as the currently
+         used instance in Katalon Studio.</p><ol class="- topic/ol "><li class="- topic/li ">Open your project in Katalon Studio. At the beginning of your
+            test script or in the <codeph class="+ topic/ph pr-d/codeph ">Before Test Case</codeph> listener, input
+            the following snippet:</li></ol><codeblock class="+ topic/pre pr-d/codeblock ">import com.kms.katalon.core.appium.driver.AppiumDriverManager
+import org.openqa.selenium.remote.DesiredCapabilities
+import io.appium.java_client.MobileElement
+import io.appium.java_client.android.AndroidDriver
+import io.appium.java_client.remote.MobileCapabilityType
+
+String remoteServerUrl = System.getenv('XTC_SERVICE_ENDPOINT_APPIUM') + 'wd/hub'
+
+DesiredCapabilities capabilities = new DesiredCapabilities();
+capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, 'S10 Plus')
+capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, 'android')
+capabilities.setCapability('appActivity', 'com.hmh.api.ApiDemos')
+capabilities.setCapability('appPackage', 'com.hmh.api')
+capabilities.setCapability('appWaitActivity', '*')
+capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, AppiumDriverManager.UIAUTOMATOR2)
+capabilities.setCapability('autoGrantPermissions', true)
+
+AndroidDriver&lt;MobileElement&gt; driver = new AndroidDriver&lt;MobileElement&gt;(new URL(remoteServerUrl), capabilities)
+AppiumDriverManager.setDriver(driver)
+</codeblock><ol class="- topic/ol "><li class="- topic/li ">
+            <p class="- topic/p ">Change the <xref format="html" href="http://appium.io/docs/en/writing-running-appium/caps/" scope="external" class="- topic/xref ">desired
+                  capabilities</xref> corresponding to your app.</p>
+            <p class="- topic/p ">Since you have created a custom Appium driver, you need to
+               comment out or remove all the
+               <codeph class="+ topic/ph pr-d/codeph ">Mobile.startApplication(...)</codeph> or
+               <codeph class="+ topic/ph pr-d/codeph ">Mobile.startExistingApplication(...)</codeph> in your current
+               test cases.</p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">Package your Katalon project into a <b class="+ topic/ph hi-d/b ">.zip</b>
+               file.</p>
+            <note type="note" class="- topic/note ">
+              
+              <p class="- topic/p "><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">When running tests on App Center with the <b class="+ topic/ph hi-d/b ">.zip</b>
+                  file packaged by macOS default file compress tool, you can
+                  sometimes encounter the error: <i class="+ topic/ph hi-d/i ">No such file or
+                     directory</i>.</p></li><li class="- topic/li "><p class="- topic/p ">To resolve this error, try running this command from the
+                  directory where the <b class="+ topic/ph hi-d/b ">.zip</b> file is located:
+                  <codeph class="+ topic/ph pr-d/codeph ">zip -d &lt;katalon_project_package_file&gt; __MACOSX/\*</codeph>, then continue with the following steps to
+                  update sideload.</p></li></ul></p></note></li></ol></conbody></concept>

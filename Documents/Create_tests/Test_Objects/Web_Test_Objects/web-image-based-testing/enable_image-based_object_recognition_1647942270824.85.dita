@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Enable Image-based object recognition</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p "><b class="+ topic/ph hi-d/b ">From 7.6 onwards</b>
+      </p><p class="- topic/p ">Image-based object recognition is enabled by default for web
+         test execution in <b class="+ topic/ph hi-d/b ">Project &gt; Settings &gt; Self-Healing
+            &gt; Web UI &gt; Test Execution</b> (<xref href="../../../../Maintain/self-healing-in-Studio/intro-self-healing-in-Studio.dita" class="- topic/xref ">See
+            Self-healing Tests</xref>).</p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/image-enabled.png" scope="external" width="650" class="- topic/image "/>
+      </p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Before 7.6</b></p><p class="- topic/p ">By default, image-based object recognition is disabled in
+            Project Settings. Go to <b class="+ topic/ph hi-d/b ">Project &gt; Settings &gt;
+               Execution</b> and check <b class="+ topic/ph hi-d/b ">Enable Image
+               Recognition</b> to turn on this fallback strategy.</p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/enable.png" scope="external" width="650" class="- topic/image "/>
+      </p></conbody></concept>

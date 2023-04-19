@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Test Suite Collection Scheduler for Katalon Studio</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">This document shows you how to schedule a test suite collection execution in Katalon Studio using the <uicontrol class="+ topic/ph ui-d/uicontrol ">Test Suite Collection Scheduler</uicontrol> plugin from the Katalon Store.</p></conbody></concept>

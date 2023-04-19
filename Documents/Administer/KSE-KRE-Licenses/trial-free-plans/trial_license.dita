@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Trial License</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Users registering with a valid email are eligible for a <b class="+ topic/ph hi-d/b ">30-day</b> trial of both <b class="+ topic/ph hi-d/b ">Katalon Studio Enterprise</b> (KSE) per-User and <b class="+ topic/ph hi-d/b ">Katalon Runtime Engine</b> (KRE) floating licenses.</p><note type="note" class="- topic/note ">
+            
+            
+                <ul class="- topic/ul "><li class="- topic/li ">The trial licenses for Katalon Studio Enterprise and Katalon Runtime Engine are automatically generated and activated when you first log into the Katalon Studio application.</li></ul>
+            
+        </note><p class="- topic/p ">Each trial license can be activated on only one machine at a time.</p><p class="- topic/p ">You can start using KSE and KRE for 30 days. When your trial period expires, you need to purchase licenses to continue using KSE and KRE, or you can use the Katalon Studio free license with basic testing features.</p><note type="note" class="- topic/note ">
+            
+            
+                <ul class="- topic/ul "><li class="- topic/li ">
+                        <p class="- topic/p ">For <b class="+ topic/ph hi-d/b ">Offline licenses</b>, you cannot remove a machine ID registered for the trial licenses once it has been activated.</p>
+                    </li></ul>
+            
+        </note><p class="- topic/p ">To purchase licenses, see <xref href="../../Administrative_Tasks/Subscription_Management/KSE_KRE_License_Management/license-subscription/license-subscription.dita" class="- topic/xref ">Purchase Katalon License</xref>.</p><p class="- topic/p ">To activate trial licenses, see <xref href="../activate-license/activate-kse.dita" class="- topic/xref ">Activate Katalon License</xref>.</p></conbody></concept>

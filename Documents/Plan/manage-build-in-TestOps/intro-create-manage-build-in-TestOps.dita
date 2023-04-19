@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Create and manage builds in <ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">During the release cycle, you commonly need to test different
+         builds to easily track production issues. In TestOps, the Build
+         function allows you to associate and orchestrate the test runs
+         relevant to each build.</p></conbody></concept>

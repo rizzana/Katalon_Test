@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_11" class="- topic/topic concept/concept "><title class="- topic/title ">Use the console.properties file</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Katalon support running console mode using the <b class="+ topic/ph hi-d/b ">console.properties</b> file where you can manually modify the content if needed.</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Generate a <b class="+ topic/ph hi-d/b ">console.properties</b> file using our generator.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/console-properties.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Generate a console.properties</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">console.properties</b> file is generated at your preferred location. You can open and update the parameters manually as needed.</p>
+                <p class="- topic/p ">For example:</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/console.properties-file.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">console.properties</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Run the <b class="+ topic/ph hi-d/b ">console.properties</b> file in console mode with the following syntax.</p>
+                <codeblock class="+ topic/pre pr-d/codeblock ">katalonc -propertiesFile="&lt;absolute path to console.properties file&gt;" -runMode=console -apiKey="&lt;Your_API_Key&gt;"
+</codeblock>
+                <p class="- topic/p ">For example:</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/console-mode-execution/property-apikey.png" scope="external" class="- topic/image "><alt class="- topic/alt ">console.properties</alt></image>
+                </p>
+             </li></ol></conbody></concept>

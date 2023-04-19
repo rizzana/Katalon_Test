@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id_48" class="- topic/topic ">
+    <title class="- topic/title ">2.1.0</title>
+    <body class="- topic/body ">
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">Added support for CSS locators.</li>
+        <li class="- topic/li ">Added support for runScript &amp; storeEval commands.</li>
+        <li class="- topic/li ">Fixed a bug in store… functions.</li>
+        <li class="- topic/li ">Fixed a bug in string interpolation.</li>
+      </ul>
+    </body>
+  </topic>

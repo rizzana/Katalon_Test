@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Keywords</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <ol class="- topic/ol ">
+        <li class="- topic/li ">
+          <xref href="../../../../Keywords/Keywords_Description_In_Katalon_Studio/Mobile-Keywords/mobile-verify-image-present/mobile-verify-image-present.dita" class="- topic/xref ">Verify
+               Image Present</xref>
+        </li>
+        <li class="- topic/li ">
+          <xref href="../../../../Keywords/Keywords_Description_In_Katalon_Studio/Mobile-Keywords/mobile-tap-image/mobile-tap-image.dita" class="- topic/xref ">Tap
+               On Image</xref>
+        </li>
+        <li class="- topic/li ">
+          <xref href="../../../../Keywords/Keywords_Description_In_Katalon_Studio/Mobile-Keywords/mobile-find-image-element/mobile-find-image-element.dita" class="- topic/xref ">Find
+               Image Element</xref>
+        </li>
+        <li class="- topic/li ">
+          <xref href="../../../../Keywords/Keywords_Description_In_Katalon_Studio/Mobile-Keywords/mobile-find-image-elements/mobile-find-image-elements.dita" class="- topic/xref ">Find
+               Image Elements</xref>
+        </li>
+      </ol>
+    </conbody>
+  </concept>

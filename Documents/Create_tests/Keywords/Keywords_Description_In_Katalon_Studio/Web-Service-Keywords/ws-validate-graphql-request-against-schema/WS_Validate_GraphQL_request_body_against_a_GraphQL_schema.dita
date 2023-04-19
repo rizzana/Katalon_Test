@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-3985" xml:lang="en-us" class="- topic/topic concept/concept "><title class="- topic/title ">[WS] Validate GraphQL request against a GraphQL schema</title><prolog class="- topic/prolog "><author translate="no" type="creator" class="- topic/author ">Xuan Tran &lt;xuan.tran@katalon.com&gt;</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "/></metadata></prolog><conbody class="- topic/body  concept/conbody "><section class="- topic/section "><title class="- topic/title ">Requirements</title><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Katalon Studio version 8.4.0 onwards.</p></li></ul></section><section class="- topic/section "><title class="- topic/title ">Description</title><p class="- topic/p ">Validate a GraphQL request body against a GraphQL schema. The GraphQL schema input can be a GraphQL string, URL, or file path.</p><p class="- topic/p ">Keyword name: <codeph class="+ topic/ph pr-d/codeph ">WS.validateGraphqlRequestAgainstSchema</codeph></p></section><section class="- topic/section "><title class="- topic/title ">Parameters</title><table class="- topic/table "><tgroup cols="4" class="- topic/tgroup "><colspec colname="col1" class="- topic/colspec "/><colspec colname="col2" class="- topic/colspec "/><colspec colname="col3" class="- topic/colspec "/><colspec colname="col4" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Parameter</entry><entry class="- topic/entry ">Parameter Type</entry><entry class="- topic/entry ">Mandatory</entry><entry class="- topic/entry ">Description</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">request</entry><entry class="- topic/entry ">RequestObject</entry><entry class="- topic/entry ">Required</entry><entry class="- topic/entry ">Specify the request object that needs to be validated.</entry></row><row class="- topic/row "><entry class="- topic/entry ">graphqlSchema</entry><entry class="- topic/entry ">String</entry><entry class="- topic/entry ">Required</entry><entry class="- topic/entry ">Specify the GraphQL schema used to validate the request.</entry></row><row class="- topic/row "><entry class="- topic/entry ">flowControl</entry><entry class="- topic/entry ">FailureHandling</entry><entry class="- topic/entry ">Optional</entry><entry class="- topic/entry ">Specify <xref href="../../../../../Maintain/failure-handling/failure-handling.dita" class="- topic/xref ">failure handling</xref> schema to determine whether the execution should be allowed to continue or stop.</entry></row></tbody></tgroup></table></section><section class="- topic/section "><title class="- topic/title ">Returns</title><table class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><colspec colname="col1" class="- topic/colspec "/><colspec colname="col2" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Parameter Type</entry><entry class="- topic/entry ">Description</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">boolean</entry><entry class="- topic/entry "><ul class="- topic/ul "><li class="- topic/li "><codeph class="+ topic/ph pr-d/codeph ">true</codeph>: the request passes the validation.</li><li class="- topic/li "><codeph class="+ topic/ph pr-d/codeph ">false</codeph>: the request doesn't pass the validation.</li></ul></entry></row></tbody></tgroup></table><p class="- topic/p "><note type="warning" class="- topic/note "><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">If Katalon Studio cannot find the schema file, the request does not have a body content, or the request doesn't pass the validation, throw: <codeph class="+ topic/ph pr-d/codeph ">StepFailedException</codeph>.</p></li></ul></note></p></section><section class="- topic/section "><title class="- topic/title ">Example</title><p class="- topic/p ">You want to validate a GraphQL request body against a GraphQL schema before sending the request.<codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.RequestObject
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+​
+// User wants to validate a GraphQL query in request body before sending the request
+RequestObject req = findTestObject('Country/CountryQuerySchema');
+String graphqlSchema = 
+'''
+type Continent {
+	code: ID!
+	name: String!
+	countries: [Country!]!
+}
+​
+type Country {
+	code: ID!
+	name: String!
+	native: String!
+	phone: String!
+	continent: Continent!
+	capital: String
+	currency: String
+	languages: [Language!]!
+	emoji: String!
+	emojiU: String!
+	states: [State!]!
+}
+type State {
+	code: String
+	name: String!
+	country: Country!
+}
+type Language {
+	code: ID!
+	name: String
+	native: String
+	rtl: Boolean!
+}
+input StringQueryOperatorInput {
+	eq: String
+	ne: String
+	in: [String]
+	nin: [String]
+	regex: String
+	glob: String
+}
+input CountryFilterInput {
+	code: StringQueryOperatorInput
+	currency: StringQueryOperatorInput
+	continent: StringQueryOperatorInput
+}
+input ContinentFilterInput {
+	code: StringQueryOperatorInput
+}
+input LanguageFilterInput {
+	code: StringQueryOperatorInput
+}
+​
+type Query {
+	continents(filter: ContinentFilterInput): [Continent!]!
+	continent(code: ID!): Continent
+	countries(filter: CountryFilterInput): [Country!]!
+	country(code: ID!): Country
+	languages(filter: LanguageFilterInput): [Language!]!
+	language(code: ID!): Language
+}
+'''
+​
+if (WS.validateGraphqlRequestAgainstSchema(req, graphqlSchema)) {
+	res = WS.sendRequest(req)
+}</codeblock></p></section></conbody></concept>

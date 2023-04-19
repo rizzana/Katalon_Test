@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_66" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">New Features</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+
+          <li class="- topic/li ">Support editing JVM parameters in Execution Settings. <xref href="../../../../Create_tests/Manage_Projects/Project_Settings/Execution_Settings/Execution_settings.dita" class="- topic/xref ">Learn
+               more</xref>.</li>
+        </ul>
+      </conbody>
+    </concept>

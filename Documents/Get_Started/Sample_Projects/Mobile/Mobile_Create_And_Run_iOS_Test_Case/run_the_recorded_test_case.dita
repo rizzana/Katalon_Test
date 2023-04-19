@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Run the recorded test case</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To run the recorded steps, follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">Select the test case where you saved the recorded actions.</li><li class="- topic/li ">
+                <p class="- topic/p ">On the main toolbar, select <b class="+ topic/ph hi-d/b ">iOS</b> device in the dropdown list next to <b class="+ topic/ph hi-d/b ">Run</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/KS-TOOLBAR-iOS.png" scope="external" width="250" class="- topic/image "><alt class="- topic/alt ">Execute iOS</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In the displayed <b class="+ topic/ph hi-d/b ">iOS Devices</b> dialog, select an iOS device or Xcode simulator, then click <b class="+ topic/ph hi-d/b ">OK</b>.</p><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/ios-devices-list.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">Choose iOS device</alt></image>
+                <p class="- topic/p ">Katalon Studio executes the iOS test with the recorded steps accordingly.</p>
+            </li></ol><p class="- topic/p "> <b class="+ topic/ph hi-d/b ">View the test case in Script mode</b><codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+Mobile.startApplication('/Users/thuyngo/Desktop/Project/iOS/App/Coffee Timer 2021-01-27 16-49-52/Apps/Coffee Timer.ipa', true)
+
+Mobile.tap(findTestObject('Object Repository/XCUIElementTypeStaticText - Green Tea (1)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/XCUIElementTypeButton - Start (2)'), 0)
+
+Mobile.tap(findTestObject('Object Repository/XCUIElementTypeButton - Stop (1)'), 0)
+
+Mobile.closeApplication()
+</codeblock>
+                </p><p class="- topic/p "> <b class="+ topic/ph hi-d/b ">See also:</b>
+                    <ul class="- topic/ul "><li class="- topic/li "> <xref href="../../../../Create_tests/Debug_A_Test_Case/debug_a_test_case.dita" class="- topic/xref ">Execute and Debug a Test Case</xref>
+                        </li><li class="- topic/li "> <xref href="../../../../Create_tests/Troubleshooting_For_Test_Creation/Troubleshooting_Automated_Mobile_Testing/troubleshooting-automated-mobile-testing.dita" class="- topic/xref ">Troubleshoot automated mobile testing</xref>.</li></ul>
+                </p></conbody></concept>

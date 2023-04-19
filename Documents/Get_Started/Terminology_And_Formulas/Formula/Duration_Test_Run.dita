@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN" "glossentry.dtd">
+<glossentry id="glossentry-7717" class="- topic/topic concept/concept glossentry/glossentry "><glossterm class="- topic/title concept/title glossentry/glossterm ">Duration (Test Run)</glossterm><glossdef class="- topic/abstract concept/abstract glossentry/glossdef ">= (End time - Start time)<p class="- topic/p ">This formula shows the actual time of running tests, including test runs via TestOps Scheduler and Reports Upload.</p></glossdef></glossentry>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">For an existing Test Plan</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Go to your Project &gt; <b class="+ topic/ph hi-d/b ">Test Execution</b> &gt; <b class="+ topic/ph hi-d/b ">Test Run List</b>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click on a Test Run List.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-load-balancing/a-verify-match-exact-name-page-2.png" scope="external" class="- topic/image "><alt class="- topic/alt ">a verify match exact name page</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Edit</b>.</p>
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Schedule Test Run</b> dialog appears as below.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-load-balancing/assign-test-environjment-agent-2.png" scope="external" class="- topic/image "><alt class="- topic/alt ">highlight select test environment section</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Go to the <b class="+ topic/ph hi-d/b ">Test Environments</b> section, select a new Agent.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Save</b>.</p>
+            </li></ol><note type="tip" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">You can reassign an old Test Run List or assign multiple new Test Run Lists to any configured Agent.</li></ul>
+        </note><p class="- topic/p ">To check the Test Execution process, go back to the <b class="+ topic/ph hi-d/b ">Test Environments</b> page.</p></conbody></concept>

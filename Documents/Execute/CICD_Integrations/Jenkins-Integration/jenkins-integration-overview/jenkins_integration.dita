@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Jenkins Integration</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">There are two possible ways to integrate Katalon with
+         Jenkins:</p><ol class="- topic/ol "><li class="- topic/li ">
+          <p class="- topic/p ">Use Katalon Plugin for Jenkins.</p>
+          <p class="- topic/p ">Katalon Plugin for Jenkins helps execute Katalon Studio in
+               Jenkins. Katalon Studio will be automatically downloaded and
+               deployed. To integrate Jenkins with Katalon Studio via Katalon
+               Plugin, you can refer to the following documents:</p>
+          <ul class="- topic/ul "><li class="- topic/li ">
+              <xref href="../Use-Katalon-plugins-for-Jenkins-Integration/katalon-plugin-jenkins-window-macOS/jenkins-plugin-windows-macos.dita" class="- topic/xref ">On
+                     Windows/ macOS</xref>
+            </li><li class="- topic/li ">
+              <xref href="../Use-Katalon-plugins-for-Jenkins-Integration/jenkins-plugin-ubuntu/jenkins-plugin-ubuntu.dita" class="- topic/xref ">On
+                     Ubuntu</xref>
+            </li></ul>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Use Katalon Studio Docker Image.</p>
+
+          <p class="- topic/p ">This image contains up-to-date browsers, including Google
+               Chrome, Mozilla Firefox, and Katalon Studio. Hence, when running
+               your Katalon Project with Katalon Studio Docker Image, the
+               pre-installed Katalon Studio and Katalon Runtime Engine in your
+               local machine are not required. Docker Image for Katalon Studio is
+               available at the Docker Hub: <xref format="html" href="https://hub.docker.com/r/katalonstudio/katalon/" scope="external" class="- topic/xref ">katalonstudio/katalon</xref>.</p>
+          <p class="- topic/p ">To integrate Jenkins with Katalon Studio via Katalon Docker
+               Image, you can refer to the following documents:</p>
+          <ul class="- topic/ul "><li class="- topic/li ">
+              <xref href="../Use-Katalon-Docker-Image-for-Jenkins-Integration/jenkins-pipeline-docker/jenkins-pipeline-docker.dita" class="- topic/xref ">Integrate
+                     Jenkins Pipeline (Jenkinsfile) with Katalon Studio Docker
+                     Image</xref>
+            </li><li class="- topic/li ">
+              <xref href="../Use-Katalon-Docker-Image-for-Jenkins-Integration/jenkins-docker-ubuntu/integrate_with_docker_on_jenkins.dita" class="- topic/xref ">Integrate
+                     Jenkins on Docker hosted in Ubuntu</xref>
+            </li></ul>
+        </li></ol></conbody></concept>

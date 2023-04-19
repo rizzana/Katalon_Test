@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-test-case-preferences" class="- map/map ">
+  <title class="- topic/title ">Test Case Preferences</title>
+  <topicref href="test-case-preferences.dita" class="- map/topicref "><topicref href="test_case_calling.dita" class="- map/topicref "/>
+  <topicref href="default_open_view.dita" class="- map/topicref "/>
+  <topicref href="default_keyword_type.dita" class="- map/topicref "/>
+  <topicref href="line-wrapping_settings.dita" class="- map/topicref "/>
+</topicref>
+  </map>

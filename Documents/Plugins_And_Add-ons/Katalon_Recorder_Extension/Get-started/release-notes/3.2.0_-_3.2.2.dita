@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id_43" class="- topic/topic ">
+    <title class="- topic/title ">3.2.0 - 3.2.2</title>
+    <body class="- topic/body ">
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">Supported screenshot capturing.</li>
+        <li class="- topic/li ">Allowed sharing variables across test cases.</li>
+      </ul>
+    </body>
+  </topic>

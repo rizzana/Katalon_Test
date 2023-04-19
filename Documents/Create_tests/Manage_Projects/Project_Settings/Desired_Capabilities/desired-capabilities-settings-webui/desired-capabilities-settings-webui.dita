@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Set up Desired Capabilities for WebUI Testing in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Katalon Studio allows you to define desired capabilities for
+         local execution with Chrome, Firefox, Internet Explorer (IE),
+         Safari, Edge or Edge (Chromium) in <b class="+ topic/ph hi-d/b ">Project &gt; Settings
+            &gt; Desired Capabilities &gt; WebUI &gt;
+            Chrome/Firefox/IE/Safari/Edge/Edge(Chromium)</b>.</p><p class="- topic/p ">This article shows you how to configure some common capabilities
+         in WebUI testing and where they are saved.</p><note type="note" class="- topic/note ">
+
+        <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">You can find some common desired capabilities configurations in
+            our GitHub sample project: <xref format="html" href="https://github.com/katalon-studio-samples/tips-and-tricks" scope="external" class="- topic/xref ">Tips
+               and tricks</xref>.</p></li></ul>
+              </note></conbody></concept>

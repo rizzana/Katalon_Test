@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Known issues and Limitations</title><conbody class="- topic/body  concept/conbody "><ul class="- topic/ul "><li class="- topic/li "><b class="+ topic/ph hi-d/b ">Click Offset</b>, <b class="+ topic/ph hi-d/b ">Right Click
+               Offset</b> and <b class="+ topic/ph hi-d/b ">Mouse Over
+               Offset</b> keywords do not work on Safari.</li><li class="- topic/li ">Android EditText message can't be captured using Mobile Object
+            Spy.</li><li class="- topic/li ">Does not support Safari on both Windows and MacOS yet
+            when using <xref href="../../../Execute/Execute_tests_in_Katalon_Studio/execute-a-test-case/execute-a-test-case-or-a-test-suite.dita" class="- topic/xref ">Execute test
+               from specific step</xref>.</li><li class="- topic/li ">Katalon Studio Console Mode cannot display Unicode characters
+            due to Windows CMD does not support UTF-8 encoding.</li><li class="- topic/li ">When exporting the test Reports to PDF file, special characters
+            will be converted to UTF-8 format. The Katalon Team has planned to
+            support custom font in future releases.</li></ul></conbody></concept>

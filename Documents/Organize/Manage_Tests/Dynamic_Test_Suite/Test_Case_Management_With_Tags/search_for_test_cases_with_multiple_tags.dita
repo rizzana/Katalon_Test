@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">Search For Test Cases With Multiple Tags</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">After you successfully install the Test Case Management With Tags plugin, in a Dynamic Querying Test Suite, you can search for test cases with multiple tags using the <b class="+ topic/ph hi-d/b ">Query Provider</b>.</p><p class="- topic/p ">To search for test artifacts labeled with multiple tags, do as follows:</p><ol class="- topic/ol "><li class="- topic/li ">Open a dynamic test suite. See also: <xref href="../../Test_suite/manage-test-cases-in-test-suite-ks/intro_manage_in_test_suites_in_Studio.dita" class="- topic/xref ">Dynamic Test Suite (Dynamic Test Cases List)</xref>.</li><li class="- topic/li ">
+                <p class="- topic/p ">Directly type in the <b class="+ topic/ph hi-d/b ">Query</b> box following this syntax: <codeph class="+ topic/ph pr-d/codeph ">tag=(NameOfTag1,NameOfTag2)</codeph>. For example: <codeph class="+ topic/ph pr-d/codeph ">tag=(may,december)</codeph>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-case-management-with-tags/query.png" scope="external" class="- topic/image "><alt class="- topic/alt ">query box</alt></image>
+                </p>
+            </li></ol></conbody></concept>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Manage test reports in Slack - <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> integration</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">The Slack Integration Plugin allows you to receive test
+         execution results from Katalon Studio to a Slack channel in
+         real-time.</p><p class="- topic/p ">This plugin supports both public and private channels.</p><p class="- topic/p ">This guide shows you how to create a Slack API app and configure
+         the Slack Integration Plugin in Katalon Studio.</p><note type="important" class="- topic/note "><ul class="- topic/ul "><li class="- topic/li ">An active Katalon Studio Enterprise license.</li><li class="- topic/li ">A Slack workspace.</li></ul>
+      </note></conbody></concept>

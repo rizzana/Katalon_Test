@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Get the number of selected options</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">The <codeph class="+ topic/ph pr-d/codeph ">getNumberOfSelectedOption</codeph> keyword returns the count of options which are being selected in the combo box. See: <xref href="../../../Keywords_Description_In_Katalon_Studio/Web-UI-Keywords/webui-get-number-of-selected-option/webui-get-number-of-selected-option.dita" class="- topic/xref "/>.</p><p class="- topic/p ">For example, in the combo box below the options "Admin" and "HR" are selected. If we want to get the number of selected options, we can use the keyword <codeph class="+ topic/ph pr-d/codeph ">getNumberOfTotalOption</codeph>. In this case, the keyword returns 2.</p><p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/how_handle_drop_down_menu/Get-Number-Of-Selected-Options-Example.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Sample dropdown with two options selected</alt></image></p><p class="- topic/p ">In <uicontrol class="+ topic/ph ui-d/uicontrol ">Manual View</uicontrol>:<image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/how_handle_drop_down_menu/Get_Number_of_Selected_Option_manual.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Sample test case in Manual view with keyword getNumberOfSelectedOption</alt></image></p><p class="- topic/p ">In <uicontrol class="+ topic/ph ui-d/uicontrol ">Script View</uicontrol>:<codeblock class="+ topic/pre pr-d/codeblock ">'Launch Browser'
+ 
+WebUI.openBrowser('C:\\\\Users\\\\User\\\\Desktop\\\\DropDown\\\\MultiSelection_dropDown.html')
+ 
+'Maximize the window'
+ 
+WebUI.maximizeWindow()
+ 
+'Select All values available in the dropdown by Select All option'
+ 
+WebUI.selectAllOption(findTestObject('comboBox_Role'))
+ 
+'Capturing the Number of selected Values and storing it in a variable'
+ 
+SelectedItems = WebUI.getNumberOfSelectedOption(findTestObject('comboBox_Role'))
+ 
+println('No of Selected Roles are ' + SelectedItems)
+ 
+'Verifying the number of Options selected with Expected result'
+ 
+WebUI.verifyEqual(SelectedItems, 5)
+
+</codeblock></p></conbody></concept>

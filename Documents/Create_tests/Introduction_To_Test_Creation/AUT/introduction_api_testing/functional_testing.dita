@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_7" class="- topic/topic concept/concept "><title class="- topic/title ">Functional testing</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Functional testing includes the testing of particular functions
+         in the codebase. These features are the representation of specific
+         scenarios to make sure the API functions are handled well within
+         the planned parameters.</p></conbody></concept>

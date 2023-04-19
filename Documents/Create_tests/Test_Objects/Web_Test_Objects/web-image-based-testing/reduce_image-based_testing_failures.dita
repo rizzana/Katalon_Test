@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Reduce image-based testing failures</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">Since reliable image-based testing depends on image comparison,
+         you can reduce the chance of failures in two ways:</p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Screen Resolution</b>: The screen resolutions of
+               screenshot capturing devices and test executing devices can affect
+               the accuracy of image comparison. We recommend capturing
+               screenshots and executing tests on the same device for the best
+               results.</p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Capture tool</b>: We recommend using built-in
+               capture tools in Web Recorder and Spy utility since they
+               automatically resize the captured images.</p>
+        </li>
+      </ul>
+      <p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">See also</b>:</p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">
+          <xref format="html" href="https://github.com/katalon-studio-samples/image-recognition-web" scope="external" class="- topic/xref ">Sample
+               Project</xref>
+        </li>
+        <li class="- topic/li ">
+          <xref href="../../../../Maintain/self-healing-in-Studio/intro-self-healing-in-Studio.dita" class="- topic/xref ">Self-Healing
+               Tests</xref>
+        </li>
+      </ul>
+    </conbody>
+  </concept>

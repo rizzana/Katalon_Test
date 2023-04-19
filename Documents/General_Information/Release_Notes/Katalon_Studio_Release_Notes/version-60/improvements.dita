@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Improvements</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">Remove the SLF4J warning message in the execution log when
+            running in Console mode.</li>
+          <li class="- topic/li ">Add a menu item on Katalon Studio's main toolbar for manually
+            updating WebDrivers.</li>
+        </ul>
+      </conbody>
+    </concept>

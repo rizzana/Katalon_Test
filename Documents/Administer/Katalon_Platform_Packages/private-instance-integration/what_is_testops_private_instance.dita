@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">What is TestOps Private Instance?</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">TestOps Private Instance is a single-tenant cloud architecture
+         where a single software instance and its supporting
+         infrastructure/database serve only one customer, a.k.a a
+         tenant.</p>
+      <p class="- topic/p ">Users can have an isolated TestOps instance with separate
+         application nodes, isolated networking, and database resources.
+         This creates a more secure environment than a multi-tenant
+         architecture where a single software instance and database serve
+         multiple customers.</p>
+
+      <p class="- topic/p ">To learn more about single-tenant and multi-tenant
+         architectures, you can refer to this Hubspot blog post: <xref format="html" href="https://blog.hubspot.com/service/single-vs-multi-tenant-saas" scope="external" class="- topic/xref ">Single
+            vs Multi-Tenant SaaS Architecture</xref>.</p>
+      <p class="- topic/p ">With TestOps Private Instance, you can benefit from:</p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">
+          <p class="- topic/p ">Data isolation: This is helpful for users working with sensitive
+               information and strict data storage requirements.</p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Data residency: This is helpful for users who must confirm where
+               their data lives or have compliance requirements, for example to be
+               in compliance with General Data Protection Regulation (GDPR).</p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Dedicated Katalon application: For users who have a predictable
+               workload and want stronger guarantees in performance, a dedicated
+               instance ensures that they perform tests without being interrupted
+               by maintenance or scaling issues.</p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">No maintenance: While the dedicated instance offers better data
+               isolation and performance, it is still fully managed by Katalon.
+               This relieves customers from infrastructure management.</p>
+        </li>
+      </ul>
+    </conbody>
+  </concept>

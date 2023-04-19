@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id" class="- topic/topic "><title class="- topic/title ">How to Use Control Flow commands in a Test Case in <ph conkeyref="name-variables/katalon-recorder" class="- topic/ph "/></title><body class="- topic/body "><p class="- topic/p ">Katalon Recorder allows you to control test execution flow with
+         control flow commands. To learn more about available control flow
+         commands, you can refer to this document: <xref href="../conditional-cases/conditional-cases.dita" class="- topic/xref ">Handle
+            conditional cases in your tests</xref>.</p><p class="- topic/p ">This tutorial shows you how to use control flow commands in a
+         test case.</p><note type="note" class="- topic/note ">
+        
+        <ul class="- topic/ul "><li class="- topic/li ">To use the sample project of this tutorial, navigate to
+               <b class="+ topic/ph hi-d/b ">Actions</b> &gt; <b class="+ topic/ph hi-d/b ">Sample Projects</b>,
+               then add the <b class="+ topic/ph hi-d/b ">Implement control flow in a test case</b>
+               project.</li></ul>
+      </note></body></topic>

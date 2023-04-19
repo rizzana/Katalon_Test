@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept "><title class="- topic/title ">Request Body</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">You can add the body information needed to be sent along with a
+         RESTful request object. Katalon Studio supports the following body
+         data types: text, x-www-form-urlencoded, form-data, and file.</p><ul class="- topic/ul "><li class="- topic/li ">
+            <p class="- topic/p ">
+              <b class="+ topic/ph hi-d/b ">Text</b>: With this type, the supported formats
+               include Text, JSON, XML, HTML, and Javascript.</p>
+            <p class="- topic/p ">
+              <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/restful-web-services/KS-RESTFUL-Input-HTTP-body.png" scope="external" width="600" class="- topic/image "><alt class="- topic/alt ">Specify HTTP body</alt></image>
+            </p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">
+
+              <b class="+ topic/ph hi-d/b ">Form-data</b>: This data type allows you to send
+               data to APIs as multipart/form-data, and attach files as well. From
+               <b class="+ topic/ph hi-d/b ">version 7.5.0+</b>, you can specify the content type
+               in the form-data body. <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/restful-web-services/form-data.png" scope="external" width="700" class="- topic/image "/>
+            </p>
+          </li></ul></conbody></concept>

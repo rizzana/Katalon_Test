@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-test-objects-refactoring" class="- map/map ">
+  <title class="- topic/title ">Test Objects Refactoring</title>
+  <topicref href="test-objects-refactoring.dita" class="- map/topicref "><topicref href="object_references.dita" class="- map/topicref "/>
+</topicref>
+  </map>

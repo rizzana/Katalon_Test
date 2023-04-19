@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Set-up</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">You need the native OpenCV library in nodejs. Install <xref format="html" href="https://www.npmjs.com/package/opencv4nodejs" scope="external" class="- topic/xref ">opencv4nodejs</xref>,
+         which supports OpenCV 3 and OpenCV 4.</p>
+    </conbody>
+    
+    
+    
+  </concept>

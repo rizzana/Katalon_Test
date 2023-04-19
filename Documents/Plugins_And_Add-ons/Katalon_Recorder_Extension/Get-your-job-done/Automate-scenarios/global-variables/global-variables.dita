@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Global variables in <ph conkeyref="name-variables/katalon-recorder" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">In test automation, sometimes multiple test cases might require
+         the same values. Instead of manually duplicating the same set of
+         values across multiple test cases, you can create global variables
+         to reuse the same values across test cases. This saves time and
+         reduces maintenance efforts as projects increase in complexity.
+         From version 5.6.0 onwards, you can use the <b class="+ topic/ph hi-d/b ">Global Variable
+            Profile</b> feature in Katalon Recorder (KR) to help you
+         automate tests with ease.</p><p class="- topic/p ">This feature reduces syntax complexity so that you can simply
+         use global variables with just one click.</p><p class="- topic/p ">Global variables are cross-compatible with Katalon Studio when
+         migrating your projects.</p><note type="note" class="- topic/note ">
+        
+        <p class="- topic/p ">Global variables are fixed. You cannot modify them during a test
+            execution.</p>
+      </note></conbody></concept>

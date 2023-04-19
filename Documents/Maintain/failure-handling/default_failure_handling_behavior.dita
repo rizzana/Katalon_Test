@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Default failure handling behavior</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Follow these steps to define the default behavior for failure
+         handling to be applied across your project:</p><ol class="- topic/ol "><li class="- topic/li ">From Katalon Studio menu, access <b class="+ topic/ph hi-d/b ">Project &gt;
+               Settings &gt; Test Design &gt; Test Case</b>. <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/failure-handling/image2017-6-30-203A363A43.png" scope="external" class="- topic/image "/>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Select the preferred option for the default behavior of
+               <b class="+ topic/ph hi-d/b ">Failure Handling</b>. Click <b class="+ topic/ph hi-d/b ">OK</b> when
+               you're done.</p>
+          <note type="note" class="- topic/note ">
+
+            <p class="- topic/p ">The selected option will be applied to new test steps only. For
+                  the steps already existed in your test cases, their failure
+                  handling option will not be affected by this change. Thus, you may
+                  need to <xref href="override_failure_handling_behavior.dita" class="- topic/xref ">update
+                     them manually</xref>.</p>
+          </note>
+        </li></ol></conbody></concept>

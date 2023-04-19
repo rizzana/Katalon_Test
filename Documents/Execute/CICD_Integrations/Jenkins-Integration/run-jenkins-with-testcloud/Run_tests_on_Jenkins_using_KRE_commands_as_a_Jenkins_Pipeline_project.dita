@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task-4641" class="- topic/topic task/task "><title class="- topic/title ">Run tests in a Jenkins Pipeline project using KRE commands </title><taskbody class="- topic/body task/taskbody "><context class="- topic/section task/context ">This article describes how to set a Jenkins project as a Jenkins Pipeline project.</context><steps class="- topic/ol task/steps "><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Open Jenkins and create a new Pipeline project<image href="image/Jenkins_pipeline_project.png" class="- topic/image "><alt class="- topic/alt ">Jenkins pipeline project</alt></image></cmd></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Build the Jenkins Pipeline project</cmd><info class="- topic/itemgroup task/info ">In the <uicontrol class="+ topic/ph ui-d/uicontrol ">Definition</uicontrol> dropdown list, select <uicontrol class="+ topic/ph ui-d/uicontrol ">Pipeline Script</uicontrol>.<image href="image/jenkin_pipeline_script.png" class="- topic/image "><alt class="- topic/alt ">Jenkins pipeline script</alt></image></info><info class="- topic/itemgroup task/info ">In  <uicontrol class="+ topic/ph ui-d/uicontrol ">Pipeline</uicontrol>, copy and paste the following command-line arguments in the Script box, make adjustment in parameters such as your local path to Katalon Runtime Engine (KRE), projectPath, testSuitePath, testcloudEnvironmentId, and others as you need:  </info><info class="- topic/itemgroup task/info ">For Windows: <ul class="- topic/ul "><li class="- topic/li ">Script template:<codeblock class="+ topic/pre pr-d/codeblock ">pipeline {
+    agent any
+    stages {
+        stage('Test') {
+            steps {
+                bat """
+                cd  &lt;KRE installed folder&gt;
+                katalonc  -projectPath="&lt;projectpath&gt;" -browserType="TestCloud" -testcloudEnvironmentId="&lt;string value&gt;" -testcloudTunnel="&lt;true or false&gt;" -retry=&lt;number of retry times&gt; -statusDelay=&lt;seconds&gt; -testSuitePath="&lt;path&gt;" -apiKey="&lt;user API key&gt;" -orgID=&lt;Katalon_OrgID&gt;
+                """
+
+            }
+
+        }
+
+    }
+
+}
+</codeblock></li><li class="- topic/li ">Script sample:<codeblock class="+ topic/pre pr-d/codeblock ">pipeline {
+    agent any
+    stages {
+        stage('Test') {
+            steps {
+                bat """
+                cd  C:\Users\NAH\Desktop\Katalon_Studio_Engine_Windows_64-8.1.0
+                katalonc  -projectPath="C:\Users\NAH\Desktop\ci-samples-master\test.prj" -browserType="TestCloud" -testcloudEnvironmentId="87" -testcloudTunnel="true" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/TS_RegressionTest" -apiKey="&lt;user API key&gt;" -orgID=&lt;Katalon_OrgID&gt; 
+                """
+
+            }
+
+        }
+
+    }
+
+}</codeblock></li></ul>For macOS/Linux: <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Script template:<codeblock class="+ topic/pre pr-d/codeblock ">pipeline {
+    agent any
+    stages {
+        stage('Test') {
+            steps {
+                sh '''
+                cd  &lt;KRE installed folder&gt;
+                ./katalonc  -projectPath="&lt;projectpath&gt;" -browserType="TestCloud" -testcloudEnvironmentId="&lt;string value&gt;" -testcloudTunnel="&lt;true or false&gt;" -retry=&lt;number of retry time&gt; -statusDelay=&lt;seconds&gt; -testSuitePath="&lt;path&gt;" -apiKey="&lt;user API key&gt;" -orgID=&lt;Katalon_OrgID&gt;
+                '''
+
+            }
+
+        }
+
+    }
+
+}</codeblock></p></li><li class="- topic/li ">Script sample: <codeblock class="+ topic/pre pr-d/codeblock ">pipeline {
+    agent any
+    stages {
+        stage('Test') {
+            steps {
+                sh '''
+                cd  /Users/john.doe/Downloads/Katalon_Studio_Engine_MacOS-8.1.0/Katalon\\ Studio\\ Engine.app/Contents/MacOS
+                ./katalonc  -projectPath="/Users/john.doe/Downloads/ci-samples-master/test.prj" -browserType="TestCloud" -testcloudEnvironmentId="87" -testcloudTunnel="false" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/TS_RegressionTest" -apiKey="&lt;user API key&gt;" -orgID=&lt;Katalon_OrgID&gt;
+                '''
+
+            }
+
+        }
+
+    }
+
+}</codeblock></li></ul></info></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">After you are done with the configuration, click <uicontrol class="+ topic/ph ui-d/uicontrol ">Save</uicontrol>, then click <uicontrol class="+ topic/ph ui-d/uicontrol ">Build Now</uicontrol> to run the project.</cmd><info class="- topic/itemgroup task/info "><image href="image/Jenkins_build_now.png" class="- topic/image "><alt class="- topic/alt ">Jenkins build now</alt></image></info></step></steps></taskbody></task>

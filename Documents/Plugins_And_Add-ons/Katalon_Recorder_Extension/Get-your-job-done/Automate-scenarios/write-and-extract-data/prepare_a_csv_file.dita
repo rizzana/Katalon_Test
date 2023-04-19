@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id_2" class="- topic/topic "><title class="- topic/title ">Prepare a CSV file</title><body class="- topic/body "><p class="- topic/p ">As Katalon Recorder navigates using column names in a CSV file, we need to create a CSV file with specific column names for data extraction. In our case, we need two columns for name and price.</p><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/write-and-extract-data/KR-Sample-CSV.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Prepared CSV file</alt></image>
+        </p></body></topic>

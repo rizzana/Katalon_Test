@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_13" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Summary</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">This article presents some strategies for locating Web
+            elements on a webpage in different situations. These strategies
+            reflect the user's mindset when perform UI Automation tests: First,
+            think about simple static locators. Then when simple methods are no
+            longer working, gradually increase the complexity of the
+            solution.</p>
+      <p class="- topic/p ">It is important to mention that the following principle
+            must be held in deciding locators: the locator must be unique,
+            readable and maintainable. If the locator does not uniquely
+            represent the target element, technical problems will arise during
+            the maintenance phase as there is no way to know which locator
+            should be changed.</p>
+    </conbody>
+  </concept>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Solving Pop-up dialog issue with <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">When performing automation testing, you may sometimes deal with
+         pop-up dialog issue that needs to be handled differently from
+         normal test objects. This tutorial shows you how to deal with
+         pop-up controls.</p></conbody></concept>

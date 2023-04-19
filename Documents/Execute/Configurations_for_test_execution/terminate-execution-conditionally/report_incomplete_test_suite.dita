@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Report Incomplete Test Suite</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">When a test suite has at least 1 test case <b class="+ topic/ph hi-d/b ">Not
+            Run</b>, the final status of that test suite is marked
+         <b class="+ topic/ph hi-d/b ">Incomplete</b>.</p>
+      <p class="- topic/p ">For test suites marked <b class="+ topic/ph hi-d/b ">Incomplete</b> or
+         <b class="+ topic/ph hi-d/b ">Not started yet</b>, Katalon Studio automatically
+         sends attachments to TestOps after execution ends. The reports
+         include the execution logs and JUnit Reports.</p>
+      <p class="- topic/p ">Test suites marked <b class="+ topic/ph hi-d/b ">Incomplete</b> or <b class="+ topic/ph hi-d/b ">Not
+            started yet</b> and the attachments of the test suite
+         execution cannot be uploaded to 3rd-party tools (qTest, JIRA,
+         Slack, Azure DevOps Test Plans, TestRail).</p>
+    </conbody>
+  </concept>

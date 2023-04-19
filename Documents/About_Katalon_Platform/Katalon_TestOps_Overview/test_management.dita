@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Test management</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">This key module is a test hub gathering and connecting all
+         quality data from multiple sources such as <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/>, JUnit,
+         TestNG, and Jira.</p><p class="- topic/p ">With test management, you can monitor test analytics for your
+         projects.</p><p class="- topic/p ">You can also leverage it to gain critical insights into test
+         results and integrate seamlessly with <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> and Jira for
+         more efficient project management.</p><p class="- topic/p ">For more information, see:</p><ul class="- topic/ul "><li class="- topic/li ">
+          <xref href="../../Analyze/Reports/View_Test_Reports/View_reports_in_TestOps/bdd-test-results-in-TestOps/bdd-test-results.dita" class="- topic/xref ">View
+               BDD Test Results in Katalon TestOps</xref>.</li><li class="- topic/li ">
+          <xref href="../../Plan/Integration_for_test_planning/link-tc-to-Jira-requirements/ka-integration-jira.dita" class="- topic/xref ">Link
+               Test Cases to Jira Requirements</xref>.</li><li class="- topic/li ">
+          <xref href="../../Analyze/Integrations_For_Reports_And_Analytics/Jira_integration/link-test-runs-to-Jira-defects-in-TestOps/intro-link-test-runs-Jira-defects-in-TestOps.dita" class="- topic/xref ">Defects</xref>.</li></ul></conbody></concept>

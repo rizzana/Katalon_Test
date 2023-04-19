@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Case 1: Automatic transition to KSE per-User licenses</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">This case applies to those of you whose license renewal date is
+         due, and happens automatically.</p>
+        <p class="- topic/p ">Consider a scenario where you are a group of 5 users. You have
+         the following licenses at your disposal:</p>
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">1 generated Offline floating license.</li>
+          <li class="- topic/li ">3 floating licenses.</li>
+        </ul>
+        <p class="- topic/p ">As you can see above, the number of people in your group (5
+         users) is more than the number of licenses itself (3 floating
+         licenses). Thus, when the license renewal date approaches, 3 KSE
+         per-User licenses are issued to your group, based on the following
+         order of priority:</p>
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">1 user who has an Offline floating license.</li>
+          <li class="- topic/li ">2 unique users who are last seen active.</li>
+        </ul>
+        <p class="- topic/p ">Thus, you can say:</p>
+        <p class="- topic/p ">
+          <i class="+ topic/ph hi-d/i ">N Offline licenses + O unique last active users = P
+            licenses</i>
+        </p>
+        <p class="- topic/p ">In general, if you have 1,3,4,5……n KSE floating
+         licenses, an equivalent number of last active users receive
+         corresponding per-User licenses.</p>
+      </conbody>
+    </concept>

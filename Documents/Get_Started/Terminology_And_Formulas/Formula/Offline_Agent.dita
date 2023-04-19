@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN" "glossentry.dtd">
+<glossentry id="glossentry-8573" class="- topic/topic concept/concept glossentry/glossentry "><glossterm class="- topic/title concept/title glossentry/glossterm ">Offline Agent</glossterm><glossdef class="- topic/abstract concept/abstract glossentry/glossdef ">An offline agent is the agent whose last ping is longer than the active time.<p class="- topic/p ">By default, the active time is 5 minutes. If the agent does not run any job for over 5 minutes, it is considered offline.</p></glossdef></glossentry>

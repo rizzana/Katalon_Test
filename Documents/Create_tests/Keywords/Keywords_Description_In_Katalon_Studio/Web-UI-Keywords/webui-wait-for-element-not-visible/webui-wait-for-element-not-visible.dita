@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_0" class="- topic/topic concept/concept "><title class="- topic/title ">[WebUI] Wait For Element Not Visible</title><conbody class="- topic/body  concept/conbody "><section id="id_1" class="- topic/section ">
+    <title class="- topic/title ">Description</title>
+    
+      <p class="- topic/p ">Wait until the given web element is NOT visible within
+         a timeout.</p>
+    
+  </section><section id="id_2" class="- topic/section ">
+    <title class="- topic/title ">Parameters</title>
+    
+      <table class="- topic/table "><tgroup cols="4" class="- topic/tgroup "><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Param</entry><entry class="- topic/entry ">Param Type</entry><entry class="- topic/entry ">Mandatory</entry><entry class="- topic/entry ">Description</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">to</entry><entry class="- topic/entry ">TestObject</entry><entry class="- topic/entry ">Required</entry><entry class="- topic/entry ">Represent a web element.</entry></row><row class="- topic/row "><entry class="- topic/entry ">timeout</entry><entry class="- topic/entry ">int</entry><entry class="- topic/entry ">Required</entry><entry class="- topic/entry ">System will wait at most timeout (seconds) to return
+                  result</entry></row><row class="- topic/row "><entry class="- topic/entry ">flowControl</entry><entry class="- topic/entry ">FailureHandling</entry><entry class="- topic/entry ">Optional</entry><entry class="- topic/entry ">Specify <xref href="../../../../../Maintain/failure-handling/failure-handling.dita" class="- topic/xref ">failure handling</xref> schema to
+                  determine whether the execution should be allowed to continue or
+                  stop.</entry></row></tbody></tgroup></table>
+    
+  </section><section id="id_3" class="- topic/section ">
+    <title class="- topic/title ">Returns</title>
+    
+      <table class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Param Type</entry><entry class="- topic/entry ">Description</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">boolean</entry><entry class="- topic/entry ">
+                <ul class="- topic/ul "><li class="- topic/li ">
+                    <b class="+ topic/ph hi-d/b ">true:</b> the element is present and NOT visible
+                        in the given timeout.</li><li class="- topic/li ">
+                    <b class="+ topic/ph hi-d/b ">false:</b> the element is present and visible in
+                        the given timeout.</li></ul>
+              </entry></row></tbody></tgroup></table>
+    
+  </section><section id="id_4" class="- topic/section ">
+    <title class="- topic/title ">Example</title>
+    
+      <p class="- topic/p ">You want to wait 'Make Appointment' button NOT visible in 20
+         seconds</p>
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
+
+'Open browser and navigate to demo AUT site.'
+WebUI.openBrowser(GlobalVariable.G_SiteURL)
+
+'Wait for \'Make Appoint\' button NOT visible in 20 seconds'
+WebUI.waitForElementNotVisible(findTestObject('Page_CuraHomepage/btn_MakeAppointment'), 20)
+
+'Close browser'
+WebUI.closeBrowser()
+</codeblock>
+      
+    
+  </section></conbody></concept>

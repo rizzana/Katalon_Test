@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Publish a plugin to <ph conkeyref="name-variables/katalon-store" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">After submitting your plugin as a draft, go to Manage published
+         plugins page to view and publish your plugin. It will be subject to
+         further review and ready to be published after being approved. As
+         soon as your plugin is approved, it will be available on <ph conkeyref="name-variables/katalon-store" class="- topic/ph "/> for users to discover and install.</p><p class="- topic/p ">See also:</p><ul class="- topic/ul "><li class="- topic/li ">
+          <p class="- topic/p "><xref href="../publisher-guidelines/publisher-guidelines.dita" class="- topic/xref ">Brand
+                  guidelines for <ph conkeyref="name-variables/katalon-store" class="- topic/ph "/> publishers</xref>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p "><xref href="../document-guidelines/document-guidelines.dita" class="- topic/xref ">Plugin
+                  document guidelines</xref>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p "><xref href="../manage-published-plugins/manage-published-plugins.dita" class="- topic/xref ">Manage
+                  Published plugins</xref>
+          </p>
+        </li></ul><p class="- topic/p ">Learn more in our course at Katalon Academy: <xref format="html" href="https://academy.katalon.com/courses/create-store-plugins/?utm_source=kat_docs&amp;utm_medium=publish_plugins" scope="external" class="- topic/xref "><ph conkeyref="name-variables/katalon-store" class="- topic/ph "/>: Create and Publish Custom Keywords as Plugins</xref>.</p></conbody></concept>

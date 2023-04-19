@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Common exceptions</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">NoSuchFrameException</b> or
+         <b class="+ topic/ph hi-d/b ">InvalidSwitchToTargetException</b> exceptions are
+         thrown when the target frame to be switched to doesn't exist.</p>
+      </conbody>
+    </concept>

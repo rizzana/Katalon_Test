@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-3811" xml:lang="en-us" class="- topic/topic concept/concept "><title class="- topic/title ">Run WinAppDriver</title><prolog class="- topic/prolog "><author translate="no" type="creator" class="- topic/author ">Windy Le &lt;windy.le@katalon.com&gt;</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "/></metadata></prolog><conbody class="- topic/body  concept/conbody "><p class="- topic/p "><ol class="- topic/ol "><li class="- topic/li ">
+                    <p class="- topic/p ">Enable <b class="+ topic/ph hi-d/b ">Developer Mode</b> on the test machine. You can refer to the Microsoft document here: <xref format="html" href="https://docs.microsoft.com/en-us/windows/uwp/get-started/enable-your-device-for-development" scope="external" class="- topic/xref ">Enable your device for development</xref> for instructions.</p>
+                    <p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-desktop-app-testing/dev-mode.png" scope="external" width="305.5" class="- topic/image "/></p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">By default, WinAppDriver is installed at <codeph class="+ topic/ph pr-d/codeph ">C:\Program Files
+                  (x86)\Windows Application Driver</codeph>. To run WinAppDriver, double-click the <codeph class="+ topic/ph pr-d/codeph ">WinAppDriver.exe</codeph> file from the installation directory.</p>
+                </li></ol>
+        </p></conbody></concept>

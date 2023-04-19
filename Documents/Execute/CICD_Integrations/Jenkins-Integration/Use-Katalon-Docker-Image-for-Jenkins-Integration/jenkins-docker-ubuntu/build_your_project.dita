@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_7" class="- topic/topic concept/concept "><title class="- topic/title ">Build your project</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Build</b> section, click <b class="+ topic/ph hi-d/b ">Add build step</b> and choose <b class="+ topic/ph hi-d/b ">Execute shell</b>. Input your command, for example:</p>
+                <codeblock class="+ topic/pre pr-d/codeblock ">docker run -t --rm -v "$(pwd)":/tmp/project katalonstudio/katalon katalonc.sh -projectPath=/tmp/project -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/TS_RegressionTest" -apikey=&lt;YOUR_API_KEY&gt;
+</codeblock>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-docker/execute-shell.png" scope="external" class="- topic/image "><alt class="- topic/alt ">command</alt></image>
+                </p>
+                <note type="note" class="- topic/note ">
+                    <p class="- topic/p ">You can find more command line options at <xref href="../../../../Katalon_Runtime_Engine/console-mode-execution/General_Options.dita" class="- topic/xref ">Command Syntax</xref>.</p>
+                </note>
+                <p class="- topic/p ">After you are done with the configuration, click <b class="+ topic/ph hi-d/b ">Save</b>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In your project, click <b class="+ topic/ph hi-d/b ">Build Now</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-docker/build-now.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">build now</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">To view the console log, click on your current build on Jenkins and select <b class="+ topic/ph hi-d/b ">Console Output</b>.</p>
+                <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Console Output</b>, you can view the status when Docker starts finding the image <codeph class="+ topic/ph pr-d/codeph ">katalonstudio/katalon</codeph>, verifying your licenses, reloading plugins, then executing your test. If Docker cannot find the <codeph class="+ topic/ph pr-d/codeph ">katalonstudio/katalon</codeph> image locally, it automatically pulls this image.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-docker/console-output.png" scope="external" class="- topic/image "><alt class="- topic/alt ">console output</alt></image>
+                </p>
+                <p class="- topic/p ">When the test is being run, you can also view this console log in Docker.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-docker/docker-log.png" scope="external" class="- topic/image "><alt class="- topic/alt ">docker log</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">To view your report files, you can go to this directory: <codeph class="+ topic/ph pr-d/codeph ">Users/Your_user_name/.jenkins/workspace/Your_project_name/Reports</codeph> or your third-party integration like Katalon TestOps, Azure DevOps, or qTest.</p>
+                <note type="note" class="- topic/note ">
+                    <ul class="- topic/ul "><li class="- topic/li ">
+                            <p class="- topic/p ">For real-time monitoring and better reporting capabilities, consider integrating your project with Katalon TestOps. See also <xref href="../../../../../Analyze/Reports/Upload_Test_Reports/Upload_test_results_from_KS_to_TestOps/katalon-analytics-beta-integration.dita" class="- topic/xref ">Upload Test Results to Katalon TestOps from Katalon Studio</xref>.</p>
+                        </li></ul>
+                </note>
+            </li></ol></conbody></concept>

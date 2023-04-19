@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-how-to-use-conditional-statements-in-a-test-case" class="- map/map ">
+  <title class="- topic/title ">How to Use Control Flow commands in a Test Case</title>
+  <topicref href="how-to-use-conditional-statements-in-a-test-case.dita" class="- map/topicref "><topicref href="test_case_scenario_1653306429541.34.dita" class="- map/topicref "/>
+  <topicref href="record_the_test_case_1653306429541.34.dita" class="- map/topicref "/>
+  <topicref href="create_a_test_case_using_control_flow_commands.dita" class="- map/topicref ">
+    <topicref href="analyze_the_test_execution_flow.dita" class="- map/topicref "/>
+    <topicref href="use_control_flow_commands_in_a_test_case.dita" class="- map/topicref "/>
+  </topicref>
+</topicref>
+  </map>

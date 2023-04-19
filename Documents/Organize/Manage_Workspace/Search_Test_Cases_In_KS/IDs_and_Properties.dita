@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-1252" xml:lang="en-us" class="- topic/topic concept/concept "><title class="- topic/title ">IDs and Properties</title><prolog class="- topic/prolog "><author translate="no" type="creator" class="- topic/author ">Yen Nguyen &lt;yen.nguyen@katalon.com&gt;</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "/></metadata></prolog><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">IDs and tags can be helpful when it comes to managing large projects. You can use IDs and tags to find test artifacts in the Search function.</p></conbody></concept>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-katalium-webdriver" class="- map/map ">
+  <title class="- topic/title ">WebDriver Auto-update</title>
+  <topicref href="katalium-webdriver.dita" class="- map/topicref "><topicref href="install_webdriver_for_microsoft_edge_version_18_and_newer.dita" class="- map/topicref "/>
+</topicref>
+  </map>

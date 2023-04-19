@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Categorize Test Cases with Tags</title><conbody class="- topic/body  concept/conbody "><note type="note" class="- topic/note ">
+        
+        <p class="- topic/p ">A tag can be reused across test cases, but you can not have a
+            duplicated tag in a test case.</p>
+      </note></conbody></concept>

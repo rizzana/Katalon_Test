@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-spy-web-utility" class="- map/map ">
+  <title class="- topic/title ">Spy Web Utility</title>
+  <topicref href="spy-web-utility.dita" class="- map/topicref "><topicref href="capture_objects_using_spy_web_utility.dita" class="- map/topicref "/>
+  <topicref href="define_additional_objects_manually.dita" class="- map/topicref "/>
+  <topicref href="get_web_element_xpath_or_css_locator.dita" class="- map/topicref "/>
+</topicref>
+  </map>

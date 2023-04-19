@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Scenario</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">The screenshot of the app below has a listview containing 'n'
+         number of rows. Our goal is to swipe vertically from top to bottom
+         of the screen.</p>
+      <p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/vertical_swipe_in_mobile_automation/Vertical-swipe-in-Mobile-automation.png" scope="external" class="- topic/image ">
+          <alt class="- topic/alt ">Vertical Swipe in Mobile Automation</alt>
+        </image>
+      </p>
+    </conbody>
+  </concept>

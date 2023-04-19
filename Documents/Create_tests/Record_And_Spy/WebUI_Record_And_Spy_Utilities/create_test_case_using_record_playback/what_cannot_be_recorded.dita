@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">What cannot be recorded?</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Though recording your tests saves time, we cannot validate some
+         scenarios such as Web Table handling, switching to multiple frames,
+         switching to windows, handling captcha, image recognition, and
+         video playbacks.</p><p class="- topic/p ">You can download the source code <xref format="html" href="https://github.com/katalon-studio/katalon-web-automation" scope="external" class="- topic/xref ">here</xref>.</p><p class="- topic/p ">For further instructions and help, you can refer to <xref href="../record-web-utility/record-web-utility.dita" class="- topic/xref ">Recording WebUI Test</xref>  tutorial.</p></conbody></concept>

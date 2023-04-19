@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Setup and Configuration</title><conbody class="- topic/body  concept/conbody "><note type="important" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">Katalon Studio version 7.0.0 onwards.</li><li class="- topic/li ">An active <xref href="../../../About_Katalon_Platform/Katalon_Runtime_Engine_Overview/intro-re.dita" class="- topic/xref ">Katalon Runtime Engine license</xref>.</li></ul>
+        </note><p class="- topic/p ">To run your test with Katalon Orb, you need to establish a connection between your Katalon project in GitHub and CircleCI. Log in to <xref format="html" href="https://circleci.com/vcs-authorize/" scope="external" class="- topic/xref ">CircleCI</xref> using your GitHub account.</p><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/circleci/log%20in%20with%20github.png" scope="external" class="- topic/image "><alt class="- topic/alt ">log in with Git</alt></image>
+        </p></conbody></concept>

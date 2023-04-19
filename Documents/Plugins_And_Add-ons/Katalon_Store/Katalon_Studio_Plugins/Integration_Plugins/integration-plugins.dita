@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Integration Plugins on Katalon Store</title><conbody class="- topic/body  concept/conbody "><ul class="- topic/ul "><li class="- topic/li ">
+        <p class="- topic/p "><xref format="html" href="https://store.katalon.com/product/3/Jira-Integration" scope="external" class="- topic/xref ">Jira
+                  Integration</xref> - Link to Jira tickets, sync results, and submit
+               issues. <xref href="../../../../Organize/Integration_For_Organizing_Tests/Jira_Integration/configure-jira-integration-in-KS/intro-configure-jira-integration-in-Katalon-Studio.dita" class="- topic/xref ">Learn
+                  more</xref>
+        </p>
+      </li><li class="- topic/li ">
+        <p class="- topic/p "><xref format="html" href="https://store.katalon.com/product/4/Slack-Integration" scope="external" class="- topic/xref ">Slack
+                  Integration</xref> - Stay on track of execution results on your Slack
+               channel. <xref href="../../../../Analyze/Integrations_For_Reports_And_Analytics/Slack_integration/slack-integration-in-Studio/intro-slack-studio-integration.dita" class="- topic/xref ">Learn
+                  more</xref>
+        </p>
+      </li><li class="- topic/li ">
+        <p class="- topic/p "><xref format="html" href="https://store.katalon.com/product/137/Kobiton-Integration" scope="external" class="- topic/xref ">Kobiton
+                  Integration</xref> - Enable integration between Kobiton and Katalon
+               Studio.</p>
+      </li><li class="- topic/li ">
+        <p class="- topic/p "><xref format="html" href="https://store.katalon.com/product/75/Sauce-Labs-Integration" scope="external" class="- topic/xref ">Sauce
+                  Labs Integration</xref> - Enables integration between Katalon Studio
+               and Sauce Labs by providing the capability to execute tests with
+               Sauce Labs browser and update Sauce labs job’s information
+               with test case’s name and run status. <xref href="../../../../Execute/Cloud_based_test_execution/Integrations_with_other_vendors_for_cloud_execution/saucelabs-plugin/saucelabs-plugin.dita" class="- topic/xref ">Learn
+                  more</xref>
+        </p>
+      </li><li class="- topic/li ">
+        <p class="- topic/p "><xref format="html" href="https://store.katalon.com/product/45/BrowserStack-Integration" scope="external" class="- topic/xref ">BrowserStack
+                  Integration</xref> - BrowserStack Connect is a plugin developed for
+               Katalon Studio. It allows you to use the BrowserStack Devices Farm
+               from an automated test cases. <xref href="../../../../Execute/Cloud_based_test_execution/Integrations_with_other_vendors_for_cloud_execution/browserstack-integration/browserstack-integration.dita" class="- topic/xref ">Learn
+                  more</xref>
+        </p>
+      </li><li class="- topic/li ">
+        <p class="- topic/p "><xref format="html" href="https://store.katalon.com/product/44/Applitools-Integration" scope="external" class="- topic/xref ">Applitools
+                  Integration</xref> - AI powered end-to-end visual testing with
+               Applitools. Available starting Katalon Studio 6.1.2. <xref href="../../../../Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/Applitools_Integration/applitools-integration.dita" class="- topic/xref ">Learn
+                  more</xref>
+        </p>
+      </li><li class="- topic/li ">
+        <p class="- topic/p "><xref format="html" href="https://store.katalon.com/product/125/Rally-Integration" scope="external" class="- topic/xref ">Rally
+                  Integration</xref> - Seamless integration between Rally and Katalon
+               Studio. <xref href="../../../../Organize/Integration_For_Organizing_Tests/Configure_Rally_integration_in_Studio/intro_configure_rally-integration.dita" class="- topic/xref ">Learn
+                  more</xref>
+        </p>
+      </li><li class="- topic/li ">
+        <p class="- topic/p "><xref format="html" href="https://store.katalon.com/product/136/qTest-Integration" scope="external" class="- topic/xref ">qTest
+                  Integration</xref> - Seamless integration between Katalon Studio with
+               qTest Manager. <xref href="../../../../Organize/Integration_For_Organizing_Tests/Configure-qTest-integration-in-Katalon-Studio/intro-configure-qtest-integration-in-Studio.dita" class="- topic/xref ">Learn
+                  more</xref>
+        </p>
+      </li><li class="- topic/li ">
+        <p class="- topic/p "><xref format="html" href="https://store.katalon.com/product/13/TestRail-Integration" scope="external" class="- topic/xref ">TestRail
+                  Integration</xref> - Link to TestRail test cases and test suites. Send
+               results and provide TestRail query standards. <xref href="../../../../Organize/Integration_For_Organizing_Tests/Configure_Testrail_integration_in_Studio/intro_testrail_integration.dita" class="- topic/xref ">Learn
+                  more</xref>
+        </p>
+      </li><li class="- topic/li ">
+        <p class="- topic/p "><xref format="html" href="https://store.katalon.com/product/71/TestLink-Integration" scope="external" class="- topic/xref ">TestLink
+                  Integration</xref> - This custom keywords plugin is a useful tool to
+               integrate with TestLink. <xref href="../../../../Organize/Integration_For_Organizing_Tests/testlink-integration/testlink-integration.dita" class="- topic/xref ">Learn
+                  more</xref>
+        </p>
+      </li></ul></conbody></concept>

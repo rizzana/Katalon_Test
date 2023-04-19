@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Using built-in tools</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To produce images associated with captured Test objects, Katalon
+         Studio includes the <b class="+ topic/ph hi-d/b ">Add Screenshot</b> button in both
+         Web Recorder and Spy utility.</p><p class="- topic/p ">Here we use the <b class="+ topic/ph hi-d/b ">Spy Web Utility</b> to capture
+         screenshots. Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+            <p class="- topic/p ">To open the Spy Web Utility, from the main toolbar, select
+               <b class="+ topic/ph hi-d/b ">Spy Web</b>.</p>
+            <p class="- topic/p ">
+              <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/KS-Spy-Web-Utility.png" scope="external" width="650" class="- topic/image "><alt class="- topic/alt ">Toolbar</alt></image>
+            </p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">In the displayed <b class="+ topic/ph hi-d/b ">Object Spy</b> dialog, specify the
+               URL of your AUT and the web browser. Click on the
+               <b class="+ topic/ph hi-d/b ">Start</b> button to start capturing.</p>
+            <p class="- topic/p ">
+              <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/KS-Object-Spy-dialog.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">Object Spy dialog</alt></image>
+            </p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">To capture an object, hover your mouse cursor over the web
+               element and press the combination of <b class="+ topic/ph hi-d/b ">\
+                   keys. You
+                  can also right-click on the web element and select</b>
+               Capture.</p>
+            <p class="- topic/p ">
+              <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/KS-Object-Spy-capture-object.png" scope="external" width="700" class="- topic/image "><alt class="- topic/alt ">Capture object</alt></image>
+            </p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Captured Objects</b> view, select the
+               captured object and click the <b class="+ topic/ph hi-d/b ">Add Screenshot</b>
+               button on the bottom right corner.</p>
+            <p class="- topic/p ">
+              <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/KS-Object-Spy-add-screenshot.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">Add screenshot</alt></image>
+            </p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">After the Spy utility verifies the image with the message
+               <b class="+ topic/ph hi-d/b ">"Screenshot taken!"</b>, click on the
+               <b class="+ topic/ph hi-d/b ">Save</b> button to save the captured object and its
+               screenshot.</p>
+            <p class="- topic/p ">
+              <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/image-based-web-elements-recognition/KS-Object-Spy-screenshot-taken.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">Screenshot taken message</alt></image>
+            </p>
+          </li></ol><note type="note" class="- topic/note ">
+          
+          <ul class="- topic/ul "><li class="- topic/li ">The image comparison algorithm in Katalon Studio compares a
+               screenshot of an object with the displayed image of the
+               corresponding web element on the active browser, pixel by pixel.
+               Therefore, if you capture object images using other tools, you have
+               to resize the images to the displayed sizes of the web elements on
+               the active browser.</li></ul>
+        </note></conbody></concept>

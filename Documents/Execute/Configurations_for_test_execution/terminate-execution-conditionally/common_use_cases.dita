@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Common Use Cases</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">Below are three example use cases to illustrate how the
+         parameter works:</p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">In the case of a test suite execution.</li>
+        <li class="- topic/li ">In the case of a test suite collection executed in sequential
+            mode.</li>
+        <li class="- topic/li ">In the case of a test suite collection executed in parallel
+            mode.</li>
+      </ul>
+    </conbody>
+    
+    
+    
+  </concept>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_24" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Fixes and Improvements</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">Added a warning when executing CLI mode under the target
+            project folder.</li>
+          <li class="- topic/li ">Fixed an issue where Katalon Studio cannot reload plugins.</li>
+          <li class="- topic/li ">Added the current version and commit ID to the Katalon Studio's
+            window title bar.</li>
+          <li class="- topic/li ">Updated chromedriver to version 73.0.3683.68</li>
+          <li class="- topic/li ">Updated EdgeDriver to version 6.17134</li>
+        </ul>
+      </conbody>
+    </concept>

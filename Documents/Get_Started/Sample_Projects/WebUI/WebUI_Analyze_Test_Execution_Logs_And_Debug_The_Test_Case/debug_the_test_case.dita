@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Debug the test case</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">After finding the root cause, we update the test object with a
+         new XPath, and use the <b class="+ topic/ph hi-d/b ">Run from here</b> Debug utility
+         to resume the test execution.</p></conbody></concept>

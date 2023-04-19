@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">New features</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">Enabled scheduling tests on the TestCloud Windows environment
+            from Katalon Studio.</li>
+          <li class="- topic/li ">Enabled scheduling tests in TestCloud headless browsers
+            environment from Katalon TestOps.</li>
+          <li class="- topic/li ">Enabled scheduling tests on websites behind a proxy.</li>
+        </ul>
+      </conbody>
+    </concept>

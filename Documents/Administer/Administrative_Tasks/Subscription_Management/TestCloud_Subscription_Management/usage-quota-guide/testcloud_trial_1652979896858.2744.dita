@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">TestCloud Trial</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">All users who belong to a TestOps organization can use TestCloud
+         for free with the <b class="+ topic/ph hi-d/b ">free trial</b> package. If you
+         exceed the supported quota, you need to subscribe to TestCloud Per
+         Session to continue testing on TestCloud.</p>
+      </conbody>
+    </concept>

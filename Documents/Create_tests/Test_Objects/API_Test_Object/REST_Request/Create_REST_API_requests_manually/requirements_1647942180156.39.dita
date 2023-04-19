@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Requirements</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">You should be familiar with Katalon Studio and know the basics
+         of Java/Groovy.</p>
+      </conbody>
+    </concept>

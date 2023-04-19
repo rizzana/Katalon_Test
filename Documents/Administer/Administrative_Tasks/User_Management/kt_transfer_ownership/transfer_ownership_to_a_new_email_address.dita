@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Transfer ownership to a new email address</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">As an Owner of an Organization, the email address you have
+         registered with Katalon TestOps is bound to your TestOps
+         Organization and becomes a unique ID. You cannot change this unique
+         ID.</p><p class="- topic/p ">If you want to change your email address, follow these
+         steps:</p><ol class="- topic/ol "><li class="- topic/li ">Create a new account using your new email address.</li><li class="- topic/li ">Send an invitation to join the Organization to the new email
+            address. See: <xref href="../kt_invite_user_org/invite_users_to_join_an_organization.dita" class="- topic/xref ">Invite
+               users to join an Organization</xref>.</li><li class="- topic/li ">Join the Organization as a new user. See: <xref href="../../kt_users_joining_org/kt-users-joining-org.dita" class="- topic/xref ">Join
+               TestOps Organizations</xref>.</li><li class="- topic/li ">Transfer ownership to the new email address. See: <xref href="transfer_ownership_to_an_existing_member.dita" class="- topic/xref ">Transfer
+               Ownership</xref>.</li><li class="- topic/li ">Delete the old account. See: <xref href="../kt_invite_user_org/remove_existing_users.dita" class="- topic/xref ">Remove
+               existing users</xref>.</li></ol></conbody></concept>

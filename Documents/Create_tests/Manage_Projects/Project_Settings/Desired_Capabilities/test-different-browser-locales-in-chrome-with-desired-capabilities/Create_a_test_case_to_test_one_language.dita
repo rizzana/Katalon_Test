@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-7430" xml:lang="en-us" class="- topic/topic concept/concept "><title class="- topic/title ">Create a test case to test one language</title><prolog class="- topic/prolog "><author translate="no" type="creator" class="- topic/author ">Yen Nguyen &lt;yen.nguyen@katalon.com&gt;</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "/></metadata></prolog><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">In the following example, we configure a test case with a specific browser locale, like French.</p><p class="- topic/p ">Do as follows:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Create a New Test Case. Go to <b class="+ topic/ph hi-d/b ">File &gt; New &gt; Test Case.</b></p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Create Test Case Variables. See also: <xref href="../../../../Data_Driven_Testing/test-case-variables/manage_test_case_variables.dita" class="- topic/xref ">Test Case Variables</xref>.</p>
+                <ul class="- topic/ul "><li class="- topic/li ">Switch to the Variables tab of your Test Case.</li><li class="- topic/li ">Click <b class="+ topic/ph hi-d/b ">Add</b>. A new row appears in the variable list.</li><li class="- topic/li ">Input the "locale" variable like so:</li></ul>
+                <table class="- topic/table "><tgroup cols="3" class="- topic/tgroup "><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry "><b class="+ topic/ph hi-d/b ">Name</b></entry><entry class="- topic/entry "><b class="+ topic/ph hi-d/b ">Type</b></entry><entry class="- topic/entry "><b class="+ topic/ph hi-d/b ">Default Value</b></entry></row><row class="- topic/row "><entry class="- topic/entry ">locale</entry><entry class="- topic/entry ">String</entry><entry class="- topic/entry ">"fr"</entry></row></tbody></tgroup></table>
+                <ul class="- topic/ul "><li class="- topic/li ">
+                        <p class="- topic/p ">In our example, the <b class="+ topic/ph hi-d/b ">Default Value</b> is <codeph class="+ topic/ph pr-d/codeph ">fr</codeph>, the language code for French. You can find other language codes for Chrome here: <xref format="html" href="https://developers.google.com/admin-sdk/directory/v1/languages" scope="external" class="- topic/xref ">language code</xref>.</p>
+                        <p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Test-case-variables-2.png" scope="external" class="- topic/image "><alt class="- topic/alt ">test case with variables</alt></image></p>
+                    </li></ul>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">After defining Test Case Variables, we override default language settings in Chrome by using Configured Desired Capabilities. You can learn more about this here: <xref href="../introduction-to-desired-capabilities/manage_desired_capabilities.dita" class="- topic/xref ">Configured Desired Capabilities</xref></p>
+                <ul class="- topic/ul "><li class="- topic/li ">Switch to the Script tab of your Test Case.</li><li class="- topic/li ">
+                        <p class="- topic/p ">Copy and paste the below code into your test script. With this code, you can manipulate the locales of the testing browsers.</p>
+                        <codeblock class="+ topic/pre pr-d/codeblock ">import com.kms.katalon.core.configuration.RunConfiguration
+
+Map prefs = [('intl.accept_languages') : locale]
+// Map preferences key to manipulate page's language.
+
+RunConfiguration.setWebDriverPreferencesProperty("prefs", prefs)
+</codeblock>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p ">Continue writing the script or use Web Spy/Record Utility to complete your test case.</p>
+                        <note type="note" class="- topic/note ">
+                            <p class="- topic/p ">
+                                <ul class="- topic/ul "><li class="- topic/li ">
+                                        <p class="- topic/p ">In case you wish to alter browser locales with an existing test script, copy and paste the above sample code before the test script.</p>
+                                    </li></ul>
+                            </p>
+                        </note>
+                        <p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/configured-desired-capabilities.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Final results after configuring Desired Capabilities</alt></image></p>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p ">Your Test Case is now ready to run with Chrome in French.</p>
+                    </li></ul>
+            </li></ol></conbody></concept>

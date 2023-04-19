@@ -1,0 +1,146 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us" data-whc_version="25.1">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="description" content="Katalon Studio supports API/Web Service testing project, which allows separating the API/Web Service testing from Web UI and Mobile testing. You can also perform more API/Web Service automation tasks ..."/><meta name="DC.rights.owner" content="(C) Copyright 2023"/><meta name="copyright" content="(C) Copyright 2023"/><meta name="generator" content="DITA-OT"/><meta name="DC.type" content="concept"/><meta name="DC.creator" content="Yen Nguyen &lt;yen.nguyen@katalon.com&gt;"/><meta name="DC.format" content="HTML5"/><meta name="DC.identifier" content="concept-1207"/><meta name="DC.language" content="en-us"/><title>API/Web Service project in Katalon Studio</title><!--  Generated with Oxygen version 25.1, build number 2023031500.  --><meta name="wh-path2root" content="../../../../"/><meta name="wh-source-relpath" content="Documents/Create_tests/Manage_Projects/API_Web_Service_Project/APIWeb_Service_Project.dita"/><meta name="wh-out-relpath" content="Documents/Create_tests/Manage_Projects/API_Web_Service_Project/APIWeb_Service_Project.html"/>
+
+    <link rel="stylesheet" type="text/css" href="../../../../oxygen-webhelp/app/commons.css?buildId=2023031500"/>
+    <link rel="stylesheet" type="text/css" href="../../../../oxygen-webhelp/app/topic.css?buildId=2023031500"/>
+
+    <script>
+        var oxy_webhelp_navlinks = {};
+    </script>
+    <script src="../../../../oxygen-webhelp/app/options/properties.js?buildId=20230419143222"></script>
+    <script src="../../../../oxygen-webhelp/app/localization/strings.js?buildId=2023031500"></script>
+    <script src="../../../../oxygen-webhelp/app/search/index/keywords.js?buildId=20230419143222"></script>
+    <script defer="defer" src="../../../../oxygen-webhelp/app/commons.js?buildId=2023031500"></script>
+    <script defer="defer" src="../../../../oxygen-webhelp/app/topic.js?buildId=2023031500"></script>
+<link rel="stylesheet" type="text/css" href="../../../../oxygen-webhelp/template/oxygen.css?buildId=2023031500"/><link rel="stylesheet" type="text/css" href="../../../../oxygen-webhelp/template/notes.css?buildId=2023031500"/></head>
+
+    <body id="concept-1207" class="wh_topic_page frmBody">
+        <a href="#wh_topic_body" class="sr-only sr-only-focusable">
+            Jump to main content
+        </a>
+        
+        
+        
+        
+        <header class="navbar navbar-default wh_header">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container navbar-nav navbar-expand-md navbar-dark">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    
+                    <div class=" wh_publication_title "><a href="../../../../index.html"><span class="title">Katalon Docs</span></a></div>
+                    
+                </div>
+                
+                <button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggler collapsed wh_toggle_button" aria-expanded="false" aria-label="Toggle menu" aria-controls="wh_top_menu_and_indexterms_link">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+                
+                <nav class=" wh_top_menu " aria-label="Menu Container"><ul role="menubar" aria-label="Menu"><li role="menuitem"><span id="concept-8072-d48972e11-mi" data-tocid="concept-8072-d48972e11" data-state="leaf" class=" topicref " data-id="concept-8072"><span class="title"><a href="../../../../Documents/About_Katalon_Platform/About_Katalon_Platform.html">About <span class="ph">Katalon Platform</span></a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d48972e21-mi" data-tocid="tocId-d48972e21" data-state="not-ready" class=" topicref "><span class="title"><a href="../../../../Documents/General_Information/Supported_Technologies/Supported_Technologies_For_Katalon_Studio/product-availability-matrix.html">General information</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d48972e1999-mi" data-tocid="tocId-d48972e1999" data-state="not-ready" class=" topicref "><span class="title"><a href="../../../../Documents/Get_Started/Get_Started_Overview/get-started-overview.html">Get started</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d48972e4372-mi" data-tocid="tocId-d48972e4372" data-state="not-ready" class=" topicref "><span class="title"><a href="../../../../Documents/Plan/Introduction_to_test_planning/Introduction_to_test_planning.html">Plan</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d48972e4555-mi" data-tocid="tocId-d48972e4555" data-state="not-ready" class=" topicref "><span class="title"><a href="../../../../Documents/Create_tests/Introduction_To_Test_Creation/Introduction_to_Test_Creation.html">Create tests</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d48972e15643-mi" data-tocid="tocId-d48972e15643" data-state="not-ready" class=" topicref "><span class="title"><a href="../../../../Documents/Organize/Introduction_to_organizing_tests/Introduction_to_the_test_management_module.html">Organize</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d48972e17950-mi" data-tocid="tocId-d48972e17950" data-state="not-ready" class=" topicref "><span class="title"><a href="../../../../Documents/Execute/Test_execution_overview/Test_Execution_Overview.html">Execute</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d48972e21382-mi" data-tocid="tocId-d48972e21382" data-state="not-ready" class=" topicref "><span class="title"><a href="../../../../Documents/Analyze/Introduction_to_Reports_and_Analytics_module/Introduction_to_reports_and_analytics_module.html">Analyze</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d48972e23059-mi" data-tocid="tocId-d48972e23059" data-state="not-ready" class=" topicref "><span class="title"><a href="../../../../Documents/Maintain/Introduction_to_test_maintenance/Introduction_to_test_maintenance.html">Maintain</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d48972e23315-mi" data-tocid="tocId-d48972e23315" data-state="not-ready" class=" topicref "><span class="title"><a href="../../../../Documents/Administer/Katalon_Platform_Packages/platform-packages/testops-pricing-model.html">Administer</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d48972e25184-mi" data-tocid="tocId-d48972e25184" data-state="not-ready" class=" topicref "><span class="title"><a href="../../../../Documents/Plugins_And_Add-ons/Katalon_Store/Overview/overview.html">Plugins and add-ons</a></span></span></li></ul></nav>
+                
+                
+            </div>
+        </div>
+    </div>
+</header>
+        
+        
+         
+        
+        <div class=" wh_search_input navbar-form wh_topic_page_search search " role="form">
+            
+            
+            
+            <form id="searchForm" method="get" role="search" action="../../../../search.html"><div><input type="search" placeholder="Search " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="Search query" required="required"/><button type="submit" class="wh_search_button" aria-label="Search"><span class="search_input_text">Search</span></button></div></form>
+            
+            
+            
+        </div>
+        
+        <div class="container-fluid" id="wh_topic_container">
+            <div class="row">
+
+                <nav class="wh_tools d-print-none navbar-expand-md" aria-label="Tools">
+                    
+                    <div data-tooltip-position="bottom" class=" wh_breadcrumb "></div>
+                    
+                    
+                    
+                    <div class="wh_right_tools">
+                        <button class="wh_hide_highlight" aria-label="Toggle search highlights" title="Toggle search highlights"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" aria-label="Collapse sections" title="Collapse sections"></button>
+                        
+                        
+                        
+                        
+                        <div class=" wh_print_link print d-none d-md-inline-block "><button onClick="window.print()" title="Print this page" aria-label="Print this page"></button></div>
+                        
+                        
+                    </div>
+                    
+                </nav>
+            </div>
+            
+            
+            
+            
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                    
+                    <div class="col-12" id="wh_topic_body">
+                        
+                        
+                        
+                        <div class=" wh_topic_content body "><main role="main"><article class="- topic/topic concept/concept topic concept" role="article" aria-labelledby="ariaid-title1"><h1 class="- topic/title title topictitle1" id="ariaid-title1">API/Web Service project in <span class="- topic/ph ph">Katalon Studio</span></h1><div class="- topic/body concept/conbody body conbody"><p class="- topic/p p"><span class="- topic/ph ph">Katalon Studio</span> supports API/Web Service testing project, which allows separating the API/Web Service testing from Web UI and Mobile testing. You can also perform more API/Web Service automation tasks on <span class="- topic/ph ph">Katalon Studio</span> such as Quickstart wizard, import Swagger or WSDL definition File/URL directly, or retrieve the request history at any time.</p><p class="- topic/p p">The update comes with a interface, including a toolbar and a view that serve only for API/Web Service testing. </p><p class="- topic/p p">In Katalon Studio - Standalone Edition, to create a new API/Web Service project, select <span class="+ topic/ph ui-d/uicontrol ph uicontrol">API/Web Service</span> type in the <span class="+ topic/ph ui-d/uicontrol ph uicontrol">New Project </span> dialog and specify all required project information.</p><p class="- topic/p p"><img class="- topic/image image" width="500" src="New-Project.png" alt="Create a new Web Service"/></p><p class="- topic/p p">In Katalon Studio - Platform Edition, go to <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Project Information</span> &gt; <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Project Type</span> &gt; <span class="+ topic/ph ui-d/uicontrol ph uicontrol">WebService</span> to change project type and enable the toolbar for API testing.</p><p class="- topic/p p"><img class="- topic/image image" width="700" src="image/ks-project-settings.png"/></p><section class="- topic/section section"><h2 class="- topic/title title sectiontitle">Toolbar</h2>
+            
+            <p class="- topic/p p">The main toolbar contains API/Web Service testing related features only to help you navigate around the app easily and intuitively.</p>
+            <p class="- topic/p p"><img class="- topic/image image" width="250" src="type.png" alt="The Web Service type in the toolbar"/></p>
+            <div class="- topic/p p">Read more:<ul class="- topic/ul ul"><li class="- topic/li li"><a class="- topic/xref xref" href="../../Test_Objects/API_Test_Object/Import-Web-Service-Objects/import-rest-requests-from-swagger-20/import-rest-requests-from-swagger-20.html">Import OpenAPI 2 (Swagger)</a>.</li><li class="- topic/li li"><a class="- topic/xref xref" href="../../Test_Objects/API_Test_Object/Import-Web-Service-Objects/import-openapi30/import-openapi30.html">Import OpenAPI 3</a>.</li><li class="- topic/li li"><a class="- topic/xref xref" href="../../Test_Objects/API_Test_Object/Import-Web-Service-Objects/import-soap-requests-from-wsdl/c_intro_import-soap-requests-from-wsdl.html">Import WSDL</a>.</li><li class="- topic/li li"><a class="- topic/xref xref" href="../../Test_Objects/API_Test_Object/Import-Web-Service-Objects/import-postman/import-postman.html">Import Postman</a>.</li><li class="- topic/li li"><a class="- topic/xref xref" href="../../Test_Objects/API_Test_Object/Import-Web-Service-Objects/import-soapui/import-soapui.html">Import SoapUI</a>.</li></ul></div>
+        </section><section class="- topic/section section"><h2 class="- topic/title title sectiontitle">Request History panel</h2>
+            
+            <p class="- topic/p p">Same with a Katalon project, the left column now have the <a class="- topic/xref xref" href="../../Test_Objects/API_Test_Object/request-history/request-history.html">Request History</a> view where all the sent requests are saved here. You can freely access and retrieve them to work or save as a request object in the object repository.</p>
+            <p class="- topic/p p"><img class="- topic/image image" src="New-API.png"/></p>
+            <div class="- topic/note note note note_note"><span class="note__title">Note:</span> 
+                    <ul class="- topic/ul ul"><li class="- topic/li li">
+                            To learn more about API, refer to chapter 3 of our <span class="- topic/ph ph">Katalon Academy</span> course: <a class="- topic/xref xref" href="https://academy.katalon.com/courses/test-execution-management/?utm_source=kat_docs&amp;utm_medium=web_service_project" target="_blank" rel="external noopener">How to Utilize API for Effective Test Execution</a>.
+                        </li></ul>
+                </div>  </section></div></article></main></div>
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+            
+        </div> 
+        <footer class="navbar navbar-default wh_footer">
+  <div class=" footer-container mx-auto ">
+    Generated by <a class="oxyFooter" href="http://www.oxygenxml.com/xml_webhelp.html" target="_blank" rel="noopener">&lt;oXygen/&gt; XML WebHelp</a> - Evaluation Version
+  </div>
+</footer>
+        
+        <div id="go2top" class="d-print-none">
+            <span class="oxy-icon oxy-icon-up"></span>
+        </div>
+        
+        <div id="modal_img_large" class="modal">
+            <span class="close oxy-icon oxy-icon-remove"></span>
+            <div id="modal_img_container"></div>
+            <div id="caption"></div>
+        </div>
+        
+        
+        
+    </body>
+</html>

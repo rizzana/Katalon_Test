@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_10" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Improvements</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+
+          <li class="- topic/li ">[Katalon TestOps (Beta) Integration] Support detecting
+            Assertions in execution log. <xref format="html" href="https://forum.katalon.com/t/katalon-studio-7-8-2-make-use-of-assertions-for-better-test-case-quality-and-failure-investigation" scope="external" class="- topic/xref ">Learn
+               more</xref>
+          </li>
+
+          <li class="- topic/li ">[Time Capsule] Allow turning on/turning off Time Capsule in
+            Project Settings (Go to Project &gt; Settings &gt; Execution &gt;
+            WebUI). <xref href="../../../../Maintain/time-capsule/turn_on_off_time_capsule.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li>
+        </ul>
+      </conbody>
+    </concept>

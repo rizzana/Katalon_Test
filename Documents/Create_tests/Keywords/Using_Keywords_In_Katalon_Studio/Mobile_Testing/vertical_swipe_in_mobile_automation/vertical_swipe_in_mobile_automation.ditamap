@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-vertical_swipe_in_mobile_automation" class="- map/map ">
+  <title class="- topic/title ">Handling Vertical Swipe in Mobile Automation</title>
+  <topicref href="vertical_swipe_in_mobile_automation.dita" class="- map/topicref "><topicref href="swipe_vertically_from_top_to_bottom.dita" class="- map/topicref ">
+    <topicref href="scenario_1647942270188.758.dita" class="- map/topicref "/>
+    <topicref href="manual_mode_1647942270188.758.dita" class="- map/topicref "/>
+  </topicref>
+</topicref></map>

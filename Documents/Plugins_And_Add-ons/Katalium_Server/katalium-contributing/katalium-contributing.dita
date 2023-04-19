@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Contributing Guidelines for Katalium Server</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Katalium Server is open-sourced at
+         <codeph class="+ topic/ph pr-d/codeph ">https://github.com/katalon-studio/katalium-server</codeph>.</p></conbody></concept>

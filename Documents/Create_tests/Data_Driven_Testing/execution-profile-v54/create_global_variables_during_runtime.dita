@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_12" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Create Global Variables during runtime</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">Here is an approach provided by <xref format="html" href="https://forum.katalon.com/t/how-to-pass-user-defined-parameters-from-command-line/8771/22?u=jass" scope="external" class="- topic/xref ">Sergii
+            Tyshchenko</xref>.</p>
+        <ol class="- topic/ol ">
+          <li class="- topic/li ">Define an environment variable (with a path to an external
+            configuration or a properties file) in the session used to execute
+            Katalon Studio.</li>
+          <li class="- topic/li ">In the <codeph class="+ topic/ph pr-d/codeph ">TestListener</codeph>, read the variable's value (a
+            path to the file), load that file, and override the project
+            settings or Global variables. Use the following
+            metaprogramming:</li>
+        </ol>
+        
+          <codeblock class="+ topic/pre pr-d/codeblock ">@Keyword
+ void addGlobalVariable(String name, def value) {
+  GroovyShell shell1 = new GroovyShell()
+  MetaClass mc = shell1.evaluate("internal.GlobalVariable").metaClass
+  String getterName = "get" + name.capitalize()
+  mc.'static'."$getterName" = { -&gt; return value }
+  mc.'static'."$name" = value
+}
+</codeblock>
+        
+        <p class="- topic/p ">It is possible to add getter and/or setter as new methods to the
+         <codeph class="+ topic/ph pr-d/codeph ">GlobalVariable</codeph> class or add a new field. Then in the
+         script, you can use <codeph class="+ topic/ph pr-d/codeph ">GlobalVariable.VarName</codeph> where the
+         VarName is your new variable.</p>
+        
+          <codeblock class="+ topic/pre pr-d/codeblock ">CustomKeywords.'helper.addGlobalVariable'('localURL', 'katalon.com')
+println GlobalVariable.localURL
+</codeblock>
+        
+        <note type="note" class="- topic/note ">
+          <p class="- topic/p ">Go to the <xref format="html" href="https://forum.katalon.com/t/how-to-define-global-variables-within-scripts-i-e-on-the-fly/" scope="external" class="- topic/xref ">original
+               discussion</xref>.</p>
+        </note>
+      </conbody>
+    </concept>

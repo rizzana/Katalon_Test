@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-Introduction-desktop-app-testing" class="- map/map ">
+  <title class="- topic/title ">Introduction to Desktop App Testing</title>
+  <topicref href="introduction-desktop-app-testing.dita" class="- map/topicref "><topicref href="windows_execution_type.dita" class="- map/topicref "/>
+  <topicref href="windows_keyword.dita" class="- map/topicref "/>
+  <topicref href="windows_object.dita" class="- map/topicref "/>
+  <topicref href="spy_windows_object.dita" class="- map/topicref "/>
+  <topicref href="record_windows_action.dita" class="- map/topicref "/>
+</topicref>
+  </map>

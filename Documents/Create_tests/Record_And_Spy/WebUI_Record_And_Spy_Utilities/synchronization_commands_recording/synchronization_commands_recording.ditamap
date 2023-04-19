@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-synchronization_commands_recording" class="- map/map ">
+  <title class="- topic/title ">How to use synchronization commands while recording</title>
+  <topicref href="synchronization_commands_recording.dita" class="- map/topicref "><topicref href="what_is_synchronization.dita" class="- map/topicref ">
+    <topicref href="scenario_login_with_valid_credentials.dita" class="- map/topicref "/>
+  </topicref>
+</topicref></map>

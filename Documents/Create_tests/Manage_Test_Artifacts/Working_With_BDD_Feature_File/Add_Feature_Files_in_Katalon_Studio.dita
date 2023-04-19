@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task-7199" class="- topic/topic task/task "><title class="- topic/title ">Add Feature Files</title><shortdesc class="- topic/shortdesc ">This section shows you how to add feature files in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/>. Steps in the scenario will then be defined by step definitions.</shortdesc><taskbody class="- topic/body task/taskbody "><context class="- topic/section task/context ">To add a new feature files in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/>, do as follows:</context><steps class="- topic/ol task/steps "><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">In <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/>, open a Katalon project. Then, navigate to <uicontrol class="+ topic/ph ui-d/uicontrol ">Test Explorer</uicontrol> &gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">Include</uicontrol> &gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">features</uicontrol>. Right-click on the <uicontrol class="+ topic/ph ui-d/uicontrol ">features</uicontrol> folder and choose <uicontrol class="+ topic/ph ui-d/uicontrol ">New Feature File</uicontrol>.</cmd><info class="- topic/itemgroup task/info "><image href="image/ks-840-create-new-feature-file.png" width="500" class="- topic/image "><alt class="- topic/alt ">create new feature file</alt></image></info></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">The <uicontrol class="+ topic/ph ui-d/uicontrol ">New Feature File</uicontrol> dialog appears. Give your feature file a name. You may also choose to <uicontrol class="+ topic/ph ui-d/uicontrol ">Generate sample Feature template</uicontrol>. This option ensures that the created features file matches with BDD convention.</cmd><info class="- topic/itemgroup task/info "><image href="image/ks-840-new-feature-file.png" width="400" class="- topic/image "><alt class="- topic/alt ">new feature file</alt></image></info><stepresult class="- topic/itemgroup task/stepresult ">A new feature file is created.<image href="image/ks-840-new-feature-file-sample.png" width="750" class="- topic/image "><alt class="- topic/alt ">new feature file</alt></image></stepresult></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Add your scenarios to the feature file following the sample format:</cmd><info class="- topic/itemgroup task/info "><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Feature: List of scenarios.</p></li><li class="- topic/li "><p class="- topic/p ">Scenario: Business rule through list of steps with arguments.</p></li><li class="- topic/li "><p class="- topic/p ">Scenario Outline: Used where test data is replaced with multiple sets of data for each run of a test script.</p></li><li class="- topic/li "><p class="- topic/p ">Given: Precondition step.</p></li><li class="- topic/li "><p class="- topic/p ">When: Key actions.</p></li><li class="- topic/li "><p class="- topic/p ">Then: Observe outcomes or validation.</p></li><li class="- topic/li "><p class="- topic/p ">And, But: Enumerate more <b class="+ topic/ph hi-d/b ">Given, When, Then</b> steps.</p></li><li class="- topic/li "><p class="- topic/p ">Background: List of steps run before each of the scenarios.</p></li><li class="- topic/li "><p class="- topic/p ">Examples: Container for data set.</p></li><li class="- topic/li "><p class="- topic/p ">Tags/ Labels: To group relevant scenarios. Using tags is a good way to organize features and scenario. A feature or scenario may have multiple tags.</p></li></ul></info><info class="- topic/itemgroup task/info ">For example, to test the Login feature of the Katalon Demo Cura System (<codeph class="+ topic/ph pr-d/codeph ">https://katalon-demo-cura.herokuapp.com/</codeph>), there are two scenario outlines: login with a valid credential, and login with an invalid credential. In each scenario, there are specific <b class="+ topic/ph hi-d/b ">Given, When, Then</b> steps as shown below:</info><info class="- topic/itemgroup task/info "><image href="image/ks-840-login-feature-file.png" width="700" class="- topic/image "><alt class="- topic/alt ">log in feature file</alt></image></info><info class="- topic/itemgroup task/info "><b class="+ topic/ph hi-d/b ">Sample Feature File Script:</b><codeblock class="+ topic/pre pr-d/codeblock ">#Author: your.email@your.domain.com
+#Keywords Summary :
+#Feature: List of scenarios.
+#Scenario: Business rule through list of steps with arguments.
+#Given: Some precondition step
+#When: Some key actions
+#Then: To observe outcomes or validation
+#And,But: To enumerate more Given,When,Then steps
+#Scenario Outline: List of steps for data-driven as an Examples and &lt;placeholder&gt;
+#Examples: Container for s table
+#Background: List of steps run before each of the scenarios
+#""" (Doc Strings)
+#| (Data Tables)
+#@ (Tags/Labels):To group Scenarios
+#&lt;&gt; (placeholder)
+#""
+## (Comments)
+#Sample Feature Definition Template
+@Login
+Feature: Login Feature
+
+  As a user, I want to login to Cura System
+  so that I can make an appointment.
+
+  @Valid
+  Scenario Outline: Login with a valid credential
+    Given I navigate to Cura System homepage
+    When I click Make Appointment button
+    And I enter username &lt;username&gt; and password &lt;password&gt;
+    And I click Log in button 
+    Then I should be able to login successfully
+
+    Examples: 
+      | username | password           |
+      | John Doe | ThisIsNotAPassword |
+
+  @InValid
+  Scenario Outline: Login with an invalid credential
+    Given I navigate to Cura System homepage
+    When I click Make Appointment button
+    And I enter an invalid username &lt;username&gt; and password &lt;password&gt;
+    And I click Log in button
+    Then I should NOT be able to login successfully
+
+    Examples: 
+      | username | password           |
+      | Jane Doe | ThisIsNotAPassword |</codeblock></info></step></steps></taskbody></task>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/pinch_zoom_action_mobile_app?><?workdir-uri file:/Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/pinch_zoom_action_mobile_app/?><?path2project ../../../../../../?><?path2project-uri ../../../../../../?><?path2rootmap-uri ../../../../../../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="id_3" class="- topic/topic concept/concept " ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/pinch_zoom_action_mobile_app/script_mode_1647942244899.087.dita" xtrc="concept:1;3:59" specializations="@props/deliveryTarget"><title class="- topic/title " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/pinch_zoom_action_mobile_app/script_mode_1647942244899.087.dita" xtrc="title:1;3:89">Script Mode</title><conbody class="- topic/body  concept/conbody " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/pinch_zoom_action_mobile_app/script_mode_1647942244899.087.dita" xtrc="conbody:1;3:156"><codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/pinch_zoom_action_mobile_app/script_mode_1647942244899.087.dita" xtrc="codeblock:1;3:203">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+ 
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+ 
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+ 
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+ 
+'Path of the Apk File Store in path variable'
+ 
+def path = RunConfiguration.getProjectDir() + '/Data Files/ApiDemos.apk'
+ 
+'Start the application'
+ 
+Mobile.startApplication(path, false)
+ 
+'Wait for element Present of Heading API Demos'
+ 
+Mobile.waitForElementPresent(findTestObject('API Demos Objects/Zoom_IN/heading_API_Demos'), 45)
+ 
+'Checking the Element "Heading API Demos" is in Visible '
+ 
+Mobile.verifyElementVisible(findTestObject('API Demos Objects/Zoom_IN/heading_API_Demos'), 30)
+ 
+'Scroll to Views text'
+ 
+Mobile.scrollToText('Views', FailureHandling.STOP_ON_FAILURE)
+ 
+'Tap on Views'
+ 
+Mobile.tap(findTestObject('API Demos Objects/Zoom_IN/text_Views'), 20)
+ 
+'Scroll to WebView text'
+ 
+Mobile.scrollToText('WebView', FailureHandling.STOP_ON_FAILURE)
+ 
+'Checking the Element "WebView" is in Visible '
+ 
+Mobile.verifyElementVisible(findTestObject('API Demos Objects/Zoom_IN/text_WebView'), 30)
+ 
+'Tap on WebView'
+ 
+Mobile.tap(findTestObject('API Demos Objects/Zoom_IN/text_WebView'), 30)
+ 
+'Wait for Element Present "Hello World"'
+ 
+Mobile.waitForElementPresent(findTestObject('API Demos Objects/Zoom_IN/link_Hello World'), 30)
+ 
+'Checking the Element "Hello World" is in Visible '
+ 
+Mobile.verifyElementVisible(findTestObject('API Demos Objects/Zoom_IN/link_Hello World'), 30)
+ 
+'Get Element Height of "Hello World" Element'
+ 
+ele_Height = Mobile.getElementHeight(findTestObject('API Demos Objects/Zoom_IN/link_Hello World'), 30)
+ 
+'Get Element Width of "Hello World" Element'
+ 
+ele_Width = Mobile.getElementWidth(findTestObject('API Demos Objects/Zoom_IN/link_Hello World'), 30)
+ 
+'Pinch to Zoom In on "Hello World" Element up to 200 Offset'
+ 
+Mobile.pinchToZoomInAtPosition(ele_Height, ele_Width, 200)
+ 
+'Get Element Height of  Zoom In "Hello World" Element'
+ 
+zoom_ele_Height = Mobile.getElementHeight(findTestObject('API Demos Objects/Zoom_IN/link_Hello World'), 30)
+ 
+'Get Element Width of Zoom In "Hello World" Element'
+ 
+zoom_ele_Width = Mobile.getElementWidth(findTestObject('API Demos Objects/Zoom_IN/link_Hello World'), 30)
+ 
+'Verify the Element Height of Zoom In greater than normal Element height'
+ 
+Mobile.verifyGreaterThan(zoom_ele_Height, ele_Height)
+ 
+'Verify the Element Width of Zoom In greater than normal Element Width'
+ 
+Mobile.verifyGreaterThan(zoom_ele_Width, ele_Width)
+ 
+'Close the Application.'
+ 
+Mobile.closeApplication()
+
+</codeblock><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/pinch_zoom_action_mobile_app/script_mode_1647942244899.087.dita" xtrc="p:1;87:35">The source code is available <xref format="html" href="https://github.com/katalon-studio/katalon-mobile-automation" scope="external" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/pinch_zoom_action_mobile_app/script_mode_1647942244899.087.dita" xtrc="xref:1;87:190"><?ditaot usertext?>here</xref>. For
+         further instructions and help, please refer to <xref href="../../../Keywords_Description_In_Katalon_Studio/Mobile-Keywords/mobile-pinch-to-zoom-in-at-position/mobile-pinch-to-zoom-in-at-position.dita" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/pinch_zoom_action_mobile_app/script_mode_1647942244899.087.dita" xtrc="xref:2;88:233" type="concept"><?ditaot usertext?>Pinch
+            To Zoom In At Position</xref> guide and join us on <xref format="html" href="http://forum.katalon.com/" scope="external" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/pinch_zoom_action_mobile_app/script_mode_1647942244899.087.dita" xtrc="xref:3;89:156"><?ditaot usertext?>Katalon Forum</xref>.</p></conbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="ditamap-8764" xtrc="topicref:4;7:80" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/pinch_zoom_action_mobile_app/pinch_zoom_action_mobile_app.ditamap"><link class="- topic/link " format="dita" href="../../../../../../Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/pinch_zoom_action_mobile_app/pinch_zoom_action_mobile_app.dita" mapclass="- map/topicref " role="parent" scope="local" type="concept" xtrc="topicref:1;5:78" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Mobile_Testing/pinch_zoom_action_mobile_app/pinch_zoom_action_mobile_app.ditamap"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Performing Pinch to Zoom In Action in Katalon Studio</linktext></link></linkpool></related-links></concept>

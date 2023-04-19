@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-azure-devops-test-plans" class="- map/map "><title class="- topic/title ">Integration with Azure DevOps Test Plans</title><topicref href="intro-azure-devops-test-plans.dita" class="- map/topicref "><topicref href="Enable_Azure_DevOps_Test_Plans_integration.dita" class="- map/topicref "/><topicref href="Map_test_cases_between_Katalon_Studio_and_Azure_DevOps.dita" class="- map/topicref "/></topicref></map>

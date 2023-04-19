@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Upgrade to an annual billing cycle</title><conbody class="- topic/body  concept/conbody "><note type="warning" class="- topic/note ">
+        
+        
+        <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">You cannot change your annual subscription back to a monthly
+            one.</p></li><li class="- topic/li "><p class="- topic/p ">You can only subscribe monthly again once your annual
+            subscription has ended.</p></li></ul>
+      </note><p class="- topic/p ">To upgrade, follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">Sign in to <xref format="html" href="https://testops.katalon.io/" scope="external" class="- topic/xref ">Katalon
+               TestOps</xref> and select your desired Account.</li><li class="- topic/li ">Go to <uicontrol class="+ topic/ph ui-d/uicontrol ">Settings</uicontrol> &gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">Subscription
+               Management</uicontrol>.</li><li class="- topic/li ">In the <uicontrol class="+ topic/ph ui-d/uicontrol ">Choose a plan</uicontrol> section, switch the billing cycle option of your current plan to <uicontrol class="+ topic/ph ui-d/uicontrol ">Annual</uicontrol>.</li><li class="- topic/li ">Review the new plan and its price, then click
+            <uicontrol class="+ topic/ph ui-d/uicontrol ">Checkout</uicontrol>.</li></ol><p class="- topic/p ">Successful payment will immediately change your subscription
+         type.</p></conbody></concept>

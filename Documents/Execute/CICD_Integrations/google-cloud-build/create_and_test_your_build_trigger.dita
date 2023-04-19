@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Create and test your build trigger</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">A Cloud Build trigger automatically starts a build whenever you
+         make changes to your source code. You need to connect Cloud Build
+         to the sample GitHub repository and then create a trigger that
+         automatically monitors changes and builds code.</p>
+
+      <p class="- topic/p ">For detailed instructions on connecting to repositories and
+         building triggers, refer to this guide: <xref format="html" href="https://cloud.google.com/build/docs/automating-builds/create-manage-triggers" scope="external" class="- topic/xref ">Creating
+            and managing build triggers</xref>.</p>
+    </conbody>
+    
+    
+    
+  </concept>

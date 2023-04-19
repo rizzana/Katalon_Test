@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">What is Checkpoint?</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Checkpoint is the <b class="+ topic/ph hi-d/b ">snapshot</b> of test data taken
+         at a specific time. A checkpoint is used to verify whether the
+         <b class="+ topic/ph hi-d/b ">current</b> state of the data source is different from
+         its <b class="+ topic/ph hi-d/b ">previous</b> taken state. An example where
+         Checkpoints proves to be helpful are database validation cases
+         where value usually changes constantly.</p></conbody></concept>

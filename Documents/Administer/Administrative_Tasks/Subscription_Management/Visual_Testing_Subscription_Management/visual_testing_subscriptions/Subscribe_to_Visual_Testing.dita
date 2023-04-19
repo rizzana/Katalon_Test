@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-8855" xml:lang="en-us" class="- topic/topic concept/concept "><title class="- topic/title ">Subscribe to Visual Testing</title><shortdesc class="- topic/shortdesc ">Visual Testing is an add-on to your TestOps plan. <ph conkeyref="plan-variables/plan-1" class="- topic/ph "/> users and <ph conkeyref="plan-variables/plan-2" class="- topic/ph "/>  users can automatically use the Visual Testing Standard (VTS) package for free.<!--Removed anchor point
+          id_1--><!--Removed anchor point
+          id_2--><!--Removed anchor point
+          id_3--><!--Removed anchor point
+          id_4--><!--Removed anchor point
+          id_5--><!--Removed anchor point
+          id_1--><!--Removed anchor point
+          id_2--><!--Removed anchor point
+          id_3--><!--Removed anchor point
+          id_4--></shortdesc><prolog class="- topic/prolog "><author translate="no" type="creator" class="- topic/author ">Windy Le &lt;windy.le@katalon.com&gt;</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "/></metadata></prolog><conbody class="- topic/body  concept/conbody "><p class="- topic/p "><ph conkeyref="name-variables/katalon-platform" class="- topic/ph "/> <ph conkeyref="plan-variables/plan-2" class="- topic/ph "/> users and <ph conkeyref="plan-variables/plan-3" class="- topic/ph "/> users can subscribe to the Visual Testing Professional (VTP) package in one of the following ways:<ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "><xref href="https://katalon.com/pricing/" scope="external" class="- topic/xref ">Via Katalon website</xref>.</p></li><li class="- topic/li "><p class="- topic/p ">Via TestOps website.</p></li></ul></p><section class="- topic/section "><title class="- topic/title ">Requirements</title><p class="- topic/p "><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">You have created a <xref href="https://my.katalon.com/login" scope="external" class="- topic/xref ">Katalon account</xref>.</p></li><li class="- topic/li "><p class="- topic/p ">You have already subscribed to a <ph conkeyref="plan-variables/plan-2" class="- topic/ph "/> or <ph conkeyref="plan-variables/plan-3" class="- topic/ph "/>  plan.</p></li></ul></p></section></conbody></concept>

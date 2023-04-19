@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Feature files</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To open the sample feature files, go to <b class="+ topic/ph hi-d/b ">Include &gt;
+            features &gt; operations</b>. Double-click to open one of the
+         following .feature files:</p><table class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Feature files</entry><entry class="- topic/entry ">Description</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">Divide.feature</entry><entry class="- topic/entry ">This file outlines the scenario to perform the dividing actions
+                  on the react calculator.</entry></row><row class="- topic/row "><entry class="- topic/entry ">Minus.feature</entry><entry class="- topic/entry ">This file outlines the scenario to perform the minus actions on
+                  the react calculator.</entry></row><row class="- topic/row "><entry class="- topic/entry ">Multiply.feature</entry><entry class="- topic/entry ">This file outlines the scenario to perform the multiplying
+                  actions on the react calculator.</entry></row><row class="- topic/row "><entry class="- topic/entry ">Plus.feature</entry><entry class="- topic/entry ">This file outlines the scenario to perform the plus actions on
+                  the react calculator.</entry></row></tbody></tgroup></table><p class="- topic/p ">To learn more about feature files creation and maintenance in
+         Katalon Studio, you can refer to this document: <xref href="../../../../Create_tests/Manage_Test_Artifacts/Working_With_BDD_Feature_File/add_feature_files.dita" class="- topic/xref ">Create
+            &amp; maintain feature files</xref>.</p><p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/BDD-sample-prj/KS-BDD-Feature-files.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">Feature files in the BDD project</alt></image>
+        </p></conbody></concept>

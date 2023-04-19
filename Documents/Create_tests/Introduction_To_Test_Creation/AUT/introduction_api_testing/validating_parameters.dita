@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_25" class="- topic/topic concept/concept "><title class="- topic/title ">Validating parameters</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Software testing team may find it challenging invalidating the
+         parameters sent through API requests because of the sheer number of
+         parameters and use cases for those parameters. Testers need to
+         ensure all parameter data uses the correct string or numerical data
+         type, fits within length restrictions, fits within the designated
+         value range and pass other validation criteria.</p><p class="- topic/p ">To solve this problem, testing team can use the continuous
+         synthetic API monitoring to detect the problem early. Besides, it
+         should be combined with an APM solution to get the 360-degree
+         view.</p></conbody></concept>

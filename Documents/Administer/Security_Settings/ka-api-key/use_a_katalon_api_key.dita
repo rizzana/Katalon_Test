@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Use a Katalon API Key</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <ol class="- topic/ol ">
+        <li class="- topic/li ">
+          <p class="- topic/p ">Go to your <b class="+ topic/ph hi-d/b ">Katalon API Key</b> page.</p>
+          <p class="- topic/p ">You can see a list of all API Keys here.</p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Click on the <i class="+ topic/ph hi-d/i ">Copy</i> icon of the API Key you want to
+               use.</p>
+          <p class="- topic/p ">You have copied your API Key.</p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Paste the copied API Key to the required platform.</p>
+        </li>
+      </ol>
+      <p class="- topic/p ">You can now use your API Key.</p>
+    </conbody>
+  </concept>

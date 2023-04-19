@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Submit documents for published plugins on <ph conkeyref="name-variables/katalon-store" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Besides having a brief description published in
+         <b class="+ topic/ph hi-d/b ">Overview</b> tab in each plugin's detail page, you can
+         create your own documentation with more detailed information or
+         tutorials for your published plugin and make it viewable on <ph conkeyref="name-variables/katalon-store" class="- topic/ph "/>
+         by following these steps:</p><ul class="- topic/ul "><li class="- topic/li ">Go to <xref format="html" href="https://store.katalon.com/manage/publisher" scope="external" class="- topic/xref ">Published
+               plugin</xref> tab in <b class="+ topic/ph hi-d/b ">My plugins</b> menu</li><li class="- topic/li ">Choose <b class="+ topic/ph hi-d/b ">Update</b> option right below the plugin to
+            direct to <b class="+ topic/ph hi-d/b ">Submit plugin information</b> page</li><li class="- topic/li ">Insert your documentation source in
+            <b class="+ topic/ph hi-d/b ">Documentation</b> field</li></ul><p class="- topic/p ">After finishing all the steps, there will be a hyperlink to your
+         plugin documentation displayed in <b class="+ topic/ph hi-d/b ">Project details</b>
+         section in the plugin page.</p></conbody></concept>

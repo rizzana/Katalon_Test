@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_11" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Fixes</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">Bug: An issue of generating a Time Capsule for an error that
+            doesn't cause test execution to fail.</li>
+
+          <li class="- topic/li ">Bug: An issue of showing "No application is started yet" when
+            test execution is already started. Address <xref format="html" href="https://github.com/katalon-studio/katalon-studio/issues/409" scope="external" class="- topic/xref ">here</xref>
+          </li>
+          <li class="- topic/li ">Bug: Cannot generate execution reports when
+            <codeph class="+ topic/ph pr-d/codeph ">WebUI.comment</codeph> contains invalid XML characters.</li>
+        </ul>
+      </conbody>
+    </concept>

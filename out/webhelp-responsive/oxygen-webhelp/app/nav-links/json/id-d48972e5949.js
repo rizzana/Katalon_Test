@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"id-d48972e5949":{"topics":[{"title":"Tutorials","href":"Documents\/Create_tests\/Manage_Projects\/Project_Settings\/Desired_Capabilities\/Remote_Execution_For_Mobile_Testing\/tutorials.html","attributes":{"data-id":"id_2"},"menu":{"hasChildren":false},"tocID":"id_2-d48972e5959","topics":[]}]}};

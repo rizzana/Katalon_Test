@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Update a build</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ol class="- topic/ol ">
+          <li class="- topic/li ">
+            <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Planning</b> &gt;
+               <b class="+ topic/ph hi-d/b ">Releases</b>.</p>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">Select a Release.</p>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">Scroll down to view a list of Builds in the
+               <b class="+ topic/ph hi-d/b ">Builds</b> section.</p>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">Click on the <i class="+ topic/ph hi-d/i ">Extension</i> icon of the Build you want to
+               update.</p>
+            <p class="- topic/p ">
+              <image href="https://raw.githubusercontent.com/katalon-studio/docs-images/testops-new/katalon-analytics/docs/build/build-edit-delete.png" scope="external" class="- topic/image ">
+                <alt class="- topic/alt ">edit build</alt>
+              </image>
+            </p>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Edit</b>.</p>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">Update the Build's information.</p>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Save</b>.</p>
+          </li>
+        </ol>
+        <p class="- topic/p ">You have updated a Build.</p>
+      </conbody>
+    </concept>

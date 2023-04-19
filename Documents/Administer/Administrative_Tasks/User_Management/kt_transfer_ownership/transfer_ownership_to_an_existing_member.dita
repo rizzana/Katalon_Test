@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Transfer ownership to an existing member</title><conbody class="- topic/body  concept/conbody "><note type="important" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">
+                    <p class="- topic/p ">You have invited the user to join your Organization. See: <xref href="../kt_invite_user_org/invite_users_to_join_an_organization.dita" class="- topic/xref ">Invite users to join an Organization</xref>.</p>
+                </li></ul>
+        </note><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Sign in to <xref format="html" href="https://testops.katalon.io/login" scope="external" class="- topic/xref ">Katalon TestOps</xref>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Settings</b> &gt; <b class="+ topic/ph hi-d/b ">User Management</b>.</p>
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">User Management</b> page appears. You can see a list of active members in the <b class="+ topic/ph hi-d/b ">Active Users</b> section.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Mouse over the member you want to select, then click on the <i class="+ topic/ph hi-d/i ">Extension</i> icon at the end of the row.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-transfer-ownership/transfer-owner-role-button.png" scope="external" class="- topic/image "><alt class="- topic/alt ">extension icon click</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Select <b class="+ topic/ph hi-d/b ">Transfer Owner Role</b>.</p>
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Transfer Owner Role</b> box pops up as below.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-transfer-ownership/transfer-owner-role-popup-box.png" scope="external" class="- topic/image "><alt class="- topic/alt ">transfer ownership popup</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Check the email address you want to transfer ownership to.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Enter your account's password for authentication.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click on the red <b class="+ topic/ph hi-d/b ">Transfer Owner Role</b> button to finish.</p>
+                <note type="warning" class="- topic/note ">
+                    <ul class="- topic/ul "><li class="- topic/li ">
+                            <p class="- topic/p ">You cannot undo this action.</p>
+                        </li></ul>
+                </note>
+            </li></ol><p class="- topic/p ">You have transferred the Organization to the selected email address/member.</p><p class="- topic/p ">That member is now the Owner of your Organization. The new Owner has all privileges (including ownership transfering) in the Organization. See: <xref href="../../../Administrative_Roles/testops-roles-privileges/org-level-roles-privileges.dita" class="- topic/xref ">Roles and permissions</xref>.</p><p class="- topic/p ">After transfering ownership, your role has automatically become the <b class="+ topic/ph hi-d/b ">Admin</b> role.</p><note type="note" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">Transferring Organization ownership does not affect Team ownership. The previous Organization Owner maintains Owner permissions for the Teams they have created.</li></ul>
+        </note></conbody></concept>

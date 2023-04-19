@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">New features</title><conbody class="- topic/body  concept/conbody "><ul class="- topic/ul "><li class="- topic/li ">Support screenshot taking keywords for Mobile and Web testing,
+            including: 
+            
+            <ul class="- topic/ul "><li class="- topic/li ">[Mobile] <xref href="../../../../Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Visual-based-Mobile-Testing-Keywords/mobile-take-screenshot-as-checkpoint/mobile-take-screenshot-as-checkpoint.dita" class="- topic/xref ">Take Screenshot As
+                  Checkpoint</xref></li><li class="- topic/li ">[Mobile] <xref href="../../../../Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Mobile-Keywords/mobile-take-element-screenshot/mobile-take-element-screenshot.dita" class="- topic/xref ">Take Element
+                  Screenshot</xref></li><li class="- topic/li ">[Mobile] <xref href="../../../../Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Visual-based-Mobile-Testing-Keywords/mobile-take-element-screenshot-as-checkpoint/mobile-take-element-screenshot-as-checkpoint.dita" class="- topic/xref ">Take Element Screenshot As
+                  Checkpoint</xref></li><li class="- topic/li ">[Mobile] <xref href="../../../../Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Mobile-Keywords/mobile-take-area-screenshot/mobile-take-area-screenshot.dita" class="- topic/xref ">Take Area
+                  Screenshot</xref></li><li class="- topic/li ">[Mobile] <xref href="../../../../Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Visual-based-Mobile-Testing-Keywords/mobile-take-area-screenshot-as-checkpoint/mobile-take-area-screenshot-as-checkpoint.dita" class="- topic/xref ">Take Area Screenshot As
+                  Checkpoint</xref></li><li class="- topic/li ">[Web UI] <xref href="../../../../Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Visual-based-Web-Testing-Keywords/webui-take-screenshot-as-checkpoint/webui-take-screenshot-as-checkpoint.dita" class="- topic/xref ">Take Screenshot As
+                  Checkpoint</xref></li><li class="- topic/li ">[Web UI] <xref href="../../../../Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Web-UI-Keywords/webui-take-element-screenshot/webui-take-element-screenshot.dita" class="- topic/xref ">Take Element
+                  Screenshot</xref></li><li class="- topic/li ">[Web UI] <xref href="../../../../Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Visual-based-Web-Testing-Keywords/webui-take-element-screenshot-as-checkpoint/webui-take-element-screenshot-as-checkpoint.dita" class="- topic/xref ">Take Element Screenshot As
+                  Checkpoint</xref></li><li class="- topic/li ">[Web UI] <xref href="../../../../Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Web-UI-Keywords/webui-take-area-screenshot/webui-take-area-screenshot.dita" class="- topic/xref ">Take Area
+                  Screenshot</xref></li><li class="- topic/li ">[Web UI] <xref href="../../../../Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Visual-based-Web-Testing-Keywords/webui-take-area-screenshot-as-checkpoint/webui-take-area-screenshot-as-checkpoint.dita" class="- topic/xref ">Take Area Screenshot As
+                  Checkpoint</xref></li></ul>
+          </li><li class="- topic/li ">Support Class File Decompiler for debug. <xref href="../../../../Maintain/class-decompiler/class-decompiler.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li><li class="- topic/li ">Support setting a new default JRE in test projects. <xref href="../../../../Get_Started/Set_Up_Your_Workspace/Katalon_Studio_Preferences/Set_A_New_Default_JRE_For_Test_Projects/set-new-default-jre.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li><li class="- topic/li ">[Katalon TestOps Vision] Support <xref format="html" href="https://github.com/katalon-studio-samples/web-visual-testing-samples" scope="external" class="- topic/xref ">a
+               sample project for Visual Testing with TestOps Vision</xref>.</li></ul></conbody></concept>

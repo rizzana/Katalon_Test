@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept "><title class="- topic/title ">For Docker Image</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Katalon Docker Image could be used as a container to execute Katalon Studio tests and write reports to the host's file system.</p><p class="- topic/p ">Currently, Katalon Docker Image doesn’t include FFmpeg library. You can build your own image by following these steps:</p><ol class="- topic/ol "><li class="- topic/li ">Create a docker image file with this content:
+                <codeblock class="+ topic/pre pr-d/codeblock ">FROM katalonstudio/katalon
+RUN apt-get -y update
+RUN apt-get install -y ffmpeg</codeblock>
+            </li><li class="- topic/li ">Build your own image. Eg:
+                <codeblock class="+ topic/pre pr-d/codeblock ">docker build -t mybuild .</codeblock>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Run your docker with Katalon script. Eg:</p>
+                <codeblock class="+ topic/pre pr-d/codeblock ">docker run -t --rm -v "$(pwd)":/tmp/project mybuild katalonc.sh -projectPath=/tmp/project - browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="Test Suites/TS_RegressionTest"
+             </codeblock>
+            </li></ol></conbody></concept>

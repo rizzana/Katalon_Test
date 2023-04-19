@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Example</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">In this example, we want to skip the Test Case named: "Google"
+         in a test suite. We input the following sample code in the
+         <b class="+ topic/ph hi-d/b ">Skiptest</b> Listener:</p><codeblock class="+ topic/pre pr-d/codeblock ">class Skiptest {
+    /**
+     * Executes before every test case starts.
+     * @param testCaseContext related information of the executed test case.
+     */
+    @BeforeTestCase
+    def sampleBeforeTestCase(TestCaseContext testCaseContext) {
+    println testCaseContext.getTestCaseId()
+    println testCaseContext.getTestCaseVariables()
+    if ((testCaseContext.getTestCaseId()) == "Test Cases/Google") 
+        {   testCaseContext.skipThisTestCase()
+        }
+}
+</codeblock><p class="- topic/p ">Check the results after running the Test Suite. Katalon
+         successfully skips the test case named: "Google".</p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/8dc7e1d66cd0fe2719aaeabc91d5040ede4bb2aa/katalon-studio/docs/skip-test-cases/KS-SKIP-Results-after-skipping-test-cases.png" scope="external" width="70%" class="- topic/image "><alt class="- topic/alt ">Results after skipping test case</alt></image>
+      </p></conbody></concept>

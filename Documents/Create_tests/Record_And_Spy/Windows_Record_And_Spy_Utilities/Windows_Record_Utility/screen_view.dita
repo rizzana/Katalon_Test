@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">Screen View</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Screen View</b> shows the application screenshots taken when you press the <b class="+ topic/ph hi-d/b ">Start</b> button to record or the <b class="+ topic/ph hi-d/b ">Refresh Screen</b> button to recapture the application images. The size of a captured screenshot is the same as the displayed application window on the testing machine.</p><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-record-utility/KS-Screen-View-section.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Screen view</alt></image>
+        </p></conbody></concept>

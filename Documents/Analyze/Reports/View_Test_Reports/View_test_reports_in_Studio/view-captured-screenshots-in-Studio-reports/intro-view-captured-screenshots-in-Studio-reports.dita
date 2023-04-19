@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">View captured screenshots in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> reports</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">With Katalon Studio, you can capture screenshots during test
+         execution.</p><p class="- topic/p ">Capturing screenshots helps you identify the problem when a test
+         fails. By doing so, you can debug the test script more effectively
+         and quickly.</p><p class="- topic/p ">By default, Katalon Studio captures screenshots automatically
+         upon test failures. This feature is currently applicable to Web UI
+         and Mobile testing.</p></conbody></concept>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Parameterize Web Test Objects and their properties</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">With parameterizing test objects, you can update test objects'
+         locators dynamically by using either local or global variables.
+         This feature comes in handy in these use cases:</p><ul class="- topic/ul "><li class="- topic/li ">You want to perform a bulk action on a group of similar
+            elements without defining multiple Test Objects, such as checking
+            on multiple checkboxes;</li><li class="- topic/li ">You can only identify an object's locator during runtime
+            because there's a group of similar objects and the chosen one
+            cannot be specified beforehand in test scripts.</li></ul><p class="- topic/p ">Katalon Studio supports parameterizing properties of test
+         objects to handle dynamic objects. Dynamic objects are those that
+         have some particular changes in their properties based on specific
+         business rules. The example below describes how to apply this
+         feature.</p><p class="- topic/p ">Open <xref format="html" href="https://github.com/katalon-studio-samples/healthcare-tests" scope="external" class="- topic/xref ">the
+            Health Care sample project</xref>, navigate to Object
+         Repository/Page_Login.</p><ol class="- topic/ol "><li class="- topic/li ">Select the object whose properties you want to parameterize. In
+            this case, the selected test object is
+            <codeph class="+ topic/ph pr-d/codeph ">txt_Username</codeph>.</li><li class="- topic/li ">Capture its locator and create a variable with this syntax
+            <codeph class="+ topic/ph pr-d/codeph ">${variable_name}</codeph> as a place holder for its dynamic
+            property. For example, we create the <codeph class="+ topic/ph pr-d/codeph ">${id}</codeph> variable
+            for the <codeph class="+ topic/ph pr-d/codeph ">id</codeph> property's value. You can parameterize test
+            objects with different selection methods.<ul class="- topic/ul "><li class="- topic/li ">
+        <p class="- topic/p ">Attributes <image height="398" href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/param-web-object/attributes.png" scope="external" width="896" class="- topic/image "/>
+        </p>
+      </li><li class="- topic/li ">
+        <p class="- topic/p ">XPath <image height="243" href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/param-web-object/xpath-id.png" scope="external" width="606" class="- topic/image "/>
+        </p>
+      </li><li class="- topic/li ">
+        <p class="- topic/p ">CSS <image height="130" href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/param-web-object/css-id.png" scope="external" width="395" class="- topic/image "/>
+        </p>
+      </li></ul></li><li class="- topic/li "><p class="- topic/p ">Using the parameterized test objects.</p></li></ol><ul class="- topic/ul "><li class="- topic/li ">
+        <p class="- topic/p ">
+          <b class="+ topic/ph hi-d/b ">Manual View</b>
+        </p>
+        <p class="- topic/p ">Open your Test Case in the <b class="+ topic/ph hi-d/b ">Manual View</b> and
+               double-click on the object that you want to parameterize its
+               properties.</p>
+        <p class="- topic/p ">
+          <image height="466" href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/param-web-object/1.declare.png" scope="external" width="907" class="- topic/image "/>
+        </p>
+        <p class="- topic/p ">In the displayed <b class="+ topic/ph hi-d/b ">Test Object
+                  Input</b> dialog, declare the expected dynamic property
+               as a variable in the <b class="+ topic/ph hi-d/b ">Variables</b> panel.</p>
+        <p class="- topic/p ">
+          <image height="697" href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/param-web-object/2.variables-tab.png" scope="external" width="576" class="- topic/image "/>
+<ul class="- topic/ul "><li class="- topic/li ">Param Type: the variable type (The default type is
+                  String).</li><li class="- topic/li ">Param: the variable name.</li><li class="- topic/li ">Value Type: the type of the variable's value.</li><li class="- topic/li ">Value: a specific value of that variable.</li></ul>        </p>
+        
+        <p class="- topic/p ">In this case, Katalon Studio uses the <codeph class="+ topic/ph pr-d/codeph ">id</codeph> variable
+               with its specific value as <codeph class="+ topic/ph pr-d/codeph ">4TH4T934253&amp;#^%(</codeph> to
+               find the <codeph class="+ topic/ph pr-d/codeph ">txt_UserName</codeph> object.</p>
+      </li><li class="- topic/li ">
+        <p class="- topic/p ">
+          <b class="+ topic/ph hi-d/b ">Script View</b>
+        </p>
+        <p class="- topic/p ">Once the property is declared, you can switch to the
+               <b class="+ topic/ph hi-d/b ">Script View</b> and adjust the perceived value of the
+               property. Typically, users want to pass the property value as a
+               variable or refer to data files.</p>
+        <p class="- topic/p ">The general syntax to find a test object using a dynamic
+               property is as follows:</p>
+        
+          <codeblock class="+ topic/pre pr-d/codeblock ">findTestObject('{your test object}', [('{property}') : '{value of property}'])
+</codeblock>
+        
+        <p class="- topic/p ">For example:</p>
+        <ul class="- topic/ul "><li class="- topic/li ">One dynamic property:</li></ul>
+        
+          <codeblock class="+ topic/pre pr-d/codeblock ">findTestObject('Page_Login/txtUserName', ['id' : '48415648'])
+</codeblock>
+        
+        <ul class="- topic/ul "><li class="- topic/li ">Two dynamic properties:</li></ul>
+        
+          <codeblock class="+ topic/pre pr-d/codeblock ">findTestObject('Page_Login/txtUserName', ['id' : '48415648', [('name') : 'controler14585']])
+</codeblock>
+        
+        <ul class="- topic/ul "><li class="- topic/li ">Using the variable for the dynamic property's value:</li></ul>
+        <p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/manage-test-object/image2017-6-30-203A223A13.png" scope="external" class="- topic/image "/>
+        </p>
+      </li></ul></conbody></concept>

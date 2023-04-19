@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Configure the GCP project</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">After setting up the GCP project, you need to configure the
+         following components:</p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">A <codeph class="+ topic/ph pr-d/codeph ">cloudbuild.yml</codeph> file at the root directory of
+            your repository that contains the build configuration for Cloud
+            Build.</li>
+        <li class="- topic/li ">A GCP secret to store your Katalon API key.</li>
+      </ul>
+    </conbody>
+    
+    
+  </concept>

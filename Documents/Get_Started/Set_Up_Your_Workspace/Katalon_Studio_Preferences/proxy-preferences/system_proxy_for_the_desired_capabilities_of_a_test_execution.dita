@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">System proxy for the desired capabilities of a test
+         execution</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p "><ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> applies the system proxy to the desired capabilities
+      of a test execution on the instance automatically. If you wish to
+      configure different proxy settings depending on your projects, you
+      can use desired capabilities as follows: 
+      
+      </p><ol class="- topic/ol "><li class="- topic/li ">Open your project and go to <uicontrol class="+ topic/ph ui-d/uicontrol ">Katalon Studio</uicontrol> &gt;
+               <uicontrol class="+ topic/ph ui-d/uicontrol ">Preferences</uicontrol> &gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">Katalon</uicontrol> &gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">Proxy</uicontrol> &gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">System</uicontrol>.</li><li class="- topic/li ">
+          <p class="- topic/p ">At the bottom of the displayed view, uncheck the
+               <uicontrol class="+ topic/ph ui-d/uicontrol ">Auto-apply to test execution desired capabilities</uicontrol>
+               option.</p></li><li class="- topic/li "><p class="- topic/p "> Click <uicontrol class="+ topic/ph ui-d/uicontrol ">Apply</uicontrol> to save.</p>
+          <p class="- topic/p ">
+            
+          <image width="800" href="image/ks-system-preference-dc.png" class="- topic/image "><alt class="- topic/alt ">desire capabilities for system preference</alt></image></p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Go to <uicontrol class="+ topic/ph ui-d/uicontrol ">Project</uicontrol> &gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">Settings</uicontrol> &gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">Desired Capabilities</uicontrol> and
+               select a testing environment.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Specify proxy details and click <uicontrol class="+ topic/ph ui-d/uicontrol ">Apply</uicontrol> to save.</p>
+          <p class="- topic/p ">For example:</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/proxy-preferences/proxy-project-settings.png" scope="external" width="700" class="- topic/image "><alt class="- topic/alt ">use proxy for desired capabilities</alt></image>
+          </p>
+        </li></ol></conbody></concept>

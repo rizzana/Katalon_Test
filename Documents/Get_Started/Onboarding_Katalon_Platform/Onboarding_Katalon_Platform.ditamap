@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-9153" class="- map/map "><title class="- topic/title ">Onboarding Katalon Platform</title><mapref format="ditamap" href="Quick_guide_for_testers/Quick_guide_for_testers.ditamap" class="+ map/topicref mapgroup-d/mapref "/><mapref format="ditamap" href="Quick_guide_for_QA_managers/Quick_guide_for_QA_managers.ditamap" class="+ map/topicref mapgroup-d/mapref "/><mapref format="ditamap" href="Explore_Katalon_Studio/Exploring_Katalon_Studio.ditamap" class="+ map/topicref mapgroup-d/mapref "/><mapref format="ditamap" href="Best_Practices/Best_practices_for_Katalon_Studio.ditamap" class="+ map/topicref mapgroup-d/mapref "/></map>

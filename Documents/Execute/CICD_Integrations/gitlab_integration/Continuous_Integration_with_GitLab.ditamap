@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-5843" class="- map/map "><title class="- topic/title ">GitLab Integration</title><topicref href="continuous_integration_gitlab.dita" class="- map/topicref "><topicref href="configure_the_gitlab_project.dita" class="- map/topicref "><topicref href="configure_the_.gitlab-ci.yml_file.dita" class="- map/topicref "/><topicref href="configure_the_katalon_api_key_variable.dita" class="- map/topicref "/></topicref><topicref href="Test_the_pipeline.dita" class="- map/topicref "/></topicref></map>

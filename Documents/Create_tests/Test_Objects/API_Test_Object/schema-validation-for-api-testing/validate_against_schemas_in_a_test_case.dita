@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Validate against schemas in a test case</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To validate against schemas in a specific test case, you can add these keywords directly:</p><ul class="- topic/ul "><li class="- topic/li "><xref href="../../../Keywords/Keywords_Description_In_Katalon_Studio/Web-Service-Keywords/ws-validate-json-schema/WS_Validate_JSON_string_against_a_schema.ditamap" class="- topic/xref ">[WS] Validate a JSON string against a schema</xref>
+            </li><li class="- topic/li "><xref href="../../../Keywords/Keywords_Description_In_Katalon_Studio/Web-Service-Keywords/ws-validate-xml-schema/WS_Validate_an_XML_string_against_a_schema.ditamap" class="- topic/xref ">[WS] Validate an XML string against a schema</xref>
+            </li><li class="- topic/li ">
+                <p class="- topic/p "><xref href="../../../Keywords/Keywords_Description_In_Katalon_Studio/Web-Service-Keywords/ws-validate-graphql-request-against-schema/WS_Validate_GraphQL_request_body_against_a_GraphQL_schema.dita" class="- topic/xref ">[WS] Validate GraphQL request against a GraphQL schema</xref></p>
+            </li></ul><p class="- topic/p "><image href="ks-840-validate-xml-in-tc.png" class="- topic/image "><alt class="- topic/alt ">validate XML schema in a test case</alt></image></p><p class="- topic/p "> View the test case in script view: </p><codeblock class="+ topic/pre pr-d/codeblock ">res = WS.sendRequest(findTestObject('XML'))
+
+String xml = '''&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;List&gt;
+    &lt;item&gt;
+        &lt;id&gt;3&lt;/id&gt;
+        &lt;username&gt;James Johnson&lt;/username&gt;
+        &lt;password&gt;789&lt;/password&gt;
+        &lt;gender&gt;FEMALE&lt;/gender&gt;
+        &lt;age&gt;75&lt;/age&gt;
+        &lt;avatar/&gt;
+    &lt;/item&gt;
+&lt;/List&gt;'''
+
+String xmlFile = FileUtils.readFileToString(new File("example/xml/person.xml"), "utf-16");
+
+WS.validateXmlAgainstSchema(res, "example/xml/person.xsd");
+WS.validateXmlAgainstSchema(xml, "example/xml/person.xsd");
+WS.validateXmlAgainstSchema(xmlFile, "http://localhost:8080/api/users/xsd", FailureHandling.STOP_ON_FAILURE);
+</codeblock><note type="note" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">You can also add the <codeph class="+ topic/ph pr-d/codeph ">sendRequestAndVerify</codeph> keyword as a test step. This action also sends the current request and executes verification snippets. Learn more about this keyword at our javadoc <xref format="html" href="https://api-docs.katalon.com/com/kms/katalon/core/webservice/keyword/builtin/SendRequestAndVerifyKeyword.html" scope="external" class="- topic/xref ">Send Request And Verify</xref> and <xref href="../verification-snippets/verification-snippets.dita" class="- topic/xref ">Verification Snippets</xref>.</li></ul>
+        </note><p class="- topic/p ">When you execute your test, in the <uicontrol class="+ topic/ph ui-d/uicontrol ">Log Viewer</uicontrol>, you can see the result of those validation steps and a list of issues (if any).</p><ul class="- topic/ul "><li class="- topic/li ">
+                <p class="- topic/p ">Validation passed:</p>
+                <p class="- topic/p "><image href="ks-840-validation-passed.png" class="- topic/image "><alt class="- topic/alt ">validation passed</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Validation failed:</p>
+                <p class="- topic/p "><image href="ks-840-validation-failed.png" class="- topic/image "><alt class="- topic/alt ">validation failed</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Send request failed with root causes:</p>
+                <p class="- topic/p "><image href="ks-840-send-request-failed.png" class="- topic/image "><alt class="- topic/alt ">send request failed with root cause</alt></image>
+                </p>
+            </li></ul></conbody></concept>

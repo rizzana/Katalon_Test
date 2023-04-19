@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">TestNG Reports</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">After execution, TestNG will generate a test-output folder at
+         the root of the project.</p>
+      <p class="- topic/p ">
+        <codeph class="+ topic/ph pr-d/codeph ">target/surefire-reports</codeph>
+      </p>
+    </conbody>
+  </concept>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">LambdaTest Integration</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">The LambdaTest integration helps you run your tests on LambdaTest Selenium Grid from your Katalon Studio instance. To integrate with LambdaTest, you need to execute your test scripts on a remote web server configured in desired capabilities. To learn more about setting up the remote server in desired capabilities, you can refer to this document: <xref href="../../../../Create_tests/Manage_Projects/Project_Settings/Desired_Capabilities/desired-capabilities-remote-settings/Task/Set_desired_capabilities_for_remote_execution_in_Katalon_Studio.dita" class="- topic/xref ">Set up remote server in desired capabilities</xref>.</p><p class="- topic/p ">This article demonstrates how to set up LambdaTest integration.</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Log in to your LambdaTest account.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In the left navigation menu, go to the <b class="+ topic/ph hi-d/b ">Profile</b> tab, you can see your <b class="+ topic/ph hi-d/b ">Username</b> and <b class="+ topic/ph hi-d/b ">Access Key</b>.</p>
+                <p class="- topic/p ">These values are necessary for authentication between your Katalon Studio instance and LambdaTest account. They also help generate a secure remote connection between Katalon Studio and the LambdaTest remote hub URL.</p>
+                <p class="- topic/p ">The syntax for LambdaTest remote URL: <codeph class="+ topic/ph pr-d/codeph ">http://username:accessKey@hub.lambdatest.com/wd/hub</codeph>.</p>
+                <p class="- topic/p ">The following image is an example of a LambdaTest profile section. In this case, the remote URL is: <codeph class="+ topic/ph pr-d/codeph ">http://harshitp:ABCD1234PQRS@hub.lambdatest.com/wd/hub</codeph>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/lambdatest-integration/KS-LAMBDATEST-Username-access-keys.png" scope="external" width="850" class="- topic/image "><alt class="- topic/alt ">View user profile in the Lambdatest page</alt></image>
+                </p>
+                <p class="- topic/p ">Note this LambdaTest remote URL for later input.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Next, specify your desired capabilities to execute your test script. To do so, navigate to the LambdaTest capabilities generator page: <xref format="html" href="https://www.lambdatest.com/capabilities-generator/" scope="external" class="- topic/xref ">Capabilities Generator</xref>.</p>
+                <p class="- topic/p ">LambdaTest Capabilities Generator supports various programming languages for your desired capabilities class:</p>
+                <ul class="- topic/ul "><li class="- topic/li ">Java</li><li class="- topic/li ">C#</li><li class="- topic/li ">PHP</li><li class="- topic/li ">Ruby</li><li class="- topic/li ">JavaScript</li><li class="- topic/li ">Python</li></ul>
+                <p class="- topic/p ">For example, we want to test on macOS Big Sur with Chrome version 96. We also choose Java as the capabilities generator language. LambdaTest Capabilities Generator will generate desired capabilities accordingly in Java.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/lambdatest-integration/KS-LAMBDATEST-Capabilities-generator.png" scope="external" width="850" class="- topic/image "><alt class="- topic/alt ">Lambdatest capabilities generator</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In Katalon Studio, go to <b class="+ topic/ph hi-d/b ">Project &gt; Settings &gt; Desired Capabilities &gt; Remote</b>. Input the following information:</p>
+                <ul class="- topic/ul "><li class="- topic/li ">
+                        <p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Remote server URL</b>: input the URL retrieved from step 2. For example: <codeph class="+ topic/ph pr-d/codeph ">http://harshitp:ABCD1234PQRS@hub.lambdatest.com/wd/hub</codeph>
+                        </p>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Remote server type</b>: Choose <b class="+ topic/ph hi-d/b ">Selenium</b>.</p>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p ">The capabilities generated from step 3.</p>
+                    </li></ul>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/lambdatest-integration/KS-LAMBDATEST-Set-DC.png" scope="external" width="700" class="- topic/image "><alt class="- topic/alt ">Add remote server capabilities</alt></image>
+                </p>
+                <note type="note" class="- topic/note ">
+                    <ul class="- topic/ul "><li class="- topic/li ">If you want to add Chrome driver capabilities, make sure to put those capabilities into the <codeph class="+ topic/ph pr-d/codeph ">goog:chromeOptions</codeph> property as a dictionary. For example: <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/browserstack-integration/KS-BROWSERSTACK-Add-capabilities-Chrome.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">Add Chrome capabilities for remote server</alt></image>
+                        </li></ul>
+                </note>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Apply and Close</b> when you are done.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">To execute your tests with LambdaTest remote server, click <b class="+ topic/ph hi-d/b ">Remote</b> in the dropdown list next to <b class="+ topic/ph hi-d/b ">Run</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/browserstack-integration/KS-BROWSERSTACK-Execute-remote.png" scope="external" width="250" class="- topic/image "><alt class="- topic/alt ">Execute Browserstack remote server</alt></image>
+                </p>
+            </li></ol><note type="note" class="- topic/note ">
+                <ul class="- topic/ul "><li class="- topic/li ">LambdaTest recommends using Listeners to avoid timeout issues while executing Groovy scripts in LambdaTest Selenium Grid in Katalon Studio. To learn more about test listeners in Katalon Studio, you can refer to this document: <xref href="../../../../Create_tests/Create_Test_Cases/Test_Fixtures_And_Test_Listeners/Test_Listeners_Test_Hooks.dita" class="- topic/xref ">Test Listeners (Test Hooks)</xref>.</li></ul>
+        </note></conbody></concept>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Configure the Katalon API Key variable</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">In the sample <codeph class="+ topic/ph pr-d/codeph ">.gitlab-ci.yml</codeph> file, we use the <codeph class="+ topic/ph pr-d/codeph ">KATALON_API_KEY</codeph> to represent the Katalon API key. You need to define this variable and specify its value in the project's settings.</p><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Settings</b> &gt; <b class="+ topic/ph hi-d/b ">CI/CD</b> and expand the <b class="+ topic/ph hi-d/b ">Variables</b> section.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Select the <b class="+ topic/ph hi-d/b ">Add variable</b> button and specify these fields:</p>
+                <ul class="- topic/ul "><li class="- topic/li "> <b class="+ topic/ph hi-d/b ">Key</b>: <codeph class="+ topic/ph pr-d/codeph ">KATALON_API_KEY</codeph>.</li><li class="- topic/li "> <b class="+ topic/ph hi-d/b ">Value</b>: &lt;Your Katalon API key&gt;. Learn how to generate and view your API key here: <xref href="../../../Administer/Security_Settings/ka-api-key/ka-api-key.dita" class="- topic/xref ">API Keys</xref>.</li></ul>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/continuous_integration_gitlab/GitLab-Add-variable.png" scope="external" class="- topic/image "><alt class="- topic/alt ">GitLab Add variable</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Add variable</b>.</p>
+            </li></ol></conbody></concept>

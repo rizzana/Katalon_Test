@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Set a maximum number of test failures</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <note type="note" class="- topic/note ">
+        <p class="- topic/p ">
+          <b class="+ topic/ph hi-d/b ">What is a test failure?</b>
+        </p>
+        <p class="- topic/p ">A test failure is a failed test case or test iteration in an
+            execution.</p>
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">1 test case fails = 1 test failure</li>
+          <li class="- topic/li ">1 retried test case fails = 1 test failure</li>
+          <li class="- topic/li ">1 test iteration (test case + data row) fails = 1 test
+               failure</li>
+          <li class="- topic/li ">1 retried test iteration fails = 1 test failure</li>
+        </ul>
+      </note>
+    </conbody>
+    
+    
+  </concept>

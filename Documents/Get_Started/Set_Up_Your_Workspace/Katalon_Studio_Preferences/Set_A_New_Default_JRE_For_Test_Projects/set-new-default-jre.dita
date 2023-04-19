@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Set a new default JRE for test projects in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p "><ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> uses the default embedded Java Runtime
+         Environment (JRE) v8 to run a <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> instance and compile
+         test projects. You can learn more about JRE v8 in the Oracle
+         document here: <xref format="html" href="https://www.oracle.com/java/technologies/javase/jre8-readme.html" scope="external" class="- topic/xref ">JRE
+            v8</xref>.</p><p class="- topic/p ">From <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> version 7.9.0 onwards, you can set your desired JRE
+         package as the default one to compile and run test projects. You
+         can also override the default configuration in console mode by
+         using the environment variable.</p><note type="note" class="- topic/note ">
+        
+        <ul class="- topic/ul "><li class="- topic/li ">This change applies to the JRE used to run your test projects,
+               not the JRE used to run <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/>.</li></ul>
+      </note><p class="- topic/p ">This guide takes you through the steps to: <ul class="- topic/ul "><li class="- topic/li ">Set a new default JRE for a <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> instance.</li><li class="- topic/li ">Apply the new JRE to a test project.</li><li class="- topic/li ">Run tests with another JRE in the command line.</li></ul></p></conbody></concept>

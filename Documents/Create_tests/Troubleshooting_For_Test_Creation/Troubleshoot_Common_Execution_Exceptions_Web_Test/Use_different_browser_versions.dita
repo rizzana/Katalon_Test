@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE troubleshooting PUBLIC "-//OASIS//DTD DITA Troubleshooting//EN" "troubleshooting.dtd">
+<troubleshooting id="troubleshooting-2011" xml:lang="en-us" class="- topic/topic troubleshooting/troubleshooting "><title class="- topic/title ">Use different browser versions</title><shortdesc class="- topic/shortdesc ">In case you want Katalon Studio to use different versions besides the currently installed version, there are two ways to do it.</shortdesc><troublebody class="- topic/body troubleshooting/troublebody "><troubleSolution class="- topic/bodydiv troubleshooting/troubleSolution "><remedy class="- topic/section troubleshooting/remedy "><steps class="- topic/ol task/steps "><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">You can use custom keywords.</cmd><info class="- topic/itemgroup task/info ">To use this method, the browser instances you wish to use should be installed on your machine first.</info></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Create a custom keyword to open the browser. Press <b class="+ topic/ph hi-d/b ">Ctrl + Shift + O</b> to automatically import necessary packages. To learn more about creating a custom keyword, you can refer to this document here: <xref href="../../Keywords/Custom_Keywords/Introduction_To_Custom_Keywords/old_create_a_custom_keyword.dita" class="- topic/xref ">Introduction to Custom Keyword</xref>.</cmd><stepxmp class="- topic/itemgroup task/stepxmp ">
+                            <codeblock class="+ topic/pre pr-d/codeblock ">
+import com.kms.katalon.core.webui.driver.DriverFactory 
+public class WebUICustomKeywords {  
+	@Keyword  
+	def openFirefoxBrowser(String firefoxPath, String firefoxDriver) { 
+
+		//Set path to Firefox version 
+		System.setProperty("webdriver.firefox.bin", firefoxPath) 
+
+		//Set path to Firefox driver: \configuration\resources\drivers\firefox_win64\geckodriver.exe System.setProperty("webdriver.gecko.driver", firefoxDriver)
+		WebDriver driver = new FirefoxDriver() 
+		DriverFactory.changeWebDriver(driver)  
+	}  
+
+	@Keyword  
+	def openChromeBrowser(String chromeDriverPath, String chromePath)  { 
+
+		//Set path to chromedriver driver: \configuration\resources\drivers\chrome_win32\chromedriver.exe System.setProperty("webdriver.chrome.driver", chromeDriverPath) 
+		ChromeOptions options = new ChromeOptions() 
+
+		//Set path to Chrome binary options.setBinary(chromePath) 
+		WebDriver driver = new ChromeDriver(options) DriverFactory.changeWebDriver(driver)  
+	} 	
+}	
+</codeblock>
+                        </stepxmp></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">In a test case, use the newly created keyword.</cmd><stepxmp class="- topic/itemgroup task/stepxmp ">
+                            <codeblock class="+ topic/pre pr-d/codeblock ">
+CustomKeywords.'com.example.WebUICustomKeywords.openFirefoxBrowser'('C:\\Program Files\\Mozilla Firefox 52\\firefox.exe',  'C:\\5.4\\Katalon Studio Windows 64\\configuration\\resources\\drivers\\firefox_win64\\geckodriver.exe')
+
+WebUI.navigateToUrl(GlobalVariable.G_SiteURL) 
+WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))
+</codeblock>
+                        </stepxmp></step></steps></remedy></troubleSolution><troubleSolution class="- topic/bodydiv troubleshooting/troubleSolution "><remedy class="- topic/section troubleshooting/remedy "><steps class="- topic/ol task/steps "><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">You can also downgrade browser version.</cmd><info class="- topic/itemgroup task/info ">If you want to use a very old version of your current browser, you may need to downgrade or upgrade browser drivers as well as Selenium WebDriver, you can refer to this document here: <xref href="../../Manage_Projects/Set_Up_Projects/Web_Testing/Handle-WebDrivers/update-or-downgrade-webdrivers/update-or-downgrade-webdrivers.dita" class="- topic/xref ">Update or Downgrade WebDrivers</xref></info></step></steps></remedy></troubleSolution></troublebody></troubleshooting>

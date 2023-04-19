@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-testops-may-filter-test-runs-list-by-build-name" class="- map/map ">
+  <title class="- topic/title ">Filter Test Runs list by Build name</title>
+  <topicref href="testops-may-filter-test-runs-list-by-build-name.dita" class="- map/topicref "><topicref href="add_build_name_in_command_line_or_console_mode.dita" class="- map/topicref "/>
+  <topicref href="filter_test_runs_by_build_name_in_katalon_testops.dita" class="- map/topicref "/>
+</topicref>
+  </map>

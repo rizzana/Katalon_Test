@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">What is API testing?</title>
+    <conbody class="- topic/body  concept/conbody ">
+
+      <p class="- topic/p ">API testing is a type of software testing that involves testing
+         application programming interfaces (APIs) directly and as part of
+         integration testing to determine if they meet expectations for
+         functionality, reliability, performance, and security. Since APIs
+         lack a <xref format="html" href="https://en.wikipedia.org/wiki/Graphical_user_interface" scope="external" class="- topic/xref ">GUI</xref>,
+         API testing is performed at the message layer and can validate
+         application logic very quickly and effectively.</p>
+      <p class="- topic/p ">API testing is critical for automation testing and CI/CD process
+         because it can cope with short release cycles and frequent changes
+         especially the presentation layer without breaking the test
+         outputs. API testing also requires less maintenance effort compare
+         to UI automation testing which makes it a preferred choice for
+         Agile and DevOps teams.</p>
+      <p class="- topic/p ">A side note, for Web and mobile applications, API often means
+         Web services, and API testing refers to the automation test
+         performed to the Web services.</p>
+    </conbody>
+  </concept>

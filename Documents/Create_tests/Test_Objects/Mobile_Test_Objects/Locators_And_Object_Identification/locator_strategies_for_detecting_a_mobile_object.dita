@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Locator Strategies for detecting a mobile object</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Before version 7.6, Katalon Studio only supports the Attributes
+         Selection Method that allows selecting an object’s properties
+         to generate its selector. The generated selector can be XPATH
+         selector or in some cases, Android UiSelector. From 7.6, Katalon
+         Studio fully supports <xref format="html" href="http://appium.io/docs/en/commands/element/find-elements/index.html#selector-strategies" scope="external" class="- topic/xref ">selector
+            strategies supported by Appium except for Android Data Matcher</xref>,
+         including:</p><ol class="- topic/ol "><li class="- topic/li ">
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Accessibility ID</b>: it is the
+               <codeph class="+ topic/ph pr-d/codeph ">accessibility-id</codeph> attribute of an object for XCUITest,
+               and the <codeph class="+ topic/ph pr-d/codeph ">content-desc</codeph> attribute of an object for
+               Android .</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-selector-strategies/accessibility_id.png" scope="external" width="369" class="- topic/image "/>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Class name</b>: for IOS it is the full name of the
+               XCUI element and starts with XCUIElementType; for Android it is the
+               full name of the UIAutomator2 class (e.g.:
+               android.widget.TextView)</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-selector-strategies/class_name.png" scope="external" width="358" class="- topic/image "/>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">ID</b>: native element identifier:
+               <codeph class="+ topic/ph pr-d/codeph ">resource-id</codeph> for android; <codeph class="+ topic/ph pr-d/codeph ">name</codeph> for
+               iOS.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-selector-strategies/id.png" scope="external" width="371" class="- topic/image "/>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Name</b>
+          </p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-selector-strategies/name.png" scope="external" width="372" class="- topic/image "/>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">XPath</b> (not recommended due to performance
+               issues)</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-selector-strategies/xpath.png" scope="external" width="369" class="- topic/image "/>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Image</b>: Locate an object by matching its image
+               with a Base64 file</p>
+          <p class="- topic/p ">Prerequisites:</p>
+          <ul class="- topic/ul "><li class="- topic/li ">Set up <xref href="../../../Manage_Projects/Set_Up_Projects/Mobile-Testing/Mobile_Image_Based_Testing/mobile-image-based-testing.dita" class="- topic/xref ">Image-based
+                     Testing for Mobile</xref>
+            </li><li class="- topic/li ">An active Katalon Studio Enterprise license</li></ul>
+          <p class="- topic/p ">The element's image: <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-selector-strategies/img_general.png" scope="external" width="68.5" class="- topic/image "/>
+          </p>
+          <p class="- topic/p ">The Base64-encoded string:</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-selector-strategies/image.png" scope="external" width="366" class="- topic/image "/>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Android UiAutomator</b>
+          </p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-selector-strategies/android_ui_automator.png" scope="external" width="370" class="- topic/image "/>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Android View Tag</b>
+          </p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-selector-strategies/view_tag.png" scope="external" width="364" class="- topic/image "/>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">iOS Predicate String</b>
+          </p><p class="- topic/p ">You can learn more about locating an object by iOS Predicate String in the Appium document: <xref format="html" href="http://appium.io/docs/en/writing-running-appium/ios/ios-predicate/" scope="external" class="- topic/xref ">Locate
+                     an object by iOS Predicate String.</xref></p>
+          
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-selector-strategies/ios_predicate_string.png" scope="external" width="368" class="- topic/image "/>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">iOS Class Chain</b>
+          </p><p class="- topic/p ">You can learn more about locating an object by iOS Class Chain in the Appium document: <xref format="html" href="https://github.com/facebookarchive/WebDriverAgent/wiki/Class-Chain-Queries-Construction-Rules" scope="external" class="- topic/xref ">Locate
+                     an object by iOS Class Chain.</xref></p>
+          
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-selector-strategies/ios_class_chain.png" scope="external" width="365" class="- topic/image "/>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Custom</b>
+          </p><p class="- topic/p ">You can learn more about locating elements by custom strategy in the Appium document: <xref href="http://appium.io/docs/en/advanced-concepts/element-finding-plugins/" scope="external" class="- topic/xref ">Using Element Plugins</xref>.</p>
+          
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-selector-strategies/custom.png" scope="external" width="370" class="- topic/image "/>
+          </p>
+        </li></ol></conbody></concept>

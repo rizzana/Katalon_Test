@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept "><title class="- topic/title ">Reports</title><conbody class="- topic/body  concept/conbody "><table class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><colspec colname="c1" colnum="1" class="- topic/colspec "/><colspec colname="c2" colnum="2" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry "><b class="+ topic/ph hi-d/b ">Types of Reports</b>
+</entry><entry class="- topic/entry "><b class="+ topic/ph hi-d/b ">Supported Katalon Studio versions</b>
+</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry "><xref href="../../../Analyze/Reports/View_Test_Reports/View_test_reports_in_Studio/view-test-suite-report-in-Studio/export_reports_to_other_formats.dita" class="- topic/xref ">HTML,
+                        PDF, CSV</xref>
+              </entry><entry class="- topic/entry ">v7.0.0+</entry></row><row class="- topic/row "><entry class="- topic/entry "><xref href="../../../Analyze/Reports/Manage_Reports/Share-reports-via-emails-in-Studio/c_intro_email_settings.dita" class="- topic/xref ">Dynamic
+                        email configuration</xref>
+              </entry><entry class="- topic/entry ">v7.5.0+</entry></row><row class="- topic/row "><entry class="- topic/entry "><xref href="../../../Analyze/Reports/Generate_test_reports/record-screen-based-videos-in-Studio/configure_screen-based_recorder.dita" class="- topic/xref ">Release/build-based
+                        reports</xref>
+              </entry><entry class="- topic/entry ">v7.8.0+</entry></row><row class="- topic/row "><entry class="- topic/entry "><xref href="../../../Get_Started/Set_Up_Your_Workspace/Integrate_Katalon_TestOps_and_TestCloud_With_Katalon_Studio/Integrate_Katalon_TestOps_with_Katalon_Studio.dita" class="- topic/xref ">Performance,
+                        Trending &amp; Insights reports</xref> (*)</entry><entry class="- topic/entry ">v7.6.2+</entry></row></tbody></tgroup></table><p class="- topic/p ">(*) <i class="+ topic/ph hi-d/i ">Requirements: Katalon TestOps integration.</i>
+      </p></conbody></concept>

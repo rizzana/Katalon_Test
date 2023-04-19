@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">Add your login account to a test case in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">After downloading our sample project, from the <b class="+ topic/ph hi-d/b ">Test Explorer</b> panel, open <b class="+ topic/ph hi-d/b ">Profiles &gt; default</b>. </li><li class="- topic/li ">
+                <p class="- topic/p ">Double-click the <b class="+ topic/ph hi-d/b ">Value</b> cell of the <b class="+ topic/ph hi-d/b ">username</b> and <b class="+ topic/ph hi-d/b ">password</b> variables.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Open-the-default-file.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Open the default file</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In the opened <b class="+ topic/ph hi-d/b ">Edit variables</b> dialog, change the sample value to your SAP account.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Fill-in-your-username.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Fill in your username</alt></image>
+                </p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-sap-scripting-tracker/KS-SAP-Fill-in-ur-password.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Fill in your password</alt></image>
+                </p>
+            </li></ol></conbody></concept>

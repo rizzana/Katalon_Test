@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">
+        Add a setting page
+      </title><conbody class="- topic/body  concept/conbody "><codeblock class="+ topic/pre pr-d/codeblock ">&lt;extension
+      point="com.katalon.platform.extensions"&gt;
+  &lt;point
+        id="com.katalon.plugin.testrail.TestRailPluginPreferencePage"
+        extensionPointId="com.katalon.platform.api.extension.pluginPreferencePage"
+        implementationClass="com.katalon.plugin.testrail.TestRailPluginPreferencePage"&gt;
+  &lt;/point&gt;
+&lt;/extension&gt;
+</codeblock><p class="- topic/p ">For implementation, see classes
+         <codeph class="+ topic/ph pr-d/codeph ">com.katalon.plugin.testrail.TestRailPluginPreferencePage</codeph>
+         and
+         <codeph class="+ topic/ph pr-d/codeph ">com.katalon.plugin.testrail.TestRailPreferencePage</codeph>.</p><p class="- topic/p ">Settings are saved per project.</p></conbody></concept>

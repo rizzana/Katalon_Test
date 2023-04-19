@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-1730" xml:lang="en-us" class="- topic/topic concept/concept "><title class="- topic/title ">Use the custom keyword to execute test cases in IE mode</title><prolog class="- topic/prolog "><author translate="no" type="creator" class="- topic/author ">Windy Le &lt;windy.le@katalon.com&gt;</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "/></metadata></prolog><conbody class="- topic/body  concept/conbody "><p class="- topic/p "><ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p ">In Katalon Studio, create a test case.</p></li><li class="- topic/li "><p class="- topic/p ">Modify the test case. Open the test case and use the custom
+               keyword as the first test step to open Microsoft Edge in IE
+               mode.</p>
+          <p class="- topic/p ">For example, we use the custom keyword at the beginning of the
+               test case.</p>
+          <p class="- topic/p ">In <b class="+ topic/ph hi-d/b ">Manual</b> view:</p>
+          <p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/run-test-in-edge-with-IE-mode/KS-Test-case-manual-view.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Use keyword in test case</alt></image></p>
+          <p class="- topic/p ">In <b class="+ topic/ph hi-d/b ">Script</b> view:</p>
+          
+            <codeblock class="+ topic/pre pr-d/codeblock ">// Use the custom keyword and URL defined as global variable to open the site in Edge, with IE mode
+CustomKeywords.'com.example.openIEModeEdgeBrowser.openBrowser'(GlobalVariable.G_SiteURL)
+</codeblock>
+          
+          <p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/run-test-in-edge-with-IE-mode/KS-Use-custom-keyword-in-test-case.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Use keyword in test case</alt></image></p></li><li class="- topic/li "><p class="- topic/p ">Save your test case, then select the <b class="+ topic/ph hi-d/b ">IE</b> option
+               to run the test.</p>
+          <p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/run-test-in-edge-with-IE-mode/KS-Run-dropdown-IE.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Run dropdown</alt></image></p>
+          <p class="- topic/p ">Katalon Studio should open a Microsoft Edge browser session in
+               IE mode.</p>
+          <p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/run-test-in-edge-with-IE-mode/AUT-opened-in-IE-mode.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Microsoft Edge browser session opened</alt></image></p></li><li class="- topic/li "><p class="- topic/p ">Verify the results in <b class="+ topic/ph hi-d/b ">Log Viewer</b>.</p>
+          <p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/run-test-in-edge-with-IE-mode/KS-Log-View-results.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Use keyword in test case</alt></image></p></li></ol></p></conbody></concept>

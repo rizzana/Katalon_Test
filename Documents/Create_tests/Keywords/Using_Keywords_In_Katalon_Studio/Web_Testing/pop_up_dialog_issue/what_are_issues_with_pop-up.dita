@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">What are issues with pop-up?</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">The problem with pop-ups is that they usually show up
+         unexpectedly. There is no certain way to overcome this except that
+         you need to understand the behavior of the application and insert
+         scripts accordingly to handle the situation. Another issue with
+         pop-ups is that they are not from the AUT so you need to handle
+         them with dedicated keywords.</p><p class="- topic/p ">Below are a few commonly used pop-ups which might cause problems
+         in your test web automation:</p><ul class="- topic/ul "><li class="- topic/li ">New browser window.</li><li class="- topic/li ">Alert: An alert box is often used to make sure that information
+            comes through to the user.</li></ul><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/pop_up_dialog_issue/alert-box-300x94.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Alert box Katalon Studio</alt></image>
+      </p><ul class="- topic/ul "><li class="- topic/li ">Custom modal dialog: A modal dialog is a dialog box/pop-up
+            window that is displayed on top of the current page.</li></ul><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/pop_up_dialog_issue/sign-in.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Custom modal dialog</alt></image>
+      </p><ul class="- topic/ul "><li class="- topic/li ">Native Window dialog. This dialog is common in case of testing
+            uploading files</li></ul><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/pop_up_dialog_issue/Native-Window-dialog.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Native Window dialog</alt></image>
+      </p><p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">A suggested solution for handling pop-ups using Katalon
+            Studio:</b>
+      </p><p class="- topic/p ">To handle such pop-ups as described, you need to capture them
+         first using the Object Spy feature in Katalon Studio. After that,
+         you use "<b class="+ topic/ph hi-d/b ">Switch To…</b>" keywords of Katalon
+         Studio to set focus to the specified pop-up as needed.</p><p class="- topic/p ">The following screenshot shows simple scripts on how to handle a
+         pop-up using the <xref href="../../../Keywords_Description_In_Katalon_Studio/Web-UI-Keywords/webui-switch-to-window-title/webui-switch-to-window-title.dita" class="- topic/xref ">Switch To
+            Window Title</xref> keyword.</p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/pop_up_dialog_issue/Switch-To-Window-Title-keyword..png" scope="external" class="- topic/image "><alt class="- topic/alt ">Solving Pop-up dialog issue</alt></image>
+      </p><codeblock class="+ topic/pre pr-d/codeblock ">'Open browser and navigate to elated site'
+WebUI.openBrowser('http://www.elated.com/articles/javascript-tabs/')
+ 
+'Maximize current browser window'
+WebUI.maximizeWindow()
+ 
+'Click on \'Tweet\' button in iframe'
+WebUI.click(findTestObject('Page_Elated/lnk_Tweet'))
+ 
+'Switch to window that has title \'Share a link on Twitter\''
+WebUI.switchToWindowTitle('Share a link on Twitter')
+ 
+'Enter email'
+WebUI.setText(findTestObject('Page_Share a link on Twitter/txt_Twitter_Login_Email'), email)
+ 
+'Enter password'
+WebUI.setText(findTestObject('Page_Share a link on Twitter/txt_Twitter_Login_Password'), password)
+ 
+'Verify Tweet message is displayed for successful login'
+WebUI.verifyTextPresent("Share a link with your followers",false)
+ 
+WebUI.closeBrowser()
+
+</codeblock><p class="- topic/p ">Where:</p><table class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Keyword</entry><entry class="- topic/entry ">Description</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">
+                <xref href="../../../Keywords_Description_In_Katalon_Studio/Web-UI-Keywords/webui-switch-to-window-title/webui-switch-to-window-title.dita" class="- topic/xref ">Switch
+                     To Window Title</xref>
+              </entry><entry class="- topic/entry ">Switch to the window identified by a given title.</entry></row><row class="- topic/row "><entry class="- topic/entry ">
+                <xref href="../../../Keywords_Description_In_Katalon_Studio/Web-UI-Keywords/webui-switch-to-window-index/webui-switch-to-window-index.dita" class="- topic/xref ">Switch
+                     To Window Index</xref>
+              </entry><entry class="- topic/entry ">Switch to the window identified by a given index.</entry></row><row class="- topic/row "><entry class="- topic/entry ">
+                <xref href="../../../Keywords_Description_In_Katalon_Studio/Web-UI-Keywords/webui-switch-to-window-url/webui-switch-to-window-url.dita" class="- topic/xref ">Switch
+                     To Window Url</xref>
+              </entry><entry class="- topic/entry ">Switch to the window identified by a given URL.</entry></row></tbody></tgroup></table><p class="- topic/p ">If you want to switch back to the default window (parent), use
+         the <xref href="../../../Keywords_Description_In_Katalon_Studio/Web-UI-Keywords/webui-switch-to-default-content/webui-switch-to-default-content.dita" class="- topic/xref ">Switch To
+            Default Content</xref> keyword. For example<i class="+ topic/ph hi-d/i ">:</i>
+      </p><codeblock class="+ topic/pre pr-d/codeblock ">'Open browser and navigate to a site that has an iframe'
+WebUI.openBrowser(GlobalVariable.G_SiteURL)
+ 
+'Switch to iframe'
+WebUI.switchToWindowTitle('Share a link on Twitter')
+ 
+'Switch back to default content'
+WebUI.switchToDefaultContent()
+ 
+'Close browser'
+WebUI.closeBrowser()
+
+</codeblock><p class="- topic/p ">Where:</p><table class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Keyword</entry><entry class="- topic/entry ">Description</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">
+                <xref href="../../../Keywords_Description_In_Katalon_Studio/Web-UI-Keywords/webui-switch-to-default-content/webui-switch-to-default-content.dita" class="- topic/xref ">Switch To
+                     Default Content</xref>
+              </entry><entry class="- topic/entry ">Switch back to the default window, after working with iFrame
+                  windows.</entry></row></tbody></tgroup></table><p class="- topic/p ">To deal with Windows' native dialogs such as uploading files,
+         users use the <xref href="../../../Keywords_Description_In_Katalon_Studio/Web-UI-Keywords/webui-switch-to-default-content/webui-switch-to-default-content.dita" class="- topic/xref ">Upload File</xref> keyword.
+         For example:</p><codeblock class="+ topic/pre pr-d/codeblock ">'Open browser and navigate to a site that has upload control'
+WebUI.openBrowser('http://the-internet.herokuapp.com/upload')
+ 
+'Use Upload File keyword to deal with the dialog. Noted that the keyword will proceed to click on the Choose File button as specified'
+WebUI.uploadFile(findTestObject('choosefile_button'), 'D:\\test-photo.png')
+ 
+'Close browser'
+WebUI.closeBrowser()
+
+</codeblock><p class="- topic/p ">Where:</p><table class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Keyword</entry><entry class="- topic/entry ">Description</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">
+                <xref href="../../../Keywords_Description_In_Katalon_Studio/Web-UI-Keywords/webui-upload-file/webui-upload-file.dita" class="- topic/xref ">Upload
+                     File</xref>
+              </entry><entry class="- topic/entry ">Specify the file for the upload dialog<b class="+ topic/ph hi-d/b ">.</b>
+              </entry></row></tbody></tgroup></table><p class="- topic/p ">Regarding the browser's popups as mentioned above, you
+         can <xref href="../../../../Manage_Projects/Project_Settings/Project_settings.dita" class="- topic/xref ">modify
+            Desired Capabilities</xref> of the browser to prevent them from
+         displaying. You can refer to <xref format="html" href="https://forum.katalon.com/discussion/1417/disable-chrome-password-manager" scope="external" class="- topic/xref ">this
+            ticket</xref> for an example on how to disable the Chrome password
+         manager.</p></conbody></concept>

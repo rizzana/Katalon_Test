@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Installing Katalon Compact Utility</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <ol class="- topic/ol ">
+        <li class="- topic/li ">
+          <p class="- topic/p ">Open Chrome/ Microsoft Edge. Make sure you use the Profile you
+               want to use the Spy, Record, or Smart Wait with.</p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Navigate to the extension page:</p>
+          <ul class="- topic/ul ">
+            <li class="- topic/li ">Chrome Web Store: <xref format="html" href="https://chrome.google.com/webstore/detail/kataton-compact-utility/gkihajmjffefinkmpokfepcdbhnpflee?hl=en&amp;authuser=1" scope="external" class="- topic/xref ">Katalon
+                     Compact Utility</xref>.</li>
+            <li class="- topic/li ">Microsoft Edge Add-ons: <xref format="html" href="https://microsoftedge.microsoft.com/addons/detail/katalon-compact-utility/kkmafoknllgdaapbegpkpmbncidodkaa" scope="external" class="- topic/xref ">Katalon
+                     Compact Utility</xref>.</li>
+          </ul>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Download and install <b class="+ topic/ph hi-d/b ">Katalon Compact
+                  Utility</b>.</p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Make sure the extension is now active. You can find instructions
+               to manage your extensions here:</p>
+          <ul class="- topic/ul ">
+            <li class="- topic/li ">For Chrome: <xref format="html" href="https://support.google.com/chrome_webstore/answer/2664769" scope="external" class="- topic/xref ">Install
+                     and Manage Extensions</xref>.</li>
+            <li class="- topic/li ">For Microsoft Edge: <xref format="html" href="https://support.microsoft.com/en-us/microsoft-edge/find-add-or-remove-extensions-in-microsoft-edge-f3522273-d067-7435-6a9d-fdb99213e9a8" scope="external" class="- topic/xref ">Find,
+                     add, or remove extensions in Microsoft Edge</xref>.</li>
+          </ul>
+        </li>
+      </ol>
+    </conbody>
+  </concept>

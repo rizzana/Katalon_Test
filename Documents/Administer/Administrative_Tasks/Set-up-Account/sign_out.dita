@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Sign out</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Follow these steps to sign out Katalon TestOps:</p><ol class="- topic/ol "><li class="- topic/li ">Click on the <b class="+ topic/ph hi-d/b ">Avatar</b> icon on the top right
+            corner of the homepage.</li><li class="- topic/li ">
+          <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Sign Out</b> at the bottom of the popup
+               bar.</p>
+          <p class="- topic/p ">
+            
+          <image width="300" href="../../../../Global_reuse/Images_warehouse/Katalon_TestOps/navigation_bar/KT-Reuse-profile-settings.png" class="- topic/image "><alt class="- topic/alt ">Click sign out</alt></image></p>
+        </li></ol></conbody></concept>

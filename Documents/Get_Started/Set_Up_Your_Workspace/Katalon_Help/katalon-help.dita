@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Katalon Help in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">In case you need some help using <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/>, we have you covered.</p><section class="- topic/section ">
+            <title class="- topic/title ">Requirements</title>
+            
+                <ul class="- topic/ul "><li class="- topic/li ">
+                        <p class="- topic/p ">Katalon Studio version 7.8.0 onwards.</p>
+                    </li></ul>
+            
+        </section></conbody></concept>

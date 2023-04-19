@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">View a build</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ol class="- topic/ol ">
+          <li class="- topic/li ">
+            <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Planning</b> &gt;
+               <b class="+ topic/ph hi-d/b ">Releases</b>.</p>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">Select a Release.</p>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">Scroll down to view a list of Builds in the
+               <b class="+ topic/ph hi-d/b ">Builds</b> section.</p>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">Select a Build.</p>
+            <p class="- topic/p ">The Build page appears.</p>
+            <p class="- topic/p ">You can view a list of Test Runs you have linked to this
+               Build.</p>
+            <p class="- topic/p ">You can also see all Test Cases associated with this Build.</p>
+          </li>
+        </ol>
+      </conbody>
+    </concept>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept ">
+  <title class="- topic/title ">[Cucumber] Run Feature File</title>
+  <conbody class="- topic/body  concept/conbody ">
+    <ul class="- topic/ul ">
+      <li class="- topic/li ">
+        <b class="+ topic/ph hi-d/b ">Description</b>: Execute a single Feature
+            File.</li>
+      <li class="- topic/li ">
+        <b class="+ topic/ph hi-d/b ">Keyword name</b>: runFeatureFile</li>
+      <li class="- topic/li ">
+        <b class="+ topic/ph hi-d/b ">Keyword syntax</b>:
+            runFeatureFile(relativeFilePath, flowControl)</li>
+      <li class="- topic/li ">
+        <b class="+ topic/ph hi-d/b ">Parameters</b>: 
+            
+            <ul class="- topic/ul ">
+          <li class="- topic/li ">Name: relativeFilePath</li>
+          <li class="- topic/li ">Description: a relative file path of the feature file</li>
+          <li class="- topic/li ">Parameter Type: String</li>
+          <li class="- topic/li ">Mandatory: Required</li>
+          <li class="- topic/li ">Name: flowControl</li>
+          <li class="- topic/li ">Description: an instance
+                  com.kms.katalon.core.model.FailureHandling that controls the
+                  running flow</li>
+          <li class="- topic/li ">Parameter Type: FailureHandling</li>
+          <li class="- topic/li ">Mandatory: Optional</li>
+        </ul>
+      </li>
+      <li class="- topic/li ">
+        <b class="+ topic/ph hi-d/b ">Returns</b>: an instance of CucumberRunnerResult
+            that includes the status of keyword and report folder
+            location.</li>
+      <li class="- topic/li ">
+        <b class="+ topic/ph hi-d/b ">Example</b>:</li>
+    </ul>
+    
+      <codeblock class="+ topic/pre pr-d/codeblock ">CucumberKW.runFeatureFile('Include/features/New Feature File.feature')
+</codeblock>
+    
+  </conbody>
+</concept>

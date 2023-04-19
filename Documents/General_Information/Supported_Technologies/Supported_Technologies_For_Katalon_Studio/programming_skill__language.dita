@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Programming skill &amp; Language</title><conbody class="- topic/body  concept/conbody "><table class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">Low-code</entry><entry class="- topic/entry ">Rich set of utilities to generate and maintain automated script
+                     without programming experience</entry></row><row class="- topic/row "><entry class="- topic/entry ">Groovy</entry><entry class="- topic/entry ">v2.4.x+</entry></row><row class="- topic/row "><entry class="- topic/entry ">Java</entry><entry class="- topic/entry ">From Java 8 (Java 1.8) onwards</entry></row></tbody></tgroup></table></conbody></concept>

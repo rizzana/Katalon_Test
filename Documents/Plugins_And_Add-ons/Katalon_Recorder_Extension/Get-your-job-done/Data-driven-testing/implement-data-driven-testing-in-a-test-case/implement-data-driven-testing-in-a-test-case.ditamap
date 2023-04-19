@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-implement-data-driven-testing-in-a-test-case" class="- map/map ">
+  <title class="- topic/title ">How to implement data-driven testing in a test case</title>
+  <topicref href="implement-data-driven-testing-in-a-test-case.dita" class="- map/topicref "><topicref href="test_case_scenario_1653306429927.4904.dita" class="- map/topicref "/>
+  <topicref href="record_the_test_case_1653306429927.4904.dita" class="- map/topicref "/>
+  <topicref href="implement_data-driven_testing.dita" class="- map/topicref ">
+    <topicref href="prepare_the_data_file.dita" class="- map/topicref "/>
+    <topicref href="add_the_data_file_to_the_workspace.dita" class="- map/topicref "/>
+    <topicref href="configure_data-driven_commands_and_variables_in_the_test_case.dita" class="- map/topicref "/>
+  </topicref>
+</topicref>
+  </map>

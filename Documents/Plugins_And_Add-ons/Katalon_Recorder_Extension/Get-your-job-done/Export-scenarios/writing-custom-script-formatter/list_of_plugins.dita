@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">List of Plugins</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">PHPUnit formatter for Katalon Recorder (<xref href="https://bitbucket.org/inventis/phpunit-formatter-katalon-recorder/src/master/" scope="external" class="- topic/xref ">Bitbucket</xref>)
+         by Jan Esser. Selenide formatter for Katalon Recorder (<xref format="html" href="https://chrome.google.com/webstore/detail/selenide-exporter-for-kat/mkbfcgpbkcaieiajhllpdocjfnfcbmlm" scope="external" class="- topic/xref ">Chrome</xref>)
+         by John Pratt.</p></conbody></concept>

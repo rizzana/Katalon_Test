@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_10" class="- topic/topic concept/concept "><title class="- topic/title ">Execute selected test cases or test suites</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To execute a test case or a test suite in the sample project:</p><ol class="- topic/ol "><li class="- topic/li ">Select the test case/test suite you want to execute.</li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Run</b> or press Ctrl + Shift + A (macOS: Cmd+Shift+A).</p>
+                <p class="- topic/p ">You can choose different browsers to execute your test in the dropdown list next to <b class="+ topic/ph hi-d/b ">Run</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/api-sample-prj/KS-API-Execution.png" scope="external" width="250" class="- topic/image "><alt class="- topic/alt ">Run the test case</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Observe the test result in the <b class="+ topic/ph hi-d/b ">Log Viewer</b> tab.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/BDD-sample-prj/KS-BDD-Log-viewer.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Oservice results in the log Viewer</alt></image>
+                </p>
+                <note type="note" class="- topic/note ">
+                    <ul class="- topic/ul "><li class="- topic/li ">You can view test results of the test suite in the <b class="+ topic/ph hi-d/b ">Result</b> tab. The test results can be Passed, Failed, Error, or Incomplete.</li><li class="- topic/li ">After executing test suites or test suite collections, you can view your reports and details in <codeph class="+ topic/ph pr-d/codeph ">&lt;your-project-folder&gt;/Reports</codeph>. Katalon Studio also supports exporting test reports into different formats, such as HTML, CSV, PDF, and JUnit.</li><li class="- topic/li ">For real-time monitoring and better reporting capabilities, consider integrating your project with Katalon TestOps. Learn more about test result reports here: <xref href="../../../../Analyze/Reports/Upload_Test_Reports/Upload_test_results_from_KS_to_TestOps/katalon-analytics-beta-integration.dita" class="- topic/xref ">Upload Test Results to Katalon TestOps from Katalon Studio</xref>.</li></ul>
+                </note>
+            </li></ol></conbody></concept>

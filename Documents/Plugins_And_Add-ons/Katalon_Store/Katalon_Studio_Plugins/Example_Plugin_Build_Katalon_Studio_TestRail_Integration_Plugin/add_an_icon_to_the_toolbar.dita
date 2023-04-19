@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">
+        Add an icon to the toolbar
+      </title><conbody class="- topic/body  concept/conbody "><codeblock class="+ topic/pre pr-d/codeblock ">&lt;extension
+        point="com.katalon.platform.extensions"&gt;
+    &lt;point
+            id="com.katalon.plugin.testrail.TestRailToolItemDescription"
+            extensionPointId="com.katalon.platform.api.extension.newToolItem"
+            implementationClass="com.katalon.plugin.testrail.TestRailToolItemDescription"&gt;
+    &lt;/point&gt;
+&lt;/extension&gt;
+</codeblock><p class="- topic/p ">For implementation, see class
+         <codeph class="+ topic/ph pr-d/codeph ">com.katalon.plugin.testrail.TestRailToolItemDescription</codeph>.</p></conbody></concept>

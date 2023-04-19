@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">[Mobile] Image-based testing in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Starting from <b class="+ topic/ph hi-d/b ">version 7.2</b>, image-based testing
+         is available for Katalon Studio Enterprise users.</p><p class="- topic/p ">This feature allows you to locate and interact with Mobile
+         objects by their images. It is particularly helpful in the
+         following use cases:</p><ul class="- topic/ul "><li class="- topic/li ">
+          <p class="- topic/p ">Dynamic test objects without unique selectors (their values are
+               passed through the parameters during execution) or visual objects
+               that are traditionally identified by their orders in a list.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Objects in a canvas of 2D or 3D game (you can conventionally
+               identify the canvas elements, not what's inside).</p>
+        </li></ul><p class="- topic/p ">Built upon Appium, image-based testing for Mobile in Katalon
+         Studio relies on Appium's finding image objects. Read more about it
+         <xref format="html" href="http://appium.io/docs/en/advanced-concepts/image-elements/" scope="external" class="- topic/xref ">here</xref>.
+         Katalon Studio automatically encodes images to Base64 for reference
+         during test execution. The reference images will be used for
+         finding the most matching area of the screen, which means the key
+         to successfully finding visual elements is capturing reference
+         images. This section will guide you through how to set up visual
+         element testing, best practice for capturing images, and custom
+         acceptance threshold.</p></conbody></concept>

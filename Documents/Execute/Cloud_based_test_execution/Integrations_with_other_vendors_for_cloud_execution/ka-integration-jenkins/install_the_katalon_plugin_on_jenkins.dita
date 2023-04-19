@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Install the Katalon plugin on Jenkins</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <ol class="- topic/ol ">
+        <li class="- topic/li ">
+          <p class="- topic/p ">Sign in to Jenkins.</p>
+          <p class="- topic/p ">The Jenkins <b class="+ topic/ph hi-d/b ">Dashboard</b> page appears.</p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Select <b class="+ topic/ph hi-d/b ">Manage Jenkins</b> on the left sidebar.</p>
+          <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Manage Jenkins</b> page appears as below.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-jenkins-integration/jk-manage-jenkins.png" scope="external" width="100%" class="- topic/image ">
+              <alt class="- topic/alt ">manage jenkins page</alt>
+            </image>
+          </p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Manage Plugins</b>.</p>
+          <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Plugin Manager</b> page appears as below.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-jenkins-integration/jk-manage-jenkins-available.png" scope="external" width="100%" class="- topic/image ">
+              <alt class="- topic/alt ">jenkins plugin page</alt>
+            </image>
+          </p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Click on the <b class="+ topic/ph hi-d/b ">Available</b> tab.</p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Search for the Katalon plugin.</p>
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Katalon</b> displays accordingly.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-jenkins-integration/K.S.E-8.2.5%20-%20manage-jenkins-search-testops-plugin.png" scope="external" width="100%" class="- topic/image ">
+              <alt class="- topic/alt ">jenkins search katalon plugin</alt>
+            </image>
+          </p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Select this Katalon plugin, then choose between <b class="+ topic/ph hi-d/b ">Install
+                  without restart</b> and <b class="+ topic/ph hi-d/b ">Download now and install after
+                  restart</b> to install it.</p>
+        </li>
+      </ol>
+      <p class="- topic/p ">You have installed the Katalon plugin on Jenkins.</p>
+    </conbody>
+  </concept>

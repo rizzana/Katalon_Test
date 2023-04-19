@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-9494" class="- map/map "><title class="- topic/title ">Global reuse shared map</title><mapref format="ditamap" href="Common_steps/Common_steps_warehouse.ditamap" class="+ map/topicref mapgroup-d/mapref "/><mapref format="ditamap" href="Definitions_product_intros_warehouse/Definition_warehouse.ditamap" class="+ map/topicref mapgroup-d/mapref "/><mapref format="ditamap" href="Name_variables_warehouse/Global_reuse.ditamap" class="+ map/topicref mapgroup-d/mapref "/><mapref format="ditamap" href="Notes_warehouse/Requirements__notes_warehosue.ditamap" class="+ map/topicref mapgroup-d/mapref "/></map>

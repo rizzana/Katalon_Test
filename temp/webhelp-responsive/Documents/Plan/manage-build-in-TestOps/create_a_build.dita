@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Plan/manage-build-in-TestOps?><?workdir-uri file:/Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Plan/manage-build-in-TestOps/?><?path2project ../../../?><?path2project-uri ../../../?><?path2rootmap-uri ../../../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="id_1" class="- topic/topic concept/concept " ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="concept:1;3:59" specializations="@props/deliveryTarget">
+    <title class="- topic/title " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="title:1;4:35">Create a build</title>
+    <conbody class="- topic/body  concept/conbody " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="conbody:1;5:53">
+      <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="p:1;6:29">Follow these steps:</p>
+      <ol class="- topic/ol " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="ol:1;7:31">
+        <li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="li:1;8:33">
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="p:2;9:33">Sign in to <xref format="html" href="https://testops.katalon.io/login" scope="external" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="xref:1;9:143"><?ditaot usertext?>Katalon
+                  TestOps</xref> and go to your Project.</p>
+        </li>
+        <li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="li:2;12:33">
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="p:3;13:33">Go to <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="b:1;13:69">Planning</b> &gt;
+               <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="b:2;14:46">Releases</b>.</p>
+        </li>
+        <li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="li:3;16:33">
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="p:4;17:33">Select a Release (e.g., <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="b:3;17:87">7.3.7</b>).</p>
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="p:5;18:33">The <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="b:4;18:67">Test Cases</b> page of the
+               <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="b:5;19:46">7.3.7</b> Release appears as below.</p>
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="p:6;20:33">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/builds/create-build-2.png" scope="external" class="- topic/image " placement="inline" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="image:1;21:173">
+              <alt class="- topic/alt " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="alt:1;22:41">create build button</alt>
+            </image>
+          </p>
+        </li>
+        <li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="li:4;26:33">
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="p:7;27:33">Click on the <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="b:6;27:76">Create Build</b> button at the top
+               right corner.</p>
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="p:8;29:33">The <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="b:7;29:67">Create Build</b> page appears.</p>
+        </li>
+        <li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="li:5;31:33">
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="p:9;32:33">Fill in the required information.</p>
+          <ul class="- topic/ul " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="ul:1;33:35">
+            <li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="li:6;34:37">
+              <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="b:8;35:45">Name</b>: enter the Build's name.</li>
+            <li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="li:7;36:37">
+              <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="b:9;37:45">Description</b>: add a note about your Build.</li>
+            <li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="li:8;38:37">
+              <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="b:10;39:45">Date</b>: enter the creation date for this
+                  Build.</li>
+          </ul>
+        </li>
+        <li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="li:9;43:33">
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="p:10;44:33">Click <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="b:11;44:69">Create</b>.</p>
+        </li>
+      </ol>
+      <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="p:11;47:29">You have created a new Build. This Build now appears in the
+         <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="b:12;48:40">Builds</b> section of the <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="b:13;48:96">7.3.7</b>
+         Release.</p>
+      <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="p:12;50:29">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/builds/build-list-2.png" scope="external" class="- topic/image " placement="inline" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="image:2;51:167">
+          <alt class="- topic/alt " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create_a_build.dita" xtrc="alt:2;52:37">builds section</alt>
+        </image>
+      </p>
+    </conbody>
+    
+  <related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="ditamap-8764" xtrc="topicref:2;3:264" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create-manage-build-in-TestOps.ditamap"><link class="- topic/link " format="dita" href="../../../Documents/Plan/manage-build-in-TestOps/intro-create-manage-build-in-TestOps.dita" mapclass="- map/topicref " role="parent" scope="local" type="concept" xtrc="topicref:1;3:203" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create-manage-build-in-TestOps.ditamap"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Create and manage builds in Katalon TestOps</linktext></link><linkpool class="- topic/linkpool " xtrc="topicref:2;3:264" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create-manage-build-in-TestOps.ditamap"><link class="- topic/link " format="dita" href="../../../Documents/Plan/manage-build-in-TestOps/link_test_runs_to_a_build.dita" mapclass="- map/topicref " role="child" scope="local" type="concept" xtrc="topicref:3;3:337" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Plan/manage-build-in-TestOps/create-manage-build-in-TestOps.ditamap"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Link Test Runs to a build</linktext></link></linkpool></linkpool></related-links></concept>

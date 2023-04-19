@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Next steps</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Congratulations! Now you have learned the first and basic steps
+         when using <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/>. Once you have completed your first
+         testing project, head on over to our tutorials and guides to learn
+         more.</p><p class="- topic/p ">For further assistance, you can also ask for help on <xref format="html" href="https://forum.katalon.com/" scope="external" class="- topic/xref ">Katalon Forums</xref> or <xref format="html" href="https://gitter.im/katalon-studio/Lobby" scope="external" class="- topic/xref ">Katalon Chat</xref>.</p>
+        <p class="- topic/p ">Learn more with our Katalon Academy course: <xref format="html" href="https://academy.katalon.com/courses/fundamentals-html-css-javascript/?utm_source=kat_docs_web_intro&amp;utm_medium=bottom_link&amp;utm_campaign=academy_promotion" scope="external" class="- topic/xref ">Fundamentals
+               of HTML, CSS, and JavaScript</xref>.</p>
+      </conbody></concept>

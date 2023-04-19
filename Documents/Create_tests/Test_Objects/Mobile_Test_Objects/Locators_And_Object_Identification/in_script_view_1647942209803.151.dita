@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">In Script View</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li "><b class="+ topic/ph hi-d/b ">Accessibility ID </b>
+                <codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.testobject.MobileTestObject
+import com.kms.katalon.core.testobject.MobileTestObject.MobileLocatorStrategy
+
+MobileTestObject mobileObject = findTestObject("Object Repository/New Mobile Object")
+mobileObject.setMobileLocatorStrategy(MobileLocatorStrategy.ACCESSIBILITY)
+mobileObject.setMobileLocator("ImageView")
+</codeblock>
+            </li><li class="- topic/li "><b class="+ topic/ph hi-d/b ">Class name </b>
+                <codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.testobject.MobileTestObject
+import com.kms.katalon.core.testobject.MobileTestObject.MobileLocatorStrategy
+
+MobileTestObject mobileObject = findTestObject("Object Repository/New Mobile Object")
+mobileObject.setMobileLocatorStrategy(MobileLocatorStrategy.CLASS_NAME)
+mobileObject.setMobileLocator("General")
+</codeblock>
+            </li><li class="- topic/li "><b class="+ topic/ph hi-d/b ">ID </b>
+                <codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.testobject.MobileTestObject
+import com.kms.katalon.core.testobject.MobileTestObject.MobileLocatorStrategy
+
+MobileTestObject mobileObject = findTestObject("Object Repository/New Mobile Object")
+mobileObject.setMobileLocatorStrategy(MobileLocatorStrategy.ID)
+mobileObject.setMobileLocator("General")
+</codeblock>
+            </li><li class="- topic/li "><b class="+ topic/ph hi-d/b ">Name </b>
+                <codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.testobject.MobileTestObject
+import com.kms.katalon.core.testobject.MobileTestObject.MobileLocatorStrategy
+
+MobileTestObject mobileObject = findTestObject("Object Repository/New Mobile Object")
+mobileObject.setMobileLocatorStrategy(MobileLocatorStrategy.NAME)
+mobileObject.setMobileLocator("General")
+</codeblock>
+            </li><li class="- topic/li "><b class="+ topic/ph hi-d/b ">XPath </b>
+                <codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.testobject.MobileTestObject
+import com.kms.katalon.core.testobject.MobileTestObject.MobileLocatorStrategy
+
+MobileTestObject mobileObject = findTestObject("Object Repository/New Mobile Object")
+mobileObject.setMobileLocatorStrategy(MobileLocatorStrategy.XPATH)
+mobileObject.setMobileLocator("//XCUIElementTypeApplication/XCUIElementTypeWindow[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeOther[1]/XCUIElementTypeTable[1]/XCUIElementTypeCell[2]/XCUIElementTypeStaticText[1]")
+</codeblock>
+            </li><li class="- topic/li "><b class="+ topic/ph hi-d/b ">Image </b>
+                <codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import org.apache.commons.io.FileUtils
+import com.kms.katalon.core.testobject.MobileTestObject
+import com.kms.katalon.core.testobject.MobileTestObject.MobileLocatorStrategy
+
+MobileTestObject mobileObject = findTestObject("Object Repository/New Mobile Object")
+mobileObject.setMobileLocatorStrategy(MobileLocatorStrategy.IMAGE)
+byte[] fileContent = FileUtils.readFileToByteArray(new File(imageFilePath))
+mobileObject.setMobileLocator(Base64.getEncoder().encodeToString(fileContent))
+</codeblock>
+            </li><li class="- topic/li "><b class="+ topic/ph hi-d/b ">Andoid UIAutomator </b>
+                <codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.testobject.MobileTestObject
+import com.kms.katalon.core.testobject.MobileTestObject.MobileLocatorStrategy
+
+MobileTestObject mobileObject = findTestObject("Object Repository/New Mobile Object")
+mobileObject.setMobileLocatorStrategy(MobileLocatorStrategy.ANDROID_UI_AUTOMATOR)
+mobileObject.setMobileLocator('new UiSelector().className("android.widget.TextView").text("General").resourceId("android:id/title").packageName("com.android.settings").enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(0)')
+</codeblock>
+            </li><li class="- topic/li "><b class="+ topic/ph hi-d/b ">Android View Tag </b>
+                <codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.testobject.MobileTestObject
+import com.kms.katalon.core.testobject.MobileTestObject.MobileLocatorStrategy
+
+MobileTestObject mobileObject = findTestObject("Object Repository/New Mobile Object")
+mobileObject.setMobileLocatorStrategy(MobileLocatorStrategy.ANDROID_VIEWTAG)
+mobileObject.setMobileLocator("MY VIEW TAG")
+</codeblock>
+            </li><li class="- topic/li "><b class="+ topic/ph hi-d/b ">iOS Predicate String </b>
+                <codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.testobject.MobileTestObject
+import com.kms.katalon.core.testobject.MobileTestObject.MobileLocatorStrategy
+
+MobileTestObject mobileObject = findTestObject("Object Repository/New Mobile Object")
+mobileObject.setMobileLocatorStrategy(MobileLocatorStrategy.IOS_PREDICATE_STRING)
+mobileObject.setMobileLocator("type == 'XCUIElementTypeStaticText' AND enabled == 1 AND label == 'General' AND name == 'General' AND name == 'General'")
+</codeblock>
+            </li><li class="- topic/li "><b class="+ topic/ph hi-d/b ">iOS Class Chain </b>
+                <codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.testobject.MobileTestObject
+import com.kms.katalon.core.testobject.MobileTestObject.MobileLocatorStrategy
+
+MobileTestObject mobileObject = findTestObject("Object Repository/New Mobile Object")
+mobileObject.setMobileLocatorStrategy(MobileLocatorStrategy.IOS_CLASS_CHAIN)
+mobileObject.setMobileLocator("**/XCUIElementTypeStaticText[`enabled == 1 AND label == 'General' AND name == 'General' AND value == 'General'`]")
+</codeblock>
+            </li><li class="- topic/li "><b class="+ topic/ph hi-d/b ">Custom </b>
+                <codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.testobject.MobileTestObject
+import com.kms.katalon.core.testobject.MobileTestObject.MobileLocatorStrategy
+
+MobileTestObject mobileObject = findTestObject("Object Repository/New Mobile Object")
+mobileObject.setMobileLocatorStrategy(MobileLocatorStrategy.CUSTOM)
+mobileObject.setMobileLocator("foo")
+</codeblock>
+            </li></ol></conbody></concept>

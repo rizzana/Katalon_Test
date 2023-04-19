@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-windows_recorder_tutorials" class="- map/map ">
+  <title class="- topic/title ">Windows Record Tutorials</title>
+  <topicref href="windows_recorder_tutorials.dita" class="- map/topicref "><topicref href="coordinate-based_recording_1647942349771.886.dita" class="- map/topicref "/>
+  <topicref href="recording_1647942349771.886.dita" class="- map/topicref "/>
+  <topicref href="executing_a_test_case_1647942349771.886.dita" class="- map/topicref "/>
+</topicref>
+  </map>

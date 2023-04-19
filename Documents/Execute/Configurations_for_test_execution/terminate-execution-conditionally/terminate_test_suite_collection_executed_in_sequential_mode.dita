@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_8" class="- topic/topic concept/concept "><title class="- topic/title ">Terminate Test Suite Collection Executed In Sequential Mode</title><conbody class="- topic/body  concept/conbody "><ul class="- topic/ul "><li class="- topic/li ">
+                <p class="- topic/p ">Given that you have 5 test suites, each test suite has 10 test cases. You want to stop the test suite collection after 20 test failures. Set T = 20.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">The test suite collection executes in sequential mode and is terminated once the number of failures becomes 20. The rest test cases in the terminated test suite and the rest test suite do not run.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/condition-to-stop/Report%20TSC%20UC2.png" scope="external" class="- topic/image "><alt class="- topic/alt ">report test suite collection</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Katalon Studio generates a report in JUnit, HTML, PDF, and CSV format. The report does not show information for test cases and test suites that were not run.</p>
+                <note type="note" class="- topic/note ">
+                    <p class="- topic/p ">Learn more about how to create and execute a <xref href="../../../Organize/Manage_Tests/Test-suite-collection/intro-manage-test-suites-in-test-suite-collection.dita" class="- topic/xref "/>.</p>
+                </note>
+            </li></ul></conbody></concept>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Categorize test cases from test case view</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">You can also add tags directly to a test case. To do so, open the desired test case. Click <b class="+ topic/ph hi-d/b ">Add new tag</b> in the test case header, then manually input the tag name or select an existing tag in the dropdown list.</p><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/b8e6cfa9512728f2d1c7b99e7336bafe19089a20/katalon-recorder/docs/dynamic-test-suite/KR-DYNAMIC-Add-new-tags-from-test-case%202.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Add tags from test case view</alt></image>
+        </p></conbody></concept>

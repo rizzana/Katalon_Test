@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Debug your platform plugin using Eclipse IDE</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">This tutorial will illustrate how to debug a platform plugin
+         using Eclipse IDE via <xref format="html" href="https://help.eclipse.org/2019-03/topic/org.eclipse.jdt.doc.user/tasks/task-running_and_debugging.htm" scope="external" class="- topic/xref ">Java
+            Remote Debugging</xref> feature.</p><section class="- topic/section "><title class="- topic/title ">Requirements</title><p class="- topic/p "><ol class="- topic/ol "><li class="- topic/li ">Java SDK 1.8</li><li class="- topic/li ">Maven 3.3+</li><li class="- topic/li "><ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> version 6.1.0 or later</li><li class="- topic/li ">Eclipse IDE (We used Eclipse 4.11 in this article)</li></ol></p></section></conbody></concept>

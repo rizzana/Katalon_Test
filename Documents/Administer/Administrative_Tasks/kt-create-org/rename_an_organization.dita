@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">Rename an Organization</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">After the <b class="+ topic/ph hi-d/b ">Organization profile</b> page appears, you can enter a new name for your Organization in the <b class="+ topic/ph hi-d/b ">Name</b> section, then click <b class="+ topic/ph hi-d/b ">Update</b> to save your changes.</p><note type="note" class="- topic/note ">
+                <ul class="- topic/ul "><li class="- topic/li ">
+                        <p class="- topic/p ">This function is only accessible to the Owner and Admin of an Organization.</p>
+                    </li></ul>
+        </note></conbody></concept>

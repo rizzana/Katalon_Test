@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task-8027" class="- topic/topic task/task "><title class="- topic/title ">Setup Katalon project</title><taskbody class="- topic/body task/taskbody "><steps class="- topic/ol task/steps "><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Global Variables setup</cmd><info class="- topic/itemgroup task/info "><p class="- topic/p ">Create the following global variable in your package which will be used in API calls for pushing execution results to Zephyr cloud in Jira from Katalon after execution of test cases.<image href="image/Zephyr_Katalon_global_variables_setup.png" class="- topic/image "><alt class="- topic/alt ">Zephyr Katalon global variables setup</alt></image></p></info></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Create Test Case and tag</cmd><info class="- topic/itemgroup task/info ">Script the test case and give name to test case with prefix as Test Case Key from Zephyr Scale then an underscore followed by Test case name, for example:<i class="+ topic/ph hi-d/i "> &lt;&lt;TestCase Key&gt;&gt;_&lt;&lt;Test case name as per your choice&gt;&gt;</i><p class="- topic/p ">Also, you need to tag the test case with linked Test Cycle Keys from Zephyr scale as below.<image href="image/Zephyr_test_case_tag.png" class="- topic/image "><alt class="- topic/alt ">Zephyr test case tag</alt></image></p></info></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Create Web Service Request</cmd><info class="- topic/itemgroup task/info "><p class="- topic/p ">Under the Object repository add a new web service request for API <xref href="https://support.smartbear.com/zephyr-scale-cloud/api-docs/#tag/Test-Executions/operation/createTestExecution" scope="external" class="- topic/xref ">Create test execution</xref> -This API will be used to push test results by creating a new execution record for each Test case after execution in Katalon.</p>In API you need to provide an end point, set authorization with bearer token generated in the step Generating API Access Tokens above, update that to HTTP Header and the HTTP Body with parameterized global variables which will be replaced with actual value in
+runtime.</info><info class="- topic/itemgroup task/info "><image href="image/Zephyr_update_to_HTTP_Header.png" class="- topic/image "><alt class="- topic/alt ">Zephyr - update to HTTP header</alt></image><image href="image/Zephyr_update_to_HTTP_body.png" class="- topic/image "><alt class="- topic/alt ">Zephyr update to body</alt></image></info></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Create TestListener</cmd><info class="- topic/itemgroup task/info ">Create a new test listener with following methods and code given below. This will call the Execution API after each Test case gets executed and push results to Zephyr Scale.<codeblock class="+ topic/pre pr-d/codeblock ">&lt;&lt; default import statements will be here&gt;&gt; 
+class NewTestListener { 
+	/** 
+	* Executes after every test case ends. 
+	* @param testCaseContext related information of the executed test case. 
+	*/ 
+	@AfterTestCase 
+	def sampleAfterTestCase(TestCaseContext testCaseContext) { 
+		//Get Test Case Key from test case name 
+		TestCase testCase = findTestCase(testCaseContext.getTestCaseId()) 
+		GlobalVariable.g_ZS_TestCaseKey=testCase.getName().split("_")[0]
+		//Set Zephyr Status
+		if (testCaseContext.getTestCaseStatus()=="PASSED")
+			GlobalVariable.g_ZS_StatusName="Pass"
+		else if (testCaseContext.getTestCaseStatus()=="FAILED")
+			GlobalVariable.g_ZS_StatusName="Fail"
+		else
+			GlobalVariable.g_ZS_StatusName="Not Executed"
+		//Call API to Push Result to Zephyr by creating Test case execution
+		WS.sendRequest(findTestObject('Create Execution'))
+	}
+}</codeblock></info></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Install Basic Search for Dynamic Test Suite Plugin.</cmd><info class="- topic/itemgroup task/info "><p class="- topic/p ">You can install <xref href="https://store.katalon.com/product/2/Basic-Search-For-Dynamic-Test-Suite" scope="external" class="- topic/xref ">Basic Search For Dynamic Test Suite</xref> by login into the Katalon Store and reload the plugin in Katalon Studio.<image href="image/KS-reload_plugin.png" class="- topic/image "><alt class="- topic/alt ">Katalon Studio reload plugins</alt></image></p>
+        </info></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Create Dynamic Test Suite and Generate Command for Console Mode</cmd><substeps class="- topic/ol task/substeps "><substep class="- topic/li task/substep "><cmd class="- topic/ph task/cmd ">In <uicontrol class="+ topic/ph ui-d/uicontrol ">Test Explorer</uicontrol> panel, right-click at the <uicontrol class="+ topic/ph ui-d/uicontrol ">Test Suites</uicontrol> folder &gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">New</uicontrol> &gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">Dynamic Test Suite</uicontrol> to create a Dynamic Test Suite.<image href="image/Katalon_Studio_-_Dynamic_Test_Suite.png" class="- topic/image "><alt class="- topic/alt ">Katalon Studio - Dynamic Test Suite</alt></image></cmd></substep><substep class="- topic/li task/substep "><cmd class="- topic/ph task/cmd ">Select <uicontrol class="+ topic/ph ui-d/uicontrol ">Generate Command</uicontrol> icon near <uicontrol class="+ topic/ph ui-d/uicontrol ">Run</uicontrol> icon and select Test Suite and other details.<image href="image/KS-generate_command.png" class="- topic/image "><alt class="- topic/alt ">KS - generate command</alt></image></cmd></substep></substeps></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Execute Dynamic Test Suite using Console mode command.</cmd><info class="- topic/itemgroup task/info ">This command can be configured in <ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/> or in CI tool for triggering execution or can be run on cmd using <ph conkeyref="name-variables/katalon-runtime-engine" class="- topic/ph "/>. <codeblock class="+ topic/pre pr-d/codeblock ">./katalonc -noSplash -runMode=console
+-projectPath="/Users/rupeshsawant/Katalon Studio/Katalon and
+Zephyr Integration/Katalon and Zephyr Integration.prj"
+-retry=0 -testSuitePath="Test Suites/Zephyr TestCycle Dynamic
+Test Suite" -browserType="Chrome" -executionProfile="default"
+-apiKey="&lt;&lt;Your APi Key&gt;&gt;" -orgID=&lt;&lt;Your Org Id&gt;&gt; --config
+-proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY
+-proxy.system.applyToDesiredCapabilities=true
+-webui.autoUpdateDrivers=true</codeblock>You need to append two arguments with the Test Cycle Key value which you want to execute: <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "><codeph class="+ topic/ph pr-d/codeph ">-testSuiteQuery="tag=(&lt;&lt;Your Test Cycle Key)&gt;&gt;)"</codeph>: this argument will be used for filtering test cases linked to test cycle for execution in dynamic test suite.</p></li><li class="- topic/li "><p class="- topic/p "><codeph class="+ topic/ph pr-d/codeph ">-g_ZS_TestCycleKey="&lt;&lt;Your Test Cycle Key)&gt;&gt;"</codeph>: this argument will be used for setting global variable value to selected test cycle which will be required in API calls.</p></li></ul><p class="- topic/p ">The command will be updated as follows: <codeblock class="+ topic/pre pr-d/codeblock ">./katalonc -noSplash -runMode=console
+-projectPath="/Users/rupeshsawant/Katalon Studio/Katalon and
+Zephyr Integration/Katalon and Zephyr Integration.prj"
+-retry=0 -testSuitePath="Test Suites/Zephyr TestCycle Dynamic
+Test Suite" -browserType="Chrome" -executionProfile="default"
+-apiKey="&lt;&lt;Your APi Key&gt;&gt;" -orgID=&lt;&lt;Your Org Id&gt;&gt; --config
+-proxy.auth.option=NO_PROXY -proxy.system.option=NO_PROXY
+-proxy.system.applyToDesiredCapabilities=true
+-webui.autoUpdateDrivers=true -testSuiteQuery="tag=(&lt;&lt;Your
+Test Cycle Key)&gt;&gt;)" -g_ZS_TestCycleKey="&lt;&lt;Your Test Cycle
+Key)&gt;&gt;"</codeblock></p></info></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Check test results in Jira Zephyr Scale</cmd><info class="- topic/itemgroup task/info ">Results will be updated in Jira Zephyr scale in respective test cycle and test case with new execution record.<image href="image/Zephyr_test_results.png" class="- topic/image "><alt class="- topic/alt ">Zephyr test result</alt></image></info></step></steps></taskbody></task>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Adding data sources in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">
+            <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Test Data</b> table, click
+               <b class="+ topic/ph hi-d/b ">Add</b> to add data file(s). A <b class="+ topic/ph hi-d/b ">Test Data
+                  Browser</b> dialog opens.</p>
+            <p class="- topic/p ">
+              
+            <image width="700" href="Pictures/ks-841-add-test-data.png" class="- topic/image "/></p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">Select a combination of data files you wish to use for variable
+               binding in the <b class="+ topic/ph hi-d/b ">Test Data Browser</b> dialog. Click
+               <b class="+ topic/ph hi-d/b ">OK</b>. </p>
+            <p class="- topic/p ">
+              
+            <image width="500" href="Pictures/ks-841-test-data-browser.png" class="- topic/image "/></p><p class="- topic/p ">The selected test data files appear in the
+               <b class="+ topic/ph hi-d/b ">Test Data</b> table.</p>
+            <p class="- topic/p ">
+              
+            <image width="650" href="Pictures/ks-841-test-data.png" class="- topic/image "/></p>
+          </li></ol></conbody></concept>

@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"id_scroll_element_mobile_automation-d48972e12757":{"topics":[{"title":"Scroll To Text","href":"Documents\/Create_tests\/Keywords\/Using_Keywords_In_Katalon_Studio\/Mobile_Testing\/scroll_element_mobile_automation\/scroll_to_text.html","attributes":{"data-id":"id_1"},"menu":{"hasChildren":false},"tocID":"id_1-d48972e12767","next":"id_1-d48972e12767"}]}};

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-testops-navigation" class="- map/map ">
+  <title class="- topic/title ">Navigate through Katalon TestOps</title>
+  <topicref href="testops-navigation.dita" class="- map/topicref "><topicref href="in_the_testops_homepage.dita" class="- map/topicref ">
+    <topicref href="as_an_owner.dita" class="- map/topicref "/>
+    <topicref href="as_an_admin.dita" class="- map/topicref "/>
+    <topicref href="as_a_billing_manager.dita" class="- map/topicref "/>
+    <topicref href="as_a_member.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="in_the_admin_homepage.dita" class="- map/topicref ">
+    <topicref href="as_an_owneradmin.dita" class="- map/topicref "/>
+    <topicref href="as_a_billing_manager1.dita" class="- map/topicref "/>
+    <topicref href="as_a_member1.dita" class="- map/topicref "/>
+  </topicref>
+</topicref>
+  </map>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-7793" xml:lang="en-us" class="- topic/topic concept/concept "><title class="- topic/title ">Execute a test case with Sauce Labs profiles</title><prolog class="- topic/prolog "><author translate="no" type="creator" class="- topic/author ">Windy Le &lt;windy.le@katalon.com&gt;</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "/></metadata></prolog><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To execute a test case with Sauce Labs profiles, do as follows:<ol class="- topic/ol "><li class="- topic/li ">
+                    <p class="- topic/p ">Open a test case.</p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">Click the dropdown list next to <b class="+ topic/ph hi-d/b ">Run</b>.</p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">Select <b class="+ topic/ph hi-d/b ">Custom capabilities</b>.</p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">Select your Sauce Labs profile.</p>
+                </li></ol><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/saucelabs-plugin/830-KS-SAUCELABS-Execute-test-case-saucelabs-profile.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Execute Sauce Labs custom profile in a test case</alt></image></p></conbody></concept>

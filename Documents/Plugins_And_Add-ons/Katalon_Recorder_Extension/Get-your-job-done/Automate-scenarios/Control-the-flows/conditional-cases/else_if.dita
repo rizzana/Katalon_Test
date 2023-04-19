@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">else if</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">The <codeph class="+ topic/ph pr-d/codeph ">elseif</codeph> command is similar to the
+         <codeph class="+ topic/ph pr-d/codeph ">if</codeph> command. If the steps between <codeph class="+ topic/ph pr-d/codeph ">if</codeph> and
+         <codeph class="+ topic/ph pr-d/codeph ">elseif</codeph> are not executed, the expression in
+         <codeph class="+ topic/ph pr-d/codeph ">elseif</codeph> will be evaluated. If the expression evaluates
+         to <codeph class="+ topic/ph pr-d/codeph ">true</codeph>, all commands following <codeph class="+ topic/ph pr-d/codeph ">elseif</codeph>
+         will be executed until a <codeph class="+ topic/ph pr-d/codeph ">else if</codeph>, <codeph class="+ topic/ph pr-d/codeph ">else</codeph>,
+         or <codeph class="+ topic/ph pr-d/codeph ">endif</codeph> command is found.</p>
+      </conbody>
+    </concept>

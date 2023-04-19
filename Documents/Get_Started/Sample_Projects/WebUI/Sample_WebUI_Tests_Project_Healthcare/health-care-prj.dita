@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Sample WebUI tests project (Healthcare sample) in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">This sample demonstrates WebUI testing fundamentals in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/>. The Application Under Test (AUT) is the CURA Healthcare
+         Service website:
+         <codeph class="+ topic/ph pr-d/codeph ">https://katalon-demo-cura.herokuapp.com/</codeph>. You can
+         learn more about WebUI testing in this document: <xref href="../../../../Create_tests/Introduction_To_Test_Creation/AUT/introduction-to-web-testing/before_you_begin.dita" class="- topic/xref ">Introduction
+            to WebUI testing</xref>.</p></conbody></concept>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept "><title class="- topic/title ">Screen Objects</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Screen Objects</b> section shows a tree of all Windows objects you can interact with. To update this tree view, you can press the <b class="+ topic/ph hi-d/b ">Refresh Screen</b> button.</p><p class="- topic/p ">The selected object is highlighted with a green border on the <b class="+ topic/ph hi-d/b ">Screen View</b>.</p><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-record-utility/KS-Screen-view.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Object highlighted in the Screen View</alt></image>
+        </p></conbody></concept>

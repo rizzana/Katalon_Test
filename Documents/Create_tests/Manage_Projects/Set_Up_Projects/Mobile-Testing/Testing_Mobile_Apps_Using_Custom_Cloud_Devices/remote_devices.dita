@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Remote Devices</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">In addition to Android, iOS and Kobiton devices, a new tool item
+         <b class="+ topic/ph hi-d/b ">Remote Devices</b> is added to the UI of Mobile Object
+         Spy and Mobile Recorder.</p>
+      </conbody>
+    </concept>

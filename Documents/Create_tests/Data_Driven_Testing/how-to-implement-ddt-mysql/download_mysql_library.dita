@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Download MySQL library</title>
+    <conbody class="- topic/body  concept/conbody ">
+
+      <p class="- topic/p ">Download the MySQL executable .jar file. You can download the
+         MySQL library from the MySQL website here: <xref format="html" href="https://dev.mysql.com/downloads/connector/j/" scope="external" class="- topic/xref ">MySQL
+            Connector/J</xref>. The version of JDBC driver must be compatible with
+         MySQL version.</p>
+    </conbody>
+  </concept>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">What do people use Katalon Recorder for?</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">People reportedly use Katalon Recorder to:</p><ul class="- topic/ul "><li class="- topic/li ">Save time by automating the repetitive tasks on browsers, such
+            as generating reports, filling forms, automating games, etc.</li><li class="- topic/li ">Ensure quality of your work by testing before handing your work
+            over to the QA team.</li><li class="- topic/li ">Ensure end-to-end quality of your software by automated
+            testing.</li><li class="- topic/li ">Monitor the functionality of web applications by synthetic
+            testing.</li><li class="- topic/li ">Monitor testing activity with shareable reports with visual
+            dashboards and charts.</li></ul></conbody></concept>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Create a Sauce Labs custom profile using custom desired capabilities</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">You can also create a new Sauce Labs custom profile using custom desired capabilities. To do so:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Projects &gt; Settings &gt; Desired Capabilities &gt; Custom</b>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Add</b>, then name the new custom profile with the following syntax: <codeph class="+ topic/ph pr-d/codeph ">saucelabs_&lt;your-custom-profile-name&gt;</codeph>. Here, we name our profile <codeph class="+ topic/ph pr-d/codeph ">saucelabs_custom</codeph>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click on <i class="+ topic/ph hi-d/i ">More</i> (...) under the <b class="+ topic/ph hi-d/b ">Value</b> column. In the <b class="+ topic/ph hi-d/b ">Custom Execution Configuration Builder</b> dialog, click <b class="+ topic/ph hi-d/b ">Add</b>, then choose <b class="+ topic/ph hi-d/b ">Remote</b>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click on <i class="+ topic/ph hi-d/i ">More</i> (...) under the <b class="+ topic/ph hi-d/b ">Preferences</b> column. In the pop-up <b class="+ topic/ph hi-d/b ">Driver Builder</b> dialog, specify as follows:</p>
+                <ul class="- topic/ul "><li class="- topic/li "> <b class="+ topic/ph hi-d/b ">Remote server URL</b>: specify the Driver Creation URL in Sauce Labs. To find the Driver Creation URL, open your Sauce Labs account, go to <b class="+ topic/ph hi-d/b ">Account</b> &gt; <b class="+ topic/ph hi-d/b ">User settings</b>, then scroll to the <b class="+ topic/ph hi-d/b ">Driver Creation</b> section.</li></ul>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/saucelabs-plugin/KS-SAUCELABS-Driver-URL.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Add Sauce Labs custom profile via desired capabilities</alt></image>
+                </p>
+                <ul class="- topic/ul "><li class="- topic/li ">
+                        <p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Remote server type</b>: choose <b class="+ topic/ph hi-d/b ">Selenium</b>.</p>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p ">Specify your Sauce Labs <codeph class="+ topic/ph pr-d/codeph ">username</codeph>, <codeph class="+ topic/ph pr-d/codeph ">accessKey</codeph>.</p>
+                    </li><li class="- topic/li ">Add other properties for your execution environment. You can refer to the Sauce Labs platform configuration here: <xref format="html" href="https://saucelabs.com/platform/platform-configurator" scope="external" class="- topic/xref ">Platform configuration</xref>.</li></ul>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/saucelabs-plugin/KS-SAUCELABS-Desired-capabilities.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Add Sauce Labs custom profile via desired capabilities</alt></image>`</p>
+                <p class="- topic/p ">You can now use the newly created profile to execute tests.</p>
+            </li></ol></conbody></concept>

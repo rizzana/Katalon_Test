@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_0" class="- topic/topic concept/concept "><title class="- topic/title ">[WebUI] Take Element Screenshot As Checkpoint</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p "><note type="note" class="- topic/note ">
+        <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">From version <b class="+ topic/ph hi-d/b ">7.7.0</b>, this keyword is
+            available.</p></li></ul>
+      </note></p><section id="id_1" class="- topic/section ">
+    <title class="- topic/title ">takeElementScreenshotAsCheckpoint</title>
+    
+      <ul class="- topic/ul "><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Description</b>: Take a screenshot of a specific
+            web element to send to TestOps Vision. The captured image will be
+            saved in '.png' format and stored in the 'keyes' folder in the
+            report folder.</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Keyword name</b>:
+            takeElementScreenshotAsCheckpoint</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Keyword syntax</b>:
+            <codeblock class="+ topic/pre pr-d/codeblock ">WebUI.takeElementScreenshotAsCheckpoint(checkpointName, to, flowControl)</codeblock>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Parameters</b>:</p>
+          <ul class="- topic/ul "><li class="- topic/li ">
+              <p class="- topic/p ">Name: checkpointName</p>
+              <ul class="- topic/ul "><li class="- topic/li ">Description: A String that represents the name of the image on
+                        TestOps Vision. On a local machine, this name will be appended with
+                        TestOps Vision prefix('keyes-').</li><li class="- topic/li ">Parameter Type: String</li><li class="- topic/li ">Mandatory: Required</li></ul>
+            </li><li class="- topic/li ">
+              <p class="- topic/p ">Name: to</p>
+              <ul class="- topic/ul "><li class="- topic/li ">Description: TestObject which represents the element you want
+                        to take screenshot.</li><li class="- topic/li ">Parameter Type: TestObject</li><li class="- topic/li ">Mandatory: Required</li></ul>
+            </li><li class="- topic/li ">
+              <p class="- topic/p ">Name: flowControl</p>
+              <ul class="- topic/ul "><li class="- topic/li ">Description: Specify <xref href="../../../../../Maintain/failure-handling/failure-handling.dita" class="- topic/xref ">failure handling</xref>
+                        schema to determine whether the execution should be allowed to
+                        continue or stop.</li><li class="- topic/li ">Parameter Type: FailureHandling</li><li class="- topic/li ">Mandatory: Optional</li></ul>
+            </li></ul>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Examples</b>:<ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">You want to take a screenshot of an element that you have captured by using Katalon Spy Utility and stored in Test Object &gt; UI &gt; logo for TestOps Vision. The checkpoint's name is 'logo'. Default <xref href="../../../../../Maintain/failure-handling/failure-handling.dita" class="- topic/xref ">failure handling</xref> is used:</p><p class="- topic/p "><codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+
+WebUI.takeElementScreenshotAsCheckpoint('logo', findTestObject('UI/logo'))
+</codeblock></p></li><li class="- topic/li "><p class="- topic/p ">You want to take a screenshot of a Test Object stored in a variable named 'header' for TestOps Vision. Set the checkpointName to 'header':</p><p class="- topic/p "><codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+
+// where ignoredElements is a user-defined List-typed variable.
+WebUI.takeElementScreenshotAsCheckpoint('header', header)
+</codeblock></p></li></ul></p>
+        </li></ul>
+      
+      
+        
+      
+      
+      
+        
+      
+    
+  </section></conbody></concept>

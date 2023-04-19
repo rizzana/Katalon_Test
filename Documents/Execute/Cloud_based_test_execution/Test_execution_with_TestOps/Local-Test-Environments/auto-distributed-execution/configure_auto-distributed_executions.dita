@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Configure Auto-Distributed Executions</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">
+
+          <p class="- topic/p ">To enable Auto-Distributed Executions, make sure that you have
+               at least 2 active Agents. You can learn how to set-up Agents here:
+               <xref href="../agents/agents.dita" class="- topic/xref ">Create
+                  a Local Test Environment</xref>.</p>
+        </li><li class="- topic/li ">
+
+          <p class="- topic/p ">Make sure that your Test Suite Collection is configured for
+               parallel execution. If not, you can follow these steps: <xref href="../kt_run_parallel_agent/kt_run_parallel_agent.dita" class="- topic/xref ">Run
+                  multiple Test Suites in Parallel</xref>.</p>
+        </li><li class="- topic/li ">
+
+          <p class="- topic/p ">Create a Test Schedule and assign your Test Run Types to those
+               Agents. Learn more: <xref href="../../../../Schedule_test_executions/Schedule-test-runs-in-testops/schedule_test_runs.dita" class="- topic/xref ">Schedule
+                  Test Runs</xref>.</p>
+        <note type="tip" class="- topic/note ">
+        
+        <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">When configuring multiple Test Run Types, Test Run Types must
+            share a minimum of 1 mutual Agent for distributed execution. In
+            other words, assign Test Run Types to multiple, overlapping
+            Agents.</p></li></ul>
+      </note></li><li class="- topic/li ">
+          <p class="- topic/p ">Activate your Agents before the scheduled Test Run time.</p>
+        </li><li class="- topic/li "><p class="- topic/p ">Once the Test Run Types execute, the test sessions of these Test
+               Run Types are assigned to the previously configured agents
+               automatically.</p></li></ol></conbody></concept>

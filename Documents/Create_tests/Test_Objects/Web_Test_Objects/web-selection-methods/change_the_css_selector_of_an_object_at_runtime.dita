@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_8" class="- topic/topic concept/concept "><title class="- topic/title ">Change the CSS selector of an object at runtime</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To change the CSS value of a test object at runtime, use the following code snippet:</p><codeblock class="+ topic/pre pr-d/codeblock ">import com.kms.katalon.core.testobject.SelectorMethod
+
+TestObject to = findTestObject('your_test_object_id')
+
+//Change value of CSS selector
+to.setSelectorValue(SelectorMethod.CSS, 'your_desired_value')
+
+//Change selection method from another selector to CSS selector
+to.setSelectorMethod(SelectorMethod.CSS)
+</codeblock><p class="- topic/p ">See also:</p><ul class="- topic/ul "><li class="- topic/li "><xref format="html" href="https://api-docs.katalon.com/com/kms/katalon/core/testobject/TestObject.html#getSelectorCollection()" scope="external" class="- topic/xref ">getSelectorCollection</xref></li><li class="- topic/li "><xref format="html" href="https://api-docs.katalon.com/com/kms/katalon/core/testobject/TestObject.html#getSelectorMethod()" scope="external" class="- topic/xref ">getSelectorMethod</xref></li><li class="- topic/li "><xref format="html" href="https://api-docs.katalon.com/com/kms/katalon/core/testobject/TestObject.html#setSelectorMethod(com.kms.katalon.core.testobject.SelectorMethod)" scope="external" class="- topic/xref ">setSelectorMethod</xref></li><li class="- topic/li "><xref format="html" href="https://api-docs.katalon.com/com/kms/katalon/core/testobject/TestObject.html#setSelectorValue(com.kms.katalon.core.testobject.SelectorMethod,%20java.lang.String)" scope="external" class="- topic/xref ">setSelectorValue</xref></li></ul></conbody></concept>

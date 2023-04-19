@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Create/Import test data files</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To create a new data file, go to <b class="+ topic/ph hi-d/b ">File</b> &gt;
+         <b class="+ topic/ph hi-d/b ">New</b> &gt; <b class="+ topic/ph hi-d/b ">Test Data</b>. Katalon
+         allows you to use external or internal data sources for test
+         execution. To learn how to create/import a new test data file to
+         Katalon Studio, you can refer to this document: <xref href="../manage-test-data/manage-test-data.dita" class="- topic/xref ">Manage
+            test data</xref>. You can preview the imported test data as
+         follows:</p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/run-test-case-external-data/KS-830-Test-data-file.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">Test data file</alt></image>
+      </p></conbody></concept>

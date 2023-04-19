@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Global Variables</title>
+    <conbody class="- topic/body  concept/conbody ">
+
+      <p class="- topic/p ">A global variable is a variable defined in the execution profile
+         and can be used in a test case, test object, web service object,
+         and email configuration in a project. To learn more about global
+         variables and execution profiles, you can refer to this document:
+         <xref href="../execution-profile-v54/execution_profile.dita" class="- topic/xref ">Global
+            Variables and Execution Profile</xref>.</p>
+    </conbody>
+  </concept>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-teamcity-plugin" class="- map/map ">
+  <title class="- topic/title ">TeamCity Plugin</title>
+  <topicref href="teamcity-plugin.dita" class="- map/topicref "><topicref href="installation_1647942258051.58.dita" class="- map/topicref "/>
+  <topicref href="enable_the_plugin.dita" class="- map/topicref "/>
+  <topicref href="configuration_steps.dita" class="- map/topicref "/>
+</topicref>
+  </map>

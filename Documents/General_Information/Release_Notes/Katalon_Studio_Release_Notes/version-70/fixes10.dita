@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_51" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Fixes</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">Bug: Unable to activate Katalon Studio</li>
+          <li class="- topic/li ">Bug: Unable to open a containing folder of a package in Tests
+            Explorer</li>
+          <li class="- topic/li ">Bug: [Web Service] An issue of saving HTTP Body content created
+            with <codeph class="+ topic/ph pr-d/codeph ">x-www-form-urlencoded</codeph> or <codeph class="+ topic/ph pr-d/codeph ">form-data</codeph>
+            option</li>
+          <li class="- topic/li ">Bug: [Web Service] An issue of handling API response in XML
+            format</li>
+          <li class="- topic/li ">Bug: [Web Service] Unable to send a SOAP request behind
+            proxy</li>
+          <li class="- topic/li ">Bug: [DDT] An issue of Database Connection settings being saved
+            across projects</li>
+        </ul>
+      </conbody>
+    </concept>

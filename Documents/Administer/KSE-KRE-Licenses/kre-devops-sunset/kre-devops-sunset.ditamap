@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-kre-devops-sunset" class="- map/map ">
+  <title class="- topic/title ">Katalon Runtime Engine DevOps Sunsetting</title>
+  <topicref href="kre-devops-sunset.dita" class="- map/topicref "><topicref href="frequently_asked_questions_faqs.dita" class="- map/topicref "/>
+</topicref>
+  </map>

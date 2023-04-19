@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Playback a test case</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To playback the recorded scenario:</p><ol class="- topic/ol "><li class="- topic/li ">Select the test case where you saved the recorded actions.</li><li class="- topic/li ">
+            <p class="- topic/p ">From the main toolbar, select any browser on the drop-down list
+               next to <b class="+ topic/ph hi-d/b ">Run</b>.</p>
+            <p class="- topic/p ">Katalon Studio will execute the chosen test case with the
+               recorded steps accordingly.</p>
+            <p class="- topic/p ">
+              <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/healthcare-samples/KS-TOOLBAR-Chrome.png" scope="external" width="250" class="- topic/image "><alt class="- topic/alt ">Playback</alt></image>
+            </p>
+          </li></ol></conbody></concept>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-1145" xml:lang="en-us" class="- topic/topic concept/concept "><title class="- topic/title ">In script view</title><prolog class="- topic/prolog "><author translate="no" type="creator" class="- topic/author ">Yen Nguyen &lt;yen.nguyen@katalon.com&gt;</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "/></metadata></prolog><conbody class="- topic/body  concept/conbody "><section class="- topic/section ">
+            <title class="- topic/title "/>
+            <p class="- topic/p "> The <uicontrol conkeyref="ks-UI-text/ks-ui-script" class="+ topic/ph ui-d/uicontrol "/> view of a test case allows you to programmatically define and handle methods using Groovy or Java language. For details about methods in Groovy, refer to Groovy documentation:&#160; <xref format="html" href="http://groovy-lang.org/structure.html#_methods" scope="external" class="- topic/xref ">Methods</xref> . </p>
+            <p class="- topic/p ">For example:</p>
+            <ul class="- topic/ul "><li class="- topic/li ">
+                    <p class="- topic/p "><b class="+ topic/ph hi-d/b ">Method declaration</b> : </p>
+                    <codeblock class="+ topic/pre pr-d/codeblock ">Integer myMethod(def param1, def param2) { return param1 + param2 }</codeblock>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p "><b class="+ topic/ph hi-d/b ">Method call</b> : </p>
+                    <codeblock class="+ topic/pre pr-d/codeblock ">myVar = myMethod1(varA, varB)</codeblock>
+                </li></ul>
+        </section></conbody></concept>

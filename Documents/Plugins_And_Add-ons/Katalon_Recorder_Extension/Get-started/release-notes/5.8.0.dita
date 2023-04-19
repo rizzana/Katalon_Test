@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id_3" class="- topic/topic ">
+    <title class="- topic/title ">5.8.0</title>
+    <body class="- topic/body ">
+      <p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">Features</b> - Introduced a new onboarding tour. -
+         Introduced tutorials for advanced features. - Added sample scripts
+         on data-driven testing and other use cases to <b class="+ topic/ph hi-d/b ">Sample
+            Projects</b>.</p>
+      <p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">Bug fixes</b> - Fixed an issue where newly created
+         test cases were misplaced. - Fixed an issue where the
+         <b class="+ topic/ph hi-d/b ">Reference</b> section did not show information on
+         commands.</p>
+    </body>
+  </topic>

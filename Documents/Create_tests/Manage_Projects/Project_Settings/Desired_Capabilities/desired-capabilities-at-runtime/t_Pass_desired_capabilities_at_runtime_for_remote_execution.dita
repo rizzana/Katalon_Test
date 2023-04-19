@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-4049" xml:lang="en-us" class="- topic/topic concept/concept "><title class="- topic/title ">Pass desired capabilities at runtime for remote execution</title><prolog class="- topic/prolog "><author translate="no" type="creator" class="- topic/author ">Yen Nguyen &lt;yen.nguyen@katalon.com&gt;</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "/></metadata></prolog><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To apply desired capabilities at runtime, place the following
+         sample code before the test script. This also overrides the desired
+         capabilities predefined in project settings.</p><codeblock class="+ topic/pre pr-d/codeblock ">import com.kms.katalon.core.configuration.RunConfiguration
+RunConfiguration.setDriverPreferencesProperty('Remote',  capsName , capsValue)</codeblock><p class="- topic/p ">For example, we want to set remote execution environment as
+         Windows 10, enter the following sample code before the test
+         script:</p><codeblock class="+ topic/pre pr-d/codeblock ">import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.configuration.RunConfiguration
+
+RunConfiguration.setDriverPreferencesProperty('Remote', 'os', 'Windows')  
+RunConfiguration.setDriverPreferencesProperty('Remote', 'os_version', '10')  
+
+WebUI.openBrowser('google.com')</codeblock></conbody><related-links class="- topic/related-links "><link href="https://docs.katalon.com/javadoc/com/kms/katalon/core/configuration/RunConfiguration.html" scope="external" class="- topic/link "><linktext class="- topic/linktext ">RunConfiguration</linktext></link></related-links></concept>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Locator builders</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">A locator in Selenium is a means of identifying an element for
+         the selenium command. A locator builder creates each of these
+         locators for you.</p>
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">LocatorBuilders.add('custom locator id goes here', function(e) {
+    if (e.id) {
+        return "css=" + e.tagName + '#' + e.id;
+    }
+    return null;
+});
+</codeblock>
+      
+    </conbody>
+  </concept>

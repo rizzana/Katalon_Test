@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-jenkins-docker-ubuntu" class="- map/map ">
+  <title class="- topic/title ">Integrate Jenkins on Docker hosted in Ubuntu</title>
+  <topicref href="jenkins-docker-ubuntu.dita" class="- map/topicref "><topicref href="integrate_with_docker_on_jenkins.dita" class="- map/topicref ">
+    <topicref href="install_plugins.dita" class="- map/topicref "/>
+    <topicref href="add_an_environment_path.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="upload_your_katalon_project_on_jenkins.dita" class="- map/topicref ">
+    <topicref href="upload_a_git_repository.dita" class="- map/topicref "/>
+    <topicref href="upload_in_the_local_workspace.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="build_your_project.dita" class="- map/topicref "/>
+</topicref>
+  </map>

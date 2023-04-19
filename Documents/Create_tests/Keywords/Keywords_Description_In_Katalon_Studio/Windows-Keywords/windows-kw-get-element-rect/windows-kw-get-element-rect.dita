@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_0" class="- topic/topic concept/concept "><title class="- topic/title ">[Windows] Get Element Rectangle</title><conbody class="- topic/body  concept/conbody "><section id="id" class="- topic/section ">
+            <title class="- topic/title "/>
+            <note type="note" class="- topic/note ">
+                    <ul class="- topic/ul "><li class="- topic/li ">
+                            <p class="- topic/p ">Starting from <b class="+ topic/ph hi-d/b ">version 7.2.0</b>, this keyword is available for Desktop testing on Katalon Studio.</p>
+                        </li></ul>
+            </note>
+        </section><section id="id_1" class="- topic/section ">
+            <title class="- topic/title ">getElementRect</title>
+            <ul class="- topic/ul "><li class="- topic/li "> <b class="+ topic/ph hi-d/b ">Description</b>: Get the bounding rectangle of the WebElement that is found by using locator value of the given windowsObject.</li><li class="- topic/li "> <b class="+ topic/ph hi-d/b ">Keyword name</b>: getElementRect</li><li class="- topic/li "> <b class="+ topic/ph hi-d/b ">Keyword syntax</b>: Windows.getElementRect(windowsObject)</li><li class="- topic/li "> <b class="+ topic/ph hi-d/b ">Parameter</b>: windowsObject <ul class="- topic/ul "><li class="- topic/li ">Description: An object that describes locator and locator strategy to find Windows Element.</li><li class="- topic/li ">Parameter Type: WindowsTestObject</li><li class="- topic/li ">Mandatory: Required</li></ul>
+                </li><li class="- topic/li "> <b class="+ topic/ph hi-d/b ">Return</b>: Rectangle indicating the element's bounding rectangle.</li><li class="- topic/li "> <b class="+ topic/ph hi-d/b ">Throw</b>: <b class="+ topic/ph hi-d/b ">StepFailedException</b> if Katalon Studio cannot find the specified element.</li><li class="- topic/li "> <b class="+ topic/ph hi-d/b ">Example</b>:</li></ul>
+            <codeblock class="+ topic/pre pr-d/codeblock ">import org.openqa.selenium.Rectangle as Rectangle
+Rectangle rect = Windows.getElementRect(findWindowsObject('Object Repository/Notepad/Edit'))
+println String.format("{ x: %d, y: %d, width: %d, height: %d }", rect.getX(), rect.getY(), rect.getWidth(), rect.getHeight())
+</codeblock>
+        </section></conbody></concept>

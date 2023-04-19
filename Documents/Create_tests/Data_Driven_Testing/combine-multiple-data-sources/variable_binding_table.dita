@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept "><title class="- topic/title ">Variable binding table in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">After adding the test case into the test suite, <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/>
+         automatically imports all variables of the selected test case into
+         the <b class="+ topic/ph hi-d/b ">Variable Binding</b> table.</p><ol class="- topic/ol "><li class="- topic/li ">
+          <p class="- topic/p "><ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> allows you to <b class="+ topic/ph hi-d/b ">Set Type</b> for
+               variables all at once if the variables have the same type. In
+               this case, <b class="+ topic/ph hi-d/b ">Username</b> and <b class="+ topic/ph hi-d/b ">Password</b>
+               have the same type as <b class="+ topic/ph hi-d/b ">Data Column</b>. Highlight both
+               rows, click <b class="+ topic/ph hi-d/b ">Set Type &gt; Data Column</b>.</p>
+          <p class="- topic/p ">
+            <image width="500" href="Pictures/KS-830-Set-data-type.png" class="- topic/image "><alt class="- topic/alt ">Set Data Type</alt></image>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Test Data</b> column, click on each row to
+               choose the test data files for execution.</p>
+          <p class="- topic/p ">
+            <image width="500" href="Pictures/KS-830-Choose-test-data.png" class="- topic/image "><alt class="- topic/alt ">Choose Test data for Data Type</alt></image>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Value</b> column, click on each row to
+               specify the data field in the selected data file.</p>
+          <p class="- topic/p ">
+            <image width="500" href="Pictures/KS-830-Add-variables-value.png" class="- topic/image "><alt class="- topic/alt ">Choose Value for Data Type</alt></image>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Save the test suite when you finish.</p>
+          <p class="- topic/p ">
+            <image width="600" href="Pictures/KS-830-Final-result.png" class="- topic/image "><alt class="- topic/alt ">Final result</alt></image>
+          </p>
+          <p class="- topic/p ">During execution, the <i class="+ topic/ph hi-d/i ">username</i> variable looks for the
+               <i class="+ topic/ph hi-d/i ">Username</i> column of the <i class="+ topic/ph hi-d/i ">valid-accounts</i>
+               excel file while the <i class="+ topic/ph hi-d/i ">password</i> variable searches for
+               the <i class="+ topic/ph hi-d/i ">Password</i> column of the <i class="+ topic/ph hi-d/i ">valid-accounts</i> CSV
+               file.</p>
+          
+        </li></ol></conbody></concept>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">In Manual Mode</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <ol class="- topic/ol ">
+        <li class="- topic/li ">Select <b class="+ topic/ph hi-d/b ">Start Application</b> from mobile keyword
+            and click on <b class="+ topic/ph hi-d/b ">Input.</b>
+        </li>
+
+        <li class="- topic/li ">In the displayed dialogue, in <b class="+ topic/ph hi-d/b ">appFile</b>, select
+            <b class="+ topic/ph hi-d/b ">Value Type</b> as <b class="+ topic/ph hi-d/b ">Variable</b> and in
+            <b class="+ topic/ph hi-d/b ">Value</b> passing the variable name as
+            <b class="+ topic/ph hi-d/b ">path</b>. <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_multi_touch_action/Handling-Multi-touch-Action-1.png" scope="external" class="- topic/image ">
+            <alt class="- topic/alt ">Handling Multi-touch Action in automation testing</alt>
+          </image>
+        </li>
+        <li class="- topic/li ">Add <b class="+ topic/ph hi-d/b ">Wait For Element Present</b> item.</li>
+        <li class="- topic/li ">Initialize Katalon Mobile Driver to Appium Driver</li>
+        <li class="- topic/li ">Call the '<b class="+ topic/ph hi-d/b ">Get Device Height</b>' method and
+            capture the height. Then store it in a variable
+            '<b class="+ topic/ph hi-d/b ">device_Height</b>'.</li>
+        <li class="- topic/li ">Call the '<b class="+ topic/ph hi-d/b ">Get Device Width</b>' method and capture
+            the width. Then store it in a variable
+            '<b class="+ topic/ph hi-d/b ">device_Width</b>'.</li>
+        <li class="- topic/li ">Add <b class="+ topic/ph hi-d/b ">binary statement</b> and get X, Y Coordinates
+            for touch action 1 (<b class="+ topic/ph hi-d/b ">top left</b> side).</li>
+        <li class="- topic/li ">Repeat step 6 for touch action 2 (<b class="+ topic/ph hi-d/b ">top right</b>
+            side), touch action 3 (<b class="+ topic/ph hi-d/b ">bottom left</b> side), and
+            touch action 4 (<b class="+ topic/ph hi-d/b ">bottom right</b> side).</li>
+        <li class="- topic/li ">Create an object of <b class="+ topic/ph hi-d/b ">MultiTouchAction</b>
+            class.</li>
+        <li class="- topic/li ">Set all four touch actions on given X, Y Coordinates of the
+            screen.</li>
+        <li class="- topic/li ">Add a method call statement and press <b class="+ topic/ph hi-d/b ">first
+               action</b> with X, Y coordinates and wait for 5 seconds then
+            release. Repeat for the three other actions.</li>
+
+        <li class="- topic/li ">The final step is to add a method call statement and generate a
+            multi-touch action chain. <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_multi_touch_action/Handling-Multi-touch-Action-2.png" scope="external" class="- topic/image ">
+            <alt class="- topic/alt ">Handling Multi-touch Action in automation testing</alt>
+          </image>
+        </li>
+      </ol>
+      <p class="- topic/p ">As you can see from the step-by-step guide above, there are
+         repeated steps that would be easier to create in <b class="+ topic/ph hi-d/b ">Script
+            Mode</b>. Thus, we suggest the users utilize this feature
+         where one can quickly automate the test scenario and easily manage
+         test scripts.</p>
+    </conbody>
+  </concept>

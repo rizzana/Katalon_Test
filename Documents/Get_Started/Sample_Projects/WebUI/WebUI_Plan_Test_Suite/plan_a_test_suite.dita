@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Plan a test suite</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Planning a test suite helps ensure you will not need to restructure test cases. By doing so, you reduce execution errors.</p><p class="- topic/p ">Ask yourself the following questions:
+        <ul class="- topic/ul "><li class="- topic/li ">What is your test suite goal?</li><li class="- topic/li ">How do you want to execute your test suite?</li></ul></p></conbody></concept>

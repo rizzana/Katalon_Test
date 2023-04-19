@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">Manage test data relationship in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To toggle between <i class="+ topic/ph hi-d/i ">One</i> and <i class="+ topic/ph hi-d/i ">Many</i>, click on the
+         cell under the <b class="+ topic/ph hi-d/b ">Type</b> column of each data files.
+         These types represent the relationship of multiple test data
+         sources.</p><p class="- topic/p ">You can also further define the relationship among them as
+         below:</p><table class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Relationship Type</entry><entry class="- topic/entry ">Description</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">One</entry><entry class="- topic/entry ">To indicate the data set as 'One' in the relationship with the
+                  other data set.</entry></row><row class="- topic/row "><entry class="- topic/entry ">Many</entry><entry class="- topic/entry ">To indicate the data set as 'Many' in the relationship with the
+                  other data set.</entry></row></tbody></tgroup></table><p class="- topic/p ">Therefore, we have the following combinations of data sets:</p><table class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Relationship</entry><entry class="- topic/entry ">Example</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">One to One</entry><entry class="- topic/entry ">
+                  <p class="- topic/p ">Given there are two data sets as below:</p>
+                  <p class="- topic/p ">
+                    
+                  <image width="600" href="Pictures/ks-one-one.png" class="- topic/image "/></p>
+                  <p class="- topic/p ">
+                    <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/one-one.png" scope="external" width="170" class="- topic/image "/>
+                  </p>
+                  <p class="- topic/p ">Then the final data set used for test execution will be:</p>
+                  <ul class="- topic/ul "><li class="- topic/li ">John Marketing</li><li class="- topic/li ">Joe Sales</li></ul>
+                </entry></row><row class="- topic/row "><entry class="- topic/entry ">Many to Many</entry><entry class="- topic/entry ">
+                  <p class="- topic/p ">Given there are two data sets as below:</p>
+                  <p class="- topic/p ">
+                    
+                  <image width="600" href="Pictures/ks-many-many.png" class="- topic/image "/></p>
+                  <p class="- topic/p ">
+                    <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/many-many.png" scope="external" width="170" class="- topic/image "/>
+                  </p>
+                  <p class="- topic/p ">Then the final data set used for test execution will be:</p>
+                  <ul class="- topic/ul "><li class="- topic/li ">John Marketing</li><li class="- topic/li ">John Sales</li><li class="- topic/li ">Joe Marketing</li><li class="- topic/li ">Joe Sales</li><li class="- topic/li ">Mary Marketing</li><li class="- topic/li ">Mary Sales</li></ul>
+                </entry></row><row class="- topic/row "><entry class="- topic/entry ">One to Many</entry><entry class="- topic/entry ">
+                  <p class="- topic/p ">Given there are two data sets as below:</p>
+                  <p class="- topic/p ">
+                    
+                  <image width="600" href="Pictures/ks-one-many.png" class="- topic/image "/></p>
+                  <p class="- topic/p ">
+                    <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/one-many.png" scope="external" width="170" class="- topic/image "/>
+                  </p>
+                  <p class="- topic/p ">Then the final data set used for test execution will be:</p>
+                  <ul class="- topic/ul "><li class="- topic/li ">John Marketing</li><li class="- topic/li ">Joe Marketing</li><li class="- topic/li ">Mary Marketing</li><li class="- topic/li ">Emily Marketing</li><li class="- topic/li ">John Sales</li><li class="- topic/li ">Joe Sales</li><li class="- topic/li ">Mary Sales</li><li class="- topic/li ">Emily Sales</li></ul>
+                </entry></row><row class="- topic/row "><entry class="- topic/entry ">One to One to Many</entry><entry class="- topic/entry ">
+                  <p class="- topic/p ">Given there are three data sets as below:</p>
+                  <p class="- topic/p ">
+                    
+                  <image width="600" href="Pictures/ks-one-one-many.png" class="- topic/image "/></p>
+                  <p class="- topic/p ">
+                    <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/design-a-test-suite/one-one-many.png" scope="external" width="220" class="- topic/image "/>
+                  </p>
+                  <p class="- topic/p ">Then the final data set used for test execution will be:</p>
+                  <ul class="- topic/ul "><li class="- topic/li ">John Marketing Executive</li><li class="- topic/li ">John Marketing Director</li><li class="- topic/li ">Joe Sales Executive</li><li class="- topic/li ">Joe Sales Director</li></ul>
+                </entry></row></tbody></tgroup></table></conbody></concept>

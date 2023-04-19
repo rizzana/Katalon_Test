@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">API testing types</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">API testing is generally categorized into common categories
+         below:</p>
+      <p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/introduction_api_testing/37314962_134560560788081_95847559624392704_n-1024x576.png" scope="external" class="- topic/image ">
+          <alt class="- topic/alt ">API Testing Types</alt>
+        </image>
+      </p>
+    </conbody>
+    
+    
+    
+    
+    
+    
+    
+    
+  </concept>

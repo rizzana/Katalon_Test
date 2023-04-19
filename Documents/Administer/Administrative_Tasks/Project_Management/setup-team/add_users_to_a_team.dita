@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Add Users to a Team</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Settings</b> and choose <b class="+ topic/ph hi-d/b ">Team Management</b>.</p>
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Manage Teams</b> page appears.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Choose the Team (e.g., KO).</p>
+                <p class="- topic/p ">The Team page appears.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Users</b> on the left bar of the Team page.</p>
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Manage Users</b> page appears.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-setup-team/kt-june-create-team-3.png" scope="external" class="- topic/image "/>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Select team members in the section <b class="+ topic/ph hi-d/b ">Add User to Team</b>. Click <b class="+ topic/ph hi-d/b ">Add</b>.</p>
+            </li></ol><note type="note" class="- topic/note ">
+                <ul class="- topic/ul "><li class="- topic/li ">
+                        <p class="- topic/p ">You have to invite users into an Organization first. Only Users of the Organization can be added to the Team.</p>
+                    </li></ul>
+        </note></conbody></concept>

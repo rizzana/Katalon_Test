@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_8" class="- topic/topic concept/concept "><title class="- topic/title ">Add an existing request to a test case</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">A request can be inserted into a test case with Web service
+         built-in keywords. There are many keywords can be used to send the
+         request, to verify the response, and to make the request as part of
+         a bigger testing flow.</p><p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/creat-first-API-testing/KS-API-Add-webservice-keywords.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">Web service keywords</alt></image>
+        </p><p class="- topic/p ">Following test case illustrates how we can call the request with
+         verification steps from a test case:</p><p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/create_first_api_test_katalon_studio/830-KS-API-Input-object-in-a-test-case.png" scope="external" width="850" class="- topic/image "><alt class="- topic/alt ">Verify the RESTful object in a test case</alt></image>
+        </p><p class="- topic/p ">The test case can be executed as a normal test case in Katalon
+         Studio. Each verification step can be viewed from the log.</p><p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/creat-first-API-testing/KS-API-log-viewer.png" scope="external" width="850" class="- topic/image "><alt class="- topic/alt ">Log viewer</alt></image>
+        </p></conbody></concept>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">In the script view of a test case editor</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">You can use the <b class="+ topic/ph hi-d/b "><xref href="../../Keywords/Keywords_Description_In_Katalon_Studio/Web-Service-Keywords/ws-send-request/ws-send-request.dita" class="- topic/xref ">Send
+               Request</xref>
+        </b>keyword for Web Service object and
+         the <b class="+ topic/ph hi-d/b "><xref href="../../Keywords/Keywords_Description_In_Katalon_Studio/Web-Service-Keywords/ws-verify-element-property-value/ws-verify-element-property-value.dita" class="- topic/xref ">Verify...</xref>
+
+        </b>keywords
+         to verify the web service response. You may want to refer
+         to <xref href="../../Test_Objects/API_Test_Object/handle-response-messages/handle-response-messages.dita" class="- topic/xref ">Handle Response messages</xref> for more details
+         regarding <b class="+ topic/ph hi-d/b ">Element Locator</b>:</p><codeblock class="+ topic/pre pr-d/codeblock ">//Send a SOAP request and returns its response
+def response = WS.sendRequest(findTestObject([]))
+//Verify if a value at a specific location in response is as expected
+WS.verifyElementPropertyValue(response, &lt;Element Locator&gt;, &lt;expected value&gt;)
+</codeblock><p class="- topic/p ">For example:</p><p class="- topic/p ">
+        
+      <image width="700" href="image/ks-841-test-script.png" class="- topic/image "><alt class="- topic/alt ">add web service in a test script</alt></image></p><p class="- topic/p ">If you have used <xref href="../../Test_Objects/API_Test_Object/REST_Request/Parameterize_A_Web_Service_Object/variables_and_parameterizing_request_objects.dita" class="- topic/xref ">variables
+            and parameters in test requests</xref>, you can pass values to the
+         variables as follows:</p><codeblock class="+ topic/pre pr-d/codeblock ">//Send a test request and pass values to variables used in that request
+def response = WS.sendRequest(findTestObject([the ID of Web Service object], ["variable1": value1, "variable2": value2, ... , "variableN": valueN]))
+</codeblock><p class="- topic/p ">For example:</p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/using-web-services-in-a-test-case/parameterize-ws.png" scope="external" class="- topic/image "/>
+      </p><p class="- topic/p ">The following API docs might be useful when working with web
+         service objects:</p><table class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Class</entry><entry class="- topic/entry ">Description</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">
+                <xref format="html" href="https://api-docs.katalon.com/com/kms/katalon/core/testobject/RequestObject.html" scope="external" class="- topic/xref ">Request
+                        Object</xref>
+                
+              </entry><entry class="- topic/entry ">Describe all available methods for Request Object</entry></row><row class="- topic/row "><entry class="- topic/entry ">
+                <xref format="html" href="https://api-docs.katalon.com/com/kms/katalon/core/testobject/ResponseObject.html" scope="external" class="- topic/xref ">Response
+                        Object</xref>
+                
+              </entry><entry class="- topic/entry ">Describe all available methods for Response Object</entry></row></tbody></tgroup></table></conbody></concept>

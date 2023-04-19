@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title "><ph conkeyref="name-variables/katalon-store" class="- topic/ph "/> Plugin Repository</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Katalon Studio Enterprise users can decide where Katalon Studio
+         will download plugins for a project. Go to <b class="+ topic/ph hi-d/b ">Project &gt;
+            Settings &gt; Plugins</b> and select one of the following
+         options:</p><ul class="- topic/ul "><li class="- topic/li ">
+            <b class="+ topic/ph hi-d/b "><ph conkeyref="name-variables/katalon-store" class="- topic/ph "/> and Local</b>: Katalon Studio will
+            install plugins from the <ph conkeyref="name-variables/katalon-store" class="- topic/ph "/> and the Plugins folder of each
+            project.</li><li class="- topic/li ">
+            <b class="+ topic/ph hi-d/b "><ph conkeyref="name-variables/katalon-store" class="- topic/ph "/></b>: Katalon Studio will install
+            plugins from <ph conkeyref="name-variables/katalon-store" class="- topic/ph "/> only.</li><li class="- topic/li ">
+            <b class="+ topic/ph hi-d/b ">Local</b>: Katalon Studio will install plugins
+            from the Plugins folder only.</li></ul></conbody></concept>

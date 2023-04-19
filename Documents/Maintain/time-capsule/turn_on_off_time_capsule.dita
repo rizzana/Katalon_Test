@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Turn on/off Time Capsule</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">This extension works similar to <xref format="html" href="https://docs.katalon.com/katalon-studio/docs/webui-smartwait.html#temporarily-turn-off-smart-wait" scope="external" class="- topic/xref "> <b class="+ topic/ph hi-d/b ">Default Smart Wait</b></xref>. When disabled, the Time Capsule extension will not be installed, and the Time Capsule will not be generated.</p><p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Prior to 7.8.2</b>
+        </p><p class="- topic/p ">Time Capsule is enabled by default.</p><p class="- topic/p "> <b class="+ topic/ph hi-d/b ">From 7.8.2 onwards</b>
+        </p><p class="- topic/p ">To turn on/ off the Time Capsule, please do as follows:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Project &gt; Settings &gt; Execution &gt; WebUI</b>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In drop-down list of <b class="+ topic/ph hi-d/b ">Default Time Capsule</b>, choose <b class="+ topic/ph hi-d/b ">Enabled/ Disabled &gt; OK</b>
+                </p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/KS-PRJ-Time-capsule.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Enable Time Capsule</alt></image>
+                </p>
+            </li></ol></conbody></concept>

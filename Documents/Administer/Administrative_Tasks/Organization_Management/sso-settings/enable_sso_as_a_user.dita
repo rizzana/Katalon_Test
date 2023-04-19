@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_11" class="- topic/topic concept/concept "><title class="- topic/title ">Enable SSO as a User</title><conbody class="- topic/body  concept/conbody "><note type="note" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">
+                    <p class="- topic/p ">If you are a new User, you must first accept the invitation to join an Organization. Then you will receive the SSO request email.</p>
+                </li></ul>
+        </note><p class="- topic/p ">To enable SSO, follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Go to your email and find the <i class="+ topic/ph hi-d/i ">[Katalon TestOps] Verify Single Sign-On (SSO) authentication</i> email, then click <b class="+ topic/ph hi-d/b ">Click here to confirm</b> in the email.</p>
+                <p class="- topic/p ">You will be directed to Katalon TestOps and see the below message.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-sso-settings/K1-Accept-SSO-request.png" scope="external" class="- topic/image "><alt class="- topic/alt ">user accept sso</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Check the information, then click <b class="+ topic/ph hi-d/b ">Yes, enable SSO</b> to confirm.</p>
+                <p class="- topic/p ">After accepting the SSO request, you are automatically navigated to the Subdomain.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-sso-settings/subdomain-signin-using-sso-blurred.png" scope="external" class="- topic/image "><alt class="- topic/alt ">subdomain sign in using SSO</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Sign in using SSO</b>.</p>
+            </li></ol></conbody></concept>

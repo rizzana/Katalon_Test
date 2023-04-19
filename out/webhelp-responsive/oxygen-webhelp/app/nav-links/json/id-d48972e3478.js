@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"id-d48972e3478":{"topics":[{"title":"Configure general behaviors in <span class=\"ph\">Katalon Studio<\/span>","href":"Documents\/Get_Started\/Set_Up_Your_Workspace\/Katalon_Studio_Preferences\/katalon-preferences\/katalon_preferences.html","attributes":{"data-id":"id_1"},"menu":{"hasChildren":false},"tocID":"id_1-d48972e3488","topics":[]}]}};

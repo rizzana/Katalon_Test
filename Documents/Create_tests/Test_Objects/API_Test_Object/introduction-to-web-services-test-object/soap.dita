@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">SOAP</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">
+        <xref href="../soap/soap.dita" class="- topic/xref ">Create
+            and design a SOAP Test Request</xref>. Or you can import Service
+         definitions from <xref href="../Import-Web-Service-Objects/import-soap-requests-from-wsdl/c_intro_import-soap-requests-from-wsdl.dita" class="- topic/xref ">WSDLs</xref>.</p>
+    </conbody>
+  </concept>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title "><ph conkeyref="name-variables/katalon-store" class="- topic/ph "/> Plugin approval guidelines</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">After developing and testing your plugin, your next step is to
+         submit it for approval. To uphold standards of quality and
+         reliability that our users expect, all publicly listed plugins are
+         subject to an approval process.</p><p class="- topic/p ">If an earlier plugin version is already approved, routine
+         version updates are exempt from the approval process.</p></conbody></concept>

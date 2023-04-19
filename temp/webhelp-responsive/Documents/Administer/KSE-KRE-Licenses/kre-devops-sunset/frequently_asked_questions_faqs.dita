@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Administer/KSE-KRE-Licenses/kre-devops-sunset?><?workdir-uri file:/Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Administer/KSE-KRE-Licenses/kre-devops-sunset/?><?path2project ../../../../?><?path2project-uri ../../../../?><?path2rootmap-uri ../../../../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="id_1" class="- topic/topic concept/concept " ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/KSE-KRE-Licenses/kre-devops-sunset/frequently_asked_questions_faqs.dita" xtrc="concept:1;3:59" specializations="@props/deliveryTarget">
+    <title class="- topic/title " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/KSE-KRE-Licenses/kre-devops-sunset/frequently_asked_questions_faqs.dita" xtrc="title:1;4:35">Frequently asked questions (FAQs)</title>
+    <conbody class="- topic/body  concept/conbody " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/KSE-KRE-Licenses/kre-devops-sunset/frequently_asked_questions_faqs.dita" xtrc="conbody:1;5:53">
+      <ol class="- topic/ol " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/KSE-KRE-Licenses/kre-devops-sunset/frequently_asked_questions_faqs.dita" xtrc="ol:1;6:31">
+        <li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/KSE-KRE-Licenses/kre-devops-sunset/frequently_asked_questions_faqs.dita" xtrc="li:1;7:33">
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/KSE-KRE-Licenses/kre-devops-sunset/frequently_asked_questions_faqs.dita" xtrc="p:1;8:33">Do I have to do anything?</p>
+          <ul class="- topic/ul " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/KSE-KRE-Licenses/kre-devops-sunset/frequently_asked_questions_faqs.dita" xtrc="ul:1;9:35">
+            <li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/KSE-KRE-Licenses/kre-devops-sunset/frequently_asked_questions_faqs.dita" xtrc="li:2;10:37">For <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/KSE-KRE-Licenses/kre-devops-sunset/frequently_asked_questions_faqs.dita" xtrc="b:1;10:71">Annual</b> billing cycles: Upon renewal, your
+                  current DevOps licenses will be automatically upgraded to Floating
+                  licenses at no additional charge.</li>
+            <li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/KSE-KRE-Licenses/kre-devops-sunset/frequently_asked_questions_faqs.dita" xtrc="li:3;13:37">For <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/KSE-KRE-Licenses/kre-devops-sunset/frequently_asked_questions_faqs.dita" xtrc="b:2;13:71">Monthly</b> billing cycles: Upon renewal, you
+                  can choose between Monthly Node-locked licenses or Annual Floating
+                  licenses. For pricing details, see the example in the table
+                  above.</li>
+          </ul>
+        </li>
+        <li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/KSE-KRE-Licenses/kre-devops-sunset/frequently_asked_questions_faqs.dita" xtrc="li:4;19:33">
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/KSE-KRE-Licenses/kre-devops-sunset/frequently_asked_questions_faqs.dita" xtrc="p:2;20:33">What if I don’t want to upgrade from Monthly KRE DevOps to
+               Annual Floating licenses after six months?</p>
+          <ul class="- topic/ul " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/KSE-KRE-Licenses/kre-devops-sunset/frequently_asked_questions_faqs.dita" xtrc="ul:2;22:35">
+            <li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/KSE-KRE-Licenses/kre-devops-sunset/frequently_asked_questions_faqs.dita" xtrc="li:5;23:37">You will have the option to switch to a monthly billing for KRE
+                  Node-locked licenses.</li>
+          </ul>
+        </li>
+        <li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/KSE-KRE-Licenses/kre-devops-sunset/frequently_asked_questions_faqs.dita" xtrc="li:6;27:33">
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/KSE-KRE-Licenses/kre-devops-sunset/frequently_asked_questions_faqs.dita" xtrc="p:3;28:33">Can I use the DevOps license for another three months and come
+               back for another three months?</p>
+          <ul class="- topic/ul " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/KSE-KRE-Licenses/kre-devops-sunset/frequently_asked_questions_faqs.dita" xtrc="ul:3;30:35">
+            <li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/KSE-KRE-Licenses/kre-devops-sunset/frequently_asked_questions_faqs.dita" xtrc="li:7;31:37">No, it will need to be consecutive, with a maximum of 6 months.
+                  Once you cancel your DevOps subscription, it will no longer be
+                  available for repurchase.</li>
+          </ul>
+        </li>
+        <li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/KSE-KRE-Licenses/kre-devops-sunset/frequently_asked_questions_faqs.dita" xtrc="li:8;36:33">
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/KSE-KRE-Licenses/kre-devops-sunset/frequently_asked_questions_faqs.dita" xtrc="p:4;37:33">My team purchased our licenses via a reseller. Will this change
+               affect me?</p>
+          <ul class="- topic/ul " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/KSE-KRE-Licenses/kre-devops-sunset/frequently_asked_questions_faqs.dita" xtrc="ul:4;39:35">
+            <li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/KSE-KRE-Licenses/kre-devops-sunset/frequently_asked_questions_faqs.dita" xtrc="li:9;40:37">Your team will still be able to use your licenses as per the
+                  explanation in the table above. Upon renewal, kindly contact your
+                  reseller for more information. Alternatively, contact us at
+                  success@katalon.com for renewal.</li>
+          </ul>
+        </li>
+        <li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/KSE-KRE-Licenses/kre-devops-sunset/frequently_asked_questions_faqs.dita" xtrc="li:10;46:33">
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/KSE-KRE-Licenses/kre-devops-sunset/frequently_asked_questions_faqs.dita" xtrc="p:5;47:33">Other inquiries</p>
+          <ul class="- topic/ul " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/KSE-KRE-Licenses/kre-devops-sunset/frequently_asked_questions_faqs.dita" xtrc="ul:5;48:35">
+
+            <li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/KSE-KRE-Licenses/kre-devops-sunset/frequently_asked_questions_faqs.dita" xtrc="li:11;50:37">For further support, you can submit a ticket at our support
+                  portal: <xref format="html" href="https://support.katalon.com/hc/en-us" scope="external" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/KSE-KRE-Licenses/kre-devops-sunset/frequently_asked_questions_faqs.dita" xtrc="xref:1;51:130"><?ditaot usertext?>Katalon
+                     Support</xref>.</li>
+          </ul>
+        </li>
+      </ol>
+    </conbody>
+  <related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="ditamap-8764" xtrc="topicref:2;5:146" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/KSE-KRE-Licenses/kre-devops-sunset/kre-devops-sunset.ditamap"><link class="- topic/link " format="dita" href="../../../../Documents/Administer/KSE-KRE-Licenses/kre-devops-sunset/kre-devops-sunset.dita" mapclass="- map/topicref " role="parent" scope="local" type="concept" xtrc="topicref:1;5:67" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/KSE-KRE-Licenses/kre-devops-sunset/kre-devops-sunset.ditamap"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Katalon Runtime Engine DevOps Sunsetting</linktext></link></linkpool></related-links></concept>

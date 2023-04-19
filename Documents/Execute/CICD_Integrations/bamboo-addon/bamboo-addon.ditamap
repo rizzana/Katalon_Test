@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-bamboo-addon" class="- map/map ">
+  <title class="- topic/title ">Bamboo Add-on</title>
+  <topicref href="bamboo-addon.dita" class="- map/topicref "><topicref href="prerequisites.dita" class="- map/topicref "/>
+  <topicref href="install_the_add-on.dita" class="- map/topicref "/>
+  <topicref href="configure_the_integration_1647942168012.223.dita" class="- map/topicref "/>
+  <topicref href="artifacts.dita" class="- map/topicref "/>
+</topicref>
+  </map>

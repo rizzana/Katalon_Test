@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-3155" xml:lang="en-us" class="- topic/topic concept/concept "><title class="- topic/title ">For configuration in versions before 7.8</title><prolog class="- topic/prolog "><author translate="no" type="creator" class="- topic/author ">Xuan Tran &lt;xuan.tran@katalon.com&gt;</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "/></metadata></prolog><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">After creating a test suite in Katalon Studio, go to <b class="+ topic/ph hi-d/b ">Project</b> &gt; <b class="+ topic/ph hi-d/b ">Settings</b> &gt; <b class="+ topic/ph hi-d/b ">Report</b> to open the <b class="+ topic/ph hi-d/b ">Report</b> view.</p>
+                <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/video-capturing/image2017-8-25-143A243A12.png" scope="external" width="700" class="- topic/image "/>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Check <b class="+ topic/ph hi-d/b ">Enable Video Recorder during execution</b> option.</p>
+                <p class="- topic/p ">By default, Katalon Studio only captures <b class="+ topic/ph hi-d/b ">Failed</b> test cases. However, you can decide to either capture the <b class="+ topic/ph hi-d/b ">Passed</b> or <b class="+ topic/ph hi-d/b ">Failed</b> test cases, or both.</p>
+                <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/video-capturing/image2017-8-25-153A43A45.png" scope="external" width="700" class="- topic/image "/>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Specify Video settings based on your preferences.</p>
+                <p class="- topic/p ">We recommend AVI (<codeph class="+ topic/ph pr-d/codeph ">.avi</codeph>) format and low quality to save disk space. The higher the video quality is, the bigger the file size is.</p>
+                <ul class="- topic/ul "><li class="- topic/li "><b class="+ topic/ph hi-d/b ">Video format</b>: AVI (<codeph class="+ topic/ph pr-d/codeph ">.avi</codeph>) or MOV (<codeph class="+ topic/ph pr-d/codeph ">.mov</codeph>)</li><li class="- topic/li "> <b class="+ topic/ph hi-d/b ">Video quality</b>: Low; Medium or High</li></ul>
+            </li><li class="- topic/li ">Click <b class="+ topic/ph hi-d/b ">OK</b></li></ol></conbody></concept>

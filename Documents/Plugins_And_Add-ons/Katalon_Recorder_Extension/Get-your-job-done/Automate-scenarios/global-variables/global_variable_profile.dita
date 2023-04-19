@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Global Variable Profile</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Creating a Global Variable Profile allows you to save which
+         global variables apply to which workflow. These Profiles can be
+         migrated to Katalon Studio (KS) along with your projects.</p><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">Open Katalon Recorder.</li><li class="- topic/li ">
+          <p class="- topic/p ">On the left sidebar, go to <b class="+ topic/ph hi-d/b ">Global Variable
+                  Profile</b> and click on the <b class="+ topic/ph hi-d/b ">+</b> button next to
+               it to create a new Global Variable Profile.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Right click on the newly-created Global Variable Profile and
+               select <b class="+ topic/ph hi-d/b ">Set as default profile</b>.</p>
+        </li></ol><p class="- topic/p ">Repeat the steps to create multiple Global Variable
+         Profiles.</p><note type="note" class="- topic/note ">
+        
+        <ul class="- topic/ul "><li class="- topic/li ">You must set one Global Variable Profile as default.</li><li class="- topic/li ">You cannot delete a default Global Variable Profile. To delete
+               it, you have to set another Global Variable Profile as
+               default.</li></ul>
+      </note></conbody></concept>

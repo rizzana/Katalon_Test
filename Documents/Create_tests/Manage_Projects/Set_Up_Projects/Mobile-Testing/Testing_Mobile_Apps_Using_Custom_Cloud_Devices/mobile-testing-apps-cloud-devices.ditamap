@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-mobile-testing-apps-cloud-devices" class="- map/map ">
+  <title class="- topic/title ">Testing Mobile Apps using Custom Cloud Devices</title>
+  <topicref href="mobile-testing-apps-cloud-devices.dita" class="- map/topicref "><topicref href="execution.dita" class="- map/topicref "/>
+  <topicref href="mobile_object_spy_and_mobile_recorder.dita" class="- map/topicref ">
+    <topicref href="remote_devices.dita" class="- map/topicref "/>
+    <topicref href="configure_a_remote_device.dita" class="- map/topicref "/>
+    <topicref href="enter_a_cloud_application_id.dita" class="- map/topicref "/>
+  </topicref>
+</topicref></map>

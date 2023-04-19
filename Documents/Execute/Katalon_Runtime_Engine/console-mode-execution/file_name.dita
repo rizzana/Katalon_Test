@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-7759" xml:lang="en-us" class="- topic/topic concept/concept "><title class="- topic/title ">Windows-specific arguments</title><prolog class="- topic/prolog "><author translate="no" type="creator" class="- topic/author ">Hao Le &lt;hao.le@katalon.com&gt;</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "/></metadata></prolog><conbody class="- topic/body  concept/conbody "><dl class="- topic/dl "><dlentry class="- topic/dlentry "><dt class="- topic/dt "><codeph class="+ topic/ph pr-d/codeph "><b class="+ topic/ph hi-d/b ">-consoleLog</b></codeph></dt><dd class="- topic/dd ">
+                        <p class="- topic/p ">Display log in the console. Only use this option when running Katalon Studio in Windows Command Prompt. Do not use this option in other OSes or CI tools, for example Jenkins.</p>
+                    </dd></dlentry><dlentry class="- topic/dlentry "><dt class="- topic/dt "><codeph class="+ topic/ph pr-d/codeph "><b class="+ topic/ph hi-d/b ">-noExit</b></codeph></dt><dd class="- topic/dd ">
+                        <p class="- topic/p ">Keep the console open after the execution is completed. Only use this option when running Katalon Studio in Windows Command Prompt. Do not use this option in other OSes or CI tools, for example Jenkins.</p>
+                    </dd></dlentry></dl></conbody></concept>

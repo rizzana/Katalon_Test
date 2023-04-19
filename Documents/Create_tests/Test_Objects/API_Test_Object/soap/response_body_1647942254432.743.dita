@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_10" class="- topic/topic concept/concept "><title class="- topic/title ">Response Body</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">There are 2 viewing formats: <b class="+ topic/ph hi-d/b ">pretty</b> and
+         <b class="+ topic/ph hi-d/b ">raw</b>. For example, the SOAP's response to
+         <codeph class="+ topic/ph pr-d/codeph ">http://www.dneonline.com/calculator.asmx?WSDL</codeph> is shown
+         below.</p><ul class="- topic/ul "><li class="- topic/li ">
+            <p class="- topic/p ">Pretty format</p>
+            <p class="- topic/p ">
+              <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/soap-request/pretty.png" scope="external" width="500" class="- topic/image "/>
+            </p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">Raw Format</p>
+            <p class="- topic/p ">
+              <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/soap-request/response.png" scope="external" width="500" class="- topic/image "/>
+            </p>
+          </li></ul></conbody></concept>

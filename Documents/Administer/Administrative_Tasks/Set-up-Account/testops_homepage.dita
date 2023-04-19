@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">TestOps homepage</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">TestOps homepage is a quick way to see your Organizations,
+         Projects and their details.</p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Organization</b>: You can see the list of all
+               Organizations you belong to.</p>
+          <p class="- topic/p ">Select an Organization (e.g., Katalon) to see its details.</p>
+          <p class="- topic/p ">You can update your Organization name, manage Teams and Users if
+               you’re the Owner or Admin of your Organization.</p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Project</b>: You can view the most recent Projects
+               managed by the Team you belong to.</p>
+          <p class="- topic/p ">Select a Project to view its details and to start working on
+               it.</p>
+        </li>
+      </ul>
+    </conbody>
+  </concept>

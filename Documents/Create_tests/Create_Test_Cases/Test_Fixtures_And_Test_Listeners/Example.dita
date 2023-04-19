@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-1109" xml:lang="en-us" class="- topic/topic concept/concept "><title class="- topic/title ">Example: Using test listeners</title><prolog class="- topic/prolog "><author translate="no" type="creator" class="- topic/author ">Yen Nguyen &lt;yen.nguyen@katalon.com&gt;</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "/></metadata></prolog><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">In this example, we  define multiple environments as different global variables by using test listeners. For more information, see&#160;<xref href="../../Data_Driven_Testing/execution-profile-v54/execution-profile-v54.dita" class="- topic/xref ">Global Variables and Execution Profile</xref>.</p><p class="- topic/p ">Before you execute your test case, change the environment variable to your preferred environment by following the script below:</p><p class="- topic/p "><codeblock class="+ topic/pre pr-d/codeblock ">import internal.GlobalVariable as GlobalVariable
+
+import com.kms.katalon.core.annotation.BeforeTestCase
+import com.kms.katalon.core.annotation.BeforeTestSuite
+import com.kms.katalon.core.annotation.AfterTestCase
+import com.kms.katalon.core.annotation.AfterTestSuite
+import com.kms.katalon.core.context.TestCaseContext
+import com.kms.katalon.core.context.TestSuiteContext
+
+/**
+ * Executes before every test case starts.
+ * @param testCaseContext related information of the executed test case.
+ */
+
+@BeforeTestCase
+def sampleBeforeTestCase(TestCaseContext testCaseContext) {
+    if (GlobalVariable.gl_Environment == 'Local') {
+        GlobalVariable.gl_Url = 'localhost'
+    } else if (GlobalVariable.gl_Environment == 'Staging') {
+        GlobalVariable.gl_Url = 'staging'
+    }
+}</codeblock><note class="- topic/note "><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">To learn more about test listeners, refer to chapter 2 of our <ph conkeyref="name-variables/katalon-academy" class="- topic/ph "/> course:&#160;<xref format="html" href="https://academy.katalon.com/courses/test-execution-management/?utm_source=kat_docs&amp;utm_medium=test_listener" scope="external" class="- topic/xref ">Test Listener</xref>.</p></li></ul></note></p></conbody></concept>

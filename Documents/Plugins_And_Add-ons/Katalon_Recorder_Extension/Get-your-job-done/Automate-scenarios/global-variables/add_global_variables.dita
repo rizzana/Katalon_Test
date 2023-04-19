@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Add Global Variables</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">Go to <b class="+ topic/ph hi-d/b ">Global Variable Profile</b> and right-click on the profile.</li><li class="- topic/li ">
+                <p class="- topic/p ">Select <b class="+ topic/ph hi-d/b ">Use this in a test case</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/5.6.0-release/use-gv-in-test-case.png" scope="external" class="- topic/image "><alt class="- topic/alt ">kr ui use gv in test case</alt></image>
+                </p>
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Add global variables to test case</b> box pops up.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Follow the two steps in the popup box.</p>
+                <ul class="- topic/ul "><li class="- topic/li ">
+                        <p class="- topic/p ">Step 1: Select the test case you want to add global variables to.</p>
+                        <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/5.6.0-release/add-gv-step1.png" scope="external" class="- topic/image "><alt class="- topic/alt ">kr ui use gv in test case</alt></image>
+                        </p>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p ">Step 2: Check your test data and select its value.</p>
+                        <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/5.6.0-release/add-gv-step2.png" scope="external" class="- topic/image "><alt class="- topic/alt ">kr ui use gv in test case</alt></image>
+                        </p>
+                        <note type="note" class="- topic/note ">
+                            <p class="- topic/p ">From KR 5.6.0 onwards, you can easily use a selected command without the need to know the syntax for implementing global variables in a test case.</p>
+                        </note>
+                    </li></ul>
+            </li></ol><p class="- topic/p ">You can now run the tests without inputting the same sets of values for every test.</p></conbody></concept>

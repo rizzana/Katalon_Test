@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Windows Record Utility in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Katalon Studio provides the Windows record utility that allows
+         you to record and playback actions performed in a Windows desktop
+         application. With this utility, you can quickly create a test case,
+         and later manually enhance the test.</p><p class="- topic/p ">This article introduces you to the components of the Windows
+         record utility in Katalon Studio.</p><section class="- topic/section "><title class="- topic/title ">Requirements</title><ul class="- topic/ul "><li class="- topic/li ">Katalon Studio version 7.0 onwards.</li><li class="- topic/li ">WinAppDriver is running on the test machine. To learn how to
+               set up and run WinAppDriver, see: <xref href="../../../Manage_Projects/Set_Up_Projects/Windows_Desktop_Apps_Testing/Setup-Winappdriver/setup-winappdriver.dita" class="- topic/xref ">Set
+                  up WinAppDriver</xref>.</li></ul></section></conbody></concept>

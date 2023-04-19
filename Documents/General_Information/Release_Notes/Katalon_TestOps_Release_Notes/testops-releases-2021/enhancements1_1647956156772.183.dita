@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_7" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Enhancements</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">
+            <p class="- topic/p ">[UI] Updated Organization and Project navigation menu</p>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">[UI] Updated Settings menu</p>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">[UI] Automatically remove machine ID when user is removed -
+               Activate License validation</p>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">[UI] View original &amp; latest status in test result</p>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">[Reports] Added confirmation dialog before sharing reports via
+               email</p>
+          </li>
+        </ul>
+      </conbody>
+    </concept>

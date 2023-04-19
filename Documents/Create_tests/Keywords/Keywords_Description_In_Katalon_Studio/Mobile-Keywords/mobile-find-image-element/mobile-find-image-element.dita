@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_0" class="- topic/topic concept/concept "><title class="- topic/title ">[Mobile] Find Image Element</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p "><note class="- topic/note "><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">This keyword, available in version 7.2.0+, is for Katalon Studio
+            Enterprise users only.</p></li></ul></note></p><section id="id_1" class="- topic/section ">
+    <title class="- topic/title ">findImageElement</title>
+    
+      <ul class="- topic/ul "><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Description</b>: Find the mobile element that is
+            recognized by the given image.</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Keyword syntax</b>:
+            <codeph class="+ topic/ph pr-d/codeph ">findImageElement(imageFilePath,flowControl)</codeph>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Parameters</b>:</p>
+          <ul class="- topic/ul "><li class="- topic/li ">Name: imageFilePath</li><li class="- topic/li ">Description: Absolute path of the image</li><li class="- topic/li ">Parameter Type: String</li><li class="- topic/li ">
+              <p class="- topic/p ">Mandatory: Required</p>
+            </li><li class="- topic/li ">
+              <p class="- topic/p ">Name: flowControl</p>
+            </li><li class="- topic/li ">Description: Control the execution flow if the step fails</li><li class="- topic/li ">Parameter Type: FailureHandling</li><li class="- topic/li ">Mandatory: Optional</li></ul>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Return</b>: The first found WebElement that is
+               recognized by the given image.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Example</b>:</p>
+          
+            <codeblock class="+ topic/pre pr-d/codeblock ">WebElement element = Mobile.findImageElement("/Users/myaccount/Desktop/image.png")
+println "Element found at: (" + element.getPosition().x + ", " + element.getPosition().y + ")"
+</codeblock>
+          
+        </li></ul>
+    
+  </section></conbody></concept>

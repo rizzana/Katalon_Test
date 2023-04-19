@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Web-UI-Keywords/webui-take-screenshot?><?workdir-uri file:/Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Web-UI-Keywords/webui-take-screenshot/?><?path2project ../../../../../../?><?path2project-uri ../../../../../../?><?path2rootmap-uri ../../../../../../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="id_6" class="- topic/topic concept/concept " ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Web-UI-Keywords/webui-take-screenshot/sort_and_store_screenshots_by_projects_using_relative_paths.dita" xtrc="concept:1;3:59" specializations="@props/deliveryTarget">
+      <title class="- topic/title " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Web-UI-Keywords/webui-take-screenshot/sort_and_store_screenshots_by_projects_using_relative_paths.dita" xtrc="title:1;4:37">Sort and store screenshots by projects using relative
+         paths</title>
+      <conbody class="- topic/body  concept/conbody " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Web-UI-Keywords/webui-take-screenshot/sort_and_store_screenshots_by_projects_using_relative_paths.dita" xtrc="conbody:1;6:55">
+        <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Web-UI-Keywords/webui-take-screenshot/sort_and_store_screenshots_by_projects_using_relative_paths.dita" xtrc="p:1;7:31">Same as above, but here the screenshot is stored in the same
+         location as your current project, using relative paths.</p>
+        
+          <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Web-UI-Keywords/webui-take-screenshot/sort_and_store_screenshots_by_projects_using_relative_paths.dita" xtrc="codeblock:1;10:58"> import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.checkpoint.CheckpointFactory as CheckpointFactory
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as MobileBuiltInKeywords
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testcase.TestCaseFactory as TestCaseFactory
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testdata.TestDataFactory as TestDataFactory
+import com.kms.katalon.core.testobject.ObjectRepository as ObjectRepository
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WSBuiltInKeywords
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
+
+'Open browser and navigate to AUT'
+WebUI.openBrowser(GlobalVariable.G_SiteURL)
+
+'Input username'
+WebUI.setText(findTestObject('Page_Login/txt_UserName'), Username)
+
+'Input password'
+WebUI.setText(findTestObject('Page_Login/txt_Password'), Password)
+
+'Click on new_btn'
+WebUI.click(findTestObject('Page_Login/btn_Login'))
+
+'Take screenshot after logging in'
+WebUI.takeScreenshot('Test/Demo.png')
+ 
+'Close browser'
+WebUI.closeBrowser()
+</codeblock>
+        
+      </conbody>
+    <related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="ditamap-8764" xtrc="topicref:7;11:112" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Web-UI-Keywords/webui-take-screenshot/webui-take-screenshot.ditamap"><link class="- topic/link " format="dita" href="../../../../../../Documents/Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Web-UI-Keywords/webui-take-screenshot/example_uses_of_webui_keywords.dita" mapclass="- map/topicref " role="parent" scope="local" type="concept" xtrc="topicref:4;8:80" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Web-UI-Keywords/webui-take-screenshot/webui-take-screenshot.ditamap"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Example for the use of WebUI keywords</linktext></link></linkpool></related-links></concept>

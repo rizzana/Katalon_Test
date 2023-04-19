@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">Override proxy details in the test script</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p "> From version 7.0.0 and later, <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> supports an option to pass proxy details via a request object in Web Service testing.</p><note type="note" class="- topic/note "><ul class="- topic/ul "><li class="- topic/li ">The proxy information passed in the request object overrides the proxy information in <uicontrol class="+ topic/ph ui-d/uicontrol ">Proxy Preferences</uicontrol>.</li></ul></note><p class="- topic/p ">See the example below: <codeblock class="+ topic/pre pr-d/codeblock ">RequestObject requestObject = findTestObject("google")
+ProxyInformation proxyInfo = new ProxyInformation();
+proxyInfo.setProxyServerAddress("localhost")
+proxyInfo.setProxyServerPort(8001)
+proxyInfo.setProxyOption(ProxyOption.MANUAL_CONFIG.toString())
+proxyInfo.setProxyServerType(ProxyServerType.HTTP.toString())
+requestObject.setProxy(proxyInfo)</codeblock> </p><p class="- topic/p ">Another workaround to override proxy details in script mode is to get your current proxy format, then pass your new proxy information in.</p><p class="- topic/p ">See the example below:</p><codeblock class="+ topic/pre pr-d/codeblock ">import com.google.gson.Gson 
+import com.kms.katalon.core.configuration.RunConfiguration 
+import com.kms.katalon.core.network.ProxyInformation 
+import com.kms.katalon.core.network.ProxyOption
+
+// Get current proxy information 
+ProxyInformation proxy = RunConfiguration.getProxyInformation() 
+println(proxy)
+
+// Switch proxy 
+proxy.setProxyOption(ProxyOption.MANUAL_CONFIG.name()) 
+proxy.setProxyServerAddress("127.0.0.1") 
+proxy.setProxyServerPort(8082) 
+Map&lt;String, Object&gt; generalProperties = RunConfiguration.getExecutionGeneralProperties(); 
+generalProperties.put(RunConfiguration.PROXY_PROPERTY, new Gson().toJson(proxy)); 
+println proxy
+
+// Switch back to no_proxy 
+proxy.setProxyOption(ProxyOption.NO_PROXY.name()) 
+proxy.setProxyServerAddress("") 
+proxy.setProxyServerPort(0) 
+Map&lt;String, Object&gt; generalProperties = RunConfiguration.getExecutionGeneralProperties(); generalProperties.put(RunConfiguration.PROXY_PROPERTY, new Gson().toJson(proxy)); 
+
+println proxy
+</codeblock></conbody></concept>

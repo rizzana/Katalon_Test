@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_38" class="- topic/topic concept/concept ">
+        <title class="- topic/title ">Improvements</title>
+        <conbody class="- topic/body  concept/conbody ">
+          <ul class="- topic/ul ">
+            <li class="- topic/li ">
+              <p class="- topic/p ">Simplify the Local Test Environment setup process.</p>
+            </li>
+            <li class="- topic/li ">
+              <p class="- topic/p ">Enhance CI integrations.</p>
+            </li>
+            <li class="- topic/li ">
+              <p class="- topic/p ">Enhance UI/UX</p>
+            </li>
+            <li class="- topic/li ">
+              <p class="- topic/p ">Simplify the Local Test Environment setup process.</p>
+            </li>
+            <li class="- topic/li ">
+              <p class="- topic/p ">Enhance navigation to recent projects and on-going Test
+               Runs.</p>
+            </li>
+            <li class="- topic/li ">
+              <p class="- topic/p ">Enhance Jira issue lists.</p>
+            </li>
+            <li class="- topic/li ">
+              <p class="- topic/p ">Centralize Test Run data for better collaboration.</p>
+            </li>
+            <li class="- topic/li ">
+              <p class="- topic/p ">[Visual Testing] Incorporate reports into Test Run results.</p>
+            </li>
+            <li class="- topic/li ">
+              <p class="- topic/p ">[Visual Testing] Provide execution comparisons with
+               visualization.</p>
+            </li>
+            <li class="- topic/li ">
+              <p class="- topic/p ">View Test Sessions with logs submitted from Test
+               Environments.</p>
+            </li>
+            <li class="- topic/li ">
+              <p class="- topic/p ">Support sharing Test Run report via email.</p>
+            </li>
+            <li class="- topic/li ">
+              <p class="- topic/p ">Provide shortcuts to access reports.</p>
+            </li>
+          </ul>
+        </conbody>
+      </concept>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">How to identify an iframe</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">We can identify iframes in two ways:</p>
+      <ol class="- topic/ol ">
+        <li class="- topic/li ">Right-click on an element, if there is
+            a <b class="+ topic/ph hi-d/b ">tag</b> name available
+            with <b class="+ topic/ph hi-d/b ">iframe</b>, the element is said to be in a
+            frame.</li>
+        <li class="- topic/li ">Right-click on a page, if there is an option available with the
+            following options in the context menu, the element is available in
+            frames.</li>
+      </ol>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">View frame source</li>
+        <li class="- topic/li ">Reload frame</li>
+        <li class="- topic/li ">This frame</li>
+      </ul>
+    </conbody>
+    
+    
+    
+    
+    
+  </concept>

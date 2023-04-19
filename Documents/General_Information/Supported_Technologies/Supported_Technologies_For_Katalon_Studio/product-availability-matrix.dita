@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Supported Technologies for <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> </title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">This document gives you information on the supported
+         technologies in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/>. For the supported environments
+         (including browsers and operating systems), see: <xref href="../../Supported_Environments/Supported_Environments_For_Katalon_Studio/supported-environments.dita" class="- topic/xref ">Supported
+            environments for <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> and <ph conkeyref="name-variables/katalon-runtime-engine" class="- topic/ph "/></xref>.</p></conbody></concept>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-install-RE" class="- map/map "><title class="- topic/title ">Install Katalon Runtime Engine</title><topicref href="install-re.dita" class="- map/topicref "><topicref href="download_kre.dita" class="- map/topicref "/><topicref href="environment_requirements.dita" class="- map/topicref "/><topicref href="kre_licensing.dita" class="- map/topicref "/><topicref href="get_started.dita" class="- map/topicref "/></topicref></map>

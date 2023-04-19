@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Subscribe to TestCloud</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">You are automatically granted a 30-day free trial of
+         TestCloud once you have created a <ph conkeyref="name-variables/katalon-platform" class="- topic/ph "/> Account. See: <xref href="../../../../Katalon_Platform_Packages/tc-subscription-plans/testcloud_trial.dita" class="- topic/xref ">TestCloud
+            Trial</xref>.</p><p class="- topic/p ">After a 30-day trial, you can subscribe to <ph conkeyref="name-variables/katalon-testcloud" class="- topic/ph "/> in
+         one of the following ways: <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Via <xref href="https://katalon.com/pricing/" scope="external" class="- topic/xref ">Katalon website</xref></p></li><li class="- topic/li "><p class="- topic/p ">Via <ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/> homepage</p></li></ul></p><p class="- topic/p ">When a trial or subscription is applied, all users who belong to a <ph conkeyref="name-variables/katalon-platform" class="- topic/ph "/> Account can have access to <ph conkeyref="name-variables/name-variable-testcloud" class="- topic/ph "/> sessions.</p><note type="important" class="- topic/note ">
+        <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">You have created a <xref format="html" href="https://www.katalon.com/sign-up/" scope="external" class="- topic/xref ">Katalon account</xref>. </p></li><li class="- topic/li "><p class="- topic/p ">You
+            must be the Owner or Billing Manager of your <ph conkeyref="name-variables/katalon-platform" class="- topic/ph "/> Account.
+            Learn more about roles and permissions at <xref href="../../../../Administrative_Roles/testops-roles-privileges/org-level-roles-privileges.dita" class="- topic/xref ">Roles
+               and permissions</xref>.</p></li></ul>
+      </note></conbody></concept>

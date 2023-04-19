@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_0" class="- topic/topic concept/concept "><title class="- topic/title ">[Mobile] Wait For Element Not Present</title><conbody class="- topic/body  concept/conbody "><section id="id_1" class="- topic/section ">
+    <title class="- topic/title ">Description</title>
+    
+      <p class="- topic/p ">Wait for the given element to NOT be present within the given
+         time (in seconds).</p>
+      <note type="important" class="- topic/note "><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Katalon Studio version 8.1.0 onwards.</p></li></ul>
+        
+        
+      </note>
+    
+  </section><section id="id_2" class="- topic/section ">
+    <title class="- topic/title ">Parameters</title>
+    
+      <table class="- topic/table "><tgroup cols="4" class="- topic/tgroup "><colspec colname="col1" colnum="1" class="- topic/colspec "/><colspec colname="col2" colnum="2" class="- topic/colspec "/><colspec colname="col3" colnum="3" class="- topic/colspec "/><colspec colname="col4" colnum="4" class="- topic/colspec "/><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">Parameter</b>
+              </entry><entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">Parameter Type</b>
+              </entry><entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">Mandatory</b>
+              </entry><entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">Description</b>
+              </entry></row><row class="- topic/row "><entry class="- topic/entry ">
+                <codeph class="+ topic/ph pr-d/codeph ">to</codeph>
+              </entry><entry class="- topic/entry ">TestObject</entry><entry class="- topic/entry ">Required</entry><entry class="- topic/entry ">Represent a mobile element.</entry></row><row class="- topic/row "><entry class="- topic/entry ">
+                <codeph class="+ topic/ph pr-d/codeph ">timeout</codeph>
+              </entry><entry class="- topic/entry ">Integer</entry><entry class="- topic/entry ">Required</entry><entry class="- topic/entry ">
+                <p class="- topic/p ">The maximum period of time in
+                     <b class="+ topic/ph hi-d/b ">seconds</b> that system will
+                     wait to return a result.</p>
+                <ul class="- topic/ul "><li class="- topic/li ">
+                    <p class="- topic/p ">If timeout &gt; 0, Katalon Studio
+                           waits <codeph class="+ topic/ph pr-d/codeph ">timeout</codeph> to return a
+                           result.</p>
+                  </li><li class="- topic/li ">
+                    <p class="- topic/p ">If timeout = 0, Katalon Studio
+                           uses the default wait for element timeout in Project Settings.</p>
+                  </li><li class="- topic/li ">
+                    <p class="- topic/p ">If timeout &lt; 0, Katalon Studio
+                           throws <codeph class="+ topic/ph pr-d/codeph ">IllegalArgumentException</codeph>.</p>
+                  </li></ul>
+              </entry></row><row class="- topic/row "><entry class="- topic/entry ">
+                <codeph class="+ topic/ph pr-d/codeph ">flowControl</codeph>
+              </entry><entry class="- topic/entry ">FailureHandling</entry><entry class="- topic/entry ">Optional</entry><entry class="- topic/entry ">Specify <xref href="../../../../../Maintain/failure-handling/failure-handling.dita" class="- topic/xref ">failure handling</xref> schema to
+                     determine whether the execution should be allowed to continue or
+                     stop.</entry></row></tbody></tgroup></table><p class="- topic/p ">See also: <xref href="../../../Using_Keywords_In_Katalon_Studio/Web_Testing/understand-waiting-keywords/understanding-waiting-keywords.dita" class="- topic/xref ">Understand
+               waiting keywords</xref></p>
+      
+      
+    
+  </section><section class="- topic/section "><title class="- topic/title ">Returns</title><p class="- topic/p "><table class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><colspec colname="col1" colnum="1" class="- topic/colspec "/><colspec colname="col2" colnum="2" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Parameter Type</entry><entry class="- topic/entry ">Description</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry morerows="0" nameend="col1" namest="col1" class="- topic/entry ">boolean</entry><entry morerows="0" nameend="col1" namest="col1" class="- topic/entry "><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "><codeph class="+ topic/ph pr-d/codeph ">true</codeph><b class="+ topic/ph hi-d/b ">:</b> the element is <b class="+ topic/ph hi-d/b ">NOT</b> present within the given timeout.</p></li><li class="- topic/li "><p class="- topic/p "><codeph class="+ topic/ph pr-d/codeph ">false</codeph><b class="+ topic/ph hi-d/b ">: </b>the element is present within the given timeout.</p></li></ul></entry></row></tbody></tgroup></table></p></section><section id="id_4" class="- topic/section ">
+    <title class="- topic/title ">Example</title>
+    
+      <p class="- topic/p ">In this example, Studio waits for the Accessibility element to
+         be gone within 10 seconds then continues testing. If the
+         Accessibility element is still present, the keyword returns
+         <b class="+ topic/ph hi-d/b ">False</b> and throws a warning message, and goes on
+         with the following steps.</p>
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">//Start Application
+Mobile.startApplication(GlobalVariable.G_AndroidApp, false)
+// Wait for the first element to present 
+Mobile.waitForElementPresent(findTestObject('Application/android.widget.TextView - Accessibility'), 10)
+// Verify if the element's text is correct
+Mobile.verifyElementText(findTestObject('Application/android.widget.TextView - Accessibility'), 'Accessibility', FailureHandling.CONTINUE_ON_FAILURE)
+//Tap on OS
+Mobile.tap(findTestObject('Object Repository/Application/android.widget.TextView - OS'), 0)
+//Wait for the Accessibility element to be gone on the next screen
+Mobile.waitForElementNotPresent(findTestObject('Application/android.widget.TextView - Accessibility'), 10)
+//Then tap on MMS Messaging element
+Mobile.tap(findTestObject('Object Repository/Application/android.widget.TextView - MMS Messaging '), 0)
+</codeblock>
+      
+    
+  </section></conbody></concept>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_72" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">New Features</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">New Windows keywords: 
+            
+            <ul class="- topic/ul ">
+              <li class="- topic/li ">
+                <xref format="html" href="https://docs.katalon.com/katalon-studio/docs/windows-kw-get-element-position.html" scope="external" class="- topic/xref ">
+                  <codeph class="+ topic/ph pr-d/codeph ">getElementPosition</codeph>
+                </xref>
+              </li>
+              <li class="- topic/li ">
+                <xref format="html" href="https://docs.katalon.com/katalon-studio/docs/windows-kw-get-element-rect.html" scope="external" class="- topic/xref ">
+                  <codeph class="+ topic/ph pr-d/codeph ">getElementRect</codeph>
+                </xref>
+              </li>
+              <li class="- topic/li ">
+                <xref format="html" href="https://docs.katalon.com/katalon-studio/docs/windows-kw-start-app-title.html" scope="external" class="- topic/xref ">
+                  <codeph class="+ topic/ph pr-d/codeph ">startApplicationWithTitle</codeph>
+                </xref>
+              </li>
+              <li class="- topic/li ">
+                <xref format="html" href="https://docs.katalon.com/katalon-studio/docs/windows-kw-switch-window.html" scope="external" class="- topic/xref ">
+                  <codeph class="+ topic/ph pr-d/codeph ">switchToWindow</codeph>
+                </xref>
+              </li>
+              <li class="- topic/li ">
+                <xref format="html" href="https://docs.katalon.com/katalon-studio/docs/windows-kw-switch-window-title.html" scope="external" class="- topic/xref ">
+                  <codeph class="+ topic/ph pr-d/codeph ">switchToWindowTitle</codeph>
+                </xref>
+              </li>
+            </ul>
+          </li>
+          <li class="- topic/li ">New Mobile keywords: 
+            
+            <ul class="- topic/ul ">
+              <li class="- topic/li ">
+                <xref format="html" href="https://docs.katalon.com/katalon-studio/docs/mobile-execute-command.html" scope="external" class="- topic/xref ">
+                  <codeph class="+ topic/ph pr-d/codeph ">executeMobileCommand</codeph>
+                </xref>
+              </li>
+              <li class="- topic/li ">
+                <xref format="html" href="https://docs.katalon.com/katalon-studio/docs/mobile-double-tap.html" scope="external" class="- topic/xref ">
+                  <codeph class="+ topic/ph pr-d/codeph ">doubleTap</codeph>
+                </xref>
+              </li>
+              <li class="- topic/li ">
+                <xref format="html" href="https://docs.katalon.com/katalon-studio/docs/mobile-long-press.html" scope="external" class="- topic/xref ">
+                  <codeph class="+ topic/ph pr-d/codeph ">longPress</codeph>
+                </xref>
+              </li>
+              <li class="- topic/li ">
+                <xref format="html" href="https://docs.katalon.com/katalon-studio/docs/mobile-set-encrypted-text.html" scope="external" class="- topic/xref ">
+                  <codeph class="+ topic/ph pr-d/codeph ">setEncryptedText</codeph>
+                </xref>
+              </li>
+            </ul>
+          </li>
+          <li class="- topic/li ">Support adding <xref href="../../../../Get_Started/Set_Up_Your_Workspace/Katalon_Studio_Preferences/proxy-preferences/proxy-preferences.dita" class="- topic/xref ">Proxy
+               Exceptions</xref> in Proxy Preferences and
+            <codeph class="+ topic/ph pr-d/codeph ">-proxy.excludes</codeph> option in console mode.</li>
+          <li class="- topic/li ">[Mobile Recorder] Implement the following actions: Get Text,
+            Swipe, and Scroll To Text.</li>
+        </ul>
+      </conbody>
+    </concept>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_8" class="- topic/topic concept/concept "><title class="- topic/title ">End-to-end testing</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">UI testing is defined as a test of the user interface for the
+         API and other integral parts. It is mainly about the UI functions,
+         in which the interface is naturally graphical or rely on the
+         command-line endpoint calls.</p><p class="- topic/p ">Generally, the test is more likely of the interface which ties
+         into the API rather than the API testing itself. Although UI
+         testing is not a specific test of API in term of the codebase, this
+         still provides overview information about the health, usability,
+         and efficiency of both front-end and back-end.</p></conbody></concept>

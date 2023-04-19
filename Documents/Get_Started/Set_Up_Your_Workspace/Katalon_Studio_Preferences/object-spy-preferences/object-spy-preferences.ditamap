@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-object-spy-preferences" class="- map/map ">
+  <title class="- topic/title ">Object Spy Preferences</title>
+  <topicref href="object-spy-preferences.dita" class="- map/topicref "><topicref href="pin_object_spy_window.dita" class="- map/topicref "/>
+  <topicref href="hotkeys_settings.dita" class="- map/topicref "/>
+</topicref>
+  </map>

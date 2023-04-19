@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">In the TestOps homepage</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">The TestOps homepage provides a summary of organization
+         activities.</p><p class="- topic/p ">After signing in to <xref format="html" href="https://testops.katalon.io/login" scope="external" class="- topic/xref ">Katalon TestOps</xref>, the
+         TestOps homepage appears as below.</p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-navigation-doc/TO-Homepage.png" scope="external" width="100%" class="- topic/image "><alt class="- topic/alt ">TestOps homepage overview</alt></image>
+      </p><p class="- topic/p ">On the top left corner, you can see your current organization's
+         name. If you click on it, you can:</p><ul class="- topic/ul "><li class="- topic/li ">see the list of all organizations you belong to.</li><li class="- topic/li ">create a new organization. See: <xref href="../kt-create-org/kt-create-organization.dita" class="- topic/xref ">Create
+               Organization and Project</xref>.</li></ul><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-navigation-doc/TO-TestOps-HomePage-Org-Dropdown.png" scope="external" width="300" class="- topic/image "><alt class="- topic/alt ">TestOps Organization Dropdown</alt></image>
+      </p><p class="- topic/p ">On the top right corner, if you click on the <i class="+ topic/ph hi-d/i ">Avatar</i>
+         icon, you can see common <b class="+ topic/ph hi-d/b ">Personal Settings</b>
+         actions.</p><table class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">Personal Settings Action</b>
+              </entry><entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">Usage</b>
+              </entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">View Profile</b>
+              </entry><entry class="- topic/entry ">See your account information.</entry></row><row class="- topic/row "><entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">Notification Settings</b>
+              </entry><entry class="- topic/entry ">Configure notifications and find Katalon API keys.</entry></row><row class="- topic/row "><entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">Feature Request</b>
+              </entry><entry class="- topic/entry ">Send us a feature request on GitHub.</entry></row><row class="- topic/row "><entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">Bug Reports</b>
+              </entry><entry class="- topic/entry ">Report a bug to us on GitHub.</entry></row><row class="- topic/row "><entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">Documentation</b>
+              </entry><entry class="- topic/entry ">Find tutorials and guidelines to use Katalon products.</entry></row><row class="- topic/row "><entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">Community</b>
+              </entry><entry class="- topic/entry ">Join our Katalon Community and see all community forums.</entry></row><row class="- topic/row "><entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">Sign Out</b>
+              </entry><entry class="- topic/entry ">Sign out of Katalon TestOps.</entry></row></tbody></tgroup></table><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-navigation-doc/TO-HomePage-Personal-Settings.png" scope="external" width="300" class="- topic/image "><alt class="- topic/alt ">TestOps Avatar dropdown</alt></image>
+      </p><p class="- topic/p ">On the top right corner, if you click on the <i class="+ topic/ph hi-d/i ">Settings</i>
+         icon, you can see two distinct sections: <b class="+ topic/ph hi-d/b ">TestOps
+            Admin</b> and <b class="+ topic/ph hi-d/b ">TestOps Settings</b>.</p><ul class="- topic/ul "><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">TestOps Admin</b> is an overall administration
+            tool allowing you to manage all Katalon products (Studio, Runtime
+            Engine, TestOps).</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">TestOps Settings</b> is a configuration tool
+            specifically for the Katalon TestOps product.</li></ul><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-nov-release-navigation-doc/TO-Admin-HomePage-Owner-View-Settings.png" scope="external" width="300" class="- topic/image "><alt class="- topic/alt ">TestOps Settings Dropdown</alt></image>
+      </p><p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">TestOps Settings</b> section contains the
+         following pages:</p><table class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">TestOps Settings Page</b>
+              </entry><entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">Usage</b>
+              </entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">Team Management</b>
+              </entry><entry class="- topic/entry ">Manage all your TestOps teams.</entry></row><row class="- topic/row "><entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">Project Management</b>
+              </entry><entry class="- topic/entry ">Manage all your TestOps projects.</entry></row><row class="- topic/row "><entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">TestOps Homepage</b>
+              </entry><entry class="- topic/entry ">View summary of your organization activities.</entry></row></tbody></tgroup></table><p class="- topic/p ">The available <b class="+ topic/ph hi-d/b ">TestOps Admin Console Pages</b> are
+         different depending on your role in the current organization.</p></conbody></concept>

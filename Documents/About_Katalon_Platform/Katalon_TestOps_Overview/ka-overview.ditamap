@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-ka-overview" class="- map/map "><title class="- topic/title ">Katalon TestOps Overview</title><topicref href="ka-overview.dita" class="- map/topicref "><topicref href="test_planning.dita" class="- map/topicref "/><topicref href="test_management.dita" class="- map/topicref "/><topicref href="reports_and_analytics.dita" class="- map/topicref "/><topicref href="configurations.dita" class="- map/topicref "/></topicref></map>

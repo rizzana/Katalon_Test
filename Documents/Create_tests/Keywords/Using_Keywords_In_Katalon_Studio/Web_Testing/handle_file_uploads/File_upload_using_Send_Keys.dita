@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-9572" xml:lang="en-us" class="- topic/topic concept/concept "><title class="- topic/title ">File upload using Send Keys</title><prolog class="- topic/prolog "><author translate="no" type="creator" class="- topic/author ">Hao Le &lt;hao.le@katalon.com&gt;</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "/></metadata></prolog><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">We can also upload files by using the <b class="+ topic/ph hi-d/b ">Send Keys</b> method. <b class="+ topic/ph hi-d/b ">Send Keys</b> works for the <b class="+ topic/ph hi-d/b ">input</b> tag having <b class="+ topic/ph hi-d/b ">type</b> equal to <b class="+ topic/ph hi-d/b ">file</b>.</p><p class="- topic/p ">Steps:</p><ul class="- topic/ul "><li class="- topic/li ">Launch the URL of the application</li><li class="- topic/li ">Maximize the window</li><li class="- topic/li ">Use the Send Keys method to upload a file.</li><li class="- topic/li ">Send Keys accepts file URL as string.</li></ul><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Manual Mode:</b></p><p class="- topic/p "><image width="750" href="ks-840-send-key.png" class="- topic/image "><alt class="- topic/alt ">send key</alt></image></p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Script Mode:</b></p><codeblock class="+ topic/pre pr-d/codeblock ">'Open browser and navigate to given URL'
+ 
+WebUI.openBrowser('C:\\\\Users\\\\User\\\\Desktop\\\\Katalon Articles\\\\File Upload\\\\UploadFile.html')
+ 
+'Maximize the window\r\n'
+WebUI.maximizeWindow()
+ 
+'Uploading the File using Send Keys method by passing the File path'
+WebUI.sendKeys(findTestObject('Upload File'), 'C:\\\\Users\\\\Public\\\\Pictures\\\\Sample Pictures\\\\Desert.jpg')
+ 
+'Capturing the file name after upload and storing it in a variable'
+FilePath = WebUI.getAttribute(findTestObject('Upload File'), 'value')
+ 
+'Verifying the Actual path and Expected path of file'
+WebUI.verifyMatch(FilePath, 'C:\\fakepath\\Desert.jpg', false)
+</codeblock></conbody></concept>

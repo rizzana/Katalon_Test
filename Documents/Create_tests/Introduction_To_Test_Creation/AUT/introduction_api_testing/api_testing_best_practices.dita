@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_14" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">API testing best practices</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/introduction_api_testing/API-Testing-Best-Practices-1024x512.png" scope="external" class="- topic/image ">
+          <alt class="- topic/alt ">API Testing Best Practices</alt>
+        </image>
+      </p>
+    </conbody>
+    
+    
+    
+    
+    
+  </concept>

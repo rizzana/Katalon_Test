@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_0" class="- topic/topic concept/concept "><title class="- topic/title ">[Windows] Verify Element Present</title><conbody class="- topic/body  concept/conbody "><section id="id" class="- topic/section ">
+    <title class="- topic/title "/>
+    
+      <note type="note" class="- topic/note ">
+        <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">From version 7.6.0, this keyword is available.</p></li></ul>
+      </note>
+    
+  </section><section id="id_1" class="- topic/section ">
+    <title class="- topic/title ">verifyElementPresent</title>
+    
+      <ul class="- topic/ul "><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Description</b>: Wait until the given element to
+            present (appear) within the given time in the second unit.</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Keyword name</b>: verifyElementPresent</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Keyword syntax</b>:
+            <codeblock class="+ topic/pre pr-d/codeblock ">Windows.verifyElementPresent(windowsObject, timeout)</codeblock>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Parameters</b>:</p>
+          <ul class="- topic/ul "><li class="- topic/li ">
+              <p class="- topic/p ">Name: windowsObject</p>
+              <ul class="- topic/ul "><li class="- topic/li ">Description: An object that describes locator and locator
+                        strategy of the target element that needs to wait for</li><li class="- topic/li ">Parameter Type: WindowsTestObject</li><li class="- topic/li ">Mandatory: Required</li></ul>
+            </li><li class="- topic/li ">
+              <p class="- topic/p ">Name: timeout</p>
+              <ul class="- topic/ul "><li class="- topic/li ">Description: System will wait at most timeout (seconds) to
+                        return the result 
+                        
+                        <ul class="- topic/ul "><li class="- topic/li ">If timeout = 0, Katalon Studio will use the default page load
+                              timeout</li><li class="- topic/li ">If timeout &lt; 0, throws IllegalArgumentException</li></ul>
+                </li><li class="- topic/li ">Parameter Type: Integer</li><li class="- topic/li ">Mandatory: Required</li></ul>
+            </li></ul>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Return value</b>:</p>
+          <ul class="- topic/ul "><li class="- topic/li ">Description: true if the element presents; otherwise,
+                  false</li><li class="- topic/li ">Type: Boolean</li></ul>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Example</b>:</p>
+        </li></ul>
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">"Verify to expect the edit panel presents with verifyElementPresent keyword"
+assert Windows.verifyElementPresent(findWindowsObject('Object Repository/Edit') 10)
+</codeblock>
+      
+    
+  </section></conbody></concept>

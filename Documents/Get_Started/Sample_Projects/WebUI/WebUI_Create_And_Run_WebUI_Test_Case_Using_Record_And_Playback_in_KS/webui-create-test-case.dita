@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">[WebUI] Create and Run Web UI Test Case using Record and Playback in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">This tutorial demonstrates how to create a Web UI test case with
+         <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> using <b class="+ topic/ph hi-d/b ">Record</b> and
+         <b class="+ topic/ph hi-d/b ">Playback</b>.</p><p class="- topic/p ">Go through the scenario "Sign in the shopping page to purchase a
+         tank top" to get familiar with these features. The basic steps
+         are:</p><ol class="- topic/ol "><li class="- topic/li ">Create a new project to store recorded actions.</li><li class="- topic/li ">Interact with the web page. 
+            
+            <ul class="- topic/ul "><li class="- topic/li ">Sign in.</li><li class="- topic/li ">Purchase a tank top.</li></ul>
+        </li><li class="- topic/li ">Stop recording and Save scripts.</li></ol><p class="- topic/p ">
+          <b class="+ topic/ph hi-d/b ">Shopping Cart</b> sample project is available <xref format="html" href="https://github.com/katalon-studio-samples/shopping-cart-tests" scope="external" class="- topic/xref ">here</xref>.</p></conbody></concept>

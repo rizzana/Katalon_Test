@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Create_tests/Keywords/Custom_Keywords/Mark_Test_Status_For_A_Custom_Keyword?><?workdir-uri file:/Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Create_tests/Keywords/Custom_Keywords/Mark_Test_Status_For_A_Custom_Keyword/?><?path2project ../../../../../?><?path2project-uri ../../../../../?><?path2rootmap-uri ../../../../../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="id" class="- topic/topic concept/concept " ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Mark_Test_Status_For_A_Custom_Keyword/mark-tests-status-for-a-custom-keyword.dita" xtrc="concept:1;3:57" specializations="@props/deliveryTarget"><title class="- topic/title " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Mark_Test_Status_For_A_Custom_Keyword/mark-tests-status-for-a-custom-keyword.dita" xtrc="title:1;3:87">Mark test's status for a Custom Keyword in <ph class="- topic/ph " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Global_reuse/Name_variables_warehouse/Common_phrases.dita" xtrc="ph:2;3:1075">Katalon Studio</ph></title><conbody class="- topic/body  concept/conbody " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Mark_Test_Status_For_A_Custom_Keyword/mark-tests-status-for-a-custom-keyword.dita" xtrc="conbody:1;3:253"><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Mark_Test_Status_For_A_Custom_Keyword/mark-tests-status-for-a-custom-keyword.dita" xtrc="p:1;3:275">Unlike built-in keywords, there will be no overall status for a
+         Custom Keyword unless you define what your expected result is
+         within the Custom Keyword. To generate a status for this one,
+         Katalon Studio provides a couple of functions:</p><codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Mark_Test_Status_For_A_Custom_Keyword/mark-tests-status-for-a-custom-keyword.dita" xtrc="codeblock:1;6:107">import org.openqa.selenium.By
+import org.openqa.selenium.WebElement
+import com.kms.katalon.core.annotation.Keyword
+import com.kms.katalon.core.testobject.TestObject
+import com.kms.katalon.core.util.KeywordUtil
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
+ 
+/**
+* Check if element present in timeout
+* @param to Katalon test object
+* @param timeout time to wait for element to show up 
+* @return true if element present, otherwise false
+*/
+@Keyword
+def isElementPresent(TestObject to, int timeout){
+//Use Katalon built-in function to find elements with time out 1 seconds
+List&lt;WebElement&gt; elements = WebUiBuiltInKeywords.findWebElements(to, timeout)
+if (elements.size() &gt; 0)
+{
+//Mark Passed status after this step
+KeywordUtil.markPassed("Element is present")
+}
+else
+{
+//Mark Failed status after this step
+KeywordUtil.markFailed("Element is not present")
+}
+</codeblock><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Mark_Test_Status_For_A_Custom_Keyword/mark-tests-status-for-a-custom-keyword.dita" xtrc="p:2;33:35">
+      <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Mark_Test_Status_For_A_Custom_Keyword/mark-tests-status-for-a-custom-keyword.dita" xtrc="b:1;34:37">References:</b>
+    </p><ul class="- topic/ul " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Mark_Test_Status_For_A_Custom_Keyword/mark-tests-status-for-a-custom-keyword.dita" xtrc="ul:1;35:33"><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Mark_Test_Status_For_A_Custom_Keyword/mark-tests-status-for-a-custom-keyword.dita" xtrc="li:1;35:57">
+        <xref format="html" href="https://api-docs.katalon.com/com/kms/katalon/core/util/KeywordUtil.html" scope="external" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Custom_Keywords/Mark_Test_Status_For_A_Custom_Keyword/mark-tests-status-for-a-custom-keyword.dita" xtrc="xref:1;36:147"><?ditaot usertext?>KeywordUtil</xref>
+      </li></ul></conbody></concept>

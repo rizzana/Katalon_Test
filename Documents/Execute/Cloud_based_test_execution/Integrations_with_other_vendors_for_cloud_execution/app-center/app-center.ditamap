@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-app-center" class="- map/map ">
+  <title class="- topic/title ">App Center Integration</title>
+  <topicref href="app-center.dita" class="- map/topicref "><topicref href="integrate_with_app_center.dita" class="- map/topicref ">
+    <topicref href="configure_your_katalon_project.dita" class="- map/topicref "/>
+    <topicref href="update_sideload.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="executing_katalondemoproject.dita" class="- map/topicref "/>
+</topicref>
+  </map>

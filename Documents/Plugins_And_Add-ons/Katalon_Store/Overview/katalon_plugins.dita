@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Katalon Plugins</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Katalon plugins are small pieces of software that you install
+         into Katalon Studio, which adds more functionality and allows for
+         near total customization of your tool. These plugins are built to
+         improve the automation efficiency of your projects or meet your
+         specific business needs.</p><p class="- topic/p ">Some outstanding plugins in <ph conkeyref="name-variables/katalon-store" class="- topic/ph "/>:</p><ul class="- topic/ul "><li class="- topic/li "><xref format="html" href="https://store.katalon.com/product/34/Excel-Keywords" scope="external" class="- topic/xref ">Excel
+               Keywords</xref>
+        </li><li class="- topic/li "><xref format="html" href="https://store.katalon.com/product/5/Auto-healing-Smart-XPath" scope="external" class="- topic/xref ">Auto-healing
+               Smart XPath</xref>
+        </li><li class="- topic/li "><xref format="html" href="https://store.katalon.com/product/13/TestRail-Integration" scope="external" class="- topic/xref ">TestRail
+               Integration</xref>
+        </li><li class="- topic/li "><xref format="html" href="https://store.katalon.com/product/44/Applitools-Integration" scope="external" class="- topic/xref ">Applitools
+               Integration</xref>
+        </li><li class="- topic/li "><xref format="html" href="https://store.katalon.com/product/75/Sauce-Labs-Integration" scope="external" class="- topic/xref ">Sauce
+               Labs Integration</xref></li><li class="- topic/li ">etc.</li></ul></conbody></concept>

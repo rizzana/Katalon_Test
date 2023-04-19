@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Create dynamic test suite at runtime</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">A dynamic test suite is a test suite with multiple test cases
+         added via a search query. You can dynamically add additional test
+         cases while running the test suite. To learn more about dynamic
+         test suites in Katalon Studio, you can refer to this document: <xref href="../../../Organize/Manage_Tests/Dynamic_Test_Suite/manage-dynamic-test-suite-ks/c_intro_dynamic-test-suite-ks.dita" class="- topic/xref ">Dynamic
+            test suite in Katalon Studio</xref>.</p><p class="- topic/p ">From Katalon Studio version 7.8.2 onwards, you can create a
+         dynamic test suite at runtime with Katalon Runtime Engine (KRE).
+         This article guides you on how to do so.</p><note type="important" class="- topic/note ">
+        
+        <ul class="- topic/ul "><li class="- topic/li ">Katalon Studio Enterprise version 7.8.2 onwards.</li><li class="- topic/li ">Katalon Runtime Engine version 7.8.2 onwards.</li><li class="- topic/li ">An active Katalon Runtime Engine license.</li></ul>
+      </note><note type="note" class="- topic/note ">
+
+        <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">You can download the sample project from our Github repository:
+            <xref format="html" href="https://github.com/katalon-studio-samples/dynamic-test-suite-sample" scope="external" class="- topic/xref ">Dynamic
+               test suite sample</xref>.</p></li></ul>
+      </note></conbody></concept>

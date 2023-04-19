@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-view-session-details" class="- map/map ">
+  <title class="- topic/title ">Sessions Monitoring</title>
+  <topicref href="view-session-details.dita" class="- map/topicref "><topicref href="view_all_sessions.dita" class="- map/topicref "/>
+  <topicref href="view_screenshots_of_each_session.dita" class="- map/topicref "/>
+  <topicref href="clean_up_old_sessions.dita" class="- map/topicref "/>
+</topicref>
+  </map>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">For a new User</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To enable SSO for a new User, follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Settings</b> &gt; <b class="+ topic/ph hi-d/b ">User Management</b>.</p>
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">User Management</b> page appears.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">On the top-right corner of the <b class="+ topic/ph hi-d/b ">User Management</b> page, click on the <b class="+ topic/ph hi-d/b ">Invite User</b> button.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-sso-settings/K1-User-Management-Active-User.png" scope="external" class="- topic/image "><alt class="- topic/alt ">User Invitation Window</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In the displayed <b class="+ topic/ph hi-d/b ">User Invitation</b> window, insert the new User's email address.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-sso-settings/K1-User-Invitation-Window.png" scope="external" class="- topic/image "><alt class="- topic/alt ">User Invitation Window</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Login Settings</b> section, toggle on the <b class="+ topic/ph hi-d/b ">Log in to [custom.katalon.io] by Single Sign-On</b> option.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-sso-settings/K1-User-Management-Toggle-SSO.png" scope="external" class="- topic/image "><alt class="- topic/alt ">User Invitation Window</alt></image>
+                </p>
+                <note type="note" class="- topic/note ">
+                    <ul class="- topic/ul "><li class="- topic/li ">
+                            <p class="- topic/p ">You can choose to select or deselect both options.</p>
+                        </li></ul>
+                </note>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Next</b> to continue the User invitation process as usual.</p>
+            </li></ol><p class="- topic/p ">Once the User invitation process is completed, an email is sent to the User asking them to join the Organization. After the User joins the Organization, they will receive a request email to enable SSO.</p></conbody></concept>

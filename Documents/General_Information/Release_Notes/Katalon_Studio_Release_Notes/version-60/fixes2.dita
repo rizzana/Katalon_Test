@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_10" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Fixes</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">Bug: Cannot save test cases when the Test Case default view is
+            in Script Mode</li>
+          <li class="- topic/li ">Bug: Cannot execute test cases with Microsoft Edge
+            18.17763.</li>
+          <li class="- topic/li ">Bug: Cannot send emails with TLS Protocol.</li>
+          <li class="- topic/li ">Bug: An open profile is required being saved when it is just
+            reopened, and no modification has been made.</li>
+        </ul>
+      </conbody>
+    </concept>

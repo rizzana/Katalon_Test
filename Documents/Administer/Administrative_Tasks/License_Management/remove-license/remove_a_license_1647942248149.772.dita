@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Remove a license</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">This action removes a license associated with a machine ID. This license is then available to be attributed again. The User that was using the license can still use the free Katalon product.</p><note type="warning" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">By clicking <b class="+ topic/ph hi-d/b ">Remove</b>, you immediately terminate the current session that machine ID is working on in Katalon Studio. You should remove a license from a machine ID with caution.</li></ul>
+        </note><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Go to the <b class="+ topic/ph hi-d/b ">License Management</b> page.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Online Licenses</b> section, click on the <i class="+ topic/ph hi-d/i ">Trash bin</i> icon of the machine ID for which you want to remove the license.</p>
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Remove license</b> box pops up.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Remove</b> to confirm your action.</p>
+            </li></ol><note type="note" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">
+                    <p class="- topic/p ">You can only remove Katalon Studio Enterprise's (KSE). For Katalon Runtime Engine (KRE), see: <xref href="../license-management/transfer_a_license.dita" class="- topic/xref ">Manage Katalon Licenses</xref>.</p>
+                </li></ul>
+        </note></conbody></concept>

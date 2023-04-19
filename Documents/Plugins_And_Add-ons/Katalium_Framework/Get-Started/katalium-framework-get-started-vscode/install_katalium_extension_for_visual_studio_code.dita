@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Install Katalium Extension for Visual Studio Code</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">Install Katalium Extension <xref format="html" href="https://marketplace.visualstudio.com/items?itemName=katalon-llc.katalium" scope="external" class="- topic/xref ">here</xref>.</p>
+    </conbody>
+  </concept>

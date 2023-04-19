@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-1482" class="- map/map "><title class="- topic/title ">Supported Environments for Katalon Platform</title><mapref format="ditamap" href="Supported_Environments_For_Katalon_Studio/supported-environments.ditamap" class="+ map/topicref mapgroup-d/mapref "/><mapref format="ditamap" href="Supported_Environments_For_Katalon_TestCloud/testcloud-supported-environments.ditamap" class="+ map/topicref mapgroup-d/mapref "/></map>

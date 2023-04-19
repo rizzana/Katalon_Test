@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Activate a KRE license</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">After the Owner or Admin of your Organization has granted you a KRE license, the license is activated automatically. To use KRE, you need to authenticate your account with your Katalon API key. To view your API key, refer to this guide: <xref href="../../Security_Settings/ka-api-key/generate_a_katalon_api_key.dita" class="- topic/xref ">API Keys</xref>.</p><note type="note" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">To view details about your current license, see: <xref href="../view-license-details/view-license-details.dita" class="- topic/xref ">View License Details</xref>.</li></ul>
+        </note></conbody></concept>

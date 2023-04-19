@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Test Artifacts Sharing in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Test artifacts sharing allows you to import and export test
+         artifacts across Katalon Studio projects. These test artifacts
+         include test cases, test objects, profiles, and custom
+         keywords.</p><section class="- topic/section "><title class="- topic/title ">Requirements</title><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Katalon Studio version 7.0.0 onwards.</p></li><li class="- topic/li "><p class="- topic/p ">An active Katalon Studio Enterprise license. To
+            learn more about activating your licenses, you can refer to this
+            document: <xref href="../../../Administer/KSE-KRE-Licenses/activate-license/activate_a_license_with_internet_access.dita" class="- topic/xref ">Activate
+               Katalon License</xref>.</p></li></ul></section></conbody></concept>

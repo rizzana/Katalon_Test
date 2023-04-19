@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_0" class="- topic/topic concept/concept "><title class="- topic/title ">[Mobile] Toggle Airplane Mode</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p "><note class="- topic/note "><ul class="- topic/ul "><li class="- topic/li ">This keyword has been disabled by Android OS since API level 24 (Android 7).</li><li class="- topic/li ">To turn airplane mode on/off, you can open the Settings app or swipe down the Control Center, then click/tap the <b class="+ topic/ph hi-d/b ">Airplane Mode</b> button as a workaround.</li></ul></note></p><section id="id_1" class="- topic/section ">
+    <title class="- topic/title ">Description  </title>
+    
+      <p class="- topic/p "><ul class="- topic/ul "><li class="- topic/li ">Simulate toggling airplane mode on mobile devices.</li><li class="- topic/li ">Support iOS real devices and Android emulators.</li></ul><note class="- topic/note "><ul class="- topic/ul "><li class="- topic/li ">On iOS devices, <b class="+ topic/ph hi-d/b ">Access Within Apps</b> must be enabled. To enable the feature, refer to the following Apple document: <xref format="html" href="https://support.apple.com/en-us/HT211812" scope="external" class="- topic/xref ">Edit Control Center on your iPhone, iPad, and iPod touch</xref>.</li></ul></note></p>
+    
+  </section><section id="id_2" class="- topic/section ">
+    <title class="- topic/title "> Parameters  </title>
+    
+      <table class="- topic/table "><tgroup cols="4" class="- topic/tgroup "><colspec colname="c1" colnum="1" class="- topic/colspec "/><colspec colname="c2" colnum="2" class="- topic/colspec "/><colspec colname="c3" colnum="3" class="- topic/colspec "/><colspec colname="c4" colnum="4" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Param</entry><entry class="- topic/entry ">Param Type</entry><entry class="- topic/entry ">Mandatory</entry><entry class="- topic/entry ">Description</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">mode</entry><entry class="- topic/entry ">String</entry><entry class="- topic/entry ">Required</entry><entry class="- topic/entry ">["yes", "on", "true"] to turn on airplane mode; otherwise,
+                  airplane mode is turn off.</entry></row><row class="- topic/row "><entry class="- topic/entry ">flowControl</entry><entry class="- topic/entry ">FailureHandling</entry><entry class="- topic/entry ">Optional</entry><entry class="- topic/entry ">Specify failure handling schema to determine whether the execution should be allowed to continue or stop. To learn more about failure handling settings, you can refer to this document: <p class="- topic/p "><xref href="../../../../../Maintain/failure-handling/default_failure_handling_behavior.dita" class="- topic/xref ">Failure handling</xref></p>.</entry></row></tbody></tgroup></table>
+    
+  </section><section id="id_3" class="- topic/section ">
+    <title class="- topic/title ">Example  </title>
+    
+      <p class="- topic/p ">You want to turn on airplane mode.</p>
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.util.internal.PathUtil as PathUtil
+
+
+'Start the application on the currently selected Android device'
+Mobile.startApplication(GlobalVariable.G_AndroidApp, false)
+
+'Turn on airplane mode'
+Mobile.toggleAirplaneMode('yes')
+
+'Close application on the currently selected Android device'
+Mobile.closeApplication()
+</codeblock>
+      
+    
+  </section></conbody></concept>

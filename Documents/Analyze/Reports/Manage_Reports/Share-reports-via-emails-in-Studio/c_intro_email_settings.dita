@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Share test reports via email in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">After a test suite or test suite collection execution, you might
+         want to automatically send summary reports to your own email or
+         other stakeholders to notify them about the test result. This
+         document shows you how to set up your mail server and customize
+         email reports to automatically send out a summary report email
+         whenever a test execution finishes.</p></conbody></concept>

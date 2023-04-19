@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Activate Katalon License</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">In this article, we will guide you through the activation of your Katalon Studio Enterprise (KSE) and Katalon Runtime Engine (KRE) licenses.</p><note type="note" class="- topic/note ">
+            
+            <ul class="- topic/ul "><li class="- topic/li ">To learn more about Katalon licenses, see <xref href="../license_overview/c_intro_license_overview.dita" class="- topic/xref ">Types of Licenses</xref>.</li><li class="- topic/li ">If you are behind a proxy server, before activating Katalon licenses, you need to configure the Authentication proxy settings. To learn more about how to configure a proxy, see <xref href="../configure-proxy/configure-proxy.dita" class="- topic/xref ">Configure Proxy for Authentication</xref>.</li></ul>
+        </note></conbody></concept>

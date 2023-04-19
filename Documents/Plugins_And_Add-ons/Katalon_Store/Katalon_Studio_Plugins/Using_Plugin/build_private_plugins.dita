@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept "><title class="- topic/title ">Build Private Plugins</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">If you don't know how to build a plugin that can be used in
+         <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/>,  refer to the documents on how to develop <xref href="../Create_Your_First_Katalon_Studio_Plugin/create-plugin.dita" class="- topic/xref ">platform
+            plugins</xref> and <xref href="../Develop_Custom_Keywords_Plugin/develop-custom-keywords.dita" class="- topic/xref ">custom
+            keywords plugins</xref>.</p><p class="- topic/p ">If you have already written custom keywords, then code reuse
+         across projects can be achieved easily by distributing the keywords
+         as plugins. This utility is especially helpful when you need to
+         test a set of products that frequently encounter recurring
+         problems. Before, you would have to copy and paste every custom
+         keyword class from projects to projects. Whenever the
+         implementation of the custom keyword changes, you would need to
+         update that change in all projects. Now, you can deploy and install
+         custom keyword plugins through only a few commands and manual
+         steps.</p></conbody></concept>

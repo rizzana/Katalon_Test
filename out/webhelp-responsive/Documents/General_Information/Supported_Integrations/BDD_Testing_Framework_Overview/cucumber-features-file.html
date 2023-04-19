@@ -1,0 +1,151 @@
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" data-whc_version="25.1">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta http-equiv="X-UA-Compatible" content="IE=edge"/><meta name="description" content="Note: For better performance, you should clean up the Katalon workspace frequently. Navigate to File &gt; Clean up . Behavior-driven development (BDD) testing framework allows you to create test cases in ..."/><meta name="DC.rights.owner" content="(C) Copyright 2023"/><meta name="copyright" content="(C) Copyright 2023"/><meta name="generator" content="DITA-OT"/><meta name="DC.type" content="concept"/><meta name="DC.format" content="HTML5"/><meta name="DC.identifier" content="id_cucumber-features-file"/><title>BDD Testing Framework (Cucumber integration) overview</title><!--  Generated with Oxygen version 25.1, build number 2023031500.  --><meta name="wh-path2root" content="../../../../"/><meta name="wh-toc-id" content="id_cucumber-features-file-d48972e292"/><meta name="wh-source-relpath" content="Documents/General_Information/Supported_Integrations/BDD_Testing_Framework_Overview/cucumber-features-file.dita"/><meta name="wh-out-relpath" content="Documents/General_Information/Supported_Integrations/BDD_Testing_Framework_Overview/cucumber-features-file.html"/>
+
+    <link rel="stylesheet" type="text/css" href="../../../../oxygen-webhelp/app/commons.css?buildId=2023031500"/>
+    <link rel="stylesheet" type="text/css" href="../../../../oxygen-webhelp/app/topic.css?buildId=2023031500"/>
+
+    <script>
+        var oxy_webhelp_navlinks = {};
+    </script>
+    <script src="../../../../oxygen-webhelp/app/options/properties.js?buildId=20230419143222"></script>
+    <script src="../../../../oxygen-webhelp/app/localization/strings.js?buildId=2023031500"></script>
+    <script src="../../../../oxygen-webhelp/app/search/index/keywords.js?buildId=20230419143222"></script>
+    <script defer="defer" src="../../../../oxygen-webhelp/app/commons.js?buildId=2023031500"></script>
+    <script defer="defer" src="../../../../oxygen-webhelp/app/topic.js?buildId=2023031500"></script>
+<link rel="stylesheet" type="text/css" href="../../../../oxygen-webhelp/template/oxygen.css?buildId=2023031500"/><link rel="stylesheet" type="text/css" href="../../../../oxygen-webhelp/template/notes.css?buildId=2023031500"/></head>
+
+    <body id="id_cucumber-features-file" class="wh_topic_page frmBody">
+        <a href="#wh_topic_body" class="sr-only sr-only-focusable">
+            Jump to main content
+        </a>
+        
+        
+        
+        
+        <header class="navbar navbar-default wh_header">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container navbar-nav navbar-expand-md navbar-dark">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    
+                    <div class=" wh_publication_title "><a href="../../../../index.html"><span class="title">Katalon Docs</span></a></div>
+                    
+                </div>
+                
+                <button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggler collapsed wh_toggle_button" aria-expanded="false" aria-label="Toggle menu" aria-controls="wh_top_menu_and_indexterms_link">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+                
+                <nav class=" wh_top_menu " aria-label="Menu Container"><ul role="menubar" aria-label="Menu"><li role="menuitem"><span id="concept-8072-d48972e11-mi" data-tocid="concept-8072-d48972e11" data-state="leaf" class=" topicref " data-id="concept-8072"><span class="title"><a href="../../../../Documents/About_Katalon_Platform/About_Katalon_Platform.html">About <span class="ph">Katalon Platform</span></a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d48972e21-mi" data-tocid="tocId-d48972e21" data-state="not-ready" class=" topicref "><span class="title"><a href="../../../../Documents/General_Information/Supported_Technologies/Supported_Technologies_For_Katalon_Studio/product-availability-matrix.html">General information</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d48972e1999-mi" data-tocid="tocId-d48972e1999" data-state="not-ready" class=" topicref "><span class="title"><a href="../../../../Documents/Get_Started/Get_Started_Overview/get-started-overview.html">Get started</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d48972e4372-mi" data-tocid="tocId-d48972e4372" data-state="not-ready" class=" topicref "><span class="title"><a href="../../../../Documents/Plan/Introduction_to_test_planning/Introduction_to_test_planning.html">Plan</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d48972e4555-mi" data-tocid="tocId-d48972e4555" data-state="not-ready" class=" topicref "><span class="title"><a href="../../../../Documents/Create_tests/Introduction_To_Test_Creation/Introduction_to_Test_Creation.html">Create tests</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d48972e15643-mi" data-tocid="tocId-d48972e15643" data-state="not-ready" class=" topicref "><span class="title"><a href="../../../../Documents/Organize/Introduction_to_organizing_tests/Introduction_to_the_test_management_module.html">Organize</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d48972e17950-mi" data-tocid="tocId-d48972e17950" data-state="not-ready" class=" topicref "><span class="title"><a href="../../../../Documents/Execute/Test_execution_overview/Test_Execution_Overview.html">Execute</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d48972e21382-mi" data-tocid="tocId-d48972e21382" data-state="not-ready" class=" topicref "><span class="title"><a href="../../../../Documents/Analyze/Introduction_to_Reports_and_Analytics_module/Introduction_to_reports_and_analytics_module.html">Analyze</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d48972e23059-mi" data-tocid="tocId-d48972e23059" data-state="not-ready" class=" topicref "><span class="title"><a href="../../../../Documents/Maintain/Introduction_to_test_maintenance/Introduction_to_test_maintenance.html">Maintain</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d48972e23315-mi" data-tocid="tocId-d48972e23315" data-state="not-ready" class=" topicref "><span class="title"><a href="../../../../Documents/Administer/Katalon_Platform_Packages/platform-packages/testops-pricing-model.html">Administer</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d48972e25184-mi" data-tocid="tocId-d48972e25184" data-state="not-ready" class=" topicref "><span class="title"><a href="../../../../Documents/Plugins_And_Add-ons/Katalon_Store/Overview/overview.html">Plugins and add-ons</a></span></span></li></ul></nav>
+                
+                
+            </div>
+        </div>
+    </div>
+</header>
+        
+        
+         
+        
+        <div class=" wh_search_input navbar-form wh_topic_page_search search " role="form">
+            
+            
+            
+            <form id="searchForm" method="get" role="search" action="../../../../search.html"><div><input type="search" placeholder="Search " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="Search query" required="required"/><button type="submit" class="wh_search_button" aria-label="Search"><span class="search_input_text">Search</span></button></div></form>
+            
+            
+            
+        </div>
+        
+        <div class="container-fluid" id="wh_topic_container">
+            <div class="row">
+
+                <nav class="wh_tools d-print-none navbar-expand-md" aria-label="Tools">
+                    
+                    <div data-tooltip-position="bottom" class=" wh_breadcrumb "><ol class="d-print-none"><li><span class="home"><a href="../../../../index.html"><span>Home</span></a></span></li><li><div class="topicref"><div class="title"><a href="../../../../Documents/General_Information/Supported_Technologies/Supported_Technologies_For_Katalon_Studio/product-availability-matrix.html">General information</a></div></div></li><li><div class="topicref"><div class="title"><a href="../../../../Documents/General_Information/Supported_Integrations/Supported_Integration/intro_supported_integration.html">Supported Integration</a></div></div></li><li><div class="topicref"><div class="title"><a href="../../../../Documents/General_Information/Supported_Integrations/Jira_Integration_Overview/Jira_Integration_Overview.html">Supported integration overview</a></div></div></li><li class="active"><div class="topicref" data-id="id_cucumber-features-file"><div class="title"><a href="../../../../Documents/General_Information/Supported_Integrations/BDD_Testing_Framework_Overview/cucumber-features-file.html">BDD Testing Framework (Cucumber integration) overview</a></div></div></li></ol></div>
+                    
+                    
+                    
+                    <div class="wh_right_tools">
+                        <button class="wh_hide_highlight" aria-label="Toggle search highlights" title="Toggle search highlights"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" aria-label="Collapse sections" title="Collapse sections"></button>
+                        
+                        
+                        
+                        
+                        <div class=" wh_print_link print d-none d-md-inline-block "><button onClick="window.print()" title="Print this page" aria-label="Print this page"></button></div>
+                        
+                        <button type="button" id="wh_toc_button" class="custom-toggler navbar-toggler collapsed wh_toggle_button navbar-light" aria-expanded="false" aria-label="Toggle publishing table of content" aria-controls="wh_publication_toc">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    
+                </nav>
+            </div>
+            
+            
+            
+            
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                        <nav id="wh_publication_toc" class="col-lg-3 col-md-3 col-sm-12 d-md-block d-none d-print-none" aria-label="Table of Contents Container">
+                            <div id="wh_publication_toc_content">
+		                        
+                            	<div class=" wh_publication_toc " data-tooltip-position="right"><span class="expand-button-action-labels"><span id="button-expand-action" role="button" aria-label="Expand"></span><span id="button-collapse-action" role="button" aria-label="Collapse"></span><span id="button-pending-action" role="button" aria-label="Pending"></span></span><ul role="tree" aria-label="Table of Contents"><li role="treeitem" aria-expanded="true"><div data-tocid="tocId-d48972e21" class="topicref" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action tocId-d48972e21-link" class="wh-expand-btn"></span><div class="title"><a href="../../../../Documents/General_Information/Supported_Technologies/Supported_Technologies_For_Katalon_Studio/product-availability-matrix.html" id="tocId-d48972e21-link">General information</a></div></div><ul role="group" class="navbar-nav nav-list"><li role="treeitem" aria-expanded="false"><div data-tocid="tocId-d48972e25" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d48972e25-link" class="wh-expand-btn"></span><div class="title"><a href="../../../../Documents/General_Information/Supported_Technologies/Supported_Technologies_For_Katalon_Studio/product-availability-matrix.html" id="tocId-d48972e25-link">Supported Technologies</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="tocId-d48972e104" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d48972e104-link" class="wh-expand-btn"></span><div class="title"><a href="../../../../Documents/General_Information/Supported_Environments/Supported_Environments_For_Katalon_Studio/supported-environments.html" id="tocId-d48972e104-link">Supported Environments</a></div></div></li><li role="treeitem" aria-expanded="true"><div data-tocid="tocId-d48972e195" class="topicref" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action tocId-d48972e195-link" class="wh-expand-btn"></span><div class="title"><a href="../../../../Documents/General_Information/Supported_Integrations/Supported_Integration/intro_supported_integration.html" id="tocId-d48972e195-link">Supported Integration</a></div></div><ul role="group" class="navbar-nav nav-list"><li role="treeitem" aria-expanded="false"><div data-tocid="concept-881-d48972e199" class="topicref" data-id="concept-881" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action concept-881-d48972e199-link" class="wh-expand-btn"></span><div class="title"><a href="../../../../Documents/General_Information/Supported_Integrations/Supported_Integration/intro_supported_integration.html" id="concept-881-d48972e199-link">Supported integrations in <span class="ph">Katalon Platform</span></a><div class="wh-tooltip"><p class="shortdesc">This section shows you the supported integration in <span class="ph">Katalon Platform</span>.</p></div></div></div></li><li role="treeitem" aria-expanded="true"><div data-tocid="tocId-d48972e280" class="topicref" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action tocId-d48972e280-link" class="wh-expand-btn"></span><div class="title"><a href="../../../../Documents/General_Information/Supported_Integrations/Jira_Integration_Overview/Jira_Integration_Overview.html" id="tocId-d48972e280-link">Supported integration overview</a></div></div><ul role="group" class="navbar-nav nav-list"><li role="treeitem"><div data-tocid="concept-7098-d48972e284" class="topicref" data-id="concept-7098" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="../../../../Documents/General_Information/Supported_Integrations/Jira_Integration_Overview/Jira_Integration_Overview.html" id="concept-7098-d48972e284-link">Jira integration in Katalon Platform overview</a></div></div></li><li role="treeitem" class="active"><div data-tocid="id_cucumber-features-file-d48972e292" class="topicref" data-id="id_cucumber-features-file" data-state="leaf"><span role="button" class="wh-expand-btn"></span><div class="title"><a href="../../../../Documents/General_Information/Supported_Integrations/BDD_Testing_Framework_Overview/cucumber-features-file.html" id="id_cucumber-features-file-d48972e292-link">BDD Testing Framework (Cucumber integration) overview</a></div></div></li></ul></li></ul></li><li role="treeitem" aria-expanded="false"><div data-tocid="tocId-d48972e300" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d48972e300-link" class="wh-expand-btn"></span><div class="title"><a href="../../../../Documents/General_Information/Release_Notes/Katalon_TestOps_Release_Notes/Katalon_TestOps_Release_Notes.html" id="tocId-d48972e300-link">Release Notes</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="tocId-d48972e1746" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d48972e1746-link" class="wh-expand-btn"></span><div class="title"><a href="../../../../Documents/General_Information/Proof_Of_Concept/Appium_2x/PoC_Execute_mobile_tests_with_Appium_version_2x.html" id="tocId-d48972e1746-link">Proof of Concept</a></div></div></li><li role="treeitem" aria-expanded="false"><div data-tocid="tocId-d48972e1877" class="topicref" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action tocId-d48972e1877-link" class="wh-expand-btn"></span><div class="title"><a href="../../../../Documents/General_Information/Unsupported-Integrations/TestProject_migration/TestProject_migration.html" id="tocId-d48972e1877-link">Unsupported Integrations</a></div></div></li></ul></li></ul></div>
+		                        
+                            </div>
+                        </nav>
+                    
+                    
+                    <div class="col-lg-9 col-md-9 col-sm-12" id="wh_topic_body">
+                        <button id="wh_close_publication_toc_button" class="close-toc-button d-none" aria-label="Toggle publishing table of content" aria-controls="wh_publication_toc" aria-expanded="true">
+                            <span class="close-toc-icon-container">
+                                <span class="close-toc-icon"></span>     
+                            </span>
+                        </button>
+                        
+                        
+                        <div class=" wh_topic_content body "><main role="main"><article class="- topic/topic concept/concept topic concept" role="article" aria-labelledby="ariaid-title1"><h1 class="- topic/title title topictitle1" id="ariaid-title1">BDD Testing Framework (Cucumber integration) overview</h1><div class="- topic/body concept/conbody body conbody"><div class="- topic/note note note note_note"><span class="note__title">Note:</span> 
+            <ul class="- topic/ul ul"><li class="- topic/li li">
+                    <p class="- topic/p p">For better performance, you should clean up the Katalon workspace frequently. Navigate to <span class="+ topic/ph ui-d/uicontrol ph uicontrol">File</span> &gt; <span class="+ topic/ph ui-d/uicontrol ph uicontrol">Clean up</span>.</p>
+                </li></ul>
+        </div><p class="- topic/p p">Behavior-driven development (BDD) testing framework allows you to create test cases in plain English. BDD testing framework focuses on the behavior of the product and user acceptance criteria. Cucumber is a BDD framework tool to write test cases, which uses Gherkin, an ordinary language parser, that permits writing scripts in English.</p><p class="- topic/p p">The integration of the Cucumber framework in Katalon Studio allows you to include Cucumber test hooks, which work at the start and the end of a scenario in a behavior-driven development (BDD) test. To learn more about test hooks in the Cucumber framework, you can refer to Cucumber document: <a class="- topic/xref xref" href="https://cucumber.io/docs/cucumber/api/#hooks" target="_blank" rel="external noopener">Cucumber Hooks reference</a>.</p><p class="- topic/p p">With the BDD testing framework in <span class="- topic/ph ph">Katalon Studio</span>, you can:</p><ul class="- topic/ul ul"><li class="- topic/li li"><p class="- topic/p p">Create or add a feature file.</p></li><li class="- topic/li li"><p class="- topic/p p">Define and link steps.</p></li><li class="- topic/li li"><p class="- topic/p p">Set the default package for step definitions.</p></li><li class="- topic/li li"><p class="- topic/p p">Run your feature file.</p></li><li class="- topic/li li"><p class="- topic/p p">Add your feature file to a test case.</p></li><li class="- topic/li li"><p class="- topic/p p">View BDD report files generated from <span class="- topic/ph ph">Katalon Studio</span>.</p></li><li class="- topic/li li"><p class="- topic/p p">Upload and view BDD reports on <span class="- topic/ph ph">Katalon TestOps</span>.</p></li></ul><p class="- topic/p p">To start working with BDD feature files and use test hooks for your BDD framework, see <a class="- topic/xref xref" href="../../../Create_tests/Manage_Test_Artifacts/Working_With_BDD_Feature_File/Working_with_BDD_feature_files.html" title="Learn how to work with BDD feature files in Katalon Studio.">Working with BDD feature files in Katalon Studio</a>.</p><p class="- topic/p p">To learn how to create BDD test cases, see <a class="- topic/xref xref" href="../../../Create_tests/Create_Test_Cases/Create_BDD_Test_Case/Create_BDD_test_cases.html" title="This section shows you how to create BDD test cases in Katalon Studio.">Create BDD test case in Katalon Studio</a>.</p><p class="- topic/p p">You can download the sample project here on our GitHub repository: <a class="- topic/xref xref" href="https://github.com/katalon-studio-samples/katalon-bdd-cucumber-tests" target="_blank" rel="external noopener">Katalon BDD Cucumber Tests</a>.</p></div></article></main></div>
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+            
+        </div> 
+        <footer class="navbar navbar-default wh_footer">
+  <div class=" footer-container mx-auto ">
+    Generated by <a class="oxyFooter" href="http://www.oxygenxml.com/xml_webhelp.html" target="_blank" rel="noopener">&lt;oXygen/&gt; XML WebHelp</a> - Evaluation Version
+  </div>
+</footer>
+        
+        <div id="go2top" class="d-print-none">
+            <span class="oxy-icon oxy-icon-up"></span>
+        </div>
+        
+        <div id="modal_img_large" class="modal">
+            <span class="close oxy-icon oxy-icon-remove"></span>
+            <div id="modal_img_container"></div>
+            <div id="caption"></div>
+        </div>
+        
+        
+        
+    </body>
+</html>

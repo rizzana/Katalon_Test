@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_13" class="- topic/topic concept/concept "><title class="- topic/title ">Fuzz testing</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Fuzz testing is another step in the whole security audit
+         process. In this testing type, a vast amount of random data
+         (referred to as "noise" or "fuzz" ), will be input into the system
+         with the aim to try a forced crash or any negative behavior. This
+         fuzz test will help test the API in term of the limits to prepare
+         for the "worst case scenarios."</p></conbody></concept>

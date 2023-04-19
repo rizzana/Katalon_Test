@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_textbox_checkbox_radio_button?><?workdir-uri file:/Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_textbox_checkbox_radio_button/?><?path2project ../../../../../../?><?path2project-uri ../../../../../../?><?path2rootmap-uri ../../../../../../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="id_3" class="- topic/topic concept/concept " ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_textbox_checkbox_radio_button/how_to_handle_radio_button.dita" xtrc="concept:1;3:59" specializations="@props/deliveryTarget"><title class="- topic/title " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_textbox_checkbox_radio_button/how_to_handle_radio_button.dita" xtrc="title:1;3:89">How to Handle Radio Button</title><conbody class="- topic/body  concept/conbody " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_textbox_checkbox_radio_button/how_to_handle_radio_button.dita" xtrc="conbody:1;3:171"><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_textbox_checkbox_radio_button/how_to_handle_radio_button.dita" xtrc="p:1;3:193">Radio Button is a toggle-button that allows you to check the
+         operations.</p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_textbox_checkbox_radio_button/how_to_handle_radio_button.dita" xtrc="p:2;4:47">
+        <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_textbox_checkbox_radio_button/how_to_handle_radio_button.dita" xtrc="b:1;5:39">Scenario:</b> To make an appointment</p><ul class="- topic/ul " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_textbox_checkbox_radio_button/how_to_handle_radio_button.dita" xtrc="ul:1;5:103"><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_textbox_checkbox_radio_button/how_to_handle_radio_button.dita" xtrc="li:1;5:127">Step 1: Launch the application under test (URL: <xref format="html" href="http://demoaut.katalon.com/" scope="external" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_textbox_checkbox_radio_button/how_to_handle_radio_button.dita" xtrc="xref:1;5:269"><?ditaot usertext?>http://demoaut.katalon.com/</xref>).</li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_textbox_checkbox_radio_button/how_to_handle_radio_button.dita" xtrc="li:2;5:334">Step 2: Click on Make Appointment (verify the button and click
+            operation).</li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_textbox_checkbox_radio_button/how_to_handle_radio_button.dita" xtrc="li:3;6:53">Step 3: Enter a valid username, password and click on Login
+            button (verify the button and click operation).</li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_textbox_checkbox_radio_button/how_to_handle_radio_button.dita" xtrc="li:4;7:89">Step 4: Make an appointment (check, uncheck the <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_textbox_checkbox_radio_button/how_to_handle_radio_button.dita" xtrc="b:2;7:167">Radio
+               Button</b> and verify <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_textbox_checkbox_radio_button/how_to_handle_radio_button.dita" xtrc="b:3;8:68">radio button</b> check,
+            uncheck status).</li></ul><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_textbox_checkbox_radio_button/how_to_handle_radio_button.dita" xtrc="p:3;9:61">
+        <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_textbox_checkbox_radio_button/how_to_handle_radio_button.dita" xtrc="b:4;10:39">Script Mode</b>
+      </p><codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_textbox_checkbox_radio_button/how_to_handle_radio_button.dita" xtrc="codeblock:1;11:58">import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+ 
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+ 
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+ 
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+ 
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+ 
+import com.kms.katalon.core.checkpoint.CheckpointFactory as CheckpointFactory
+ 
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as MobileBuiltInKeywords
+ 
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+ 
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+ 
+import com.kms.katalon.core.testcase.TestCase as TestCase
+ 
+import com.kms.katalon.core.testcase.TestCaseFactory as TestCaseFactory
+ 
+import com.kms.katalon.core.testdata.TestData as TestData
+ 
+import com.kms.katalon.core.testdata.TestDataFactory as TestDataFactory
+ 
+import com.kms.katalon.core.testobject.ObjectRepository as ObjectRepository
+ 
+import com.kms.katalon.core.testobject.TestObject as TestObject
+ 
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WSBuiltInKeywords
+ 
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+ 
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
+ 
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+ 
+import internal.GlobalVariable as GlobalVariable
+ 
+'Invoking Browser'
+ 
+WebUI.openBrowser('')
+ 
+'Launch the url'
+ 
+WebUI.navigateToUrl('http://demoaut.katalon.com/')
+ 
+'Click on Make Appointment Button'
+ 
+WebUI.click(findTestObject('Page_CURA Healthcare Service/a_Make Appointment'))
+ 
+'Click on Login Button'
+ 
+WebUI.click(findTestObject('Page_CURA Healthcare Service (1)/button_Login'))
+ 
+'Select the Hongkong CURA Healthcare Center from dropdown'
+ 
+WebUI.selectOptionByValue(findTestObject('Page_CURA Healthcare Service (2)/select_facility'), 'Hongkong CURA Healthcare Center',
+ 
+&lt;strong&gt;true&lt;/strong&gt;)
+ 
+'Check Hospital readmission check box'
+ 
+WebUI.check(findTestObject('Page_CURA Healthcare Service (2)/input_hospital_readmission'))
+ 
+'Check on Medicadi radio button'
+ 
+WebUI.check(findTestObject('Page_CURA Healthcare Service (2)/input_Medicaid Radio'))
+ 
+'Check the None Radio Button'
+ 
+WebUI.verifyElementChecked(findTestObject('Page_CURA Healthcare Service (2)/input_Medicaid Radio'), 30)
+ 
+'Check on Medicadi radio button'
+ 
+WebUI.check(findTestObject('Page_CURA Healthcare Service (2)/input_None Radio'))
+ 
+'Verify unchecked status of Medicaid Radio button'
+ 
+WebUI.verifyElementNotChecked(findTestObject('Page_CURA Healthcare Service (2)/input_Medicaid Radio'), 30)
+ 
+'Verify the checked status of the None Radio Button'
+ 
+WebUI.verifyElementChecked(findTestObject('Page_CURA Healthcare Service (2)/input_None Radio'), 30)
+ 
+'Click on calendar icon'
+ 
+WebUI.click(findTestObject('Page_CURA Healthcare Service (2)/div_input-group-addon'))
+ 
+'Click on Calendar date'
+ 
+WebUI.click(findTestObject('Page_CURA Healthcare Service (2)/td_3'))
+ 
+'Enter katalon text in comments box'
+ 
+WebUI.setText(findTestObject('Page_CURA Healthcare Service (2)/textarea_comment'), 'Katalon')
+ 
+'Click on Book Appointment'
+ 
+WebUI.click(findTestObject('Page_CURA Healthcare Service (2)/button_Book Appointment'))
+ 
+'Close the Browser'
+ 
+WebUI.closeBrowser()
+
+</codeblock><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_textbox_checkbox_radio_button/how_to_handle_radio_button.dita" xtrc="p:4;117:35">
+        <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_textbox_checkbox_radio_button/how_to_handle_radio_button.dita" xtrc="b:5;118:39">Manual Mode</b>
+      </p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_textbox_checkbox_radio_button/how_to_handle_radio_button.dita" xtrc="p:5;119:33">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_textbox_checkbox_radio_button/Handle-Radio-Button.png" scope="external" class="- topic/image " placement="inline" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_textbox_checkbox_radio_button/how_to_handle_radio_button.dita" xtrc="image:1;120:206" dita-ot:image-width="1549" dita-ot:image-height="574" dita-ot:horizontal-dpi="96" dita-ot:vertical-dpi="96"><alt class="- topic/alt " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_textbox_checkbox_radio_button/how_to_handle_radio_button.dita" xtrc="alt:1;120:232">Handle Radio Button using Katalon Studio Manual Mode</alt></image>
+      </p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_textbox_checkbox_radio_button/how_to_handle_radio_button.dita" xtrc="p:6;121:33">The source code is available to be downloaded <xref format="html" href="https://github.com/katalon-studio/katalon-web-automation" scope="external" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_textbox_checkbox_radio_button/how_to_handle_radio_button.dita" xtrc="xref:2;121:202"><?ditaot usertext?>here</xref>.</p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_textbox_checkbox_radio_button/how_to_handle_radio_button.dita" xtrc="p:7;121:240">For further instructions and help, refer to <xref href="../../../Keywords_Description_In_Katalon_Studio/Web-UI-Keywords/webui-set-text/webui-set-text.dita" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_textbox_checkbox_radio_button/how_to_handle_radio_button.dita" xtrc="xref:3;121:418" type="concept"><?ditaot usertext?>[WebUI] Text</xref> and <xref href="../../../Keywords_Description_In_Katalon_Studio/Web-UI-Keywords/webui-check/webui-check.dita" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_textbox_checkbox_radio_button/how_to_handle_radio_button.dita" xtrc="xref:4;121:570" type="concept"><?ditaot usertext?>[WebUI] Checkbox</xref>.</p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_textbox_checkbox_radio_button/how_to_handle_radio_button.dita" xtrc="p:8;121:620">You can also refer to <xref format="html" href="https://forum.katalon.com/" scope="external" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_textbox_checkbox_radio_button/how_to_handle_radio_button.dita" xtrc="xref:5;121:735"><?ditaot usertext?>Katalon Forum</xref> for more tutorials and discussions.</p></conbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="ditamap-8764" xtrc="topicref:4;7:77" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_textbox_checkbox_radio_button/handle_textbox_checkbox_radio_button.ditamap"><link class="- topic/link " format="dita" href="../../../../../../Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_textbox_checkbox_radio_button/handle_textbox_checkbox_radio_button.dita" mapclass="- map/topicref " role="parent" scope="local" type="concept" xtrc="topicref:1;5:86" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_textbox_checkbox_radio_button/handle_textbox_checkbox_radio_button.ditamap"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>How to Handle Textbox Checkbox and Radio Button in Katalon Studio</linktext></link></linkpool></related-links></concept>

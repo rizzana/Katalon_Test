@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Test planning</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">This key module is a continuous integration tool for scheduling
+         remote executions on local machines, Kubernetes, and CircleCI.</p><p class="- topic/p ">Test planning eases deployment and configuration so that QAs can
+         focus on testing activities.</p><p class="- topic/p ">It allows you to plan, schedule, and trigger Test Runs remotely.
+         See: <xref href="../../Execute/Schedule_test_executions/Schedule-test-runs-in-testops/create-plan.dita" class="- topic/xref ">Schedule
+            Test Runs</xref>.</p></conbody></concept>

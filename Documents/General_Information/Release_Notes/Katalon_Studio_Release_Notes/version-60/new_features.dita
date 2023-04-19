@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">New Features</title><conbody class="- topic/body  concept/conbody "><ul class="- topic/ul "><li class="- topic/li ">Support Dark theme in addition to the default Light theme. See
+            <xref href="../../../../Get_Started/Set_Up_Your_Workspace/Change_Katalon_Studio_Theme/theme.dita" class="- topic/xref ">Using
+               Katalon Studio in Dark theme</xref>.</li><li class="- topic/li ">Support spying, recording and executing the Mobile script on
+            custom cloud-based testing tools; and an option to choose between
+            AndroidDriver or iOSDriver when Appium is set as <codeph class="+ topic/ph pr-d/codeph ">Remote
+               server type</codeph>. See <xref href="../../../../Create_tests/Manage_Projects/Set_Up_Projects/Mobile-Testing/Testing_Mobile_Apps_Using_Custom_Cloud_Devices/mobile-testing-apps-cloud-devices.dita" class="- topic/xref ">Testing
+               Mobile Apps Using Custom Cloud Devices</xref> and <xref href="../../../../Create_tests/Manage_Projects/Project_Settings/Desired_Capabilities/desired-capabilities-remote-settings/Concept/desired-capabilities-remote-settings.dita" class="- topic/xref ">Remote
+               Desired Capabilities</xref>.</li><li class="- topic/li ">Support testing existing applications on Android and iOS
+            devices. See <xref href="../../../../Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Mobile-Keywords/mobile-keyword-start-existing-apps/mobile-keyword-start-existing-apps.dita" class="- topic/xref ">[Mobile]
+               Start Existing Application</xref> and <xref href="../../../../Create_tests/Record_And_Spy/Mobile_Record_And_Spy_Utilities/Spy_And_Record_Utilities_For_Testing_An_Existing_Application/mobile-spy-record-existing-apps.dita" class="- topic/xref ">Spy
+               and Record Utilities for testing an existing application</xref>.</li></ul></conbody></concept>

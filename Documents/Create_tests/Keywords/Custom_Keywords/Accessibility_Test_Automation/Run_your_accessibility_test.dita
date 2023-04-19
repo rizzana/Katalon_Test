@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task-1648" class="- topic/topic task/task "><title class="- topic/title ">Run your accessibility test</title><taskbody class="- topic/body task/taskbody "><context class="- topic/section task/context ">After you added the axe-core library .jar file, you can run your accessibility test with a custom keyword.<p class="- topic/p ">Follow these steps:</p></context><steps class="- topic/ol task/steps "><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Create a custom keyword. You can follow this guide here: <xref href="../Introduction_To_Custom_Keywords/introduction-to-custom-keywords.ditamap" class="- topic/xref "/>.</cmd></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Add the script below to your keyword file.</cmd><stepresult class="- topic/itemgroup task/stepresult "><codeblock class="+ topic/pre pr-d/codeblock ">import com.kms.katalon.core.util.KeywordUtil
+import java.text.SimpleDateFormat
+
+import com.kms.katalon.core.configuration.RunConfiguration 
+import com.kms.katalon.core.webui.driver.DriverFactory
+
+import com.deque.html.axecore.selenium.AxeBuilder;
+import com.deque.html.axecore.selenium.AxeReporter;
+import com.deque.html.axecore.selenium.ResultType;
+import com.deque.html.axecore.results.Results;
+import com.deque.html.axecore.results.Rule;
+import static com.deque.html.axecore.selenium.AxeReporter.getReadableAxeResults;
+
+
+	@Keyword
+	def checkAccessibility() {
+		Results results = new AxeBuilder().analyze(DriverFactory.getWebDriver())
+		List&lt;Rule&gt; violations = results.getViolations()
+		if(violations.size() == 0){
+			KeywordUtil.logInfo("No Violation Found")
+		}
+		String AxeReportPath = RunConfiguration.getReportFolder()+ File.separator
+		String timeStamp = new SimpleDateFormat("yyyy_MM_dd_HH_mm_ss").format(new java.util.Date())
+		String AxeViolationReportPath=AxeReportPath + "AccessibilityViolations_" + timeStamp
+		AxeReporter.writeResultsToJsonFile(AxeViolationReportPath,results)
+		KeywordUtil.logInfo("Violation Report Path"+ AxeViolationReportPath)
+
+		if(getReadableAxeResults(ResultType.Violations.getKey(),DriverFactory.getWebDriver(),violations) ){
+			AxeReporter.writeResultsToTextFile(AxeViolationReportPath,
+					AxeReporter.getAxeResultString())
+		}
+	}
+}</codeblock></stepresult></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Add the keyword as a test step in your test case. You should add the keyword after you have navigated to your desired page on the website.  </cmd><stepresult class="- topic/itemgroup task/stepresult "><p class="- topic/p "><image width="700" href="images/Screen_Shot_2022-11-18_at_10.54.49.png" class="- topic/image "><alt class="- topic/alt ">Add  keyword as a test step in manual view</alt></image></p>For a more detailed instruction, see this guide here: <xref href="../Introduction_To_Custom_Keywords/Use_custom_keywords_in_manual_view.dita" class="- topic/xref ">Use custom keywords in the manual view and script view</xref>.</stepresult></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Add your test case to a test suite.</cmd></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Execute your test.</cmd><stepresult class="- topic/itemgroup task/stepresult ">You can execute on any browser that <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> supports (Chrome, Mozilla Firefox, Edge Chromium, Safari). You can use this keyword for different pages on the website depends on your navigation flow.</stepresult></step></steps><result class="- topic/section task/result ">After you execute the test, the accessibility test reports are generated in TXT and JSON format in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> report folder.<p class="- topic/p "><image width="700" href="images/Screen_Shot_2022-11-18_at_10.53.21.png" class="- topic/image "/></p></result></taskbody></task>

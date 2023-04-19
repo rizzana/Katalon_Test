@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Flutter-based application testing with custom SetText keyword in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Flutter is a UI toolkit for building applications for mobile,
+         web, desktop, and embedded devices from a single codebase.</p><note type="attention" class="- topic/note "><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Katalon Studio partially supports Flutter-based applications. If
+            elements of a Flutter-based app are rendered as in a native app,
+            Katalon Mobile Recorder can capture elements. If those elements are
+            rendered in web view, which is a use case of a hybrid Mobile app,
+            Katalon Studio partially supports elements capturing.</p></li></ul>
+      </note><p class="- topic/p ">You can use Mobile keywords to automate your Flutter-based
+         application. However, Katalon Mobile Spy and Recorder currently
+         cannot detect <b class="+ topic/ph hi-d/b ">EditText</b> elements in Flutter-based
+         applications. This tutorial provides a workaround to automatically
+         test the Flutter-based application using a custom SetText keyword
+         package.</p></conbody></concept>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task-1104" class="- topic/topic task/task "><title class="- topic/title ">Create a test case with shadow DOM objects</title><taskbody class="- topic/body task/taskbody "><steps class="- topic/ol task/steps "><step conkeyref="ks-common-steps/ks-create-new-test-case-tests-explorer" class="- topic/li task/step "><cmd class="- topic/ph task/cmd "/></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">In the new test case, switch to the <uicontrol class="+ topic/ph ui-d/uicontrol ">Script</uicontrol> tab, copy and paste the following script into the test script.</cmd><info class="- topic/itemgroup task/info "><codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+
+//Open browser and navigate to the AUT website
+WebUI.openBrowser('https://books-pwakit.appspot.com/explore?q=')
+
+//Input text into the search bar
+WebUI.setText(findTestObject('Object Repository/input'), 'hello World')
+
+//Delay 5s to view the result
+WebUI.delay(5)
+
+//Close the browser to clean up
+WebUI.closeBrowser()
+</codeblock>In <uicontrol class="+ topic/ph ui-d/uicontrol ">Script</uicontrol> mode:<p class="- topic/p "><image href="image/ks-tc-script.png" width="600" class="- topic/image "/></p>In <uicontrol class="+ topic/ph ui-d/uicontrol ">Manual</uicontrol> mode:<p class="- topic/p "><image href="image/ks-tc-manual-mode.png" width="600" class="- topic/image "/></p></info></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Save and run the test case.</cmd><info class="- topic/itemgroup task/info "><note class="- topic/note "><ul class="- topic/ul "><li class="- topic/li ">For <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> versions before 8.6.0, when testing with shadow DOM objects, you can reduce the default timeout period that <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> waits for the application under test to be loaded when executing the automation test. You can find this option in <uicontrol class="+ topic/ph ui-d/uicontrol ">Project Settings</uicontrol> &gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">Execution</uicontrol> &gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">Default wait for element timeout (in seconds)</uicontrol>.<image href="image/ks-tip-shadow-dom.png" width="700" class="- topic/image "/></li></ul></note></info></step></steps><result class="- topic/section task/result "><ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> successfully find the element within the shadow root and input the text: "hello World" into the search bar.</result></taskbody></task>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-document-guidelines" class="- map/map ">
+  <title class="- topic/title ">Plugin document guidelines</title>
+  <topicref href="document-guidelines.dita" class="- map/topicref "><topicref href="plugin_document_requirements.dita" class="- map/topicref "/>
+  <topicref href="plugin_document_guidelines_in_submission_page.dita" class="- map/topicref "/>
+  <topicref href="submit_documents_for_published_plugins.dita" class="- map/topicref "/>
+</topicref></map>

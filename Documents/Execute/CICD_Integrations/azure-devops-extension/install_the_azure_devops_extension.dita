@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Install the Azure DevOps Extension</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To run Katalon projects with Azure DevOps, you first need to
+         install our Katalon for <b class="+ topic/ph hi-d/b ">Azure DevOps</b> extension
+         from the Visual Studio Market Place. This extension helps download,
+         deploy, and execute Katalon Studio on <b class="+ topic/ph hi-d/b ">Azure DevOps</b>
+         automatically.</p><p class="- topic/p ">To download and install the <b class="+ topic/ph hi-d/b ">Azure DevOps</b>
+         extension, perform the following steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+          <p class="- topic/p ">Navigate to Visual Studio Marketplace and install this plugin: <xref format="html" href="https://marketplace.visualstudio.com/items?itemName=katalon-llc.katalon&amp;ssr=false#overview" scope="external" class="- topic/xref ">Katalon for Azure DevOps</xref>.</p>
+          <p class="- topic/p ">Click on <b class="+ topic/ph hi-d/b ">Get it Free</b>.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-extension/K.S.E-8.2.5-azure_devops_extension_download_AzureDevOps.PNG" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">add task Get it Free</alt></image>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">From the <b class="+ topic/ph hi-d/b ">Select an Azure DevOps Organization</b>
+               dropdown, select your organization. Then, click
+               <b class="+ topic/ph hi-d/b ">Install</b>.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-extension/K.S.E-8.2.5-azure_devops_extension_select_organization.png" scope="external" width="100%" class="- topic/image "><alt class="- topic/alt ">add task Select an Azure DevOps Organization</alt></image>
+          </p>
+        </li></ol><note type="note" class="- topic/note ">
+        
+        <p class="- topic/p ">If you're using Azure DevOps Server, click
+            <b class="+ topic/ph hi-d/b ">Download</b> and follow instructions as given in the
+            image below.</p>
+        <p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/azure-devops-extension/K.S.E-8.2.5-azure_devops_extension_install_AzureDevOps.PNG" scope="external" width="100%" class="- topic/image "><alt class="- topic/alt ">add task Install</alt></image>
+        </p>
+      </note></conbody></concept>

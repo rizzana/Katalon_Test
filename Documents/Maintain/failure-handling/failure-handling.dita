@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Configure failure handling settings in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Failure handling settings allow users to decide whether Katalon
+         Studio will continue running or not when errors occur during
+         execution.</p><p class="- topic/p ">Currently, Katalon Studio supports the following failure
+         handling options:</p><table class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Option</entry><entry class="- topic/entry ">Description</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">Stop on Failure</entry><entry class="- topic/entry ">
+                <p class="- topic/p ">Katalon Studio will stop execution should there be any error
+                     occurs.</p>
+                <p class="- topic/p ">The step with errors will have <b class="+ topic/ph hi-d/b ">Failed</b>
+                     status.</p>
+              </entry></row><row class="- topic/row "><entry class="- topic/entry ">Continue on Failure</entry><entry class="- topic/entry ">
+                <p class="- topic/p ">Katalon Studio will continue in spite of any error during its
+                     execution.</p>
+                <p class="- topic/p ">The step with errors will have <b class="+ topic/ph hi-d/b ">Failed</b>
+                     status.</p>
+              </entry></row><row class="- topic/row "><entry class="- topic/entry ">Optional</entry><entry class="- topic/entry ">
+                <p class="- topic/p ">Katalon Studio will continue in spite of any error during its
+                     execution.</p>
+                <p class="- topic/p "> The step with errors will have <b class="+ topic/ph hi-d/b ">Warning</b>
+                     status.</p>
+              </entry></row></tbody></tgroup></table></conbody></concept>

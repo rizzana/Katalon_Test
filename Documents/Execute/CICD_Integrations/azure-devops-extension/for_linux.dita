@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">For Linux</title>
+      <conbody class="- topic/body  concept/conbody ">
+
+        <p class="- topic/p ">The Azure DevOps extension was tested on Ubuntu 16.0.4 and
+         Ubuntu 18.04. For continuous integration using this version, we
+         recommend our sample scripts on Github: <xref format="html" href="https://github.com/katalon-studio-samples/azure-devops-extension-samples/blob/master/azure-pipelines.yml" scope="external" class="- topic/xref ">Azure
+            DevOps sample script</xref>.</p>
+      </conbody>
+    </concept>

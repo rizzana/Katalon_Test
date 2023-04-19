@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_7" class="- topic/topic concept/concept "><title class="- topic/title ">Validate a JSON Object against a schema</title><conbody class="- topic/body  concept/conbody "><codeblock class="+ topic/pre pr-d/codeblock ">import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+
+String jsonPass =
+"""
+{
+  "\$id": "https://example.com/person.schema.json",
+  "\$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Person",
+  "type": "object",
+  "properties": {
+    "firstName": {
+      "type": "string",
+      "description": "The person's first name."
+    },
+    "lastName": {
+      "type": "string",
+      "description": "The person's last name."
+    },
+    "age": {
+      "description": "Age in years which must be equal to or greater than zero.",
+      "type": "integer",
+      "minimum": 0
+    }
+  }
+}
+"""
+
+String jsonObject = 
+"""
+{
+  "firstName": "White",
+  "lastName": "Walter",
+  "age": 52
+}
+
+"""
+
+boolean successful = WS.validateJsonAgainstSchema(jsonObject,jsonPass)
+</codeblock></conbody></concept>

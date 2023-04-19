@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Get a Price Quote for Annual Subscription</title>
+    <conbody class="- topic/body  concept/conbody ">
+
+      <p class="- topic/p ">Katalon provides monthly and annual billing cycles. For an
+         annual billing cycle, you can get a Price Quote before purchasing
+         your licenses. If you choose monthly billing cycle or don't need a
+         Price Quote, you can skip to <xref href="purchase_your_licenses.dita" class="- topic/xref ">Purchase
+            your Licenses</xref>.</p>
+      <p class="- topic/p ">Follow these steps to get a Price Quote and pay for the
+         Quote:</p>
+      <ol class="- topic/ol ">
+        <li class="- topic/li ">Log in to <xref format="html" href="https://testops.katalon.io/" scope="external" class="- topic/xref ">Katalon
+               TestOps</xref>.</li>
+        <li class="- topic/li ">Select your desired Organization and go to <b class="+ topic/ph hi-d/b ">Settings
+               &gt; Subscription Managements</b>. The
+            <b class="+ topic/ph hi-d/b ">Subscriptions</b> page appears.</li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Select <b class="+ topic/ph hi-d/b ">Studio Subscription</b>. In the
+               <b class="+ topic/ph hi-d/b ">Billing Summary</b>, select the license type you wish
+               to get a Quote for, then click <b class="+ topic/ph hi-d/b ">Get Quote</b>.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-subscription/studio-sub-get-quote-page-ui-mar2022.png" scope="external" width="100%&gt;" class="- topic/image ">
+              <alt class="- topic/alt ">billing summary</alt>
+            </image>
+          </p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Specify the billing cycle and the number of licenses of each
+               product you want to get a Quote for.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-subscription/studio-sub-purchasing-page-ui-mar2022.png" scope="external" width="100%&gt;" class="- topic/image ">
+              <alt class="- topic/alt ">get quote</alt>
+            </image>
+          </p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Apply discount codes, if any.</p>
+        </li>
+        <li class="- topic/li ">Click <b class="+ topic/ph hi-d/b ">Get Quote</b>. An email will be sent to you
+            automatically, which contains a checkout link and a Price
+            Quote.</li>
+        <li class="- topic/li ">In the Price Quote email, click on the checkout link. Anyone
+            with this checkout link can complete this purchase for your
+            Organization. The link expires after 30 days.</li>
+      </ol>
+    </conbody>
+  </concept>

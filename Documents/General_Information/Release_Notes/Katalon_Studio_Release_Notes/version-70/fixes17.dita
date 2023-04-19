@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_78" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Fixes</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">Bug: Test Suite result is incorrect if a called test case gets
+            failed when <i class="+ topic/ph hi-d/i ">log test steps</i> is disabled.</li>
+          <li class="- topic/li ">Bug: Web Recorder does not generate XPath locators for SVG
+            elements.</li>
+          <li class="- topic/li ">Bug: [Mobile] Cannot run a browser test on Android device using
+            Appium 1.15.0+.</li>
+          <li class="- topic/li ">Bug: Cannot create a new project when failing to read Sample
+            Projects.</li>
+          <li class="- topic/li ">Bug: Cannot execute test scripts having import paths containing
+            wildcard character (<codeph class="+ topic/ph pr-d/codeph ">*</codeph>).</li>
+          <li class="- topic/li ">Bug: Cannot start a browser when running with an iOS
+            simulator.</li>
+          <li class="- topic/li ">Bug: NullPointerException when using Katalon Studio for the
+            first time.</li>
+          <li class="- topic/li ">Bug: Cannot read variables in a custom profile if executing a
+            test suite collection remotely.</li>
+          <li class="- topic/li ">Bug: Cannot execute test scripts that have Global Variables'
+            names containing the <codeph class="+ topic/ph pr-d/codeph ">$</codeph> symbol.</li>
+          <li class="- topic/li ">
+            Bug: An issue related to saving changes in Test Case Variable View.</li>
+          <li class="- topic/li ">Bug: Katalon Studio does not read proxy configuration during
+            Recording.</li>
+          <li class="- topic/li ">Bug: Web Recorder simultaneously generates
+            <codeph class="+ topic/ph pr-d/codeph ">NavigateToUrl</codeph> keyword and action of an element.</li>
+        </ul>
+      </conbody>
+    </concept>

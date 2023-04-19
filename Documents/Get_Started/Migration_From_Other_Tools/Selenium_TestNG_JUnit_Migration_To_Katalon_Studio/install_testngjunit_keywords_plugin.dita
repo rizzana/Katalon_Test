@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Install TestNG/JUnit Keywords plugin</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">You can enable the built-in keywords in the manual view by using
+         the <b class="+ topic/ph hi-d/b ">TestNG/JUnit Keywords</b> plugin. You can download
+         the plugin from Katalon Store here: <xref format="html" href="https://store.katalon.com/product/180/TestNG-JUnit-Keywords" scope="external" class="- topic/xref ">TestNG/JUnit
+            Keywords</xref>.</p><p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/Selenium-TestNG-Migration/testng-kw.png" scope="external" width="260" class="- topic/image "/>
+        </p><p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/Selenium-TestNG-Migration/testng-kw-2.png" scope="external" width="334" class="- topic/image "/>
+        </p><p class="- topic/p ">After installing the plugin, go to <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> and click
+         <b class="+ topic/ph hi-d/b ">Reload Plugins</b>.</p><p class="- topic/p ">If you want to use this plugin offline, you can refer to this
+         document:<xref href="../../../Plugins_And_Add-ons/Katalon_Store/Katalon_Studio_Plugins/Using_Plugin/use_private_plugins.dita" class="- topic/xref ">Use
+            Private Plugins</xref>. Because the <b class="+ topic/ph hi-d/b ">TestNG/JUnit
+            Keywords</b> plugin is a <b class="+ topic/ph hi-d/b ">platform</b> plugin, you
+         need to move the plugin package .jar file in the
+         <codeph class="+ topic/ph pr-d/codeph ">&lt;project_name&gt;/Plugins/platform</codeph> folder.</p></conbody></concept>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Katalon Studio Enterprise per-User license</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Katalon Studio (KS) provides free, basic tools suitable for the
+         testing needs of individuals. For an advanced business solution,
+         consider purchasing Katalon Studio Enterprise (KSE) licenses. For
+         feature comparison between KS and KSE, see <xref href="../katalon-studio-vs-katalon-studio-enterprise/ks-vs-kse.dita" class="- topic/xref ">Katalon
+            Studio vs Katalon Studio Enterprise Features</xref>.</p><p class="- topic/p ">The table below provides information on the KSE per-User
+         license:</p><table class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><colspec colname="c1" colnum="1" class="- topic/colspec "/><colspec colname="c2" colnum="2" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry nameend="c2" namest="c1" class="- topic/entry ">KSE per-User license</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">Model</entry><entry class="- topic/entry ">One license allows one user to have one active session at a
+                  time. 
+                  One license can be shared across unlimited machines of a licensed
+                  user.</entry></row><row class="- topic/row "><entry class="- topic/entry ">Execution environment</entry><entry class="- topic/entry ">Local desktops or workstations with fixed hardware
+                  specifications such as a virtual machine with a fixed machine ID or
+                  physical machine.</entry></row><row class="- topic/row "><entry class="- topic/entry ">License counting</entry><entry class="- topic/entry ">It is possible to count per-User licenses and keep track of
+                  licenses issued.</entry></row></tbody></tgroup></table></conbody></concept>

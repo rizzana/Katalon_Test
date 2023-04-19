@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Handle WebDrivers with EventFiringWebDriver in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><note type="note" class="- topic/note ">
+        <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Starting in <b class="+ topic/ph hi-d/b ">Katalon Studio version 7.0.0</b>, you
+            can use the Selenium-based class <codeph class="+ topic/ph pr-d/codeph ">EventFiringWebDriver</codeph>
+            to configure event-driven capabilities related to your WebDrivers
+            for test execution.</p></li></ul>
+      </note><p class="- topic/p ">This can be used for example when logging steps or triggering
+         certain events before an operation. You can learn more about this
+         class from the Selenium documentation here: <xref format="html" href="https://www.selenium.dev/selenium/docs/api/java/org/openqa/selenium/support/events/EventFiringWebDriver.html" scope="external" class="- topic/xref ">EventFiringWebDriver</xref>.</p><p class="- topic/p ">In this article, we show you how to handle WebDrivers with the
+         support of <codeph class="+ topic/ph pr-d/codeph ">EventFiringWebDriver</codeph>.</p></conbody></concept>

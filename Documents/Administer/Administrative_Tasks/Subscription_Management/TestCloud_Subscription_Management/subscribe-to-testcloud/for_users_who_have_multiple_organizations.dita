@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">For users who have multiple organizations</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">Follow these steps:</p>
+        <ol class="- topic/ol ">
+          <li class="- topic/li ">
+            <p class="- topic/p ">Go to the <xref format="html" href="https://www.katalon.com/pricing/" scope="external" class="- topic/xref ">Katalon
+                  Pricing</xref> page.</p>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">Click on the <b class="+ topic/ph hi-d/b ">TestCloud</b> tab.</p>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">Select a plan.</p>
+            <ul class="- topic/ul ">
+              <li class="- topic/li ">
+                <p class="- topic/p ">If you choose <b class="+ topic/ph hi-d/b ">TestCloud Per Session</b>, choose
+                     <b class="+ topic/ph hi-d/b ">Monthly/Annual</b> and input the desired number of
+                     sessions. Katalon will do the billing calculation for you. Click
+                     <b class="+ topic/ph hi-d/b ">Buy Now</b>.</p>
+              </li>
+              <li class="- topic/li ">
+                <p class="- topic/p ">If you want to find out which options are the most
+                     cost-effective for your teams, scroll down to the <b class="+ topic/ph hi-d/b ">Estimate
+                        Your Price</b> section, choose <b class="+ topic/ph hi-d/b ">Plan</b>,
+                     <b class="+ topic/ph hi-d/b ">Billing cycle</b>, then adjust the tier or input the
+                     number of sessions you want to purchase. Once done, click
+                     <b class="+ topic/ph hi-d/b ">Buy Now</b>.</p>
+              </li>
+            </ul>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">Sign in with your Katalon account if you haven't done so. You
+               will be redirected to the Katalon TestOps homepage, select the
+               organization you want, fill out the billing information and payment
+               method, then click <b class="+ topic/ph hi-d/b ">Checkout</b> to finish.</p>
+          </li>
+        </ol>
+      </conbody>
+    </concept>

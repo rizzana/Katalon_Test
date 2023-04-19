@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_63" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Improvements</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">[Kobiton Integration] Allow customizing Kobiton Server URL in
+            Katalon Studio Preferences.</li>
+          <li class="- topic/li ">Enhance Smart Wait's performance during test executions.</li>
+        </ul>
+      </conbody>
+    </concept>

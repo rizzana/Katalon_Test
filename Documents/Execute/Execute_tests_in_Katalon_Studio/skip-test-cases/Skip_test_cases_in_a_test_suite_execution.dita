@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task-2819" class="- topic/topic task/task "><title class="- topic/title ">Skip test cases in a test suite execution</title><taskbody class="- topic/body task/taskbody "><context class="- topic/section task/context ">To skip test cases in a test suite execution, do as follows:</context><steps class="- topic/ol task/steps "><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">In the <uicontrol class="+ topic/ph ui-d/uicontrol ">Test Explorer</uicontrol> panel, right-click on
+            <uicontrol class="+ topic/ph ui-d/uicontrol ">Test Listeners</uicontrol>. Select <uicontrol class="+ topic/ph ui-d/uicontrol ">New</uicontrol> &gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">New Test
+               Listener</uicontrol>.</cmd><info class="- topic/itemgroup task/info "><image width="500" href="image/ks-new-test-listeners.png" class="- topic/image "/></info><stepresult class="- topic/itemgroup task/stepresult ">A  <uicontrol class="+ topic/ph ui-d/uicontrol ">New Test Listener</uicontrol> dialog opens. </stepresult></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Enter the name of the test listener, for example:  <codeph class="+ topic/ph pr-d/codeph ">SkipTest</codeph>. Select  <uicontrol class="+ topic/ph ui-d/uicontrol ">Generate sample Before Test Case method</uicontrol>, then click <uicontrol class="+ topic/ph ui-d/uicontrol ">OK</uicontrol>.</cmd><info class="- topic/itemgroup task/info "><image width="400" href="image/ks-new-test-listener.png" class="- topic/image "/></info><stepresult class="- topic/itemgroup task/stepresult ">Katalon Studio generates a sample template with the necessary
+         annotations, libraries and supported functions as below:<codeblock class="+ topic/pre pr-d/codeblock ">import internal.GlobalVariable as GlobalVariable
+
+import com.kms.katalon.core.annotation.BeforeTestCase
+import com.kms.katalon.core.annotation.BeforeTestSuite
+import com.kms.katalon.core.annotation.AfterTestCase
+import com.kms.katalon.core.annotation.AfterTestSuite
+import com.kms.katalon.core.context.TestCaseContext
+import com.kms.katalon.core.context.TestSuiteContext
+
+class SkipTest {
+    /**
+     * Executes before every test case starts.
+     * @param testCaseContext related information of the executed test case.
+     */
+    @BeforeTestCase
+    def sampleBeforeTestCase(TestCaseContext testCaseContext) {
+    println testCaseContext.getTestCaseId()
+    println testCaseContext.getTestCaseVariables()
+}</codeblock></stepresult></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Use the <codeph class="+ topic/ph pr-d/codeph ">TestCaseContext.skipThisTestCase()</codeph> method to skip test cases. See also: <xref format="html" href="https://api-docs.katalon.com/com/kms/katalon/core/context/TestCaseContext.html#skipThisTestCase()" scope="external" class="- topic/xref ">skipThisTestCase()</xref>.</cmd><info class="- topic/itemgroup task/info ">Inside the <codeph class="+ topic/ph pr-d/codeph ">SkipTest</codeph> Test Listener, copy and paste
+         the following code under the generated sample template.</info><info class="- topic/itemgroup task/info "><codeblock class="+ topic/pre pr-d/codeblock ">// To check for the desired condition and skip the test case if true.
+if(inputyourconditionhere)
+{   testCaseContext.skipThisTestCase()
+}</codeblock><p class="- topic/p ">For example, we want to skip the Test Case named: "Log in 1"
+         in a test suite. We input the following sample code in the
+         <b class="+ topic/ph hi-d/b ">SkipTest</b> Listener:<codeblock class="+ topic/pre pr-d/codeblock ">class SkipTest {
+    /**
+     * Executes before every test case starts.
+     * @param testCaseContext related information of the executed test case.
+     */
+    @BeforeTestCase
+    def sampleBeforeTestCase(TestCaseContext testCaseContext) {
+    println testCaseContext.getTestCaseId()
+    println testCaseContext.getTestCaseVariables()
+    if ((testCaseContext.getTestCaseId()) == "Test Cases/Log in 1") 
+        {   testCaseContext.skipThisTestCase()
+        }
+}
+</codeblock></p></info></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Save your test listener.</cmd></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Open and execute a test suite.</cmd></step></steps><result class="- topic/section task/result ">Check the results in the <uicontrol class="+ topic/ph ui-d/uicontrol ">Results</uicontrol> tab to see the final status of your
+            tests. For the example above, Katalon
+         successfully skips the test case named: "Log in 1".<p class="- topic/p ">
+        
+      <image href="image/ks-skip-log-in-1.png" class="- topic/image "/></p></result></taskbody></task>

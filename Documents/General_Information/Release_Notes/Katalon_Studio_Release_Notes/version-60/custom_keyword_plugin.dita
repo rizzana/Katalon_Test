@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_28" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Custom Keyword Plugin</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">Introducing Custom Keyword Plugin for Katalon Studio v6.1.0 for
+         collaboration. Custom Keywords now can be shared among the project
+         team or to the world via Katalon Store. Simply Create. Upload. and
+         Share!</p>
+        <p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/new/version-61/Window.png" scope="external" class="- topic/image "/>
+        </p>
+      </conbody>
+    </concept>

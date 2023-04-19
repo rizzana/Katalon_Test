@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-webui-create-test-case" class="- map/map ">
+  <title class="- topic/title ">[WebUI] Create and Run Web UI Test Case using Record and Playback</title>
+  <topicref href="webui-create-test-case.dita" class="- map/topicref "><topicref href="create_and_run_your_first_web_ui_test_case.dita" class="- map/topicref ">
+    <topicref href="create_new_project_1647942278089.671.dita" class="- map/topicref "/>
+    <topicref href="record_1647942278089.671.dita" class="- map/topicref "/>
+    <topicref href="playback_1647942278089.671.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="view_the_test_case_in_script_mode.dita" class="- map/topicref "/>
+</topicref>
+  </map>

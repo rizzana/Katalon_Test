@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN" "glossentry.dtd">
+<glossentry id="glossentry-4109" class="- topic/topic concept/concept glossentry/glossentry "><glossterm class="- topic/title concept/title glossentry/glossterm ">Agent</glossterm><glossdef class="- topic/abstract concept/abstract glossentry/glossdef ">An agent connects a local machine to the TestOps servers for test executions.</glossdef></glossentry>

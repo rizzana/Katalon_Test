@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_7" class="- topic/topic concept/concept "><title class="- topic/title ">Clone your Project with a SSH Protocol</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">First, you need to enable Git Integration. See <xref href="../Git_Integration/configure_git_integration.dita" class="- topic/xref ">Configure
+            Git Integration</xref>.</p><p class="- topic/p ">After enabling Git Integration, you can clone an existing
+         <b class="+ topic/ph hi-d/b ">Git repository</b> into a newly-created directory on
+         the local machine.</p><note type="note" class="- topic/note ">
+        <p class="- topic/p "/><p class="- topic/p "><b class="+ topic/ph hi-d/b ">How to get SSH Protocol?</b>conMobile Testing Testing eiwIntegration Integration</p>
+        <p class="- topic/p "><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Go to your account on GitHub, GitLab, Bitbucket, or Azure
+            DevOps, then go to the repository you want to clone to Katalon
+            Studio. Click <b class="+ topic/ph hi-d/b ">Clone</b> and select
+            <b class="+ topic/ph hi-d/b ">SSH</b>, then copy the <b class="+ topic/ph hi-d/b ">SSH
+               Protocol</b>.</p></li></ul></p>
+      </note><ol class="- topic/ol "><li class="- topic/li ">
+          <p class="- topic/p ">In the main toolbar, click on the <i class="+ topic/ph hi-d/i ">Git</i> icon and select
+               <b class="+ topic/ph hi-d/b ">Clone Project</b>.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/image2017-2-22-143A13A12.png" scope="external" width="30%&gt;" class="- topic/image "><alt class="- topic/alt ">Clone Project</alt></image>
+          </p>
+          <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Clone Git Repository</b> dialog is displayed.
+               Enter a repository URL with SSH Protocol and click
+               <b class="+ topic/ph hi-d/b ">Next</b>.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/ssh.png" scope="external" width="700" class="- topic/image "><alt class="- topic/alt ">source git repository</alt></image>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Enter the passphrase, if any, then click <b class="+ topic/ph hi-d/b ">OK</b>.
+               The <b class="+ topic/ph hi-d/b ">Branch Selection</b> screen appears.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/filled-passphrase.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">Enter the passphrase</alt></image>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Choose the branches you wish to check out as local branches.
+               Click <b class="+ topic/ph hi-d/b ">Next</b> to continue. The <b class="+ topic/ph hi-d/b ">Local
+                  Destination</b> appears.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/branch.png" scope="external" width="550" class="- topic/image "><alt class="- topic/alt ">choose local branches</alt></image>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Specify the local location for cloning as well as the initial
+               branch.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/local.png" scope="external" width="600" class="- topic/image "><alt class="- topic/alt ">specify the local location for cloning</alt></image>
+          </p>
+          <ul class="- topic/ul "><li class="- topic/li ">
+              <b class="+ topic/ph hi-d/b ">Directory</b>: the local storage location you want
+                  to store your Git repository.</li><li class="- topic/li ">
+              <b class="+ topic/ph hi-d/b ">Initial branch</b>: all selected branches from the
+                  previous step are displayed here. Select the branch to be used
+                  initially from this list.</li></ul>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Finish</b> when you are done. Katalon Studio
+               automatically opens your cloned project.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">To verify settings, go to <b class="+ topic/ph hi-d/b ">Katalon Studio&gt; Preferences
+                  &gt; Team &gt; Git &gt; Configurations &gt; Repository
+                  Settings</b>. Ensure that the repository is selected correctly
+               with the URL specified.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration/verify.png" scope="external" width="700" class="- topic/image "><alt class="- topic/alt ">verify settings</alt></image>
+          </p>
+        </li></ol><p class="- topic/p ">After successfully cloning your repositories, you can commit,
+         pull, and push changes to the repositories from Katalon Studio. To
+         learn more about how to integrate with Git, see <xref href="../Git_Integration/Standalone-Edition/commit.dita" class="- topic/xref ">Git
+            Integration</xref>.</p></conbody></concept>

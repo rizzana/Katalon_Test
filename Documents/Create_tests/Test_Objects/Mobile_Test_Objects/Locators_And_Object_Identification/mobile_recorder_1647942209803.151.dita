@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">Mobile Recorder</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">In previous versions, in Mobile Recorder you can stimulate
+         Mobile actions but cannot add built-in actions like in Web
+         Recorder. From version 7.6, Katalon Studio supports adding built-in
+         and custom actions when recording.</p><p class="- topic/p ">The new UI is similar to the Mobile Recorder.</p><p class="- topic/p ">
+        
+      <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/iOS/830-ios-start.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Mobile recorder</alt></image></p><p class="- topic/p ">Recorded Actions:</p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-selector-strategies/recorded-actions.png" scope="external" width="411" class="- topic/image "><alt class="- topic/alt ">Recorded action</alt></image>
+      </p><p class="- topic/p ">Captured Objects:</p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-selector-strategies/captured%20object.png" scope="external" width="399" class="- topic/image "><alt class="- topic/alt ">captured objects</alt></image>
+      </p></conbody></concept>

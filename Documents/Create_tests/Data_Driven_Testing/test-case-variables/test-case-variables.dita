@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Test Case Variables</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">Instead of running test case with hard-coded values, you can run
+         Test Case Variables in Katalon Studio to parameterize your test
+         case or call that test case with different inputs.</p>
+      <p class="- topic/p ">Before you start, let’s take a look at the example of test
+         case with hard-coded values:</p>
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">String employee = 'John'
+String department = 'Marketing'
+
+println "${employee} - ${department}"
+</codeblock>
+      
+    </conbody>
+  </concept>

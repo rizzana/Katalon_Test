@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_17" class="- topic/topic concept/concept "><title class="- topic/title ">Best practices</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To minimize the conflict in a team having more than one member,
+         you should define a process from the very beginning so that all
+         team members are on the same page when using Git.</p><p class="- topic/p ">Below are some suggestions for good practices:</p><ul class="- topic/ul "><li class="- topic/li "><b class="+ topic/ph hi-d/b ">Commit often</b>: do not wait until many scripts
+            are created to commit and push to the Git remote repository. The
+            smaller the set of scripts is pushed, the easier you resolve the
+            conflict.</li><li class="- topic/li "><b class="+ topic/ph hi-d/b ">Pull</b> changes from the Git remote repository
+            <b class="+ topic/ph hi-d/b ">before</b> working on new scripts and before
+            <b class="+ topic/ph hi-d/b ">committing</b>. Each member works on <b class="+ topic/ph hi-d/b ">each
+               feature at a time</b>.</li></ul></conbody></concept>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Install Xvfb</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">From <xref format="html" href="https://en.wikipedia.org/wiki/Xvfb" scope="external" class="- topic/xref ">Wikipedia</xref>:</p>
+      <p class="- topic/p ">"Xvfb or X virtual framebuffer is a display server implementing
+         the X11 display server protocol. In contrast to other display
+         servers, Xvfb performs all graphical operations in virtual memory
+         without showing any screen output. From the point of view of the
+         client, it acts exactly like any other X display server, serving
+         requests and sending events and errors as appropriate. However, no
+         output is shown. This virtual server does not require the computer
+         it is running on to have any kind of graphics adapter, a screen or
+         any input device. Only a network layer is necessary."</p>
+      <p class="- topic/p ">
+        <codeph class="+ topic/ph pr-d/codeph ">sudo apt install -y xvfb</codeph>
+      </p>
+    </conbody>
+  </concept>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Configure a remote device</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">You can configure a remote device in 2 ways:</p>
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">
+            <p class="- topic/p ">
+              <b class="+ topic/ph hi-d/b ">Project</b> -&gt; <b class="+ topic/ph hi-d/b ">Settings</b> -&gt;
+               <b class="+ topic/ph hi-d/b ">Desired Capabilities</b> -&gt; <b class="+ topic/ph hi-d/b ">Remote</b>
+               -&gt; Enter the server URL, server type and desired
+               capabilities.</p>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">Select <b class="+ topic/ph hi-d/b ">Mobile Object Spy</b>/<b class="+ topic/ph hi-d/b ">Mobile
+                  Recorder</b> -&gt; <b class="+ topic/ph hi-d/b ">Remote Devices</b>. In the
+               configurations field, click <b class="+ topic/ph hi-d/b ">Edit</b>. In the pop-up,
+               users can enter the server URL, server type and desired
+               capabilities.</p>
+          </li>
+        </ul>
+      </conbody>
+    </concept>

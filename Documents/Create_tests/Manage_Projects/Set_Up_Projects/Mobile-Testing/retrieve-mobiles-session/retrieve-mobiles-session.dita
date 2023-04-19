@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Retrieve mobile's session in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To get current mobile's session after using 'Start Application'
+         built-in keyword, use the sample code below:</p><codeblock class="+ topic/pre pr-d/codeblock ">import org.openqa.selenium.WebDriver
+import org.openqa.selenium.WebElement
+import com.kms.katalon.core.annotation.Keyword
+import com.kms.katalon.core.mobile.helper.MobileElementCommonHelper
+import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
+import com.kms.katalon.core.testobject.TestObject
+import com.kms.katalon.core.util.KeywordUtil
+import io.appium.java_client.AppiumDriver 
+
+Mobile.startApplication("Your Application", false)
+AppiumDriver&lt;?&gt; driver = MobileDriverFactory.getDriver()
+</codeblock><p class="- topic/p ">
+      <b class="+ topic/ph hi-d/b ">References:</b>
+    </p><ul class="- topic/ul "><li class="- topic/li ">
+        <xref href="/display/KD/%5BMobile%5D+Start+Application" scope="external" class="- topic/xref ">Start
+               Application</xref>
+      </li></ul></conbody></concept>

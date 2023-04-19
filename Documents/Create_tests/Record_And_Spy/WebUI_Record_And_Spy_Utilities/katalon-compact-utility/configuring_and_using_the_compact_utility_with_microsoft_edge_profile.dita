@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Configure  the Compact Utility with Microsoft Edge Profile</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">The next steps help you link your Microsoft Edge Profile with the Spy, Record, and Smart Wait functions in Katalon Studio.</p><p class="- topic/p ">To configure and use Katalon Compact Utility, you need to update the Desired Capabilities. Do as follows:</p><ol class="- topic/ol "><li class="- topic/li ">Go to <b class="+ topic/ph hi-d/b ">Project &gt; Settings &gt; Desired Capabilities</b>.</li><li class="- topic/li ">In the <b class="+ topic/ph hi-d/b ">Desired Capabilities</b> section, select <b class="+ topic/ph hi-d/b ">Web UI &gt; Edge Chromium</b>.</li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Add</b> to create a new capability:</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-compact-utility/edge-desired-capabilities.png" scope="external" class="- topic/image "><alt class="- topic/alt ">edge-desired-capabilities</alt></image>
+                </p>
+                <ul class="- topic/ul "><li class="- topic/li ">Name: <codeph class="+ topic/ph pr-d/codeph ">ms:edgeOptions</codeph>
+                    </li><li class="- topic/li ">Type: <codeph class="+ topic/ph pr-d/codeph ">Dictionary</codeph>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p ">Value: Click on the <codeph class="+ topic/ph pr-d/codeph ">...</codeph> button of the value cell, the <b class="+ topic/ph hi-d/b ">Dictionary Properties Builder</b> dialog appears. Click <b class="+ topic/ph hi-d/b ">Add</b> and input these fields:</p>
+                        <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-compact-utility/dictionary-properties-builder.png" scope="external" class="- topic/image "><alt class="- topic/alt ">add dictionary</alt></image>
+                        </p>
+                        <ul class="- topic/ul "><li class="- topic/li ">Name: <codeph class="+ topic/ph pr-d/codeph ">args</codeph>
+                            </li><li class="- topic/li ">Type: <codeph class="+ topic/ph pr-d/codeph ">List</codeph>
+                            </li><li class="- topic/li ">
+                                <p class="- topic/p ">Value: Click on the <codeph class="+ topic/ph pr-d/codeph ">...</codeph> button of the value cell, the <b class="+ topic/ph hi-d/b ">List Properties Builder</b> dialog appears.</p>
+                                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-compact-utility/edge-list-properties-builder.png" scope="external" class="- topic/image "><alt class="- topic/alt ">list</alt></image>
+                                </p>
+                                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Add</b> to create two elements as below. When you are done, click <b class="+ topic/ph hi-d/b ">OK</b> to save.</p>
+                                <p class="- topic/p ">
+                                    <table class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><colspec colname="col1" colnum="1" class="- topic/colspec "/><colspec colname="col2" colnum="2" class="- topic/colspec "/><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry "><b class="+ topic/ph hi-d/b ">Type</b></entry><entry class="- topic/entry "><b class="+ topic/ph hi-d/b ">Value</b></entry></row><row class="- topic/row "><entry morerows="1" class="- topic/entry ">String</entry><entry class="- topic/entry ">For Windows: <codeph class="+ topic/ph pr-d/codeph ">user-data-dir=C:\Users\&lt;your_username&gt;\AppData\Local\Microsoft\Edge\User Data</codeph></entry></row><row class="- topic/row "><entry class="- topic/entry ">For macOS: <codeph class="+ topic/ph pr-d/codeph ">user-data-dir=/Users/&lt;your_username&gt;/Library/Application Support/Microsoft Edge</codeph></entry></row><row class="- topic/row "><entry class="- topic/entry ">String</entry><entry class="- topic/entry "><codeph class="+ topic/ph pr-d/codeph ">profile-directory=&lt;your_profile_name&gt;</codeph></entry></row></tbody></tgroup></table>
+                                </p>
+                                <p class="- topic/p ">
+                                    <note type="tip" class="- topic/note ">
+                                        <p class="- topic/p "><b class="+ topic/ph hi-d/b ">Find your Microsoft Edge Profile in the User Data Directory</b></p>
+                                        <p class="- topic/p ">There are multiple Profiles in a given User Data Directory. To find the name of a Microsoft Edge Profile, do as follows:</p>
+                                        <ul class="- topic/ul "><li class="- topic/li ">Open Microsoft Edge with the Profile you previously used to install Katalon Compact Utility. In the address bar, type <codeph class="+ topic/ph pr-d/codeph ">edge://version</codeph> and press Enter.</li><li class="- topic/li ">The line <b class="+ topic/ph hi-d/b ">Profile Path</b> displays the path to your active Profile. For example:<codeph class="+ topic/ph pr-d/codeph "> /Users/your_username/Library/Application Support/Microsoft Edge/Default</codeph>.</li></ul>
+                                    </note>
+                                </p>
+                            </li></ul>
+                    </li></ul>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">To save the configuration, click <b class="+ topic/ph hi-d/b ">Apply and Close</b>.</p>
+                <p class="- topic/p ">You can now use the Spy, Record, and Smart Wait features with the default Microsoft Edge option.</p>
+                
+            </li></ol></conbody></concept>

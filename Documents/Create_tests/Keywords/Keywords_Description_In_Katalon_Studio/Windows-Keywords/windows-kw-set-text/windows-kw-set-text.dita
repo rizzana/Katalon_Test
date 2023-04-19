@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_0" class="- topic/topic concept/concept "><title class="- topic/title ">[Windows] Set Text</title><conbody class="- topic/body  concept/conbody "><section id="id" class="- topic/section ">
+    <title class="- topic/title ">Requirements</title><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Katalon Studio version 7.0.0 onwards.</p></li></ul>
+    
+      
+    
+  </section><section id="id_1" class="- topic/section ">
+    <title class="- topic/title ">setText</title>
+    
+      <ul class="- topic/ul "><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Description</b>: Perform a text setting action on the Web element found by using the locator value of the given Windows object. This action clears the current text and appends the given text to the element.</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Keyword name</b>: setText</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Keyword syntax</b>:
+            Windows.setText(windowsObject,text)</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Parameters</b>: 
+            
+            <ul class="- topic/ul "><li class="- topic/li ">Name: windowsObject.<ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Description: An object describing the locator and locator strategy to find a Windows element.</p></li><li class="- topic/li "><p class="- topic/p ">Parameter Type: WindowsTestObject.</p></li><li class="- topic/li "><p class="- topic/p ">Mandatory: Required. </p></li></ul></li><li class="- topic/li ">Name: text<ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Description: The text content to set on the element.</p></li><li class="- topic/li "><p class="- topic/p ">Parameter Type: String.</p></li><li class="- topic/li "><p class="- topic/p ">Mandatory: Required. </p></li></ul></li></ul>
+        </li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Example</b>:</li></ul>
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">"Set 'Welcome to Katalon Studio' on the edit panel"
+Windows.setText(findWindowsObject("Object Repository/Edit"), 'Welcome to Katalon Studio')
+</codeblock>
+      
+    
+  </section></conbody></concept>

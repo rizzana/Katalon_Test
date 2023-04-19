@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Data-driven testing process</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">When you execute a test containing <codeph class="+ topic/ph pr-d/codeph ">loadVars</codeph> and
+         <codeph class="+ topic/ph pr-d/codeph ">endLoadVars</codeph> commands, the following process will take
+         place, with <i class="+ topic/ph hi-d/i ">i</i> starting with 1 and ending with the number
+         of rows in the data file:</p>
+        <ol class="- topic/ol ">
+          <li class="- topic/li ">The <i class="+ topic/ph hi-d/i ">ith</i> row of the data file will be fetched.</li>
+          <li class="- topic/li ">The values of the row will be mapped to the variables used in
+            the test case.</li>
+          <li class="- topic/li ">The steps between <codeph class="+ topic/ph pr-d/codeph ">loadVars</codeph> and
+            <codeph class="+ topic/ph pr-d/codeph ">endLoadVars</codeph> will be executed using these mapped
+            values.</li>
+        </ol>
+      </conbody>
+    </concept>

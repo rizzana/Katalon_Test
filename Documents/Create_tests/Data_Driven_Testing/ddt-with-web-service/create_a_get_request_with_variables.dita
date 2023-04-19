@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Create a GET request with variables</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Next, we use the GET request to find a user by ID. We expect the server to return the user information, including username, password, gender, age, and avatar in the response.</p><p class="- topic/p ">Follow these steps to configure the GET request:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Create a Web Service request. From the main menu, select <b class="+ topic/ph hi-d/b ">File &gt; New &gt; Web Service Request</b>. In the displayed <b class="+ topic/ph hi-d/b ">New</b> dialog, name the request and specify the request type as <b class="+ topic/ph hi-d/b ">RESTful</b> request.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-new-web-request-GET.png" scope="external" class="- topic/image "><alt class="- topic/alt ">New Web request dialog</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Specify the API endpoint. Our API endpoint for the GET request is <codeph class="+ topic/ph pr-d/codeph ">https://sample-web-service-aut.herokuapp.com/api/users/</codeph>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">To pass a variable to the GET API, add the <codeph class="+ topic/ph pr-d/codeph ">${&lt;variable_name&gt;}</codeph> placeholder at the end of the API endpoint.</p>
+                <p class="- topic/p ">Here we specify the <codeph class="+ topic/ph pr-d/codeph ">id</codeph> variable using the <codeph class="+ topic/ph pr-d/codeph ">${id}</codeph> syntax as follows: <codeph class="+ topic/ph pr-d/codeph ">https://sample-web-service-aut.herokuapp.com/api/users/${id}</codeph>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Variables</b> tab, input the <codeph class="+ topic/ph pr-d/codeph ">id</codeph> variable.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-web-service/KS-GET-request-object-config.png" scope="external" class="- topic/image "><alt class="- topic/alt ">GET request variables tab</alt></image>
+                </p>
+            </li></ol></conbody></concept>

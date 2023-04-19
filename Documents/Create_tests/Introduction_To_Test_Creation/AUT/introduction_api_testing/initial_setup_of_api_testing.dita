@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_21" class="- topic/topic concept/concept "><title class="- topic/title ">Initial setup of API testing</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">In API testing, both manual and automated testing matter. While
+         manual testing confirms whether the app works, automated testing
+         helps to check how effectively the app performs under pressure.
+         Setting up the test infrastructure get it working is considered
+         among the most challenging tasks of the testing process, as it is
+         not only particularly tricky but also a significantly
+         motivation-killer. However, it will be a long-term benefit once the
+         team gets through those challenging setup process.</p><p class="- topic/p ">To avoid these challenges, teams need to start the API testing
+         in the early stage, specifically in the design phase and make sure
+         to conduct the interval checking of APIs for 100% uptime.</p></conbody></concept>

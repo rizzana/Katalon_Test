@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN" "glossentry.dtd">
+<glossentry id="glossentry-9116" class="- topic/topic concept/concept glossentry/glossentry "><glossterm class="- topic/title concept/title glossentry/glossterm ">Total Assigned Sessions (Agent)</glossterm><glossdef class="- topic/abstract concept/abstract glossentry/glossdef ">The total assigned sessions represents the total number of sessions assigned to an agent to execute tests.<p class="- topic/p ">In Katalon TestOps, the maximum number of assigned sessions is also called Threshold.</p></glossdef></glossentry>

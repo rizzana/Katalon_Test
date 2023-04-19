@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Executing a test case</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Remember to turn on the WinAppDriver before executing a test
+         case.</p><p class="- topic/p ">Select the <b class="+ topic/ph hi-d/b ">Windows</b> icon in the
+         <b class="+ topic/ph hi-d/b ">Run</b> button on the main Toolbar to execute the
+         script.</p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/run-with-windows.png" scope="external" width="250" class="- topic/image "><alt class="- topic/alt ">run with windows</alt></image>
+      </p><p class="- topic/p ">The Windows test is executed with those recorded steps
+         accordingly.</p></conbody></concept>

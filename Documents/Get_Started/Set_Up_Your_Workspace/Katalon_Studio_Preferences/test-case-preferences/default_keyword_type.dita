@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Default Keyword Type</title><conbody class="- topic/body  concept/conbody "><ul class="- topic/ul "><li class="- topic/li "><uicontrol class="+ topic/ph ui-d/uicontrol ">Default Keyword</uicontrol>: Based on your frequently used
+            types of testing, you can set the <uicontrol class="+ topic/ph ui-d/uicontrol ">Default Keyword
+               Type</uicontrol> as WebUI, Mobile, Cucumber, Web Service, Windows, or
+            TestNG. For example, you set the default keyword type as
+            <codeph class="+ topic/ph pr-d/codeph ">WebUI</codeph>. In the test case editor, whenever you click
+            <uicontrol class="+ topic/ph ui-d/uicontrol ">Add</uicontrol>, a new WebUI keyword is added as a new test
+            step.</li></ul><p class="- topic/p ">In each keyword type, you can also set a default keyword. For
+         example, you set <uicontrol class="+ topic/ph ui-d/uicontrol ">Accept Alert</uicontrol> as the default
+         keyword for the <uicontrol class="+ topic/ph ui-d/uicontrol ">WebUI</uicontrol> keyword type. In the test
+         case editor, whenever you click <uicontrol class="+ topic/ph ui-d/uicontrol ">Add</uicontrol>, the
+         <uicontrol class="+ topic/ph ui-d/uicontrol ">Accept Alert</uicontrol> is added as a new test step by
+         default.</p></conbody></concept>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Extension Scripts (AKA user-extensions.js) for Custom Locator Builders and Actions in <ph conkeyref="name-variables/katalon-recorder" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Starting from version 3.5.0 Katalon Recorder supports extension
+         scripts (AKA user-extensions.js in the deprecated version of
+         Selenium IDE on Firefox). At this moment this feature allows you to
+         add custom locator builders (1) and your own actions (2) to Katalon
+         Recorder. Please see a sample script at <xref format="html" href="https://github.com/katalon-studio/katalon-recorder-samples" scope="external" class="- topic/xref ">https://github.com/katalon-studio/katalon-recorder-samples</xref>.</p><p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">After installing extension scripts, please restart
+            Katalon Recorder and refresh the web page you want to work
+            on.</b>
+      </p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/extension-scripts-aka-user-extensionsjs-for-custom-locator-builders-and-actions/Screenshot-from-2018-04-23-11-21-42.png" scope="external" class="- topic/image "/>
+      </p><p class="- topic/p ">The following instructions were based on the original
+         documentation (<xref format="html" href="https://www.seleniumhq.org/docs/08_user_extensions.jsp" scope="external" class="- topic/xref ">https://www.seleniumhq.org/docs/08_user_extensions.jsp</xref>).</p></conbody></concept>

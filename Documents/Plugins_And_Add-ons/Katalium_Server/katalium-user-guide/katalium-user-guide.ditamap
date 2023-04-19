@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-katalium-user-guide" class="- map/map ">
+  <title class="- topic/title ">Get Started</title>
+  <topicref href="katalium-user-guide.dita" class="- map/topicref "><topicref href="set_up_katalium_server.dita" class="- map/topicref ">
+    <topicref href="standalone_mode.dita" class="- map/topicref "/>
+    <topicref href="grid_mode.dita" class="- map/topicref ">
+      <topicref href="grid_hub.dita" class="- map/topicref "/>
+      <topicref href="grid_node.dita" class="- map/topicref "/>
+    </topicref>
+  </topicref>
+</topicref></map>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-Use-Katalon-Docker-Image-for-Jenkins-Integration" class="- map/map "><title class="- topic/title ">Use Katalon Docker Image for Jenkins Integration</title><mapref format="ditamap" href="jenkins-docker-ubuntu/jenkins-docker-ubuntu.ditamap" class="+ map/topicref mapgroup-d/mapref "/><mapref format="ditamap" href="jenkins-pipeline-docker/jenkins-pipeline-docker.ditamap" class="+ map/topicref mapgroup-d/mapref "/></map>

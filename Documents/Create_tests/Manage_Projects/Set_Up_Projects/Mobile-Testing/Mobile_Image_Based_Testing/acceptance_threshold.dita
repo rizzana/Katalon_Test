@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_9" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Acceptance Threshold</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">There is an acceptance threshold to define the possible outcome
+         of image comparison. Acceptance threshold in Katalon Studio is set
+         0.4 by default, which means any found image with the similarity
+         measure less than 0.4 will be rejected. This threshold is based on
+         the default match threshold in Appium.</p>
+      <p class="- topic/p ">On the scale from 0 to 1, you can customize the acceptance
+         threshold, which defines the degrees of match by using the
+         <codeph class="+ topic/ph pr-d/codeph ">IMAGE_MATCH_THRESHOLD</codeph> option. It's recommended to use
+         the default threshold <b class="+ topic/ph hi-d/b ">0.4</b> to find your match. If
+         you're not finding matching objects, you can try a lower acceptance
+         level; if the returned objects are wrongly matched, raise the
+         threshold value. For example, to set 0.6 as the match
+         threshold:</p>
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">Mobile.startExistingApplication('com.google.android.youtube')
+
+MobileDriverFactory.getDriver().setSetting(Setting.IMAGE_MATCH_THRESHOLD, 0.6)
+
+Mobile.findImageElements("/Users/demokatalon/Katalon Studio/image based testing/Screenshot/hat.png")
+</codeblock>
+      
+    </conbody>
+  </concept>

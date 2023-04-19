@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Filter test run  list by build name in <ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">In Katalon TestOps, you can filter Test Runs by Build name
+         to:</p><ul class="- topic/ul "><li class="- topic/li ">Find and track the list of Test Runs linked with specific Build
+            names.</li><li class="- topic/li ">Monitor testing progress linked with those Builds.</li></ul><note type="important" class="- topic/note ">
+        
+        <ul class="- topic/ul "><li class="- topic/li ">You must execute tests from Katalon Runtime Engine.</li></ul>
+      </note></conbody></concept>

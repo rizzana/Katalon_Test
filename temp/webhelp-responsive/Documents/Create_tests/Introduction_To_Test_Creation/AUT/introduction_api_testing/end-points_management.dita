@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Create_tests/Introduction_To_Test_Creation/AUT/introduction_api_testing?><?workdir-uri file:/Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Create_tests/Introduction_To_Test_Creation/AUT/introduction_api_testing/?><?path2project ../../../../../?><?path2project-uri ../../../../../?><?path2rootmap-uri ../../../../../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="id_17" class="- topic/topic concept/concept " ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Introduction_To_Test_Creation/AUT/introduction_api_testing/end-points_management.dita" xtrc="concept:1;3:60" specializations="@props/deliveryTarget">
+      <title class="- topic/title " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Introduction_To_Test_Creation/AUT/introduction_api_testing/end-points_management.dita" xtrc="title:1;4:37">End-points management</title>
+      <conbody class="- topic/body  concept/conbody " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Introduction_To_Test_Creation/AUT/introduction_api_testing/end-points_management.dita" xtrc="conbody:1;5:55">
+        <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Introduction_To_Test_Creation/AUT/introduction_api_testing/end-points_management.dita" xtrc="p:1;6:31">   A typical product may have hundreds of API/Web
+         services endpoints, which look very similar to each other, and
+         might cause duplication issues to the testing project. How you
+         organize the tests and the endpoints will influence the
+         productivity, effectiveness, and maintenance of your tests.</p>
+        <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Introduction_To_Test_Creation/AUT/introduction_api_testing/end-points_management.dita" xtrc="p:2;11:31">   Test endpoints could be grouped by path
+         (including path parameters), which generally performance action on
+         specific object types. For examples:</p>
+        
+          <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Introduction_To_Test_Creation/AUT/introduction_api_testing/end-points_management.dita" xtrc="codeblock:1;15:58">api/2/issue: affects to Jira issue
+   -- Create issue
+   POST /rest/api/2/issue
+   -- Create issues
+   POST /rest/api/2/issue/bulk
+   -- Get issue
+   GET /rest/api/2/issue/{issueIdOrKey}
+
+</codeblock>
+        
+        <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Introduction_To_Test_Creation/AUT/introduction_api_testing/end-points_management.dita" xtrc="p:3;25:31">while</p>
+        
+          <codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Introduction_To_Test_Creation/AUT/introduction_api_testing/end-points_management.dita" xtrc="codeblock:2;27:58">api/2/group: affects to Jira Group
+   -- Create group
+   POST /rest/api/2/group
+   -- Get group  DEPRECATED
+   GET /rest/api/2/group
+   -- Remove group
+   DELETE /rest/api/2/group
+
+</codeblock>
+        
+        <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Introduction_To_Test_Creation/AUT/introduction_api_testing/end-points_management.dita" xtrc="p:4;37:31">This method will help us preventing missing test endpoints, and
+         test scenarios.</p>
+      </conbody>
+    <related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="ditamap-8764" xtrc="topicref:18;22:74" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Introduction_To_Test_Creation/AUT/introduction_api_testing/introduction_api_testing.ditamap"><link class="- topic/link " format="dita" href="../../../../../Documents/Create_tests/Introduction_To_Test_Creation/AUT/introduction_api_testing/api_testing_best_practices.dita" mapclass="- map/topicref " role="parent" scope="local" type="concept" xtrc="topicref:15;19:76" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Introduction_To_Test_Creation/AUT/introduction_api_testing/introduction_api_testing.ditamap"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>API testing best practices</linktext></link></linkpool></related-links></concept>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Playback a test case</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To playback the recorded scenario:</p><ol class="- topic/ol "><li class="- topic/li ">Select the test case where you saved the recorded actions.</li><li class="- topic/li ">
+                <p class="- topic/p ">On the main toolbar, select <b class="+ topic/ph hi-d/b ">Android</b> device on the drop-down list next to <b class="+ topic/ph hi-d/b ">Run</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-mobile-testing-with-emulator/KS-TOOLBAR-Android.png" scope="external" width="250" class="- topic/image "><alt class="- topic/alt ">Execute Android</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In the displayed <b class="+ topic/ph hi-d/b ">Android Devices</b> dialog, select a device &gt; click <b class="+ topic/ph hi-d/b ">OK</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-recorder-76/Android/device.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">Choose Android device</alt></image>
+                </p>
+            </li></ol><p class="- topic/p ">Katalon Studio executes the mobile test with the recorded steps accordingly.</p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">View the test case in Script mode.</b></p><codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+
+import com.kms.katalon.core.configuration.RunConfiguration
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+
+'Start the Application'
+Mobile.startApplication(RunConfiguration.getProjectDir() + '/APIDemos.apk', true)
+
+'Tap on OK if this is the first time this application is launched on an Android 9+ device'
+Mobile.tap(findTestObject('Object Repository/APIDemo/android.widget.Button - OK'), 0, FailureHandling.OPTIONAL)
+
+'Tap on text "OS"'
+Mobile.tap(findTestObject('Object Repository/APIDemo/android.widget.TextView - OS'), 0)
+
+'Tap on text "SMS Messaging"'
+Mobile.tap(findTestObject('Object Repository/APIDemo/android.widget.TextView - SMS Messaging'), 0)
+
+'Enter a phone number in Recipient text box'
+Mobile.setText(findTestObject('Object Repository/APIDemo/android.widget.EditText'), '+84345678910', 0)
+
+'Enter a message in Body Message text box'
+Mobile.setText(findTestObject('Object Repository/APIDemo/android.widget.EditText (1)'), 'Hello world! This is Katalon Mobile Recorder', 0)
+
+'Send the message'
+Mobile.tap(findTestObject('Object Repository/APIDemo/android.widget.Button - Send'), 0)
+
+'Close the Application'
+Mobile.closeApplication()
+
+</codeblock><p class="- topic/p ">Next: <xref href="../../../../Execute/Execute_tests_in_Katalon_Studio/execute-a-test-case/execute-a-test-case-or-a-test-suite.dita" class="- topic/xref ">Execute and Debug a Test Case</xref>.</p><p class="- topic/p ">Previous: <xref href="../../../../Create_tests/Manage_Projects/Set_Up_Projects/Mobile-Testing/Android/Mobile_Android_Setup/mobile-android-setup.dita" class="- topic/xref ">Set up Android-mobile-tests</xref>.</p><p class="- topic/p ">See also: <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "><xref href="../Mobile_Create_And_Run_iOS_Test_Case/mobile-create-ios-test-case.dita" class="- topic/xref ">Create and Run your first iOS test case</xref></p></li><li class="- topic/li "><p class="- topic/p "><xref href="../../../../Create_tests/Troubleshooting_For_Test_Creation/Troubleshooting_Automated_Mobile_Testing/troubleshooting-automated-mobile-testing.dita" class="- topic/xref ">Troubleshoot automated mobile testing</xref>.</p></li></ul></p></conbody></concept>

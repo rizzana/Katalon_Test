@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Executing a test case</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Select the <b class="+ topic/ph hi-d/b ">Windows</b> icon in the <b class="+ topic/ph hi-d/b ">Run</b> button on the main Toolbar to execute the script.</p><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/run-with-windows.png" scope="external" class="- topic/image "><alt class="- topic/alt ">run with windows</alt></image>
+        </p><p class="- topic/p ">The Windows test is executed with those recorded steps accordingly.</p><note type="note" class="- topic/note ">
+            <ol class="- topic/ol "><li class="- topic/li ">Remember not to lock your screen while spying, recording or executing a test on a desktop application.</li><li class="- topic/li ">You're recommended not to run multiple applications simultaneously.</li><li class="- topic/li ">To start a UWP application, the application's execute file should be:</li></ol>
+            <ul class="- topic/ul "><li class="- topic/li "> <i class="+ topic/ph hi-d/i ">ApplicationID</i> if your app is published on Microsoft store.</li><li class="- topic/li "> <i class="+ topic/ph hi-d/i ">PackageFamilyName!Application ID</i> if your app is still in development.</li></ul>
+        </note></conbody></concept>

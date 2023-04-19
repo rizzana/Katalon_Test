@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Sign in to <ph conkeyref="name-variables/katalon-store" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Before installing plugins from the <b class="+ topic/ph hi-d/b "><ph conkeyref="name-variables/katalon-store" class="- topic/ph "/></b>, you need to sign in to <b class="+ topic/ph hi-d/b "><ph conkeyref="name-variables/katalon-store" class="- topic/ph "/></b> using your Katalon ID. Do as follows:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Navigate to the <xref format="html" href="https://store.katalon.com/" scope="external" class="- topic/xref "><ph conkeyref="name-variables/katalon-store" class="- topic/ph "/></xref>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/user/Gettins%20Started%20Updated%20Images/K.S.E-8.3.0-getting_started_katalon_store_home.png" scope="external" class="- topic/image "/>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">On the top right corner of the <b class="+ topic/ph hi-d/b "><ph conkeyref="name-variables/katalon-store" class="- topic/ph "/></b>, click <b class="+ topic/ph hi-d/b ">Sign in</b>. Input your credentials, then click <b class="+ topic/ph hi-d/b ">Sign in</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/user/Gettins%20Started%20Updated%20Images/welcome-back.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Sign in page</alt></image>
+                </p>
+                <p class="- topic/p ">If you do not have a Katalon account, you can sign up at our website: <xref format="html" href="https://katalon.com/sign-up" scope="external" class="- topic/xref ">Create a Katalon account</xref>.</p>
+                <p class="- topic/p ">To sign out of <b class="+ topic/ph hi-d/b "><ph conkeyref="name-variables/katalon-store" class="- topic/ph "/></b> at any time, click on your profile on the top right corner of the <b class="+ topic/ph hi-d/b "><ph conkeyref="name-variables/katalon-store" class="- topic/ph "/></b>, then choose <b class="+ topic/ph hi-d/b ">Sign out</b>.</p>
+            </li></ol></conbody></concept>

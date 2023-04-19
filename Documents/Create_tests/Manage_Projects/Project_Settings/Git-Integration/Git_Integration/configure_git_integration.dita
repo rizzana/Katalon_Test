@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Configure Git integration</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">
+          <p class="- topic/p "><b class="+ topic/ph hi-d/b ">Enable Git Integration:</b> To access all Git
+               features, you need to enable Git Integration first. The option is
+               available in the following settings: <b class="+ topic/ph hi-d/b ">Katalon Studio &gt;
+                  Preferences &gt; Katalon &gt; Git</b>. Once enabled, you can
+               start using Git at Katalon Studio's main toolbar.</p>
+          <p class="- topic/p "><image width="700" href="image/ks-840-enable-git-integration.png" class="- topic/image "><alt class="- topic/alt ">Enable Git Integration</alt></image>
+            
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Now, the Git integration feature should be
+               enabled. We are ready to use Git from Katalon
+               Studio.</p>
+          <p class="- topic/p ">
+            
+          <image width="400" href="image/ks-pe-git-enabled.png" class="- topic/image "/>Or,</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Advanced configurations are available at <b class="+ topic/ph hi-d/b ">Katalon Studio
+                  &gt; Preferences &gt; Team &gt; Git</b> if you want specific
+               settings.</p>
+          <p class="- topic/p "><image width="700" href="image/ks-840-git-team.png" class="- topic/image "><alt class="- topic/alt ">git team</alt></image>
+            
+          </p>
+        </li></ol></conbody></concept>

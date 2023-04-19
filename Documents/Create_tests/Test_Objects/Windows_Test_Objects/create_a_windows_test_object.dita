@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Create a Windows test object</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ol class="- topic/ol ">
+          <li class="- topic/li ">
+            <p class="- topic/p ">Select <b class="+ topic/ph hi-d/b ">File &gt; New &gt; Windows
+                  Object</b> from the main menu. The <b class="+ topic/ph hi-d/b ">New
+                  Windows Object</b> dialog is displayed.</p>
+            <p class="- topic/p ">
+              <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-test-objects/create-new-object.png" scope="external" class="- topic/image "/>
+            </p>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">Provide a name for the new test object, then
+               click <b class="+ topic/ph hi-d/b ">OK</b> button to create a new object
+               under the <b class="+ topic/ph hi-d/b ">Object Repository</b> of Katalon
+               Studio.</p>
+          </li>
+        </ol>
+      </conbody>
+    </concept>

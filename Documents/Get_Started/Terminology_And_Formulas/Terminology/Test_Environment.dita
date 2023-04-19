@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN" "glossentry.dtd">
+<glossentry id="glossentry-8225" class="- topic/topic concept/concept glossentry/glossentry "><glossterm class="- topic/title concept/title glossentry/glossterm ">Test Environment</glossterm><glossdef class="- topic/abstract concept/abstract glossentry/glossdef ">A test environment is a place where a test run could be executed with the command-line interface.<p class="- topic/p ">In Katalon TestOps, you can use your local machine as a test environment. This test environment must be controlled by an agent.</p></glossdef></glossentry>

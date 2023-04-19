@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">See also</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">
+          <xref href="../jenkins-docker-ubuntu/install_plugins.dita" class="- topic/xref ">Integrate
+               Jenkins on Docker hosted in Ubuntu</xref>
+        </li>
+      </ul>
+    </conbody>
+  </concept>

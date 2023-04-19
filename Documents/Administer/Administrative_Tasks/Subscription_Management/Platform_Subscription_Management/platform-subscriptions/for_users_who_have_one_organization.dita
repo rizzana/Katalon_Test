@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">For users who have one Account</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+            <p class="- topic/p ">Go to the <xref format="html" href="https://www.katalon.com/pricing/" scope="external" class="- topic/xref ">Katalon
+                  Pricing</xref> page.</p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">Click on the <uicontrol class="+ topic/ph ui-d/uicontrol ">Katalon Platform</uicontrol> tab.</p>
+            <p class="- topic/p ">
+              <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-subscription-docs/katalon-pricing-page.png" scope="external" width="100%" class="- topic/image "><alt class="- topic/alt ">katalon platform pricing page</alt></image>
+            </p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">Select a plan.</p>
+            <ul class="- topic/ul "><li class="- topic/li ">
+                <p class="- topic/p ">If you choose <ph conkeyref="plan-variables/plan-2" class="- topic/ph "/>, click
+                     <uicontrol class="+ topic/ph ui-d/uicontrol ">Buy Now</uicontrol>, sign in with your Katalon account, fill
+                     out the billing information and payment method, then click
+                     <b class="+ topic/ph hi-d/b ">Checkout</b> to finish.</p>
+              </li><li class="- topic/li ">
+                <p class="- topic/p ">If you choose <ph conkeyref="plan-variables/plan-3" class="- topic/ph "/>, click
+                     <b class="+ topic/ph hi-d/b ">Contact sale</b> to send us a subscription
+                     request.</p></li></ul></li></ol></conbody></concept>

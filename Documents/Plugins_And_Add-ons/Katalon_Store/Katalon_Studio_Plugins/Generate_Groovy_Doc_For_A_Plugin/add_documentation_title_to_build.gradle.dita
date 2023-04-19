@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Add documentation title to <codeph class="+ topic/ph pr-d/codeph ">build.gradle</codeph>
+    </title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">In your project, open build.gradle file and update
+         <codeph class="+ topic/ph pr-d/codeph ">docTitle</codeph>.</p>
+      <p class="- topic/p ">Let’s refer to the following example:</p>
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">groovydoc {
+
+
+ source = pluginSources
+
+
+ docTitle = 'WaitForAngularLoad Custom Keywords'
+
+
+}
+</codeblock>
+      
+    </conbody>
+  </concept>

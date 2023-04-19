@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id_17" class="- topic/topic ">
+    <title class="- topic/title ">5.5.1.2</title>
+    <body class="- topic/body ">
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">Improvements 
+            
+            <ul class="- topic/ul ">
+            <li class="- topic/li ">Promote sample projects after 1st successful execution.</li>
+            <li class="- topic/li ">We think these sample projects will be helpful to make users
+                  successful with their first automation script.</li>
+          </ul>
+        </li>
+        <li class="- topic/li ">Bug fixes 
+            
+            <ul class="- topic/ul ">
+            <li class="- topic/li ">Fix an issue where switching between test cases does not reset
+                  the test case view to the top. This makes users think their data
+                  are lost.</li>
+          </ul>
+        </li>
+      </ul>
+    </body>
+  </topic>

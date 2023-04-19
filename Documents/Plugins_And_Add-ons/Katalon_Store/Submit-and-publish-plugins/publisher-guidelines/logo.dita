@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Logo</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">
+            <p class="- topic/p ">Dimension: 150 x 150px</p>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">Format: png, jpeg</p>
+          </li>
+        </ul>
+        <p class="- topic/p ">Use a unique logo to represent your brand and unique logos to
+         represent your plugins in the Katalon Store.</p>
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">
+            <b class="+ topic/ph hi-d/b ">Guidelines for a plugin logo</b>
+          </li>
+        </ul>
+        <p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/publisher/guidelines-logo.png" scope="external" class="- topic/image "/>
+        </p>
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">
+            <b class="+ topic/ph hi-d/b ">Example of an approved logo:</b>
+          </li>
+        </ul>
+        <p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/publisher/approved-logo-1.png" scope="external" class="- topic/image "/>
+        </p>
+        <p class="- topic/p ">
+          <i class="+ topic/ph hi-d/i ">Note: The plugin logo should be clear and simple and should
+            not use Katalon or any of Katalon's product logos, wordmarks,
+            fonts, names, illustrations, or icons.</i>
+        </p>
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">
+            <b class="+ topic/ph hi-d/b ">Examples of NOT approved logos:</b>
+          </li>
+        </ul>
+        <p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/publisher/not-approved-1.png" scope="external" class="- topic/image "/>
+        </p>
+        <p class="- topic/p ">
+          <b class="+ topic/ph hi-d/b ">
+            <i class="+ topic/ph hi-d/i ">Note 1: Do not use our product logos, either on
+               their own or in conjunction with your logo.</i>
+          </b>
+        </p>
+        <p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/publisher/not-approved-2.png" scope="external" class="- topic/image "/>
+        </p>
+        <p class="- topic/p ">
+          <b class="+ topic/ph hi-d/b ">
+            <i class="+ topic/ph hi-d/i ">Note 2: Do not create logos in the likeness of
+               Katalon product logos.</i>
+          </b>
+        </p>
+        <p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/publisher/not-approved-3.png" scope="external" class="- topic/image "/>
+        </p>
+        <p class="- topic/p ">
+          <b class="+ topic/ph hi-d/b ">
+            <i class="+ topic/ph hi-d/i ">Note 3: Do not use Katalon product names, wordmarks,
+               or wordmark font.</i>
+          </b>
+        </p>
+        <p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/publisher/rejected-logo-11.png" scope="external" class="- topic/image "/>
+        </p>
+        <p class="- topic/p ">
+          <b class="+ topic/ph hi-d/b ">
+            <i class="+ topic/ph hi-d/i ">Note 4: Do not use Katalon-owned illustrations,
+               icons, or other brand assets.</i>
+          </b>
+        </p>
+      </conbody>
+    </concept>

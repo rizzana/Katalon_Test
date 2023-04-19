@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id_20" class="- topic/topic ">
+    <title class="- topic/title ">5.4.14</title>
+    <body class="- topic/body ">
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">New functions 
+            
+            <ul class="- topic/ul ">
+            <li class="- topic/li ">Add popup for users to rate KR on Chrome and Firefox
+                  store.</li>
+            <li class="- topic/li ">Add sample projects to contextual product tips.</li>
+            <li class="- topic/li ">Add the ability to download data files from KR.</li>
+          </ul>
+        </li>
+      </ul>
+    </body>
+  </topic>

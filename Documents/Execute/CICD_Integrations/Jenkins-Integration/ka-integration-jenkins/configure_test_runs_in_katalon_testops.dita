@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Configure Test Runs in Katalon TestOps</title><conbody class="- topic/body  concept/conbody "><p id="p-508" class="- topic/p ">You must schedule test runs in Katalon TestOps before assigning this schedule to Jenkins for test executions. See: <xref href="../../../Schedule_test_executions/Schedule-test-runs-in-testops/create-plan.dita" class="- topic/xref ">Schedule Test Runs</xref>.</p><note id="note-510" type="note" class="- topic/note ">
+                <ul class="- topic/ul "><li class="- topic/li ">
+Choose the <b class="+ topic/ph hi-d/b ">Save Configurations</b> option in the <b class="+ topic/ph hi-d/b ">Schedule Test Run</b> dialog to schedule Test Runs for Jenkins.
+                    </li></ul>
+          
+        </note></conbody></concept>

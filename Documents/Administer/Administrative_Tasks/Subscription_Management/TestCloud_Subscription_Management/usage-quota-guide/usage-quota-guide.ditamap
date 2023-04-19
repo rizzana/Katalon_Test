@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-usage-quota-guide" class="- map/map ">
+  <title class="- topic/title ">Usage Quota</title>
+  <topicref href="usage-quota-guide.dita" class="- map/topicref "><topicref href="key_metrics.dita" class="- map/topicref "/>
+  <topicref href="usage_quota.dita" class="- map/topicref ">
+    <topicref href="testcloud_trial_1652979896858.2744.dita" class="- map/topicref "/>
+    <topicref href="testcloud_per_session_1652979896858.2744.dita" class="- map/topicref "/>
+  </topicref>
+</topicref>
+  </map>

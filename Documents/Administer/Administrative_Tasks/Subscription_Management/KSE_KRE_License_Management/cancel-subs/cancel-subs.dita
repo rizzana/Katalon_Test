@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Cancel License Renewal</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">You can cancel your Katalon license subscription at any time.
+         This action will turn off the auto-renewal of your license
+         subscription on the next billing cycle.</p><p class="- topic/p ">Subscription cancellation does NOT issue a refund. You can
+         continue using the remaining subscription you have already
+         purchased.</p><p class="- topic/p ">Only the Account Owner and Admins can cancel a
+         subscription.</p><p class="- topic/p ">After the cancellation, the subscription remains
+         <b class="+ topic/ph hi-d/b ">active</b> until the end of the current billing
+         period. On the next billing date, its status becomes
+         <b class="+ topic/ph hi-d/b ">terminated</b>.</p><p class="- topic/p ">To cancel your subscription, follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">Log in to <xref format="html" href="https://testops.katalon.io/" scope="external" class="- topic/xref ">Katalon
+               TestOps</xref> and select the desired Account.</li><li class="- topic/li ">Go to <uicontrol class="+ topic/ph ui-d/uicontrol ">Settings</uicontrol> &gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">Subscription Management</uicontrol>.</li><li class="- topic/li ">
+        <p class="- topic/p ">
+        In the <uicontrol class="+ topic/ph ui-d/uicontrol ">Additional Subscription</uicontrol> section, click on the <i class="+ topic/ph hi-d/i ">option</i> icon of the  license you want to cancel and select <uicontrol class="+ topic/ph ui-d/uicontrol ">Cancel</uicontrol>.</p>
+        <p class="- topic/p ">
+          
+        <image width="700" href="../upgrade-subs/Subscription-management-upgrade-license.png" class="- topic/image "><alt class="- topic/alt ">Additional subscription - upgrade license</alt></image></p>
+      </li><li class="- topic/li ">
+        <p class="- topic/p ">The subscription cancellation
+               dialog appears. To confirm your action, click
+               <uicontrol class="+ topic/ph ui-d/uicontrol ">Cancel</uicontrol>.</p>
+        <p class="- topic/p ">
+          
+        <image width="500" href="Cancel-license.png" class="- topic/image "><alt class="- topic/alt ">Cancel license confirmation \popup</alt></image></p>
+      </li></ol></conbody></concept>

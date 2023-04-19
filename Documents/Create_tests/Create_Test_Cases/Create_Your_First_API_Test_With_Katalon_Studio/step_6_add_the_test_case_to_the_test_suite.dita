@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_9" class="- topic/topic concept/concept "><title class="- topic/title ">Add the test case to the test suite</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">A test case can be added to a test suite via either the
+         drag-and-drop feature or the <b class="+ topic/ph hi-d/b ">Add test case</b> tool.
+         Once the test case is added to the test suite, we can execute the
+         whole test suite with the Run button (without selecting the browser
+         as in UI testing).</p><p class="- topic/p ">
+          
+        </p></conbody></concept>

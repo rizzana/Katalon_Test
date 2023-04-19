@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_53" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">New Features</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">Support Microsoft Edge (Chromium) on both Windows and
+            macOS</li>
+
+          <li class="- topic/li ">[Windows] Support parameterizing Windows test objects. <xref href="../../../../Create_tests/Test_Objects/Windows_Test_Objects/parameterize_windows_test_objects.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li>
+          <li class="- topic/li ">Add a Notification icon</li>
+        </ul>
+      </conbody>
+    </concept>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">TeamCity Plugin</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">This tutorial shows you the step by step guide on how to install
+         and run Katalon for TeamCity for Web UI Testing.</p><note type="note" class="- topic/note ">
+
+        <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Katalon TestOps CI is an easier way to execute Katalon Studio
+            tests remotely or schedule remote Katalon Studio execution. <xref href="../../Schedule_test_executions/Schedule-test-runs-in-testops/create-plan.dita" class="- topic/xref ">Learn
+               more</xref>
+        </p></li></ul>
+      </note></conbody></concept>

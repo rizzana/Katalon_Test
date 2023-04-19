@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept "><title class="- topic/title ">Encrypted Text</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">The encrypted text is helpful when you work with sensitive text.
+         To learn more about encrypted texts, see <xref href="../../../Create_tests/Create_Test_Cases/Working_With_Sensitive_Text/Working_with_sensitive_text.dita" class="- topic/xref ">Working
+            with Sensitive Text</xref>.</p></conbody></concept>

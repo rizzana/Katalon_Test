@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Change <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> Theme</title><conbody class="- topic/body  concept/conbody "><section class="- topic/section ">
+            <title class="- topic/title ">Requirements</title>
+            <p class="- topic/p ">
+                <ul class="- topic/ul "><li class="- topic/li ">
+                        <p class="- topic/p "><ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> version 6.3.0 onwards.</p>
+                    </li></ul>
+            </p>
+        </section><section class="- topic/section ">
+            <title class="- topic/title ">Enable Dark theme in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title>
+            <p class="- topic/p ">By default, Katalon Studio has the Light theme applied. To enable the Dark theme, go to <b class="+ topic/ph hi-d/b ">Window &gt; Themes &gt; Dark</b>.</p>
+            <p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/theme/change-theme.png" scope="external" width="350" class="- topic/image "><alt class="- topic/alt ">change theme</alt></image></p>
+            <p class="- topic/p ">To switch back to the Light theme, go to <b class="+ topic/ph hi-d/b ">Window &gt; Themes &gt; Light</b>.</p>
+            <p class="- topic/p ">Restart <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> to apply the new theme.</p>
+            <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/theme/light-theme.png" scope="external" class="- topic/image "><alt class="- topic/alt ">light theme</alt></image> <i class="+ topic/ph hi-d/i ">Light theme.</i>
+            </p>
+            <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/theme/dark-theme.png" scope="external" class="- topic/image "><alt class="- topic/alt ">dark theme</alt></image> <i class="+ topic/ph hi-d/i ">Dark theme.</i>
+            </p>
+        </section></conbody></concept>

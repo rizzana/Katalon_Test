@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Getting Started with <ph conkeyref="name-variables/katalon-store" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">You can use <ph conkeyref="name-variables/katalon-store" class="- topic/ph "/> to find and install
+         plugins in <b class="+ topic/ph hi-d/b ">Katalon Studio</b>. You can also view,
+         manage, and review your plugins in <ph conkeyref="name-variables/katalon-store" class="- topic/ph "/>.</p><p class="- topic/p ">This document shows you the basic guide to getting started with
+         <ph conkeyref="name-variables/katalon-store" class="- topic/ph "/>.</p></conbody></concept>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_13" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Update Global Variables during runtime</title>
+      <conbody class="- topic/body  concept/conbody ">
+
+        <p class="- topic/p ">To change a global variable's value during runtime, use the
+         following command syntax <codeph class="+ topic/ph pr-d/codeph ">-g_XXX</codeph> (<xref href="../../../Execute/Katalon_Runtime_Engine/console-mode-execution/General_Options.dita" class="- topic/xref ">Learn
+            more</xref>).</p>
+        <p class="- topic/p ">See Also:</p>
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">
+            <xref href="../../../Analyze/Reports/Manage_Reports/Share-reports-via-emails-in-Studio/support_global_variables_in_email_settings.dita" class="- topic/xref ">How
+               to change email settings during execution</xref>.</li>
+        </ul>
+      </conbody>
+    </concept>

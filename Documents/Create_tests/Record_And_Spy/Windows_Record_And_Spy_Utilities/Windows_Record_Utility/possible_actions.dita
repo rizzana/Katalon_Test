@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_7" class="- topic/topic concept/concept "><title class="- topic/title ">Possible Actions</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Possible Actions</b> provides the built-in Windows actions that you can use to interact with the AUT.</p><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-record-utility/KS-Possible-Actions-section.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Possible actions</alt></image>
+        </p><p class="- topic/p ">There are two types of Windows actions:</p><ul class="- topic/ul "><li class="- topic/li ">
+                <p class="- topic/p ">Object action: an action that you can perform on a specific Windows object. This type of action requires you to first select the target object on the <b class="+ topic/ph hi-d/b ">Screen Objects</b>, e.g., performing the <i class="+ topic/ph hi-d/i ">Click</i> action on a menu item.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Application action: an action for interacting with the application, e.g., the <i class="+ topic/ph hi-d/i ">Close Application</i> action.</p>
+            </li></ul></conbody></concept>

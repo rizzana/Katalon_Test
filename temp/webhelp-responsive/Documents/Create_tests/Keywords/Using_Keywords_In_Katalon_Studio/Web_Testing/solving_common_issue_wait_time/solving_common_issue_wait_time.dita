@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time?><?workdir-uri file:/Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/?><?path2project ../../../../../../?><?path2project-uri ../../../../../../?><?path2rootmap-uri ../../../../../../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="id" class="- topic/topic concept/concept " ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="concept:1;3:57" specializations="@props/deliveryTarget"><title class="- topic/title " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="title:1;3:87">Solving Wait-time issue with <ph class="- topic/ph " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Global_reuse/Name_variables_warehouse/Common_phrases.dita" xtrc="ph:2;3:1075">Katalon Studio</ph></title><conbody class="- topic/body  concept/conbody " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="conbody:1;3:239"><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="p:1;3:261">Automation execution usually does not carry out exactly as
+         scripted due to many factors involved during execution such as
+         network stability, internet bandwidth, the performance of the AUT,
+         and the performance of the executing computer. This article will
+         guide users through leveraging delayed time to handle such
+         situations.</p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="p:2;8:47"><b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="b:1;8:77">What is Wait?</b>
+    </p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="p:3;9:31">Using delayed time is a common practice in test automation
+         scripts to create a pause in-between automation steps as you wait
+         for web elements to load or for the AUT to respond.</p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="p:4;11:87">Here are some examples of test failure due to insufficient
+         waiting time:</p><ul class="- topic/ul " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="ul:1;12:51"><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="li:1;12:75">
+        <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="b:2;13:39">False Fail:</b> One of the most common failures is
+            when a script fails due to waiting on the application. It is often
+            caused by network latency, delayed database requests, or simply
+            because the system needs more time to process and respond to the
+            request.</li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="li:2;17:50">
+        <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="b:3;18:39">Targeted element not present on the page:</b> This
+            kind of failure occurs when waiting for elements to be displayed or
+            rendered in the browser. The application may be up and running but
+            certain elements may not be loaded, thus causing test scripts to
+            fail.</li></ul><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="p:5;22:50"><b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="b:4;22:80">How to address those failures related to
+            Wait?</b>
+    </p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="p:6;24:31">Katalon provides keywords dedicated to delay explicitly. You can
+         use the following options to address the situation:</p><ul class="- topic/ul " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="ul:2;25:89"><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="li:3;25:113">
+        <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="p:7;26:31">
+          <xref format="html" href="https://docs.katalon.com/katalon-studio/docs/webui-wait-for-page-load.html" scope="external" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="xref:1;27:152"><?ditaot usertext?>
+            <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="b:5;28:43">Wait
+                     For Page Load</b>
+          </xref>
+          <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="b:6;31:41">–</b> This logic will
+               wait for a page to completely load before running a step in your
+               script.</p>
+      </li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="li:4;34:36">
+        <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="p:8;35:31">
+          <xref href="https://docs.katalon.com/katalon-studio/docs/webui-wait-for-element-present.html" scope="external" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="xref:2;36:144"><?ditaot usertext?>
+            <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="b:7;37:43">Wait
+                     For Element Present</b>
+          </xref>
+          <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="b:8;40:41">–</b> It
+               happens sometimes that web elements take longer time to appear on
+               the page. This keyword pauses execution until the targeted element
+               appears on the page. Once the element appears, the test continues
+               to execute the next action.</p>
+      </li><li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="li:5;45:36">
+        <xref href="https://docs.katalon.com/katalon-studio/docs/variable-types.html" scope="external" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="xref:3;46:126"><?ditaot usertext?>
+          <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="b:9;47:41">Global
+                  variable</b>
+        </xref>
+        <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="b:10;50:39">–</b> This variable has
+            the global scope, meaning that it is visible throughout the
+            program. Thus, you can use this variable in your test scripts
+            according to the response time of your web application. You may
+            consider defining 3 kinds of global variable in your test scripts,
+            for short, medium, and long waits.</li></ul><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="p:9;55:79">For example: The script below shows the usage of a global
+         variable and the use of Katalon Studio built-in keyword <xref format="html" href="https://docs.katalon.com/katalon-studio/docs/mobile-wait-for-element-present.html" scope="external" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="xref:4;56:214"><?ditaot usertext?>
+        <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="b:11;57:39">Wait
+               For Element Present</b>
+      </xref> to deliberately wait for a
+         specific test element.</p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="p:10;60:58">
+      <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/solving_common_issue_wait_time/Wait-For-Element-Present.png" scope="external" class="- topic/image " placement="inline" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="image:1;61:204"/>
+    </p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="p:11;62:31">
+      <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="b:12;63:37">Figure 1: Katalon Studio test script</b>
+    </p><codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="codeblock:1;64:56">import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint&lt;/p&gt;
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+ 
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+ 
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+ 
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+ 
+import com.kms.katalon.core.checkpoint.CheckpointFactory as CheckpointFactory
+ 
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as MobileBuiltInKeywords
+ 
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+ 
+import com.kms.katalon.core.testcase.TestCase as TestCase
+ 
+import com.kms.katalon.core.testcase.TestCaseFactory as TestCaseFactory
+ 
+import com.kms.katalon.core.testdata.TestData as TestData
+ 
+import com.kms.katalon.core.testdata.TestDataFactory as TestDataFactory
+ 
+import com.kms.katalon.core.testobject.ObjectRepository as ObjectRepository
+ 
+import com.kms.katalon.core.testobject.TestObject as TestObject
+ 
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WSBuiltInKeywords
+ 
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
+ 
+import internal.GlobalVariable as GlobalVariable
+ 
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+ 
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+ 
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+
+</codeblock><codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="codeblock:2;103:60">'Open browser and navigate to Katalon site'
+WebUI.openBrowser("https://katalon.com")
+ 
+'Wait for Katalon Studio page to load with wait used as Global Variable'
+WebUI.waitForPageLoad(GlobalVariable.G_Timeout_Small)
+ 
+'Click on \'Login\'  button to navigate to Login page'
+WebUI.click(findTestObject('Page_KatalonHomepage/btn_Login'))
+ 
+'Input username'
+WebUI.setText(findTestObject('Page_Login/txt_UserName'), Username)
+ 
+'Input password'
+WebUI.setText(findTestObject('Page_Login/txt_Password'), Password)
+ 
+'Click on \'Login\'  button to login'
+WebUI.click(findTestObject('Page_KatalonHomepage/btn_Submit'))
+ 
+'Wait for failed message to be present'
+WebUI.waitForElementPresent(findTestObject('Page_KataloLogin/div_LoginMessage'), GlobalVariable.G_Timeout_Small)
+ 
+WebUI.closeBrowser()
+
+</codeblock><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="p:12;126:35">
+      <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="b:13;127:37">When to use Wait Commands</b>
+    </p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="p:13;128:31">Quite often test execution get failed due to the exceptions such
+         as '<b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="b:14;129:44">NoSuchElementException</b>',
+         '<b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="b:15;130:41">ElementNotFoundException</b>',
+         '<b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="b:16;131:41">ElementNotVisibleException</b>'. In order to handle
+         these exceptions, conditional Synchronization has to be
+         implemented. Katalon Studio supports many built in "<b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="b:17;133:92">Wait
+            for….</b>" keywords to deal with such exceptions. For
+         example:</p><table class="- topic/table " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="table:1;135:52"><tgroup cols="2" class="- topic/tgroup " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="tgroup:1;135:93"><colspec class="- topic/colspec " colnum="1" colname="col1"/><colspec class="- topic/colspec " colnum="2" colname="col2"/><thead class="- topic/thead " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="thead:1;135:123"><row class="- topic/row " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="row:1;135:149"><entry class="- topic/entry " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="entry:1;135:179" colname="col1" dita-ot:x="1" dita-ot:y="1">Keyword</entry><entry class="- topic/entry " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="entry:2;135:224" colname="col2" dita-ot:x="2" dita-ot:y="1">Description</entry></row></thead><tbody class="- topic/tbody " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="tbody:1;135:287"><row class="- topic/row " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="row:2;135:313"><entry class="- topic/entry " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="entry:3;135:343" colname="col1" dita-ot:x="1" dita-ot:y="2">
+              <xref href="../../../Keywords_Description_In_Katalon_Studio/Web-UI-Keywords/webui-wait-for-element-present/webui-wait-for-element-present.dita" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="xref:5;136:181" type="concept"><?ditaot usertext?>Wait
+                     For Element Present</xref>
+            </entry><entry class="- topic/entry " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="entry:4;138:51" colname="col2" dita-ot:x="2" dita-ot:y="2">Wait for the given element to present (appear) within the given
+                  time in seconds.</entry></row><row class="- topic/row " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="row:3;139:75"><entry class="- topic/entry " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="entry:5;139:105" colname="col1" dita-ot:x="1" dita-ot:y="3">
+              <xref href="../../../Keywords_Description_In_Katalon_Studio/Web-UI-Keywords/webui-wait-for-element-visible/webui-wait-for-element-visible.dita" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="xref:6;140:181" type="concept"><?ditaot usertext?>Wait
+                     For Element Visible</xref>
+            </entry><entry class="- topic/entry " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="entry:6;142:51" colname="col2" dita-ot:x="2" dita-ot:y="3">Wait until the given web element is visible within
+                  timeout.</entry></row><row class="- topic/row " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="row:4;143:67"><entry class="- topic/entry " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="entry:7;143:97" colname="col1" dita-ot:x="1" dita-ot:y="4">
+              <xref href="../../../Keywords_Description_In_Katalon_Studio/Web-UI-Keywords/webui-wait-for-alert/webui-wait-for-alert.dita" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="xref:7;144:161" type="concept"><?ditaot usertext?>Wait For
+                     Alert</xref>
+            </entry><entry class="- topic/entry " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="entry:8;146:51" colname="col2" dita-ot:x="2" dita-ot:y="4">Wait for a browser's alert to present.</entry></row><row class="- topic/row " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="row:5;146:129"><entry class="- topic/entry " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="entry:9;146:159" colname="col1" dita-ot:x="1" dita-ot:y="5">
+              <xref href="../../../Keywords_Description_In_Katalon_Studio/Web-UI-Keywords/webui-wait-for-element-clickable/webui-wait-for-element-clickable.dita" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="xref:8;147:185" type="concept"><?ditaot usertext?>Wait for
+                     Element Clickable</xref>
+            </entry><entry class="- topic/entry " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/solving_common_issue_wait_time/solving_common_issue_wait_time.dita" xtrc="entry:10;149:51" colname="col2" dita-ot:x="2" dita-ot:y="5">Wait for the given element to be clickable within the given
+                  time in seconds.</entry></row></tbody></tgroup></table></conbody></concept>

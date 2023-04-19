@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-430" class="- map/map "><title class="- topic/title ">Authorization OAuth 2.0</title><topicref href="authorization-oauth2.dita" class="- map/topicref "><topicref href="Use_OAuth_2-0_authorization_in_Katalon_Studio.dita" class="- map/topicref "/><topicref href="Example_Request_token_for_Authorization_Code_grant_type.dita" class="- map/topicref "/></topicref></map>

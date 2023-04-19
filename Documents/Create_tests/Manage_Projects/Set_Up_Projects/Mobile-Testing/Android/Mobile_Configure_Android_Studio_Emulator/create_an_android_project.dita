@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Create an Android project</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">After installing successfully, in the <b class="+ topic/ph hi-d/b ">Welcome Page</b> window, click <b class="+ topic/ph hi-d/b ">Create new project</b>. Android Studio provides a variety of sample projects for you to choose from. Here, we choose <b class="+ topic/ph hi-d/b ">Empty Activity</b> as an example, then click <b class="+ topic/ph hi-d/b ">Next</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-mobile-testing-with-emulator/KS-EMULATOR-Choose-project-template.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Choose project template</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In the next interface, you can configure your project as follows:</p>
+                <table class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry "> <b class="+ topic/ph hi-d/b ">Name</b>
+                                </entry><entry class="- topic/entry ">The name of your project.</entry></row><row class="- topic/row "><entry class="- topic/entry "> <b class="+ topic/ph hi-d/b ">Package Name</b>
+                                </entry><entry class="- topic/entry ">By default, this is generated as <codeph class="+ topic/ph pr-d/codeph ">com.example.&lt;projectname&gt;</codeph>.</entry></row><row class="- topic/row "><entry class="- topic/entry "> <b class="+ topic/ph hi-d/b ">Save location</b>
+                                </entry><entry class="- topic/entry ">The save location of your project. In case you want to change the default location, click <i class="+ topic/ph hi-d/i ">Browse</i> (folder icon).</entry></row><row class="- topic/row "><entry class="- topic/entry "> <b class="+ topic/ph hi-d/b ">Language</b>
+                                </entry><entry class="- topic/entry ">The language to build your Android app. You can select either <b class="+ topic/ph hi-d/b ">Java</b> or <b class="+ topic/ph hi-d/b ">Kotlin</b> from the dropdown menu.</entry></row><row class="- topic/row "><entry class="- topic/entry "> <b class="+ topic/ph hi-d/b ">Minimum SDK</b>
+                                </entry><entry class="- topic/entry "> The lowest version of Android supported by your app</entry></row><row class="- topic/row "><entry class="- topic/entry "> <b class="+ topic/ph hi-d/b ">Use legacy android.support libraries.</b>
+                                </entry><entry class="- topic/entry "> If your app requires legacy library support, check this box. To learn more about Android support libraries, you can refer to the Android developer document here: <xref format="html" href="https://developer.android.com/topic/libraries/support-library" scope="external" class="- topic/xref ">Support libraries</xref>
+                                </entry></row></tbody></tgroup></table>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execute-mobile-testing-with-emulator/KS-EMULATOR-Configure-project-settings.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Configure your project</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Finish</b>. A new project window opens containing sample files to build an Android app. If you want to learn more about building an Android app, you can refer to this Android developer document: <xref format="html" href="https://developer.android.com/training/basics/firstapp/building-ui" scope="external" class="- topic/xref ">Build a simple user interface</xref>.</p>
+            </li></ol></conbody></concept>

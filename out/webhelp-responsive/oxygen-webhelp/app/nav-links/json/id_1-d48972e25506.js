@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"id_1-d48972e25506":{"topics":[{"title":"Logo","href":"Documents\/Plugins_And_Add-ons\/Katalon_Store\/Submit-and-publish-plugins\/publisher-guidelines\/logo.html","attributes":{"data-id":"id_2"},"menu":{"hasChildren":false},"tocID":"id_2-d48972e25514","topics":[]}]}};

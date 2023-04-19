@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">Usage Examples</title><conbody class="- topic/body  concept/conbody "><note type="note" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">For CI sample projects of Katalon Studio, see <xref format="html" href="https://github.com/katalon-studio-samples/ci-samples/" scope="external" class="- topic/xref ">CI Samples</xref>.</p></li></ul>
+        </note><p class="- topic/p ">Below is an example demonstrating how to use Katalon Orb to execute a test suite with the latest version of Katalon Studio.</p><codeblock class="+ topic/pre pr-d/codeblock ">version: 2.1
+orbs:
+  katalon-studio: katalon/katalon-studio@23.0.2
+workflows:
+  build:
+    jobs:
+      - katalon-studio/run:
+          version: latest
+          command_arguments: &gt;-
+            -browserType='Chrome' -retry=0 -statusDelay=15 -testSuitePath='Test
+            Suites/TS_RegressionTest'
+</codeblock><p class="- topic/p ">In case you prefer setting up the integration manually, you can refer to this guide: <xref href="../E2E-testing-integration-with-circleci/End-to-End_Testing_with_CircleCI.dita" class="- topic/xref "/>.</p></conbody></concept>

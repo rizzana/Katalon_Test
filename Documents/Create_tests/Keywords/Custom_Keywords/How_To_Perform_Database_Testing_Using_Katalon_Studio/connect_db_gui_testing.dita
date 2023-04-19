@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">How to perform Database Testing using <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Katalon Studio allows users to create <xref href="../Introduction_To_Custom_Keywords/introduction-to-custom-keywords.dita" class="- topic/xref ">custom keywords</xref> to address specific needs. With custom keywords, you can connect to databases and perform database testing. This tutorial describes details on how to create custom keywords for database testing in Katalon Studio.</p><p class="- topic/p ">Below is a code sample demonstrating how to</p><ul class="- topic/ul "><li class="- topic/li ">establish a database connection</li><li class="- topic/li ">execute a query</li><li class="- topic/li ">close  the connection</li></ul><codeblock class="+ topic/pre pr-d/codeblock ">package com.database
+ 
+import java.sql.DriverManager
+ 
+import java.sql.ResultSet
+ 
+import java.sql.Statement
+ 
+import com.kms.katalon.core.annotation.Keyword
+ 
+import com.mysql.jdbc.Connection
+ 
+public class DemoMySql {
+ 
+private static Connection connection = null;
+ 
+/**
+ 
+* Open and return a connection to database
+ 
+* @param dataFile absolute file path
+ 
+* @return an instance of java.sql.Connection
+ 
+*/
+ 
+//Establishing a connection to the DataBase
+ 
+@Keyword
+ 
+def connectDB(String url, String dbname, String port, String username, String password){
+ 
+//Load driver class for your specific database type
+ 
+String conn = "jdbc:mysql://" + url + ":" + port + "/" + dbname
+ 
+//Class.forName("org.sqlite.JDBC")
+ 
+//String connectionString = "jdbc:sqlite:" + dataFile
+ 
+if(connection != null &amp;&amp; !connection.isClosed()){
+ 
+connection.close()
+ 
+}
+ 
+connection = DriverManager.getConnection(conn, username, password)
+ 
+return connection
+ 
+}
+ 
+/**
+ 
+* execute a SQL query on database
+ 
+* @param queryString SQL query string
+ 
+* @return a reference to returned data collection, an instance of java.sql.ResultSet
+ 
+*/
+ 
+//Executing the constructed Query and Saving results in resultset
+ 
+@Keyword
+ 
+def executeQuery(String queryString) {
+ 
+Statement stm = connection.createStatement()
+ 
+ResultSet rs = stm.executeQuery(queryString)
+ 
+return rs
+ 
+}
+ 
+//Closing the connection
+ 
+@Keyword
+ 
+def closeDatabaseConnection() {
+ 
+if(connection != null &amp;&amp; !connection.isClosed()){
+ 
+connection.close()
+ 
+}
+ 
+connection = null
+ 
+}
+ 
+/**
+ 
+* Execute non-query (usually INSERT/UPDATE/DELETE/COUNT/SUM...) on database
+ 
+* @param queryString a SQL statement
+ 
+* @return single value result of SQL statement
+ 
+*/
+ 
+@Keyword
+ 
+def execute(String queryString) {
+ 
+Statement stm = connection.createStatement()
+ 
+boolean result = stm.execute(queryString)
+ 
+return result
+ 
+}
+ 
+}
+
+</codeblock><p class="- topic/p ">
+      <i class="+ topic/ph hi-d/i ">Tips: Press "</i>
+      <b class="+ topic/ph hi-d/b ">
+        <i class="+ topic/ph hi-d/i ">Ctrl + Shift +
+               o</i>
+      </b>
+      <i class="+ topic/ph hi-d/i ">" to automatically import missing libraries in
+            test scripts.</i>
+    </p><p class="- topic/p ">The Custom Keywords file will look like the following:</p><p class="- topic/p ">
+      <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/connect_db_gui_testing/Test-Explorer_Custom-Keywords.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Katalon Custom Keywords</alt></image>
+    </p><p class="- topic/p ">You can add the sample code above to your keyword file and
+         modify the details as appropriated. Refer to these links for the
+         formats of database connection strings:</p><ul class="- topic/ul "><li class="- topic/li ">For MSSQL: <xref format="html" href="https://www.connectionstrings.com/sql-server/" scope="external" class="- topic/xref ">https://www.connectionstrings.com/sql-server/</xref>
+      </li><li class="- topic/li ">For Oracle: <xref format="html" href="https://www.connectionstrings.com/oracle/" scope="external" class="- topic/xref ">https://www.connectionstrings.com/oracle/</xref>
+      </li></ul><p class="- topic/p ">
+      <b class="+ topic/ph hi-d/b ">Use Defined Keywords in Test Cases for DB
+            Testing</b>
+    </p><p class="- topic/p ">1. Create new custom keywords for database connection (see
+         above).</p><p class="- topic/p ">2. Copy the DB script provided above and paste it into the new
+         keyword editor as illustrated below:<image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/connect_db_gui_testing/DB-Testing.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Katalon Defined Keywords</alt></image>
+    </p></conbody></concept>

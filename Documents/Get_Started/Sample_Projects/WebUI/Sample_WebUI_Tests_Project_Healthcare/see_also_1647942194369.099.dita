@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_20" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">See also</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">
+          <xref href="../../../../Create_tests/Record_And_Spy/WebUI_Record_And_Spy_Utilities/create_test_case_using_record_playback/record_test_with_the_record_web_function.dita" class="- topic/xref ">Create
+               test cases using Record &amp; Playback</xref>
+        </li>
+      </ul>
+    </conbody>
+  </concept>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Introduction to API testing in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">This article aims to provide an overview of API testing with
+         candid answers to the What – When – Why- questions that
+         hopefully shed light on this mysterious land hidden inside the
+         boundary of testing – engineering realm.</p><p class="- topic/p ">You will also find potential challenges with API test
+         implementation – best practices and how to choose right
+         toolset to help you achieve API testing with a higher success
+         chance.</p></conbody></concept>

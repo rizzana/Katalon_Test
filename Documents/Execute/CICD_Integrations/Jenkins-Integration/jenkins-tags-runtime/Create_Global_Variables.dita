@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task-8549" class="- topic/topic task/task "><title class="- topic/title ">Create Global Variables</title><taskbody class="- topic/body task/taskbody "><context class="- topic/section task/context "><p class="- topic/p ">You can change global variable values in a test suite during
+         runtime without affecting other test suites. Therefore, using a
+         global variable as a parameter in the keyword
+         <codeph class="+ topic/ph pr-d/codeph ">runFeatureFolderWithTags</codeph> can save you time when you
+         have many tags to manage.</p></context><steps class="- topic/ol task/steps "><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Go to <uicontrol class="+ topic/ph ui-d/uicontrol ">Tests Explorer</uicontrol> &gt;
+               <uicontrol class="+ topic/ph ui-d/uicontrol ">Profiles</uicontrol> to open your desired profiles. Click
+               <uicontrol class="+ topic/ph ui-d/uicontrol ">Add</uicontrol> to create a global variable whose values are
+               tags. See <xref href="../../../../Create_tests/Data_Driven_Testing/execution-profile-v54/global_variables.dita" class="- topic/xref ">Global
+                  Variables</xref>.</cmd><info class="- topic/itemgroup task/info "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-tag-runtime/globalvariable-tags.png" scope="external" width="600" class="- topic/image "><alt class="- topic/alt ">add global variable</alt></image></info></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Write a test case with the following keyword:</cmd><info class="- topic/itemgroup task/info "><codeblock class="+ topic/pre pr-d/codeblock ">runFeatureFolderWithTags(folderRelativePath, tags)</codeblock><ul class="- topic/ul "><li class="- topic/li ">folderRelativePath: the folder relative path that starts from
+                  the current project location.</li><li class="- topic/li ">tags: the global variable defined in step 1.</li></ul><b class="+ topic/ph hi-d/b ">Example</b>:<codeblock class="+ topic/pre pr-d/codeblock ">CucumberKW.runFeatureFolderWithTags('Include/features/BDD Cucumber Tests', GlobalVariable.username)
+</codeblock><note type="note" class="- topic/note "><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">To learn more about this keyword, see <xref href="../../../../Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Cucumber-Keywords/cucumber-kw-run-feature-folder-tag/cucumber-kw-run-feature-folder-tag.dita" class="- topic/xref ">[Cucumber]
+                     Run Feature Folder with Tags</xref>.</p></li></ul></note></info></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Add this test case to a test suite and execute it from Jenkins.</cmd></step></steps><result class="- topic/section task/result ">With the global variable created, you can choose which feature
+               files folder to run with your desired tags values.</result></taskbody></task>

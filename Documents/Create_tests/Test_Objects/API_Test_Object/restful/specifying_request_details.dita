@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Specify request details</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">After you have created a request successfully, double-click on the
+         request to open its editor for adding details.</p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/restful-web-services/KS-RESTFUL-Parameterize-the-object.png" scope="external" width="700" class="- topic/image "><alt class="- topic/alt ">Specify a new web service request</alt></image>
+      </p></conbody></concept>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">View Test Suites results</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Reports</b> &gt; <b class="+ topic/ph hi-d/b ">Test Runs</b>
+         to see the result of Test Suites you have run in parallel.</p>
+      <p class="- topic/p ">See also: <xref href="../auto-distributed-execution/auto-distributed-execution.dita" class="- topic/xref ">Auto-Distributed
+            Executions</xref>.</p>
+    </conbody>
+  </concept>

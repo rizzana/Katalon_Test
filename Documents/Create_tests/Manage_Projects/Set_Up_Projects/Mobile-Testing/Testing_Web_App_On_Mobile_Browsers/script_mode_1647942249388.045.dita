@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Script Mode</title>
+      <conbody class="- topic/body  concept/conbody ">
+        
+          <codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+
+'Launch Browser'
+WebUI.openBrowser('http://demoaut.katalon.com/')
+
+'Wait for Page Load'
+WebUI.waitForPageLoad(30)
+
+'Wait for Element Visible of Button Make Appointment'
+WebUI.waitForElementVisible(findTestObject('Browser Application/button_Make Appointment'), 30)
+
+'Verify Button Make Appointment is clickable or not'
+WebUI.verifyElementClickable(findTestObject('Browser Application/button_Make Appointment'), FailureHandling.STOP_ON_FAILURE)
+
+'Click on Button Make Appointment'
+WebUI.click(findTestObject('Browser Application/button_Make Appointment'))
+
+'Wait for text login Header '
+WebUI.waitForElementVisible(findTestObject('Browser Application/text_Login Header'), 30)
+
+'Verify text login Header is in visible '
+WebUI.verifyElementVisible(findTestObject('Browser Application/text_Login Header'))
+
+'Enter username as "John Doe"'
+WebUI.setText(findTestObject('Browser Application/txt_UserName'), 'John Doe')
+
+'Enter password as "ThisIsNotAPassword"'
+WebUI.setText(findTestObject('Browser Application/txt_Password'), 'ThisIsNotAPassword')
+
+'Click on Login Button'
+WebUI.click(findTestObject('Browser Application/button_Login'))
+
+'Wait for Element Present of "Header Make Appointment"'
+WebUI.waitForElementPresent(findTestObject('Browser Application/text_Header Make Appointment'), 30)
+
+'Get the Header text of Make Appointment and store in "actual_Header" variable'
+actual_Header = WebUI.getText(findTestObject('Browser Application/text_Header Make Appointment'))
+
+'Verify the actual and Expected text'
+WebUI.verifyMatch(actual_Header, 'Make Appointment', false)
+
+'Close the Browser'
+WebUI.closeBrowser()
+
+</codeblock>
+        
+        <p class="- topic/p ">Do not forget to execute the test case in Katalon Studio again
+         to ensure that it works properly.</p>
+      </conbody>
+    </concept>

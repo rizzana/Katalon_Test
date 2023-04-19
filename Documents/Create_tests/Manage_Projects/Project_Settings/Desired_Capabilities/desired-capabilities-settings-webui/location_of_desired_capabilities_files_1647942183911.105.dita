@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_10" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Location of desired capabilities files</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">You can find the settings files for each environment in the
+         <codeph class="+ topic/ph pr-d/codeph ">&lt;your test project location&gt;\settings\internal</codeph>
+         folder. The files for each driver are named as follows:</p>
+      <table class="- topic/table ">
+        <tgroup cols="2" class="- topic/tgroup ">
+          <thead class="- topic/thead ">
+            <row class="- topic/row ">
+              <entry class="- topic/entry ">Driver</entry>
+              <entry class="- topic/entry ">Settings' file</entry>
+            </row>
+          </thead>
+          <tbody class="- topic/tbody ">
+            <row class="- topic/row ">
+              <entry class="- topic/entry ">Chrome</entry>
+              <entry class="- topic/entry ">com.kms.katalon.core.webui.chrome.properties</entry>
+            </row>
+            <row class="- topic/row ">
+              <entry class="- topic/entry ">Firefox</entry>
+              <entry class="- topic/entry ">com.kms.katalon.core.webui.firefox.properties</entry>
+            </row>
+            <row class="- topic/row ">
+              <entry class="- topic/entry ">Chrome (Headless)</entry>
+              <entry class="- topic/entry ">com.kms.katalon.core.webui.chrome (headless).properties</entry>
+            </row>
+            <row class="- topic/row ">
+              <entry class="- topic/entry ">Firefox (Headless)</entry>
+              <entry class="- topic/entry ">com.kms.katalon.core.webui.firefox (headless).properties</entry>
+            </row>
+            <row class="- topic/row ">
+              <entry class="- topic/entry ">IE</entry>
+              <entry class="- topic/entry ">com.kms.katalon.core.webui.ie.properties</entry>
+            </row>
+            <row class="- topic/row ">
+              <entry class="- topic/entry ">Safari</entry>
+              <entry class="- topic/entry ">com.kms.katalon.core.webui.safari.properties</entry>
+            </row>
+            <row class="- topic/row ">
+              <entry class="- topic/entry ">Edge</entry>
+              <entry class="- topic/entry ">com.kms.katalon.core.webui.edge.properties</entry>
+            </row>
+            <row class="- topic/row ">
+              <entry class="- topic/entry ">Edge (Chromium)</entry>
+              <entry class="- topic/entry ">com.kms.katalon.core.webui.edge chromium.properties</entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+    </conbody>
+  </concept>

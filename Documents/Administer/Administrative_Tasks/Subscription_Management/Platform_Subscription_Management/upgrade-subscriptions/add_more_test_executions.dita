@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Upgrade test result quota</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To upgrade, follow these steps: <ol class="- topic/ol "><li class="- topic/li ">
+                    <p class="- topic/p ">Sign in to <xref format="html" href="https://testops.katalon.io/" scope="external" class="- topic/xref ">Katalon TestOps</xref> and select the desired Account.</p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">Go to <uicontrol class="+ topic/ph ui-d/uicontrol ">Settings</uicontrol> &gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">Subscription Management</uicontrol>.</p></li><li class="- topic/li ">
+                <p class="- topic/p ">In the <uicontrol class="+ topic/ph ui-d/uicontrol ">Choose a plan</uicontrol> section, adjust the number of  test results  of your current plan.</p><p class="- topic/p "><image width="700" href="Upgrade-test-results-quota.png" class="- topic/image "><alt class="- topic/alt ">Upgrade test result quota</alt></image></p>
+            </li><li class="- topic/li "><p class="- topic/p ">Click Upgrade. You are redirected to the checkout page.</p></li><li class="- topic/li "><p class="- topic/p ">In the checkout page, review the new plan and its price, then click <uicontrol class="+ topic/ph ui-d/uicontrol ">Checkout.</uicontrol>.</p></li></ol></p></conbody></concept>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-958" class="- map/map "><title class="- topic/title ">Manage Test Data</title><topicref href="manage-test-data.dita" class="- map/topicref "><topicref href="Create_an_excel_test_data.dita" class="- map/topicref "/><topicref href="Create_a_csv_test_data.dita" class="- map/topicref "/><topicref href="Create_a_Database_Data.dita" class="- map/topicref "/><topicref href="Create_an_internal_test_data.dita" class="- map/topicref "/></topicref></map>

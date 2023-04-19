@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Spy Web Utility in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Spy Web Utility offers an intelligent object capturing
+         capability in web testing. With the utility, you can flexibly
+         capture test objects by specifying several properties and locating
+         methods.</p><p class="- topic/p ">This guide shows you how to use Spy Web Utility to capture and
+         manually define test objects.</p></conbody></concept>

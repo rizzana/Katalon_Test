@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Create and execute your test in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Complete the above set up steps, and you are ready to create
+         your first test case. See <xref href="../../Create_tests/Create_Test_Cases/Create_Test_Case_Overview/Create_test_case.dita" class="- topic/xref ">Create
+            Test Case</xref>.</p><p class="- topic/p ">Put your test cases into a test suite, then execute. See <xref href="../../Organize/Manage_Tests/Test_suite/manage-test-cases-in-test-suite-ks/intro_manage_in_test_suites_in_Studio.dita" class="- topic/xref ">Test
+            Suite</xref>, <xref href="../../Execute/Execute_tests_in_Katalon_Studio/execute-a-test-case/execute-a-test-case-or-a-test-suite.dita" class="- topic/xref ">Execute
+            and Debug</xref>.</p></conbody></concept>

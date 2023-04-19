@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Create a profile</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Like other test artifacts, you can CRUD the <b class="+ topic/ph hi-d/b ">Execution Profile</b> in the <b class="+ topic/ph hi-d/b ">Tests Explorer</b>.</p><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/Untitled3.png" scope="external" class="- topic/image "/>
+        </p><p class="- topic/p ">You need to define a profile's content by adding <xref href="global_variables.dita" class="- topic/xref ">Global variables</xref>. Do as follows:</p><ol class="- topic/ol "><li class="- topic/li ">Select a profile &gt; click <b class="+ topic/ph hi-d/b ">Add</b>.</li><li class="- topic/li ">
+                <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">New Variable</b> dialog, specify details for the variable &gt; click <b class="+ topic/ph hi-d/b ">OK</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/image2017-1-24-153A413A17.png" scope="external" class="- topic/image "/>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">The variable is added to the profile accordingly.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/variable-types/default-profile.png" scope="external" class="- topic/image "/>
+                </p>
+            </li></ol></conbody></concept>

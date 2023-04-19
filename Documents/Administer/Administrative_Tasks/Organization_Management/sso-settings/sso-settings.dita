@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Single Sign-On Configurations</title><conbody class="- topic/body  concept/conbody "><note type="important" class="- topic/note ">
+        
+
+        <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">You need to subscribe to <ph conkeyref="name-variables/katalon-platform" class="- topic/ph "/> <ph conkeyref="plan-variables/plan-3" class="- topic/ph "/> plan. See: <xref href="../../../Katalon_Platform_Packages/platform-packages/testops-pricing-model.dita" class="- topic/xref ">TestOps
+               Trial Plans</xref>.</p></li></ul>
+      </note></conbody></concept>

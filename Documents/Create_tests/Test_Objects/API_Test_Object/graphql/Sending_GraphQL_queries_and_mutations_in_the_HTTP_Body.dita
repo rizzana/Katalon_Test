@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<task id="task-3748" class="- topic/topic task/task "><title class="- topic/title ">Sending GraphQL queries and mutations in the HTTP Body</title><taskbody class="- topic/body task/taskbody "><context class="- topic/section task/context ">POST requests usually use the application or JSON content type in the HTTP Body. To send a GraphQL query in the <uicontrol class="+ topic/ph ui-d/uicontrol ">HTTP Body</uicontrol>, do as follows:</context><steps class="- topic/ol task/steps "><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Create a <uicontrol class="+ topic/ph ui-d/uicontrol ">Web Service Request</uicontrol> object and choose the <uicontrol class="+ topic/ph ui-d/uicontrol ">Request Type</uicontrol> as <uicontrol class="+ topic/ph ui-d/uicontrol ">RESTful</uicontrol>. </cmd></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">In the <uicontrol class="+ topic/ph ui-d/uicontrol ">Web Service Request</uicontrol> object editor, choose the <uicontrol class="+ topic/ph ui-d/uicontrol ">POST</uicontrol> request method.</cmd></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">In the <uicontrol class="+ topic/ph ui-d/uicontrol ">URL</uicontrol> field, input the GraphQL endpoint URL.</cmd><info class="- topic/itemgroup task/info ">For example: <codeph class="+ topic/ph pr-d/codeph ">https://katalon-sample-graphql-aut.herokuapp.com/graphql</codeph></info></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Switch to the <uicontrol class="+ topic/ph ui-d/uicontrol ">HTTP Body</uicontrol> tab and choose the <uicontrol class="+ topic/ph ui-d/uicontrol ">GraphQL</uicontrol> body type.<image width="700" href="ks-840-graph-ql-query.png" class="- topic/image "><alt class="- topic/alt ">GraphQL query</alt></image></cmd></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">In the <uicontrol class="+ topic/ph ui-d/uicontrol ">Query</uicontrol> textbox, insert your GraphQL query or mutation.</cmd><info class="- topic/itemgroup task/info ">GraphQL query example:<codeblock class="+ topic/pre pr-d/codeblock ">query {
+findAllBooks {
+    id
+    title
+    isbn
+    pageCount
+    author {
+        id
+        firstName
+        lastName
+    }
+  }
+}
+</codeblock>GraphQL mutation example:<codeblock class="+ topic/pre pr-d/codeblock ">mutation {
+    deleteBook(id:3)
+}
+</codeblock></info></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">Save your request, then click <uicontrol class="+ topic/ph ui-d/uicontrol ">Test Request and Verify</uicontrol>.</cmd></step><step class="- topic/li task/step "><cmd class="- topic/ph task/cmd ">View the result in the <uicontrol class="+ topic/ph ui-d/uicontrol ">Response</uicontrol> tab. </cmd></step></steps><result class="- topic/section task/result ">Below are some examples of using GraphQL queries and mutations in the test request object:<ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Find all books using a GraphQL query<image href="ks-840-find-all-book.png" class="- topic/image "><alt class="- topic/alt ">find all book</alt></image></p></li><li class="- topic/li "><p class="- topic/p ">Create a new book using a GraphQL mutation<image href="ks-840-create-new-book-mutation.png" class="- topic/image "><alt class="- topic/alt ">create a new book</alt></image></p></li><li class="- topic/li "><p class="- topic/p ">Modify the name of a book using a GraphQL mutation<image href="ks-840-modify-mutation.png" class="- topic/image "><alt class="- topic/alt ">modify book name</alt></image></p></li><li class="- topic/li "><p class="- topic/p ">Delete a book using a GraphQL mutation<image href="ks-840-mutation-delete.png" class="- topic/image "><alt class="- topic/alt ">delete a book</alt></image></p></li></ul></result></taskbody></task>

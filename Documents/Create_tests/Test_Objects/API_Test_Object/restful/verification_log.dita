@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_12" class="- topic/topic concept/concept "><title class="- topic/title ">Verification Log</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">This tab displays the verification results after the request is
+         tested and verified.</p><p class="- topic/p ">
+          <b class="+ topic/ph hi-d/b ">See also:</b>
+        </p><ul class="- topic/ul "><li class="- topic/li ">
+            <xref href="../REST_Request/Parameterize_A_Web_Service_Object/parameterize-a-web-service-object.dita" class="- topic/xref ">Parameterize a
+               Web Service Object</xref>
+          </li><li class="- topic/li ">
+            <xref href="../verification-snippets/verification-snippets.dita" class="- topic/xref ">Verification
+               Snippets</xref>
+          </li><li class="- topic/li ">
+            <xref href="../../../Create_Test_Cases/using-web-services-in-a-test-case/using-web-services-in-a-test-case.dita" class="- topic/xref ">Using
+               Web Services in a Test Case</xref>
+          </li></ul></conbody></concept>

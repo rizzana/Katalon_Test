@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Enable/Disable Strict Domain</title><conbody class="- topic/body  concept/conbody "><ul class="- topic/ul "><li class="- topic/li ">If you enable the Strict Domain, members of your Organization
+            only have access to some specific domains configured by you in <xref format="html" href="https://testops.katalon.io/login" scope="external" class="- topic/xref ">Katalon TestOps</xref>.</li><li class="- topic/li ">If you disable the Strict Domain, members of your Organization
+            have full access to Katalon TestOps.</li></ul><note type="important" class="- topic/note ">
+        
+        <ul class="- topic/ul "><li class="- topic/li ">You must be an <b class="+ topic/ph hi-d/b ">Owner</b> or <b class="+ topic/ph hi-d/b ">Admin</b> of an Organization.</li></ul>
+      </note></conbody></concept>

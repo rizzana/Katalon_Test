@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-integrate_with_kobiton" class="- map/map "><title class="- topic/title ">Kobiton Integration with Katalon Studio</title><topicref href="integrate_with_kobiton.dita" class="- map/topicref "><topicref href="enable_kobiton_integration.dita" class="- map/topicref "/><topicref href="desired_capabilities_for_kobiton_devices.dita" class="- map/topicref "/><topicref href="Mobile_Testing_With_Kobiton_Devices.dita" class="- map/topicref "/></topicref></map>

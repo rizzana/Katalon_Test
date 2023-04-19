@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Manage test suites in Katalon TestOps</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">You can create, update and manage test suites in <ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/>. </p><p class="- topic/p ">By doing so, you save time creating the test suite in Katalon Studio and uploading it to a Git script repository on TestOps.</p></conbody></concept>

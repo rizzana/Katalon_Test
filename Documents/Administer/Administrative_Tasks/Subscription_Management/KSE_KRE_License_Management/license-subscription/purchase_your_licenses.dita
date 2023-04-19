@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Purchase <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> licenses</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To purchase licenses, follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">Log into <xref format="html" href="https://testops.katalon.io/" scope="external" class="- topic/xref ">Katalon
+               TestOps</xref> and select your desired Account.</li><li class="- topic/li ">
+          <p class="- topic/p ">Go to <uicontrol class="+ topic/ph ui-d/uicontrol ">Settings</uicontrol> &gt; <uicontrol class="+ topic/ph ui-d/uicontrol ">Subscription Management</uicontrol>. The
+               <uicontrol class="+ topic/ph ui-d/uicontrol ">Subscription Management</uicontrol> page appears.</p>
+        </li><li class="- topic/li "><p class="- topic/p ">In the <uicontrol class="+ topic/ph ui-d/uicontrol ">Additional Products</uicontrol> section, click on the <uicontrol class="+ topic/ph ui-d/uicontrol ">Subscribe</uicontrol> button of the license   you want to purchase.</p><p class="- topic/p "><image width="700" href="Subscription-management-additional-products.png" class="- topic/image "/></p></li><li class="- topic/li ">
+          <p class="- topic/p ">Specify the billing cycle and the number of licenses for each
+               product you want to purchase.</p>
+        </li><li class="- topic/li ">Apply discount codes (if any).</li><li class="- topic/li ">
+          <p class="- topic/p ">In the <uicontrol class="+ topic/ph ui-d/uicontrol ">Checkout</uicontrol> section, enter your card
+               details or use a saved card to check out.</p>
+          <p class="- topic/p ">
+            
+          <image width="700" href="Katalon-license-purchase-checkout.png" class="- topic/image "/></p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">In <uicontrol class="+ topic/ph ui-d/uicontrol ">Billing Information</uicontrol>, you can enter some
+               extra billing information that you want to display on the receipts.
+               When you finish, click <uicontrol class="+ topic/ph ui-d/uicontrol ">Save Billing
+                  Information</uicontrol>.</p>
+        </li><li class="- topic/li ">Review the subscription information and click <uicontrol class="+ topic/ph ui-d/uicontrol ">Checkout</uicontrol>.</li></ol><p class="- topic/p ">After completing your license purchase, you can also:</p><ul class="- topic/ul "><li class="- topic/li ">Verify available licenses. See <xref href="../../../License_Management/license-management/view_the_license_information.dita" class="- topic/xref ">Manage
+                  Katalon License</xref>.</li><li class="- topic/li ">Follow this activation guide to begin using a purchased
+               license: <xref href="../../../../KSE-KRE-Licenses/activate-license/activate-kse.dita" class="- topic/xref ">Activate
+                  Katalon License</xref>.</li></ul></conbody></concept>

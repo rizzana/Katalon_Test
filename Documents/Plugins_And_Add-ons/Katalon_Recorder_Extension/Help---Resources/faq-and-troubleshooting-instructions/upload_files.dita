@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept "><title class="- topic/title ">Upload files</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Currently, only the Chrome version of Katalon Recorder supports
+         file uploading.</p><p class="- topic/p ">Right click on the extension icon on the top right toolbar,
+         select <b class="+ topic/ph hi-d/b ">Manage extensions</b>. In the <b class="+ topic/ph hi-d/b ">Manage
+            extensions</b> page, enable "Allow access to file URLs".</p><p class="- topic/p ">
+          <image href="https://raw.githubusercontent.com/katalon-studio/docs-images/master/katalon-recorder/docs/katalon-recorder-allow-access-to-file-urls.png" scope="external" class="- topic/image "/>
+        </p><p class="- topic/p ">The action was completed using "type" command. Example:</p><codeblock class="+ topic/pre pr-d/codeblock ">type | id=file-upload | C:\file.txt (or /home/me/file.txt for Linux)
+</codeblock><note type="note" class="- topic/note ">
+          
+          <p class="- topic/p ">Do not <codeph class="+ topic/ph pr-d/codeph ">click</codeph> on the input element.</p>
+        </note><p class="- topic/p ">We are still actively looking for a solution for Firefox. If you
+         have any question or suggestion, please join the discussion <xref format="html" href="https://forum.katalon.com/discussion/4833/katalon-automation-recorder-how-to-do-a-file-upload-htmlinputelement" scope="external" class="- topic/xref ">here</xref>.</p></conbody></concept>

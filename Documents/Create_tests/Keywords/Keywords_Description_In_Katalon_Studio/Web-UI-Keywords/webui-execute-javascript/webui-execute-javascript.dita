@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_0" class="- topic/topic concept/concept "><title class="- topic/title ">[WebUI] Execute JavaScript</title><conbody class="- topic/body  concept/conbody "><section id="id_1" class="- topic/section ">
+    <title class="- topic/title ">Description  </title>
+    
+      <p class="- topic/p ">Execute JavaScript on the currently selected frame or window.
+         The provided script fragment will be executed as the body of an
+         anonymous function.</p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Since 5.0</b></p>
+      
+    
+  </section><section id="id_3" class="- topic/section ">
+    <title class="- topic/title ">Parameters  </title>
+    
+      <table class="- topic/table "><tgroup cols="4" class="- topic/tgroup "><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Param</entry><entry class="- topic/entry ">Param Type</entry><entry class="- topic/entry ">Mandatory</entry><entry class="- topic/entry ">Description</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">script</entry><entry class="- topic/entry ">String</entry><entry class="- topic/entry ">Required</entry><entry class="- topic/entry ">The JavaScript to execute.</entry></row><row class="- topic/row "><entry class="- topic/entry ">argument</entry><entry class="- topic/entry ">List</entry><entry class="- topic/entry ">Required</entry><entry class="- topic/entry ">The arguments to the script. Can be empty or null.</entry></row><row class="- topic/row "><entry class="- topic/entry ">flowControl</entry><entry class="- topic/entry ">FailureHandling</entry><entry class="- topic/entry ">Optional</entry><entry class="- topic/entry ">Specify <xref href="../../../../../Maintain/failure-handling/failure-handling.dita" class="- topic/xref ">failure handling</xref> schema to
+                  determine whether the execution should be allowed to continue or
+                  stop.</entry></row></tbody></tgroup></table>
+    
+  </section><section id="id_4" class="- topic/section ">
+    <title class="- topic/title ">Returns</title>
+    
+      <ul class="- topic/ul "><li class="- topic/li ">Boolean, Long, Double, String, List, Web Element, or Null</li></ul>
+      <p class="- topic/p ">Example </p>
+      <p class="- topic/p ">Make an alert on the web page</p>
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">'Use Javascript to make an alert'
+WebUI.executeJavaScript("alert('This is an alert')", null)
+</codeblock>
+      
+      <p class="- topic/p ">Return WebElement based on its id:</p>
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">WebElement element = WebUI.executeJavaScript("return document.getElementById('someId');", null)
+</codeblock>
+      
+      <p class="- topic/p ">Interact with returned WebElement</p>
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">WebElement element = WebUiCommonHelper.findWebElement(findTestObject('your/object'),30)
+WebUI.executeJavaScript("arguments[0].style.border='3px solid blue'", Arrays.asList(element))
+</codeblock>
+      
+      <p class="- topic/p ">Click on returned WebElement:</p>
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">WebElement element = WebUiCommonHelper.findWebElement(findTestObject('your/object'),30)
+WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(element))
+</codeblock>
+      
+    
+  </section></conbody></concept>

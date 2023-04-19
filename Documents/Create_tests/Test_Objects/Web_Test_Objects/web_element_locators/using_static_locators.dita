@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Using Static Locators</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">After studying the AUT and development conventions, if you are
+         certain that all locators for an element are static, then use them.
+         This is the simplest possible. See example below:</p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/web_element_locators/Username.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Username</alt></image>
+      </p><codeblock class="+ topic/pre pr-d/codeblock ">&lt;div class="field-group"&gt;
+&lt;label accesskey="u" for="login-form-username"&gt;&lt;u&gt;U&lt;/u&gt;sername&lt;/label&gt;
+&lt;input class="text medium-field" id="login-form-username" name="os_username" type="text" value=""&gt;
+&lt;/div&gt;
+</codeblock><p class="- topic/p ">You can use one of the following XPath to locate the Username
+         textbox:</p><ul class="- topic/ul "><li class="- topic/li ">Id 
+            
+            <codeph class="+ topic/ph pr-d/codeph ">//*[@id='login-form-username']</codeph></li><li class="- topic/li ">Name 
+            
+            <codeph class="+ topic/ph pr-d/codeph ">//*[@name='os_username']</codeph></li><li class="- topic/li ">Class 
+            
+            <codeph class="+ topic/ph pr-d/codeph ">//*[@class='text medium-field']</codeph></li><li class="- topic/li ">Tag 
+            
+            <codeph class="+ topic/ph pr-d/codeph ">//input[@class='text medium-field']</codeph></li><li class="- topic/li ">Attribute 
+            
+            <codeph class="+ topic/ph pr-d/codeph ">//input[@class='text medium-field'][@type='text']</codeph></li></ul></conbody></concept>

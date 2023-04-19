@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_8" class="- topic/topic concept/concept "><title class="- topic/title ">Set text values for text-based input elements</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Due to the differences between web pages, there are three
+         commands you can use to set text values for text-based input
+         elements (e.g. type="text" or "number"). If you encounter troubles
+         setting text values, please try those commands in this order:</p><ol class="- topic/ol "><li class="- topic/li ">type</li><li class="- topic/li ">sendKeys</li><li class="- topic/li ">setText</li></ol><p class="- topic/p ">
+          For input elements with type="number",
+            you have to use "setText" to set negative values.
+        </p></conbody></concept>

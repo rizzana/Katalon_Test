@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_11" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Enhancements</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">
+            <p class="- topic/p ">[Subscription] Enabled subscribing to TestOps Business via a
+               "Get Quote" email.</p>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">[License Management] Added max session timeout in Idle
+               TimeOut.</p>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">[UI] Updated invitation UI in User Management.</p>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">[UI] Allowed to select Test Environment in Schedule Test Run
+               dialog.</p>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">[UI] Allowed to create Test Run Type without running or
+               scheduling.</p>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">[UI] Updated information in Script Repositories view (Create
+               &amp; Edit).</p>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">[UI] Consolidated Schedule Test Run button colors.</p>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">[Access log] Added email address to access log files.</p>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">[Test Run Type] Added sorting value by time.</p>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">[Test Run Type] Removed data in Last Run column.</p>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">[Reports] New confirmation dialog when exporting test run
+               reports.</p>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">[Reports] Allowed viewing re-run test results via email.</p>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">[Jira integration] Synced Release status from Jira.</p>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">[Jira integration] Enabled refreshing Jira release status in
+               TestOps.</p>
+          </li>
+        </ul>
+      </conbody>
+    </concept>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id_5" class="- topic/topic ">
+    <title class="- topic/title ">5.7.0</title>
+    <body class="- topic/body ">
+      <p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">Features</b> - Introduced the configuration option
+         to pause or continue test execution upon test failure. - Introduced
+         the floating toolbar to edit values of fields quickly.</p>
+      <p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">Improvements</b> - Improved the ability to group
+         and edit multiple test steps. - Improved test editing capabilities:
+         - Introduced the ability to edit commands and values within a test
+         step. - Introduced the multi-line text value capability, which
+         wraps any long text value into a short space.</p>
+    </body>
+  </topic>

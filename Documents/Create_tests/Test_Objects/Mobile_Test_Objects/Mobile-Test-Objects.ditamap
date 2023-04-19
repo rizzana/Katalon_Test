@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-Mobile-Test-Objects" class="- map/map "><title class="- topic/title ">Mobile Test Objects</title><mapref format="ditamap" href="Manage_Mobile_Test_Objects/manage-mobile-test-object.ditamap" class="+ map/topicref mapgroup-d/mapref "/><mapref format="ditamap" href="Locators_And_Object_Identification/locators_object_identification.ditamap" class="+ map/topicref mapgroup-d/mapref "/><mapref format="ditamap" href="Parameterize_Mobile_Test_Object_Properties/parameterize-mobile-test-object-properties.ditamap" class="+ map/topicref mapgroup-d/mapref "/></map>

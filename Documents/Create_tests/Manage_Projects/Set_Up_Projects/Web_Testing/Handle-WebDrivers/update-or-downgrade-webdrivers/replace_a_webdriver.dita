@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Replace a Webdriver</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To upgrade or downgrade WebDrivers, you can replace WebDrivers manually. You can choose to do so at the application or project level.</p><note type="note" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">
+                    <p class="- topic/p ">By default, Katalon Studio runs WebDrivers at the application level. Adding a Webdriver at the project level overrides the application level to open your web browsers. </p>
+                </li></ul>
+        </note><p class="- topic/p ">Do as follows:<ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p ">Find the WebDriver version you want to run your test with. You can find them here:</p><p class="- topic/p ">Versions of browser drivers:<ul class="- topic/ul "><li class="- topic/li ">
+                            <p class="- topic/p "><xref href="https://chromedriver.chromium.org/downloads" scope="external" class="- topic/xref ">Chrome Drivers</xref></p>
+                        </li><li class="- topic/li ">
+                            <p class="- topic/p "><xref href="https://firefox-source-docs.mozilla.org/testing/geckodriver/Support.html" scope="external" class="- topic/xref ">Gecko Drivers</xref></p>
+                        </li><li class="- topic/li ">
+                            <p class="- topic/p "><xref href="http://selenium-release.storage.googleapis.com/index.html" scope="external" class="- topic/xref ">Internet Explorer</xref></p>
+                        </li><li class="- topic/li ">
+                            <p class="- topic/p "><xref href="https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/" scope="external" class="- topic/xref ">Microsoft Edge</xref></p>
+                        </li></ul></p></li><li class="- topic/li ">
+                <p class="- topic/p ">Find the location of the WebDrivers you want to replace.<ul class="- topic/ul "><li class="- topic/li ">At the application level, WebDriver binaries are stored here:<note class="- topic/note ">
+                                <ul class="- topic/ul "><li class="- topic/li ">
+                                        <p class="- topic/p ">If you have multiple Katalon Studio versions installed on your development machine, make sure to navigate to the correct path of the Katalon Studio version you wish to use.</p>
+                                    </li></ul>
+                            </note><p class="- topic/p "><i class="+ topic/ph hi-d/i ">For Window users</i></p><p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Chrome</b>
+                            </p><p class="- topic/p ">You can use 32-bit Windows Chromedriver for both 32-bit and 64-bit Windows.<ul class="- topic/ul "><li class="- topic/li "><codeph class="+ topic/ph pr-d/codeph ">&lt;Katalon Studio folder&gt;\configuration\resources\drivers\chromedriver_win32</codeph>
+                                    </li><li class="- topic/li "> <codeph class="+ topic/ph pr-d/codeph ">&lt;Katalon Studio folder&gt;\configuration\resources\drivers\chromedriver_win64</codeph>
+                                    </li></ul></p><p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Firefox</b>
+                            </p><ul class="- topic/ul "><li class="- topic/li "> <codeph class="+ topic/ph pr-d/codeph ">&lt;Katalon Studio folder&gt;\configuration\resources\drivers\firefox_win32</codeph>
+                                </li><li class="- topic/li "> <codeph class="+ topic/ph pr-d/codeph ">&lt;Katalon Studio folder&gt;\configuration\resources\drivers\firefox_win64</codeph>
+                                </li></ul><p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Internet Explorer</b>
+                            </p><ul class="- topic/ul "><li class="- topic/li "> <codeph class="+ topic/ph pr-d/codeph ">&lt;Katalon Studio folder&gt;\configuration\resources\drivers\iedriver_win32</codeph>
+                                </li><li class="- topic/li "> <codeph class="+ topic/ph pr-d/codeph ">&lt;Katalon Studio folder&gt;\configuration\resources\drivers\iedriver_win64</codeph>
+                                </li></ul><p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Edge</b>
+                                <ul class="- topic/ul "><li class="- topic/li "> <codeph class="+ topic/ph pr-d/codeph ">&lt;Katalon Studio folder&gt;\configuration\resources\drivers\edgedriver</codeph>
+                                    </li></ul>
+                            </p><p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Edge (Chromium)</b>
+                                <ul class="- topic/ul "><li class="- topic/li "> <codeph class="+ topic/ph pr-d/codeph ">&lt;Katalon Studio folder&gt;\configuration\resources\drivers\edgechromium_win32</codeph>
+                                    </li><li class="- topic/li "> <codeph class="+ topic/ph pr-d/codeph ">&lt;Katalon Studio folder&gt;\configuration\resources\drivers\edgechromium_win64</codeph>
+                                    </li></ul>
+                            </p><p class="- topic/p "><i class="+ topic/ph hi-d/i ">For macOS users</i></p><p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Chrome</b>
+                                <ul class="- topic/ul "><li class="- topic/li "> <codeph class="+ topic/ph pr-d/codeph ">/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/drivers/chromedriver_mac</codeph>
+                                    </li></ul>
+                            </p><p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Firefox</b>
+                            </p><ul class="- topic/ul "><li class="- topic/li "> <codeph class="+ topic/ph pr-d/codeph ">/Applications/Katalon Studio.app/Contents/Eclipse/configuration/resources/drivers/firefox_mac</codeph>
+                                </li></ul><p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Edge (Chromium)</b>
+                            </p><ul class="- topic/ul "><li class="- topic/li "> <codeph class="+ topic/ph pr-d/codeph ">/Applications/Katalon Studio.app/Contents/Eclipse/configuration\resources\drivers\edgechromium_mac</codeph>
+                                </li></ul></li></ul><ul class="- topic/ul "><li class="- topic/li ">At the project level, go to <b class="+ topic/ph hi-d/b ">\Project Folder\Include</b> on your computer and follow the below paths:<note type="note" class="- topic/note ">
+                                <ul class="- topic/ul "><li class="- topic/li ">
+                                        <p class="- topic/p ">By default, there is no Webdriver at project level. After replacing WebDrivers at project level, restart Katalon Studio to run new WebDrivers.</p>
+                                    </li></ul>
+                            </note><p class="- topic/p "><i class="+ topic/ph hi-d/i ">For Window users</i></p><p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Chrome</b>
+                                <ul class="- topic/ul "><li class="- topic/li ">
+                                        <p class="- topic/p "><codeph class="+ topic/ph pr-d/codeph ">Include/drivers/chromedriver_win32/chromedriver.exe</codeph>
+                                        </p>
+                                    </li><li class="- topic/li ">
+                                        <p class="- topic/p "><codeph class="+ topic/ph pr-d/codeph ">Include/drivers/chromedriver_win64/chromedriver.exe</codeph>
+                                        </p>
+                                    </li></ul>
+                            </p><p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Firefox</b>
+                                <ul class="- topic/ul "><li class="- topic/li "> <codeph class="+ topic/ph pr-d/codeph ">Include/drivers/geckodriver_win32/geckodriver.exe</codeph>
+                                    </li><li class="- topic/li "> <codeph class="+ topic/ph pr-d/codeph ">Include/drivers/geckodriver_win64/geckodriver.exe</codeph>
+                                    </li></ul>
+                            </p><p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Internet Explorer</b>
+                            </p><ul class="- topic/ul "><li class="- topic/li "> <codeph class="+ topic/ph pr-d/codeph ">Include/drivers/iedriver_win32/IEDriverServer.exe</codeph>
+                                </li><li class="- topic/li "> <codeph class="+ topic/ph pr-d/codeph ">Include/drivers/iedriver_win64/IEDriverServer.exe</codeph>
+                                </li></ul><p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Edge (Chromium)</b>
+                                <ul class="- topic/ul "><li class="- topic/li ">
+                                        <p class="- topic/p "><codeph class="+ topic/ph pr-d/codeph ">Include/drivers/edgedriver_win32/MicrosoftWebDriver.exe</codeph></p>
+                                    </li><li class="- topic/li ">
+                                        <p class="- topic/p "><codeph class="+ topic/ph pr-d/codeph ">Include/drivers/edgedriver_win64/MicrosoftWebDriver.exe</codeph>
+                                        </p>
+                                    </li><li class="- topic/li ">
+                                        <p class="- topic/p "><codeph class="+ topic/ph pr-d/codeph ">Include/drivers/edgechromiumdriver_win64/msedgedriver.exe</codeph></p>
+                                    </li><li class="- topic/li ">
+                                        <p class="- topic/p "><codeph class="+ topic/ph pr-d/codeph ">Include/drivers/edgechromiumdriver_win32/msedgedriver.exe</codeph>
+                                        </p>
+                                    </li></ul>
+                            </p><p class="- topic/p "><i class="+ topic/ph hi-d/i ">For macOS users</i></p><p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Chrome</b>
+                                <ul class="- topic/ul "><li class="- topic/li ">
+                                        <p class="- topic/p "><codeph class="+ topic/ph pr-d/codeph ">Include/drivers/chromedriver_mac64/chromedriver</codeph>
+                                        </p>
+                                    </li></ul>
+                            </p><p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Firefox</b>
+                                <ul class="- topic/ul "><li class="- topic/li ">
+                                        <p class="- topic/p "><codeph class="+ topic/ph pr-d/codeph ">Include/drivers/geckodriver_mac64/geckodriver</codeph>
+                                        </p>
+                                    </li></ul>
+                            </p><p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Edge (Chromium)</b>
+                            </p><ul class="- topic/ul "><li class="- topic/li "><codeph class="+ topic/ph pr-d/codeph ">Include/drivers/edgechromiumdriver_mac/msedgedriver</codeph>
+                                </li></ul><p class="- topic/p "><i class="+ topic/ph hi-d/i ">For Linux users</i></p><p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Chrome</b>
+                                <ul class="- topic/ul "><li class="- topic/li ">
+                                        <p class="- topic/p "><codeph class="+ topic/ph pr-d/codeph ">Include/drivers/chromedriver_linux32/chromedriver</codeph></p>
+                                    </li><li class="- topic/li ">
+                                        <p class="- topic/p "> <codeph class="+ topic/ph pr-d/codeph ">Include/drivers/chromedriver_linux64/chromedriver </codeph>
+                                        </p>
+                                    </li></ul>
+                            </p><p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Firefox</b>
+                                <ul class="- topic/ul "><li class="- topic/li "> <codeph class="+ topic/ph pr-d/codeph ">Include/drivers/geckodriver_linux32/geckodriver</codeph>
+                                    </li><li class="- topic/li "> <codeph class="+ topic/ph pr-d/codeph ">Include/drivers/geckodriver_linux64/geckodriver</codeph>
+                                    </li></ul>
+                            </p></li></ul></p>
+            </li><li class="- topic/li "><p class="- topic/p ">After finding the correct location, replace the <codeph class="+ topic/ph pr-d/codeph ">driver.exe</codeph> file with the one you have downloaded.
+                </p><note type="note" class="- topic/note ">
+            
+            <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">After updating or downgrading WebDrivers, to make sure the current version of the browser driver is running smoothly, it is advisable to try <b class="+ topic/ph hi-d/b ">re-running the test</b> to resolve and check any pop-up issues.</p></li></ul></note></li></ol></p></conbody></concept>

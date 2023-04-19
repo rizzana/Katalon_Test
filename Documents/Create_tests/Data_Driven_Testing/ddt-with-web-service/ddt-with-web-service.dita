@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Data-driven testing with RESTful Web Service requests</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Katalon Studio allows you to perform data-driven testing (DDT)
+         with Web Service Objects.</p><p class="- topic/p ">This tutorial shows you how to create Web Service requests and
+         test cases with variables, then bind data files to the associated
+         request objects and test cases.</p><p class="- topic/p ">You can download the sample project here: <xref format="html" href="https://github.com/katalon-studio-samples/web-service-tests" scope="external" class="- topic/xref ">Web
+               Service Tests</xref>.</p><p class="- topic/p ">In our example, we want to send the user information with
+         dynamic data, including username, password, age, gender, and avatar
+         to the server to create an account, then return a user ID as the
+         response. After creating a new user, we will find that user by the
+         user ID.</p></conbody></concept>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_10" class="- topic/topic concept/concept "><title class="- topic/title ">
+      Step 9: Test execution event
+    </title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Run the test suite and wait until the execution finished.</p><p class="- topic/p ">Look at the <codeph class="+ topic/ph pr-d/codeph ">Event Log</codeph> and the message should be
+         displayed as shown below:</p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-store/docs/publisher/test-execution-event.png" scope="external" width="500" class="- topic/image "/>
+      </p></conbody></concept>

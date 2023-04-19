@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Pixel-based comparison</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">This method compares the pixel resolution of two images to
+         figure out the pixel-by-pixel differences between them.<image href="image/vt-jul2022-pixel-comparison.png" class="- topic/image "><alt class="- topic/alt ">visual-testing-pixel-comparison</alt></image></p><p class="- topic/p ">The advantage of this method is that it is a popular function
+         and easy to understand and implement. This method identifies pixel
+         differences and picks up minor changes that could be trivial or
+         ignorable to the human eyes.</p></conbody></concept>

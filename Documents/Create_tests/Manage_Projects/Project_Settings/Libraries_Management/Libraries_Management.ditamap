@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-6106" class="- map/map "><title class="- topic/title ">Libraries Management</title><topicref chunk="to-content" href="Libraries_management.dita" class="- map/topicref "><topicref href="Add_external_libraries.dita" class="- map/topicref "><topicref href="Use_Gradle.dita" class="- map/topicref "/><topicref href="Use_Katalon_Studio_project_settings.dita" class="- map/topicref "/><topicref href="Manually_copy_and_paste_-jar_files_to_the_Drivers_folder.dita" class="- map/topicref "/></topicref><topicref href="Exclude_built-in_libraries.dita" class="- map/topicref "/></topicref></map>

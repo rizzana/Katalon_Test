@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-pop_up_dialog_issue" class="- map/map ">
+  <title class="- topic/title ">Solving Pop-up dialog issue with Katalon Studio</title>
+  <topicref href="pop_up_dialog_issue.dita" class="- map/topicref "><topicref href="what_is_a_pop-up.dita" class="- map/topicref "/>
+  <topicref href="what_are_issues_with_pop-up.dita" class="- map/topicref "/>
+  <topicref href="example_1647942245549.418.dita" class="- map/topicref "/>
+</topicref>
+  </map>

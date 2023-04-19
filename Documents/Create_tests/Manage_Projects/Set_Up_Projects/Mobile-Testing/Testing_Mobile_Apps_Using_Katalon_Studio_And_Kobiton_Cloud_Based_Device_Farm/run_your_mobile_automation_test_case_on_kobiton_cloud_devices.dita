@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Run your mobile automation test case on Kobiton cloud
+         devices      </title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">1. Upload the Material Login Demo app to Kobiton App Repository.
+         From the Repository view, select the more actions button and select
+         the <b class="+ topic/ph hi-d/b ">
+          <i class="+ topic/ph hi-d/i ">Automation snippet.</i>
+        </b> Copy the app id
+         (the one in bold, for example,<b class="+ topic/ph hi-d/b ">
+          <i class="+ topic/ph hi-d/i ">Kobiton-store:184</i>
+        </b> as shown below) and
+         save it.</p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/7-300x196.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Kobiton App Repository</alt></image></p><p class="- topic/p ">2. Navigate to the Kobiton Devices
+         page. Choose the devices on which you want to run your test and
+         mark those devices as a favorite by clicking on the star icon. 3.
+         Let's enable Kobiton integration.</p><ul class="- topic/ul "><li class="- topic/li ">Open Katalon Studio Preferences
+            (<b class="+ topic/ph hi-d/b ">
+            <i class="+ topic/ph hi-d/i ">Windows</i>
+          </b> -&gt; <b class="+ topic/ph hi-d/b ">
+            <i class="+ topic/ph hi-d/i ">Katalon Studio
+                  Preferences</i>
+          </b>) then select
+            <b class="+ topic/ph hi-d/b ">
+            <i class="+ topic/ph hi-d/i ">Kobiton</i>
+          </b>.</li></ul><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/8.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Katalon Studio Preferences</alt></image>
+      </p><ul class="- topic/ul "><li class="- topic/li ">Enter your Kobiton username and password. Click
+            <b class="+ topic/ph hi-d/b ">
+            <i class="+ topic/ph hi-d/i ">Connect</i>
+          </b> to test the connection and
+            authentication. With a valid account, Katalon Studio automatically
+            retrieves the API keys from Kobiton.</li><li class="- topic/li ">Click <b class="+ topic/ph hi-d/b ">
+            <i class="+ topic/ph hi-d/i ">Apply</i>
+          </b> or
+            <b class="+ topic/ph hi-d/b ">
+            <i class="+ topic/ph hi-d/i ">OK</i>
+          </b> to save the settings.</li></ul><p class="- topic/p ">4. Open the test case created from the previous section, replace
+         the input application path for the first step "<b class="+ topic/ph hi-d/b ">
+          <i class="+ topic/ph hi-d/i ">Start
+               Application"</i>
+        </b> with the Kobiton app id saved in Step
+         1.</p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/tests-explorer.png" scope="external" class="- topic/image "/>
+      </p><p class="- topic/p ">5. A new menu option appears under
+         the <b class="+ topic/ph hi-d/b ">
+          <i class="+ topic/ph hi-d/i ">Execution</i>
+        </b> toolbar as below.
+         Click on <b class="+ topic/ph hi-d/b ">Kobiton Device</b> to open the
+         Kobiton Favorite Device dialog.</p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/testing_mobile_apps_using_katalon_studio_kobiton/9-200x300.png" scope="external" class="- topic/image "><alt class="- topic/alt ">menu options Katalon Studio</alt></image>
+      </p><p class="- topic/p ">6. Select your target device for execution from the Kobiton
+         Favorite Device list. Click OK to start execution with that device.
+         It may take some time to initialize the connection to Kobiton prior
+         to the execution. You should be able to login to Kobiton sessions
+         to view the result once the test execution completed.</p><p class="- topic/p ">The combination of <xref format="html" href="https://www.katalon.com" scope="external" class="- topic/xref ">Katalon
+            Studio</xref> and <xref format="html" href="https://kobiton.com" scope="external" class="- topic/xref ">Kobiton</xref> empowers
+         automation engineers in validating the quality of mobile apps by
+         allowing them to execute recorded test cases on hundreds of devices
+         quickly. This solution does not only save them time but also
+         maximizes test coverage. Katalon Studio is a FREE – a
+         full-featured automation solution that can be downloaded at <xref format="html" href="https://www.katalon.com" scope="external" class="- topic/xref ">www.katalon.com</xref>. Kobiton is a
+         cloud-based mobile device farm that provides real devices for both
+         manual and automation testing with an affordable price. You can
+         register a <xref format="html" href="https://kobiton.com" scope="external" class="- topic/xref ">Kobiton account</xref> for
+         free trial.</p><p class="- topic/p ">For more details, please visit Katalon Studio <xref format="html" href="https://katalon.com/resources-center/blog" scope="external" class="- topic/xref ">Resources
+            Center</xref>.</p></conbody></concept>

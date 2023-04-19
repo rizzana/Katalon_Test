@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN" "glossentry.dtd">
+<glossentry id="glossentry-2290" class="- topic/topic concept/concept glossentry/glossentry "><glossterm class="- topic/title concept/title glossentry/glossterm ">Average Duration (Test Case)</glossterm><glossdef class="- topic/abstract concept/abstract glossentry/glossdef ">= (Total duration of all test results/Total number of test results) x 100%<p class="- topic/p ">The calculation is based on the last 100 test results.</p></glossdef></glossentry>

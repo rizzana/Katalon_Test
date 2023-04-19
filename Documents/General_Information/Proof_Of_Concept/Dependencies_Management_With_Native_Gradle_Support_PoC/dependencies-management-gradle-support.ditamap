@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-dependencies-management-gradle-support" class="- map/map ">
+  <title class="- topic/title ">Dependencies Management with Native Gradle Support (Poc)</title>
+  <topicref href="dependencies-management-gradle-support.dita" class="- map/topicref "><topicref href="gradle_settings.dita" class="- map/topicref "/>
+  <topicref href="gradle_tasks.dita" class="- map/topicref "/>
+  <topicref href="usage_examples_of_kataloncopydependencies_task.dita" class="- map/topicref "/>
+</topicref>
+  </map>

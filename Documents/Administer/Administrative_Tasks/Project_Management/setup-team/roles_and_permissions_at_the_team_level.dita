@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Roles and permissions at the Team level</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Owner</b>
+        </li>
+      </ul>
+      <p class="- topic/p ">If you create a new Team, you become its Owner by default. As an
+         Owner, you have full permission to transfer the Owner role to
+         another team member.</p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Admin</b>
+        </li>
+      </ul>
+      <p class="- topic/p ">This role is granted by the Owner.</p>
+      <p class="- topic/p ">The Admin has similar privileges as the Owner but cannot
+         transfer the Team ownership to an existing team member.</p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">User</b>
+        </li>
+      </ul>
+      <p class="- topic/p ">This role is automatically assigned to any person accepting the
+         invitation to join the Team.</p>
+      <p class="- topic/p ">Users can only monitor the Project's progress.</p>
+    </conbody>
+  </concept>

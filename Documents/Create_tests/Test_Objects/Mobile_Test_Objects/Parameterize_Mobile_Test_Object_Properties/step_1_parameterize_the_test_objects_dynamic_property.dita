@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Step 1: Parameterize the test object's dynamic property</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Create a property with its value as a variable having this syntax: <codeph class="+ topic/ph pr-d/codeph ">${Variable_name}</codeph>. For this example, in the <uicontrol class="+ topic/ph ui-d/uicontrol ">Object's Properties</uicontrol> panel, add an object's property with:</p><ul class="- topic/ul "><li class="- topic/li ">Name: <codeph class="+ topic/ph pr-d/codeph ">text</codeph>
+            </li><li class="- topic/li ">Value: <codeph class="+ topic/ph pr-d/codeph ">${text}</codeph>
+            </li></ul><p class="- topic/p ">Its selected locator is generated as <codeblock class="+ topic/pre pr-d/codeblock ">//*[(text() =
+            '${text}' or . = '${text}')]</codeblock> and identified at runtime with passing data.</p><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/param-mobile-object/selector.png" scope="external" class="- topic/image "/>
+        </p></conbody></concept>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_8" class="- topic/topic concept/concept "><title class="- topic/title ">Export Option</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">When you finish the recording session, there are three options to export the recorded actions to a test case:</p><ul class="- topic/ul "><li class="- topic/li ">Export to new test case (selected by default).</li><li class="- topic/li ">Append to test case.</li><li class="- topic/li ">Overwrite test case.</li></ul><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-record-utility/KS-Export-Windows-script.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Export actions dialog</alt></image>
+        </p></conbody></concept>

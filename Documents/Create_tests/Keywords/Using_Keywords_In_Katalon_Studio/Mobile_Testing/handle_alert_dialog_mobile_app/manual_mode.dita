@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Manual Mode</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">Step 1<b class="+ topic/ph hi-d/b ">:</b> Select <b class="+ topic/ph hi-d/b ">Start
+               Application</b> from mobile keyword and click on
+            <b class="+ topic/ph hi-d/b ">Input</b> to open a new dialogue. In
+            <b class="+ topic/ph hi-d/b ">appFile</b>, select '<b class="+ topic/ph hi-d/b ">Value Type</b>' as
+            <b class="+ topic/ph hi-d/b ">Variable</b>. In <b class="+ topic/ph hi-d/b ">Value</b>, pass the
+            variable name as '<b class="+ topic/ph hi-d/b ">path'</b>.</li>
+      </ul>
+      <p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_alert_dialog_mobile_app/Handling-Alert-Dialog-in-Mobile-App-1.png" scope="external" class="- topic/image ">
+          <alt class="- topic/alt ">Handling Alert Dialog in Mobile App</alt>
+        </image>
+      </p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">Step 2: Add a <b class="+ topic/ph hi-d/b ">Wait For Element Present</b>
+            item.</li>
+        <li class="- topic/li ">Step 3: Call <b class="+ topic/ph hi-d/b ">Scroll To Text</b> from mobile
+            keyword, pass <b class="+ topic/ph hi-d/b ">App</b> to <b class="+ topic/ph hi-d/b ">Input</b>.
+            <b class="+ topic/ph hi-d/b ">Scroll To Text</b> accepts <b class="+ topic/ph hi-d/b ">String</b>
+            type <b class="+ topic/ph hi-d/b ">parameter</b> (Text of the element to scroll
+            to).</li>
+      </ul>
+      <p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_alert_dialog_mobile_app/Handling-Alert-Dialog-in-Mobile-App-3.png" scope="external" class="- topic/image ">
+          <alt class="- topic/alt ">Handling Alert Dialog in Mobile App</alt>
+        </image>
+      </p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">Step 4: Call <b class="+ topic/ph hi-d/b ">Tap</b> method and pass the object of
+            <b class="+ topic/ph hi-d/b ">App</b>.</li>
+        <li class="- topic/li ">Step 5: Select <b class="+ topic/ph hi-d/b ">Scroll To Text</b> method and pass
+            the <b class="+ topic/ph hi-d/b ">Alert Dialogs</b> text.</li>
+      </ul>
+      <p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_alert_dialog_mobile_app/Handling-Alert-Dialog-in-Mobile-App-5.png" scope="external" class="- topic/image ">
+          <alt class="- topic/alt ">Handling Alert Dialog in Mobile App</alt>
+        </image>
+      </p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">Step 6: Tap on <b class="+ topic/ph hi-d/b ">Alert Dialogs</b>.</li>
+        <li class="- topic/li ">Step 7: Add another <b class="+ topic/ph hi-d/b ">Wait for Element Present</b>
+            keyword for object <b class="+ topic/ph hi-d/b ">App</b>/<b class="+ topic/ph hi-d/b ">Alert
+               Dialogs</b>.</li>
+        <li class="- topic/li ">Step 8: Call <b class="+ topic/ph hi-d/b ">Scroll To Text</b> from mobile
+            keyword, pass the input as <b class="+ topic/ph hi-d/b ">OK Cancel dialog with
+               traditional theme</b>.</li>
+        <li class="- topic/li ">Step 9: Call <b class="+ topic/ph hi-d/b ">Tap</b> method and pass the object of
+            <b class="+ topic/ph hi-d/b ">OK Cancel dialog with traditional theme</b>.</li>
+        <li class="- topic/li ">Step 10: Verify alert using <b class="+ topic/ph hi-d/b ">Verify Element
+               Visible</b> keyword.</li>
+        <li class="- topic/li ">Step 11: Capture the text of alert using <b class="+ topic/ph hi-d/b ">Get
+               Text</b> command and store it in a variable
+            <b class="+ topic/ph hi-d/b ">actual_AlertText.</b>
+        </li>
+        <li class="- topic/li ">Step 12: Verify <b class="+ topic/ph hi-d/b ">Actual</b> and
+            <b class="+ topic/ph hi-d/b ">Expected</b> alert texts by <b class="+ topic/ph hi-d/b ">Verify
+               Match</b> keyword.</li>
+      </ul>
+      <p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_alert_dialog_mobile_app/Handling-Alert-Dialog-in-Mobile-App-13.png" scope="external" class="- topic/image ">
+          <alt class="- topic/alt ">Handling Alert Dialog in Mobile App</alt>
+        </image>
+      </p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">Step 13: <b class="+ topic/ph hi-d/b ">Tap</b> on <b class="+ topic/ph hi-d/b ">OK</b>
+            Button.</li>
+      </ul>
+    </conbody>
+  </concept>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id_4" class="- topic/topic "><title class="- topic/title ">Extract and write the data</title><body class="- topic/body "><p class="- topic/p ">After adding the CSV file to the workspace, we create a test case that navigates to the shopping item page, then extracts and writes item information to the CSV file.</p><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">In Katalon Recorder, create a test suite, then create a test case inside that test suite. Click <b class="+ topic/ph hi-d/b ">Record</b> to start recording.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/write-and-extract-data/KR-5.8.0-New-test-case.png" scope="external" class="- topic/image "><alt class="- topic/alt ">KR new test case</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In an active browser tab, navigate to the AUT - Katalon Zack Market: <codeph class="+ topic/ph pr-d/codeph ">https://demo-store.katalon.com</codeph>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/write-and-extract-data/KR-5.8.0-AUT-page.png" scope="external" class="- topic/image "><alt class="- topic/alt ">AUT page</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click on a shopping item.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Get the item name and price.</p>
+                <p class="- topic/p ">While recording a test case, you can manually add a test step for an element by right-clicking on it.</p>
+                <p class="- topic/p ">To get item name, right-click on the name text and select <b class="+ topic/ph hi-d/b ">Katalon Recorder</b> &gt; <b class="+ topic/ph hi-d/b ">storeText</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/write-and-extract-data/KR-5.8.0-right-click-store-text-cropped.png" scope="external" class="- topic/image "><alt class="- topic/alt ">KR Right-click on AUT</alt></image>
+                </p>
+                <p class="- topic/p ">Katalon Recorder then asks you to enter the variable name that stores the name text. Here, we name the variable <codeph class="+ topic/ph pr-d/codeph ">itemName</codeph>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/write-and-extract-data/KR-5.8.0-Enter-variable-name-for-item-name.png" scope="external" class="- topic/image "><alt class="- topic/alt ">KR Right-click on AUT</alt></image>
+                </p>
+                <p class="- topic/p ">To get the item price, right-click on the price text and select <b class="+ topic/ph hi-d/b ">Katalon Recorder</b> &gt; <b class="+ topic/ph hi-d/b ">storeText</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/write-and-extract-data/KR-5.8.0-right-lick-store-text-item-price-cropped.png" scope="external" class="- topic/image "><alt class="- topic/alt ">KR Right-click on AUT</alt></image>
+                </p>
+                <p class="- topic/p ">Here, we name the variable for the price text <codeph class="+ topic/ph pr-d/codeph ">itemPrice</codeph>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/write-and-extract-data/KR-5.8.0-Enter-variable-name-for-item-price.png" scope="external" class="- topic/image "><alt class="- topic/alt ">KR Right-click on AUT</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Stop</b> to stop the test recording.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/write-and-extract-data/KR-5.8.0-stop-button.png" scope="external" class="- topic/image "><alt class="- topic/alt ">KR Stop button</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Write the name and price to the CSV file.</p>
+                <p class="- topic/p ">In the test case recorded, we add another test step and use the <codeph class="+ topic/ph pr-d/codeph ">appendToCSV</codeph> command to write the name and price to the added CSV file.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/write-and-extract-data/KR-5.8.0-appendToCSV-command.png" scope="external" class="- topic/image "><alt class="- topic/alt ">KR appendToCSV command</alt></image>
+                </p>
+                <table class="- topic/table "><tgroup cols="3" class="- topic/tgroup "><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Command</entry><entry class="- topic/entry ">Target</entry><entry class="- topic/entry ">Value</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry "> <codeph class="+ topic/ph pr-d/codeph ">appendToCSV</codeph>
+                                </entry><entry class="- topic/entry "> <codeph class="+ topic/ph pr-d/codeph ">name-price.csv</codeph>
+                                </entry><entry class="- topic/entry "> <codeph class="+ topic/ph pr-d/codeph ">${itemName}, ${itemPrice}</codeph>
+                                </entry></row></tbody></tgroup></table>
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Target</b> here is the name of the added CSV file.</p>
+                <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Value</b> field, we specify the values to write to the CSV file: <codeph class="+ topic/ph pr-d/codeph ">${itemName}</codeph> and <codeph class="+ topic/ph pr-d/codeph ">${itemPrice}</codeph>. The placeholder syntax <codeph class="+ topic/ph pr-d/codeph ">${variable_name}</codeph> here expands a variable into its value. As a result, when Katalon Recorder runs the <codeph class="+ topic/ph pr-d/codeph ">appendToCSV</codeph> command, it writes the name and price values to the next empty row of the <codeph class="+ topic/ph pr-d/codeph ">name-price.csv</codeph> file.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Play the test case until it finishes and download the CSV file.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/write-and-extract-data/KR-5.8.0-click-download-test-data.png" scope="external" class="- topic/image "><alt class="- topic/alt ">KR Download the CSV file</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Open the downloaded CSV file and verify the results.</p>
+                <p class="- topic/p ">The downloaded CSV file should display the extracted item name and price.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/write-and-extract-data/Downloaded-CSV.png" scope="external" class="- topic/image "><alt class="- topic/alt ">View the downloaded CSV file</alt></image>
+                </p>
+            </li></ol><note type="note" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">As a browser extension, Katalon Recorder cannot write data directly to the user file system; the extension only writes to the version of the data file that is added to the workspace. Therefore, you need to download the data file again to view the extracted data.</li></ul>
+        </note></body></topic>

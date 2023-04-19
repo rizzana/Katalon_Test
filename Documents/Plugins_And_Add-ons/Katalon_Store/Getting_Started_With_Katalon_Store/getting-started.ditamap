@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-getting-started" class="- map/map ">
+  <title class="- topic/title ">Getting Started with Katalon Store</title>
+  <topicref href="getting-started.dita" class="- map/topicref "><topicref href="sign_in_to_katalon_store.dita" class="- map/topicref "/>
+  <topicref href="find_and_install_plugins.dita" class="- map/topicref "/>
+  <topicref href="view_and_manage_installed_plugins.dita" class="- map/topicref ">
+    <topicref href="view_installed_plugins.dita" class="- map/topicref "/>
+    <topicref href="uninstall_a_plugin.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="download_plugin_packages.dita" class="- map/topicref "/>
+  <topicref href="ratings__reviews.dita" class="- map/topicref ">
+    <topicref href="view_ratings__reviews.dita" class="- map/topicref "/>
+    <topicref href="submit_a_review.dita" class="- map/topicref "/>
+  </topicref>
+</topicref>
+  </map>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Subscribe to <ph conkeyref="name-variables/katalon-platform" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">You can subscribe to <ph conkeyref="name-variables/katalon-platform" class="- topic/ph "/> in one of the following ways:<ul class="- topic/ul "><li class="- topic/li ">
+                    <p class="- topic/p "><xref href="https://katalon.com/pricing/" scope="external" class="- topic/xref ">Via Katalon website</xref>.</p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p "><xref href="via_testops_website.dita" class="- topic/xref ">Via TestOps website</xref>.</p>
+                </li></ul></p><note type="important" class="- topic/note ">
+                <ul class="- topic/ul "><li class="- topic/li ">
+                        <p class="- topic/p ">You have created a <xref format="html" href="https://www.katalon.com/sign-up/" scope="external" class="- topic/xref ">Katalon account</xref>.</p>
+                    </li></ul></note></conbody></concept>

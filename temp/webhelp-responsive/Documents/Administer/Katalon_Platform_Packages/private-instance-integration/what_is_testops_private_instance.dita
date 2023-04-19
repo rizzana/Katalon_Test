@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Administer/Katalon_Platform_Packages/private-instance-integration?><?workdir-uri file:/Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Administer/Katalon_Platform_Packages/private-instance-integration/?><?path2project ../../../../?><?path2project-uri ../../../../?><?path2rootmap-uri ../../../../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="id_1" class="- topic/topic concept/concept " ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/Katalon_Platform_Packages/private-instance-integration/what_is_testops_private_instance.dita" xtrc="concept:1;3:59" specializations="@props/deliveryTarget">
+    <title class="- topic/title " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/Katalon_Platform_Packages/private-instance-integration/what_is_testops_private_instance.dita" xtrc="title:1;4:35">What is TestOps Private Instance?</title>
+    <conbody class="- topic/body  concept/conbody " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/Katalon_Platform_Packages/private-instance-integration/what_is_testops_private_instance.dita" xtrc="conbody:1;5:53">
+      <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/Katalon_Platform_Packages/private-instance-integration/what_is_testops_private_instance.dita" xtrc="p:1;6:29">TestOps Private Instance is a single-tenant cloud architecture
+         where a single software instance and its supporting
+         infrastructure/database serve only one customer, a.k.a a
+         tenant.</p>
+      <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/Katalon_Platform_Packages/private-instance-integration/what_is_testops_private_instance.dita" xtrc="p:2;10:29">Users can have an isolated TestOps instance with separate
+         application nodes, isolated networking, and database resources.
+         This creates a more secure environment than a multi-tenant
+         architecture where a single software instance and database serve
+         multiple customers.</p>
+
+      <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/Katalon_Platform_Packages/private-instance-integration/what_is_testops_private_instance.dita" xtrc="p:3;16:29">To learn more about single-tenant and multi-tenant
+         architectures, you can refer to this Hubspot blog post: <xref format="html" href="https://blog.hubspot.com/service/single-vs-multi-tenant-saas" scope="external" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/Katalon_Platform_Packages/private-instance-integration/what_is_testops_private_instance.dita" xtrc="xref:1;17:193"><?ditaot usertext?>Single
+            vs Multi-Tenant SaaS Architecture</xref>.</p>
+      <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/Katalon_Platform_Packages/private-instance-integration/what_is_testops_private_instance.dita" xtrc="p:4;19:29">With TestOps Private Instance, you can benefit from:</p>
+      <ul class="- topic/ul " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/Katalon_Platform_Packages/private-instance-integration/what_is_testops_private_instance.dita" xtrc="ul:1;20:31">
+        <li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/Katalon_Platform_Packages/private-instance-integration/what_is_testops_private_instance.dita" xtrc="li:1;21:33">
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/Katalon_Platform_Packages/private-instance-integration/what_is_testops_private_instance.dita" xtrc="p:5;22:33">Data isolation: This is helpful for users working with sensitive
+               information and strict data storage requirements.</p>
+        </li>
+        <li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/Katalon_Platform_Packages/private-instance-integration/what_is_testops_private_instance.dita" xtrc="li:2;25:33">
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/Katalon_Platform_Packages/private-instance-integration/what_is_testops_private_instance.dita" xtrc="p:6;26:33">Data residency: This is helpful for users who must confirm where
+               their data lives or have compliance requirements, for example to be
+               in compliance with General Data Protection Regulation (GDPR).</p>
+        </li>
+        <li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/Katalon_Platform_Packages/private-instance-integration/what_is_testops_private_instance.dita" xtrc="li:3;30:33">
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/Katalon_Platform_Packages/private-instance-integration/what_is_testops_private_instance.dita" xtrc="p:7;31:33">Dedicated Katalon application: For users who have a predictable
+               workload and want stronger guarantees in performance, a dedicated
+               instance ensures that they perform tests without being interrupted
+               by maintenance or scaling issues.</p>
+        </li>
+        <li class="- topic/li " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/Katalon_Platform_Packages/private-instance-integration/what_is_testops_private_instance.dita" xtrc="li:4;36:33">
+          <p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/Katalon_Platform_Packages/private-instance-integration/what_is_testops_private_instance.dita" xtrc="p:8;37:33">No maintenance: While the dedicated instance offers better data
+               isolation and performance, it is still fully managed by Katalon.
+               This relieves customers from infrastructure management.</p>
+        </li>
+      </ul>
+    </conbody>
+  <related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="ditamap-8764" xtrc="topicref:2;3:286" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/Katalon_Platform_Packages/private-instance-integration/TestOps_Private_Instance_integration.ditamap"><link class="- topic/link " format="dita" href="../../../../Documents/Administer/Katalon_Platform_Packages/private-instance-integration/testops-private-instance.dita" mapclass="- map/topicref " role="parent" scope="local" xtrc="topicref:1;3:206" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Administer/Katalon_Platform_Packages/private-instance-integration/TestOps_Private_Instance_integration.ditamap"/></linkpool></related-links></concept>

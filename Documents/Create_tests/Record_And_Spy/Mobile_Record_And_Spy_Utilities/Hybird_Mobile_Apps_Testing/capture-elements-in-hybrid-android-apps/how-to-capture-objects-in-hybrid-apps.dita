@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Capture elements in hybrid Android apps in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Katalon Mobile Recorder/Spy utility can detect elements in
+         hybrid app rendered as native app, but cannot as Webview. This
+         tutorial provides a solution to capture Android hybrid mobile
+         elements in WebView with Appium and Chrome Devtools. You can learn
+         more about Android WebView functionalities from the Android
+         developer documentation here: <xref format="html" href="https://developer.android.com/reference/android/webkit/WebView" scope="external" class="- topic/xref ">WebView</xref>.</p></conbody></concept>

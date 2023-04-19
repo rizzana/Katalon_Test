@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_6" class="- topic/topic concept/concept "><title class="- topic/title ">Publish the plugin to <ph conkeyref="name-variables/katalon-store" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Once you’re done developing your plugins, submit them to
+         <ph conkeyref="name-variables/katalon-store" class="- topic/ph "/>. To learn more about submitting plugins to <ph conkeyref="name-variables/katalon-store" class="- topic/ph "/>, you can refer to this document: <xref href="../../Submit-and-publish-plugins/submit-plugin/submit-plugin.dita" class="- topic/xref ">Submit
+            plugins</xref>. Katalon will review your contents against <xref format="html" href="https://www.katalon.com/terms/#katalon-plugin-license-agreement" scope="external" class="- topic/xref ">our
+            policies</xref> before listing them on the <ph conkeyref="name-variables/katalon-store" class="- topic/ph "/>.</p></conbody></concept>

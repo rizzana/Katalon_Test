@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Create a Custom Keyword</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <ol class="- topic/ol ">
+        <li class="- topic/li ">
+          <p class="- topic/p ">Select <b class="+ topic/ph hi-d/b ">File &gt; New &gt;
+                  Keyword</b> from the main menu. The <b class="+ topic/ph hi-d/b ">New
+                  Keyword</b> dialog is displayed. Enter a name for your
+               keyword and specify a <b class="+ topic/ph hi-d/b ">package</b> for the
+               keyword. Click <b class="+ topic/ph hi-d/b ">OK</b>.</p>
+          <p class="- topic/p ">By default, a class name cannot start with a number, contain
+               spaces, or have special characters. The Java naming convention
+               suggests creating a class name using a noun or a noun phrase, with
+               the first letter of each word capitalized, to better manage the
+               project.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-to-custom-keywords/image2018-4-2-143A373A16.png" scope="external" class="- topic/image "/>
+          </p>
+          <note type="note" class="- topic/note ">
+
+            <p class="- topic/p ">You can generate sample custom keywords for Web, Mobile, and API
+                  Testing. Refer to <xref href="../Sample_Custom_Keywords/sample-custom-keywords.dita" class="- topic/xref ">this
+                     guide</xref>.</p>
+          </note>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">A new keyword is created under the
+               specified <b class="+ topic/ph hi-d/b ">package</b> accordingly.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-to-custom-keywords/image2017-2-6-153A503A48.png" scope="external" class="- topic/image "/>
+          </p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Enter the following code snippet in your class to define a
+               custom keyword:</p>
+          
+            <codeblock class="+ topic/pre pr-d/codeblock ">@Keyword (keywordObject = "&lt;category_name&gt;")
+def keywordName(parameters…) {
+// enter your code here
+// you can use either Groovy or Java
+}
+</codeblock>
+          
+          <p class="- topic/p ">where:</p>
+          <table class="- topic/table ">
+            <tgroup cols="3" class="- topic/tgroup ">
+              <thead class="- topic/thead ">
+                <row class="- topic/row ">
+                  <entry class="- topic/entry ">Item</entry>
+                  <entry class="- topic/entry ">Description</entry>
+                  <entry class="- topic/entry ">Required</entry>
+                </row>
+              </thead>
+              <tbody class="- topic/tbody ">
+                <row class="- topic/row ">
+                  <entry class="- topic/entry ">@Keyword</entry>
+                  <entry class="- topic/entry ">The annotation to indicate that the block of code below is the
+                        definition of a keyword.</entry>
+                  <entry class="- topic/entry ">Mandatory</entry>
+                </row>
+                <row class="- topic/row ">
+                  <entry class="- topic/entry ">keywordObject</entry>
+                  <entry class="- topic/entry ">The category of your custom keyword (available from version
+                        7.5.5)</entry>
+                  <entry class="- topic/entry ">Optional</entry>
+                </row>
+                <row class="- topic/row ">
+                  <entry class="- topic/entry ">keywordName</entry>
+                  <entry class="- topic/entry ">The name that you would like to use for your custom
+                        keyword</entry>
+                  <entry class="- topic/entry ">Mandatory</entry>
+                </row>
+                <row class="- topic/row ">
+                  <entry class="- topic/entry ">parameters</entry>
+                  <entry class="- topic/entry ">The list of parameters that would be used in the custom
+                        keyword</entry>
+                  <entry class="- topic/entry ">Mandatory</entry>
+                </row>
+              </tbody>
+            </tgroup>
+          </table>
+          <p class="- topic/p ">For example:</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-to-custom-keywords/image2017-2-6-163A203A3.png" scope="external" class="- topic/image "/>
+          </p>
+          <p class="- topic/p ">From version <b class="+ topic/ph hi-d/b ">7.5.5</b>, Custom Keywords in Keyword
+               Browser are put in alphabetical order, and you can categorize them.
+               In particular, the category name should be declared via
+               <codeph class="+ topic/ph pr-d/codeph ">keywordObject</codeph> with the same mechanism as the built-in
+               keywords. The below sample describes a keyword with the
+               “Browser“ category:</p>
+          
+            <codeblock class="+ topic/pre pr-d/codeblock ">@Keyword(keywordObject = "Browser")
+def refreshBrowser() {
+}
+</codeblock>
+          
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Save the <b class="+ topic/ph hi-d/b ">Keyword</b> file when you're
+               done.</p>
+        </li>
+      </ol>
+    </conbody>
+  </concept>

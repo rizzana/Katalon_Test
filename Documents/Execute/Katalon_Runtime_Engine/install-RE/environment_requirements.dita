@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Environment Requirements</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">Verify if your computer meets the <xref format="html" href="http://docs.katalon.com/display/KD/System+Requirements" scope="external" class="- topic/xref ">System
+               Requirements</xref> to work with Katalon Runtime Engine.</li>
+      </ul>
+    </conbody>
+  </concept>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id_3" class="- topic/topic "><title class="- topic/title ">Extract and verify textual patterns</title><body class="- topic/body "><p class="- topic/p ">To complete the scenario, we manually modify the test case to extract only the price from the displayed price text. Then, we verify that the price is in the correct pattern using a regex.</p><p class="- topic/p ">Open the recorded test case and follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Store the displayed price text. We want to store the price text into a variable.</p>
+                <p class="- topic/p ">To do so, we use the <codeph class="+ topic/ph pr-d/codeph ">storeText</codeph> command.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/extract-and-verify-textual-patterns/KR-5.8.0-storeText-command.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Katalon Recorder storeText command</alt></image>
+                </p>
+                <p class="- topic/p ">We need to capture the <b class="+ topic/ph hi-d/b ">Target</b> (the price text locator) for the command. Click on the <b class="+ topic/ph hi-d/b ">Selector</b> tool, then hover the cursor over and select the price text on the page.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/extract-and-verify-textual-patterns/KR-5.8.0-Selector-tool.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Katalon Recorder capture target</alt></image>
+                </p>
+                <p class="- topic/p ">In our case, the captured locator is the XPath: <codeph class="+ topic/ph pr-d/codeph ">xpath=//div[@id='root']/div/div/div/div[2]/div/div[2]/div/div[3]</codeph>. We then store the text into the <codeph class="+ topic/ph pr-d/codeph ">displayedPrice</codeph> variable.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/extract-and-verify-textual-patterns/KR-5.8.0-storeText-command-with-target-and-value.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Katalon Recorder complete storeText command</alt></image>
+                </p>
+                <table class="- topic/table "><tgroup cols="3" class="- topic/tgroup "><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Command</entry><entry class="- topic/entry ">Target</entry><entry class="- topic/entry ">Value</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry "> <codeph class="+ topic/ph pr-d/codeph ">storeText</codeph>
+                                </entry><entry class="- topic/entry "> <codeph class="+ topic/ph pr-d/codeph ">xpath=//div[@id='root']/div/div/div/div[2]/div/div[2]/div/div[3]</codeph>
+                                </entry><entry class="- topic/entry "> <codeph class="+ topic/ph pr-d/codeph ">displayedPrice</codeph>
+                                </entry></row></tbody></tgroup></table>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Extract the item price.</p>
+                <p class="- topic/p ">We use the <codeph class="+ topic/ph pr-d/codeph ">storeEval</codeph> command to extract the item price <codeph class="+ topic/ph pr-d/codeph ">$25.99</codeph> (the first six characters) from the text.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/extract-and-verify-textual-patterns/KR-5.8.0-storeEval-command.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Katalon Recorder storeEval command with a Javascript expression</alt></image>
+                </p>
+                <table class="- topic/table "><tgroup cols="3" class="- topic/tgroup "><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Command</entry><entry class="- topic/entry ">Target</entry><entry class="- topic/entry ">Value</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry "> <codeph class="+ topic/ph pr-d/codeph ">storeEval</codeph>
+                                </entry><entry class="- topic/entry "> <codeph class="+ topic/ph pr-d/codeph ">"${displayedPrice}".substring(0, 6)</codeph>
+                                </entry><entry class="- topic/entry "> <codeph class="+ topic/ph pr-d/codeph ">itemPrice</codeph>
+                                </entry></row></tbody></tgroup></table>
+                <p class="- topic/p ">The <codeph class="+ topic/ph pr-d/codeph ">storeEval</codeph> command evaluates a Javascript expression, then stores the result into a variable. In our example, the target Javascript expression is <codeph class="+ topic/ph pr-d/codeph ">"${displayedPrice}".substring(0, 6)</codeph>. Here, <codeph class="+ topic/ph pr-d/codeph ">substring()</codeph> is a method that extracts characters from a string, given two indices.</p>
+                <p class="- topic/p ">The expression evaluates the <codeph class="+ topic/ph pr-d/codeph ">displayedPrice</codeph> variable into its value. Then it extracts and stores the first six characters into the <codeph class="+ topic/ph pr-d/codeph ">itemPrice</codeph>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Verify the item price with regex.</p>
+                <p class="- topic/p ">We use the <codeph class="+ topic/ph pr-d/codeph ">verifyEval</codeph> command with a regex in the <b class="+ topic/ph hi-d/b ">Value</b> field. This command verifies that the item price is displayed in the correct price pattern.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/extract-and-verify-textual-patterns/KR-5.8.0-verifyEval-command.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Katalon Recorder verifyEval command with a Javascript expression and regular expression</alt></image>
+                </p>
+                <table class="- topic/table "><tgroup cols="3" class="- topic/tgroup "><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Command</entry><entry class="- topic/entry ">Target</entry><entry class="- topic/entry ">Value</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry "> <codeph class="+ topic/ph pr-d/codeph ">verifyEval</codeph>
+                                </entry><entry class="- topic/entry "> <codeph class="+ topic/ph pr-d/codeph ">"${itemPrice}"</codeph>
+                                </entry><entry class="- topic/entry "> <codeph class="+ topic/ph pr-d/codeph ">regexp:^[$](\d+\.\d+)</codeph>
+                                </entry></row></tbody></tgroup></table>
+                <p class="- topic/p ">To input a regex as a value, we prefix the expression with <codeph class="+ topic/ph pr-d/codeph ">regexp:</codeph>. For our purpose, we use the regex <codeph class="+ topic/ph pr-d/codeph ">^[$](\d+\.\d+)</codeph> that checks if the item price starts with a dollar sign and ends with a numeric value.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Play the test case and verify the <b class="+ topic/ph hi-d/b ">Log</b> view results.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/extract-and-verify-textual-patterns/KR-5.8.0-Log-view-results.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Katalon Recorder Log view results</alt></image>
+                </p>
+            </li></ol></body></topic>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">In test request object view</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">You can add Web Services request to test case
+         directly from the test request object view. Click on the <i class="+ topic/ph hi-d/i ">plus</i> icon to add Web Services request to a new test case or any existing
+         test case.</p><p class="- topic/p ">
+        
+      <image width="700" href="image/ks-841-add-ws-object.png" class="- topic/image "><alt class="- topic/alt ">add web service object</alt></image></p></conbody></concept>

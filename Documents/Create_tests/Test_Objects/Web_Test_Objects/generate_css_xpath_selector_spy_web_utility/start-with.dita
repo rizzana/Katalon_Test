@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_8" class="- topic/topic concept/concept "><title class="- topic/title ">Start-with()</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">The Start-with method finds the element using the starting text of an attribute. This method is useful when the first part of the attribute value is fixed (static), and the rest is dynamic.</p><p class="- topic/p ">Example:</p><p class="- topic/p ">To find the line: "We Care About Your Health", use the Starts-with() method to find the line that starts with "We Care About".</p><p class="- topic/p ">XPath:</p><codeblock class="+ topic/pre pr-d/codeblock ">//h3[starts-with(text(),'We Care About')]
+</codeblock><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/generate_css_xpath_selector_spy_web_utility/start-with-example.png" scope="external" class="- topic/image "><alt class="- topic/alt ">start with</alt></image>
+        </p></conbody></concept>

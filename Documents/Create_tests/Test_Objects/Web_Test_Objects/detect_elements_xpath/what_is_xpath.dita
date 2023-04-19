@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">What is XPath?</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">XPath stands for XML Path Language. In an XML document, XPath
+         uses path expressions to navigate through elements, attributes, and
+         select nodes or node-sets.</p>
+
+      <p class="- topic/p ">On a webpage using the HTML DOM (Document Object Model)
+         structure, you can also use XPath to find the location of any
+         element. To learn more about HTML DOM, you can refer to the
+         W3schools documentation: <xref format="html" href="https://www.w3schools.com/whatis/whatis_htmldom.asp" scope="external" class="- topic/xref ">What is
+            the HTML DOM?</xref>
+      </p>
+      <p class="- topic/p ">There are two types of XPath: absolute XPath and relative XPath
+         (smart XPath).</p>
+    </conbody>
+    
+    
+  </concept>

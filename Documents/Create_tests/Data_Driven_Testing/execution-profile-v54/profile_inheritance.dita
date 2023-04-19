@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">Profile Inheritance</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Profile Inheritance</b> reduces your effort spent on modification and recreation of the same global variables in derived profiles. Suppose Katalon Studio does not find variables used in the test within the designated profile (any profiles but default). In that case, it will look into the default profile and use its variables to execute the test.</p><p class="- topic/p "> <b class="+ topic/ph hi-d/b ">How to utilize Profile Inheritance</b>
+        </p><p class="- topic/p ">Commonly used global variables should be stored in the <b class="+ topic/ph hi-d/b ">default</b> profile and should store other sets of global variables in the <b class="+ topic/ph hi-d/b ">derived</b> (custom) profiles to avoid duplicated code and for better management.</p><p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Running the examples</b>
+        </p><p class="- topic/p ">The following examples illustrate how the <b class="+ topic/ph hi-d/b ">Profile Inheritance</b> feature works.</p><ul class="- topic/ul "><li class="- topic/li ">
+                <p class="- topic/p ">Given the following test case:</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/inherit-sample.png" scope="external" class="- topic/image "/>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Execute default profile with the given test case:</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/inherit-default-profile.png" scope="external" class="- topic/image "/>
+                </p>
+                <p class="- topic/p ">The result is shown as below:</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/inherit-console-default.png" scope="external" class="- topic/image "/>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Execute stagging and production profile with the given test case:</p>
+                <p class="- topic/p ">When executing the stagging and production profiles, the <b class="+ topic/ph hi-d/b ">name</b>, <b class="+ topic/ph hi-d/b ">serveURL</b>, and <b class="+ topic/ph hi-d/b ">credential</b> variables are overridden (highlighted in red), while the <b class="+ topic/ph hi-d/b ">usage</b> and <b class="+ topic/ph hi-d/b ">reference</b> variables are inherited (highlighted in blue) from the global variables in the default profile.</p>
+                <ul class="- topic/ul "><li class="- topic/li ">
+                        <p class="- topic/p ">Stagging profile:</p>
+                        <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/inherit-stagging-profile.png" scope="external" class="- topic/image "/>
+                        </p>
+                        <p class="- topic/p ">The result is shown as below:</p>
+                        <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/inherit-console-stagging.png" scope="external" class="- topic/image "/>
+                        </p>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p ">Production profile:</p>
+                        <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/inherit-production-profile.png" scope="external" class="- topic/image "/>
+                        </p>
+                        <p class="- topic/p ">The result is shown as below:</p>
+                        <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-profile-v54/inherit-console-production.png" scope="external" class="- topic/image "/>
+                        </p>
+                    </li></ul>
+            </li></ul></conbody></concept>

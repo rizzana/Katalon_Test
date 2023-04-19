@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Using autoIT for authentication in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">
+      <xref href="/display/KD/%5BWebUI%5D+Authenticate" scope="external" class="- topic/xref ">WebUI.authenticate</xref>
+         keyword in Katalon Studio would work well on Firefox browser, but
+         the function might not work on other browsers due to unknown
+         reasons. This guide will provide you a workaround solution for
+         handling authentication on different browsers is
+         using autoIT.</p><p class="- topic/p ">This would be applicable for Chrome, Firefox and Edge.</p><p class="- topic/p ">
+      <b class="+ topic/ph hi-d/b ">Requirements</b>
+    </p><ul class="- topic/ul "><li class="- topic/li ">
+        <p class="- topic/p ">Get the latest version of Katalon Studio: <xref format="html" href="https://www.katalon.com/" scope="external" class="- topic/xref ">https://www.katalon.com/</xref>
+        </p>
+      </li><li class="- topic/li ">
+
+        <p class="- topic/p ">Install autoIT (Autoit Full Installation and AutoIt Script
+               Editor) at <xref format="html" href="https://www.autoitscript.com/site/autoit/downloads/" scope="external" class="- topic/xref ">https://www.autoitscript.com/site/autoit/downloads/</xref>
+        </p>
+      </li></ul><p class="- topic/p ">
+      <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/using-autoit-for-authentication-in-katalon-studio/wpMJM58XL4bJUF-zmJZPMKebEtKP5jEyWJJpawmha20-V2RugS" scope="external" class="- topic/image "/>
+    </p><p class="- topic/p ">3. <b class="+ topic/ph hi-d/b ">Steps Details:</b>
+    </p><ol class="- topic/ol "><li class="- topic/li ">Working with AutoIt file:</li></ol><ul class="- topic/ul "><li class="- topic/li ">
+        <p class="- topic/p ">Proceed to edit credential to your own account:</p>
+        <ul class="- topic/ul "><li class="- topic/li ">
+            <p class="- topic/p ">Open autoIt Script Editor (SciTE)</p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">Open (or create new) autoit file with contents:</p>
+          </li></ul>
+      </li></ul><note type="note" class="- topic/note ">
+      <p class="- topic/p ">Change your own credential at "Username" and "Password"
+            fields</p>
+    </note><codeblock outputclass="language-java" class="+ topic/pre pr-d/codeblock ">WinWaitActive("","Authentication Required","10")
+WinFlash("", "Authentication Required",4,500)
+If WinExists("","Authentication Required") Then
+  Send("Username{TAB}")
+  Send("Password{Enter}")
+ElseIf WinExists("","Chrome Legacy Window")Then
+  Send("Username{TAB}")
+  Send("Password{Enter}")
+ElseIf WinExists("","Windows Security") Then
+  Send("Username{TAB}")
+  Send("Password{Enter}")
+EndIf
+</codeblock><ul class="- topic/ul "><li class="- topic/li ">
+        <p class="- topic/p ">Save this file to your desired location. You would have a file
+               with *au3 format. Right click on file and select "Compile Script"
+               option to create .exe file.</p>
+        <p class="- topic/p ">         b. Adding steps to call autoIt
+               (*.exe) file in Katalon Studio Script Mode</p>
+      </li></ul><codeblock class="+ topic/pre pr-d/codeblock ">WebUI.openBrowser('') 
+autoit_prj = '[your_autoit_file_path].exe' 
+Runtime.getRuntime().exec(autoit_prj) 
+Thread.sleep(3000);
+WebUI.navigateToUrl('Your test site url')
+</codeblock><p class="- topic/p ">For example:</p><codeblock class="+ topic/pre pr-d/codeblock ">WebUI.openBrowser('')
+ 
+//Sample path. Change it to your saved location of autoIT script
+autoit_prj = 'D:\\PS-Katalon\\AutoIT\\Authentication_Custom.exe'
+Runtime.getRuntime().exec(autoit_prj)
+Thread.sleep(3000);
+ 
+//Sample URL. Please change it to your authentication URL
+WebUI.navigateToUrl('http://the-internet.herokuapp.com/basic_auth')
+</codeblock><p class="- topic/p ">Now it's all done. You can run your test case to see how it
+         works.</p></conbody></concept>

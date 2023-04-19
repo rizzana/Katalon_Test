@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">Select all options</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">The <codeph class="+ topic/ph pr-d/codeph ">selectAllOption</codeph> selects all options from a list.</p><p class="- topic/p ">In <uicontrol class="+ topic/ph ui-d/uicontrol ">Manual View</uicontrol>: <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/how_handle_drop_down_menu/SelectAll_Manual.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Sample test case with keyword selectAllOption</alt></image></p><p class="- topic/p ">In <uicontrol class="+ topic/ph ui-d/uicontrol ">Script View</uicontrol>:<codeblock class="+ topic/pre pr-d/codeblock ">'Launch Browser'
+ 
+WebUI.openBrowser('C:\\\\Users\\\\User\\\\Desktop\\\\DropDown\\\\MultiSelection_dropDown.html')
+ 
+'Maximize the window'
+ 
+WebUI.maximizeWindow()
+ 
+'Selecting all Options'
+ 
+WebUI.selectAllOption(findTestObject('comboBox_Role'))
+</codeblock></p></conbody></concept>

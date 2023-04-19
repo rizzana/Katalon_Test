@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Update a Submodule</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">The keyword package hosted on GitHub might change following an
+         update from other collaborators.</p><p class="- topic/p ">In our example, a new custom keyword file is added to the remote
+         repository:</p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration-submodules/KS-remote-repo-newly-added-file.png" scope="external" width="700" class="- topic/image "><alt class="- topic/alt ">New keyword file added on Github repository</alt></image>
+      </p><p class="- topic/p ">To update the local keyword package with the latest files from
+         the remote repository, we use the <codeph class="+ topic/ph pr-d/codeph ">git submodule update
+            --remote</codeph> command.</p><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+          <p class="- topic/p ">Open <b class="+ topic/ph hi-d/b ">Terminal</b>, then go to the
+               <codeph class="+ topic/ph pr-d/codeph ">Keywords</codeph> folder in the test project directory.</p>
+          
+            <codeblock class="+ topic/pre pr-d/codeblock ">$ cd healthcare-tests/Keywords
+</codeblock>
+          
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Update the submodule with the <codeph class="+ topic/ph pr-d/codeph ">git submodule update
+                  --remote</codeph> command.</p>
+          <p class="- topic/p ">The <codeph class="+ topic/ph pr-d/codeph ">git submodule update --remote</codeph> command updates
+               the keyword package by pulling all the files from the remote
+               repository into the package folder.</p>
+          
+            <codeblock class="+ topic/pre pr-d/codeblock ">$ git submodule update --remote
+</codeblock>
+          
+          <p class="- topic/p ">If you check the <codeph class="+ topic/ph pr-d/codeph ">mykeywords</codeph> package folder, you can
+               see that the new keyword file is added.</p>
+          
+            <codeblock class="+ topic/pre pr-d/codeblock ">$ ls mykeywords/
+HighlightElement.groovy
+VerifyDrodownValues_AlphabeticalOrder.groovy
+VerifyExpectedAndActualOptionsInDropdown.groovy
+refreshBrowser.groovy # Added keyword file
+</codeblock>
+          
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Add and commit the changes.</p>
+          
+            <codeblock class="+ topic/pre pr-d/codeblock ">$ git add .
+$ git commit -m "Add the new keyword after submodule update"
+</codeblock>
+          
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Verify that the new keyword file is added. Open the project in
+               Katalon Studio, from the main toolbar, select <b class="+ topic/ph hi-d/b ">Project &gt;
+                  Refresh</b>.</p>
+          <p class="- topic/p ">Katalon Studio should display the updated keyword file.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/git-integration-submodules/KS-Keywords-updated-keyword.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">New keyword file added in Test Explorer</alt></image>
+          </p>
+        </li></ol></conbody></concept>

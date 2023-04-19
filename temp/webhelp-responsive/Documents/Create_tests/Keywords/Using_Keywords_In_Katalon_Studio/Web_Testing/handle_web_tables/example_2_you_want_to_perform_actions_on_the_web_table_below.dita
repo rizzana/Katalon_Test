@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?><?workdir /Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables?><?workdir-uri file:/Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/?><?path2project ../../../../../../?><?path2project-uri ../../../../../../?><?path2rootmap-uri ../../../../../../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="id_4" class="- topic/topic concept/concept " ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/example_2_you_want_to_perform_actions_on_the_web_table_below.dita" xtrc="concept:1;3:59" specializations="@props/deliveryTarget"><title class="- topic/title " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/example_2_you_want_to_perform_actions_on_the_web_table_below.dita" xtrc="title:1;3:89">Example 2: You want to perform actions on the Web table
+         below</title><conbody class="- topic/body  concept/conbody " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/example_2_you_want_to_perform_actions_on_the_web_table_below.dita" xtrc="conbody:1;4:71"><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/example_2_you_want_to_perform_actions_on_the_web_table_below.dita" xtrc="p:1;4:93">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_web_tables/Web-table.png" scope="external" class="- topic/image " placement="inline" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/example_2_you_want_to_perform_actions_on_the_web_table_below.dita" xtrc="image:1;5:179"><alt class="- topic/alt " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/example_2_you_want_to_perform_actions_on_the_web_table_below.dita" xtrc="alt:1;5:205">Web-table</alt></image>
+        </p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/example_2_you_want_to_perform_actions_on_the_web_table_below.dita" xtrc="p:2;6:35">
+          <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/example_2_you_want_to_perform_actions_on_the_web_table_below.dita" xtrc="b:1;7:41">Scenario:</b>
+        </p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/example_2_you_want_to_perform_actions_on_the_web_table_below.dita" xtrc="p:3;8:35">Let's say we need to edit a student record that has the
+         graduation year of 2018</p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/example_2_you_want_to_perform_actions_on_the_web_table_below.dita" xtrc="p:4;9:59">
+          <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/example_2_you_want_to_perform_actions_on_the_web_table_below.dita" xtrc="b:2;10:41">Script Mode:</b>
+        </p><codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/example_2_you_want_to_perform_actions_on_the_web_table_below.dita" xtrc="codeblock:1;11:60">import org.openqa.selenium.By as By
+ 
+import org.openqa.selenium.WebDriver as WebDriver
+ 
+import org.openqa.selenium.WebElement as WebElement
+ 
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+ 
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+ 
+WebUI.openBrowser('D:\\\\Katalon Tutorial\\\\Katalon Tutorial\\\\WebTable_Handling_Scenario2.html')
+ 
+WebUI.maximizeWindow()
+ 
+'Expected value from Table'
+ 
+String ExpectedValue = '2018'
+ 
+WebDriver driver = DriverFactory.getWebDriver()
+ 
+'To locate table'
+ 
+WebElement Table = driver.findElement(By.xpath('//table/tbody'))
+ 
+'To locate rows of table it will Capture all the rows available in the table '
+ 
+List&lt;WebElement&gt; Rows = Table.findElements(By.tagName('tr'))
+ 
+println('No. of rows: ' + Rows.size())
+ 
+'Find a matching text in a table and performing action'
+ 
+'Loop will execute for all the rows of the table'
+ 
+table: for (int i = 0; i &lt; Rows.size(); i++) {
+ 
+'To locate columns(cells) of that specific row'
+ 
+List&lt;WebElement&gt; Cols = Rows.get(i).findElements(By.tagName('td'))
+ 
+for (int j = 0; j &lt; Cols.size(); j++) {
+ 
+'Verifying the expected text in the each cell'
+ 
+if (Cols.get(j).getText().equalsIgnoreCase(ExpectedValue)) {
+ 
+'To locate anchor in the expected value matched row to perform action'
+ 
+Cols.get(4).findElement(By.tagName('a')).click()
+ 
+table: break
+ 
+}
+ 
+}
+ 
+}
+
+</codeblock><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/example_2_you_want_to_perform_actions_on_the_web_table_below.dita" xtrc="p:5;69:35">
+          <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/example_2_you_want_to_perform_actions_on_the_web_table_below.dita" xtrc="b:3;70:41">Manual Mode:</b>
+        </p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/example_2_you_want_to_perform_actions_on_the_web_table_below.dita" xtrc="p:6;71:35">Switch to <b class="+ topic/ph hi-d/b " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/example_2_you_want_to_perform_actions_on_the_web_table_below.dita" xtrc="b:4;71:75">manual mode</b> tab to view test case
+         step by step.</p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/example_2_you_want_to_perform_actions_on_the_web_table_below.dita" xtrc="p:7;72:49">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handle_web_tables/Handle-webtable-2.png" scope="external" class="- topic/image " placement="inline" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/example_2_you_want_to_perform_actions_on_the_web_table_below.dita" xtrc="image:2;73:187"><alt class="- topic/alt " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/example_2_you_want_to_perform_actions_on_the_web_table_below.dita" xtrc="alt:2;73:213">Handle-webtable-2</alt></image>
+        </p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/example_2_you_want_to_perform_actions_on_the_web_table_below.dita" xtrc="p:8;74:35">Examples above provide a basic understanding on how to handle
+         web tables in Katalon Studio. If you are new to automation testing,
+         it is recommended to take advantage of Manual Mode in Katalon
+         Studio. For advanced testers, Script Mode provides you flexibility
+         in creating and manipulating tests. Please download the source code
+         <xref format="html" href="https://github.com/katalon-studio/katalon-web-automation" scope="external" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/example_2_you_want_to_perform_actions_on_the_web_table_below.dita" xtrc="xref:1;79:133"><?ditaot usertext?>here</xref>.</p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/example_2_you_want_to_perform_actions_on_the_web_table_below.dita" xtrc="p:9;79:171">For further instructions and help, please refer to <xref href="../../../../../Get_Started/Set_Up_Your_Workspace/Set_Up_Overview_In_Katalon_Studio/Set_up_overview1.dita" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/example_2_you_want_to_perform_actions_on_the_web_table_below.dita" xtrc="xref:2;79:362" type="concept"><?ditaot usertext?>Katalon Studio
+            Tutorials<?ditaot genshortdesc?><desc class="- topic/desc ">This article guide you through setting up your workspace to start working with <ph class="- topic/ph " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Global_reuse/Name_variables_warehouse/Common_phrases.dita" xtrc="ph:17;3:4537">Katalon Platform</ph>.</desc></xref> and <xref format="html" href="https://forum.katalon.com/" scope="external" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/example_2_you_want_to_perform_actions_on_the_web_table_below.dita" xtrc="xref:3;80:127"><?ditaot usertext?>Katalon Forum</xref>.</p></conbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="ditamap-8764" xtrc="topicref:5;8:113" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/handle_web_tables.ditamap"><link class="- topic/link " format="dita" href="../../../../../../Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/handle_web_tables_with_katalon_studio.dita" mapclass="- map/topicref " role="parent" scope="local" type="concept" xtrc="topicref:3;6:87" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Create_tests/Keywords/Using_Keywords_In_Katalon_Studio/Web_Testing/handle_web_tables/handle_web_tables.ditamap"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>Handle web tables with Katalon Studio</linktext></link></linkpool></related-links></concept>

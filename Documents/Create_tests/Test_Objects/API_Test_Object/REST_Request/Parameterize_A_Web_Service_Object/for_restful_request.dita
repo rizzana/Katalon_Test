@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">For RESTful request</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">Katalon Studio supports calling the declared variables in the
+         following places of a RESTful Web Service object.</p>
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">URL</li>
+          <li class="- topic/li ">Query Parameters</li>
+          <li class="- topic/li ">HTTP Header</li>
+          <li class="- topic/li ">HTTP Body</li>
+          <li class="- topic/li ">Verification</li>
+        </ul>
+        <p class="- topic/p ">The screenshot below illustrates an example of using the
+         '<b class="+ topic/ph hi-d/b ">status</b>' variable in a URL.</p>
+        <p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/updated-parameterize-a-web-service-object/Screen-Shot-2018-09-18-at-5.10.01-PM.png" scope="external" class="- topic/image "/>
+        </p>
+      </conbody>
+    </concept>

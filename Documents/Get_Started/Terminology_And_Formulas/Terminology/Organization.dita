@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN" "glossentry.dtd">
+<glossentry id="glossentry-5553" class="- topic/topic concept/concept glossentry/glossentry "><glossterm class="- topic/title concept/title glossentry/glossterm ">Organization</glossterm><glossdef class="- topic/abstract concept/abstract glossentry/glossdef ">An organization is created in Katalon TesOps to brings together all users, teams, and projects of a company.<p class="- topic/p ">In TestOps, the organization level is the highest level of management, followed by the team level and the project level.</p></glossdef></glossentry>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">View the license information</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">You can verify the subscription information and view all license information by following these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Sign in to <xref format="html" href="https://testops.katalon.io/login" scope="external" class="- topic/xref ">Katalon TestOps</xref>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Settings</b> &gt; <b class="+ topic/ph hi-d/b ">License Management</b>.</p>
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">License Management</b> page appears.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Select a Katalon product. For example, <b class="+ topic/ph hi-d/b ">Katalon Studio Enterprise (per-User)</b>.</p>
+                <p class="- topic/p ">The page displays as below.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-mgt/license-management-page-ui-mar2022.png" scope="external" class="- topic/image "><alt class="- topic/alt ">licenses page</alt></image>
+                </p>
+                <ul class="- topic/ul "><li class="- topic/li ">
+                        <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Subscription Details</b> section, you can see the following information:</p>
+                        <ul class="- topic/ul "><li class="- topic/li "> <b class="+ topic/ph hi-d/b ">Subscribed Licenses</b>: the total number of licenses you have purchased, also known as your license quota.</li><li class="- topic/li ">
+                                <p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Available Licenses</b>: the remaining licenses you can use.</p>
+                                <note type="note" class="- topic/note ">
+                                    <ul class="- topic/ul "><li class="- topic/li ">Licenses attributed online, as well as offline licenses you have generated, are substracted from your license quota.</li></ul>
+                                </note>
+                            </li><li class="- topic/li "><b class="+ topic/ph hi-d/b ">Machine Quota</b>: the maximum number of machines that can be registered with your licenses. </li><li class="- topic/li "><b class="+ topic/ph hi-d/b ">Expiry Date</b>: the date when your licenses expire. </li></ul>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Licensed Users</b> section, you can add users for license usage. You can also view a list of users you have added for license usage.</p>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Online Licenses</b> section, you can see a list of active machine IDs (users who are currently using the licenses online).</p>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Offline Licenses</b> section, you can see a list of machine IDs bound to offline licenses.</p>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Registered Machines</b> section, you can see a list of all machine IDs that are using either types of licenses.</p>
+                    </li></ul>
+            </li></ol><note type="note" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">Contact us at license@katalon.com if you need further help with your licenses.</li></ul>
+        </note></conbody></concept>

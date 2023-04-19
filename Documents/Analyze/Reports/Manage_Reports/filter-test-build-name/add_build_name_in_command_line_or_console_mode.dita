@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Add Build name in Command Line or Console Mode</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Follow these steps:<ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p ">Open Command prompt.</p></li><li class="- topic/li "><p class="- topic/p ">Find the Command Line option <codeph class="+ topic/ph pr-d/codeph ">--info -buildLabel</codeph> and edit it with your
+         own info.</p></li></ol></p><note type="note" class="- topic/note ">
+        
+        <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">You can find it in <xref format="html" href="https://docs.katalon.com/katalon-studio/docs/console-mode-execution.html#general-options" scope="external" class="- topic/xref ">this
+               list of <codeph class="+ topic/ph pr-d/codeph ">katalonc</codeph> command options</xref>.</p></li></ul>
+      </note></conbody></concept>

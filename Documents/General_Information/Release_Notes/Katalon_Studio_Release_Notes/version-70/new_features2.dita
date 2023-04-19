@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_17" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">New features</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+
+          <li class="- topic/li ">[Katalon Record Utility] Support adding verification test steps
+            during recording with Chrome, Edge (Chromium-based), and Firefox.
+            <xref href="../../../../Create_tests/Record_And_Spy/WebUI_Record_And_Spy_Utilities/record-web-utility/validate_ui_elements.dita" class="- topic/xref ">Learn
+               more</xref>.</li>
+
+          <li class="- topic/li ">[Katalon Studio Enterprise - Web Service Testing] Import
+            RESTful API with OpenAPI Specification 3.0. <xref href="../../../../Create_tests/Test_Objects/API_Test_Object/Import-Web-Service-Objects/import-openapi30/import-openapi30.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li>
+
+          <li class="- topic/li ">[Web Service Testing] Import RESTful requests from WADLs. <xref href="../../../../Create_tests/Test_Objects/API_Test_Object/Import-Web-Service-Objects/import-wadl/import-wadl.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li>
+
+          <li class="- topic/li ">[Windows Testing] Support passing Capabilities including
+            <codeph class="+ topic/ph pr-d/codeph ">appArguments</codeph> and <codeph class="+ topic/ph pr-d/codeph ">appWorkingDir</codeph> for Native
+            Windows Recorder. <xref href="../../../../Create_tests/Manage_Projects/Project_Settings/Desired_Capabilities/introduction-to-desired-capabilities/introduction-to-desired-capabilities.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li>
+          <li class="- topic/li ">Support using Global Variables in Email Settings. <xref href="../../../../Analyze/Reports/Manage_Reports/Share-reports-via-emails-in-Studio/support_global_variables_in_email_settings.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li>
+
+          <li class="- topic/li ">[Katalon Runtime Engine] Allow selecting an Organization for
+            license validation when activating Katalon Runtime Engine. <xref href="../../../../Administer/Administrative_Tasks/License_Management/grant-katalon-licenses/grant-katalon-licenses.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li>
+
+          <li class="- topic/li ">[Katalon TestOps (Beta) Integration] Support integration with
+            Katalon TestOps Vision for visual testing. <xref format="html" href="https://forum.katalon.com/t/visual-testing-image-comparison-with-katalon-studio-7-8-0-and-katalon-testops/45557" scope="external" class="- topic/xref ">Learn
+               more</xref>
+          </li>
+        </ul>
+      </conbody>
+    </concept>

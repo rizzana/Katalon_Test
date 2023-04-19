@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">View test scripts in <ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p "><ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/> presents test cases and test suites in a folder-based view that
+         mirrors the organization of your script repository.</p><p class="- topic/p ">This document navigates you to where the uploaded test cases and test suites are stored and
+         how they are presented in <ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/> to help you manage your test
+         scripts effectively.</p></conbody></concept>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Create a Test Case in Katalium Framework</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Test cases are essentially TestNG's test classes. Katalium
+         Framework provides an abstract class
+         <codeph class="+ topic/ph pr-d/codeph ">com.katalon.kata.testng.TestTemplate</codeph> with some
+         convenient utilities:</p><ul class="- topic/ul "><li class="- topic/li ">
+        <p class="- topic/p ">WebDriver is initialized before each test method and can be
+               accessed with <codeph class="+ topic/ph pr-d/codeph ">this.driver</codeph> or <codeph class="+ topic/ph pr-d/codeph ">driver</codeph>. If
+               the test method ends with a <codeph class="+ topic/ph pr-d/codeph ">driver.quit()</codeph> statement, a
+               new WebDriver will be created for the next test method.</p>
+      </li><li class="- topic/li ">
+
+        <p class="- topic/p ">Page instances are also preinitialized using Selenium's
+               <codeph class="+ topic/ph pr-d/codeph ">PageFactory</codeph>. Refer to <xref href="../katalium-framework-page-object-model/katalium-framework-page-object-model.dita" class="- topic/xref ">this
+                  article</xref> to learn more about the Page Object Model.</p>
+      </li></ul><p class="- topic/p ">Here is a very simple Selenium test (<xref format="html" href="https://github.com/katalon-studio/katalium-sample/blob/master/src/test/java/com/katalon/kata/sample/testcase/simple/LoginTest.java" scope="external" class="- topic/xref ">source
+            code</xref>):</p><codeblock class="+ topic/pre pr-d/codeblock ">package com.katalon.kata.sample.testcase.simple;
+
+import com.katalon.kata.sample.Constants;
+import com.katalon.kata.sample.page.CuraAppoinmentPage;
+import com.katalon.kata.sample.page.CuraHomePage;
+import com.katalon.kata.sample.page.CuraLoginPage;
+import com.katalon.kata.testng.TestTemplate;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+
+public class LoginTest extends TestTemplate {
+
+  private CuraHomePage curaHomePage = new CuraHomePage(Constants.baseUrl);
+
+  private CuraLoginPage curaLoginPage;
+
+  private CuraAppoinmentPage curaAppoinmentPage;
+
+  @Test
+  public void shouldLogin() {
+    curaHomePage.open();
+    curaHomePage.makeAppointment();
+    curaLoginPage.login(Constants.username, Constants.password);
+    boolean exist = curaAppoinmentPage.isOnPage();
+    Assert.assertTrue(exist);
+    driver.quit();
+  }
+}
+</codeblock></conbody></concept>

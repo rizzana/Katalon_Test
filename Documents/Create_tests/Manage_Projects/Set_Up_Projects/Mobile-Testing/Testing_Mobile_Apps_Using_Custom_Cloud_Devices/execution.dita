@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Execution</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Starting with <b class="+ topic/ph hi-d/b ">Katalon Studio version 6.3.0</b>, you
+         can test your mobile applications on such custom cloud devices as
+         Sauce Labs, BrowserStack,..</p><p class="- topic/p ">Katalon Studio supports running a Mobile script on both remote
+         and custom cloud devices.</p><note type="note" class="- topic/note ">
+        <p class="- topic/p ">Generate Command dialog doesn't require the
+            <b class="+ topic/ph hi-d/b ">Remote Server URL</b> and <b class="+ topic/ph hi-d/b ">Remote Server
+               Type</b>, Katalon Studio uses the current settings of Remote
+            execution.</p>
+      </note></conbody></concept>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Usage Example</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">Below is an example of how to parameterize test objects in
+         Mobile testing. Open a sample project of Mobile testing on Android
+         devices by accessing <b class="+ topic/ph hi-d/b ">File&gt; New Sample Project&gt; Sample
+            Android Mobile Tests Project</b>.</p>
+      <p class="- topic/p ">Navigate to <b class="+ topic/ph hi-d/b ">Object
+            Repository/Application/android.widget.TextView - App</b> in
+         Tests Explorer, open the test object view of
+         <codeph class="+ topic/ph pr-d/codeph ">android.widget.TextView - App</codeph> whose property will be
+         parameterized.</p>
+      <p class="- topic/p ">In this example, we want to find a test object that has
+         <codeph class="+ topic/ph pr-d/codeph ">//*[(text() = 'demokatalon' or . = 'demokatalon')]</codeph> as
+         its selector. Here are the steps to apply this feature:</p>
+    </conbody>
+    
+    
+    
+  </concept>

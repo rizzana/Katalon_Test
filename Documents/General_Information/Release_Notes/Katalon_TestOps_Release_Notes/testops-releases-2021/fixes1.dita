@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_8" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Fixes</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">
+            <p class="- topic/p ">[Jira Integration] Can not refresh Jira status if user has
+               deleted Jira release</p>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">[Access Log] Access Log records do not have IP Address
+               values</p>
+          </li>
+        </ul>
+      </conbody>
+    </concept>

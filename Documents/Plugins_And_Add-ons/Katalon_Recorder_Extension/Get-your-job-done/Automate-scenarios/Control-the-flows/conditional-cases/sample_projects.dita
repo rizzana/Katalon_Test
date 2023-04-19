@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_9" class="- topic/topic concept/concept "><title class="- topic/title ">Sample Projects</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Katalon Recorder comes with some sample projects (templates) to
+         help you get started with flow controls.<ol class="- topic/ol "><li class="- topic/li "><p class="- topic/p ">In Katalon Recorder, go
+         to Templates.</p></li><li class="- topic/li "><p class="- topic/p ">Choose <i class="+ topic/ph hi-d/i ">Conditional and loops</i> from the
+         left-side bar.</p></li><li class="- topic/li "><p class="- topic/p ">Check the sample projects.</p></li><li class="- topic/li "><p class="- topic/p ">Click on the
+         <b class="+ topic/ph hi-d/b ">Add Templates</b></p></li></ol> </p><p class="- topic/p ">You should see the sample projects are added to your
+         workspace.</p><p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">See also</b>:</p><ul class="- topic/ul "><li class="- topic/li ">
+          <xref href="../how-to-use-conditional-statements-in-a-test-case/how-to-use-conditional-statements-in-a-test-case.dita" class="- topic/xref ">How
+               to Use Control Flow commands in a Test Case</xref>
+        </li></ul></conbody></concept>

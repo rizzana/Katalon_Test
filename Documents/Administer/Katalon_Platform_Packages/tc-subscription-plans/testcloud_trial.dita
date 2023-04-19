@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">TestCloud Trial</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">All users who belong to a TestOps organization can use TestCloud
+         for free within 30 days starting from the day the TestOps
+         organization is created.</p>
+        <p class="- topic/p ">When the free trial expires, you have to subscribe to use the
+         premium features of TestCloud.</p>
+
+        <p class="- topic/p ">You can view your usage quota and subscribe to TestCloud
+         business plans at any time via Katalon TestOps. To learn more about
+         subscribing to TestCloud business plans, you can refer to this
+         document: <xref href="../../Administrative_Tasks/Subscription_Management/TestCloud_Subscription_Management/subscribe-to-testcloud/subscribe-to-testcloud.dita" class="- topic/xref ">Purchase
+            TestCloud subscriptions</xref>.</p>
+      </conbody>
+    </concept>

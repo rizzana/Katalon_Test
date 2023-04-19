@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Windows execution type</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/record-windows-actions/run-with-windows.png" scope="external" width="250" class="- topic/image "><alt class="- topic/alt ">run with windows</alt></image>
+      </p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/introduction-desktop-app-testing/select-window-environment.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">select environment</alt></image>
+      </p></conbody></concept>

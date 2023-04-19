@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_30" class="- topic/topic concept/concept "><title class="- topic/title ">New features</title><conbody class="- topic/body  concept/conbody "><ul class="- topic/ul "><li class="- topic/li ">[Katalon Studio Enterprise] Support Self-Healing Web tests. <xref href="../../../../Maintain/self-healing-in-Studio/intro-self-healing-in-Studio.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li><li class="- topic/li ">[Katalon Studio Enterprise] Support setting timeout and maximum
+            response size for API requests. <xref href="../../../../Create_tests/Manage_Projects/Project_Settings/Execution_Settings/Web_Service_settings1.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li><li class="- topic/li ">[Katalon Studio Enterprise] Support retrying failed test
+            executions immediately in Test Suite's execution. <xref href="../../../../Execute/Execute_tests_in_Katalon_Studio/execute-a-test-suite/modify_execution_information.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li><li class="- topic/li ">[Mobile Testing] Fully support Selector Strategies. <xref href="../../../../Create_tests/Test_Objects/Mobile_Test_Objects/Locators_And_Object_Identification/locators_object_identification.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li><li class="- topic/li ">[Mobile Testing] Support App Center Test integration. <xref href="../../../../Execute/Cloud_based_test_execution/Integrations_with_other_vendors_for_cloud_execution/app-center/app-center.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li><li class="- topic/li ">[API Testing] Support importing RESTful requests from SoapUI to
+            Katalon Studio. <xref href="../../../../Create_tests/Test_Objects/API_Test_Object/Import-Web-Service-Objects/import-soapui/import-soapui.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li><li class="- topic/li ">[Desktop Testing] Support new Windows keywords, including <xref href="../../../../Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Windows-Keywords/windows-kw-set-encrypted-text/windows-kw-set-encrypted-text.dita" class="- topic/xref ">setEncryptedText</xref>,
+            <xref href="../../../../Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Windows-Keywords/windows-kw-get-attribute/windows-kw-get-attribute.dita" class="- topic/xref ">getAttribute</xref>,
+            <xref href="../../../../Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Windows-Keywords/windows-kw-verify-element-attribute-value/windows-kw-verify-element-attribute-value.dita" class="- topic/xref ">verifyElementAttributeValue</xref>,
+            <xref href="../../../../Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Windows-Keywords/windows-kw-wait-element-attribute-value/windows-kw-wait-element-attribute-value.dita" class="- topic/xref ">waitForElementAttributeValue</xref>,
+            <xref href="../../../../Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Windows-Keywords/windows-kw-verify-element-present/windows-kw-verify-element-present.dita" class="- topic/xref ">verifyElementPresent</xref>,
+            <xref href="../../../../Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Windows-Keywords/windows-kw-verify-element-not-present/windows-kw-verify-element-not-present.dita" class="- topic/xref ">verifyElementNotPresent</xref>,
+            <xref href="../../../../Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Windows-Keywords/windows-kw-wait-element-present/windows-kw-wait-element-present.dita" class="- topic/xref ">waitForElementPresent</xref>,
+            and <xref href="../../../../Create_tests/Keywords/Keywords_Description_In_Katalon_Studio/Windows-Keywords/windows-kw-wait-element-not-present/windows-kw-wait-element-not-present.dita" class="- topic/xref ">waitForElementNotPresent</xref>
+          </li><li class="- topic/li ">Allow overriding <codeph class="+ topic/ph pr-d/codeph ">Browser Type</codeph> and <codeph class="+ topic/ph pr-d/codeph ">Execution
+               Profile</codeph> of all Test Suites in a Test Suite Collection via
+            command line. <xref href="../../../../Execute/Katalon_Runtime_Engine/console-mode-execution/command_builder_1.dita" class="- topic/xref ">Learn
+               more</xref>
+          </li><li class="- topic/li ">Support Content Assist function for Custom Keywords in test
+            cases (same as built-in keywords)</li></ul></conbody></concept>

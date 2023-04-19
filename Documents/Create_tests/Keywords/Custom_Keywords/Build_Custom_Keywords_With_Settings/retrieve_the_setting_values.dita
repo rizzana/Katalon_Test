@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Retrieve the setting values</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">The values can be retrieved in keyword script as the following
+         sample:</p><codeblock class="+ topic/pre pr-d/codeblock ">
+import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+import com.kms.katalon.core.setting.BundleSettingStore as BundleSettingStore
+
+BundleSettingStore bundleSetting = new BundleSettingStore(RunConfiguration.getProjectDir(), '&lt;setting_id&gt;', true)
+println(bundleSetting.getString('username', ''))
+println(bundleSetting.getString('password', '')</codeblock></conbody></concept>

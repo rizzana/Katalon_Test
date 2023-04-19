@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Email Template</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/execution-settings/KS-Project-Settings-Email-Template-Report-Format.png" scope="external" class="- topic/image ">
+          <alt class="- topic/alt ">Email Template and Report format</alt>
+        </image>
+      </p>
+      <p class="- topic/p ">You can define the sender, recipients (the list of emails to
+         receive reports), email subject, and body template in this
+         section.</p>
+      <p class="- topic/p ">From version 8.3.0 onwards, Katalon Studio also supports adding
+         Test Suite and Test Suite Collection names in your email subject
+         with the placeholders <codeph class="+ topic/ph pr-d/codeph ">${suiteName}</codeph> and
+         <codeph class="+ topic/ph pr-d/codeph ">${suiteCollectionName}</codeph>, respectively.</p>
+    </conbody>
+  </concept>

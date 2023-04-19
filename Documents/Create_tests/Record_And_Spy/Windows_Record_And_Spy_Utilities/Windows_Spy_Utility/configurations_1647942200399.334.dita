@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Configurations</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Configurations</b> section, you can
+         specify:</p>
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">
+            <p class="- topic/p ">
+              <b class="+ topic/ph hi-d/b ">Configuration</b>: the WinAppDriver URL and desired
+               capabilities.</p>
+          </li>
+          <li class="- topic/li ">
+            <p class="- topic/p ">
+              <b class="+ topic/ph hi-d/b ">Application File</b>: the absolute path to the
+               Windows executable file (*.exe) of the testing machine. For Windows
+               users, click on the <b class="+ topic/ph hi-d/b ">Browse...</b> button to locate the
+               application file.</p>
+          </li>
+        </ul>
+        <p class="- topic/p ">When the application under test (AUT) is started, the utility
+         captures all available Windows objects on the current window of the
+         AUT and displays them in the <b class="+ topic/ph hi-d/b ">All Objects</b>
+         section.</p>
+      </conbody>
+    </concept>

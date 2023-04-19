@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Usage example 3: Switch To Frame</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">We can switch to frames using the
+         <b class="+ topic/ph hi-d/b ">switchTo()</b> method then perform the action on
+         that element. If we want to get a text in the Text Area,
+         then we cannot get it directly by taking the XPath of the element.
+         As it is available in the iframe we need to switch to the
+         frame first, and then we can get the element's text.</p>
+        <p class="- topic/p ">
+          <b class="+ topic/ph hi-d/b ">Manual Mode</b>
+        </p>
+        <p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/handling_iframe_issue/switch-to-frame.png" scope="external" class="- topic/image ">
+            <alt class="- topic/alt ">switch to frame</alt>
+          </image>
+        </p>
+        <p class="- topic/p ">
+          <b class="+ topic/ph hi-d/b ">Script Mode</b>
+        </p>
+        
+          <codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+ 
+'Launching and Navigating to URL\r\n'
+WebUI.openBrowser('http://the-internet.herokuapp.com/iframe')
+ 
+'Maximize the window\r\n'
+WebUI.maximizeWindow()
+ 
+'Switching to text area which is situated in Iframe'
+WebUI.switchToFrame(findTestObject('Frames/textArea_Iframe'), 60)
+WebUI.scrollToElement(findTestObject('Frames/TextArea'), 60)
+ 
+'Fecthing the text from Text area and storing it in a variable'
+Text = WebUI.getText(findTestObject('Frames/TextArea'))
+ 
+'Verifying the Actual text with Expected text from Text Area.'
+WebUI.verifyEqual(Text, 'Your content goes here.')
+
+</codeblock>
+        
+        <note type="note" class="- topic/note ">
+          <p class="- topic/p ">Please download the source code <xref format="html" href="https://github.com/katalon-studio/katalon-web-automation" scope="external" class="- topic/xref ">here</xref> and
+            get the HTML <xref format="html" href="https://github.com/katalon-studio/katalon-web-automation/blob/master/Html%20Files/How%20to%20Handle%20Frames.html" scope="external" class="- topic/xref ">here</xref>.</p>
+        </note>
+      </conbody>
+    </concept>

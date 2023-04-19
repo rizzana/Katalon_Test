@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Your automation script passes but the actual action was not
+         performed</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Add the following step:<ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Command: waitForElementPresent.</p></li><li class="- topic/li "><p class="- topic/p ">Target: Same target as the failing step.</p></li><li class="- topic/li "><p class="- topic/p ">Value: none.</p></li></ul> </p><p class="- topic/p ">before the failing step.</p><p class="- topic/p ">If that doesn't work, then add the following step: <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Command:
+         pause.</p></li><li class="- topic/li "><p class="- topic/p ">Target: none.</p></li><li class="- topic/li "><p class="- topic/p ">Value: 10000 (miliseconds).</p></li></ul></p><p class="- topic/p ">before the failing step.</p></conbody></concept>

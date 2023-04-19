@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">REST</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">
+        <xref href="../restful/restful.dita" class="- topic/xref ">Create
+            and design a RESTful Test Request</xref>. Or you can import Service
+         definitions from:</p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">
+          <xref href="../Import-Web-Service-Objects/import-openapi30/import-openapi30.dita" class="- topic/xref ">OpenAPI
+               Specification 3.0</xref> (Requirements: Version 7.7 onwards and
+            Katalon Studio Enterprise license)</li>
+        <li class="- topic/li ">
+          <xref href="../Import-Web-Service-Objects/import-wadl/import-wadl.dita" class="- topic/xref ">WADLs</xref>
+            (Required version: 7.7 onwards)</li>
+        <li class="- topic/li ">
+          <xref href="../Import-Web-Service-Objects/import-soapui/import-soapui.dita" class="- topic/xref ">SoapUI</xref>
+            (Required version: 7.6 onwards)</li>
+        <li class="- topic/li ">
+          <xref href="../Import-Web-Service-Objects/import-rest-requests-from-swagger-20/import-rest-requests-from-swagger-20.dita" class="- topic/xref ">OpenAPI
+               Specification 2.0 (Swagger)</xref>
+        </li>
+        <li class="- topic/li ">
+          <xref href="../Import-Web-Service-Objects/import-postman/import-postman.dita" class="- topic/xref ">Postman</xref>
+        </li>
+      </ul>
+    </conbody>
+  </concept>

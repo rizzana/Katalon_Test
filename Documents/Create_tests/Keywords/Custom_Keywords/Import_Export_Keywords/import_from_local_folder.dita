@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Import from a local folder</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">
+          
+        <image width="500" href="image/ks-850-se-folder.png" class="- topic/image "/></p><p class="- topic/p ">After the <b class="+ topic/ph hi-d/b ">Browse For Folder</b> panel
+         appears, choose your desired folder to import the keywords to
+         Katalon Studio. If the keywords imported don't belong to any
+         package, Katalon Studio  puts them into a default package.</p><p class="- topic/p ">
+          
+        <image width="500" href="image/ks-se-850-keywords-folder.png" class="- topic/image "/></p></conbody></concept>

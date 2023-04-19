@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Enable <ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/> integration in <ph conkeyref="name-variables/ks-sed" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To enable <ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/> integration in <ph conkeyref="name-variables/ks-sed" class="- topic/ph "/>, follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Open Katalon Studio.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Project</b> &gt; <b class="+ topic/ph hi-d/b ">Settings</b> &gt; <b class="+ topic/ph hi-d/b "><ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/></b>.</p>
+                <p class="- topic/p "><image href="../Integrate_Katalon_TestOps_and_TestCloud_With_Katalon_Studio/image/ks-integrate-with-testops.png" class="- topic/image "/></p>
+                <p class="- topic/p ">Alternatively, you can also click the <b class="+ topic/ph hi-d/b "><ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/></b> icon from the main toolbar to navigate to the <ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/> settings.</p>
+                <p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-test-uploads-to-kto-from-ks/KS-TESTOPS-icon.png" scope="external" class="- topic/image "><alt class="- topic/alt ">TestOps icon</alt></image></p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Tick on the <b class="+ topic/ph hi-d/b ">Enable <ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/> Integration</b> checkbox.</p>
+                <p class="- topic/p ">Wait for Katalon Studio to connect to <ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/>.</p>
+                <p class="- topic/p ">Once the connection is successful, <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> retrieves all Teams and Projects from the Organization you belong to.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Choose your Team and Project in a dropdown menu of the <b class="+ topic/ph hi-d/b ">Team</b> and <b class="+ topic/ph hi-d/b ">Project</b> sections.</p>
+                <p class="- topic/p ">If you are the Owner or Admin, you can also click <b class="+ topic/ph hi-d/b ">New Project</b> to create a new Project instead.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Apply and Close</b>.</p>
+            </li></ol><p class="- topic/p ">You've successfully enabled <ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/> integration in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/>.</p><p class="- topic/p ">Once you have enabled <ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/> integration in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/>, your Test Results are automatically uploaded to <ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/> every time you run Test Suites in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/>.</p><p class="- topic/p "><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-test-uploads-to-kto-from-ks/KS-TESTOPS-Upload-results-automatically.png" scope="external" class="- topic/image "><alt class="- topic/alt ">automatic upload of test reports to kto</alt></image></p></conbody></concept>

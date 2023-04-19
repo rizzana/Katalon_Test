@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-katalium-framework-others" class="- map/map "><title class="- topic/title ">Other Utilities</title><topicref href="katalium-framework-others.dita" class="- map/topicref "><topicref href="parameterization.dita" class="- map/topicref "/><topicref href="logging.dita" class="- map/topicref "/><topicref href="capture_webdriver_actions.dita" class="- map/topicref "/></topicref></map>

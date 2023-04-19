@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Integrate Kobiton with Katalon TestOps</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">Sign in to <xref format="html" href="https://testops.katalon.io/login" scope="external" class="- topic/xref ">Katalon TestOps</xref> and go to your Project.</li><li class="- topic/li ">
+                <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Configurations</b> &gt; <b class="+ topic/ph hi-d/b ">Integrations</b>.</p>
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Integrations</b> page appears.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Select <b class="+ topic/ph hi-d/b ">Kobiton</b> from the dropdown list.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Fill in the required information.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-oct-kobiton-integration/kobiton-integration-page-fillin-2.png" scope="external" class="- topic/image "><alt class="- topic/alt ">kobiton integration page</alt></image>
+                </p>
+                <ul class="- topic/ul "><li class="- topic/li "> <b class="+ topic/ph hi-d/b ">Kobiton Device URL</b>: enter your Kobiton Device URL.</li><li class="- topic/li "> <b class="+ topic/ph hi-d/b ">Username</b>: enter your Kobiton username.</li><li class="- topic/li "> <b class="+ topic/ph hi-d/b ">Kobiton's API Key</b>: enter your Kobiton's API key.</li></ul>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Test Connection</b>, then click <b class="+ topic/ph hi-d/b ">Save</b>.</p>
+            </li></ol><p class="- topic/p ">You have enabled Kobiton integration. Now you can run tests with a Kobiton device in Katalon TestOps.</p></conbody></concept>

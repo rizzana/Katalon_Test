@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_14" class="- topic/topic concept/concept "><title class="- topic/title ">Test Data</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">The <uicontrol class="+ topic/ph ui-d/uicontrol ">Test Data</uicontrol> tab allows you to upload CSV file for data-driven testing. You can also manage test data file by editing the name or removing unwanted data file. To learn more about data-driven testing using Katalon Recorder, refer to <xref href="../../Get-your-job-done/Data-driven-testing/Data-driven-testing.ditamap" class="- topic/xref ">Data-driven testing in Katalon Recorder.</xref></p></conbody></concept>

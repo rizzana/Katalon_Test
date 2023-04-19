@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-condition-to-stop" class="- map/map ">
+  <title class="- topic/title ">Terminate Execution Conditionally</title>
+  <topicref href="condition-to-stop.dita" class="- map/topicref "><topicref href="set_a_maximum_number_of_test_failures.dita" class="- map/topicref ">
+    <topicref href="with_command_builder.dita" class="- map/topicref "/>
+    <topicref href="with_command-line_option.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="report_incomplete_test_suite.dita" class="- map/topicref "/>
+  <topicref href="troubleshoot.dita" class="- map/topicref "/>
+  <topicref href="common_use_cases.dita" class="- map/topicref ">
+    <topicref href="terminate_test_suite_execution.dita" class="- map/topicref "/>
+    <topicref href="terminate_test_suite_collection_executed_in_sequential_mode.dita" class="- map/topicref "/>
+    <topicref href="terminate_test_suite_collection_executed_in_parallel_mode.dita" class="- map/topicref "/>
+  </topicref>
+</topicref>
+  </map>

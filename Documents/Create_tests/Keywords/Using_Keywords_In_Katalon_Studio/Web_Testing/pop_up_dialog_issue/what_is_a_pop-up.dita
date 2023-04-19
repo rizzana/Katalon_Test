@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">What is a pop-up?</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">A pop-up is a graphical display area, usually in a form of a
+         small window that appears ("pop-up") in the foreground of the
+         current interface.</p>
+    </conbody>
+  </concept>

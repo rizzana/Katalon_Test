@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Manage Data Binding</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">In the test suite editor, click <b class="+ topic/ph hi-d/b ">Show Data Binding</b> to expand the <b class="+ topic/ph hi-d/b ">Data Binding</b> section with the <b class="+ topic/ph hi-d/b ">Test Data</b> and <b class="+ topic/ph hi-d/b ">Variable Binding</b> tables.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/run-test-case-external-data/KS-830-Show-data-binding.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Show data binding</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Test Data</b> table, select <b class="+ topic/ph hi-d/b ">Add</b> &gt; select the data to be used for execution &gt; the selected test data are added to the list accordingly.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/run-test-case-external-data/KS-830-Add-test-data.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Add test data</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Data Binding</b> table which displays all variables of the selected test case, select all rows &gt; choose <b class="+ topic/ph hi-d/b ">Set Type</b> &gt; select <b class="+ topic/ph hi-d/b ">Data Column</b> as their types.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/run-test-case-external-data/KS-830-Set-data-type.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">Set data type</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Set Test Data</b> to decide which test data from the list to be used for execution.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/run-test-case-external-data/KS-830-Set-test-data.png" scope="external" width="500" class="- topic/image "><alt class="- topic/alt ">Set test data</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click each cell in the <b class="+ topic/ph hi-d/b ">Value</b> column to specify the data field in the selected data file. For example:</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/run-test-case-external-data/KS-830-Set-data-value.png" scope="external" width="600" class="- topic/image "><alt class="- topic/alt ">Set test data value</alt></image>
+                </p>
+                <note type="tip" class="- topic/note ">
+                    <ul class="- topic/ul "><li class="- topic/li ">If the variables and the data field in the selected data files share the same name, you can quickly map all the variables with the data fields in the data file by clicking <b class="+ topic/ph hi-d/b ">Map All</b>. For example, with this function, the 'Employee', 'Department', and 'Position' variables automatically map with the 'Employee', 'Department', and 'Position' columns of the test data.<p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/run-test-case-external-data/KS-830-Map-all.png" scope="external" width="600" class="- topic/image "><alt class="- topic/alt ">Map all</alt></image>
+                            </p></li></ul>
+                </note>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">After finishing all the steps above, save and run your test suite to see the following result:</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/run-test-case-external-data/8-result.png" scope="external" width="800" class="- topic/image "><alt class="- topic/alt ">Log viewer</alt></image>
+                </p>
+            </li></ol></conbody></concept>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Analyze a Test Suite Report</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">After executing the Test Suite, we view the report directly within <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/>.</p><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Open the Report History section. Go to <b class="+ topic/ph hi-d/b ">Test Explorer &gt; Reports</b>.</p>
+                <p class="- topic/p ">The Report History section organizes Test Suite Reports into separate folders with execution dates in the format <i class="+ topic/ph hi-d/i ">YYYYMMDD_HHmmss</i>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-view-and-analyze-test-suite-reports/KS-Reports-Section-overview.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Test Explorer/Report History</alt></image>
+                </p>
+                <p class="- topic/p ">Here we view the latest execution report by expanding the folder.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-view-and-analyze-test-suite-reports/KS-Reports-Section-expand-folder.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Test Explorer/Report History expanded</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">To open the report, double-click on it.</p>
+                <p class="- topic/p ">In our example, the report is displayed as below.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-view-and-analyze-test-suite-reports/KS-Displayed-Test-Suite-reports.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Test Suite report overview</alt></image>
+                </p>
+                <p class="- topic/p ">Katalon Studio lists the Test Cases in the <b class="+ topic/ph hi-d/b ">Test Cases Table</b> with different execution statuses: <i class="+ topic/ph hi-d/i ">Passed</i>, <i class="+ topic/ph hi-d/i ">Failed</i>, <i class="+ topic/ph hi-d/i ">Error</i>, <i class="+ topic/ph hi-d/i ">Incomplete</i>, and <i class="+ topic/ph hi-d/i ">Skipped</i>.</p>
+                <p class="- topic/p ">Here we have four Test executions; the second Test execution has an <i class="+ topic/ph hi-d/i ">Error</i> status.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-view-and-analyze-test-suite-reports/KS-Test-Cases-Table.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Test Cases Table</alt></image>
+                </p>
+                <p class="- topic/p ">The <i class="+ topic/ph hi-d/i ">Error</i> status indicates user mistakes in writing Test Cases, such as incorrect syntax, missing test objects, or incorrect test data.</p>
+                <p class="- topic/p ">By contrast, a <i class="+ topic/ph hi-d/i ">Failed</i> status would indicate that the application under test (AUT) fails to perform a function expected by the Test Case, such as an unexpected change in the Web user interface.</p>
+                <p class="- topic/p ">Below the <b class="+ topic/ph hi-d/b ">Test Cases Table</b> is the Report Summary section.</p>
+                <p class="- topic/p ">The report summary includes information about the Test Suite, such as the Test Suite ID, execution environment, execution time, and execution status.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-view-and-analyze-test-suite-reports/KS-Test-Suite-Report-Summary.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Test Suite Summary</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Open the Test Case Log. Select a Test Case in the <b class="+ topic/ph hi-d/b ">Test Cases Table</b> and click on the <b class="+ topic/ph hi-d/b ">Show Test Case Details</b> button.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-view-and-analyze-test-suite-reports/KS-Test-Suite-Reports-Show-Test-Cases-Details-button.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Show Test Case Details button</alt></image>
+                </p>
+                <p class="- topic/p ">The execution log of the selected Test Case is displayed as follows:</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-view-and-analyze-test-suite-reports/KS-Test-Suite-Report-Displayed-Test-Case-Log.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Test Case's Log section</alt></image>
+                </p>
+                <p class="- topic/p ">This log section outlines the steps in the Test Case with their execution statuses.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">To view the detailed log message, double-click on the step.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-view-and-analyze-test-suite-reports/KS-Test-Suite-Report-Detailed-Log-Message.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Detailed Log Message</alt></image>
+                </p>
+                <p class="- topic/p ">The message is displayed in the <b class="+ topic/ph hi-d/b ">Information</b> tab below.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-view-and-analyze-test-suite-reports/KS-Test-Report-Log-Message.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Detailed Log Message</alt></image>
+                </p>
+                <p class="- topic/p ">In our example, step 5 of the Test Case contains an error with the exception <codeph class="+ topic/ph pr-d/codeph ">com.kms.katalon.core.exception.StepErrorException: org.openqa.selenium.NoSuchElementException</codeph>. The keyword <codeph class="+ topic/ph pr-d/codeph ">sample.Checkout.CheckoutShop()</codeph> in this step failed to locate the element with the XPath <codeph class="+ topic/ph pr-d/codeph ">normalize-space(text())='Neverland'</codeph>.</p>
+                <p class="- topic/p ">Since the Test Suite contains only one Test Case, we know that the error in the second Test execution is caused by incorrect test data. Specifically, the second Test execution failed to locate a Web element using the text data <codeph class="+ topic/ph pr-d/codeph ">'Neverland'</codeph>.</p>
+                <note type="note" class="- topic/note ">
+                    <ul class="- topic/ul "><li class="- topic/li ">
+                            <p class="- topic/p ">To learn how to troubleshoot common exceptions in Web tests, you can refer to this document: <xref href="../../../../Create_tests/Troubleshooting_For_Test_Creation/Troubleshoot_Common_Execution_Exceptions_Web_Test/Troubleshoot_web_test_execution_exceptions_overview.dita" class="- topic/xref ">Troubleshoot common exceptions when executing web tests</xref>.</p>
+                        </li></ul>
+                </note>
+            </li></ol></conbody></concept>

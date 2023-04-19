@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id_4" class="- topic/topic ">
+    <title class="- topic/title ">5.7.4</title>
+    <body class="- topic/body ">
+      <p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">Improvements</b> - Introduced the ability to pause
+         or continue a test execution upon error. - Added more options to
+         select multiple cells using
+         <userinput class="+ topic/ph sw-d/userinput ">Ctrl</userinput>+<userinput class="+ topic/ph sw-d/userinput ">Shift</userinput>+<userinput class="+ topic/ph sw-d/userinput ">Arrow Up</userinput>/<userinput class="+ topic/ph sw-d/userinput ">Arrow
+            Down</userinput>. - Introduced the ability to use Tab button to navigate
+         between cells.</p>
+      <p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">Bug fixes</b> - [Profiles] Fixed an issue where
+         <b class="+ topic/ph hi-d/b ">Duplicated global variables</b> warning keeps popping
+         up. - [Self-healing] Fixed an issue where approved locators show up
+         in <b class="+ topic/ph hi-d/b ">Command</b> section instead of
+         <b class="+ topic/ph hi-d/b ">Target</b> section. - Fixed an issue where Katalon
+         Recorder jumps during navigation between cells. - Fixed an issue
+         where wrong cells are highlighted during copy and paste. - Fixed an
+         issue where double-click selects all the text values in a
+         field.</p>
+    </body>
+  </topic>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Mobile Object Spy</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">In previous versions, you can capture and rename captured
+         objects but cannot change a Mobile object’s locator nor
+         verify and highlight them. From version 7.6, you can capture, edit,
+         verify and highlight a captured object to optimize its locator.</p><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-selector-strategies/object-properties.png" scope="external" width="438" class="- topic/image "/>
+      </p><p class="- topic/p ">The <uicontrol class="+ topic/ph ui-d/uicontrol ">Object Properties</uicontrol> section now allows:</p><ul class="- topic/ul "><li class="- topic/li ">Editing locator and locator strategy of an object.</li><li class="- topic/li ">Verifying and highlighting the object with the newly updated
+            locator.</li></ul><p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/mobile-selector-strategies/object-properties-1.png" scope="external" width="451" class="- topic/image "/></p></conbody></concept>

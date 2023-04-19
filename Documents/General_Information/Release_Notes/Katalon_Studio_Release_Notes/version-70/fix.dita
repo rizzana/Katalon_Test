@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_32" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Fix</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">Bug: Log Viewer displays incorrect test results if a test case
+            has Call Test Case steps</li>
+          <li class="- topic/li ">Bug: [Desktop Testing] <codeph class="+ topic/ph pr-d/codeph ">setText()</codeph> keyword does not
+            clear the current text before setting the given text</li>
+          <li class="- topic/li ">Bug: [qTest Integration] Unable to upload reports to qTest in
+            qTest v10.1.0.0 or later</li>
+        </ul>
+      </conbody>
+    </concept>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id_3" class="- topic/topic ">
+    <title class="- topic/title ">Implement data-driven testing</title>
+    <body class="- topic/body ">
+      <p class="- topic/p ">In Katalon Recorder, there are three steps to implement DDT in a
+         test case:</p>
+      <ol class="- topic/ol ">
+        <li class="- topic/li ">Prepare the data file.</li>
+        <li class="- topic/li ">Add the data file to your workspace.</li>
+        <li class="- topic/li ">Configure data-driven commands and variables in the test case
+            to use data from the data file.</li>
+      </ol>
+    </body>
+    
+    
+    
+  </topic>

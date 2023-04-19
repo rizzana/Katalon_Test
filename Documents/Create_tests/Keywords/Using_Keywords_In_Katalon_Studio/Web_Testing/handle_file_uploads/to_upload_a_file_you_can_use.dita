@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">To upload a file you can use</title><conbody class="- topic/body  concept/conbody "><ul class="- topic/ul "><li class="- topic/li "> <xref href="../../../Keywords_Description_In_Katalon_Studio/Web-UI-Keywords/webui-upload-file/webui-upload-file.dita" class="- topic/xref ">[WebUI] Upload File</xref>
+            </li><li class="- topic/li "> <xref href="../../../Keywords_Description_In_Katalon_Studio/Web-UI-Keywords/webui-upload-file-drag-and-drop/webui-upload-file-drag-and-drop.dita" class="- topic/xref ">[WebUI] Upload File by Drag-and-Drop</xref>
+            </li></ul></conbody></concept>

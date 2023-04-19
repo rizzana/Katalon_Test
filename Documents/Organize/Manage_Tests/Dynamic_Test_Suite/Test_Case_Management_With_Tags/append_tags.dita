@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Append Tags</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">You can view all tags in your project and append tags to a test case. After installing the <b class="+ topic/ph hi-d/b ">Test Case Management with Tags</b> plugin, follow these instructions:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Open a test case and switch to the <b class="+ topic/ph hi-d/b ">Properties</b> tab.</p>
+                <p class="- topic/p ">Under the <b class="+ topic/ph hi-d/b ">Tag</b> field, you can find the <b class="+ topic/ph hi-d/b ">Append tags</b> button.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click on the <b class="+ topic/ph hi-d/b ">Append</b> button. The <b class="+ topic/ph hi-d/b ">Append Tags</b> dialog appears with a list of all tags in your project.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Search for and select tags you wish to add to the current test case.</p>
+                <note type="note" class="- topic/note ">
+                    <p class="- topic/p ">Tags previously added to this test case already display as selected, and cannot be deselected.</p>
+                </note>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Append</b> when you are done. New tags are now added to your test case.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/test-case-management-with-tags/append-tags.png" scope="external" class="- topic/image "><alt class="- topic/alt ">append tags dialog</alt></image>
+                </p>
+            </li></ol></conbody></concept>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Generate a Katalon API Key</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">You need to generate API Keys in Katalon TestOps in the
+         following circumstances:</p><ul class="- topic/ul "><li class="- topic/li ">
+
+        <p class="- topic/p ">When you want to integrate Katalon Studio with Katalon TestOps
+               in console mode. See <xref href="../../../Analyze/Reports/Upload_Test_Reports/Upload_test_results_from_KS_to_TestOps/katalon-analytics-beta-integration.dita" class="- topic/xref ">Katalon
+                  Studio Integration</xref>.</p>
+        <note type="note" class="- topic/note ">
+          
+          <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">In the command-line generator in Katalon Studio, the
+                  command-line options for API Keys, including
+                  <codeph class="+ topic/ph pr-d/codeph ">-apiKey=&lt;Your_API_Key&gt;</codeph> and
+                  <codeph class="+ topic/ph pr-d/codeph ">-apikey=&lt;Your_API_Key&gt;</codeph> are both accepted.</p></li></ul>
+        </note>
+      </li><li class="- topic/li ">
+
+        <p class="- topic/p ">When you want to integrate Katalon TestOps with other platforms
+               such as <xref href="../../../Organize/Integration_For_Organizing_Tests/Jira_Integration/Enable-Jira-TestOps-integration/intro-jira-configuration-in-TestOps.dita" class="- topic/xref ">Jira</xref>
+               and <xref href="../../../Execute/CICD_Integrations/Jenkins-Integration/ka-integration-jenkins/ka-integration-jenkins.dita" class="- topic/xref ">Jenkins</xref>,</p>
+      </li><li class="- topic/li ">
+        <p class="- topic/p ">When you want to create a test environment such as <xref href="../../../Execute/Cloud_based_test_execution/Test_execution_with_TestOps/circleci/circleci.dita" class="- topic/xref ">CircleCI</xref>,
+               <xref href="../../../Execute/Cloud_based_test_execution/Test_execution_with_TestOps/aws-eks/aws-eks.dita" class="- topic/xref ">AWS
+                  EKS</xref>, or <xref href="../../../Execute/Cloud_based_test_execution/Test_execution_with_TestOps/Local-Test-Environments/agents/agents.dita" class="- topic/xref ">create
+                  a local test environment with an agent</xref>.</p>
+      </li></ul><p class="- topic/p ">To create a new API Key, follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+        <p class="- topic/p ">Sign in to <xref format="html" href="https://testops.katalon.io/login" scope="external" class="- topic/xref ">Katalon
+                  TestOps</xref>.</p>
+      </li><li class="- topic/li ">
+        <p class="- topic/p ">Click on the <i class="+ topic/ph hi-d/i ">Avatar</i> icon at the top right corner.</p>
+      </li><li class="- topic/li ">
+        <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Notification Settings</b> &gt;
+               <b class="+ topic/ph hi-d/b ">Katalon API Key</b>.</p>
+        <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Katalon API Key</b> page appears.</p>
+        <note type="note" class="- topic/note ">
+          
+          <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">You can also click on <xref format="html" href="https://testops.katalon.io/user/apikey" scope="external" class="- topic/xref ">this link</xref>, then
+                  sign in to have access to the <b class="+ topic/ph hi-d/b ">Katalon API Key</b> page
+                  directly.</p></li></ul>
+        </note>
+      </li><li class="- topic/li ">
+        <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Create API Key</b> in the top right
+               corner.</p>
+        <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Create API Key</b> box pops up.</p>
+      </li><li class="- topic/li ">
+        <p class="- topic/p ">Enter a name for your key, then click
+               <b class="+ topic/ph hi-d/b ">Create</b>.</p>
+      </li></ol><p class="- topic/p ">You have successfully added a new API key.</p></conbody></concept>

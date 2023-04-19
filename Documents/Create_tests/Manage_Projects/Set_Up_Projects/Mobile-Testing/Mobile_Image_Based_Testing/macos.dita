@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">macOS</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">Run the following commands</p>
+        
+          <codeblock class="+ topic/pre pr-d/codeblock ">   brew update
+    brew install cmake
+    npm install -g appium
+    npm install -g opencv4nodejs
+</codeblock>
+        
+        <p class="- topic/p ">
+          <b class="+ topic/ph hi-d/b ">Troubleshoot</b>:</p>
+        <p class="- topic/p ">You may encounter this error:</p>
+        
+          <codeblock class="+ topic/pre pr-d/codeblock ">make: *** [all] Error 2
+ERR! child process exited with code 2 (for more info, set '--loglevel silly') 
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! opencv-build@0.1.9 install: `node ./install.js`
+npm ERR! Exit status 1
+</codeblock>
+        
+        <p class="- topic/p ">That means the auto-build may fail to install opencv4nodejs,
+         please try the following commands:</p>
+        
+          <codeblock class="+ topic/pre pr-d/codeblock ">   brew unlink tesseract
+    npm install -g opencv4nodejs
+    brew link tesseract
+</codeblock>
+        
+      </conbody>
+    </concept>

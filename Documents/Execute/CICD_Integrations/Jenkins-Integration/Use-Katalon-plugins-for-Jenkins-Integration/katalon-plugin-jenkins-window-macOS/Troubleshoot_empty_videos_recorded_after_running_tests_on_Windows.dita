@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-3080" xml:lang="en-us" class="- topic/topic concept/concept "><title class="- topic/title ">Troubleshoot empty videos recorded after running tests on Windows</title><prolog class="- topic/prolog "><author translate="no" type="creator" class="- topic/author ">Hao Le &lt;hao.le@katalon.com&gt;</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "/></metadata></prolog><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">If you encounter an issue of having empty videos recorded after running your tests in Jenkins on Window, it is because the WebDriver hasn't launched during test execution. To fix this issue, please uninstall Jenkins of Windows services, and replace it by a DOS batch file containing the following codes:</p><codeblock class="+ topic/pre pr-d/codeblock ">cd D:\Tools\Jenkins //path to Jenkins folder
+java -jar --webroot=jenkins.war
+</codeblock><p class="- topic/p "> <i class="+ topic/ph hi-d/i ">Code sample courtesy of Sébastien Taniere</i>
+        </p></conbody></concept>

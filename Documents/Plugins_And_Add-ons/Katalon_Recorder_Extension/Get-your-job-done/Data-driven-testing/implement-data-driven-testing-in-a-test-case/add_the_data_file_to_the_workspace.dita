@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id_5" class="- topic/topic "><title class="- topic/title ">Add the data file to the workspace</title><body class="- topic/body "><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Workspace</b> sidebar, click on the <b class="+ topic/ph hi-d/b ">Open a Data File</b> button in the <b class="+ topic/ph hi-d/b ">Test Data</b> section.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/implement-ddt-in-a-test-case/KR-5.8.0-Add-test-data-button.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Katalon Recorder add test data</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In the opened file explorer, select the CSV file.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/implement-ddt-in-a-test-case/KR-5.8.0-File-explorer.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Katalon Recorder select the CSV file</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Katalon Recorder should display the selected file under the <b class="+ topic/ph hi-d/b ">Test Data</b> section.</p>
+            </li></ol></body></topic>

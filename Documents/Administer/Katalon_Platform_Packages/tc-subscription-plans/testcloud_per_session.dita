@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">TestCloud Per Session</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">Katalon TestCloud Per Session is best for large organizations
+         and teams with stable testing plans and long-running tests.</p>
+        <p class="- topic/p ">The Per Session plan gives you unlimited credits per session.
+         One session allows you to run one sequence of tests, for as long as
+         you need. The number of sessions you purchase is the maximum number
+         of parallel tests you can execute.</p>
+        <p class="- topic/p ">You can upgrade or modify the number of parallel test executions
+         at any time on Katalon TestOps.</p>
+      </conbody>
+    </concept>

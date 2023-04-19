@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Define test suite goals</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">A test suite includes a series of actions depicting a particular
+         user experience on your website.</p><p class="- topic/p ">You plan test cases based on deciding which action a test case
+         should perform. You then create a test suite flow by naming and
+         ordering test cases.</p><p class="- topic/p ">For example, to test the online shopping experience of users,
+         your test suite might include actions as per the following
+         sequence:</p><ul class="- topic/ul "><li class="- topic/li "><i class="+ topic/ph hi-d/i ">Sign up</i> or <i class="+ topic/ph hi-d/i ">log in</i> test case.</li><li class="- topic/li "><i class="+ topic/ph hi-d/i ">Enter shopping cart</i> test case.</li><li class="- topic/li "><i class="+ topic/ph hi-d/i ">Check out</i> test case.</li><li class="- topic/li "><i class="+ topic/ph hi-d/i ">Order confirmation</i> test case.</li></ul><p class="- topic/p ">Structuring test cases in a test suite prevents chaos and
+         identifies issues before test suite execution.</p></conbody></concept>

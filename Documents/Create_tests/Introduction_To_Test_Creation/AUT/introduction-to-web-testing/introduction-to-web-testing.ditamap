@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-introduction-to-web-testing" class="- map/map ">
+  <title class="- topic/title ">Introduction to Web Testing</title>
+  <topicref href="introduction-to-web-testing.dita" class="- map/topicref "><topicref href="before_you_begin.dita" class="- map/topicref "/>
+  <topicref href="get_ready.dita" class="- map/topicref "/>
+  <topicref href="next_steps_1647942201603.83.dita" class="- map/topicref "/>
+</topicref>
+  </map>

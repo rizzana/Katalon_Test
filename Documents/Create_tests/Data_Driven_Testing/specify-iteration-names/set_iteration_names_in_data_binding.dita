@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Set iteration names in data binding</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To set iteration names using one of the variables in the test data, do as follows:</p><ol class="- topic/ol "><li class="- topic/li ">Conduct data-binding from internal data, Excel, CSV, or database data. To learn more about data binding, see <xref href="../run-test-case-external-data/run-test-case-external-data.dita" class="- topic/xref ">Run Test Case with an external data source</xref>.</li><li class="- topic/li ">
+                <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Variable binding</b> section, click on the <b class="+ topic/ph hi-d/b ">Select</b> toggle next to <b class="+ topic/ph hi-d/b ">Set Test Name</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/specify-iteration-names/set-test-name.png" scope="external" class="- topic/image "><alt class="- topic/alt ">set test name</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">A list of variables appears. Choose an option to add to your iteration name.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/specify-iteration-names/select-variable-name.png" scope="external" class="- topic/image "><alt class="- topic/alt ">select variable name</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Save and run your test.</p>
+            </li></ol></conbody></concept>

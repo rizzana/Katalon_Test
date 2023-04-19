@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Cancel TestCloud Subscriptions</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">You can cancel your subscription at any time.</p><p class="- topic/p ">Canceling a subscription will turn off the automatic renewal of
+         your subscription.</p><p class="- topic/p ">The cancellation takes effect at the end of the current billing
+         period, and you can continue using your subscription until the
+         expiry date.</p><p class="- topic/p ">After canceling your subscription, if your subscription has yet
+         to reach the expiry date, you can reactivate your canceled
+         subscription.</p><p class="- topic/p ">This article shows you how to cancel and reactivate TestCloud
+         subscriptions.</p><note type="important" class="- topic/note ">
+
+        <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">You must be the Owner or Billing Manager of your
+            Katalon Account. Learn more about roles and permissions at <xref href="../../../../Administrative_Roles/testops-roles-privileges/org-level-roles-privileges.dita" class="- topic/xref ">Roles
+               and permissions</xref>.</p></li></ul>
+      </note></conbody></concept>

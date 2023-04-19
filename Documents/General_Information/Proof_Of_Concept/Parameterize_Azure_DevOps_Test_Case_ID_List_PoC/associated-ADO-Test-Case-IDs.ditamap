@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-associated-ADO-Test-Case-IDs" class="- map/map ">
+  <title class="- topic/title ">Parameterize Azure DevOps Test Case ID List (PoC)</title>
+  <topicref href="associated-ado-test-case-ids.dita" class="- map/topicref "><topicref href="set_parameter.dita" class="- map/topicref "/>
+  <topicref href="execute_test_suite_containing_associated_test_cases.dita" class="- map/topicref "/>
+</topicref>
+  </map>

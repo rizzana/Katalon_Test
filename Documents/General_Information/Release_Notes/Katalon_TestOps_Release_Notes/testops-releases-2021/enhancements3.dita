@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_15" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Enhancements</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">Enhanced filters for Reports &amp; Analytics</li>
+          <li class="- topic/li ">Enhanced component release summary</li>
+          <li class="- topic/li ">Enabled component to show test percentage in release
+            readiness</li>
+          <li class="- topic/li ">Enhanced wizard for framework integration</li>
+          <li class="- topic/li ">Build visible under Configuration section for each Test
+            Run</li>
+        </ul>
+      </conbody>
+    </concept>

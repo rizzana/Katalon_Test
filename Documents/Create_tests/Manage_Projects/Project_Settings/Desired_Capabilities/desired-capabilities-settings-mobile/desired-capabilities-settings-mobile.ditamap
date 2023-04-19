@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-desired-capabilities-settings-mobile" class="- map/map ">
+  <title class="- topic/title ">Set up Desired Capabilities in Mobile Testing</title>
+  <topicref href="desired-capabilities-settings-mobile.dita" class="- map/topicref "><topicref href="set_desired_capabilities_for_mobile_testing_in_katalon_studio.dita" class="- map/topicref "/>
+  <topicref href="example_uses.dita" class="- map/topicref ">
+    <topicref href="example_1_enable_unicode_input.dita" class="- map/topicref "/>
+    <topicref href="example_2_start_the_device_in_a_certain_orientation.dita" class="- map/topicref "/>
+    <topicref href="example_3_set_screenshot_save_directory.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="location_of_desired_capabilities_files.dita" class="- map/topicref "/>
+</topicref>
+  </map>

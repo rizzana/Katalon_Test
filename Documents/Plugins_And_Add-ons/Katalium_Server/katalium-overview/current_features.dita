@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Current features</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">Automatically detect versions of major browsers (Chrome,
+            Firefox, Internet Explorer, Edge).</li>
+        <li class="- topic/li ">Automatically download and install compatible WebDrivers.</li>
+        <li class="- topic/li ">Capture screenshots of browsers started by the Grid.</li>
+      </ul>
+    </conbody>
+  </concept>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-mobile-image-based-testing" class="- map/map ">
+  <title class="- topic/title ">[Mobile] Image-based Testing</title>
+  <topicref href="mobile-image-based-testing.dita" class="- map/topicref "><topicref href="set-up.dita" class="- map/topicref ">
+    <topicref href="windows.dita" class="- map/topicref "/>
+    <topicref href="macos.dita" class="- map/topicref "/>
+    <topicref href="linux.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="keywords.dita" class="- map/topicref "/>
+  <topicref href="capture_images.dita" class="- map/topicref ">
+    <topicref href="tutorial_1647942221306.801.dita" class="- map/topicref "/>
+    <topicref href="capture_tool_and_storage.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="acceptance_threshold.dita" class="- map/topicref "/>
+</topicref>
+  </map>

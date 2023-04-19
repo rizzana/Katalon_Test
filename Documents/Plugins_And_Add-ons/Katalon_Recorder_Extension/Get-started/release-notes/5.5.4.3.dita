@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id_11" class="- topic/topic ">
+    <title class="- topic/title ">5.5.4.3</title>
+    <body class="- topic/body ">
+      <p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">Bug fixes</b> - Fixed an issue where Play from here
+         / Play all executes tests in the wrong order when creating a new
+         test case or duplicating a test case.</p>
+    </body>
+  </topic>

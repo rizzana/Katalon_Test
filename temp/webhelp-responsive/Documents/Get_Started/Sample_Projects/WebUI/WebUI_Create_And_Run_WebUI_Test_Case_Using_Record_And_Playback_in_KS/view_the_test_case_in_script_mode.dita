@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><?workdir /Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Get_Started/Sample_Projects/WebUI/WebUI_Create_And_Run_WebUI_Test_Case_Using_Record_And_Playback_in_KS?><?workdir-uri file:/Users/rizzastaana/Documents/Katalon_Test/temp/webhelp-responsive/Documents/Get_Started/Sample_Projects/WebUI/WebUI_Create_And_Run_WebUI_Test_Case_Using_Record_And_Playback_in_KS/?><?path2project ../../../../../?><?path2project-uri ../../../../../?><?path2rootmap-uri ../../../../../?><?doctype-public -//OASIS//DTD DITA Concept//EN?><?doctype-system concept.dtd?><concept xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" id="id_5" class="- topic/topic concept/concept " ditaarch:DITAArchVersion="1.3" domains="(topic concept) (topic abbrev-d) a(props deliveryTarget) (topic equation-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic mathml-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic svg-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Get_Started/Sample_Projects/WebUI/WebUI_Create_And_Run_WebUI_Test_Case_Using_Record_And_Playback_in_KS/view_the_test_case_in_script_mode.dita" xtrc="concept:1;3:59" specializations="@props/deliveryTarget"><title class="- topic/title " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Get_Started/Sample_Projects/WebUI/WebUI_Create_And_Run_WebUI_Test_Case_Using_Record_And_Playback_in_KS/view_the_test_case_in_script_mode.dita" xtrc="title:1;3:89">View the test case in script mode</title><conbody class="- topic/body  concept/conbody " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Get_Started/Sample_Projects/WebUI/WebUI_Create_And_Run_WebUI_Test_Case_Using_Record_And_Playback_in_KS/view_the_test_case_in_script_mode.dita" xtrc="conbody:1;3:178"><codeblock class="+ topic/pre pr-d/codeblock " xml:space="preserve" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Get_Started/Sample_Projects/WebUI/WebUI_Create_And_Run_WebUI_Test_Case_Using_Record_And_Playback_in_KS/view_the_test_case_in_script_mode.dita" xtrc="codeblock:1;3:225">import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://demo-store.katalon.com/')
+
+WebUI.click(findTestObject('Object Repository/shoppingCart/Page_Zack Market/svg_Zack Market_svg-inline--fa fa-user fa-w-14'))
+
+WebUI.setText(findTestObject('Object Repository/shoppingCart/Page_Zack Market/input_Email_email'), 'thuy.ngo@katalon.com')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/shoppingCart/Page_Zack Market/input_Password_password'), 'GklqZBguAPQ=')
+
+WebUI.click(findTestObject('Object Repository/shoppingCart/Page_Zack Market/input_Password_button_btn__2lzmo'))
+
+WebUI.click(findTestObject('Object Repository/shoppingCart/Page_Zack Market/div_All Products_search_auto__TZ-uB'))
+
+WebUI.setText(findTestObject('Object Repository/shoppingCart/Page_Zack Market/input_All Products_auto_input__2ud9e'), 'tank top')
+
+WebUI.click(findTestObject('Object Repository/shoppingCart/Page_Zack Market/span_Tank Top'))
+
+WebUI.click(findTestObject('Object Repository/shoppingCart/Page_Zack Market/img_Clear All_card-img-top'))
+
+WebUI.click(findTestObject('Object Repository/shoppingCart/Page_Zack Market/img'))
+
+WebUI.click(findTestObject('Object Repository/shoppingCart/Page_Zack Market/span_Buy Now'))
+
+WebUI.click(findTestObject('Object Repository/shoppingCart/Page_Zack Market/span_Confirm checkout'))
+
+WebUI.closeBrowser()
+</codeblock><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Get_Started/Sample_Projects/WebUI/WebUI_Create_And_Run_WebUI_Test_Case_Using_Record_And_Playback_in_KS/view_the_test_case_in_script_mode.dita" xtrc="p:1;49:35">Next: <xref href="../../../../Execute/Execute_tests_in_Katalon_Studio/execute-a-test-case/execute-a-test-case-or-a-test-suite.dita" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Get_Started/Sample_Projects/WebUI/WebUI_Create_And_Run_WebUI_Test_Case_Using_Record_And_Playback_in_KS/view_the_test_case_in_script_mode.dita" xtrc="xref:1;49:189" type="concept"><?ditaot usertext?>Execute
+            and Debug a Test Case</xref>.</p><p class="- topic/p " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Get_Started/Sample_Projects/WebUI/WebUI_Create_And_Run_WebUI_Test_Case_Using_Record_And_Playback_in_KS/view_the_test_case_in_script_mode.dita" xtrc="p:2;50:68">See also:  <xref href="../../../../Create_tests/Troubleshooting_For_Test_Creation/Troubleshoot_Common_Execution_Exceptions_Web_Test/Troubleshoot_web_test_execution_exceptions_overview.dita" class="- topic/xref " xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Get_Started/Sample_Projects/WebUI/WebUI_Create_And_Run_WebUI_Test_Case_Using_Record_And_Playback_in_KS/view_the_test_case_in_script_mode.dita" xtrc="xref:2;50:280" type="concept"><?ditaot usertext?>Troubleshoot
+            automated web testing</xref>.</p></conbody><related-links class="- topic/related-links "><linkpool class="- topic/linkpool " mapkeyref="ditamap-8764" xtrc="topicref:6;10:84" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Get_Started/Sample_Projects/WebUI/WebUI_Create_And_Run_WebUI_Test_Case_Using_Record_And_Playback_in_KS/webui-create-test-case.ditamap"><link class="- topic/link " format="dita" href="../../../../../Documents/Get_Started/Sample_Projects/WebUI/WebUI_Create_And_Run_WebUI_Test_Case_Using_Record_And_Playback_in_KS/webui-create-test-case.dita" mapclass="- map/topicref " role="parent" scope="local" type="concept" xtrc="topicref:1;5:72" xtrf="file:/Users/rizzastaana/Documents/Katalon_Test/Documents/Get_Started/Sample_Projects/WebUI/WebUI_Create_And_Run_WebUI_Test_Case_Using_Record_And_Playback_in_KS/webui-create-test-case.ditamap"><?ditaot usertext?><linktext class="- topic/linktext "><?ditaot gentext?>[WebUI] Create and Run Web UI Test Case using Record and Playback in Katalon Studio</linktext></link></linkpool></related-links></concept>

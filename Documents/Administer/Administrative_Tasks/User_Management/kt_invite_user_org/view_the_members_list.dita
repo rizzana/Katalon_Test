@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">View the members list</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Go to the <b class="+ topic/ph hi-d/b ">User Management</b> page and click on the
+         <b class="+ topic/ph hi-d/b ">Active Users</b> tab.</p><p class="- topic/p ">You then can view the list of all existing members.</p><p class="- topic/p ">Once your team members have accepted the invitations to join
+         your organization, you will see their full names, emails, their
+         roles, the dates they have joined your organization, their license
+         access and their most recent access to the organization in the
+         <b class="+ topic/ph hi-d/b ">Active Users</b> section.</p><note type="note" class="- topic/note ">
+          
+          <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">You can update their permissions by changing their roles.</p></li></ul>
+        </note></conbody></concept>

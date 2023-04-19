@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_0" class="- topic/topic concept/concept "><title class="- topic/title ">[WebUI] Upload File by Drag-and-Drop</title><conbody class="- topic/body  concept/conbody "><section id="id" class="- topic/section ">
+    <title class="- topic/title ">Description</title>
+    
+      <note type="note" class="- topic/note ">
+        <p class="- topic/p ">Your Katalon Studio version must be <b class="+ topic/ph hi-d/b ">7.5.0+</b>.</p>
+      </note>
+      <p class="- topic/p ">
+        <b class="+ topic/ph hi-d/b ">Precondition</b>: For the keyword to work, the drop
+         zone must be visible before it is used.</p>
+    
+  </section><section id="id_1" class="- topic/section ">
+    <title class="- topic/title ">uploadFileWithDragAndDrop</title>
+    
+      <ul class="- topic/ul "><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Description</b>: Upload files to a website by
+            drag-and-drop</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Keyword name</b>: uploadFileWithDragAndDrop</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Keyword syntax</b>:
+            <codeph class="+ topic/ph pr-d/codeph ">uploadFileWithDragAndDrop(TestObject to, String filePath, FailureHandling flowControl)</codeph>
+        </li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Parameters</b>: 
+            
+            <ul class="- topic/ul "><li class="- topic/li ">Name: to<ul class="- topic/ul "><li class="- topic/li ">Description: An object representing the drop zone. If
+                  unspecified, the drop zone is the website’s body element by
+                  default.</li><li class="- topic/li ">Parameter Type: TestObject</li><li class="- topic/li ">Mandatory: Optional</li></ul></li><li class="- topic/li ">Name: filePath<ul class="- topic/ul "><li class="- topic/li ">Description: The absolute path to the file to be uploaded</li><li class="- topic/li ">Parameter Type: String</li><li class="- topic/li ">Mandatory: Required</li></ul></li><li class="- topic/li ">Name: flowControl<ul class="- topic/ul "><li class="- topic/li ">Description: Specify failure handling schema to determine
+                  whether the execution should be allowed to continue or stop.</li><li class="- topic/li ">Parameter Type: FailureHandling</li><li class="- topic/li ">Mandatory: Optional</li></ul></li></ul>
+        </li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Example</b>: Given there is a file named
+            <codeph class="+ topic/ph pr-d/codeph ">yourImage.jpg</codeph> in our project folder that needs
+            uploading on <codeph class="+ topic/ph pr-d/codeph ">https://imgur.com/upload?beta</codeph>, the
+            snippet below uses <codeph class="+ topic/ph pr-d/codeph ">WebUI.uploadFileWithDragAndDrop</codeph> to
+            perform the operation. Since the website supports drag and drop on
+            the entire webpage, we don’t have to specify a drop
+            zone.<codeblock class="+ topic/pre pr-d/codeblock ">import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+
+WebUI.openBrowser('')
+WebUI.navigateToUrl('https://imgur.com/upload?beta')
+def filePath = RunConfiguration.getProjectDir() + '/yourImage.jpg'
+WebUI.uploadFileWithDragAndDrop(filePath)
+WebUI.delay(5)
+WebUI.closeBrowser()
+</codeblock></li></ul>
+      
+        
+      
+    
+  </section><section id="id_2" class="- topic/section ">
+    <title class="- topic/title ">Variations of the keyword usage</title>
+    
+      <p class="- topic/p ">Some websites support uploading a file by drag-and-drop it
+         anywhere on the page, while others only support that in a limited
+         area. Hence, you can omit or keep the <codeph class="+ topic/ph pr-d/codeph ">TestObject to</codeph>
+         parameter in corresponding use cases.</p>
+    
+  </section><section id="id_3" class="- topic/section ">
+    <title class="- topic/title ">Upload multiple files at once</title>
+    
+      <p class="- topic/p ">To upload multiple files at once by drag-and-drop, for the value
+         of the parameter named <b class="+ topic/ph hi-d/b ">filePath</b>, please provide a
+         string with the following format: <codeblock class="+ topic/pre pr-d/codeblock ">pathToFile 1 + "\n" + pathToFile2 + "\n" + pathToFile3</codeblock>.</p>
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+WebUI.openBrowser('')
+WebUI.navigateToUrl('https://imgur.com/upload?beta')
+def filePath = RunConfiguration.getProjectDir() + '/Katalon-Devices.JPG'
+def filePath1 = RunConfiguration.getProjectDir() + '/Katalon-Devices 1.JPG'
+def filePath2 = RunConfiguration.getProjectDir() + '/Katalon-Devices 2.JPG'
+def concatenatedFilePath = (((filePath + '\n') + filePath1) + '\n') + filePath2
+WebUI.uploadFileWithDragAndDrop(concatenatedFilePath)
+WebUI.verifyElementPresent(findTestObject('Object Repository/Imgur/Page_Imgur The magic of the Internet/span_3 images saved'),
+    10)
+WebUI.delay(5)
+WebUI.closeBrowser()
+</codeblock>
+      
+      <p class="- topic/p ">Sample project is available <xref format="html" href="https://github.com/katalon-studio/Upload-File-with-Drag-and-Drop-Sample-Project" scope="external" class="- topic/xref ">here</xref>.</p>
+    
+  </section><section id="id_4" class="- topic/section ">
+    <title class="- topic/title ">Known Limitation</title>
+    
+      <p class="- topic/p ">Some website (e.g., <xref href="https://www.imageupload.net/" scope="external" class="- topic/xref ">Mobile Photo Upload</xref>) only
+         shows the drop zone when users drag and drop a file, which means
+         the drop zone is not visible before this keyword is used. In this
+         case, the keyword will not work.</p>
+    
+  </section></conbody></concept>

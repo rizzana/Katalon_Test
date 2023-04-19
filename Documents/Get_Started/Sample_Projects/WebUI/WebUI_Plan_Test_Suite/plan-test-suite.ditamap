@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-plan-test-suite" class="- map/map ">
+  <title class="- topic/title ">[Web UI] Plan Test Suite</title>
+  <topicref href="plan-test-suite.dita" class="- map/topicref "><topicref href="plan_a_test_suite.dita" class="- map/topicref "/>
+  <topicref href="define_test_suite_goals.dita" class="- map/topicref "/>
+  <topicref href="test_suite_execution.dita" class="- map/topicref "/>
+</topicref></map>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE glossentry PUBLIC "-//OASIS//DTD DITA Glossary Entry//EN" "glossentry.dtd">
+<glossentry id="glossentry-2327" class="- topic/topic concept/concept glossentry/glossentry "><glossterm class="- topic/title concept/title glossentry/glossterm ">Key (Jira)</glossterm><glossdef class="- topic/abstract concept/abstract glossentry/glossdef ">A key represents the ID of a Jira issue you have linked a test case/test result to.<p class="- topic/p ">In Katalon TestOps, you link a test case to Jira Requirements and link a test result (if the test run fails) to a Jira Defect.</p></glossdef></glossentry>

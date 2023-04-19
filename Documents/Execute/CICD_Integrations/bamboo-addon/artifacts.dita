@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Artifacts</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">If you want to keep Katalon Studio artifact from the build, you
+         can specify the <b class="+ topic/ph hi-d/b ">Copy Pattern</b> as
+         <codeph class="+ topic/ph pr-d/codeph ">Reports/**/*.*</codeph>
+      </p>
+      <p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bamboo-integration/bamboo-artifactdefinition.png" scope="external" class="- topic/image "/>
+      </p>
+      <p class="- topic/p ">After a build, execution log files created by Katalon Studio are
+         stored under the <b class="+ topic/ph hi-d/b ">Artifacts</b> tab.</p>
+      <p class="- topic/p ">
+        <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bamboo-integration/bamboo-viewartifact.png" scope="external" class="- topic/image "/>
+      </p>
+    </conbody>
+  </concept>

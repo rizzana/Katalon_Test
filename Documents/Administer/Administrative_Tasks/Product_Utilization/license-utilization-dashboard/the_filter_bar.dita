@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">The Filter Bar</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p "><b class="+ topic/ph hi-d/b ">Date time picker</b>:</p>
+                <p class="- topic/p ">On the top right of the <b class="+ topic/ph hi-d/b ">Product Utilization</b> page, you can see the date time picker that displays a specific date range. For example: <b class="+ topic/ph hi-d/b ">Apr 1, 2021 - Mar 8, 2022</b>. The <b class="+ topic/ph hi-d/b ">Date time picker</b> allows you to select a range of dates for which you want to view the license usage.</p>
+                <ul class="- topic/ul "><li class="- topic/li ">
+                        <p class="- topic/p ">Click the <b class="+ topic/ph hi-d/b ">Date time picker</b> icon at the top right corner of the license utilization dashboard. The range of dates displays accordingly.</p>
+                        <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-utilization-dashboard/K.S.E-8.2.5-license-utilization-dashboard-date_range_picker.png" scope="external" class="- topic/image "><alt class="- topic/alt ">date range dropdown</alt></image>
+                        </p>
+                        <p class="- topic/p ">The buttons and their functions in the <b class="+ topic/ph hi-d/b ">Date time picker</b> are as given below:</p>
+                        <ul class="- topic/ul "><li class="- topic/li ">
+                                <p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Reset</b>: Click this button to go back to the <i class="+ topic/ph hi-d/i ">default date</i> range. Refer to point 2 below, for more details on the <i class="+ topic/ph hi-d/i ">default date range</i>.</p>
+                            </li><li class="- topic/li ">
+                                <p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Apply</b>: Click this button to apply the new date range that you select.</p>
+                                <note type="note" class="- topic/note ">
+                                    <ul class="- topic/ul "><li class="- topic/li ">
+                                            <p class="- topic/p ">If you select a date range but do not click on <b class="+ topic/ph hi-d/b ">Apply</b>, the current date range displays by default.</p>
+                                        </li></ul>
+                                </note>
+                            </li></ul>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p ">Default date range:</p>
+                        <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/4e58d346a97b11c73bc029feb1b84e5a991335bf/katalon-studio/docs/license-utilization-dashboard/K.S.E-8.2.5-license_utilization_default_state.png" scope="external" class="- topic/image "><alt class="- topic/alt ">default state</alt></image>
+                        </p>
+                        <p class="- topic/p ">Keeps the <i class="+ topic/ph hi-d/i ">default date range</i> as it existed a year ago from [TODAY]:</p>
+                        <ul class="- topic/ul "><li class="- topic/li ">Start date = 1st of 12 months ago.</li><li class="- topic/li ">End date = [TODAY]</li></ul>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p ">As long as you apply the filter, the date range is valid for all sections on the page, including <b class="+ topic/ph hi-d/b ">Chart</b> and <b class="+ topic/ph hi-d/b ">Session table</b>.</p>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p ">For any date range or quick options that you select, the format is always: <i class="+ topic/ph hi-d/i ">MMM DD, YYYY - MMM DD, YYYY</i>, by default.</p>
+                        <p class="- topic/p ">For example: Apr 01, 2021 - Mar 08, 2022.</p>
+                        <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/license-utilization-dashboard/K.S.E-8.2.5-license-utilization-dashboard-date_format.PNG" scope="external" class="- topic/image "><alt class="- topic/alt ">date range</alt></image>
+                        </p>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p ">The date ranges to the left of the license utilization dashboard display the various timelines that you can select as per your requirement:</p>
+                        <p class="- topic/p "> <image width="250" href="Pictures/K.S.E-8.2.5-license-utilization-dashboard-date_range.png" class="- topic/image "><alt class="- topic/alt ">date range</alt></image></p>
+                        <p class="- topic/p ">Let us suppose that <i class="+ topic/ph hi-d/i ">Now</i> is <i class="+ topic/ph hi-d/i ">11/02/2022, 16:22:00</i>. The table below displays the corresponding date ranges and their meanings:</p>
+                        <table class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Date range</entry><entry class="- topic/entry ">Meaning</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">Now</entry><entry class="- topic/entry ">The date range will be from 11/02/2022 00:00:00 - 11/02/2022, 16:21:59.</entry></row><row class="- topic/row "><entry class="- topic/entry ">Last 7 days</entry><entry class="- topic/entry ">The date range will be from 05/02/2022 00:00:00 - 11/02/2022, 23:59.</entry></row><row class="- topic/row "><entry class="- topic/entry ">This month</entry><entry class="- topic/entry ">The date range will be from 01/02/2022 00:00:00 - 11/02/2022, 23:59:59.</entry></row><row class="- topic/row "><entry class="- topic/entry ">Last 60 days</entry><entry class="- topic/entry ">The date range will be from 14/12/2022 00:00:00 - 11/02/2022, 23:59:59.</entry></row><row class="- topic/row "><entry class="- topic/entry ">Last 90 days</entry><entry class="- topic/entry ">The date range will be from 4/11/2022 00:00:00 - 11/02/2022, 23:59:59.</entry></row><row class="- topic/row "><entry class="- topic/entry ">This year</entry><entry class="- topic/entry ">The date range will be from 01/01/2022 00:00:00 - 11/02/2022, 23:59:59.</entry></row><row class="- topic/row "><entry class="- topic/entry ">Custom</entry><entry class="- topic/entry ">You can set up a custom date range filter as per your requirement.</entry></row></tbody></tgroup></table>
+                        <p class="- topic/p ">
+                            <note class="- topic/note ">
+                                <ul class="- topic/ul "><li class="- topic/li ">
+                                        <p class="- topic/p ">In the <b class="+ topic/ph hi-d/b ">Date time picker</b>, You can select any date range that is within a range of 1 year, at the maximum.</p>
+                                    </li><li class="- topic/li ">
+                                        <p class="- topic/p ">If you select a date range of more than 1 year (say, 366 days), an error message displays accordingly, stating <i class="+ topic/ph hi-d/i ">Date range is invalid</i>.</p>
+                                    </li></ul>
+                            </note>
+                        </p>
+                    </li></ul>
+            </li><li class="- topic/li ">
+                <p class="- topic/p "><b class="+ topic/ph hi-d/b ">User email, machine ID, and license types</b>:</p>
+                <p class="- topic/p ">Use the filter to select the user email, machine ID, and license type that you want to analyze. The statistics, graph, and session table below display the session durations for each license type within the 1-year period.</p>
+                <p class="- topic/p ">If you leave it blank by default, you will see the total duration used for all license types, machine IDs, and user emails, including the data of removed machine IDs and user emails.</p>
+                <p class="- topic/p ">In each filter category, you can search and select multiple options. You can filter for removed users, but not for removed machine IDs.</p>
+                <p class="- topic/p "><image href="Pictures/license-utilization-filter.png" class="- topic/image "><alt class="- topic/alt ">multiple options</alt></image></p>
+                <p class="- topic/p ">After you choose your filter options, the dynamic graph changes accordingly.</p>
+            </li></ol></conbody></concept>

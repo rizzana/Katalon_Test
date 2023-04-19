@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_8" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">In Script View</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">Once the locator is declared, you can switch to the
+         <b class="+ topic/ph hi-d/b ">Script</b> View and modify the perceived value of the
+         locator. Typically, users want to pass the locator value as a
+         variable or refer to data files.</p>
+        <p class="- topic/p ">The general syntax to find a Windows test object using a dynamic
+         locator is as follows:</p>
+        
+          <codeblock class="+ topic/pre pr-d/codeblock ">findWindowsObject('{your test object}', [('{variable}') : '{value of variable}'])
+</codeblock>
+        
+        <p class="- topic/p ">For example:</p>
+        
+          <codeblock class="+ topic/pre pr-d/codeblock ">findWindowsObject('Object Repository/btn_Login', [('xpath') : '//Button[0]'])
+</codeblock>
+        
+        <p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/windows-test-objects/img_script_view.png" scope="external" class="- topic/image "/>
+        </p>
+      </conbody>
+    </concept>

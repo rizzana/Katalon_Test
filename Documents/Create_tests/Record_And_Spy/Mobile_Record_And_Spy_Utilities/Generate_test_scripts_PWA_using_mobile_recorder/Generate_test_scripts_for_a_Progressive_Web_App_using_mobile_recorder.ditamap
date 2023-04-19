@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-6285" class="- map/map "><title class="- topic/title ">Generate test scripts for a Progressive Web App using mobile recorder</title><topicref href="c_intro_generate-test-scripts-for_PWA_with-mobile-recorder.dita" class="- map/topicref "><topicref href="create_and_run_your_android_test_case.dita" class="- map/topicref "/><topicref href="configure_the_remote_server_settings_in_katalon_studio.dita" class="- map/topicref "/><topicref href="recording_the_desired_use_case.dita" class="- map/topicref "/><topicref href="Troubleshooting.dita" class="- map/topicref "/></topicref></map>

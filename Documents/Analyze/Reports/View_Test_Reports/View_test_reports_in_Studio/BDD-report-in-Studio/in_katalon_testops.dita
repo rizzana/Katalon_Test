@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_10" class="- topic/topic concept/concept "><title class="- topic/title ">View BDD reports in Katalon TestOps</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Katalon TestOps has dedicated support for viewing BDD test
+         results as well as advanced analytics and reports such as
+         Traceability Matrix Report. To learn about Traceability Matrix
+         Report, you can refer to this document: <xref href="../../View_reports_in_TestOps/view-traceability-matrix/view-traceability-matrix.dita" class="- topic/xref ">Traceability
+            Matrix Report</xref>.</p><p class="- topic/p ">By default, the BDD test report feature on Katalon TestOps is
+         disabled to avoid mixing the BDD and Katalon Studio formatted data.
+         To enable the feature, you can refer to this guide: <xref href="../../View_reports_in_TestOps/bdd-test-results-in-TestOps/bdd-test-results.dita" class="- topic/xref ">View
+            BDD Test Results in Katalon TestOps</xref>.</p></conbody></concept>

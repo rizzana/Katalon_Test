@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-kt-transfer-ownership" class="- map/map ">
+  <title class="- topic/title ">Transfer Ownership</title>
+  <topicref href="kt-transfer-ownership.dita" class="- map/topicref "><topicref href="transfer_ownership_to_an_existing_member.dita" class="- map/topicref "/>
+  <topicref href="transfer_ownership_to_a_new_email_address.dita" class="- map/topicref "/>
+</topicref>
+  </map>

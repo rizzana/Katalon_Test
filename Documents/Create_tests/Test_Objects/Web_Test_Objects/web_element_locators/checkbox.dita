@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_11" class="- topic/topic concept/concept "><title class="- topic/title ">Checkbox</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">With the tag 'input', a checkbox is used to receive the
+            "click" action. Normally, a checkbox locator is similar to that of
+            a textbox.</p><p class="- topic/p ">
+          <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/web_element_locators/checkbox-locator.png" scope="external" class="- topic/image "><alt class="- topic/alt ">checkbox-locator</alt></image>
+        </p><codeblock class="+ topic/pre pr-d/codeblock ">&lt;div class="input-list-item input-list-item-checkbox"&gt;
+&lt;input type="checkbox" class="sm-input sm-input--stretch" id="tl0056" name="remember_me"&gt;
+&lt;label class="sm-label" for="tl0056"&gt;Remember me&lt;/label&gt;
+&lt;/div&gt;
+</codeblock><p class="- topic/p ">A checkbox is often associated with a label. So we
+            can use the label to locate the checkbox:<ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p "><codeph class="+ topic/ph pr-d/codeph ">//label[.='Remember
+            me']//preceding-sibling::input[1]</codeph></p></li><li class="- topic/li "><p class="- topic/p "><codeph class="+ topic/ph pr-d/codeph ">//label[.='Remember
+            me']//ancestor::div[1]//input</codeph></p></li><li class="- topic/li "><p class="- topic/p "><codeph class="+ topic/ph pr-d/codeph ">//input[@id=//label[.="Remember
+            me"]/@for]</codeph></p></li><li class="- topic/li "><p class="- topic/p "><codeph class="+ topic/ph pr-d/codeph ">//input[.//following-sibling::label[.='Remember
+            me']]</codeph></p></li></ul></p></conbody></concept>

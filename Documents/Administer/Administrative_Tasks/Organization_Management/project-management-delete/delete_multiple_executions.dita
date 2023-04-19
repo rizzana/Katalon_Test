@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Delete multiple Executions</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">In Katalon TestOps, you can also delete multiple Executions at the same time by using the bulk selection feature.</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Go to your Project &gt; <b class="+ topic/ph hi-d/b ">Reports</b> &gt; <b class="+ topic/ph hi-d/b ">Test Runs</b>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Check the boxes (as shown below) to select the Executions you want to delete.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-aug-delete-data/bulk-selection-for-execution-delete-2.png" scope="external" class="- topic/image "><alt class="- topic/alt ">test runs page bulk delete appears</alt></image>
+                </p>
+                <p class="- topic/p ">A new command row appears at the top of the <b class="+ topic/ph hi-d/b ">Test Runs</b> page after you check the boxes.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Select <b class="+ topic/ph hi-d/b ">Delete</b>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Confirm your action in the <b class="+ topic/ph hi-d/b ">Delete Execution</b> popup box.</p>
+            </li></ol><p class="- topic/p ">You have deleted your Executions.</p></conbody></concept>

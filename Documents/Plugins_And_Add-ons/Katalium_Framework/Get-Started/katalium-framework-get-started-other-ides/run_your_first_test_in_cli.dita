@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Run your first test in CLI</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To run the default test suite configured in <codeph class="+ topic/ph pr-d/codeph ">pom.xml</codeph>
+         use <codeph class="+ topic/ph pr-d/codeph ">mvn clean test</codeph>. Test suites can also be specified
+         using command arguments, e.g. <codeph class="+ topic/ph pr-d/codeph ">mvn clean test
+            -Dsurefire.suiteXmlFiles=src/test/resources/testng-parallel.xml</codeph>.</p></conbody></concept>

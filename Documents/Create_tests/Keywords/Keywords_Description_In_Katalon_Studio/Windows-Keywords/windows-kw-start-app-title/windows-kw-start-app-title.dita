@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_0" class="- topic/topic concept/concept "><title class="- topic/title ">[Windows] Start Application with Title</title><conbody class="- topic/body  concept/conbody "><section id="id" class="- topic/section ">
+    <title class="- topic/title "/>
+    
+      <note type="note" class="- topic/note ">
+        <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">Starting from <b class="+ topic/ph hi-d/b ">version 7.2.</b>, this keyword is
+            available for Windows desktop application testing on Katalon
+            Studio.</p></li></ul>
+      </note>
+    
+  </section><section id="id_1" class="- topic/section ">
+    <title class="- topic/title ">startApplicationWithTitle</title>
+    
+      <ul class="- topic/ul "><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Description</b>: Start Windows driver and starts
+            the Windows application at the given absolute path. After the
+            application starts, if WinAppDriver cannot detect the main
+            application window correctly, Katalon Studio will use the given
+            window title parameter to find the opened application to continue
+            working.</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Keyword name</b>: startApplicationWithTitle</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Keyword syntax</b>:
+            Windows.startApplicationWithTitle(appFile, windowTitle,
+            flowControl)</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Parameters</b>: 
+            
+            <ul class="- topic/ul "><li class="- topic/li ">Name: appFile</li><li class="- topic/li ">Description: Absolute path to the Windows application.</li><li class="- topic/li ">Parameter Type: String</li><li class="- topic/li ">Mandatory: Required</li><li class="- topic/li ">Name: windowTitle</li><li class="- topic/li ">Description: Title of the opening application windows. Full
+                  text or partial text is acceptable.</li><li class="- topic/li ">Parameter Type: String</li><li class="- topic/li ">Mandatory: Required</li><li class="- topic/li ">Name: flowControl</li><li class="- topic/li ">Description: Used to control the step if the step failed.\
+                  STOP<i class="+ topic/ph hi-d/i ">ON</i>FAILURE: throws a StepFailedException if the step
+                  failed (default).\ CONTINUE<i class="+ topic/ph hi-d/i ">ON</i>FAILURE: continue the test if
+                  the test failed but the test result is still failed.\ OPTIONAL:
+                  continue the test and ignore the test result.</li><li class="- topic/li ">Parameter Type: FailureHandling</li><li class="- topic/li ">Mandatory: optional</li></ul>
+        </li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Returns</b>: void.</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Throw</b>: <b class="+ topic/ph hi-d/b ">StepFailedException</b> if
+            Katalon Studio could not start Windows Driver, could not start the
+            application, the application file doesn't exist or there is no
+            application matches.object.</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Example</b>:</li></ul>
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">Windows.startApplicationWithTitle('C:\\Program Files\\Microsoft Office\\root\\Office16\\EXCEL.exe', 'Excel')
+</codeblock>
+      
+    
+  </section></conbody></concept>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">View the removed user list</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Go to the <b class="+ topic/ph hi-d/b ">User Management</b> page and click on the <b class="+ topic/ph hi-d/b ">Removed Users</b> tab.</p><note type="note" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">
+                    <p class="- topic/p ">By default, the list is sorted by <b class="+ topic/ph hi-d/b ">JOIN DATE.</b></p>
+                </li></ul>
+        </note><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-invite-user-org/k1-removed-users-tab.png" scope="external" class="- topic/image "><alt class="- topic/alt ">removed users tab</alt></image>
+        </p><p class="- topic/p ">You can view a full list of users you have removed from your organization.</p></conbody></concept>

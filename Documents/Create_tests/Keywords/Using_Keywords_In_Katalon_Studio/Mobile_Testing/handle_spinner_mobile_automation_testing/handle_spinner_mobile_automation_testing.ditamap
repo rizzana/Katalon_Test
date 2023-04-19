@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-handle_spinner_mobile_automation_testing" class="- map/map ">
+  <title class="- topic/title ">Handling Spinner in Mobile Automation Testing</title>
+  <topicref href="handle_spinner_mobile_automation_testing.dita" class="- map/topicref "><topicref href="scenario_1647942192829.259.dita" class="- map/topicref "/>
+  <topicref href="manual_mode_1647942192829.259.dita" class="- map/topicref "/>
+  <topicref href="script_mode_1647942192829.259.dita" class="- map/topicref "/>
+</topicref>
+  </map>

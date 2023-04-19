@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title "> Clone a Katalon Studio project from a Git repository</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">After enabling Git Integration, you can clone an existing
+         <b class="+ topic/ph hi-d/b ">Git repository</b> into a newly-created directory on
+         the local machine.</p><ol class="- topic/ol "><li class="- topic/li ">
+          <p class="- topic/p ">In the main toolbar, click on the <i class="+ topic/ph hi-d/i ">Git</i> icon and select
+               <b class="+ topic/ph hi-d/b ">Clone Project</b>. Or, you can click on <uicontrol class="+ topic/ph ui-d/uicontrol ">Clone Git Project</uicontrol> in the <uicontrol class="+ topic/ph ui-d/uicontrol ">Tests Explorer</uicontrol> section.</p>
+          <p class="- topic/p ">
+            
+          <image width="400" href="image/ks-pe-clone-git.png" class="- topic/image "/></p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Clone Git Repository</b> dialog is
+               displayed.</p>
+        </li></ol></conbody></concept>

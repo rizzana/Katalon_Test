@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Specify a path to Android SDK root folder</title>
+    <conbody class="- topic/body  concept/conbody ">
+
+      <p class="- topic/p ">By default, the Android SDK root folder is located at
+         <b class="+ topic/ph hi-d/b ">~/.katalon/tools/android<i class="+ topic/ph hi-d/i ">sdk</i>. You can rename or
+            move your Android SDK root folder to another location and use
+            the</b> ANDROIDHOME environment variable to point the path to
+         that new location. See also: <xref href="../../../Create_tests/Manage_Projects/Set_Up_Projects/Mobile-Testing/Android/Mobile_Android_Setup/Set_up_Android_tests_on_Windows_Linux_and_macOS.dita" class="- topic/xref ">[Mobile]
+            Android Setup</xref>.</p>
+    </conbody>
+    
+  </concept>

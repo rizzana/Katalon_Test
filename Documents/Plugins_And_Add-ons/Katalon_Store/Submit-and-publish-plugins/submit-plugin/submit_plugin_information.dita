@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Submit plugin information on <ph conkeyref="name-variables/katalon-store" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">After successfully uploading your plugin, provide the following
+         information:</p><ul class="- topic/ul "><li class="- topic/li ">Publisher</li><li class="- topic/li ">Plugin name</li><li class="- topic/li ">Description: Briefly describe your plugin in 50 words or
+            less</li><li class="- topic/li ">Version</li><li class="- topic/li ">Type</li><li class="- topic/li ">Source code repository</li><li class="- topic/li ">Documentation: Please insert your documentation source for the
+            plugin here</li><li class="- topic/li ">Overview: Please provide more details of your plugin (e.g. What
+            does this plugin do? What are the features and capabilities of this
+            plugin?)</li></ul><p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Save</b>. Save your submission as a
+         draft.</p></conbody></concept>

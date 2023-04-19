@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Export to Katalon Studio</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To export a test project to KS, follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">Open Katalon Recorder.</li><li class="- topic/li ">
+                <p class="- topic/p ">On the left sidebar, go to <b class="+ topic/ph hi-d/b ">Export</b> &gt; <b class="+ topic/ph hi-d/b ">Export to Katalon Studio</b>.</p>
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Export to Katalon Studio</b> dialog appears as below.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-recorder/docs/5.6.0-release/export-test-project-to-ks.png" scope="external" class="- topic/image "><alt class="- topic/alt ">kr export test project to ks</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Select the data you want to export.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Export</b>.</p>
+                <p class="- topic/p ">The downloaded file is a .zip file.</p>
+            </li></ol><p class="- topic/p ">You can now unzip this file to import your tests in Katalon Studio.</p></conbody></concept>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Data-driven testing in Katalon Recorder</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Data-driven testing (DDT) allows you to execute test cases using
+         data from external data files in table or spreadsheet format.
+         Katalon Recorder facilitates DDT by providing DDT commands and
+         enabling you to bind test cases with data files.</p><note type="important" class="- topic/note ">
+        
+        <p class="- topic/p ">Katalon Recorder version 5.6.0 onwards.</p>
+      </note><p class="- topic/p ">This article introduces you to the DDT commands and data file
+         formats supported by Katalon Recorder.</p></conbody></concept>

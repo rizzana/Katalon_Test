@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_19" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Build custom keywords with Settings</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <p class="- topic/p ">With this new feature, a <b class="+ topic/ph hi-d/b ">Settings</b> page under
+         <b class="+ topic/ph hi-d/b ">Project Settings/Plugins</b> can be created for a
+         custom-keyword plugin. This can be utilized to store project-scoped
+         variables for users to customize.</p>
+      </conbody>
+      
+      
+      
+    </concept>

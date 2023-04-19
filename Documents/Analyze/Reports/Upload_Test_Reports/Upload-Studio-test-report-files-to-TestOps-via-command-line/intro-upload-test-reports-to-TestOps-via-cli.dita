@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Upload JUnit and report files to using command line</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Katalon Report Uploader is a utility to upload reports to
+         Katalon TestOps. At this moment it supports JUnit, Katalon Studio,
+         and Katalon Recorder report format. It can be used with CLI,
+         Docker, GitHub Action, and other cloud CIs.</p></conbody></concept>

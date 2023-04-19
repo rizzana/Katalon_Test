@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Update the Object Locator</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Because a deprecated Object Locator causes the error, we can find the new Object Locator using the browser's <b class="+ topic/ph hi-d/b ">Inspector</b> tool.</p><p class="- topic/p ">In our example, we use the <b class="+ topic/ph hi-d/b ">Inspector</b> tool to get the XPath of the corresponding Web element.</p><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">To get the new XPath, in the running browser instance, right-click on the target web element, and select <b class="+ topic/ph hi-d/b ">Inspect</b>.</p>
+                <p class="- topic/p ">Here we right-click on the Sign-in button that causes the error.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-analyze-execution-logs-and-debug/KS-Browser-right-click-on-element.png" scope="external" width="750" class="- topic/image "><alt class="- topic/alt ">Error Script</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">In the inspector window, the selected element is highlighted, indicating the target element's location in the HTML DOM. Right-click on the highlighted line and select <b class="+ topic/ph hi-d/b ">Copy &gt; Copy XPath</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-analyze-execution-logs-and-debug/KS-Copy-XPath.png" scope="external" width="750" class="- topic/image "><alt class="- topic/alt ">Error Script</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Add the new XPath to the test object. Open the test object, in the test object view, specify <b class="+ topic/ph hi-d/b ">XPath</b> as the <b class="+ topic/ph hi-d/b ">Selection Method</b> and paste the copied XPath from step 2 in the <b class="+ topic/ph hi-d/b ">Selected Locator</b> editor.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/tutorials/webui-analyze-execution-logs-and-debug/KS-Add-new-XPath.png" scope="external" width="750" class="- topic/image "><alt class="- topic/alt ">Error Script</alt></image>
+                </p>
+            </li></ol></conbody></concept>

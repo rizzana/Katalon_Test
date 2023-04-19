@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept "><title class="- topic/title ">Create a Test Suite to test different languages</title><conbody class="- topic/body  concept/conbody "><note type="important" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">Make sure to configure all your test cases with Desired Capabilities as per Part 1.</li></ul>
+        </note><note type="note" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">
+                    <p class="- topic/p ">Desired Capabilities can be reused across projects. You can refer to this document: <xref href="../import-export-desired-capabilities/import-export-desired-capabilities.dita" class="- topic/xref ">Reuse Desired Capabilities</xref> for further details.</p>
+                </li></ul>
+        </note><p class="- topic/p ">In the following example, we demonstrate how to create a Test Suite with Test case variables to test different browser locales. Here, we use French, English, and Spanish.</p><ol class="- topic/ol "><li class="- topic/li ">Create a test suite. Go to <b class="+ topic/ph hi-d/b ">File &gt; New &gt; Test Suite.</b>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Add</b> in the command toolbar, then choose pre-configured test cases.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/d22b289b2b07c6ae15b9a52e11a3cc245e725974/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/new-test-suite.png" scope="external" class="- topic/image "><alt class="- topic/alt ">New Test Suite</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Create a data file. Go to <b class="+ topic/ph hi-d/b ">File &gt; New &gt; Test Data.</b> Choose <b class="+ topic/ph hi-d/b ">Data Type</b> as <b class="+ topic/ph hi-d/b ">Internal Data.</b>
+                </p>
+                <p class="- topic/p ">You use this data file to input different language codes you want to test on browsers. For our example, we input <codeph class="+ topic/ph pr-d/codeph ">fr</codeph>,<codeph class="+ topic/ph pr-d/codeph ">en</codeph>,<codeph class="+ topic/ph pr-d/codeph ">es</codeph>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/create-new-data-file-2.png" scope="external" class="- topic/image "><alt class="- topic/alt ">New Data file 2</alt></image>
+                </p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/New%20Data%20File.png" scope="external" class="- topic/image "><alt class="- topic/alt ">New Data file</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Manage Data Binding</p>
+                <ul class="- topic/ul "><li class="- topic/li ">
+                        <p class="- topic/p ">Return to your test suite, click <b class="+ topic/ph hi-d/b ">Show Data Binding</b> to expand the <b class="+ topic/ph hi-d/b ">Data Binding</b> section. Make sure you click on the correct pre-configured test case beforehand.</p>
+                        <p class="- topic/p ">This step binds the New Data File from Step 3 with the Test Suite you want to run. See also <xref href="../../../../Data_Driven_Testing/run-test-case-external-data/manage_data_binding.dita" class="- topic/xref ">Manage Data Binding</xref>.</p>
+                        <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/show-data-variables.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Show Data Binding section</alt></image>
+                        </p>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p ">The final results should show as below:</p>
+                        <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/how-to-guides/tests-different-browser-locales-with-DC/Test%20Suite%20Data%20Binding.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Test Suite data</alt></image>
+                        </p>
+                    </li></ul>
+            </li></ol></conbody></concept>

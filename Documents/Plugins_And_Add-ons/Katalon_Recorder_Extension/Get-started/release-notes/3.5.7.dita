@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<topic id="id_34" class="- topic/topic ">
+    <title class="- topic/title ">3.5.7</title>
+    <body class="- topic/body ">
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">Supported "loadVars" for JSON-format data files.</li>
+        <li class="- topic/li ">Supported custom order for locator builders.</li>
+        <li class="- topic/li ">Supported "Play From Here" to execute a test suite from an
+            arbitrary test case.</li>
+      </ul>
+    </body>
+  </topic>

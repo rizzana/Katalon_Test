@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-6727" xml:lang="en-us" class="- topic/topic concept/concept "><title class="- topic/title ">[WebUI] Clear Text</title><prolog class="- topic/prolog "><author translate="no" type="creator" class="- topic/author ">Trinh Huynh &lt;trinh.huynh@katalon.com&gt;</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "/></metadata></prolog><conbody class="- topic/body  concept/conbody "><section class="- topic/section "><title class="- topic/title ">Description</title><p class="- topic/p ">Clear all text of the test object using WebUI.</p></section><section class="- topic/section "><title class="- topic/title ">Parameters</title><table class="- topic/table "><tgroup cols="4" class="- topic/tgroup "><colspec colname="c1" colnum="1" colwidth="0*" class="- topic/colspec "/><colspec colname="c2" colnum="2" colwidth="0*" class="- topic/colspec "/><colspec colname="c3" colnum="3" colwidth="0*" class="- topic/colspec "/><colspec colname="c4" colnum="4" colwidth="1*" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Parameter</entry><entry class="- topic/entry ">Type</entry><entry class="- topic/entry ">Mandatory</entry><entry class="- topic/entry ">Description</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">to</entry><entry class="- topic/entry ">TestObject</entry><entry class="- topic/entry ">Required</entry><entry class="- topic/entry ">Represent a web element</entry></row><row class="- topic/row "><entry class="- topic/entry ">flowControl</entry><entry class="- topic/entry ">FailureHandling</entry><entry class="- topic/entry ">Optional</entry><entry class="- topic/entry ">Specify <xref href="../../../../../Maintain/failure-handling/failure-handling.dita" class="- topic/xref ">failure handling</xref> schema to
+                  determine whether the execution should be allowed to continue or
+                  stop</entry></row></tbody></tgroup></table></section><section class="- topic/section "><title class="- topic/title ">Returns</title><p class="- topic/p "><uicontrol class="+ topic/ph ui-d/uicontrol ">true</uicontrol> if text of object is clear. Otherwise, <uicontrol class="+ topic/ph ui-d/uicontrol ">false</uicontrol>.</p></section><section class="- topic/section "><title class="- topic/title ">Example</title><p class="- topic/p ">Enter the following script when you want to clear text in the login fields on CURA Healthcare Service login page:</p><codeblock class="+ topic/pre pr-d/codeblock ">import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
+import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
+import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
+import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
+import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
+import com.kms.katalon.core.checkpoint.CheckpointFactory as CheckpointFactory
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as MobileBuiltInKeywords
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.model.FailureHandling as FailureHandling
+import com.kms.katalon.core.testcase.TestCase as TestCase
+import com.kms.katalon.core.testcase.TestCaseFactory as TestCaseFactory
+import com.kms.katalon.core.testdata.TestData as TestData
+import com.kms.katalon.core.testdata.TestDataFactory as TestDataFactory
+import com.kms.katalon.core.testobject.ObjectRepository as ObjectRepository
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WSBuiltInKeywords
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import internal.GlobalVariable as GlobalVariable
+
+'Open browser and navigate to demo AUT site'
+WebUI.openBrowser('http://demoaut.katalon.com')
+
+'Click on \'Make Appointment\' button'
+WebUI.click(findTestObject('Page_CuraHomepage/btn_MakeAppointment'))
+
+'Fill in login information'
+WebUI.setText(findTestObject('Page_Login/txt_UserName'), Username)
+
+WebUI.setText(findTestObject('Page_Login/txt_Password'), Password)
+
+'Clear text in login fields'
+WebUI.clearText(findTestObject('Page_Login/txt_UserName'))
+
+WebUI.clearText(findTestObject('Page_Login/txt_Password'))
+
+'Close browser'
+WebUI.closeBrowser()
+</codeblock></section></conbody></concept>

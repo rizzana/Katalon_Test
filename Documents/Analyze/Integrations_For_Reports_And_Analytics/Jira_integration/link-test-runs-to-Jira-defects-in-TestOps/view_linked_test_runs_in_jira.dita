@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">View linked Test Runs in Jira</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <ol class="- topic/ol ">
+        <li class="- topic/li ">
+          <p class="- topic/p ">Go to the Jira issue you have linked the Test Results to.</p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Click on the <b class="+ topic/ph hi-d/b ">Linked Test Runs</b> section to see
+               all Test Results of the linked Test Runs.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-ka-defects/jira-link-test-run-section-plugin.png" scope="external" width="100%" class="- topic/image ">
+              <alt class="- topic/alt ">jira linked test runs section</alt>
+            </image>
+          </p>
+        </li>
+      </ol>
+    </conbody>
+  </concept>

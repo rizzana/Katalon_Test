@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-dynamic-test-suite" class="- map/map ">
+  <title class="- topic/title ">Dynamic Test Suite</title>
+  <topicref href="dynamic-test-suite.dita" class="- map/topicref "><topicref href="categorize_test_cases_with_tags.dita" class="- map/topicref ">
+    <topicref href="categorize_test_cases_with_tags_management.dita" class="- map/topicref "/>
+    <topicref href="categorize_test_cases_from_test_case_view.dita" class="- map/topicref "/>
+    <topicref href="categorize_test_cases_from_the_workspace_sidebar.dita" class="- map/topicref "/>
+  </topicref>
+  <topicref href="execute_dynamic_test_suite_containing_categorized_test_cases.dita" class="- map/topicref ">
+    <topicref href="create_a_new_dynamic_test_suite.dita" class="- map/topicref "/>
+    <topicref href="add_categorized_test_cases_into_a_dynamic_test_suite.dita" class="- map/topicref "/>
+    <topicref href="run_the_dynamic_test_suite.dita" class="- map/topicref "/>
+  </topicref>
+</topicref>
+  </map>

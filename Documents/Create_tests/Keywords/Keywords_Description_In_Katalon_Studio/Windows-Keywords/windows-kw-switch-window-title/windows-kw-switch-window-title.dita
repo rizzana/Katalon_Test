@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_0" class="- topic/topic concept/concept "><title class="- topic/title ">[Windows] Switch to Window Title</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p "><note class="- topic/note "><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">From <b class="+ topic/ph hi-d/b ">version 7.2.0</b>, this keyword is available for
+            Windows desktop application testing on Katalon Studio.</p></li></ul></note></p><section id="id_1" class="- topic/section ">
+    <title class="- topic/title ">switchToWindowTitle</title>
+    
+      <ul class="- topic/ul "><li class="- topic/li ">
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Description</b>: Find and attach the opening
+               application window that describes by the given windows object to
+               the working WindowsDriver session on the current desktop by the
+               given title.</p>
+          <p class="- topic/p ">This keyword should be used when:</p>
+          <ul class="- topic/ul "><li class="- topic/li ">The main application window has been closed and replaced by
+                  another window.</li><li class="- topic/li ">The application has multiple working windows. We can switch
+                  among these windows.</li><li class="- topic/li ">We already have an opened application and need to switch to
+                  without reopening requires</li></ul>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Keyword name</b>: switchToWindowTitle</p>
+        </li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Keyword syntax</b>:
+            Windows.switchToWindowTitle(windowTitle, flowControl)</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Parameters</b>: 
+            
+            <ul class="- topic/ul "><li class="- topic/li ">Name: windowTitle</li><li class="- topic/li ">Description: Title of the opening application windows. Full
+                  text or partial text is acceptable.</li><li class="- topic/li ">Parameter Type: String</li><li class="- topic/li ">Mandatory: Required</li><li class="- topic/li ">Name: flowControl</li><li class="- topic/li ">Description: Used to control the step if the step failed.\
+                  STOP<i class="+ topic/ph hi-d/i ">ON</i>FAILURE: throws a StepFailedException if the step
+                  failed (default).\ CONTINUE<i class="+ topic/ph hi-d/i ">ON</i>FAILURE: continue the test if
+                  the test failed, but the test result is still failed.\ OPTIONAL:
+                  continue the test and ignore the test result.</li><li class="- topic/li ">Parameter Type: FailureHandling</li><li class="- topic/li ">Mandatory: optional</li></ul>
+        </li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Returns</b>: The WindowsDriver after Katalon
+            Studio switches successfully.</li><li class="- topic/li ">
+          <b class="+ topic/ph hi-d/b ">Throw</b>: <b class="+ topic/ph hi-d/b ">StepFailedException</b> if
+            Katalon Studio could not find any window that matches with the
+            given windows object.</li><li class="- topic/li ">
+          <p class="- topic/p ">
+            <b class="+ topic/ph hi-d/b ">Example</b>:</p>
+          
+            <codeblock class="+ topic/pre pr-d/codeblock ">Windows.switchToWindowTitle("Excel")
+</codeblock>
+          
+        </li></ul>
+    
+  </section><section id="id_2" class="- topic/section ">
+    <title class="- topic/title ">Setting timeout</title>
+    
+      <p class="- topic/p ">In the previous Katalon Studio's versions, users may have
+         encountered the timeout exception during recording a Desktop
+         application and executing a Windows test. To address this issue,
+         from version <b class="+ topic/ph hi-d/b ">7.5.5</b>, Katalon Studio increases the
+         default timeout for finding a Windows title from 60 to 120 seconds
+         when recording and executing tests.</p>
+      <p class="- topic/p ">Additionally, users are allowed to change this default timeout
+         value when using the keyword for executing tests via Script (in
+         milliseconds) to make sure the WinAppDriver has enough time to
+         perform the action.</p>
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">import com.kms.katalon.core.windows.keyword.helper.WindowsActionSettings
+
+'Change the default timeout for finding a Windows title to 180000 milliseconds'
+WindowsActionSettings.DF_WAIT_ACTION_TIMEOUT_IN_MILLIS = 180000;
+</codeblock>
+      
+    
+  </section></conbody></concept>

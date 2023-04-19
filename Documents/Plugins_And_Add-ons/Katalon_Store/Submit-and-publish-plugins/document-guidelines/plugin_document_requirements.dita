@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title "><ph conkeyref="name-variables/katalon-store" class="- topic/ph "/> on Plugin document requirements</title><conbody class="- topic/body  concept/conbody "><ul class="- topic/ul "><li class="- topic/li ">
+          <p class="- topic/p "><b class="+ topic/ph hi-d/b ">Descriptions should be worded in a familiar
+                  tone</b> that uses proper, and not offensive, language.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p "><b class="+ topic/ph hi-d/b ">Descriptions should not include information that is
+                  irrelevant</b> to the description of the plugin itself. For
+               example, descriptions must not include information on pricing,
+               discounts, deals, etc.</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p "><b class="+ topic/ph hi-d/b ">Descriptions should highlight the benefits of using the
+                  plugin features</b>
+            <b class="+ topic/ph hi-d/b ">and must not contain only a list
+                  of product features</b> (such as a list of values separated by
+               commas, or simply a bullet list of product features).</p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p "><b class="+ topic/ph hi-d/b ">Descriptions should not contain any negative
+                  comments.</b>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p "><b class="+ topic/ph hi-d/b ">Descriptions must not contain prohibited, banned,
+                  illegal, outlawed, or restricted content.</b>
+          </p>
+        </li></ul></conbody></concept>

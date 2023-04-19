@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_10" class="- topic/topic concept/concept "><title class="- topic/title ">Export user list</title><conbody class="- topic/body  concept/conbody "><ol class="- topic/ol "><li class="- topic/li ">
+            <p class="- topic/p ">Go to the <b class="+ topic/ph hi-d/b ">User Management</b> page.</p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Export Users</b> at the top right corner.</p>
+            <p class="- topic/p ">The Users list is exported in .csv format.</p>
+          </li></ol><note type="note" class="- topic/note ">
+          
+          <ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">The exported file contains <b class="+ topic/ph hi-d/b ">Active Users</b> list
+            and <b class="+ topic/ph hi-d/b ">Removed Users</b> list.</p></li></ul>
+        </note></conbody></concept>

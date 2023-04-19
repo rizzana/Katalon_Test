@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-kt-scheduler" class="- map/map ">
+  <title class="- topic/title ">Execute Test Runs</title>
+  <topicref href="kt-scheduler.dita" class="- map/topicref "><topicref href="view_the_status_of_test_runs.dita" class="- map/topicref "/>
+</topicref>
+  </map>

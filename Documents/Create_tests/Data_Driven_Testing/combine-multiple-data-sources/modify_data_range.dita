@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept "><title class="- topic/title ">Modify data range in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">To specify the data range, double-click on the cell under the
+         <b class="+ topic/ph hi-d/b ">Data Iteration</b> column of each data files.</p><p class="- topic/p ">
+          
+        <image width="500" href="Pictures/ks-841-data-iteration.png" class="- topic/image "/></p><table class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Option</entry><entry class="- topic/entry ">Description</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">Run all rows</entry><entry class="- topic/entry ">To use all the data rows in the data file in the test
+                  execution.</entry></row><row class="- topic/row "><entry class="- topic/entry ">Run from row ... to row ...</entry><entry class="- topic/entry ">To use the data range from a particular row to another
+                  particular row in the data file during the test execution.</entry></row><row class="- topic/row "><entry class="- topic/entry ">Run with specific rows</entry><entry class="- topic/entry ">
+                  <p class="- topic/p ">To use the specific data rows in the data file during test
+                     execution. You can use <b class="+ topic/ph hi-d/b ">comma</b> and
+                     <b class="+ topic/ph hi-d/b ">hyphen</b> characters to define the rows.</p>
+                  <p class="- topic/p ">For example:</p>
+                  <ul class="- topic/ul "><li class="- topic/li ">to use three data rows (row 1, row 2, row 3), enter: 1,2,3</li><li class="- topic/li ">to use six data rows (row 1, row 2, row 3, row 4, row 5, row
+                        9), enter: 1-5,9</li></ul>
+                </entry></row></tbody></tgroup></table></conbody></concept>

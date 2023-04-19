@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">How to Handle Textbox Checkbox and Radio Button in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">This tutorial illustrates how to handle Textbox, Checkbox, Radio
+         buttons using Katalon Studio. The reference source code is provided
+         at the end of the tutorial.</p></conbody></concept>

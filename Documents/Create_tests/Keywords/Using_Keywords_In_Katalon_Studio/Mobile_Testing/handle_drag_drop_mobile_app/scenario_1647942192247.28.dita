@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">Scenario</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">The scenario is to <b class="+ topic/ph hi-d/b ">drag and drop</b> a draggable
+         object containing the text "<b class="+ topic/ph hi-d/b ">Brad Mehldau</b>" and a
+         droppable object containing the text "<b class="+ topic/ph hi-d/b ">Kurt
+            Rosenwinkel</b>".</p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">Step 1: Start the Application (<b class="+ topic/ph hi-d/b ">Drag and
+               Drop.apk</b>)</li>
+        <li class="- topic/li ">Step 2: Tap on <b class="+ topic/ph hi-d/b ">Basic Usage playground</b>
+            text</li>
+        <li class="- topic/li ">Step 3: Drag <b class="+ topic/ph hi-d/b ">Brad Mehldau</b> text to drop at
+            <b class="+ topic/ph hi-d/b ">Kurt Rosenwinkel</b> text</li>
+      </ul>
+    </conbody>
+  </concept>

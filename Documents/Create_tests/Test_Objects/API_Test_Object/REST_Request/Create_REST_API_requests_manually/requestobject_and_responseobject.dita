@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_3" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">RequestObject and ResponseObject</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <p class="- topic/p ">These are two main classes for handling API requests. I am sure
+         you have already figured out that the RequestObject class
+         represents an API request and the WSBuiltInKeywords.sendRequest
+         method returns ResponseObject.</p>
+      <p class="- topic/p ">Now let's create a REST API request as an example (of course,
+         you can do the same with SOAP API requests). You first need to have
+         information for a request, including</p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">URL</li>
+        <li class="- topic/li ">Request method (GET, POST, PUT, DELETE, …)</li>
+        <li class="- topic/li ">Request headers (Authorization, Content-Type, …)</li>
+        <li class="- topic/li ">Request body (for POST request)</li>
+        <li class="- topic/li ">REST request parameters</li>
+      </ul>
+      <p class="- topic/p ">Next, you create an object from RequestObject using either one
+         of the following ways:</p>
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">New a RequestObject instance directly and set its information
+            using setter methods such as <i class="+ topic/ph hi-d/i ">setRestUrl()</i> and
+            <i class="+ topic/ph hi-d/i ">setRestRequestMethod()</i>.</li>
+        <li class="- topic/li ">Use RestRequestObjectBuilder, a useful helper class offered by
+            Katalon Studio version 5.4 and later.</li>
+      </ul>
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">import com.kms.katalon.core.testobject.ConditionType
+import com.kms.katalon.core.testobject.RequestObject
+import com.kms.katalon.core.testobject.ResponseObject
+import com.kms.katalon.core.testobject.RestRequestObjectBuilder
+import com.kms.katalon.core.testobject.TestObjectProperty
+import com.kms.katalon.core.testobject.impl.HttpTextBodyContent
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+ 
+public class SampleRequestObject {
+ 
+String endpoint = "https://www.katalon.com"
+String requestMethod = "GET"
+String authHeader = "whateverYouNeedForAuthentication"
+ 
+TestObjectProperty header1 = new TestObjectProperty("Authorization", ConditionType.EQUALS, authHeader)
+TestObjectProperty header2 = new TestObjectProperty("Content-Type", ConditionType.EQUALS, "application/json")
+TestObjectProperty header3 = new TestObjectProperty("Accept", ConditionType.EQUALS, "application/json")
+ArrayList defaultHeaders = Arrays.asList(header1, header2, header3)
+ 
+/**
+* GET requests
+* @return
+*/
+public ResponseObject buildApiRequest1() {
+RequestObject ro = new RequestObject("objectId")
+ro.setRestUrl(endpoint)
+ro.setHttpHeaderProperties(defaultHeaders)
+ro.setRestRequestMethod(requestMethod)
+ 
+ResponseObject respObj = WS.sendRequest(ro)
+return respObj
+}
+ 
+public ResponseObject buildApiRequest2() {
+RequestObject ro = new RestRequestObjectBuilder()
+.withRestUrl(endpoint)
+.withHttpHeaders(defaultHeaders)
+.withRestRequestMethod(requestMethod)
+.build()
+ 
+ResponseObject respObj = WS.sendRequest(ro)
+return respObj
+}
+}
+
+</codeblock>
+      
+      <p class="- topic/p ">As you can see, the source code includes two different ways to
+         create a request. Both of them return a ResponseObject object. When
+         using RestRequestObjectBuilder to create a RequestObject instance,
+         you call <i class="+ topic/ph hi-d/i ">withXXX()</i> and <i class="+ topic/ph hi-d/i ">build()</i> methods.</p>
+      <p class="- topic/p ">One benefit of RestRequestObjectBuilder is that it has
+         additional methods to allow directly setting different body types
+         for POST requests such as <i class="+ topic/ph hi-d/i ">FileBodyContent</i> and
+         <i class="+ topic/ph hi-d/i ">MultipartFormBodyContent</i>. It is possible also using
+         RequestObject, but it is more straightforward with
+         RestRequestObjectBuilder.</p>
+
+      <p class="- topic/p ">For further details on the methods of these classes, please
+         visit <xref format="html" href="https://api-docs.katalon.com/com/kms/katalon/core/testobject/RequestObject.html" scope="external" class="- topic/xref ">RequestObject</xref>
+         and <xref format="html" href="https://api-docs.katalon.com/com/kms/katalon/core/testobject/RestRequestObjectBuilder.html" scope="external" class="- topic/xref ">RestRequestObjectBuilder</xref>
+         on Katalon API Documentation website.</p>
+      <p class="- topic/p ">As a note, if you want to use HTTP headers, you can create new
+         TestObjectProperty instances as shown in the code snippet.</p>
+      <p class="- topic/p ">Creating a POST request is basically the same as a GET request,
+         but you must specify the request body using either
+         <i class="+ topic/ph hi-d/i ">setBodyContent</i> from RequestObject or
+         <i class="+ topic/ph hi-d/i ">withTextBodyContent</i> from RestRequestObjectBuilder.</p>
+      
+        <codeblock class="+ topic/pre pr-d/codeblock ">import com.kms.katalon.core.testobject.ConditionType
+import com.kms.katalon.core.testobject.RequestObject
+import com.kms.katalon.core.testobject.ResponseObject
+import com.kms.katalon.core.testobject.RestRequestObjectBuilder
+import com.kms.katalon.core.testobject.TestObjectProperty
+import com.kms.katalon.core.testobject.impl.HttpTextBodyContent
+import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
+ 
+public class SampleRequestObject {
+ 
+String endpoint = "https://www.katalon.com"
+String requestMethod = "POST"
+String authHeader = "whateverYouNeedForAuthentication"
+ 
+TestObjectProperty header1 = new TestObjectProperty("Authorization", ConditionType.EQUALS, authHeader)
+TestObjectProperty header2 = new TestObjectProperty("Content-Type", ConditionType.EQUALS, "application/json")
+TestObjectProperty header3 = new TestObjectProperty("Accept", ConditionType.EQUALS, "application/json")
+ArrayList defaultHeaders = Arrays.asList(header1, header2, header3)
+ 
+String body = '{"dummyRequest":"yes"}'
+ 
+/**
+* POST requests
+* @return
+*/
+public ResponseObject buildPostApiRequest1() {
+RequestObject ro = new RequestObject("objectId")
+ro.setRestUrl(endpoint)
+ro.setHttpHeaderProperties(defaultHeaders)
+ro.setRestRequestMethod("POST")
+ro.setBodyContent(new HttpTextBodyContent(body))
+ 
+ResponseObject respObj = WS.sendRequest(ro)
+return respObj
+}
+ 
+public ResponseObject buildPostApiRequest2() {
+RequestObject ro = new RestRequestObjectBuilder()
+.withRestUrl(endpoint)
+.withHttpHeaders(defaultHeaders)
+.withRestRequestMethod("POST")
+.withTextBodyContent(body)
+.build()
+ 
+ResponseObject respObj = WS.sendRequest(ro)
+return respObj
+}
+}
+
+</codeblock>
+      
+
+      <p class="- topic/p ">There are many different types of request body such as file and
+         form data body content. Please refer to <xref format="html" href="https://api-docs.katalon.com/com/kms/katalon/core/testobject/RestRequestObjectBuilder.html" scope="external" class="- topic/xref ">RestRequestObjectBuilder
+            API documentation</xref> to get a full list of its methods.</p>
+    </conbody>
+  </concept>

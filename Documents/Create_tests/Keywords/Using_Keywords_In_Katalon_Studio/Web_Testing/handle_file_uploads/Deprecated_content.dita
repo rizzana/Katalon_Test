@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept-7095" xml:lang="en-us" class="- topic/topic concept/concept "><title class="- topic/title ">Deprecated content</title><prolog class="- topic/prolog "><author translate="no" type="creator" class="- topic/author ">Hao Le &lt;hao.le@katalon.com&gt;</author><metadata class="- topic/metadata "><keywords class="- topic/keywords "/></metadata></prolog><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Let's work on the case in which we need to upload a file and validate whether the file is uploaded.</p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Steps</b>:</p><ul class="- topic/ul "><li class="- topic/li ">Launch the URL of the application</li><li class="- topic/li ">Maximize the window</li><li class="- topic/li ">Use the file upload widget to upload a file</li></ul><p class="- topic/p "> <b class="+ topic/ph hi-d/b ">Manual Mode</b>:</p><p class="- topic/p "><image width="750" href="ks-840-file-upload.png" class="- topic/image "><alt class="- topic/alt ">file upload</alt></image></p><p class="- topic/p ">We can also use the script mode. Below script is the code to upload a file and validate the uploaded file.</p><p class="- topic/p "><b class="+ topic/ph hi-d/b ">Script Mode:</b></p><codeblock class="+ topic/pre pr-d/codeblock ">'Open browser and navigate to given URL'
+WebUI.openBrowser('C:\\\\Users\\\\User\\\\Desktop\\\\Katalon Articles\\\\File Upload\\\\UploadFile.html')
+'Maximize the window\r\n'
+WebUI.maximizeWindow()
+'Passing the path of the file'
+WebUI.uploadFile(findTestObject('Upload File'), 'C:\\\\Users\\\\Public\\\\Pictures\\\\Sample Pictures\\\\Desert.jpg')
+ 
+'Capturing the file name after upload and storing it in a variable'
+FilePath = WebUI.getAttribute(findTestObject('Upload File'), 'value')
+ 
+'Verifying the Actual path and Expected path of file'
+WebUI.verifyMatch(FilePath, 'C:\\fakepath\\Desert.jpg', false)</codeblock></conbody></concept>

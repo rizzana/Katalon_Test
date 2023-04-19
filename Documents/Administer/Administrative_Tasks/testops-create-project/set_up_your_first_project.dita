@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Set up your first Project</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Each time you create a new Organization, Katalon TestOps
+         automatically prompts you to set up a Project, invite other members
+         and upload Test Results.</p><ol class="- topic/ol "><li class="- topic/li ">
+            <p class="- topic/p ">
+              <b class="+ topic/ph hi-d/b ">Set up the first project</b> page.</p>
+            <p class="- topic/p ">Type your Project name and click <b class="+ topic/ph hi-d/b ">Create</b>.</p>
+            <p class="- topic/p ">
+              <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-create-org/kt-june-create-org-2.png" scope="external" width="100%&gt;" class="- topic/image "/>
+            </p>
+            <note type="note" class="- topic/note "><ul class="- topic/ul "><li class="- topic/li "><p class="- topic/p ">TestOps By default, Katalon TestOps automatically stores your Project in
+                  the <b class="+ topic/ph hi-d/b ">First Team</b>. To create a Team, follow these
+                  instructions: <xref href="../Project_Management/setup-team/create_a_team.dita" class="- topic/xref ">Create
+                     a Team</xref>.</p></li></ul>
+            </note>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">
+              <b class="+ topic/ph hi-d/b ">Share projects to your members</b> page.</p>
+            <p class="- topic/p ">Type email addresses of your team members and click
+               <b class="+ topic/ph hi-d/b ">Invite</b>.</p>
+            <p class="- topic/p ">
+              <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-create-org/kt-june-create-org-9.png" scope="external" width="100%&gt;" class="- topic/image "/>
+            </p>
+          </li><li class="- topic/li ">
+            <p class="- topic/p ">
+              <b class="+ topic/ph hi-d/b ">Upload the first test results</b> page.</p>
+            <p class="- topic/p ">
+              <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-june-create-org/kt-june-create-org-5.png" scope="external" class="- topic/image "/>
+            </p>
+            <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Upload sample project</b>, then click
+               <b class="+ topic/ph hi-d/b ">Finish</b>.</p>
+          </li></ol></conbody></concept>

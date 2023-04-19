@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Hybrid mobile apps testing in <ph conkeyref="name-variables/katalon-studio" class="- topic/ph "/> overview</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Katalon Studio partially supports hybrid mobile apps. You can
+         view the supported environments here: <xref href="../../../../../General_Information/Supported_Environments/Supported_Environments_For_Katalon_Studio/supported-environments.dita" class="- topic/xref ">Supported
+            environments</xref>.</p><p class="- topic/p ">If elements of a hybrid app are rendered as in a native app,
+         Katalon Mobile Recorder/Spy utility can capture elements. You can
+         learn how to capture elements in the Katalon Mobile Recorder/Spy
+         utility in the following documents:</p><ul class="- topic/ul "><li class="- topic/li ">
+        <xref href="../../Mobile_Recorder_Tutorial/mobile-recorder-tutorials.dita" class="- topic/xref ">Mobile
+               Recorder Tutorials</xref>
+      </li><li class="- topic/li ">
+        <xref href="../../Mobile_Spy_Utility/spy-mobile-utility.dita" class="- topic/xref ">Mobile
+               Spy Tutorials</xref>
+      </li></ul><p class="- topic/p ">Suppose those elements are rendered in WebView or a
+         Flutter-based app, which are use cases of a hybrid mobile app. In
+         that case, Katalon Studio provides some workarounds for capturing
+         elements in the following documents:</p><ul class="- topic/ul "><li class="- topic/li ">
+        <xref href="../capture-elements-in-hybrid-android-apps/how-to-capture-objects-in-hybrid-apps.dita" class="- topic/xref ">Capture
+               elements in hybrid Android apps</xref>
+      </li><li class="- topic/li ">
+        <xref href="../../../../Keywords/Custom_Keywords/Flutter-based_Application_Testing_With_Custom_SetText_Keyword/flutter-based-application-testing.dita" class="- topic/xref ">Flutter-based
+               application testing with custom SetText keyword</xref>
+      </li></ul></conbody></concept>

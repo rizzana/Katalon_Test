@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Upload test reports from Jasmine to <ph conkeyref="name-variables/katalon-testops" class="- topic/ph "/></title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">You can submit test results from the Jasmine framework to Katalon TestOps.</p><p class="- topic/p ">You can download this sample project: <xref format="html" href="https://github.com/katalon-studio/testops-report-js.git" scope="external" class="- topic/xref ">Katalon TestOps JavaScript Reporters</xref>. </p><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Open your Jasmine file in a source-code editor, such as <xref format="html" href="https://code.visualstudio.com" scope="external" class="- topic/xref ">Visual Studio Code</xref>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_vs_code_open_pack_jasmine.png" scope="external" class="- topic/image "><alt class="- topic/alt ">open jasmine in vsc</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Open the <i class="+ topic/ph hi-d/i ">package.json</i> file.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_vs_code_open_json.png" scope="external" class="- topic/image "><alt class="- topic/alt ">open json file</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Type the <codeph class="+ topic/ph pr-d/codeph ">npm install</codeph> command, then press <i class="+ topic/ph hi-d/i ">Enter</i> and wait for it to run.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_vs_code_npm_install.png" scope="external" class="- topic/image "><alt class="- topic/alt ">install npm</alt></image>
+                </p>
+                <p class="- topic/p ">While waiting, go to the Katalon TestOps website.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Sign in to <xref format="html" href="https://testops.katalon.io/login" scope="external" class="- topic/xref ">Katalon TestOps</xref> and go to your Project.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Configurations</b> &gt; <b class="+ topic/ph hi-d/b ">Integrations</b>.</p>
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Integrations</b> page appears.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Select <b class="+ topic/ph hi-d/b ">Jasmine</b> in the dropdown list.</p>
+                <p class="- topic/p ">The Jasmine page appears as below.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/jasmine-page-1.png" scope="external" class="- topic/image "><alt class="- topic/alt ">jasmine page 1</alt></image>
+                </p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/jasmine-page-2.png" scope="external" class="- topic/image "><alt class="- topic/alt ">jasmine page 2</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Copy the command line in the <b class="+ topic/ph hi-d/b ">Install dependency</b> section and paste it in the <i class="+ topic/ph hi-d/i ">package.json</i> file in your source-code editor, then press <i class="+ topic/ph hi-d/i ">Enter</i> to run.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_vs_code_paste_npm_command.png" scope="external" class="- topic/image "><alt class="- topic/alt ">install dependency command</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Create a new file named <i class="+ topic/ph hi-d/i ">testops-config.json</i> in your source-code editor.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_vs_code_create_config_json.png" scope="external" class="- topic/image "><alt class="- topic/alt ">create json file</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Copy the content in the <b class="+ topic/ph hi-d/b ">Configure TestOps plugin</b> section in Katalon TestOps and paste it in the newly-created <i class="+ topic/ph hi-d/i ">testops-config.json</i> file in your source-code editor. Save this file.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_vs_code_paste_testops_config.png" scope="external" class="- topic/image "><alt class="- topic/alt ">configure testops in vsc</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Create a new file called <i class="+ topic/ph hi-d/i ">setup.js</i> in the <i class="+ topic/ph hi-d/i ">test</i> folder (the <i class="+ topic/ph hi-d/i ">./tests/setup.js</i> file) in your source-code editor.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Copy the command in the <b class="+ topic/ph hi-d/b ">Add Report</b> section in Katalon TestOps and paste it in the <i class="+ topic/ph hi-d/i ">./tests/setup.js</i> file. Save this file.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_setup_js.png" scope="external" class="- topic/image "><alt class="- topic/alt ">set up testops</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Copy the command in the <b class="+ topic/ph hi-d/b ">Run tests and upload reports</b> section in Katalon TestOps and paste it in your source-code editor, then press <i class="+ topic/ph hi-d/i ">Enter</i> to run.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_vs_code_npx_jas.png" scope="external" class="- topic/image "><alt class="- topic/alt ">upload via Jasmine</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Type the <codeph class="+ topic/ph pr-d/codeph ">npm test</codeph> command, press <b class="+ topic/ph hi-d/b ">Enter</b> to run in your source-code editor.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/kt-upload-test-jasmine/kt_vs_code_npm_test.png" scope="external" class="- topic/image "><alt class="- topic/alt ">test via Jasmine</alt></image>
+                </p>
+                <p class="- topic/p ">You have run tests and uploaded their reports via Jasmine.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Test Execution</b> &gt; <b class="+ topic/ph hi-d/b ">Test Run Calendar</b>.</p>
+                <p class="- topic/p ">Your uploaded Test Runs now display here.</p>
+            </li></ol></conbody></concept>

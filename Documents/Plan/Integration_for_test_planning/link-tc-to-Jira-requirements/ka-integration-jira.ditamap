@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-ka-integration-jira" class="- map/map "><title class="- topic/title ">Link Test Cases to Jira Requirements</title><topicref href="ka-integration-jira.dita" class="- map/topicref "><topicref href="Link_Test_Cases_to_Jira_Requirements.dita" class="- map/topicref "/><topicref href="view_linked_test_cases_in_jira.dita" class="- map/topicref "/><topicref href="View_Requirements_in_Katalon_TestOps.dita" class="- map/topicref "/></topicref></map>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-katalium-framework-reports" class="- map/map ">
+  <title class="- topic/title ">Real-time Monitoring and Reporting</title>
+  <topicref href="katalium-framework-reports.dita" class="- map/topicref "><topicref href="testng_reports.dita" class="- map/topicref "/>
+  <topicref href="for_real-time_monitoring_and_reporting_using_katalon_analytics.dita" class="- map/topicref "/>
+</topicref></map>

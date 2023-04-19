@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Enable the Strict Domain</title><conbody class="- topic/body  concept/conbody "><note type="note" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">
+                    <p class="- topic/p ">You should complete all settings including <xref href="../sso-settings/sso-settings.dita" class="- topic/xref ">SSO Configurations</xref> and <xref href="../subdomain/subdomain.dita" class="- topic/xref ">Subdomain Configurations</xref> before enabling the Strict Domain so that members of your Organization can still have access to Katalon TestOps.</p>
+                </li></ul>
+        </note><p class="- topic/p ">Follow these steps:</p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Sign in to <xref format="html" href="https://testops.katalon.io/login" scope="external" class="- topic/xref ">Katalon TestOps</xref>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Go to <b class="+ topic/ph hi-d/b ">Settings</b> &gt; <b class="+ topic/ph hi-d/b ">Organization Management</b>.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Select <b class="+ topic/ph hi-d/b ">Settings</b> on the left bar, then scroll down to the <b class="+ topic/ph hi-d/b ">Danger zone</b> section.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-strict-domain/strict-domain-section-in-settings.png" scope="external" class="- topic/image "><alt class="- topic/alt ">danger zone strict domain section</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">Enable strict domain</b>.</p>
+                <p class="- topic/p ">The <b class="+ topic/ph hi-d/b ">Enable strict domain</b> box pops up.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-analytics/docs/testops-revamp-july-strict-domain/enable-strict-domain-popup.png" scope="external" class="- topic/image "><alt class="- topic/alt ">enable strict domain popup</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Click <b class="+ topic/ph hi-d/b ">I understand the consequences, enable strict domain</b> to confirm.</p>
+            </li></ol></conbody></concept>

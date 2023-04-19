@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Description</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">Validate an XML response body, request body, or string against an XML schema. The XML schema input can be an XML string, URL, or file path.</p><p class="- topic/p ">Keyword name: <codeph class="+ topic/ph pr-d/codeph ">WS.validateXmlAgainstSchema</codeph></p></conbody></concept>

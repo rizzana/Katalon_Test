@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_5" class="- topic/topic concept/concept "><title class="- topic/title ">Execute test suites containing associated test cases</title><conbody class="- topic/body  concept/conbody "><note type="note" class="- topic/note ">
+            <p class="- topic/p ">What is a suite test case?</p>
+            <p class="- topic/p ">
+                <ul class="- topic/ul "><li class="- topic/li ">
+                        <p class="- topic/p ">A suite test case is a test case in a test suite.</p>
+                    </li></ul>
+            </p>
+        </note><note type="note" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">
+                    <p class="- topic/p ">To execute test suites in the CLI, Docker, or CI/CD tools, you need an active Katalon Runtime Engine license.</p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">For real-time monitoring and better reporting capabilities, consider integrating your project with Katalon TestOps. Learn more about Katalon TestOps integration here: <xref href="../../../Analyze/Reports/Upload_Test_Reports/Upload_test_results_from_KS_to_TestOps/katalon-analytics-beta-integration.dita" class="- topic/xref ">Upload Test Results to Katalon TestOps from Katalon Studio</xref>.</p>
+                </li></ul>
+        </note><ol class="- topic/ol "><li class="- topic/li ">Add the associated test case to a test suite.</li><li class="- topic/li ">
+                <p class="- topic/p ">To conduct data binding, in the test suite editor, click <b class="+ topic/ph hi-d/b ">Show Data Binding</b>.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-test-case-level/830/KS-830-DDT-Show-data-binding.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Data binding section in the test suite</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Select the data binding level. You can bind data at the test case (TC) or suite test case (STC) level. The <b class="+ topic/ph hi-d/b ">Use Variables and Binding at Suite Test Case</b> option is selected by default.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-test-case-level/830/KS-830-DDT-Data-binding-options.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Data Binding Options</alt></image>
+                </p>
+                <table class="- topic/table "><tgroup cols="2" class="- topic/tgroup "><colspec colname="c1" colnum="1" class="- topic/colspec "/><colspec colname="c2" colnum="2" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">Options</entry><entry class="- topic/entry ">Description</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">Use Variables and Binding at Test Case</entry><entry class="- topic/entry ">With this option:<p class="- topic/p ">
+                                        <ul class="- topic/ul "><li class="- topic/li ">
+                                                <p class="- topic/p ">Katalon executes the associated test case with the data binding at the test case level.</p>
+                                            </li><li class="- topic/li ">
+                                                <p class="- topic/p ">To edit the data binding at the test case level, click the <b class="+ topic/ph hi-d/b ">Test Case</b> hyperlink. By doing so, the users are navigated to the <b class="+ topic/ph hi-d/b ">Variables &amp; Data Binding</b> tab of the associated test case.</p>
+                                            </li></ul>
+                                    </p><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-test-case-level/830/KS-830-DDT-Click-TC-hyperlink.gif" scope="external" class="- topic/image "><alt class="- topic/alt ">Choose the Use Variables and Binding at Test Case option</alt></image>
+                                    </p><ul class="- topic/ul "><li class="- topic/li ">
+                                            <p class="- topic/p ">While selecting the <b class="+ topic/ph hi-d/b ">Use Variables and Binding at Test Case</b> option, you can not conduct data binding at the suite test case level.</p>
+                                        </li></ul><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-test-case-level/830/KS-830-DDT-Warning-at-TC-level.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Choose the Use Variables and Binding at Test Case option</alt></image>
+                                    </p>
+                                </entry></row><row class="- topic/row "><entry class="- topic/entry ">Use Variables and Binding at Suite Test Case</entry><entry class="- topic/entry ">With this option: <ul class="- topic/ul "><li class="- topic/li ">
+                                            <p class="- topic/p ">Katalon executes the associated test case with the data binding at the suite test case level.</p>
+                                        </li><li class="- topic/li ">
+                                            <p class="- topic/p ">You can edit the <b class="+ topic/ph hi-d/b ">Test Data</b> and <b class="+ topic/ph hi-d/b ">Variable Binding</b> tables at the STC level. To learn more about binding data at the STC level, you can refer to this document: <xref href="../run-test-case-external-data/manage_data_binding.dita" class="- topic/xref ">Manage Data Binding</xref>.</p>
+                                        </li></ul><p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/ddt-test-case-level/830/KS-830-DDT-Binding-suite-test-case.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Choose the Use Variables and Binding at Suite Test Case option</alt></image>
+                                    </p>
+                                </entry></row></tbody></tgroup></table>
+                <note type="note" class="- topic/note ">
+                    <ul class="- topic/ul "><li class="- topic/li ">In case your test suite has existing data configurations, switching to the <b class="+ topic/ph hi-d/b ">Use Variables and Binding at Test Case</b> option does not remove the preconfigured data in the suite test case.</li></ul>
+                </note>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Once finished, hit <b class="+ topic/ph hi-d/b ">Run</b> to execute your test suite.</p>
+            </li></ol></conbody></concept>

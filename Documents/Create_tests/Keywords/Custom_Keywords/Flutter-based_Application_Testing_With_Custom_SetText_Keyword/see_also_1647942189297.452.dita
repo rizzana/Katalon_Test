@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_4" class="- topic/topic concept/concept ">
+    <title class="- topic/title ">See also</title>
+    <conbody class="- topic/body  concept/conbody ">
+      <ul class="- topic/ul ">
+        <li class="- topic/li ">
+          <xref href="../../../Record_And_Spy/Mobile_Record_And_Spy_Utilities/Hybird_Mobile_Apps_Testing/capture-elements-in-hybrid-android-apps/how-to-capture-objects-in-hybrid-apps.dita" class="- topic/xref ">Capture
+               elements in hybrid Android apps</xref>
+        </li>
+      </ul>
+    </conbody>
+  </concept>

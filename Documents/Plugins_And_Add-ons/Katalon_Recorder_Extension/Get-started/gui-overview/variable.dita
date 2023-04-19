@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_13" class="- topic/topic concept/concept "><title class="- topic/title ">Variable</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">The Variable tab display detail information the currently selected command. You can view command name, target, and values in this tab while the test is executing.</p></conbody></concept>

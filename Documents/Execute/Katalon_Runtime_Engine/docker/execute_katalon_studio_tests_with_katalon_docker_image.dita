@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_2" class="- topic/topic concept/concept "><title class="- topic/title ">Execute Katalon Studio tests with Katalon Docker Image</title><conbody class="- topic/body  concept/conbody "><note type="important" class="- topic/note ">
+            <ul class="- topic/ul "><li class="- topic/li ">
+                    <p class="- topic/p "> Katalon Docker Image version 7.2.1 onwards. </p>
+                </li><li class="- topic/li ">
+                    <p class="- topic/p ">Make sure you have Docker open while running the test.</p>
+                </li></ul>
+        </note><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">Open <b class="+ topic/ph hi-d/b ">Terminal</b>, then go to the test project directory you wish to run. For example, we want to run the <b class="+ topic/ph hi-d/b ">CI sample</b> test project, we will direct to our <b class="+ topic/ph hi-d/b ">CI sample</b> project folder in our local machine.</p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">Inside your test project folder, input the following command:</p>
+                <p class="- topic/p ">For macOS: <codeblock class="+ topic/pre pr-d/codeblock ">docker run -t --rm -v "$(pwd)":/tmp/project katalonstudio/katalon katalonc.sh -projectPath=/tmp/project [Option1] [Option2] ... [OptionN]
+</codeblock> For Window PowerShell:<codeblock class="+ topic/pre pr-d/codeblock ">docker run -t --rm -v ${pwd}:/tmp/project katalonstudio/katalon katalonc.sh -projectPath=/tmp/project [Option1] [Option2] ... [OptionN]</codeblock>For Window CMD:<codeblock class="+ topic/pre pr-d/codeblock ">docker run -t --rm -v "%cd%":/tmp/project katalonstudio/katalon katalonc.sh -projectPath=/tmp/project [Option1] [Option2] ... [OptionN]</codeblock></p>
+            </li></ol><p class="- topic/p "><note type="note" class="- topic/note ">
+                <ul class="- topic/ul "><li class="- topic/li ">The <codeph class="+ topic/ph pr-d/codeph ">katalonc.sh</codeph> command starts Katalon Studio and other necessary components.</li><li class="- topic/li ">All Katalon Studio console mode arguments are accepted except <codeph class="+ topic/ph pr-d/codeph ">-runMode</codeph>. You can find more command-line options at <xref href="../console-mode-execution/General_Options.dita" class="- topic/xref ">Command Syntax</xref>.</li></ul>
+            </note> For example, we want to run the <b class="+ topic/ph hi-d/b ">TS_RegressionTest</b> test suite from the <b class="+ topic/ph hi-d/b ">CI sample</b> project with the Chrome browser in Katalon Docker Image. We enter the command as follows:<codeblock class="+ topic/pre pr-d/codeblock ">docker run -t --rm -v "$(pwd)":/tmp/project katalonstudio/katalon katalonc.sh -projectPath=/tmp/project -browserType="Chrome" -testSuiteCollectionPath="Test Suites/TS_RegressionTestCollection" -apiKey="&lt;your_API_key&gt;"
+</codeblock><image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/katalon-docker-image/KS-DOCKER-Run-test-with-Docker.png" scope="external" class="- topic/image "><alt class="- topic/alt ">Run test with Docker</alt></image><note type="note" class="- topic/note ">
+                <ul class="- topic/ul "><li class="- topic/li ">
+                        <p class="- topic/p ">To avoid syntax errors, you can use the Command Builder to generate commands. To learn more about the command builder, you can refer to this document: <xref href="../console-mode-execution/command_builder_1.dita" class="- topic/xref ">Command Builder</xref>.</p>
+                    </li><li class="- topic/li ">
+                        <p class="- topic/p "><codeph class="+ topic/ph pr-d/codeph ">&lt;your_API_Key&gt;</codeph>: the API key verifies your credentials. The command-line options of API Key, including <codeph class="+ topic/ph pr-d/codeph ">-apiKey=</codeph> and <codeph class="+ topic/ph pr-d/codeph ">-apikey=</codeph> are both accepted. To learn more about API keys, you can refer to this document: <xref href="../../../Administer/Security_Settings/ka-api-key/ka-api-key.dita" class="- topic/xref ">API key</xref>.</p>
+                    </li></ul>
+            </note>
+        </p><ol class="- topic/ol "><li class="- topic/li ">
+                <p class="- topic/p ">You can view the console log in Docker during the test.</p>
+                <p class="- topic/p "> <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/jenkins-docker/docker-log.png" scope="external" class="- topic/image "><alt class="- topic/alt ">docker log</alt></image>
+                </p>
+            </li><li class="- topic/li ">
+                <p class="- topic/p ">To view your report files, you can go to this directory: <codeph class="+ topic/ph pr-d/codeph ">&lt;your-project-folder&gt;/Reports</codeph> or your third-party integration like Katalon TestOps, Azure DevOps, or qTest. Katalon Studio supports exporting test reports in <b class="+ topic/ph hi-d/b ">HTML</b>, <b class="+ topic/ph hi-d/b ">CSV</b>, <b class="+ topic/ph hi-d/b ">PDF</b>, and <b class="+ topic/ph hi-d/b ">JUnit</b>.</p>
+            </li></ol></conbody></concept>

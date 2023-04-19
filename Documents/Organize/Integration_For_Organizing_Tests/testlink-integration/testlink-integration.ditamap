@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map id="ditamap-testlink-integration" class="- map/map ">
+  <title class="- topic/title ">TestLink Integration</title>
+  <topicref href="testlink-integration.dita" class="- map/topicref "><topicref href="testlink_installation.dita" class="- map/topicref "/>
+  <topicref href="testlink_login.dita" class="- map/topicref "/>
+  <topicref href="test_project_creation.dita" class="- map/topicref "/>
+  <topicref href="test_plan_creation.dita" class="- map/topicref "/>
+  <topicref href="build_creation.dita" class="- map/topicref "/>
+  <topicref href="test_suite_creation.dita" class="- map/topicref "/>
+  <topicref href="test_case_creation.dita" class="- map/topicref "/>
+  <topicref href="api_key_generation_and_execution_type_changes_on_testlink.dita" class="- map/topicref "/>
+  <topicref href="integration_of_katalon_test_scripts_with_testlink.dita" class="- map/topicref "/>
+  <topicref href="test_execution_results_update_on_testlink.dita" class="- map/topicref "/>
+</topicref></map>

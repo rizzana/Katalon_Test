@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_1" class="- topic/topic concept/concept "><title class="- topic/title ">Variable binding for Test Data with option <i class="+ topic/ph hi-d/i ">bind to test
+            case as string</i> enabled</title><conbody class="- topic/body  concept/conbody "><ul class="- topic/ul "><li class="- topic/li ">
+          <p class="- topic/p ">Create a Test Data with the data provided above and the <i class="+ topic/ph hi-d/i ">bind
+                  to test case as string</i> option enabled.</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bind-as-string/option-enabled.png" scope="external" class="- topic/image "/>
+          </p>
+        </li><li class="- topic/li ">
+          <p class="- topic/p ">Follow <xref href="../run-test-case-external-data/run-test-case-external-data.dita" class="- topic/xref ">this
+                  document</xref> to run the test case, and then we  have the result
+               as below:</p>
+          <p class="- topic/p ">
+            <image href="https://github.com/katalon-studio/docs-images/raw/master/katalon-studio/docs/bind-as-string/2-failed.png" scope="external" class="- topic/image "/>
+          </p>
+          <p class="- topic/p ">The test suite should fail when the first keyword function
+               <i class="+ topic/ph hi-d/i ">takeBooleanAndPrint</i> does not expect a String; however, due
+               to the enabled <i class="+ topic/ph hi-d/i ">bind to test case as string</i> option, the
+               test data values are read as string.</p>
+        </li></ul></conbody></concept>

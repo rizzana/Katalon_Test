@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"id-d48972e25558":{"topics":[{"title":"Approval process on <span class=\"ph\">Katalon Store<\/span>","href":"Documents\/Plugins_And_Add-ons\/Katalon_Store\/Submit-and-publish-plugins\/approval-guidelines\/approval_process.html","attributes":{"data-id":"id_1"},"menu":{"hasChildren":false},"tocID":"id_1-d48972e25568","topics":[]}]}};

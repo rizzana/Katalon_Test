@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id" class="- topic/topic concept/concept "><title class="- topic/title ">Katalon Runtime Engine DevOps Sunsetting</title><conbody class="- topic/body  concept/conbody "><p class="- topic/p ">This section provides information about the sunsetting plan of
+         Katalon Runtime Engine (KRE) DevOps, including license management
+         and the renewal process.</p><table class="- topic/table "><tgroup cols="3" class="- topic/tgroup "><colspec colname="c1" colnum="1" class="- topic/colspec "/><colspec colname="c2" colnum="2" class="- topic/colspec "/><colspec colname="c3" colnum="3" class="- topic/colspec "/><thead class="- topic/thead "><row class="- topic/row "><entry class="- topic/entry ">
+                </entry><entry class="- topic/entry ">
+Annual</entry><entry class="- topic/entry ">Monthly</entry></row></thead><tbody class="- topic/tbody "><row class="- topic/row "><entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">Overall</b>
+              </entry><entry class="- topic/entry ">You can continue to use your DevOps licenses until the end of
+                  your billing cycle. However, you will not be able to purchase
+                  additional DevOps licenses.</entry><entry class="- topic/entry ">You can continue to use your DevOps licenses for up to 6
+                  consecutive months. However, you will not be able to purchase
+                  additional DevOps licenses.</entry></row><row class="- topic/row "><entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">License Management</b>
+              </entry><entry class="- topic/entry ">Upon renewal, your current DevOps licenses will be
+                  automatically upgraded to Floating licenses at no additional
+                  charge. Log in to <xref format="html" href="https://testops.katalon.io/" scope="external" class="- topic/xref ">Katalon
+                     TestOps</xref> to manage your available licenses.</entry><entry class="- topic/entry ">Upon renewal, you can choose between a Monthly Node-locked
+                  license or an Annual Floating license. For pricing details, view
+                  the example below. Log in to <xref format="html" href="https://testops.katalon.io/" scope="external" class="- topic/xref ">Katalon TestOps</xref> to manage
+                  your available licenses.</entry></row><row class="- topic/row "><entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">Renewal</b>
+              </entry><entry class="- topic/entry ">Upon the next billing cycle, you will have the option to
+                  upgrade the existing DevOps licenses to Floating licenses,
+                  following DevOps’ pricing structure, for one additional
+                  annual billing cycle.</entry><entry class="- topic/entry ">Upon the next billing cycle, you will have the option to
+                  continue to use the existing DevOps licenses for a maximum period
+                  of 6 months or switch to monthly Node-locked licenses or Annual
+                  Floating licenses.</entry></row><row class="- topic/row "><entry class="- topic/entry ">
+                <b class="+ topic/ph hi-d/b ">Example</b>
+              </entry><entry class="- topic/entry ">
+                <ul class="- topic/ul "><li class="- topic/li ">Current Billing Cycle: 1 Annual KRE <i class="+ topic/ph hi-d/i ">DevOps</i> License at
+                        $979/license/year(*).</li><li class="- topic/li ">Upon renewal in 2020 or 2021: 1 Annual KRE <i class="+ topic/ph hi-d/i ">Floating</i>
+                        License at $979/license/year(*).</li><li class="- topic/li ">After the preferential pricing period: 1 Annual KRE Floating
+                        License at then KRE Floating list pricing(*).</li></ul>
+              </entry><entry class="- topic/entry ">
+                <ul class="- topic/ul "><li class="- topic/li ">Current Billing Cycle: 1 Monthly KRE <i class="+ topic/ph hi-d/i ">DevOps</i> License at
+                        $89/license/month(*).</li><li class="- topic/li ">Upon renewal in 2020 or 2021: 1 Monthly KRE <i class="+ topic/ph hi-d/i ">DevOps</i>
+                        License at $89/license/month (Maximum of 6 consecutive
+                        months)(*).</li><li class="- topic/li ">7th Month billing cycle: Choose between 1 Annual KRE Floating
+                        License or 1 Monthly KRE Node-locked License at list
+                        pricing(*).</li></ul>
+              </entry></row></tbody></tgroup></table><p class="- topic/p ">(*): The pricing listed in the example is applicable in
+         <b class="+ topic/ph hi-d/b ">2020</b> only. Refer to the <xref format="html" href="https://www.katalon.com/pricing/" scope="external" class="- topic/xref ">Katalon Pricing page</xref>
+         for updated information.</p><note type="note" class="- topic/note ">
+        
+        <ul class="- topic/ul "><li class="- topic/li ">To learn more about Katalon licenses, see <xref href="../license_overview/c_intro_license_overview.dita" class="- topic/xref ">Types
+                  of Licenses</xref>.</li><li class="- topic/li ">To purchase Katalon licenses, see <xref href="../../Administrative_Tasks/Subscription_Management/KSE_KRE_License_Management/license-subscription/license-subscription.dita" class="- topic/xref ">Purchase
+                  Katalon License</xref>.</li><li class="- topic/li ">To upgrade Katalon licenses, see <xref href="../../Administrative_Tasks/Subscription_Management/KSE_KRE_License_Management/upgrade-subs/upgrade-subs.dita" class="- topic/xref ">Upgrade
+                  Subscriptions</xref>.</li></ul>
+      </note></conbody></concept>

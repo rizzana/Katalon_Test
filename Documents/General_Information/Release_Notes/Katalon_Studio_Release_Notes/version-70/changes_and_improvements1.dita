@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="id_77" class="- topic/topic concept/concept ">
+      <title class="- topic/title ">Changes and Improvements</title>
+      <conbody class="- topic/body  concept/conbody ">
+        <ul class="- topic/ul ">
+          <li class="- topic/li ">[Web Service] Support all file types of the form-data option in
+            HTTP Body when creating a POST request.</li>
+          <li class="- topic/li ">[Web Service] Support API responses in other languages.</li>
+          <li class="- topic/li ">Auto-healing Smart Xpath becomes a built-in feature of Katalon
+            Studio Enterprise. For standard Katalon Studio users who have
+            already subscribed to this plugin, please contact Katalon team via
+            business@katalon.com.</li>
+          <li class="- topic/li ">Display a progress dialog when adding a bulk number of Test
+            Cases to a Test Suite.</li>
+          <li class="- topic/li ">Handle SVG elements and add a context menu during Spying to
+            capture objects.</li>
+          <li class="- topic/li ">[KRE] Improve running multiple projects with multiple sessions
+            concurrently.</li>
+
+          <li class="- topic/li ">Support turning off Smart Wait with both global and local
+            settings. <xref href="../../../../Create_tests/Record_And_Spy/WebUI_Record_And_Spy_Utilities/webui-smartwait/webui-smartwait.dita" class="- topic/xref ">Learn
+               more</xref>.</li>
+          <li class="- topic/li ">[Web Service] Support redirection in POST request and 308
+            status code.</li>
+          <li class="- topic/li ">Tips: You're recommended to open large HAR files with other
+            tools than Katalon Studio or keep those files not too large for
+            Katalon Studio to read it.</li>
+        </ul>
+      </conbody>
+    </concept>
